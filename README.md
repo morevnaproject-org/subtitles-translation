@@ -5,7 +5,7 @@ License
 
 ## Info:
 
-This repository uses "self-proclaimed" multilanguage SRT format - each line have prefix indicating translation language:
+This repository uses "self-proclaimed" multilanguage SRT format (.msrt) - each line have prefix indicating translation language:
 
 ```
 5
@@ -19,9 +19,15 @@ This repository uses "self-proclaimed" multilanguage SRT format - each line have
 [en] Oh... It so windy...
 ```
 
-Please make sure to put your translations/edits into "srt" files located in repository root (i.e. "episode-6.srt").
+Please make sure to put your translations/edits into "msrt" files located in repository root (i.e. "episode-6.msrt").
 
 All language files in subdirectories are generated automatically and will be eventually overwritten.
+
+## Note for translators / Translation status:
+
+At the moment we are at the stage of polishing English translation (which is based on Russian dialogues). After polishing phase will be completed the English language will become the base one for other languages. That said, only corrections to English language are accepted at this time.
+
+Important: When proposing new replicas, please consider to try fit them to the sam length as original Russian replicas. This will save a lot of work to animators and keep the kitties safe.
 
 ## Translators and correctors:
 
