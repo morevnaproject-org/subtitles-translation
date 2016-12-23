@@ -25,6 +25,5 @@ All language files in subdirectories are generated automatically and will be eve
 
 ## Translators and correctors:
 
-* English: Alex Gryson, Stas Kholodilin
+* English: Alex Gryson, Stas Kholodilin, scribblemaniac
 * Russian: Denis "uncle Night" Prisukhin, Nikolai Mamashev, Stas Kholodilin
-

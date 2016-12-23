@@ -21,12 +21,12 @@
 5
 00:00:26,640 --> 00:00:30,640
 [ru] Кажется, я снова уснула с открытым окном...
-[en] It seems I feel asleep with the window open, again...
+[en] It seems I fell asleep with the window open, again...
 
 6
 00:00:32,360 --> 00:00:35,360
 [ru] Уфф... Как дует то...
-[en] Oh... It so windy...
+[en] Oh... it's so windy...
 
 7
 00:00:36,020 --> 00:00:39,310
@@ -46,7 +46,7 @@
 10
 00:00:44,100 --> 00:00:45,680
 [ru] В предыдущих сериях:
-[en] Previously on…
+[en] Previously...
 
 11
 00:00:45,850 --> 00:00:47,890
@@ -56,7 +56,7 @@
 12
 00:00:48,270 --> 00:00:50,430
 [ru] ...чтобы подготовиться к конкурсу...
-[en] ...to prepare to the potion…
+[en] ...preparing for the potion...
 
 13
 00:00:50,600 --> 00:00:51,890
@@ -66,32 +66,32 @@
 14
 00:00:52,640 --> 00:00:53,470
 [ru] Должно быть...
-[en] I must've…
+[en] I must've...
 
 15
 00:00:53,810 --> 00:00:56,600
 [ru] Должно быть я случайно уснула...
-[en] Must've accidentally fallen asleep…
+[en] Must've accidentally fallen asleep...
 
 16
 00:00:57,470 --> 00:00:58,100
 [ru] Но...
-[en] But…
+[en] But...
 
 17
 00:00:59,180 --> 00:01:00,390
 [ru] Но... Где я?
-[en] But...Where am I?
+[en] But...where am I?
 
 18
 00:01:01,430 --> 00:01:02,310
 [ru] Ой!!!
-[en] Oh…
+[en] Oh!!!
 
 19
 00:01:07,930 --> 00:01:11,680
 [ru] Кэррот, как это мило, что ты обо всем позаботился!
-[en] Carrot! It's so cute that you've cared about all!
+[en] Carrot! It's so cute that you took care of everything!
 
 20
 00:01:12,390 --> 00:01:13,480
@@ -101,7 +101,7 @@
 21
 00:01:14,220 --> 00:01:18,640
 [ru] Ты даже додумался взять зелье, мою одежду и шляпу!
-[en] You even thought of brining a potion, my clothes, and my hat!
+[en] You even thought of bringing a potion, my clothes, and my hat!
 
 22
 00:01:19,720 --> 00:01:23,270
@@ -111,7 +111,8 @@
 23
 00:01:23,770 --> 00:01:25,640
 [ru] Тааак, что у нас тут?
-[en] So, what we have here?..
+[en] [Version 1] So, what have we here?
+[en] [Version 2] So, what do we have here?
 
 24
 00:01:26,470 --> 00:01:28,470
@@ -121,17 +122,17 @@
 25
 00:01:30,020 --> 00:01:34,020
 [ru] Кэээээээрррррооооооот!!!!!!!
-[en] Carrooooooooooooooot!!!!!!!
+[en] Caaaaaaarrrrrooooooot!!!!!!!
 
 26
 00:01:35,000 --> 00:01:40,000
 [ru] Пэппер и Кэррот. Эпизод 6: Конкурс зельеваров.
-[en] Pepper and Carrot. Episode 6: The potion contest
+[en] Pepper & Carrot. Episode 6: The Potion Contest
 
 27
 00:01:40,930 --> 00:01:45,720
 [ru] На правах мэра Комоны, я объявляю соревнование зельеваров...
-[en] As Mayor of Komona, I declare the potion contest..
+[en] As Mayor of Komona, I declare the potion contest...
 
 28
 00:01:46,020 --> 00:01:47,680
@@ -141,7 +142,7 @@
 29
 00:01:49,470 --> 00:01:53,470
 [ru] В этом конкурсе примут участие четыре юные ведьмы!
-[en] Four young witches are going to participate in the contest!
+[en] Four young witches are participating in this contest!
 
 30
 00:01:54,520 --> 00:01:57,140
@@ -171,26 +172,28 @@
 35
 00:02:20,680 --> 00:02:23,560
 [ru] Шафран!
-[en]Saffron!
+[en] Saffron!
 
 36
 00:02:29,600 --> 00:02:31,680
 [ru] Наша третья участница...
 [en] Our third participant...
+
 37
 00:02:32,220 --> 00:02:35,220
 [ru] ...гостья, из страны заходящих лун...
-[en] ...comes to us from the lands of setting moons…
+[en] [Version 1]...comes to us from the lands of the setting moons...
+[en] [Version 2]...from the lands of the setting moons...
 
 38
 00:02:35,640 --> 00:02:39,640
 [ru] ...загадочная Ситими!
-[en] ...mystery Shichimi!
+[en] ...the mysterious Shichimi!
 
 39
 00:02:42,720 --> 00:02:48,020
 [ru] И, наконец, наша последняя участница из Леса беличьего уголка...
-[en]And finally our last participant, from the forest of Squirrel's End…
+[en] And finally our last participant, from the forest of Squirrel's End...
 
 40
 00:02:48,350 --> 00:02:49,060
@@ -215,12 +218,12 @@
 44
 00:03:05,180 --> 00:03:09,970
 [ru] [орёт] Итак, Мисс Кориандр, приглашаем Вас выступить первой.
-[en] [shouting] Well! First up Coriander's demonstration/
+[en] [shouting] Well! First up Coriander's demonstration.
 
 45
 00:03:12,430 --> 00:03:14,100
 [ru] Дамы и господа...
-[en]Ladies & gentlemen…
+[en] Ladies & gentlemen...
 
 46
 00:03:14,560 --> 00:03:17,640
@@ -245,12 +248,12 @@
 50
 00:03:41,140 --> 00:03:43,060
 [ru] Да-да-да...
-[en] Yes-yes-yes…
+[en] Yes-yes-yes...
 
 51
 00:03:43,310 --> 00:03:47,310
 [ru] Зелье Зомбификации... глупости какие!
-[en] The potion of Zobification... what a nonsense!
+[en] The potion of Zobification... what nonsense!
 
 52
 00:03:47,810 --> 00:03:49,930
@@ -260,7 +263,7 @@
 53
 00:03:50,430 --> 00:03:54,430
 [ru] Зелье, которое Вы все по-настоящему ждали...
-[en] The real potion you've all been waiting for…
+[en] The real potion you've all been waiting for...
 
 54
 00:03:58,350 --> 00:04:01,040
@@ -290,7 +293,7 @@
 59
 00:04:16,470 --> 00:04:20,470
 [ru] Сможет ли Ситими превзойти последнюю демонстрацию?
-[en] Interestingly, Is Shichimi able to beat the last demostration?
+[en] Will Shichimi be able to beat that last demonstration?
 
 60
 00:04:21,430 --> 00:04:25,300
@@ -320,21 +323,22 @@
 65
 00:04:30,890 --> 00:04:32,390
 [ru] Это слишком опасно!..
-[en] It is so dangerous!..
+[en] It is too dangerous!..
 
 66
 00:04:32,720 --> 00:04:33,560
 [ru] П-простите!..
 [en] S-sorry!..
+
 67
 00:04:34,970 --> 00:04:36,350
 [ru] Дамы и господа...
-[en] Ladies and gentlemen…
+[en] Ladies and gentlemen...
 
 68
 00:04:36,600 --> 00:04:38,100
 [ru] ...похоже, что Ситими лишается...
-[en] ...It seems that Shichimi forfeits...
+[en] ...it seems that Shichimi forfeits...
 
 69
 00:04:38,140 --> 00:04:39,020
@@ -350,13 +354,13 @@
 00:04:40,780 --> 00:04:47,710
 [ru] [ВАРИАНТ1:] Что тут опасного? Да ты просто боишься, что твое зелье  не сможет сравниться с моим!
 [ru] [ВАРИАНТ2:] Какая разница, что там твое зелье делает? Всем уже и так понятно, что я выиграла конкурс!
-[en] [1-st version] What danger are you talking about? You are just scared that your potion isn't so fantastic as mine!
+[en] [1-st version] What danger are you talking about? You are just scared because your potion isn't as fantastic as mine!
 [en] [2-nd version] No matter what you potion does, everyone already knows that I've won the contest!
 
 72
 00:04:47,890 --> 00:04:49,220
 [ru] Нет-нет, это зелье...
-[en] No-no, it is a potion of…
+[en] No-no, it is a potion of...
 
 73
 00:04:50,560 --> 00:04:52,720
@@ -378,7 +382,7 @@
 [ru] [ВАРИАНТ1:] Беги, что стоишь?!
 [ru] [ВАРИАНТ2:] Беги, дура!
 [en] [Version 1:] What are you doing? RUN!
-[en] [Version 2:] Run, Idiot!
+[en] [Version 2:] Run, idiot!
 
 77
 00:05:03,140 --> 00:05:04,100
@@ -388,7 +392,7 @@
 78
 00:05:06,020 --> 00:05:10,110
 [ru] [саркастически] Эх, радуйся, Кэррот. Похоже, никто не увидит твое чУдное зелье..
-[en] [sarcastically] Ah, rejoice Carrot. It seem nobody will see you Wondrous potion...
+[en] [sarcastically] Ah, rejoice Carrot. It seem nobody will see your wondrous potion...
 
 79
 00:05:10,810 --> 00:05:15,680
@@ -423,12 +427,12 @@
 85
 00:05:35,390 --> 00:05:37,600
 [ru] ...прочитай, что здесь написано!
-[en] ... read the label!
+[en] ...read the label!
 
 86
 00:05:37,890 --> 00:05:39,810
 [ru] Внимательно читай!
-[en] Carefully read!
+[en] Read carefully!
 
 87
 00:05:45,560 --> 00:05:50,910
@@ -443,7 +447,7 @@
 89
 00:06:16,310 --> 00:06:21,340
 [ru] За спасение нашего города главным призом награждается...
-[en] Because she saved our town we award first place to…
+[en] Because she saved our town we award first place to...
 
 90
 00:06:21,390 --> 00:06:23,640
@@ -458,12 +462,12 @@
 92
 00:06:26,890 --> 00:06:27,930
 [ru] Ой, да ладно вам...
-[en] Oh, stop it you…
+[en] Oh, stop it you...
 
 93
 00:06:28,180 --> 00:06:29,890
 [ru] ...никакое оно не чудесное...
-[en] ...it's not so marvelous…
+[en] ...it's not so marvelous...
 
 94
 00:06:30,020 --> 00:06:33,180
