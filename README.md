@@ -28,8 +28,3 @@ All language files in subdirectories are generated automatically and will be eve
 At the moment we are at the stage of polishing English translation (which is based on Russian dialogues). After polishing phase will be completed the English language will become the base one for other languages. That said, only corrections to English language are accepted at this time.
 
 Important: When proposing new replicas, please consider to try fit them to the sam length as original Russian replicas. This will save a lot of work to animators and keep the kitties safe.
-
-## Translators and correctors:
-
-* English: Alex Gryson, Stas Kholodilin, scribblemaniac
-* Russian: Denis "uncle Night" Prisukhin, Nikolai Mamashev, Stas Kholodilin
