@@ -351,8 +351,10 @@
 
 71
 00:04:40,780 --> 00:04:47,710
-[ru] Какая разница, что там твое зелье делает? Всем уже и так понятно, что я выиграла конкурс!
-[en] No matter what your potion does, everyone already knows that I've won the contest!
+[ru] [ВАРИАНТ1:] Что тут опасного? Да ты просто боишься, что твое зелье  не сможет сравниться с моим!
+[ru] [ВАРИАНТ2:] Какая разница, что там твое зелье делает? Всем уже и так понятно, что я выиграла конкурс!
+[en] [1-st version] What could be so dangerous? You're just scared because your potion isn't as fantastic as mine!
+[en] [2-nd version] No matter what your potion does, everyone already knows that I've won the contest!
 
 72
 00:04:47,890 --> 00:04:49,220
@@ -376,8 +378,10 @@
 
 76
 00:05:01,020 --> 00:05:03,080
-[ru] Беги, дура!
-[en] Run, idiot!
+[ru] [ВАРИАНТ1:] Беги, что стоишь?!
+[ru] [ВАРИАНТ2:] Беги, дура!
+[en] [Version 1:] What are you doing? RUN!
+[en] [Version 2:] Run, idiot!
 
 77
 00:05:03,140 --> 00:05:04,100
@@ -387,7 +391,8 @@
 78
 00:05:06,020 --> 00:05:10,110
 [ru] [саркастически] Эх, радуйся, Кэррот. Похоже, никто не увидит твое чУдное зелье..
-[en] [sarcastically] You're lucky, Carrot; It seems nobody will see your wondrous potion...
+[en] [Version 1:] [sarcastically] Ah, be glad Carrot. It seems nobody will see your wondrous potion...
+[en] [Version 2:] [sarcastically] You're lucky, Carrot; It seems nobody will see your wondrous potion...
 
 79
 00:05:10,810 --> 00:05:15,680
@@ -447,7 +452,7 @@
 90
 00:06:21,390 --> 00:06:23,640
 [ru] ...Мисс Пэппер!
-[en] ...Pepper!
+[en] ...Miss Pepper!
 
 91
 00:06:24,020 --> 00:06:26,100
