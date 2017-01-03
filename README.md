@@ -19,12 +19,8 @@ This repository uses "self-proclaimed" multilanguage SRT format (.msrt) - each l
 [en] Oh... It so windy...
 ```
 
-Please make sure to put your translations/edits into "msrt" files located in repository root (i.e. "episode-6.msrt").
+## Translation status:
 
-All language files in subdirectories are generated automatically and will be eventually overwritten.
-
-## Note for translators / Translation status:
-
-At the moment we are at the stage of polishing English translation (which is based on Russian dialogues). After polishing phase will be completed the English language will become the base one for other languages. That said, only corrections to English language are accepted at this time.
-
-Important: When proposing new replicas, please consider to try fit them to the sam length as original Russian replicas. This will save a lot of work to animators and keep the kitties safe.
+* pepper-and-carrot-ep6.msrt - [ENGLISH-POLISHING]
+* morevna-ep3.msrt - [MIGRATION] (See #15)
+* synfig-course-promo.msrt - [ENGLISH-POLISHING, DRAFT]
