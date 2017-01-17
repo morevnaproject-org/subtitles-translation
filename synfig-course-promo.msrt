@@ -1,5 +1,10 @@
+[*] Translators and correctors:
+[*]   English: Ahmed Ali, Konstantin Dmitriev, scribblemaniac
+[*]   Russian: Konstantin Dmitriev
+[*]   Spanish: Raúl Castellanos
+
 [en] Synfig Studio is a powerful, open-source animation software.
-[ru] Представляем Synfig Studio - мощное бесплатное программное обеспечение для создания анимации.
+[ru] Synfig Studio - это мощное свободное программное обеспечение для создания анимации.
 [sp] Synfig Studio es un poderoso prograna de animación de código abierto.
 
 [en] You can download it for free and use at home, school, work, or anywhere else, without limitations!
@@ -11,11 +16,11 @@
 [sp] Con Synfig se pueden crear con facilidad gráficos en movimiento, videos informativos y animaciones cuadro por cuadro.
 
 [en] Synfig might not be as user friendly, as its commercial rivals...
-[ru] На первый взгляд Synfig может показаться сложным для изучения
+[ru] На первый взгляд синфиг может показаться сложным...
 [sp] Tal vez Synfig no sea tan amigable como sus rivales comerciales...
 
 [en] but it gives you control over every single element of your animation.
-[ru] но в его основе лежат простые принципы, которые дают вам полный контроль над вашей анимацией
+[ru] Но в его основе лежат простые принципы. Стоит лишь изучить их...
 [sp] pero te da control sobre cada elemento de tu animacin.
 
 [en] Synfig has its own way to do things.
@@ -23,7 +28,7 @@
 [sp] Synfig tiene su estilo para hacer las cosas.
 
 [en] But once you learn - you can do a great job with it.
-[ru] Стоит лишь освоить их, и перед вами откроются широчайшие возможности для анимации.
+[ru] ...и вы получите отличный инструмент для создания собственных мультфильмов.
 [sp] Y cuando lo aprendes, puedes hacer grandes cosas con él.
 
 [en] To help you get started, we have created a video course.
@@ -31,7 +36,7 @@
 [sp] Para ayudarte a comenzar, hemos creado un curso en video.
 
 [en] With this course, you can quickly learn Synfig, starting from the very basic concepts to advanced techniques.
-[ru] С этим курсом вы сможете в кратчайшие сроки освоить программу, начиная с самых азов и заканчивая продвинутыми техниками.
+[ru] Этот курс позволит вам освоить программу в кратчайшие сроки, начиная с самых азов и заканчивая продвинутыми техниками.
 [sp] Con este curso aprenderás Synfig rápidamente, yendo de los conceptos más básicos hasta las técnicas avanzadas.
 
 [en] You will learn:
@@ -43,11 +48,11 @@
 [sp] Cómo usar "huesos" para animar a tus personajes,
 
 [en] how to animate faces,
-[ru] как анимировать мимику персонажей,
+[ru] как научить персонажа говорить,
 [sp] cómo animar rostros,
 
 [en] how to export your work for YouTube or a website,
-[ru] как экспортировать вашу работу для публикации на ютубе или вебсайте,
+[ru] как экспортировать вашу работу для ютуба или вебсайта,
 [sp] cómo exportar a YouTube o a un sitio web,
 
 [en] and much more.
