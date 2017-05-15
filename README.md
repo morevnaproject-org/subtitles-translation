@@ -23,6 +23,6 @@ This repository uses "self-proclaimed" multilanguage SRT format (.msrt) - each l
 
 ## Translation status:
 
-* pepper-and-carrot-ep6.msrt - [ENGLISH-POLISHING]
+* pepper-and-carrot-ep6.msrt - [ACCEPTING-TRANSLATIONS]
 * morevna-ep3.msrt - [MIGRATION] - See #15
 * synfig-course-promo.msrt - [ENGLISH-POLISHING, RUSSIAN-DRAFT, SPANISH-DRAFT]
