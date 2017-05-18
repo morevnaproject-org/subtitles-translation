@@ -22,7 +22,7 @@ def process_args():
             help=_("A path to the where you want the output srt file to be written to. If unspecified, output is written to the standard output."),
             default="-")
 
-    parser.add_argument("--version", "-v", action='version', version=_("msrt2srt version %s") % __version__)
+    parser.add_argument("--version", "-v", action='version', version=_("msrt_tool version %s") % __version__)
 
     return parser.parse_args()
 
@@ -49,6 +49,7 @@ def parse_subgroup(subGroup, language):
             startTime + " --> " + endTime + "\n" +
             langText +
             "\n")
+    return ""
 
 def convert(input, output, language):
     subGroup = ""
