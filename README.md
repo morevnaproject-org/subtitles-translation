@@ -4,7 +4,9 @@
 
 ## Info:
 
-This repository uses "self-proclaimed" multilanguage SRT format (.msrt) - each line have prefix indicating translation language:
+This is a repository for collective translation of subtitle files.
+
+We use "self-proclaimed" multilanguage SRT format (.msrt)m where each line have prefix indicating translation language:
 
 ```
 5
@@ -21,6 +23,10 @@ This repository uses "self-proclaimed" multilanguage SRT format (.msrt) - each l
 ```
 
 NOTE: The language codes are defined according to [ISO 639-3 standard](https://en.wikipedia.org/wiki/ISO_639:a)
+
+With this repository we are providing a special utility (msrt_tool.py) which allows to extract any language as regular SRT subtitle file:
+
+```./msrt_tool.py pepper-and-carrot-ep6.msrt eng -o pepper-and-carrot-ep6-en.srt```
 
 ## Translation status:
 
