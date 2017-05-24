@@ -5,6 +5,7 @@
 [*]   English: Alex Gryson, Stas Kholodilin, scribblemaniac
 [*]   Russian: Denis "uncle Night" Prisukhin, Nikolai Mamashev, Stas Kholodilin
 [*]   Lojban: Gleki Arxokuna
+[*]   French: Olivier Jolly
 [*]   German: Vitalij Mik
 
 1
@@ -12,6 +13,7 @@
 [rus] Проект "Моревна"...
 [eng] Morevna Project...
 [jbo] la'o gy.Morevna Project.gy.
+[fra] Projet "Morevna"...
 [ger] Projekt "Morevna"...
 
 2
@@ -19,6 +21,7 @@
 [rus] При поддержке "Ethic Cinema"...
 [eng] ...in association with "Ethic Cinema"...
 [jbo] .e la'o gy.Ethic Cinema.gy. noi sidju
+[fra] ...en association avec "Ethic Cinema"...
 [ger] ...in Zusammenarbeit mit "Ethic Cinema"...
 
 3
@@ -26,6 +29,7 @@
 [rus] Представляет.
 [eng] ...presents.
 [jbo] cu tigni
+[fra] présente
 [ger] ...präsentiert.
 
 4
@@ -33,6 +37,7 @@
 [rus] [зевает]
 [eng] [yawns]
 [jbo] to'i moltenva'u toi
+[fra] [baille]
 [ger] **gähnen**
 
 5
@@ -40,6 +45,7 @@
 [rus] Кажется, я снова уснула с открытым окном...
 [eng] Oh, I fell asleep with the window open again...
 [jbo] .i sei simlu mi za'ure'u sipna ne'a lo kalri canko
+[fra] Hmm? Je me suis encore couchée sans fermer la fenêtre...
 [ger] Oh, ich glaub' bin wieder mit offenen Fenster eingeschlafen...
 
 6
@@ -47,6 +53,7 @@
 [rus] Уфф... Как дует то...
 [eng] Ufff... it's so windy...
 [jbo] .i .oi mutce brife
+[fra] Brrr, mais quel vent!
 [ger] Uff... es zieht...
 
 7
@@ -54,6 +61,7 @@
 [rus] И почему мне видно из окна... Комону?
 [eng] ...and why can I see Komona through the window?
 [jbo] .i ni'i ma la .komonan. cu trixe le canko
+[fra] ...et pourquoi je vois Komona par la fenêtre ?
 [ger] ... und wieso kann ich Komona .. aus dem Fenster sehen?
 
 8
@@ -61,6 +69,7 @@
 [rus] Комону?!
 [eng] Komona?!
 [jbo] la .komonan.
+[fra] Komona!?
 [ger] Komona?!
 
 9
@@ -68,6 +77,7 @@
 [rus] КОНКУРС!!!
 [eng] THE CONTEST!!!
 [jbo] .i nu jivna
+[fra] LE CONCOURS!!!
 [ger] WETTBEWERB!!!
 
 10
@@ -75,6 +85,7 @@
 [rus] В предыдущих сериях:
 [eng] In previous episodes:
 [jbo] .i purci pagbu
+[fra] Précédemment:
 [ger] Was bisher geschah:
 
 11
@@ -82,6 +93,7 @@
 [rus] Пэппер потратила много сил...
 [eng] Pepper spent a lot of effort...
 [jbo] .i la .piper. pu carmi jai gau bredi
+[fra] Pepper n'a pas ménagé ses efforts...
 [ger] Pepper wendete viel Kraut auf...
 
 12
@@ -89,6 +101,7 @@
 [rus] ...чтобы подготовиться к конкурсу зельеваров.
 [eng] ...preparing for the potion contest.
 [jbo] tu'a le nu jivna fa lo finti be lo mixre
+[fra] ...pour se préparer au concours de potion.
 [ger] ...um sich auf den anstehenden Tränke Wettbewerb vor zu bereiten.
 
 13
@@ -96,13 +109,16 @@
 [rus] Должно быть...
 [eng] I must've...
 [jbo] .i sei sruma
+[fra] J'ai dû...
 [ger] Ich bin wahrscheinlich ...
+
 
 14
 00:00:51,210 --> 00:00:54,000
 [rus] Должно быть я случайно уснула...
 [eng] ...must've accidentally fallen asleep...
 [jbo] mi pu se snuti sipna be co'a
+[fra] J'ai dû m'endormir sans faire exprès !
 [ger] Ich bin wahrscheinlich eingenickt...
 
 15
@@ -110,6 +126,7 @@
 [rus] Но...
 [eng] But...
 [jbo] .i ku'i
+[fra] Mais...
 [ger] Aber...
 
 16
@@ -117,6 +134,7 @@
 [rus] Но... Где я?
 [eng] But...where am I?
 [jbo] ku'i y mi ma zvati
+[fra] Où suis je ?
 [ger] Aber... wo bin ich?
 
 17
@@ -124,6 +142,7 @@
 [rus] Ой!!!
 [eng] Oh!!!
 [jbo] ii
+[fra] Oh!!!!
 [ger] Oh!!!
 
 18
@@ -131,6 +150,7 @@
 [rus] Кэррот, как это мило, что ты обо всем позаботился!
 [eng] Carrot! It's so cute that you took care of everything!
 [jbo] .i u'e iu doi la karot do ro da pu'i kurji
+[fra] Carrot! T'es trop mignon d'avoir pensé à m'emmener au concours!
 [ger] Carrot! Es ist so süß von dir, dass du dich um alles gekümmert hast!
 
 19
@@ -138,6 +158,7 @@
 [rus] Мяу!
 [eng] Meow!
 [jbo] mi'au
+[fra] Miaou!
 [ger] Miau!
 
 20
@@ -145,6 +166,7 @@
 [rus] Ты даже додумался взять зелье, мою одежду и шляпу!
 [eng] You even thought to bring a potion, my clothes, and my hat!
 [jbo] .i do punji pa mixre .e ke ji'a le taxfu e le mapku
+[fra] Tu as même pensé à prendre une potion, mes vêtements, mon chapeau !
 [ger] Du hast sogar an die Kräuter, meine Klammoten und den Hut gedacht!
 
 21
@@ -152,6 +174,7 @@
 [rus] Ну ка, давай глянем, какое зелье ты прихватил.
 [eng] Well, let's see which potion you brought.
 [jbo] .i .ai facki le du'u do punji ma kau noi mixre
+[fra] Voyons voir quelle potion tu as pris...
 [ger] Na los, lass uns mal sehen, welche Kräuter du mitgebracht hast.
 
 22
@@ -159,6 +182,7 @@
 [rus] Тааак, что у нас тут?
 [eng] So, what do we have here?
 [jbo] .i ti mo
+[fra] Alors ? Qu'avons nous là ?
 [ger] Aaalso, was haben wir denn da?
 
 23
@@ -166,6 +190,7 @@
 [rus] Чтооооо?!
 [eng] Whaaaat?!
 [jbo] .i mo
+[fra] Noooooon!!!
 [ger] Waaaaas?!
 
 24
@@ -173,6 +198,7 @@
 [rus] Кэээээээрррррооооооот!!!!!!!
 [eng] Caaaaaaarrrrrooooooot!!!!!!!
 [jbo] .i karot
+[fra] Caaaaaaarrrrrooooooot!!!!!!!
 [ger] Caaaaaaarrrrrooooooot!!!!!!!
 
 25
@@ -180,6 +206,7 @@
 [rus] Пэппер и Кэррот. Эпизод 6: Конкурс зельеваров.
 [eng] Pepper & Carrot. Episode 6: The Potion Contest
 [jbo] la .piper. jo'u la .karot. .i 6moi fa la nu jivna
+[fra] Pepper & Carrot. Épisode 6: Le concours de potion
 [ger] Pepper & Carrot. Folge 6: Tränkewettbewerb.
 
 26
@@ -187,6 +214,7 @@
 [rus] На правах мэра Комоны, я объявляю соревнование зельеваров...
 [eng] As Mayor of Komona, I declare the potion contest...
 [jbo] .i gau mi poi turni la .komonan. vau le nu jivna fa le finti be lo mixre
+[fra] En tant que maire de Komona, je déclare le concours de potion officiellement...
 [ger] Als Bürgermeister von Komona, eröffne ich den heutigen...
 
 27
@@ -194,6 +222,7 @@
 [rus] ...открытым!
 [eng] ...open!
 [jbo] cu ca'e fasnu
+[fra] ...ouvert !
 [ger] ...Tränkewettbewerb!
 
 28
@@ -201,6 +230,7 @@
 [rus] В этом конкурсе примут участие четыре юные ведьмы!
 [eng] Four young witches are participating in this contest!
 [jbo] .i simxu le ka jivna fa le vo citno te makfa
+[fra] Pour cette première édition, nous n'accueillons pas moins de 4 sorcières !
 [ger] Die heutigen Teilnehmer sind vier junge Hexen!
 
 29
@@ -208,6 +238,7 @@
 [rus] Давайте же им громко поаплодируем!
 [eng] Please give a huge round of applause!
 [jbo] .i .e'e cladu sarji le vo mei
+[fra] Merci de les applaudir bien fort !
 [ger] Ich bitte um einen Applaus!
 
 30
@@ -215,6 +246,7 @@
 [rus] Это честь видеть здесь восхитительную искусницу...
 [eng] It is an honor to welcome the ravishing and ingenious witch...
 [jbo] .i klama fi la texno gunma fa le noi se sinma
+[fra] Venue du grand pays de l'union des technologistes, c'est un honneur ...
 [ger] Es ist mir eine Ehre die bezaubernde Dame willkommen zu heißen...
 
 31
@@ -222,6 +254,7 @@
 [rus] ...прибывшую прямиком из Техносоюза!
 [eng] ...from the great Technologist's Union!!!..
 [jbo] gi'e melbi gi'e stati vau se cmene be zo
+[fra] ... d'accueillir la ravissante et ingénieuse ...
 [ger] ...die direkt aus der Techniker Gemeinde kommt!
 
 32
@@ -229,6 +262,7 @@
 [rus] Кориандр!
 [eng] Coriander!
 [jbo] .koriiander.
+[fra] Coriandre !
 [ger] Coriander!
 
 33
@@ -236,6 +270,7 @@
 [rus] И не забывайте о нашей, дорогой ведьме из Комоны...
 [eng] And don't forget about our local girl, Komona's very own witch...
 [jbo] .i .ei morji fi pa nixli poi diklo mi'a .i fi'i la
+[fra] Sans oublier notre fille du pays, venant de Komona...
 [ger] Außerdem, vergesst nicht unsere liebe Hexe aus Komona...
 
 34
@@ -243,6 +278,7 @@
 [rus] Шафран!
 [eng] Saffron!
 [jbo] .safran.
+[fra] Safran !
 [ger] Saffron!
 
 35
@@ -250,6 +286,7 @@
 [rus] Наша третья участница...
 [eng] Our third participant...
 [jbo] .i le ci moi jivna
+[fra] Notre troisième participante...
 [ger] Unsere dritte Teilnehmerin...
 
 36
@@ -257,6 +294,7 @@
 [rus] ...гостья, из страны заходящих лун...
 [eng] ...comes to us from the lands of the setting moons...
 [jbo] cu klama fi lei tumla be se ke dizlo mluni
+[fra] ...nous vient du pays des lunes couchantes...
 [ger] ...kommt aus dem Land des untergehenden Mondes
 
 37
@@ -264,12 +302,15 @@
 [rus] ...загадочная...
 [eng] ...the mysterious...
 [jbo] .i coi noi cizra
+[fra] ...la mystérieuse...
 [ger] ...die geheimnisvolle...
+
 38
 00:02:35,900 --> 00:02:38,340
 [rus] ...Ситими!
 [eng] ...Shichimi!
 [jbo] .citcimin.
+[fra]  Shichimi !
 [ger] ...Shichimi!
 
 39
@@ -277,6 +318,7 @@
 [rus] И, наконец, наша последняя участница из Леса беличьего уголка...
 [eng] And finally our last participant, from the forest of Squirrel's End...
 [jbo] .i uo ro moi jivna ra'i la rebla be lo ricyratcu fa la
+[fra] Et enfin ... notre dernière participante qui nous vient de la forêt de .. Bout-un-Cureil
 [ger] Und zum Schluss, unsere letzte Teilnehmerin aus dem Eichhörncheneckenwald...
 
 40
@@ -284,6 +326,7 @@
 [rus] ...Пэппер.
 [eng] ...Pepper.
 [jbo] .piper.
+[fra] ...Pepper.
 [ger] ...Pepper.
 
 41
@@ -291,6 +334,7 @@
 [rus] Дамы и господа!
 [eng] Ladies and gentlemen!
 [jbo] .i doi lei nobli
+[fra] Mesdames et messieurs !
 [ger] Meine Damen und Herren!
 
 42
@@ -298,20 +342,24 @@
 [rus] Обладателя главного приза определят Ваши аплодисменты!
 [eng] The winner of the grand prize of 50,000 Ko will be determined by applaud-o-meter!
 [jbo] .i ca'e ba jdice fi le jinga ta'i le nu mi'o cladu zanru
-[ger] Die Gewinner des großen Preises von 50.000 Ko werden durch einen apllaus-o-meter ermittelt!
+[fra] La gagnante sera déterminé à l'applaudimètre
+[ger] Abgestimmt wird durch den Applaus!
 
 43
 00:02:56,580 --> 00:03:00,420
 [rus] И да начнутся игры!
 [eng] Let the games begin!
 [jbo] .i .e'e co'a jivna
+[fra] Que le concours commence !
 [ger] Lasst uns die Spiele beginnen!
+
 
 44
 00:03:02,580 --> 00:03:07,370
 [rus] [орёт] Итак, Мисс Кориандр, приглашаем Вас выступить первой.
 [eng] [shouting] Well! First up Coriander's demonstration.
 [jbo] i 1mai tigni fa la .koriiander.
+[fra] [criant] Tout d'abord, place à la démonstration de Coriandre.
 [ger] **schrei** Also, Miss Coriander, ich bitte Sie als erste aufzutreten.
 
 45
@@ -319,6 +367,7 @@
 [rus] Дамы и господа...
 [eng] Ladies & gentlemen...
 [jbo] .i doi lei nobli
+[fra] Mesdames et messieurs ...
 [ger] Meine Damen und Herren...
 
 46
@@ -326,6 +375,7 @@
 [rus] ...смерть больше не страшна, благодаря моему...
 [eng] ...fear death no more, thanks to my...
 [jbo] ko co'u terpa tu'a lo morsi .i ki'u bo mi co'i finti pa mixre
+[fra] ... plus besoin d'avoir de la mort grâce à ma ...
 [ger] ...sie müssen sich nicht mehr vor dem Tod fürchten, dank meinem...
 
 47
@@ -333,6 +383,7 @@
 [rus] ...зелью Зомбификации!
 [eng] ...Potion of Zombification!
 [jbo] pe ja'e le nu no'e morsi
+[fra] ...Potion de zombification !
 [ger] ...Trank der Zombiefizierung! 
 
 48
@@ -340,6 +391,7 @@
 [rus] Великолепно!
 [eng] Amazing!
 [jbo] manci
+[fra] Fantastique !
 [ger] Unglaublich!
 
 49
@@ -347,6 +399,7 @@
 [rus] Этим чудодейственным зельем, Кориандр бросает вызов самой Смерти!
 [eng] With this mi-ra-cu-lous potion, Coriander defies death itself!
 [jbo] .i je'u gau la .koriiander. le xadni co'a jmive
+[fra] Coriandre défie la mort elle-même avec cette potion mi-ra-cu-leuse !
 [ger] Mit diesem wun-der-samen Trank, trotzt Coriander selbst dem Tod!
 
 50
@@ -354,6 +407,7 @@
 [rus] Да-да-да...
 [eng] Yes-yes-yes...
 [jbo] ie ie ie
+[fra] Voui-oui-oui...
 [ger] Ja-ja-ja...
 
 51
@@ -361,13 +415,16 @@
 [rus] Зелье Зомбификации...
 [eng] A potion of Zombification..
 [jbo] .i le no'e morsi
+[fra] Une potion de zombification...
 [ger] Trank der Zombiefizierung...
+
 
 52
 00:03:43,920 --> 00:03:45,200
 [rus] глупости какие!
 [eng] that's nothing!
 [jbo] tai jai se bebna
+[fra] c'est de la rigolade !
 [ger] blödsinn!
 
 53
@@ -375,6 +432,7 @@
 [rus] Пора оценить МОЁ зелье.
 [eng] It's time to rate MY potion.
 [jbo] .i citsi le nu lanli le mixre
+[fra] Il est temps de découvrir MA potion.
 [ger] Es wird Zeit, sich MEINEN Trank anzuschauen.
 
 54
@@ -382,6 +440,7 @@
 [rus] Зелье, которое Вы все по-настоящему ждали...
 [eng] The real potion you've all been waiting for...
 [jbo] pe mi zi'e noi cmima le'i jai se kanpe be do
+[fra] Celle que vous attendez depuis si longtemps...
 [ger] Der Trank, auf den Sie schon immer gewartet haben...
 
 55
@@ -389,13 +448,15 @@
 [rus] ...зелье Роскоши!
 [eng] ...The Potion of Poshness!
 [jbo] zi'e noi mixre ja'e le nu ricfu
+[fra] ...La potion de Bourgeoisie !
 [ger] ...Trank des Reichtums!
- 
+
 56
 00:04:01,120 --> 00:04:03,710
 [rus] Фантастически!
 [eng] Fantastic!
 [jbo] .i banli
+[fra] Fantastique !
 [ger] Fantastisch!
 
 57
@@ -403,6 +464,7 @@
 [rus] Невероятно!
 [eng] Incredible!
 [jbo] .i spaji
+[fra] Incroyable !
 [ger] Unglaublich!
 
 58
@@ -410,6 +472,7 @@
 [rus] Это зелье ВСЮ Комону может сделать богатой!
 [eng] This potion could make all of Komona rich!
 [jbo] .i ba gau ti ro xabju be la .komonan. cu ricfu
+[fra] Cette potion pourrait rendre le tout Komona riche !
 [ger] Dieser Trank, kann ganz Komona reich machen!
 
 59
@@ -417,6 +480,7 @@
 [rus] Похоже, что Кориандр уже вычеркнута из списка!
 [eng] It seems,  Coriander has already been eliminated!
 [jbo] .i sei sruma la .koriiander. na jinga
+[fra] Vos applaudissements éliminent dès à présent Coriandre !
 [ger] Sieht wohl so aus, als sei Coriander schon von der Liste gestrichen!
 
 60
@@ -424,13 +488,16 @@
 [rus] Сможет ли Ситими превзойти последнюю демонстрацию?
 [eng] Will Shichimi be able to beat that last demonstration?
 [jbo] .i xu la .citcimin. ba se frili le ka jivna
+[fra] Shichimi pourra-t-elle surpasser cette démonstration ?
 [ger] Schafft es Shichimi die letzte Vorstellung zu übertreffen?
+
 
 61
 00:04:18,830 --> 00:04:22,700
 [rus] Я... я не знала, что предется еще и демонстрировать.
 [eng] I... I did not know we had to give a demonstration.
 [jbo] .i y mi na pu djuno le du'u sarcu fa le ka pilno tigni
+[fra] Je.. Je ne savais pas qu'il fallait faire une démonstration.
 [ger] Ich... ich wusste nicht, dass ich es noch Vorstellen muss.
 
 62
@@ -438,6 +505,7 @@
 [rus] Давай же, Ситими!
 [eng] Come on Shichimi!
 [jbo] .i .e'e doi la .citcimin.
+[fra] Allons, Shichimi !
 [ger] Na los, Shichimi!
 
 63
@@ -445,6 +513,7 @@
 [rus] Тебя все ждут!
 [eng] Everyone's waiting for you!
 [jbo] ro le prenu tu'a do denpa
+[fra] Tout le monde vous attend !
 [ger] Alle warten auf dich!
 
 64
@@ -452,6 +521,7 @@
 [rus] Нет!..
 [eng] No!..
 [jbo] .i'a nai
+[fra] Non !
 [ger] Nein!..
 
 65
@@ -459,6 +529,7 @@
 [rus] Нельзя!..
 [eng] I cannot!..
 [jbo] .au nai
+[fra] Je ne peux pas...
 [ger] Ich kann nicht!..
 
 66
@@ -466,13 +537,16 @@
 [rus] Это слишком опасно!..
 [eng] It is too dangerous!..
 [jbo] .o'i sai
+[fra] C'est trop dangeureux !
 [ger] Es ist zu gefährlich!..
+
 
 67
 00:04:30,400 --> 00:04:31,640
 [rus] П-простите!..
 [eng] S-sorry!..
 [jbo] .u'u
+[fra] Dé...Désolée !
 [ger] Es-Es tut mir leid!..
 
 68
@@ -480,6 +554,7 @@
 [rus] Дамы и господа...
 [eng] Ladies and gentlemen...
 [jbo] .i doi lei nobli
+[fra] Mesdames et messieurs...
 [ger] Meine Damen und Herren...
 
 69
@@ -487,6 +562,7 @@
 [rus] ...похоже, что Ситими лишается...
 [eng] ...it seems that Shichimi forfeits...
 [jbo] .i sei simlu la .citcimin. ca rivbi
+[fra] ...il semblerait que Shichimi abandonne...
 [ger] ...sieht wohl aus, dass Shichimi ausscheiden würde...
 
 70
@@ -494,6 +570,7 @@
 [rus] ДАЙ СЮДА!
 [eng] Give me that!
 [jbo] .i ko dunda ta mi
+[fra] Donne moi ça !
 [ger] GIB HER!
 
 71
@@ -501,6 +578,7 @@
 [rus] ОСТОРОЖНО!!!
 [eng] CAREFUL!!!
 [jbo] .i ckape
+[fra] ATTENTION !!!
 [ger] VORSICHT!!!
 
 72
@@ -508,6 +586,7 @@
 [rus] Что тут опасного?
 [eng] What could be so dangerous?
 [jbo] .i ma ckape i ro le prenu ca sanji le nu va'o ro da mi jinga
+[fra] quoi que ta potion fasse ...
 [ger] Was soll schon passieren?
 
 73
@@ -515,6 +594,7 @@
 [rus] Да ты просто боишься, что твое зелье  не сможет сравниться с моим!
 [eng] You're just scared because your potion isn't as fantastic as mine!
 [jbo] .i sei sampu do terpa ki'u le nu le do mixre na zmadu fi le ka banli
+[fra] Tout le monde sait déjà que j'ai gagné le concours, alors ..
 [ger] Du hast ja einfach nur Angst, dass dein Trank sich mit meinem nicht messen kann!
 
 74
@@ -522,6 +602,7 @@
 [rus] Нет-нет, это зелье...
 [eng] No-no, it is a potion of...
 [jbo] .i .ii le mixre cu jai rinka
+[fra] Nooon, c'est une potion de ...
 [ger] Nein-nein, es ist ein Trank der...
 
 75
@@ -529,12 +610,14 @@
 [rus] ...ГИГАНТСКИХ ЧУДОВИЩ!!!
 [eng] ...GIANT MONSTERS!!!
 [jbo] tu'a lo barda monsuta
+[fra] ...MONSTRE GÉANT !!!
 [ger] ...RIESEN MONSTER!!!
 
 76
 00:04:58,100 --> 00:04:59,940
 [rus] Мистер Мэр, мистер Мэр!
 [eng] Mr. Mayor, Mr. Mayor!
+[fra] M. le maire ! M le maire !
 [ger] Herr Bürgermeister, herr Bürgermeister!
 
 77
@@ -542,20 +625,22 @@
 [rus] Теперь моя очередь???
 [eng] Is it my turn now???
 [jbo] .i pei tcini le nu mi tigni
+[fra] C'est mon tour maintenant ?
 [ger] Bin ich jetzt dran??
- 
+
 78
 00:05:01,280 --> 00:05:02,340
 [rus] [ВАРИАНТ1:] Беги, что стоишь?!
 [eng] Run!
 [jbo] .i bajra
+[fra] Fuis ! idiote !
 [ger] Lauf!
 
 79
 00:05:03,260 --> 00:05:04,420
 [rus] *МАМАААА*
 [eng] *МАМАААА*
-[jbo] .oi cai
+[fra] *MAMAAAAN*
 [ger] *МАМАААА*
 
 80
@@ -563,6 +648,7 @@
 [rus] Эх, радуйся, Кэррот. Похоже, никто не увидит твое чУдное зелье..
 [eng] You're lucky, Carrot; It seems nobody will see your wondrous potion...
 [jbo] .i zabna funca la .karot. .i no prenu ba zgana za'e le do manci mixre
+[fra] Coup de bol, Carrot. Il semblerait que personne n'ait à voir ta fabuleuse "potion"
 [ger] Hast du glück Carrot. Sieht wohl so aus, dass niemand deinen wundersamen Trank sehen wird...
 
 81
@@ -570,6 +656,7 @@
 [rus] Она разрушит наш город!!!
 [eng] She will destroy our town!!!
 [jbo] .i ba daspo le tcadu
+[fra] [en fond] À l'aide ! Au secours ! Elle va détruire tout Komona !
 [ger] Sie wird unsere Stadt zerstören!!!
 
 82
@@ -577,6 +664,7 @@
 [rus] Постой, кажется, у меня появилась идея!
 [eng] Wait,  I think I have an idea!
 [jbo] .i ko sisti .i mi da finti
+[fra] Oh! Je viens d'avoir une idée !
 [ger] Warte mal, ich denke, ich habe eine Idee!
 
 83
@@ -584,6 +672,7 @@
 [rus] Эй, ты!
 [eng] Hey!
 [jbo] ju'i do
+[fra] Hé !
 [ger] Hey, Du!
 
 84
@@ -591,6 +680,7 @@
 [rus] Модница-зомбоканарейка-переросток!
 [eng] You oversized-posh-zombie-canary!
 [jbo] .i ju'i le io nai barda no'e cipni
+[fra] Toi le piou-piou-géant-zombie-bourgeois !
 [ger] Du überdimensionale Zombiewellensittichtussi!
 
 85
@@ -598,13 +688,16 @@
 [rus] Хочешь попробовать последнее "зелье"?
 [eng] Wanna try one last "potion"?
 [jbo] .i pei carvi do fa ti noi ro moi mixre
+[fra] Ça te dit de tester la dernière "potion" ?
 [ger] Willst mal den letzten "Trank" probieren?
+
 
 86
 00:05:33,420 --> 00:05:34,710
 [rus] Только сначала...
 [eng] But first...
 [jbo] .i ku'i 1mai
+[fra] Tout d'abord...
 [ger] Aber zu erst...
 
 87
@@ -612,6 +705,7 @@
 [rus] ...прочитай, что здесь написано!
 [eng] ...read the label!
 [jbo] ko tcidu le notci
+[fra] ...lis bien l'étiquette !
 [ger] ...lies was hier steht!
 
 88
@@ -619,6 +713,7 @@
 [rus] Внимательно читай!
 [eng] Read it carefully!
 [jbo] .i ko jundi tcidu
+[fra] Lis la attentivement !
 [ger] Lies genau!
 
 89
@@ -626,6 +721,7 @@
 [rus] Если ты сейчас же не уберешься из Комоны, поверь мне - я вылью его на тебя!
 [eng] If you don't get out of Komona right away, trust me: I'll pour it all over you!
 [jbo] .i do cliva la .komonan. .i jo nai .e'i ti do carvi
+[fra] Je n'hésiterai pas à t'en verser dessus si tu dégages pas tout de suite de Komona !
 [ger] Wenn du nicht sofort aus Komona verschwindest, glaub mir - ich kippe das Zeug auf dich!
 
 90
@@ -633,6 +729,7 @@
 [rus] Понятно?!
 [eng] Understood?!
 [jbo] ki'a nai pei
+[fra] Pigé !?
 [ger] Hast du mich vestanden?
 
 91
@@ -640,6 +737,7 @@
 [rus] За спасение нашего города главным призом награждается...
 [eng] Because she saved our town we award first place to...
 [jbo] .i fi le ka jai gau snura fai le tcadu vau mi'a cnemu
+[fra] Parce qu'elle a sauvé notre ville, la première place revient à ...
 [ger] Für die Rettung unserer Stadt, geht der erste Platz an...
 
 92
@@ -647,6 +745,7 @@
 [rus] ...Мисс Пэппер!
 [eng] ...Miss Pepper!
 [jbo] la .piper.
+[fra] ...Mademoiselle Pepper !
 [ger] ...Miss Pepper!
 
 93
@@ -654,6 +753,7 @@
 [rus] За её чудесное зелье!
 [eng] For her wonderful potion!
 [jbo] i le mixre pe ri ja'a banli
+[fra] Pour sa merveilleuse potion !
 [ger] Für ihren wundersamen Trank!
 
 94
@@ -661,6 +761,7 @@
 [rus] Ой, да ладно вам...
 [eng] Huh, in fact...
 [jbo] .i sei stace
+[fra] Hmm, vous allez rire...
 [ger] Hm, eigentlich...
 
 95
@@ -668,6 +769,7 @@
 [rus] ...никакое оно не чудесное...
 [eng] ...it's not really a potion...
 [jbo] le mixre na tai banli
+[fra] ...c'est pas vraiment une potion...
 [ger] ...ist es garnicht so wundersam...
 
 96
@@ -675,13 +777,15 @@
 [rus] ...это просто баночка с анализами моего кота!
 [eng] ...it's just my cat's pee sample from his last trip to the vet!
 [jbo] .i sa'u ti pinca le mlatu pe mi
-[ger] ...es ist einfach nur eine Pi-Pi-Probe meiner Katze!
+[fra] ...ce sont juste les échantillons d'urine de mon chat pour le veto !
+[ger] ...es ist einfach nur eine Urinprobe meiner Katze vom letzten Tierarztbesuch!
 
 97
 00:06:33,170 --> 00:06:34,170
 [rus] Правда, Кэррот?
 [eng] Isn't it, Carrot?
 [jbo] ie pei doi la .karot.
+[fra] N'est ce pas, carrot ?
 [ger] Stimmts, Carrot?
 
 98
@@ -689,4 +793,6 @@
 [rus] Мяу!
 [eng] Meow!
 [jbo] mi'au
+[fra] Miaou !
 [ger] Miau!
+
