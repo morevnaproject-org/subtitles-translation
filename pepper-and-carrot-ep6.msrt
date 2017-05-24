@@ -123,7 +123,7 @@
 [eng] I must've...
 [jbo] .i sei sruma
 [fra] J'ai dû...
-[ger] Ich bin wahrschienlich...
+[ger] Ich bin wahrscheinlich ...
 [por] Eu devo...
 
 14
@@ -132,8 +132,9 @@
 [eng] ...must've accidentally fallen asleep...
 [jbo] mi pu se snuti sipna be co'a
 [fra] J'ai dû m'endormir sans faire exprès !
-[ger] Ich bin wahrschienlich eingenickt...
+[ger] Ich bin wahrscheinlich eingenickt...
 [por] ...devo ter caído no sono por acidente....
+
 
 15
 00:00:54,470 --> 00:00:55,100
@@ -195,8 +196,9 @@
 [eng] Well, let's see which potion you brought.
 [jbo] .i .ai facki le du'u do punji ma kau noi mixre
 [fra] Voyons voir quelle potion tu as pris...
-[ger] Na los, las uns mal sehen, welche Kräuter du mitgebracht hast.
+[ger] Na los, lass uns mal sehen, welche Kräuter du mitgebracht hast.
 [por] Bem, vejamos que poção você trouxe.
+
 
 22
 00:01:21,170 --> 00:01:23,040
@@ -267,8 +269,9 @@
 [eng] Please give a huge round of applause!
 [jbo] .i .e'e cladu sarji le vo mei
 [fra] Merci de les applaudir bien fort !
-[ger] Ich bitte um ein Applaus!
+[ger] Ich bitte um einen Applaus!
 [por] Uma salva de palmas para elas!
+
 
 30
 00:02:00,620 --> 00:02:04,620
@@ -384,8 +387,9 @@
 [eng] The winner of the grand prize of 50,000 Ko will be determined by applaud-o-meter!
 [jbo] .i ca'e ba jdice fi le jinga ta'i le nu mi'o cladu zanru
 [fra] La gagnante sera déterminé à l'applaudimètre
-[ger] Die Gewinner des großen Preises von 50.000 Ko werden durch einen apllaus-o-meter ermittelt!
+[ger] Abgestimmt wird durch den Applaus!
 [por] A vencedora, que receberá o prémio de 50.000 Ko, será determinada pelo medidor de aplausos!
+
 
 43
 00:02:56,580 --> 00:03:00,420
@@ -393,8 +397,9 @@
 [eng] Let the games begin!
 [jbo] .i .e'e co'a jivna
 [fra] Que le concours commence !
-[ger] Last uns die Spiele beginnen!
+[ger] Lasst uns die Spiele beginnen!
 [por] Que comece a competição!
+
 
 44
 00:03:02,580 --> 00:03:07,370
@@ -429,8 +434,9 @@
 [eng] ...Potion of Zombification!
 [jbo] pe ja'e le nu no'e morsi
 [fra] ...Potion de zombification !
-[ger] ...Trank der Zomibifizierung! 
+[ger] ...Trank der Zombiefizierung! 
 [por] ...Poção de Zumbificação!
+
 
 48
 00:03:27,980 --> 00:03:29,700
@@ -465,8 +471,9 @@
 [eng] A potion of Zombification..
 [jbo] .i le no'e morsi
 [fra] Une potion de zombification...
-[ger] Trank der Zomibifizierung...
+[ger] Trank der Zombiefizierung...
 [por] A poção de Zombificação...
+
 
 52
 00:03:43,920 --> 00:03:45,200
@@ -483,8 +490,9 @@
 [eng] It's time to rate MY potion.
 [jbo] .i citsi le nu lanli le mixre
 [fra] Il est temps de découvrir MA potion.
-[ger] Es wird Zeit, sich MEIN Trank anzuschauen.
+[ger] Es wird Zeit, sich MEINEN Trank anzuschauen.
 [por] Hora de avaliar a MINHA poção.
+
 
 54
 00:03:47,830 --> 00:03:51,830
@@ -546,8 +554,9 @@
 [eng] Will Shichimi be able to beat that last demonstration?
 [jbo] .i xu la .citcimin. ba se frili le ka jivna
 [fra] Shichimi pourra-t-elle surpasser cette démonstration ?
-[ger] Schafft es Shichimi die letzte Vorstellung zu übertrefen?
+[ger] Schafft es Shichimi die letzte Vorstellung zu übertreffen?
 [por] Será que Shichimi é capaz de superar essa última demonstração?
+
 
 61
 00:04:18,830 --> 00:04:22,700
@@ -600,8 +609,9 @@
 [eng] It is too dangerous!..
 [jbo] .o'i sai
 [fra] C'est trop dangeureux !
-[ger] Es ist zu gefählich!..
+[ger] Es ist zu gefährlich!..
 [por] É muito perigoso!
+
 
 67
 00:04:30,400 --> 00:04:31,640
@@ -714,7 +724,6 @@
 00:05:03,260 --> 00:05:04,420
 [rus] *МАМАААА*
 [eng] *МАМАААА*
-[jbo] .oi cai
 [fra] *MAMAAAAN*
 [ger] *МАМАААА*
 [por] SALVE-SE QUEM PUDER!
@@ -725,8 +734,9 @@
 [eng] You're lucky, Carrot; It seems nobody will see your wondrous potion...
 [jbo] .i zabna funca la .karot. .i no prenu ba zgana za'e le do manci mixre
 [fra] Coup de bol, Carrot. Il semblerait que personne n'ait à voir ta fabuleuse "potion"
-[ger] Hast du glück Carrot. Sieht wohl so aus, dass niemand dein wundersamen Trank sehen wird...
+[ger] Hast du glück Carrot. Sieht wohl so aus, dass niemand deinen wundersamen Trank sehen wird...
 [por] Que sorte, Carrot; Parece que ninguém vai ver sua poção maravilhosa...
+
 
 81
 00:05:11,500 --> 00:05:13,600
@@ -770,8 +780,9 @@
 [eng] Wanna try one last "potion"?
 [jbo] .i pei carvi do fa ti noi ro moi mixre
 [fra] Ça te dit de tester la dernière "potion" ?
-[ger] Willst mal den den letzten "Trank" probieren?
+[ger] Willst mal den letzten "Trank" probieren?
 [por] Quer tentar maos uma poção?
+
 
 86
 00:05:33,420 --> 00:05:34,710
@@ -869,8 +880,9 @@
 [eng] ...it's just my cat's pee sample from his last trip to the vet!
 [jbo] .i sa'u ti pinca le mlatu pe mi
 [fra] ...ce sont juste les échantillons d'urine de mon chat pour le veto !
-[ger] ...es ist einfach nur eine Pi-Pi-Probe meiner Katze!
+[ger] ...es ist einfach nur eine Urinprobe meiner Katze vom letzten Tierarztbesuch!
 [por] Era apenas uma amostra da urina do meu gato da sua última visita ao veterinário!
+
 
 97
 00:06:33,170 --> 00:06:34,170
