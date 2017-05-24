@@ -7,6 +7,7 @@
 [*]   Lojban: Gleki Arxokuna
 [*]   French: Olivier Jolly
 [*]   German: Vitalij Mik
+[*]   Portuguese: Fábio Emilio Costa
 
 1
 00:00:01,030 --> 00:00:03,530
@@ -15,6 +16,7 @@
 [jbo] la'o gy.Morevna Project.gy.
 [fra] Projet "Morevna"...
 [ger] Projekt "Morevna"...
+[por] Projeto "Morevna"...
 
 2
 00:00:04,370 --> 00:00:06,780
@@ -23,6 +25,7 @@
 [jbo] .e la'o gy.Ethic Cinema.gy. noi sidju
 [fra] ...en association avec "Ethic Cinema"...
 [ger] ...in Zusammenarbeit mit "Ethic Cinema"...
+[por] ...em associação como o "Ethic Cinema"...
 
 3
 00:00:07,240 --> 00:00:08,510
@@ -31,6 +34,7 @@
 [jbo] cu tigni
 [fra] présente
 [ger] ...präsentiert.
+[por] ...apresentam.
 
 4
 00:00:21,780 --> 00:00:23,320
@@ -39,6 +43,7 @@
 [jbo] to'i moltenva'u toi
 [fra] [baille]
 [ger] **gähnen**
+[por] [Bocejo]
 
 5
 00:00:24,240 --> 00:00:28,240
@@ -47,6 +52,7 @@
 [jbo] .i sei simlu mi za'ure'u sipna ne'a lo kalri canko
 [fra] Hmm? Je me suis encore couchée sans fermer la fenêtre...
 [ger] Oh, ich glaub' bin wieder mit offenen Fenster eingeschlafen...
+[por] Puxa, acho que dormi com a janela aberta...
 
 6
 00:00:29,960 --> 00:00:32,760
@@ -55,6 +61,7 @@
 [jbo] .i .oi mutce brife
 [fra] Brrr, mais quel vent!
 [ger] Uff... es zieht...
+[por] Nossa! Que Frio!
 
 7
 00:00:33,620 --> 00:00:36,910
@@ -63,6 +70,7 @@
 [jbo] .i ni'i ma la .komonan. cu trixe le canko
 [fra] ...et pourquoi je vois Komona par la fenêtre ?
 [ger] ... und wieso kann ich Komona .. aus dem Fenster sehen?
+[por] ... e por que eu consigo ver Konoma pela janela?
 
 8
 00:00:37,240 --> 00:00:38,240
@@ -71,6 +79,7 @@
 [jbo] la .komonan.
 [fra] Komona!?
 [ger] Komona?!
+[por] Konoma?!
 
 9
 00:00:39,200 --> 00:00:39,990
@@ -79,6 +88,7 @@
 [jbo] .i nu jivna
 [fra] LE CONCOURS!!!
 [ger] WETTBEWERB!!!
+[por] O CONCURSO!!!
 
 10
 00:00:41,700 --> 00:00:43,280
@@ -87,6 +97,7 @@
 [jbo] .i purci pagbu
 [fra] Précédemment:
 [ger] Was bisher geschah:
+[por] Nos episódios anteriores:
 
 11
 00:00:43,450 --> 00:00:45,490
@@ -95,6 +106,7 @@
 [jbo] .i la .piper. pu carmi jai gau bredi
 [fra] Pepper n'a pas ménagé ses efforts...
 [ger] Pepper wendete viel Kraut auf...
+[por] Pepper se esforçou bastante...
 
 12
 00:00:45,870 --> 00:00:49,490
@@ -103,6 +115,7 @@
 [jbo] tu'a le nu jivna fa lo finti be lo mixre
 [fra] ...pour se préparer au concours de potion.
 [ger] ...um sich auf den anstehenden Tränke Wettbewerb vor zu bereiten.
+[por] ...se preparando para o concurso de poções.
 
 13
 00:00:50,040 --> 00:00:50,870
@@ -111,7 +124,7 @@
 [jbo] .i sei sruma
 [fra] J'ai dû...
 [ger] Ich bin wahrscheinlich ...
-
+[por] Eu devo...
 
 14
 00:00:51,210 --> 00:00:54,000
@@ -120,6 +133,8 @@
 [jbo] mi pu se snuti sipna be co'a
 [fra] J'ai dû m'endormir sans faire exprès !
 [ger] Ich bin wahrscheinlich eingenickt...
+[por] ...devo ter caído no sono por acidente....
+
 
 15
 00:00:54,470 --> 00:00:55,100
@@ -128,6 +143,7 @@
 [jbo] .i ku'i
 [fra] Mais...
 [ger] Aber...
+[por] Mas...
 
 16
 00:00:56,180 --> 00:00:57,320
@@ -136,6 +152,7 @@
 [jbo] ku'i y mi ma zvati
 [fra] Où suis je ?
 [ger] Aber... wo bin ich?
+[por] Mas... Onde eu estou?
 
 17
 00:00:58,220 --> 00:00:59,160
@@ -144,6 +161,7 @@
 [jbo] ii
 [fra] Oh!!!!
 [ger] Oh!!!
+[por] Oh!!!
 
 18
 00:01:04,880 --> 00:01:08,580
@@ -152,6 +170,7 @@
 [jbo] .i u'e iu doi la karot do ro da pu'i kurji
 [fra] Carrot! T'es trop mignon d'avoir pensé à m'emmener au concours!
 [ger] Carrot! Es ist so süß von dir, dass du dich um alles gekümmert hast!
+[por] Carrot! Foi muita bondade sua cuidar de tudo!
 
 19
 00:01:09,640 --> 00:01:10,640
@@ -160,6 +179,7 @@
 [jbo] mi'au
 [fra] Miaou!
 [ger] Miau!
+[por] Miau!
 
 20
 00:01:11,620 --> 00:01:16,040
@@ -168,6 +188,7 @@
 [jbo] .i do punji pa mixre .e ke ji'a le taxfu e le mapku
 [fra] Tu as même pensé à prendre une potion, mes vêtements, mon chapeau !
 [ger] Du hast sogar an die Kräuter, meine Klammoten und den Hut gedacht!
+[por] Você até mesmo trouxe uma poção, minhas roupas e meu chapéu!
 
 21
 00:01:17,120 --> 00:01:20,670
@@ -176,6 +197,8 @@
 [jbo] .i .ai facki le du'u do punji ma kau noi mixre
 [fra] Voyons voir quelle potion tu as pris...
 [ger] Na los, lass uns mal sehen, welche Kräuter du mitgebracht hast.
+[por] Bem, vejamos que poção você trouxe.
+
 
 22
 00:01:21,170 --> 00:01:23,040
@@ -184,6 +207,7 @@
 [jbo] .i ti mo
 [fra] Alors ? Qu'avons nous là ?
 [ger] Aaalso, was haben wir denn da?
+[por] Então, o que temos aqui...
 
 23
 00:01:23,870 --> 00:01:25,870
@@ -192,6 +216,7 @@
 [jbo] .i mo
 [fra] Noooooon!!!
 [ger] Waaaaas?!
+[por] Ahn?!!
 
 24
 00:01:28,740 --> 00:01:32,840
@@ -200,6 +225,7 @@
 [jbo] .i karot
 [fra] Caaaaaaarrrrrooooooot!!!!!!!
 [ger] Caaaaaaarrrrrooooooot!!!!!!!
+[por] Caaaaaaarrrrrooooooot!!!!!!!
 
 25
 00:01:33,640 --> 00:01:37,400
@@ -208,6 +234,7 @@
 [jbo] la .piper. jo'u la .karot. .i 6moi fa la nu jivna
 [fra] Pepper & Carrot. Épisode 6: Le concours de potion
 [ger] Pepper & Carrot. Folge 6: Tränkewettbewerb.
+[por] Pepper & Carrot, Episódio6 - O Concurso de Poções
 
 26
 00:01:38,330 --> 00:01:43,120
@@ -216,6 +243,7 @@
 [jbo] .i gau mi poi turni la .komonan. vau le nu jivna fa le finti be lo mixre
 [fra] En tant que maire de Komona, je déclare le concours de potion officiellement...
 [ger] Als Bürgermeister von Komona, eröffne ich den heutigen...
+[por] Como Prefeito de Komona, eu declaro o cocurso de poções...
 
 27
 00:01:43,420 --> 00:01:45,080
@@ -224,6 +252,7 @@
 [jbo] cu ca'e fasnu
 [fra] ...ouvert !
 [ger] ...Tränkewettbewerb!
+[por] ...aberto!
 
 28
 00:01:46,870 --> 00:01:50,870
@@ -232,6 +261,7 @@
 [jbo] .i simxu le ka jivna fa le vo citno te makfa
 [fra] Pour cette première édition, nous n'accueillons pas moins de 4 sorcières !
 [ger] Die heutigen Teilnehmer sind vier junge Hexen!
+[por] Quatro jovens bruxas estão participando do concurso!
 
 29
 00:01:51,920 --> 00:01:54,540
@@ -240,6 +270,8 @@
 [jbo] .i .e'e cladu sarji le vo mei
 [fra] Merci de les applaudir bien fort !
 [ger] Ich bitte um einen Applaus!
+[por] Uma salva de palmas para elas!
+
 
 30
 00:02:00,620 --> 00:02:04,620
@@ -248,6 +280,7 @@
 [jbo] .i klama fi la texno gunma fa le noi se sinma
 [fra] Venue du grand pays de l'union des technologistes, c'est un honneur ...
 [ger] Es ist mir eine Ehre die bezaubernde Dame willkommen zu heißen...
+[por] É uma honra dar as boas vindas à inteligente e encantadora bruxa ...
 
 31
 00:02:05,210 --> 00:02:07,670
@@ -256,6 +289,7 @@
 [jbo] gi'e melbi gi'e stati vau se cmene be zo
 [fra] ... d'accueillir la ravissante et ingénieuse ...
 [ger] ...die direkt aus der Techniker Gemeinde kommt!
+[por] ...diretamente da União dos Tecnólogos!
 
 32
 00:02:08,040 --> 00:02:11,780
@@ -264,6 +298,7 @@
 [jbo] .koriiander.
 [fra] Coriandre !
 [ger] Coriander!
+[por] Coriander!
 
 33
 00:02:13,040 --> 00:02:17,710
@@ -272,6 +307,7 @@
 [jbo] .i .ei morji fi pa nixli poi diklo mi'a .i fi'i la
 [fra] Sans oublier notre fille du pays, venant de Komona...
 [ger] Außerdem, vergesst nicht unsere liebe Hexe aus Komona...
+[por] E não se esqueçam da nossa participante local, a bruxa residente de Komona...
 
 34
 00:02:18,080 --> 00:02:20,960
@@ -280,6 +316,7 @@
 [jbo] .safran.
 [fra] Safran !
 [ger] Saffron!
+[por] Saffron!
 
 35
 00:02:26,660 --> 00:02:28,920
@@ -288,6 +325,7 @@
 [jbo] .i le ci moi jivna
 [fra] Notre troisième participante...
 [ger] Unsere dritte Teilnehmerin...
+[por] Nossa terceira participante...
 
 36
 00:02:29,140 --> 00:02:32,580
@@ -296,6 +334,7 @@
 [jbo] cu klama fi lei tumla be se ke dizlo mluni
 [fra] ...nous vient du pays des lunes couchantes...
 [ger] ...kommt aus dem Land des untergehenden Mondes
+[por] ...veio das terras das luas alinhadas...
 
 37
 00:02:33,040 --> 00:02:34,920
@@ -304,6 +343,7 @@
 [jbo] .i coi noi cizra
 [fra] ...la mystérieuse...
 [ger] ...die geheimnisvolle...
+[por] ...a misteriosa....
 
 38
 00:02:35,900 --> 00:02:38,340
@@ -312,6 +352,7 @@
 [jbo] .citcimin.
 [fra]  Shichimi !
 [ger] ...Shichimi!
+[por] ...Shichimi!
 
 39
 00:02:40,120 --> 00:02:44,520
@@ -320,6 +361,7 @@
 [jbo] .i uo ro moi jivna ra'i la rebla be lo ricyratcu fa la
 [fra] Et enfin ... notre dernière participante qui nous vient de la forêt de .. Bout-un-Cureil
 [ger] Und zum Schluss, unsere letzte Teilnehmerin aus dem Eichhörncheneckenwald...
+[por] E finalmente nossa última participate, da Floresta da Cauda do Esquilo...
 
 40
 00:02:44,820 --> 00:02:46,300
@@ -328,6 +370,7 @@
 [jbo] .piper.
 [fra] ...Pepper.
 [ger] ...Pepper.
+[por] ...Pepper.
 
 41
 00:02:49,340 --> 00:02:50,780
@@ -336,6 +379,7 @@
 [jbo] .i doi lei nobli
 [fra] Mesdames et messieurs !
 [ger] Meine Damen und Herren!
+[por] Senhoras e Senhores!
 
 42
 00:02:50,870 --> 00:02:56,460
@@ -344,6 +388,8 @@
 [jbo] .i ca'e ba jdice fi le jinga ta'i le nu mi'o cladu zanru
 [fra] La gagnante sera déterminé à l'applaudimètre
 [ger] Abgestimmt wird durch den Applaus!
+[por] A vencedora, que receberá o prémio de 50.000 Ko, será determinada pelo medidor de aplausos!
+
 
 43
 00:02:56,580 --> 00:03:00,420
@@ -352,6 +398,7 @@
 [jbo] .i .e'e co'a jivna
 [fra] Que le concours commence !
 [ger] Lasst uns die Spiele beginnen!
+[por] Que comece a competição!
 
 
 44
@@ -361,6 +408,7 @@
 [jbo] i 1mai tigni fa la .koriiander.
 [fra] [criant] Tout d'abord, place à la démonstration de Coriandre.
 [ger] **schrei** Also, Miss Coriander, ich bitte Sie als erste aufzutreten.
+[por] [falando alto] Bem! Para começar, Coriander fará sua demonstração!
 
 45
 00:03:09,830 --> 00:03:11,500
@@ -369,6 +417,7 @@
 [jbo] .i doi lei nobli
 [fra] Mesdames et messieurs ...
 [ger] Meine Damen und Herren...
+[por] Senhoras e Senhores...
 
 46
 00:03:11,960 --> 00:03:15,040
@@ -377,6 +426,7 @@
 [jbo] ko co'u terpa tu'a lo morsi .i ki'u bo mi co'i finti pa mixre
 [fra] ... plus besoin d'avoir de la mort grâce à ma ...
 [ger] ...sie müssen sich nicht mehr vor dem Tod fürchten, dank meinem...
+[por] ...vocês não precisa mais temer a morte, graças à minha...
 
 47
 00:03:15,670 --> 00:03:17,370
@@ -385,6 +435,8 @@
 [jbo] pe ja'e le nu no'e morsi
 [fra] ...Potion de zombification !
 [ger] ...Trank der Zombiefizierung! 
+[por] ...Poção de Zumbificação!
+
 
 48
 00:03:27,980 --> 00:03:29,700
@@ -393,6 +445,7 @@
 [jbo] manci
 [fra] Fantastique !
 [ger] Unglaublich!
+[por] Incrível!
 
 49
 00:03:30,560 --> 00:03:37,180
@@ -401,6 +454,7 @@
 [jbo] .i je'u gau la .koriiander. le xadni co'a jmive
 [fra] Coriandre défie la mort elle-même avec cette potion mi-ra-cu-leuse !
 [ger] Mit diesem wun-der-samen Trank, trotzt Coriander selbst dem Tod!
+[por] Com essa poção mi-la-gro-sa, Coriander desafia a própria morte!
 
 50
 00:03:38,540 --> 00:03:40,620
@@ -409,6 +463,7 @@
 [jbo] ie ie ie
 [fra] Voui-oui-oui...
 [ger] Ja-ja-ja...
+[por] Sim, sim, sim...
 
 51
 00:03:41,460 --> 00:03:43,520
@@ -417,6 +472,7 @@
 [jbo] .i le no'e morsi
 [fra] Une potion de zombification...
 [ger] Trank der Zombiefizierung...
+[por] A poção de Zombificação...
 
 
 52
@@ -426,6 +482,7 @@
 [jbo] tai jai se bebna
 [fra] c'est de la rigolade !
 [ger] blödsinn!
+[por] não é nada!
 
 53
 00:03:45,210 --> 00:03:47,330
@@ -434,6 +491,8 @@
 [jbo] .i citsi le nu lanli le mixre
 [fra] Il est temps de découvrir MA potion.
 [ger] Es wird Zeit, sich MEINEN Trank anzuschauen.
+[por] Hora de avaliar a MINHA poção.
+
 
 54
 00:03:47,830 --> 00:03:51,830
@@ -442,6 +501,7 @@
 [jbo] pe mi zi'e noi cmima le'i jai se kanpe be do
 [fra] Celle que vous attendez depuis si longtemps...
 [ger] Der Trank, auf den Sie schon immer gewartet haben...
+[por] A poção pela qual vocês estavam realmente esperando...
 
 55
 00:03:56,480 --> 00:03:58,380
@@ -450,6 +510,7 @@
 [jbo] zi'e noi mixre ja'e le nu ricfu
 [fra] ...La potion de Bourgeoisie !
 [ger] ...Trank des Reichtums!
+[por] ...a Poção do Requinte!
 
 56
 00:04:01,120 --> 00:04:03,710
@@ -458,6 +519,7 @@
 [jbo] .i banli
 [fra] Fantastique !
 [ger] Fantastisch!
+[por] Fantástico!
 
 57
 00:04:03,960 --> 00:04:05,750
@@ -466,6 +528,7 @@
 [jbo] .i spaji
 [fra] Incroyable !
 [ger] Unglaublich!
+[por] Incrível!
 
 58
 00:04:06,290 --> 00:04:10,800
@@ -474,6 +537,7 @@
 [jbo] .i ba gau ti ro xabju be la .komonan. cu ricfu
 [fra] Cette potion pourrait rendre le tout Komona riche !
 [ger] Dieser Trank, kann ganz Komona reich machen!
+[por] Essa poção poderá fazer todos em Konoma ricos!
 
 59
 00:04:10,960 --> 00:04:13,580
@@ -482,6 +546,7 @@
 [jbo] .i sei sruma la .koriiander. na jinga
 [fra] Vos applaudissements éliminent dès à présent Coriandre !
 [ger] Sieht wohl so aus, als sei Coriander schon von der Liste gestrichen!
+[por] Parece que Coriander já foi eliminada!
 
 60
 00:04:13,870 --> 00:04:17,870
@@ -490,6 +555,7 @@
 [jbo] .i xu la .citcimin. ba se frili le ka jivna
 [fra] Shichimi pourra-t-elle surpasser cette démonstration ?
 [ger] Schafft es Shichimi die letzte Vorstellung zu übertreffen?
+[por] Será que Shichimi é capaz de superar essa última demonstração?
 
 
 61
@@ -499,6 +565,7 @@
 [jbo] .i y mi na pu djuno le du'u sarcu fa le ka pilno tigni
 [fra] Je.. Je ne savais pas qu'il fallait faire une démonstration.
 [ger] Ich... ich wusste nicht, dass ich es noch Vorstellen muss.
+[por] Eu... Eu não imaginava que teríamos que demonstrar nossas poções.
 
 62
 00:04:23,040 --> 00:04:24,370
@@ -507,6 +574,7 @@
 [jbo] .i .e'e doi la .citcimin.
 [fra] Allons, Shichimi !
 [ger] Na los, Shichimi!
+[por] Vamos lá, Shichimi!
 
 63
 00:04:24,420 --> 00:04:25,790
@@ -515,6 +583,7 @@
 [jbo] ro le prenu tu'a do denpa
 [fra] Tout le monde vous attend !
 [ger] Alle warten auf dich!
+[por] Estão todos esperando!
 
 64
 00:04:26,330 --> 00:04:27,170
@@ -523,6 +592,7 @@
 [jbo] .i'a nai
 [fra] Non !
 [ger] Nein!..
+[por] Não...
 
 65
 00:04:27,580 --> 00:04:28,120
@@ -531,6 +601,7 @@
 [jbo] .au nai
 [fra] Je ne peux pas...
 [ger] Ich kann nicht!..
+[por] Não posso...
 
 66
 00:04:28,460 --> 00:04:30,200
@@ -539,6 +610,7 @@
 [jbo] .o'i sai
 [fra] C'est trop dangeureux !
 [ger] Es ist zu gefährlich!..
+[por] É muito perigoso!
 
 
 67
@@ -548,6 +620,7 @@
 [jbo] .u'u
 [fra] Dé...Désolée !
 [ger] Es-Es tut mir leid!..
+[por] Me... me... Me perdoem!
 
 68
 00:04:32,370 --> 00:04:33,750
@@ -556,6 +629,7 @@
 [jbo] .i doi lei nobli
 [fra] Mesdames et messieurs...
 [ger] Meine Damen und Herren...
+[por] Senhoras e senhores...
 
 69
 00:04:34,000 --> 00:04:35,500
@@ -564,6 +638,7 @@
 [jbo] .i sei simlu la .citcimin. ca rivbi
 [fra] ...il semblerait que Shichimi abandonne...
 [ger] ...sieht wohl aus, dass Shichimi ausscheiden würde...
+[por] ...parece que Shimichi está desistindo...
 
 70
 00:04:35,540 --> 00:04:36,420
@@ -572,6 +647,7 @@
 [jbo] .i ko dunda ta mi
 [fra] Donne moi ça !
 [ger] GIB HER!
+[por] Dei-me isso aqui!
 
 71
 00:04:36,580 --> 00:04:37,370
@@ -580,6 +656,7 @@
 [jbo] .i ckape
 [fra] ATTENTION !!!
 [ger] VORSICHT!!!
+[por] CUIDADO!!!
 
 72
 00:04:37,660 --> 00:04:39,480
@@ -588,6 +665,7 @@
 [jbo] .i ma ckape i ro le prenu ca sanji le nu va'o ro da mi jinga
 [fra] quoi que ta potion fasse ...
 [ger] Was soll schon passieren?
+[por] O que pode ser tão perigoso?
 
 73
 00:04:39,680 --> 00:04:43,460
@@ -596,6 +674,7 @@
 [jbo] .i sei sampu do terpa ki'u le nu le do mixre na zmadu fi le ka banli
 [fra] Tout le monde sait déjà que j'ai gagné le concours, alors ..
 [ger] Du hast ja einfach nur Angst, dass dein Trank sich mit meinem nicht messen kann!
+[por] Você apenas está assustada pois sua poção não é fantástica como a minha!
 
 74
 00:04:44,580 --> 00:04:46,900
@@ -604,6 +683,7 @@
 [jbo] .i .ii le mixre cu jai rinka
 [fra] Nooon, c'est une potion de ...
 [ger] Nein-nein, es ist ein Trank der...
+[por] Não... Não... essa é uma poção de...
 
 75
 00:04:47,960 --> 00:04:50,840
@@ -612,6 +692,7 @@
 [jbo] tu'a lo barda monsuta
 [fra] ...MONSTRE GÉANT !!!
 [ger] ...RIESEN MONSTER!!!
+[por] ...MONSTROS GIGANTES!!!
 
 76
 00:04:58,100 --> 00:04:59,940
@@ -619,6 +700,7 @@
 [eng] Mr. Mayor, Mr. Mayor!
 [fra] M. le maire ! M le maire !
 [ger] Herr Bürgermeister, herr Bürgermeister!
+[por] Senhor Prefeito, Senhor Prefeito!
 
 77
 00:05:00,100 --> 00:05:01,260
@@ -627,6 +709,7 @@
 [jbo] .i pei tcini le nu mi tigni
 [fra] C'est mon tour maintenant ?
 [ger] Bin ich jetzt dran??
+[por] Agora é a minha vez?
 
 78
 00:05:01,280 --> 00:05:02,340
@@ -635,6 +718,7 @@
 [jbo] .i bajra
 [fra] Fuis ! idiote !
 [ger] Lauf!
+[por] Corra!
 
 79
 00:05:03,260 --> 00:05:04,420
@@ -642,6 +726,7 @@
 [eng] *МАМАААА*
 [fra] *MAMAAAAN*
 [ger] *МАМАААА*
+[por] SALVE-SE QUEM PUDER!
 
 80
 00:05:07,520 --> 00:05:11,260
@@ -650,6 +735,8 @@
 [jbo] .i zabna funca la .karot. .i no prenu ba zgana za'e le do manci mixre
 [fra] Coup de bol, Carrot. Il semblerait que personne n'ait à voir ta fabuleuse "potion"
 [ger] Hast du glück Carrot. Sieht wohl so aus, dass niemand deinen wundersamen Trank sehen wird...
+[por] Que sorte, Carrot; Parece que ninguém vai ver sua poção maravilhosa...
+
 
 81
 00:05:11,500 --> 00:05:13,600
@@ -658,6 +745,7 @@
 [jbo] .i ba daspo le tcadu
 [fra] [en fond] À l'aide ! Au secours ! Elle va détruire tout Komona !
 [ger] Sie wird unsere Stadt zerstören!!!
+[por] Ela vai destruir a cidade!!!
 
 82
 00:05:14,720 --> 00:05:17,760
@@ -666,6 +754,7 @@
 [jbo] .i ko sisti .i mi da finti
 [fra] Oh! Je viens d'avoir une idée !
 [ger] Warte mal, ich denke, ich habe eine Idee!
+[por] Ei! Acho que tive uma idéia!
 
 83
 00:05:26,060 --> 00:05:26,960
@@ -674,6 +763,7 @@
 [jbo] ju'i do
 [fra] Hé !
 [ger] Hey, Du!
+[por] Ei, você!
 
 84
 00:05:27,440 --> 00:05:30,060
@@ -682,6 +772,7 @@
 [jbo] .i ju'i le io nai barda no'e cipni
 [fra] Toi le piou-piou-géant-zombie-bourgeois !
 [ger] Du überdimensionale Zombiewellensittichtussi!
+[por] Seu canário zumbi superdesenvolvido e metido à besta!
 
 85
 00:05:30,120 --> 00:05:32,370
@@ -690,6 +781,7 @@
 [jbo] .i pei carvi do fa ti noi ro moi mixre
 [fra] Ça te dit de tester la dernière "potion" ?
 [ger] Willst mal den letzten "Trank" probieren?
+[por] Quer tentar maos uma poção?
 
 
 86
@@ -699,6 +791,7 @@
 [jbo] .i ku'i 1mai
 [fra] Tout d'abord...
 [ger] Aber zu erst...
+[por] Mas antes...
 
 87
 00:05:34,790 --> 00:05:37,000
@@ -707,6 +800,7 @@
 [jbo] ko tcidu le notci
 [fra] ...lis bien l'étiquette !
 [ger] ...lies was hier steht!
+[por] ...leia o rótulo!
 
 88
 00:05:37,920 --> 00:05:39,480
@@ -715,6 +809,7 @@
 [jbo] .i ko jundi tcidu
 [fra] Lis la attentivement !
 [ger] Lies genau!
+[por] Leia com cuidado!
 
 89
 00:05:44,360 --> 00:05:49,920
@@ -723,6 +818,7 @@
 [jbo] .i do cliva la .komonan. .i jo nai .e'i ti do carvi
 [fra] Je n'hésiterai pas à t'en verser dessus si tu dégages pas tout de suite de Komona !
 [ger] Wenn du nicht sofort aus Komona verschwindest, glaub mir - ich kippe das Zeug auf dich!
+[por] E se você não for embora de Komona agora, eu vou fazer você beber ela todinha, tenha certeza!
 
 90
 00:05:50,580 --> 00:05:51,250
@@ -731,6 +827,7 @@
 [jbo] ki'a nai pei
 [fra] Pigé !?
 [ger] Hast du mich vestanden?
+[por] Fui clara?!
 
 91
 00:06:15,710 --> 00:06:20,740
@@ -739,6 +836,7 @@
 [jbo] .i fi le ka jai gau snura fai le tcadu vau mi'a cnemu
 [fra] Parce qu'elle a sauvé notre ville, la première place revient à ...
 [ger] Für die Rettung unserer Stadt, geht der erste Platz an...
+[por] Como ela salvou nossa cidade, o primeiro lugar do concurso vai para...
 
 92
 00:06:20,790 --> 00:06:23,040
@@ -747,6 +845,7 @@
 [jbo] la .piper.
 [fra] ...Mademoiselle Pepper !
 [ger] ...Miss Pepper!
+[por] ...a senhorita Pepper!
 
 93
 00:06:23,240 --> 00:06:25,280
@@ -755,6 +854,7 @@
 [jbo] i le mixre pe ri ja'a banli
 [fra] Pour sa merveilleuse potion !
 [ger] Für ihren wundersamen Trank!
+[por] Por sua poção maravilhosa!
 
 94
 00:06:26,020 --> 00:06:27,330
@@ -763,6 +863,7 @@
 [jbo] .i sei stace
 [fra] Hmm, vous allez rire...
 [ger] Hm, eigentlich...
+[por] Bem, para falar a verdade...
 
 95
 00:06:27,580 --> 00:06:29,290
@@ -771,6 +872,7 @@
 [jbo] le mixre na tai banli
 [fra] ...c'est pas vraiment une potion...
 [ger] ...ist es garnicht so wundersam...
+[por] ...não era uma poção.
 
 96
 00:06:29,420 --> 00:06:32,580
@@ -779,6 +881,8 @@
 [jbo] .i sa'u ti pinca le mlatu pe mi
 [fra] ...ce sont juste les échantillons d'urine de mon chat pour le veto !
 [ger] ...es ist einfach nur eine Urinprobe meiner Katze vom letzten Tierarztbesuch!
+[por] Era apenas uma amostra da urina do meu gato da sua última visita ao veterinário!
+
 
 97
 00:06:33,170 --> 00:06:34,170
@@ -787,6 +891,7 @@
 [jbo] ie pei doi la .karot.
 [fra] N'est ce pas, carrot ?
 [ger] Stimmts, Carrot?
+[por] Não é, Carrot?
 
 98
 00:06:35,710 --> 00:06:36,420
@@ -795,4 +900,4 @@
 [jbo] mi'au
 [fra] Miaou !
 [ger] Miau!
-
+[por] Miau!
