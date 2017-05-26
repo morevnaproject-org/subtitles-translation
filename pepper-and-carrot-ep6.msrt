@@ -3,12 +3,12 @@
 [*]
 [*] Translators and correctors:
 [*]   English: Alex Gryson, Stas Kholodilin, scribblemaniac
-[*]   Russian: Denis "uncle Night" Prisukhin, Nikolai Mamashev, Stas Kholodilin
-[*]   Lojban: Gleki Arxokuna
 [*]   French: Olivier Jolly
 [*]   German: Vitalij Mik
-[*]   Portuguese: Fábio Emilio Costa
 [*]   Italian: Carlo Gandolfi
+[*]   Lojban: Gleki Arxokuna
+[*]   Portuguese: Fábio Emilio Costa
+[*]   Russian: Denis "uncle Night" Prisukhin, Nikolai Mamashev, Stas Kholodilin
 
 1
 00:00:01,030 --> 00:00:03,530
@@ -316,7 +316,7 @@
 31
 00:02:05,210 --> 00:02:07,670
 [rus] ...прибывшую прямиком из Техносоюза!
-[eng] ...from the great Technologist's Union!!!...
+[eng] ...from the great Technologist's Union!!!..
 [jbo] gi'e melbi gi'e stati vau se cmene be zo
 [fra] ... d'accueillir la ravissante et ingénieuse ...
 [deu] ...die direkt aus der Techniker Gemeinde kommt!
@@ -519,7 +519,7 @@
 51
 00:03:41,460 --> 00:03:43,520
 [rus] Зелье Зомбификации...
-[eng] A potion of Zombification...
+[eng] A potion of Zombification..
 [jbo] .i le no'e morsi
 [fra] Une potion de zombification...
 [deu] Trank der Zombiefizierung...
