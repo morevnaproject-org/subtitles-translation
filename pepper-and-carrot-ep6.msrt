@@ -2,6 +2,7 @@
 [*] STATUS: Translations are welcome.
 [*]
 [*] Translators and correctors:
+[*]   Danish: Alexandre, Emmiline, and Rikke Skaaning Alapetite
 [*]   English: Alex Gryson, Stas Kholodilin, scribblemaniac
 [*]   Esperanto: Aleks André, surbaze de la traduko de librefan kaj korektoj de kaoseto
 [*]   French: Olivier Jolly
@@ -14,6 +15,7 @@
 1
 00:00:01,030 --> 00:00:03,530
 [rus] Проект "Моревна"...
+[dan] Morevna Projeket...
 [eng] Morevna Project...
 [epo] La Projekto Morevna…
 [jbo] la'o gy.Morevna Project.gy.
@@ -25,6 +27,7 @@
 2
 00:00:04,370 --> 00:00:06,780
 [rus] При поддержке "Ethic Cinema"...
+[dan] ...i samarbejde med "Ethic Cinema"...
 [eng] ...in association with "Ethic Cinema"...
 [epo] asocie kun Ethic Cinema…
 [jbo] .e la'o gy.Ethic Cinema.gy. noi sidju
@@ -36,6 +39,7 @@
 3
 00:00:07,240 --> 00:00:08,510
 [rus] Представляет.
+[dan] ...præsenterer.
 [eng] ...presents.
 [epo] prezentas.
 [jbo] cu tigni
@@ -47,6 +51,7 @@
 4
 00:00:21,780 --> 00:00:23,320
 [rus] [зевает]
+[dan] [gaber]
 [eng] [yawns]
 [epo] [oscedo]
 [jbo] to'i moltenva'u toi
@@ -58,6 +63,7 @@
 5
 00:00:24,240 --> 00:00:28,240
 [rus] Кажется, я снова уснула с открытым окном...
+[dan] Pokkers! Jeg har igen lagt mig til at sove uden at lukke vinduet...
 [eng] Oh, I fell asleep with the window open again...
 [epo] Ho fuŝ, mi enlitiĝis denove ne ferminte la fenestron…
 [jbo] .i sei simlu mi za'ure'u sipna ne'a lo kalri canko
@@ -69,6 +75,7 @@
 6
 00:00:29,960 --> 00:00:32,760
 [rus] Уфф... Как дует то...
+[dan] ...men sikke en vind! 
 [eng] Ufff... it's so windy...
 [epo] Nu… kia vento!
 [jbo] .i .oi mutce brife
@@ -80,6 +87,7 @@
 7
 00:00:33,620 --> 00:00:36,910
 [rus] И почему мне видно из окна... Комону?
+[dan] ... og hvorfor kan jeg se Komona ud af vinduet?
 [eng] ...and why can I see Komona through the window?
 [epo] Kaj kial mi vidas Komonon tra la fenestro?
 [jbo] .i ni'i ma la .komonan. cu trixe le canko
@@ -91,6 +99,7 @@
 8
 00:00:37,240 --> 00:00:38,240
 [rus] Комону?!
+[dan] Komona!
 [eng] Komona?!
 [epo] Komono!
 [jbo] la .komonan.
@@ -102,6 +111,7 @@
 9
 00:00:39,200 --> 00:00:39,990
 [rus] КОНКУРС!!!
+[dan] Eliksir-konkurrencen!
 [eng] THE CONTEST!!!
 [epo] La konkurso!!!
 [jbo] .i nu jivna
@@ -113,6 +123,7 @@
 10
 00:00:41,700 --> 00:00:43,280
 [rus] В предыдущих сериях:
+[dan] I tidligere episoder:
 [eng] In previous episodes:
 [epo] Antaŭe:
 [jbo] .i purci pagbu
@@ -124,6 +135,7 @@
 11
 00:00:43,450 --> 00:00:45,490
 [rus] Пэппер потратила много сил...
+[dan] Peber gjort en stor indsats...
 [eng] Pepper spent a lot of effort...
 [epo] Pipro spertis multe da streĉoj…
 [jbo] .i la .piper. pu carmi jai gau bredi
@@ -135,6 +147,7 @@
 12
 00:00:45,870 --> 00:00:49,490
 [rus] ...чтобы подготовиться к конкурсу зельеваров.
+[dan] ...for at være klar til potionkonkurrencen.
 [eng] ...preparing for the potion contest.
 [epo] preparante por la trinkaĵ-konkurso.
 [jbo] tu'a le nu jivna fa lo finti be lo mixre
@@ -146,6 +159,7 @@
 13
 00:00:50,040 --> 00:00:50,870
 [rus] Должно быть...
+[dan] Åh nej...
 [eng] I must've...
 [epo] Mi sendube…
 [jbo] .i sei sruma
@@ -157,6 +171,7 @@
 14
 00:00:51,210 --> 00:00:54,000
 [rus] Должно быть я случайно уснула...
+[dan] jeg faldt vist i søvn!
 [epo] Mi sendube ekdormiĝis nevole!
 [eng] ...must've accidentally fallen asleep...
 [jbo] mi pu se snuti sipna be co'a
@@ -169,6 +184,7 @@
 15
 00:00:54,470 --> 00:00:55,100
 [rus] Но...
+[dan] ... men?
 [eng] But...
 [epo] Sed…
 [jbo] .i ku'i
@@ -180,6 +196,7 @@
 16
 00:00:56,180 --> 00:00:57,320
 [rus] Но... Где я?
+[dan] Hvor er jeg ?!?
 [eng] But...where am I?
 [epo] Sed… kie mi estas?
 [jbo] ku'i y mi ma zvati
@@ -191,6 +208,7 @@
 17
 00:00:58,220 --> 00:00:59,160
 [rus] Ой!!!
+[dan] Åh!!!
 [eng] Oh!!!
 [epo] Ho!!!
 [jbo] ii
@@ -202,6 +220,7 @@
 18
 00:01:04,880 --> 00:01:08,580
 [rus] Кэррот, как это мило, что ты обо всем позаботился!
+[dan] Carrot! Hvor er du sød at have tænkt på at tage mig hen til konkurrencen!
 [eng] Carrot! It's so cute that you took care of everything!
 [epo] Karoĉoj! Bonkoran iniciativon vi havis, konduki min al la konkurso!
 [jbo] .i u'e iu doi la karot do ro da pu'i kurji
@@ -213,6 +232,7 @@
 19
 00:01:09,640 --> 00:01:10,640
 [rus] Мяу!
+[dan] Mjav!
 [eng] Meow!
 [epo] Mjaŭ!
 [jbo] mi'au
@@ -224,6 +244,7 @@
 20
 00:01:11,620 --> 00:01:16,040
 [rus] Ты даже додумался взять зелье, мою одежду и шляпу!
+[dan] Du har endda tænkt på at tage en eliksir, mit tøj, og min hat... 
 [eng] You even thought to bring a potion, my clothes, and my hat!
 [epo] Vi eĉ pensis elpreni sorĉotrinkaĵon, miajn vestaojn kaj la ĉapelon!
 [jbo] .i do punji pa mixre .e ke ji'a le taxfu e le mapku
@@ -235,6 +256,7 @@
 21
 00:01:17,120 --> 00:01:20,670
 [rus] Ну ка, давай глянем, какое зелье ты прихватил.
+[dan] ... lad os se hvilken eliksir du har valgt... 
 [eng] Well, let's see which potion you brought.
 [epo] Nu, kiun trinkaĵon vi kunprenis? …
 [jbo] .i .ai facki le du'u do punji ma kau noi mixre
@@ -247,6 +269,7 @@
 22
 00:01:21,170 --> 00:01:23,040
 [rus] Тааак, что у нас тут?
+[dan] Så, hvad har vi her?
 [eng] So, what do we have here?
 [epo] Do, kion ni havas ĉi tie?
 [jbo] .i ti mo
@@ -258,6 +281,7 @@
 23
 00:01:23,870 --> 00:01:25,870
 [rus] Чтооооо?!
+[dan] HVAD?!!
 [eng] Whaaaat?!
 [epo] Kio?
 [jbo] .i mo
@@ -269,6 +293,7 @@
 24
 00:01:28,740 --> 00:01:32,840
 [rus] Кэээээээрррррооооооот!!!!!!!
+[dan] Caaaaaaarrrrrooooooot!!!!!!!
 [eng] Caaaaaaarrrrrooooooot!!!!!!!
 [epo] Kaaaaarrrroooooĉjoooo!!!!!!!
 [jbo] .i karot
@@ -280,6 +305,7 @@
 25
 00:01:33,640 --> 00:01:37,400
 [rus] Пэппер и Кэррот. Эпизод 6: Конкурс зельеваров.
+[dan] Pepper & Carrot. Episode 6: Eliksirkonkurrencen
 [eng] Pepper & Carrot. Episode 6: The Potion Contest
 [epo] Pipro kaj Karoĉoj. Epizodo 6: La Trinkaĵo-Konkurso
 [jbo] la .piper. jo'u la .karot. .i 6moi fa la nu jivna
@@ -291,6 +317,7 @@
 26
 00:01:38,330 --> 00:01:43,120
 [rus] На правах мэра Комоны, я объявляю соревнование зельеваров...
+[dan] Som Komonas borgmester, erklærer jeg hermed eliksirkonkurrencen...
 [eng] As Mayor of Komona, I declare the potion contest...
 [epo] Kiel la urbestro de Komono, mi deklaras la trinkaĵo-konkurson…
 [jbo] .i gau mi poi turni la .komonan. vau le nu jivna fa le finti be lo mixre
@@ -302,6 +329,7 @@
 27
 00:01:43,420 --> 00:01:45,080
 [rus] ...открытым!
+[dan] ... for åben!...
 [eng] ...open!
 [epo] malfermita!
 [jbo] cu ca'e fasnu
@@ -313,6 +341,7 @@
 28
 00:01:46,870 --> 00:01:50,870
 [rus] В этом конкурсе примут участие четыре юные ведьмы!
+[dan] Vi er meget stolt af at byde velkommen til ikke mindre end fire hekse!
 [eng] Four young witches are participating in this contest!
 [epo] Ni bonvenigas ne malpli ol kvar sorĉistinojn por tiu ĉi unua konkurso!
 [jbo] .i simxu le ka jivna fa le vo citno te makfa
@@ -324,6 +353,7 @@
 29
 00:01:51,920 --> 00:01:54,540
 [rus] Давайте же им громко поаплодируем!
+[dan] Lad os give dem en STOR hånd:
 [eng] Please give a huge round of applause!
 [epo] Bonvolu ilin aplaŭdi laŭtege!
 [jbo] .i .e'e cladu sarji le vo mei
@@ -336,6 +366,7 @@
 30
 00:02:00,620 --> 00:02:04,620
 [rus] Это честь видеть здесь восхитительную искусницу...
+[dan] Helt fra det fantastiske Teknologland, er det en ære...
 [eng] It is an honor to welcome the ravishing and ingenious witch...
 [epo] El la granda lando de la Unio de Teĥnologiistoj,
 [jbo] .i klama fi la texno gunma fa le noi se sinma
@@ -347,6 +378,7 @@
 31
 00:02:05,210 --> 00:02:07,670
 [rus] ...прибывшую прямиком из Техносоюза!
+[dan] ... at byde velkommen til den charmerende og geniale...
 [eng] ...from the great Technologist's Union!!!..
 [epo] ni havas la honoron bonvenigi la ĉarman kaj eltroveman…
 [jbo] gi'e melbi gi'e stati vau se cmene be zo
@@ -358,6 +390,7 @@
 32
 00:02:08,040 --> 00:02:11,780
 [rus] Кориандр!
+[dan] Koriander!
 [eng] Coriander!
 [epo] Koriandro!
 [jbo] .koriiander.
@@ -369,6 +402,7 @@
 33
 00:02:13,040 --> 00:02:17,710
 [rus] И не забывайте о нашей, дорогой ведьме из Комоны...
+[dan] Uden at glemme vores lokale pige, Komonas egen heks,
 [eng] And don't forget about our local girl, Komona's very own witch...
 [epo] Ni ne forgesu nian hejmlokan knabinon, la Komona soristino mem…
 [jbo] .i .ei morji fi pa nixli poi diklo mi'a .i fi'i la
@@ -380,6 +414,7 @@
 34
 00:02:18,080 --> 00:02:20,960
 [rus] Шафран!
+[dan] Safran!
 [eng] Saffron!
 [epo] Safrano!
 [jbo] .safran.
@@ -391,6 +426,7 @@
 35
 00:02:26,660 --> 00:02:28,920
 [rus] Наша третья участница...
+[dan] Vores tredje deltager...
 [eng] Our third participant...
 [epo] Nia tria partoprenantino…
 [jbo] .i le ci moi jivna
@@ -402,6 +438,7 @@
 36
 00:02:29,140 --> 00:02:32,580
 [rus] ...гостья, из страны заходящих лун...
+[dan] ... kommer fra Månenedgangenes land...
 [eng] ...comes to us from the lands of the setting moons...
 [epo] alvenis al ni el la lando de la Subirantaj Lunoj,
 [jbo] cu klama fi lei tumla be se ke dizlo mluni
@@ -413,6 +450,7 @@
 37
 00:02:33,040 --> 00:02:34,920
 [rus] ...загадочная...
+[dan] ... den mystiske...
 [eng] ...the mysterious...
 [epo] la mistera…
 [jbo] .i coi noi cizra
@@ -424,6 +462,7 @@
 38
 00:02:35,900 --> 00:02:38,340
 [rus] ...Ситими!
+[dan] ... Shichimi!
 [eng] ...Shichimi!
 [epo] Ŝiŝimio!
 [jbo] .citcimin.
@@ -435,6 +474,7 @@
 39
 00:02:40,120 --> 00:02:44,520
 [rus] И, наконец, наша последняя участница из Леса беличьего уголка...
+[dan] Og endelig, vores sidste deltager, som kommer fra skoven ved Egerns Ende...
 [eng] And finally our last participant, from the forest of Squirrel's End...
 [epo] Kaj finfine nia lasta partoprenantino elvenis de la fundo de la Sciur-arbaro,
 [jbo] .i uo ro moi jivna ra'i la rebla be lo ricyratcu fa la
@@ -446,6 +486,7 @@
 40
 00:02:44,820 --> 00:02:46,300
 [rus] ...Пэппер.
+[dan] ...Pepper!
 [eng] ...Pepper.
 [epo] Pipro!
 [jbo] .piper.
@@ -457,6 +498,7 @@
 41
 00:02:49,340 --> 00:02:50,780
 [rus] Дамы и господа!
+[dan]  Mine damer og herrer...
 [eng] Ladies and gentlemen!
 [epo] Gesignoroj,
 [jbo] .i doi lei nobli
@@ -468,6 +510,7 @@
 42
 00:02:50,870 --> 00:02:56,460
 [rus] Обладателя главного приза определят Ваши аплодисменты!
+[dan] Stemmerne vil bliver talt op af klap-o-metereret
 [eng] The winner of the grand prize of 50,000 Ko will be determined by applaud-o-meter!
 [epo] La voĉdonado fariĝos per la aplaŭdado!
 [jbo] .i ca'e ba jdice fi le jinga ta'i le nu mi'o cladu zanru
@@ -480,6 +523,7 @@
 43
 00:02:56,580 --> 00:03:00,420
 [rus] И да начнутся игры!
+[dan] Lad konkurrencen begynde!
 [eng] Let the games begin!
 [epo] Komenciĝu la Konkurso!
 [jbo] .i .e'e co'a jivna
@@ -492,6 +536,7 @@
 44
 00:03:02,580 --> 00:03:07,370
 [rus] [орёт] Итак, Мисс Кориандр, приглашаем Вас выступить первой.
+[dan] [råb]  Først skal vi se Korianders demonstration 
 [eng] [shouting] Well! First up Coriander's demonstration.
 [epo] [krias] Unue, atentu la konkursaĵon de Koriandro.
 [jbo] i 1mai tigni fa la .koriiander.
@@ -503,6 +548,7 @@
 45
 00:03:09,830 --> 00:03:11,500
 [rus] Дамы и господа...
+[dan]  Mine damer og herrer...
 [eng] Ladies & gentlemen...
 [epo] Gesinjoroj,
 [jbo] .i doi lei nobli
@@ -514,6 +560,7 @@
 46
 00:03:11,960 --> 00:03:15,040
 [rus] ...смерть больше не страшна, благодаря моему...
+[dan] ... frygt ikke længere døden takket være... 
 [eng] ...fear death no more, thanks to my...
 [epo] Nepre ne plu timu la morton danke al mia…
 [jbo] ko co'u terpa tu'a lo morsi .i ki'u bo mi co'i finti pa mixre
@@ -525,6 +572,7 @@
 47
 00:03:15,670 --> 00:03:17,370
 [rus] ...зелью Зомбификации!
+[dan] ... min ZOMBIFICERINGS-eliksir!
 [eng] ...Potion of Zombification!
 [epo] trinkaĵo Sorĉit-kadavriga!
 [jbo] pe ja'e le nu no'e morsi
@@ -537,6 +585,7 @@
 48
 00:03:27,980 --> 00:03:29,700
 [rus] Великолепно!
+[dan] FANTASTISK!
 [eng] Amazing!
 [epo] Mirindega!
 [jbo] manci
@@ -548,6 +597,7 @@
 49
 00:03:30,560 --> 00:03:37,180
 [rus] Этим чудодейственным зельем, Кориандр бросает вызов самой Смерти!
+[dan] Koriander trodser selve døden med denne mi-ra-ku-lø-se eliksir!
 [eng] With this mi-ra-cu-lous potion, Coriander defies death itself!
 [epo] La morton mem defias Koriandro per tiu iu trinkaĵo MI-RA-KLEG-A!
 [jbo] .i je'u gau la .koriiander. le xadni co'a jmive
@@ -559,6 +609,7 @@
 50
 00:03:38,540 --> 00:03:40,620
 [rus] Да-да-да...
+[dan] Ja ja ja...
 [eng] Yes-yes-yes...
 [epo] Jes jes jes…
 [jbo] ie ie ie
@@ -570,6 +621,7 @@
 51
 00:03:41,460 --> 00:03:43,520
 [rus] Зелье Зомбификации...
+[dan] En zombificerings-eliksir...
 [eng] A potion of Zombification..
 [epo] Trinkaĵo sorĉit-kadavriga…
 [jbo] .i le no'e morsi
@@ -582,6 +634,7 @@
 52
 00:03:43,920 --> 00:03:45,200
 [rus] глупости какие!
+[dan] Det er ingenting!
 [eng] that's nothing!
 [epo] estas nenio!
 [jbo] tai jai se bebna
@@ -593,6 +646,7 @@
 53
 00:03:45,210 --> 00:03:47,330
 [rus] Пора оценить МОЁ зелье.
+[dan] For her er MIN eliksir 
 [eng] It's time to rate MY potion.
 [epo] Tempo estas por MIA trinkaĵo.
 [jbo] .i citsi le nu lanli le mixre
@@ -605,6 +659,7 @@
 54
 00:03:47,830 --> 00:03:51,830
 [rus] Зелье, которое Вы все по-настоящему ждали...
+[dan] Den eliksir I alle har ventet på...
 [eng] The real potion you've all been waiting for...
 [epo] La vera trinkaĵo, kiun vi ĉiuj atendas:
 [jbo] pe mi zi'e noi cmima le'i jai se kanpe be do
@@ -616,6 +671,7 @@
 55
 00:03:56,480 --> 00:03:58,380
 [rus] ...зелье Роскоши!
+[dan] ...OVERKLASSES-ELIKSIREN!
 [eng] ...The Potion of Poshness!
 [epo] trinkaĵo luksiga!
 [jbo] zi'e noi mixre ja'e le nu ricfu
@@ -627,6 +683,7 @@
 56
 00:04:01,120 --> 00:04:03,710
 [rus] Фантастически!
+[dan] Fantastisk!
 [eng] Fantastic!
 [epo] Mirindege!
 [jbo] .i banli
@@ -638,6 +695,7 @@
 57
 00:04:03,960 --> 00:04:05,750
 [rus] Невероятно!
+[dan] Utroligt!
 [eng] Incredible!
 [epo] Nekredeble!
 [jbo] .i spaji
@@ -649,6 +707,7 @@
 58
 00:04:06,290 --> 00:04:10,800
 [rus] Это зелье ВСЮ Комону может сделать богатой!
+[dan] Denne eliksir kan gøre hele Komona rig!
 [eng] This potion could make all of Komona rich!
 [epo] Tiu ĉi trinkaĵo povus riĉigi ĉiujn Komonajn urbanojn!
 [jbo] .i ba gau ti ro xabju be la .komonan. cu ricfu
@@ -660,6 +719,7 @@
 59
 00:04:10,960 --> 00:04:13,580
 [rus] Похоже, что Кориандр уже вычеркнута из списка!
+[dan] Jeres klapsalver lyver ikke; Koriander er allerede udgået.
 [eng] It seems,  Coriander has already been eliminated!
 [epo] Ŝajne Koriandro jam estas eliminita!
 [jbo] .i sei sruma la .koriiander. na jinga
@@ -671,6 +731,7 @@
 60
 00:04:13,870 --> 00:04:17,870
 [rus] Сможет ли Ситими превзойти последнюю демонстрацию?
+[dan] Det bliver svært for Shichimi at slå!
 [eng] Will Shichimi be able to beat that last demonstration?
 [epo] Ĉu Ŝiŝimio venkos tiun ĉi demonstradon?
 [jbo] .i xu la .citcimin. ba se frili le ka jivna
@@ -683,6 +744,7 @@
 61
 00:04:18,830 --> 00:04:22,700
 [rus] Я... я не знала, что предется еще и демонстрировать.
+[dan] Jeg... Jeg vidste ikke, at vi skulle lave en demonstration
 [eng] I... I did not know we had to give a demonstration.
 [epo] Mi… Mi ne sciis, ke ni devos demonstri.
 [jbo] .i y mi na pu djuno le du'u sarcu fa le ka pilno tigni
@@ -694,6 +756,7 @@
 62
 00:04:23,040 --> 00:04:24,370
 [rus] Давай же, Ситими!
+[dan] ... Kom nu Shichimi!
 [eng] Come on Shichimi!
 [epo] Ek, Ŝiŝimio!
 [jbo] .i .e'e doi la .citcimin.
@@ -705,6 +768,7 @@
 63
 00:04:24,420 --> 00:04:25,790
 [rus] Тебя все ждут!
+[dan] Alle venter på dig 
 [eng] Everyone's waiting for you!
 [epo] Ĉiuj vin atendas!
 [jbo] ro le prenu tu'a do denpa
@@ -716,6 +780,7 @@
 64
 00:04:26,330 --> 00:04:27,170
 [rus] Нет!..
+[dan] NEJ!..
 [eng] No!..
 [epo] Ne!
 [jbo] .i'a nai
@@ -727,6 +792,7 @@
 65
 00:04:27,580 --> 00:04:28,120
 [rus] Нельзя!..
+[dan] Det kan jeg ikke!
 [eng] I cannot!..
 [epo] Mi ne povas…
 [jbo] .au nai
@@ -738,6 +804,7 @@
 66
 00:04:28,460 --> 00:04:30,200
 [rus] Это слишком опасно!..
+[dan] Det er for farligt!
 [eng] It is too dangerous!..
 [epo] tro danĝere…
 [jbo] .o'i sai
@@ -750,6 +817,7 @@
 67
 00:04:30,400 --> 00:04:31,640
 [rus] П-простите!..
+[dan] UNDSKYLD!
 [eng] S-sorry!..
 [epo] Pardonu!
 [jbo] .u'u
@@ -761,6 +829,7 @@
 68
 00:04:32,370 --> 00:04:33,750
 [rus] Дамы и господа...
+[dan] Mine damer og herrer...
 [eng] Ladies and gentlemen...
 [epo] Gesinjoroj…
 [jbo] .i doi lei nobli
@@ -772,6 +841,7 @@
 69
 00:04:34,000 --> 00:04:35,500
 [rus] ...похоже, что Ситими лишается...
+[dan] Det ser ud til, at Shichimi trækker sig...
 [eng] ...it seems that Shichimi forfeits...
 [epo] Ŝajnas, ke Ŝiŝimio kapitulacos…
 [jbo] .i sei simlu la .citcimin. ca rivbi
@@ -783,6 +853,7 @@
 70
 00:04:35,540 --> 00:04:36,420
 [rus] ДАЙ СЮДА!
+[dan] Giv mig det dér! 
 [eng] Give me that!
 [epo] Tuj donu tion al mi!
 [jbo] .i ko dunda ta mi
@@ -794,6 +865,7 @@
 71
 00:04:36,580 --> 00:04:37,370
 [rus] ОСТОРОЖНО!!!
+[dan] PAS PÅ!!!
 [eng] CAREFUL!!!
 [epo] ATENTU!!!
 [jbo] .i ckape
@@ -805,6 +877,7 @@
 72
 00:04:37,660 --> 00:04:39,480
 [rus] Что тут опасного?
+[dan] Hvad kunne være så farligt?
 [eng] What could be so dangerous?
 [epo] Kio estu tiel danĝera?
 [jbo] .i ma ckape i ro le prenu ca sanji le nu va'o ro da mi jinga
@@ -816,6 +889,7 @@
 73
 00:04:39,680 --> 00:04:43,460
 [rus] Да ты просто боишься, что твое зелье  не сможет сравниться с моим!
+[dan] Du er bare bange for, at din potion ikke er så fantastisk som min!
 [eng] You're just scared because your potion isn't as fantastic as mine!
 [epo] Ĉiuj jam scias, ke mi gajnis la konkurson, do…
 [jbo] .i sei sampu do terpa ki'u le nu le do mixre na zmadu fi le ka banli
@@ -827,6 +901,7 @@
 74
 00:04:44,580 --> 00:04:46,900
 [rus] Нет-нет, это зелье...
+[dan] Neeej, eliksiren skaber...
 [eng] No-no, it is a potion of...
 [epo] Neee, tio estas trinkaĵo…
 [jbo] .i .ii le mixre cu jai rinka
@@ -838,6 +913,7 @@
 75
 00:04:47,960 --> 00:04:50,840
 [rus] ...ГИГАНТСКИХ ЧУДОВИЩ!!!
+[dan] ... KÆMPEMONSTRE!!!
 [eng] ...GIANT MONSTERS!!!
 [epo] … gigant-monstriga!!!
 [jbo] tu'a lo barda monsuta
@@ -849,6 +925,7 @@
 76
 00:04:58,100 --> 00:04:59,940
 [rus] Мистер Мэр, мистер Мэр!
+[dan] Hr. Borgmester, Hr. Borgmester!
 [eng] Mr. Mayor, Mr. Mayor!
 [epo] S-ro la urbestro! S-ro la urbestro!
 [fra] M. le maire! M le maire !
@@ -859,6 +936,7 @@
 77
 00:05:00,100 --> 00:05:01,260
 [rus] Теперь моя очередь???
+[dan] Så er det min tur, ikke?
 [eng] Is it my turn now???
 [epo] Ĉu estas mia vico nun?
 [jbo] .i pei tcini le nu mi tigni
@@ -870,6 +948,7 @@
 78
 00:05:01,280 --> 00:05:02,340
 [rus] [ВАРИАНТ1:] Беги, что стоишь?!
+[dan] Forsvind!
 [eng] Run!
 [epo] Forkuru!
 [jbo] .i bajra
@@ -881,6 +960,7 @@
 79
 00:05:03,260 --> 00:05:04,420
 [rus] *МАМАААА*
+[dan] *Løb for livet*
 [eng] *МАМАААА*
 [epo] *PANJOOO*
 [fra] *MAMAAAAN*
@@ -891,6 +971,7 @@
 80
 00:05:07,520 --> 00:05:11,260
 [rus] Эх, радуйся, Кэррот. Похоже, никто не увидит твое чУдное зелье..
+[dan] Du er heldig, Carrot; det ser ud som om igen vil se din vidunderlige potion...
 [eng] You're lucky, Carrot; It seems nobody will see your wondrous potion...
 [epo] Bonŝanca vi estas, Karoĉjo. Ŝajne neniu vidos vian fabela «trinkaĵo»
 [jbo] .i zabna funca la .karot. .i no prenu ba zgana za'e le do manci mixre
@@ -903,6 +984,7 @@
 81
 00:05:11,500 --> 00:05:13,600
 [rus] Она разрушит наш город!!!
+[dan] Hun vil ødelægge vores by!!!
 [eng] She will destroy our town!!!
 [epo] Ĝi detruos la tuton de Komono!!!
 [jbo] .i ba daspo le tcadu
@@ -914,6 +996,7 @@
 82
 00:05:14,720 --> 00:05:17,760
 [rus] Постой, кажется, у меня появилась идея!
+[dan] Vent, jeg tror jeg har en ide!
 [eng] Wait,  I think I have an idea!
 [epo] Momenton, mi ĵus havis ideon!
 [jbo] .i ko sisti .i mi da finti
@@ -925,6 +1008,7 @@
 83
 00:05:26,060 --> 00:05:26,960
 [rus] Эй, ты!
+[dan] Hey!
 [eng] Hey!
 [epo] Hoj!
 [jbo] ju'i do
@@ -936,6 +1020,7 @@
 84
 00:05:27,440 --> 00:05:30,060
 [rus] Модница-зомбоканарейка-переросток!
+[dan] Din Kæmpe-snob-zombie-pippip!
 [eng] You oversized-posh-zombie-canary!
 [epo] Vi, la Kvivit-gigant-sorĉit-kadavr-luksulino!
 [jbo] .i ju'i le io nai barda no'e cipni
@@ -947,6 +1032,7 @@
 85
 00:05:30,120 --> 00:05:32,370
 [rus] Хочешь попробовать последнее "зелье"?
+[dan] Kunne du tænke dig at prøve den sidste eliksir?...
 [eng] Wanna try one last "potion"?
 [epo] Ĉu vin plaĉus elprovadon de la lasta trinkaĵo?
 [jbo] .i pei carvi do fa ti noi ro moi mixre
@@ -959,6 +1045,7 @@
 86
 00:05:33,420 --> 00:05:34,710
 [rus] Только сначала...
+[dan] Men først...
 [eng] But first...
 [epo] Sed unue…
 [jbo] .i ku'i 1mai
@@ -970,6 +1057,7 @@
 87
 00:05:34,790 --> 00:05:37,000
 [rus] ...прочитай, что здесь написано!
+[dan] ... læs du etiketten... 
 [eng] ...read the label!
 [epo] legu la etikedon…
 [jbo] ko tcidu le notci
@@ -981,6 +1069,7 @@
 88
 00:05:37,920 --> 00:05:39,480
 [rus] Внимательно читай!
+[dan] Læs den grundigt!
 [eng] Read it carefully!
 [epo] Atente legu ĝin!
 [jbo] .i ko jundi tcidu
@@ -992,6 +1081,7 @@
 89
 00:05:44,360 --> 00:05:49,920
 [rus] Если ты сейчас же не уберешься из Комоны, поверь мне - я вылью его на тебя!
+[dan] ... Jeg vil ikke tøve med at hælde den på dig, hvis du ikke forlader Komona med det samme! 
 [eng] If you don't get out of Komona right away, trust me: I'll pour it all over you!
 [epo] Mi senhezite verŝos tiom da fluaĵo sur vin, se vi ne tuj forflugos de Komono.
 [jbo] .i do cliva la .komonan. .i jo nai .e'i ti do carvi
@@ -1003,6 +1093,7 @@
 90
 00:05:50,580 --> 00:05:51,250
 [rus] Понятно?!
+[dan] Forstået?!
 [eng] Understood?!
 [epo] Ĉu konsentite?
 [jbo] ki'a nai pei
@@ -1014,6 +1105,7 @@
 91
 00:06:15,710 --> 00:06:20,740
 [rus] За спасение нашего города главным призом награждается...
+[dan] Fordi hun reddede vores by fra en katastrofe, giver vi førstepladsen til...
 [eng] Because she saved our town we award first place to...
 [epo] Ĉar ŝi savis nian urbon, ni donis la premion al…
 [jbo] .i fi le ka jai gau snura fai le tcadu vau mi'a cnemu
@@ -1025,6 +1117,7 @@
 92
 00:06:20,790 --> 00:06:23,040
 [rus] ...Мисс Пэппер!
+[eng] ... Frøken Peber!
 [eng] ...Miss Pepper!
 [epo] Fraŭlino Pipro!
 [jbo] la .piper.
@@ -1036,6 +1129,7 @@
 93
 00:06:23,240 --> 00:06:25,280
 [rus] За её чудесное зелье!
+[dan] For hendes vidunderlige eliksir!
 [eng] For her wonderful potion!
 [epo] Pro ŝia mirindega trinkaĵo!
 [jbo] i le mixre pe ri ja'a banli
@@ -1047,6 +1141,7 @@
 94
 00:06:26,020 --> 00:06:27,330
 [rus] Ой, да ладно вам...
+[dan] ... øh... faktisk...
 [eng] Huh, in fact...
 [epo] Be, fakte…
 [jbo] .i sei stace
@@ -1058,6 +1153,7 @@
 95
 00:06:27,580 --> 00:06:29,290
 [rus] ...никакое оно не чудесное...
+[dan] ... er det ikke rigtig en eliksir;
 [eng] ...it's not really a potion...
 [epo] ne vere estas trinkaĵo…
 [jbo] le mixre na tai banli
@@ -1069,6 +1165,7 @@
 96
 00:06:29,420 --> 00:06:32,580
 [rus] ...это просто баночка с анализами моего кота!
+[dan] ... det er min kats urinprøve til dens tjek hos dyrlægen!
 [eng] ...it's just my cat's pee sample from his last trip to the vet!
 [epo] nur estas iom da urino de mia kato okaze de la antaŭa medicina ekzameno!
 [jbo] .i sa'u ti pinca le mlatu pe mi
@@ -1081,6 +1178,7 @@
 97
 00:06:33,170 --> 00:06:34,170
 [rus] Правда, Кэррот?
+[dan] Ikke, Carrot?
 [eng] Isn't it, Carrot?
 [epo] Ĉu ne, Karoĉjo?
 [jbo] ie pei doi la .karot.
@@ -1092,6 +1190,7 @@
 98
 00:06:35,710 --> 00:06:36,420
 [rus] Мяу!
+[dan] Mjav!
 [eng] Meow!
 [epo] Mjaŭ!
 [jbo] mi'au
