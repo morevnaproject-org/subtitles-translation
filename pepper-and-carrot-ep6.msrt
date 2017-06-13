@@ -8,6 +8,7 @@
 [*]   French: Olivier Jolly
 [*]   German: Vitalij Mik
 [*]   Italian: Carlo Gandolfi
+[*]   Japanese: guruguru
 [*]   Lojban: mezohe, Gleki Arxokuna
 [*]   Portuguese: Fábio Emilio Costa
 [*]   Russian: Denis "uncle Night" Prisukhin, Nikolai Mamashev, Stas Kholodilin
@@ -23,6 +24,7 @@
 [deu] Projekt "Morevna"...
 [por] Projeto "Morevna"...
 [ita] Progetto "Morevna"...
+[jpn] Morevna Projectが...
 
 2
 00:00:04,370 --> 00:00:06,780
@@ -35,6 +37,8 @@
 [deu] ...in Zusammenarbeit mit "Ethic Cinema"...
 [por] ...em associação como o "Ethic Cinema"...
 [ita] ...im associazione con "Ethic Cinema"...
+[jpn] ...in association with "Ethic Cinema"...
+[jpn] ..."Ethic Cinema"との協賛で...
 
 3
 00:00:07,240 --> 00:00:08,510
@@ -47,6 +51,7 @@
 [deu] ...präsentiert.
 [por] ...apresentam.
 [ita] ...presenta.
+[jpn] ...お送りします
 
 4
 00:00:21,780 --> 00:00:23,320
@@ -59,6 +64,7 @@
 [deu] **gähnen**
 [por] [Bocejo]
 [ita] [sbadiglio]
+[jpn] [あくび]
 
 5
 00:00:24,240 --> 00:00:28,240
@@ -71,6 +77,7 @@
 [deu] Oh, ich glaub' bin wieder mit offenen Fenster eingeschlafen...
 [por] Puxa, acho que dormi com a janela aberta...
 [ita] Oh, mi sono addormentata ancora con le finestre aperte...
+[jpn] また窓を開けたまま寝ちゃったみたい...
 
 6
 00:00:29,960 --> 00:00:32,760
@@ -83,6 +90,7 @@
 [deu] Uff... es zieht...
 [por] Nossa! Que Frio!
 [ita] ... ma che vento !
+[jpn] うーん...すごい風の音...
 
 7
 00:00:33,620 --> 00:00:36,910
@@ -95,6 +103,7 @@
 [deu] ... und wieso kann ich Komona .. aus dem Fenster sehen?
 [por] ... e por que eu consigo ver Konoma pela janela?
 [ita] ... e perché vedo Komona dalla finestra ?
+[jpn] ...それにコモナの街が外に見えるのはどうして？
 
 8
 00:00:37,240 --> 00:00:38,240
@@ -107,6 +116,7 @@
 [deu] Komona?!
 [por] Konoma?!
 [ita] Komona?!
+[jpn] コモナですって？！
 
 9
 00:00:39,200 --> 00:00:39,990
@@ -119,6 +129,7 @@
 [deu] WETTBEWERB!!!
 [por] O CONCURSO!!!
 [ita] LA GARA !!!
+[jpn] あのコンテスト！！！
 
 10
 00:00:41,700 --> 00:00:43,280
@@ -131,6 +142,7 @@
 [deu] Was bisher geschah:
 [por] Nos episódios anteriores:
 [ita] Negli episodi precedenti:
+[jpn] これまでのあらすじ:
 
 11
 00:00:43,450 --> 00:00:45,490
@@ -143,6 +155,7 @@
 [deu] Pepper wendete viel Kraut auf...
 [por] Pepper se esforçou bastante...
 [ita] Pepper ha dedicato molto tempo...
+[jpn] ペッパーは魔法薬コンテストに向けて...
 
 12
 00:00:45,870 --> 00:00:49,490
@@ -155,6 +168,7 @@
 [deu] ...um sich auf den anstehenden Tränke Wettbewerb vor zu bereiten.
 [por] ...se preparando para o concurso de poções.
 [ita] ...nel prepararsi per la Gara delle Pozioni.
+[jpn] ...とてもがんばっていました
 
 13
 00:00:50,040 --> 00:00:50,870
@@ -167,6 +181,7 @@
 [deu] Ich bin wahrscheinlich ...
 [por] Eu devo...
 [ita] Mi...
+[jpn] きっと...
 
 14
 00:00:51,210 --> 00:00:54,000
@@ -179,7 +194,7 @@
 [deu] Ich bin wahrscheinlich eingenickt...
 [por] ...devo ter caído no sono por acidente...
 [ita] ...mi devo essere addormentata !
-
+[jpn] うっかりして寝ちゃったんだ！
 
 15
 00:00:54,470 --> 00:00:55,100
@@ -192,6 +207,7 @@
 [deu] Aber...
 [por] Mas...
 [ita] Ma...
+[jpn] でも...
 
 16
 00:00:56,180 --> 00:00:57,320
@@ -204,6 +220,7 @@
 [deu] Aber... wo bin ich?
 [por] Mas... Onde eu estou?
 [ita] Ma... dove sono ?
+[jpn] でも...ここはどこ？
 
 17
 00:00:58,220 --> 00:00:59,160
@@ -216,6 +233,7 @@
 [deu] Oh!!!
 [por] Oh!!!
 [ita] Oh!!!
+[jpn] あっ！！！
 
 18
 00:01:04,880 --> 00:01:08,580
@@ -228,6 +246,7 @@
 [deu] Carrot! Es ist so süß von dir, dass du dich um alles gekümmert hast!
 [por] Carrot! Foi muita bondade sua cuidar de tudo!
 [ita] Carrot ! Sei proprio in gamba, mi stai portando alla gara !
+[jpn] キャロット！全部面倒を見てくれたのね！
 
 19
 00:01:09,640 --> 00:01:10,640
@@ -240,6 +259,7 @@
 [deu] Miau!
 [por] Miau!
 [ita] Miao!
+[jpn] にゃあ！
 
 20
 00:01:11,620 --> 00:01:16,040
@@ -252,6 +272,7 @@
 [deu] Du hast sogar an die Kräuter, meine Klammoten und den Hut gedacht!
 [por] Você até mesmo trouxe uma poção, minhas roupas e meu chapéu!
 [ita] Hai pensato anche di portare una pozione, i miei vestiti, e il mio cappello !
+[jpn] 私の魔法薬に 服に 帽子まで全部用意してくれたんだ！
 
 21
 00:01:17,120 --> 00:01:20,670
@@ -264,6 +285,7 @@
 [deu] Na los, lass uns mal sehen, welche Kräuter du mitgebracht hast.
 [por] Bem, vejamos que poção você trouxe.
 [ita] Bene, vediamo che pozione hai preso...
+[jpn] どの薬を持ってきたか確認しないと
 
 
 22
@@ -277,6 +299,7 @@
 [deu] Aaalso, was haben wir denn da?
 [por] Então, o que temos aqui...
 [ita] Cosa abbiamo qui ?
+[jpn] ええとこれは...
 
 23
 00:01:23,870 --> 00:01:25,870
@@ -289,6 +312,7 @@
 [deu] Waaaaas?!
 [por] Ahn?!!
 [ita] Cosaaaa?!!!
+[jpn] ええっ？！
 
 24
 00:01:28,740 --> 00:01:32,840
@@ -301,6 +325,7 @@
 [deu] Caaaaaaarrrrrooooooot!!!!!!!
 [por] Caaaaaaarrrrrooooooot!!!!!!!
 [ita] Caaaaaaarrrrrooooooot!!!!!!!
+[jpn] キャロッットッ！！！！！！
 
 25
 00:01:33,640 --> 00:01:37,400
@@ -313,6 +338,7 @@
 [deu] Pepper & Carrot. Folge 6: Tränkewettbewerb.
 [por] Pepper & Carrot, Episódio 6 - O Concurso de Poções
 [ita] Pepper & Carrot. Episodio 6: La gara delle Pozioni
+[jpn] ペッパー＆キャロット エピソード6 魔法薬コンテスト
 
 26
 00:01:38,330 --> 00:01:43,120
@@ -325,6 +351,7 @@
 [deu] Als Bürgermeister von Komona, eröffne ich den heutigen...
 [por] Como Prefeito de Komona, eu declaro o cocurso de poções...
 [ita] Come sindaco di Komona, dichiaro la Gara delle Pozioni...
+[jpn] コモナ市長として ここに魔法薬コンテストの...
 
 27
 00:01:43,420 --> 00:01:45,080
@@ -337,6 +364,7 @@
 [deu] ...Tränkewettbewerb!
 [por] ...aberto!
 [ita] ...aperta !
+[jpn] ...開催を宣言します！
 
 28
 00:01:46,870 --> 00:01:50,870
@@ -349,6 +377,7 @@
 [deu] Die heutigen Teilnehmer sind vier junge Hexen!
 [por] Quatro jovens bruxas estão participando do concurso!
 [ita] Quattro giovani streghe parteciperanno alla gara !
+[jpn] 4人の若き魔女がコンテストに参加します！
 
 29
 00:01:51,920 --> 00:01:54,540
@@ -361,6 +390,7 @@
 [deu] Ich bitte um einen Applaus!
 [por] Uma salva de palmas para elas!
 [ita] Fate un grande applauso !
+[jpn] 拍手でお迎えください！
 
 
 30
@@ -374,6 +404,7 @@
 [deu] Es ist mir eine Ehre die bezaubernde Dame willkommen zu heißen...
 [por] É uma honra dar as boas vindas à inteligente e encantadora bruxa ...
 [ita] È un onore ospitare l'affascinante e geniale strega...
+[jpn] 偉大なる技術者連合から...
 
 31
 00:02:05,210 --> 00:02:07,670
@@ -386,6 +417,7 @@
 [deu] ...die direkt aus der Techniker Gemeinde kommt!
 [por] ...diretamente da União dos Tecnólogos!
 [ita] ...venuta dal grande paese dell'Unione dei Tecnologici!!!...
+[jpn] 魅惑の天才を迎えることができ 光栄です！
 
 32
 00:02:08,040 --> 00:02:11,780
@@ -398,6 +430,7 @@
 [deu] Coriander!
 [por] Coriander!
 [ita] Coriandolo !
+[jpn] コリアンダー！
 
 33
 00:02:13,040 --> 00:02:17,710
@@ -410,6 +443,7 @@
 [deu] Außerdem, vergesst nicht unsere liebe Hexe aus Komona...
 [por] E não se esqueçam da nossa participante local, a bruxa residente de Komona...
 [ita] Senza dimenticare la nostra concittadina, la vera strega di Komona...
+[jpn] 我が街コモナの魔女を忘れるなどありえません...
 
 34
 00:02:18,080 --> 00:02:20,960
@@ -422,6 +456,7 @@
 [deu] Saffron!
 [por] Saffron!
 [ita] Zafferano !
+[jpn] サフラン！
 
 35
 00:02:26,660 --> 00:02:28,920
@@ -434,6 +469,7 @@
 [deu] Unsere dritte Teilnehmerin...
 [por] Nossa terceira participante...
 [ita] La nostra terza partecipante...
+[jpn] 3人目の参加者は...
 
 36
 00:02:29,140 --> 00:02:32,580
@@ -446,6 +482,7 @@
 [deu] ...kommt aus dem Land des untergehenden Mondes
 [por] ...veio das terras das luas alinhadas...
 [ita] ...viene dal paese della Luna Calante...
+[jpn] ...沈む月の土地からやってきました...
 
 37
 00:02:33,040 --> 00:02:34,920
@@ -458,6 +495,7 @@
 [deu] ...die geheimnisvolle...
 [por] ...a misteriosa....
 [ita] ...la misteriosa...
+[jpn] ...謎に満ちた...
 
 38
 00:02:35,900 --> 00:02:38,340
@@ -470,6 +508,7 @@
 [deu] ...Shichimi!
 [por] ...Shichimi!
 [ita] ...Shichimi !
+[jpn] ...シチミ！
 
 39
 00:02:40,120 --> 00:02:44,520
@@ -482,6 +521,7 @@
 [deu] Und zum Schluss, unsere letzte Teilnehmerin aus dem Eichhörncheneckenwald...
 [por] E finalmente nossa última participate, da Floresta da Cauda do Esquilo...
 [ita] Infine, la nostra ultima partecipante, dalla foresta della Punta di Scoiattolo...
+[jpn] 最後の参加者はリスのはずれの森から来た...
 
 40
 00:02:44,820 --> 00:02:46,300
@@ -494,6 +534,7 @@
 [deu] ...Pepper.
 [por] ...Pepper.
 [ita] ...Pepper.
+[jpn] ...ペッパーです
 
 41
 00:02:49,340 --> 00:02:50,780
@@ -506,6 +547,7 @@
 [deu] Meine Damen und Herren!
 [por] Senhoras e Senhores!
 [ita] Signore e signori !
+[jpn] さあみなさん！
 
 42
 00:02:50,870 --> 00:02:56,460
@@ -518,7 +560,7 @@
 [deu] Abgestimmt wird durch den Applaus!
 [por] A vencedora, que receberá o prémio de 50.000 Ko, será determinada pelo medidor de aplausos!
 [ita] La vincitrice del premio di 50.000 Ko avverrà scelta con l'applausometro!
-
+[jpn] 優勝者は拍手メーターによる投票で決定されます！
 
 43
 00:02:56,580 --> 00:03:00,420
@@ -531,6 +573,7 @@
 [deu] Lasst uns die Spiele beginnen!
 [por] Que comece a competição!
 [ita] Che la gara abbia inizio !
+[jpn] コンテスト開始です！
 
 
 44
@@ -544,6 +587,7 @@
 [deu] **schrei** Also, Miss Coriander, ich bitte Sie als erste aufzutreten.
 [por] [falando alto] Bem! Para começar, Coriander fará sua demonstração!
 [ita] [urlando] Per prima la dimostrazione di Coriandolo.
+[jpn] [大声]では！最初はコリアンダーの実演です
 
 45
 00:03:09,830 --> 00:03:11,500
@@ -556,6 +600,7 @@
 [deu] Meine Damen und Herren...
 [por] Senhoras e Senhores...
 [ita] Signore e signori...
+[jpn] 紳士淑女の皆様...
 
 46
 00:03:11,960 --> 00:03:15,040
@@ -568,6 +613,7 @@
 [deu] ...sie müssen sich nicht mehr vor dem Tod fürchten, dank meinem...
 [por] ...vocês não precisa mais temer a morte, graças à minha...
 [ita] ...non abbiate più paura della morte, grazie alla mia...
+[jpn] ...もう死を恐れる必要はありません この私の...
 
 47
 00:03:15,670 --> 00:03:17,370
@@ -580,6 +626,7 @@
 [deu] ...Trank der Zombiefizierung!
 [por] ...Poção de Zumbificação!
 [ita] ...pozione Zombificante !
+[jpn] ...ゾンビ化の薬があれば！
 
 
 48
@@ -593,6 +640,7 @@
 [deu] Unglaublich!
 [por] Incrível!
 [ita] Fantastico !
+[jpn] 素晴らしい！
 
 49
 00:03:30,560 --> 00:03:37,180
@@ -605,6 +653,7 @@
 [deu] Mit diesem wun-der-samen Trank, trotzt Coriander selbst dem Tod!
 [por] Com essa poção mi-la-gro-sa, Coriander desafia a própria morte!
 [ita] Coriandolo ha sconfitto la morte stessa con questa pozione mi-ra-co-lo-sa !
+[jpn] この奇跡的な魔法薬でコリアンダーは死を否定します！
 
 50
 00:03:38,540 --> 00:03:40,620
@@ -617,6 +666,7 @@
 [deu] Ja-ja-ja...
 [por] Sim, sim, sim...
 [ita] Si, si, si...
+[jpn] あらあらあら...
 
 51
 00:03:41,460 --> 00:03:43,520
@@ -629,6 +679,7 @@
 [deu] Trank der Zombiefizierung...
 [por] A poção de Zombificação...
 [ita] Una pozione Zombificante...
+[jpn] ゾンビ化の魔法薬なんて...
 
 
 52
@@ -642,6 +693,7 @@
 [deu] blödsinn!
 [por] não é nada!
 [ita] è uno scherzo !
+[jpn] なんでもありませんわ！
 
 53
 00:03:45,210 --> 00:03:47,330
@@ -654,6 +706,7 @@
 [deu] Es wird Zeit, sich MEINEN Trank anzuschauen.
 [por] Hora de avaliar a MINHA poção.
 [ita] Ora è tempo di scoprire la MIA pozione.
+[jpn] 今は私の魔法薬を評価する時です
 
 
 54
@@ -667,6 +720,7 @@
 [deu] Der Trank, auf den Sie schon immer gewartet haben...
 [por] A poção pela qual vocês estavam realmente esperando...
 [ita] La vera pozione che tutti state aspettando...
+[jpn] 皆様が本当に待ちわびていたのはこちらのほう...
 
 55
 00:03:56,480 --> 00:03:58,380
@@ -679,6 +733,7 @@
 [deu] ...Trank des Reichtums!
 [por] ...a Poção do Requinte!
 [ita] ...la pozione di Sciccheria !
+[jpn] ...ゴージャスの魔法薬！
 
 56
 00:04:01,120 --> 00:04:03,710
@@ -691,6 +746,7 @@
 [deu] Fantastisch!
 [por] Fantástico!
 [ita] Fantastico !
+[jpn] 素晴らしい！
 
 57
 00:04:03,960 --> 00:04:05,750
@@ -703,6 +759,7 @@
 [deu] Unglaublich!
 [por] Incrível!
 [ita] Incredibile !
+[jpn] 驚異的です！
 
 58
 00:04:06,290 --> 00:04:10,800
@@ -715,6 +772,7 @@
 [deu] Dieser Trank, kann ganz Komona reich machen!
 [por] Essa poção poderá fazer todos em Konoma ricos!
 [ita] Questa pozione renderà ricca tutta Komona !
+[jpn] この薬はコモナ全体を裕福にできるでしょう！
 
 59
 00:04:10,960 --> 00:04:13,580
@@ -727,6 +785,7 @@
 [deu] Sieht wohl so aus, als sei Coriander schon von der Liste gestrichen!
 [por] Parece que Coriander já foi eliminada!
 [ita] I vostri applausi hanno eliminato Coriandolo !
+[jpn] コリアンダーはすでに負けが確定です！
 
 60
 00:04:13,870 --> 00:04:17,870
@@ -739,6 +798,7 @@
 [deu] Schafft es Shichimi die letzte Vorstellung zu übertreffen?
 [por] Será que Shichimi é capaz de superar essa última demonstração?
 [ita] Riuscirà Shichimi a superare questa ultima prova ?
+[jpn] さてシチミはこの実演に勝つことができるでしょうか？
 
 
 61
@@ -752,6 +812,7 @@
 [deu] Ich... ich wusste nicht, dass ich es noch Vorstellen muss.
 [por] Eu... Eu não imaginava que teríamos que demonstrar nossas poções.
 [ita] Io... io non sapevo si dovesse fare una dimostrazione.
+[jpn] わ...私 実演するなんて知らなかったんです
 
 62
 00:04:23,040 --> 00:04:24,370
@@ -764,6 +825,7 @@
 [deu] Na los, Shichimi!
 [por] Vamos lá, Shichimi!
 [ita] Allora Shichimi !
+[jpn] さあシチミ！
 
 63
 00:04:24,420 --> 00:04:25,790
@@ -776,6 +838,7 @@
 [deu] Alle warten auf dich!
 [por] Estão todos esperando!
 [ita] Tutto il mondo sta aspettando !
+[jpn] 皆が待ってますよ！
 
 64
 00:04:26,330 --> 00:04:27,170
@@ -788,6 +851,7 @@
 [deu] Nein!..
 [por] Não...
 [ita] No...
+[jpn] でも...
 
 65
 00:04:27,580 --> 00:04:28,120
@@ -800,6 +864,7 @@
 [deu] Ich kann nicht!..
 [por] Não posso...
 [ita] Non posso...
+[jpn] 出来ません...
 
 66
 00:04:28,460 --> 00:04:30,200
@@ -812,6 +877,7 @@
 [deu] Es ist zu gefährlich!..
 [por] É muito perigoso!
 [ita] È troppo pericoloso !
+[jpn] 危険すぎます！
 
 
 67
@@ -825,6 +891,7 @@
 [deu] Es-Es tut mir leid!..
 [por] Me... me... Me perdoem!
 [ita] Ssscu... scusate !
+[jpn] ご...ごめんなさい！
 
 68
 00:04:32,370 --> 00:04:33,750
@@ -837,6 +904,7 @@
 [deu] Meine Damen und Herren...
 [por] Senhoras e senhores...
 [ita] Signore e signori...
+[jpn] 紳士淑女の皆様...
 
 69
 00:04:34,000 --> 00:04:35,500
@@ -849,6 +917,7 @@
 [deu] ...sieht wohl aus, dass Shichimi ausscheiden würde...
 [por] ...parece que Shimichi está desistindo...
 [ita] ...mi sembra che Shichimi abbandoni al gara...
+[jpn] ...どうやらシチミは棄権するようです...
 
 70
 00:04:35,540 --> 00:04:36,420
@@ -861,6 +930,7 @@
 [deu] GIB HER!
 [por] Dei-me isso aqui!
 [ita] Dammi qua !
+[jpn] およこしなさい！
 
 71
 00:04:36,580 --> 00:04:37,370
@@ -873,6 +943,7 @@
 [deu] VORSICHT!!!
 [por] CUIDADO!!!
 [ita] ATTENZIONE !!!
+[jpn] 気をつけて！！！
 
 72
 00:04:37,660 --> 00:04:39,480
@@ -885,6 +956,7 @@
 [deu] Was soll schon passieren?
 [por] O que pode ser tão perigoso?
 [ita] Cosa può esserci di pericoloso ?
+[jpn] そんなに危険だなんてありえないわ？
 
 73
 00:04:39,680 --> 00:04:43,460
@@ -897,6 +969,7 @@
 [deu] Du hast ja einfach nur Angst, dass dein Trank sich mit meinem nicht messen kann!
 [por] Você apenas está assustada pois sua poção não é fantástica como a minha!
 [ita] Tutto il mondo sa già che ho vinto a gara, per cui ...
+[jpn] 私の魔法薬ほど素晴らしくないと恐れているだけでしょう？
 
 74
 00:04:44,580 --> 00:04:46,900
@@ -909,6 +982,7 @@
 [deu] Nein-nein, es ist ein Trank der...
 [por] Não... Não... essa é uma poção de...
 [ita] Nooo, è una pozione per ...
+[jpn] ち...違いますこの魔法薬は...
 
 75
 00:04:47,960 --> 00:04:50,840
@@ -921,6 +995,7 @@
 [deu] ...RIESEN MONSTER!!!
 [por] ...MONSTROS GIGANTES!!!
 [ita] ...MOSTRI GIGANTI !!!
+[jpn] ...巨大モンスターの薬なんです！！！
 
 76
 00:04:58,100 --> 00:04:59,940
@@ -933,6 +1008,7 @@
 [deu] Herr Bürgermeister, herr Bürgermeister!
 [por] Senhor Prefeito, Senhor Prefeito!
 [ita] Signor sindaco, Signor sindaco !
+[jpn] 市長さん 市長さん！
 
 77
 00:05:00,100 --> 00:05:01,260
@@ -945,6 +1021,7 @@
 [deu] Bin ich jetzt dran??
 [por] Agora é a minha vez?
 [ita] È il mio turno adesso ?
+[jpn] 私の番かな？
 
 78
 00:05:01,280 --> 00:05:02,340
@@ -957,6 +1034,7 @@
 [deu] Lauf!
 [por] Corra!
 [ita] Scappa, idiota !
+[jpn] 逃げるんだ！
 
 79
 00:05:03,260 --> 00:05:04,420
@@ -968,6 +1046,7 @@
 [deu] *МАМАААА*
 [por] SALVE-SE QUEM PUDER!
 [ita] Si salvi chi può !
+[jpn] ＊うわああああ＊
 
 80
 00:05:07,520 --> 00:05:11,260
@@ -980,7 +1059,7 @@
 [deu] Hast du glück Carrot. Sieht wohl so aus, dass niemand deinen wundersamen Trank sehen wird...
 [por] Que sorte, Carrot; Parece que ninguém vai ver sua poção maravilhosa...
 [ita] Sei fortunato Carrot; sembra che nessuno si sia accorto della tua favolosa "pozione"
-
+[jpn] キャロット これってラッキーね だってあなたの魔法薬が何かバレないかも...
 
 81
 00:05:11,500 --> 00:05:13,600
@@ -993,6 +1072,7 @@
 [deu] Sie wird unsere Stadt zerstören!!!
 [por] Ela vai destruir a cidade!!!
 [ita] [dal fondo] Aiutoooo ! Ci distruggerà tutta Komona !
+[jpn] 街が破壊されてしまう！
 
 82
 00:05:14,720 --> 00:05:17,760
@@ -1005,6 +1085,7 @@
 [deu] Warte mal, ich denke, ich habe eine Idee!
 [por] Ei! Acho que tive uma idéia!
 [ita] Un momento, penso di avere una idea !
+[jpn] ちょっとまって 思いついたの！
 
 83
 00:05:26,060 --> 00:05:26,960
@@ -1017,6 +1098,7 @@
 [deu] Hey, Du!
 [por] Ei, você!
 [ita] Ehi ! Tu !
+[jpn] ねえ！
 
 84
 00:05:27,440 --> 00:05:30,060
@@ -1029,6 +1111,7 @@
 [deu] Du überdimensionale Zombiewellensittichtussi!
 [por] Seu canário zumbi superdesenvolvido e metido à besta!
 [ita] Sciccoso-zombie-canarino-gigante !
+[jpn] そこの巨大ゴージャスゾンビカナリアさん！
 
 85
 00:05:30,120 --> 00:05:32,370
@@ -1041,7 +1124,7 @@
 [deu] Willst mal den letzten "Trank" probieren?
 [por] Quer tentar maos uma poção?
 [ita] Ti piacerebbe provare l'ultima pozione ?
-
+[jpn] 最後の魔法薬 試してみたいの？
 
 86
 00:05:33,420 --> 00:05:34,710
@@ -1054,6 +1137,7 @@
 [deu] Aber zu erst...
 [por] Mas antes...
 [ita] Ma prima...
+[jpn] でも まず...
 
 87
 00:05:34,790 --> 00:05:37,000
@@ -1066,6 +1150,7 @@
 [deu] ...lies was hier steht!
 [por] ...leia o rótulo!
 [ita] ...leggi bene l'etichetta !
+[jpn] ...このラベルを見て！
 
 88
 00:05:37,920 --> 00:05:39,480
@@ -1078,6 +1163,7 @@
 [deu] Lies genau!
 [por] Leia com cuidado!
 [ita] Leggila con molta attenzione !
+[jpn]　しっかりとね！
 
 89
 00:05:44,360 --> 00:05:49,920
@@ -1090,6 +1176,7 @@
 [deu] Wenn du nicht sofort aus Komona verschwindest, glaub mir - ich kippe das Zeug auf dich!
 [por] E se você não for embora de Komona agora, eu vou fazer você beber ela todinha, tenha certeza!
 [ita] Se non te ne vai subito via da Komona adesso, credimi: te la verso tutta addosso !
+[jpn] コモナから今すぐ立ち去らなかったら これをあなたの全身にかけちゃうから！
 
 90
 00:05:50,580 --> 00:05:51,250
@@ -1102,6 +1189,7 @@
 [deu] Hast du mich vestanden?
 [por] Fui clara?!
 [ita] Capito ?!
+[jpn] わかった？！
 
 91
 00:06:15,710 --> 00:06:20,740
@@ -1114,6 +1202,7 @@
 [deu] Für die Rettung unserer Stadt, geht der erste Platz an...
 [por] Como ela salvou nossa cidade, o primeiro lugar do concurso vai para...
 [ita] Per aver salvato la nostra città, consegnamo il primo premio a...
+[jpn] 街を救ったので優勝は...
 
 92
 00:06:20,790 --> 00:06:23,040
@@ -1126,6 +1215,7 @@
 [deu] ...Miss Pepper!
 [por] ...a senhorita Pepper!
 [ita] ...Pepper !
+[jpn] ペッパーです！
 
 93
 00:06:23,240 --> 00:06:25,280
@@ -1138,6 +1228,7 @@
 [deu] Für ihren wundersamen Trank!
 [por] Por sua poção maravilhosa!
 [ita] Per la sua magnifica pozione !
+[jpn] 素晴らしい魔法薬ですね！
 
 94
 00:06:26,020 --> 00:06:27,330
@@ -1150,6 +1241,7 @@
 [deu] Hm, eigentlich...
 [por] Bem, para falar a verdade...
 [ita] Huh, infatti...
+[jpn] あはは ええと...
 
 95
 00:06:27,580 --> 00:06:29,290
@@ -1162,6 +1254,7 @@
 [deu] ...ist es garnicht so wundersam...
 [por] ...não era uma poção.
 [ita] ...non è proprio una pozione...
+[jpn] 実は これは 魔法薬じゃないんです
 
 96
 00:06:29,420 --> 00:06:32,580
@@ -1174,7 +1267,7 @@
 [deu] ...es ist einfach nur eine Urinprobe meiner Katze vom letzten Tierarztbesuch!
 [por] Era apenas uma amostra da urina do meu gato da sua última visita ao veterinário!
 [ita] ...è il campione di urina del mio gatto per il veterinario !
-
+[jpn] この前獣医に行った時の 私の猫の尿の試料なんです！
 
 97
 00:06:33,170 --> 00:06:34,170
@@ -1187,6 +1280,7 @@
 [deu] Stimmts, Carrot?
 [por] Não é, Carrot?
 [ita] Non è vero, Carrot ?
+[jpn] でしょ キャロット？
 
 98
 00:06:35,710 --> 00:06:36,420
@@ -1199,3 +1293,4 @@
 [deu] Miau!
 [por] Miau!
 [ita] Miao !
+[jpn] にゃお！
