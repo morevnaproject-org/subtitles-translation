@@ -9,7 +9,7 @@ BASE_DIR=$(cd `dirname "$0"`; pwd)
 cd ${BASE_DIR}
 
 FILE="pepper-and-carrot-ep6"
-for LANG in rus dan eng epo jbo fra deu por ita; do
+for LANG in rus dan eng epo jbo fra deu por ita spa; do
 [ -d "${BASE_DIR}/output/${FILE}" ] || mkdir -p "${BASE_DIR}/output/${FILE}"
 python ./msrt_tool.py ${FILE}.msrt ${LANG} -o ${BASE_DIR}/output/${FILE}/${FILE}-${LANG}.srt
 done
