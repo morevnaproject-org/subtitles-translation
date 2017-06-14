@@ -4,7 +4,7 @@ Morevna Projeket...
 
 2
 00:00:04,370 --> 00:00:06,780
-...i samarbejde med "Ethic Cinema"...
+...i samarbejde med ”Ethic Cinema”...
 
 3
 00:00:07,240 --> 00:00:08,510
@@ -32,7 +32,7 @@ Komona!
 
 9
 00:00:39,200 --> 00:00:39,990
-Eliksir-konkurrencen!
+Eliksirkonkurrencen!
 
 10
 00:00:41,700 --> 00:00:43,280
@@ -40,11 +40,11 @@ I tidligere episoder:
 
 11
 00:00:43,450 --> 00:00:45,490
-Peber gjort en stor indsats...
+Pepper har gjort en stor indsats...
 
 12
 00:00:45,870 --> 00:00:49,490
-...for at være klar til potionkonkurrencen.
+... for at blive klar til eliksirkonkurrencen.
 
 13
 00:00:50,040 --> 00:00:50,870
@@ -52,7 +52,7 @@ Peber gjort en stor indsats...
 
 14
 00:00:51,210 --> 00:00:54,000
-jeg faldt vist i søvn!
+Jeg faldt vist i søvn!
 
 15
 00:00:54,470 --> 00:00:55,100
@@ -60,7 +60,7 @@ jeg faldt vist i søvn!
 
 16
 00:00:56,180 --> 00:00:57,320
-Hvor er jeg ?!?
+Hvor er jeg?!?
 
 17
 00:00:58,220 --> 00:00:59,160
@@ -76,11 +76,11 @@ Mjav!
 
 20
 00:01:11,620 --> 00:01:16,040
-Du har endda tænkt på at tage en eliksir, mit tøj, og min hat... 
+Du har endda tænkt på at tage en eliksir, mit tøj og min hat med!
 
 21
 00:01:17,120 --> 00:01:20,670
-... lad os se hvilken eliksir du har valgt...
+Lad os se hvilken eliksir du har valgt...
 
 22
 00:01:21,170 --> 00:01:23,040
@@ -108,7 +108,7 @@ Som Komonas borgmester, erklærer jeg hermed eliksirkonkurrencen...
 
 28
 00:01:46,870 --> 00:01:50,870
-Vi er meget stolt af at byde velkommen til ikke mindre end fire hekse!
+Vi er meget stolte af at byde velkommen til ikke mindre end fire hekse!
 
 29
 00:01:51,920 --> 00:01:54,540
@@ -172,7 +172,7 @@ Lad konkurrencen begynde!
 
 44
 00:03:02,580 --> 00:03:07,370
-[råb]  Først skal vi se Korianders demonstration
+[råb] Først skal vi se Korianders demonstration
 
 45
 00:03:09,830 --> 00:03:11,500
@@ -188,7 +188,7 @@ Mine damer og herrer...
 
 48
 00:03:27,980 --> 00:03:29,700
-FANTASTISK!
+Fantastisk!
 
 49
 00:03:30,560 --> 00:03:37,180
@@ -216,7 +216,7 @@ Den eliksir I alle har ventet på...
 
 55
 00:03:56,480 --> 00:03:58,380
-...OVERKLASSES-ELIKSIREN!
+...OVERKLASSES-eliksiren!
 
 56
 00:04:01,120 --> 00:04:03,710
@@ -248,11 +248,11 @@ Jeg... Jeg vidste ikke, at vi skulle lave en demonstration
 
 63
 00:04:24,420 --> 00:04:25,790
-Alle venter på dig
+Alle venter på dig!
 
 64
 00:04:26,330 --> 00:04:27,170
-NEJ!..
+Nej!..
 
 65
 00:04:27,580 --> 00:04:28,120
@@ -264,7 +264,7 @@ Det er for farligt!
 
 67
 00:04:30,400 --> 00:04:31,640
-UNDSKYLD!
+Undskyld!
 
 68
 00:04:32,370 --> 00:04:33,750
@@ -284,11 +284,11 @@ PAS PÅ!!!
 
 72
 00:04:37,660 --> 00:04:39,480
-Hvad kunne være så farligt?
+Hvad er det, der er så farligt?
 
 73
 00:04:39,680 --> 00:04:43,460
-Du er bare bange for, at din potion ikke er så fantastisk som min!
+Du er bare bange for, at din eliksir ikke er så god som min!
 
 74
 00:04:44,580 --> 00:04:46,900
@@ -316,15 +316,15 @@ Forsvind!
 
 80
 00:05:07,520 --> 00:05:11,260
-Du er heldig, Carrot; det ser ud som om igen vil se din vidunderlige potion...
+Dit held, Carrot; jeg tror ikke, nogen kommer til at se din fantastiske ”eliksir”...
 
 81
 00:05:11,500 --> 00:05:13,600
-Hun vil ødelægge vores by!!!
+Den ødelægger vores by!!!
 
 82
 00:05:14,720 --> 00:05:17,760
-Vent, jeg tror jeg har en ide!
+Vent, jeg tror jeg har en idé!
 
 83
 00:05:26,060 --> 00:05:26,960
@@ -352,7 +352,7 @@ Læs den grundigt!
 
 89
 00:05:44,360 --> 00:05:49,920
-... Jeg vil ikke tøve med at hælde den på dig, hvis du ikke forlader Komona med det samme! 
+Hvis du ikke forlader Komona med det samme, vil jeg ikke tøve med at hælde den på dig!  
 
 90
 00:05:50,580 --> 00:05:51,250
@@ -362,17 +362,21 @@ Forstået?!
 00:06:15,710 --> 00:06:20,740
 Fordi hun reddede vores by fra en katastrofe, giver vi førstepladsen til...
 
+92
+00:06:20,790 --> 00:06:23,040
+Frøken Pepper!
+
 93
 00:06:23,240 --> 00:06:25,280
 For hendes vidunderlige eliksir!
 
 94
 00:06:26,020 --> 00:06:27,330
-... øh... faktisk...
+Øh... faktisk...
 
 95
 00:06:27,580 --> 00:06:29,290
-... er det ikke rigtig en eliksir;
+... er det ikke rigtigt en eliksir;
 
 96
 00:06:29,420 --> 00:06:32,580
