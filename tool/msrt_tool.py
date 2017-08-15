@@ -41,22 +41,25 @@ def process_args():
 class MsrtFile():
     def __init__(self, path, language=None):
         self._data = {}
+        self._comments=""
 
-        self._load(path, language)
+        self.load(path, language)
 
         # self._data["00:00:01,030 --> 00:00:03,530"] = {}
         # self._data["00:00:01,030 --> 00:00:03,530"]["en"] = "English"
         # self._data["00:00:01,030 --> 00:00:03,530"]["ru"] = "Russian Text"
 
-    def _load(self, path, language):
+    def load(self, path, language):
         with open(path, 'r') as input:
             subGroup = ""
             for line in input:
                 # print(line, end='')
                 if line.lstrip().startswith("[*]"):
-                    # Ignore comments
-                    # print("Ignore")
-                    pass
+                    # Comments
+                    line = line[3:]
+                    if line[0] == " ":
+                        line = line[1:]
+                    self._comments += line
                 elif line == "\n":
                     # print("Done")
                     # A blank line marks the end of a subgroup, time to parse!
@@ -78,14 +81,23 @@ class MsrtFile():
         else:
             output = open(path, 'w')
 
+        # Comments
+        if self._comments.strip():
+            for line in self._comments.strip().split("\n"):
+                line = "[*] " + line
+                output.write(line.strip() + "\n")
+            output.write("\n")
+
         index = 1
         for key in sorted(self._data):
             if self._data[key]:
-                output.write(str(index) + "\n")
-                output.write(key + "\n")
+                output.write(str(index)+"\n")
+                output.write(key+"\n")
                 for language in sorted(self._data[key]):
-                    output.write("[" + language + "] " + self._data[key][language] + "\n")
+                    text = self._data[key][language].strip()
+                    output.write("[" + language + "] " + text+"\n")
                 index += 1
+                output.write("\n")
 
     def write_srt(self, path, language):
 
@@ -108,7 +120,12 @@ class MsrtFile():
         subGroup = subGroup.split("\n")
 
         timerange = subGroup[1].strip()
-        self._data[timerange] = {}
+        if not timerange in self._data:
+            self._data[timerange] = {}
+
+        if language:
+            # This means we are loading srt file, so it will get override all data for specified language
+            self._data[timerange][language]=""
 
 
         for l in subGroup[2:]:
@@ -117,13 +134,17 @@ class MsrtFile():
                 a=l.find("[")
                 b=l.find("]")
                 if (a!=-1 and b!=-1):
-                    linelang = l[a+1:b]
+                    language = l[a+1:b]
+                if language:
+                    if not language in self._data[timerange]:
+                        self._data[timerange][language] = ""
+                    self._data[timerange][language] += l[2 + len(language):].strip() + "\n"
+                language=None
             else:
-                linelang = language
-            if linelang:
-                if not linelang in self._data[timerange]:
-                    self._data[timerange][linelang] = ""
-                self._data[timerange][linelang] += l[2 + len(linelang):].strip() + "\n"
+                # We are parsing  srt
+                if not language in self._data[timerange]:
+                    self._data[timerange][language] = ""
+                self._data[timerange][language] += l.strip() + "\n"
 
 def main():
     args = process_args()
@@ -133,7 +154,9 @@ def main():
         msrt.write_srt(args.srtfile, args.language)
 
     elif args.action == 'merge':
-        print("Not implemented.")
+        msrt = MsrtFile(args.msrtfile)
+        msrt.load(args.srtfile,args.language)
+        msrt.write_msrt(args.msrtfile)
 
     elif args.action == 'list':
         print("Not implemented.")
