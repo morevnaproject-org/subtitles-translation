@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 # A script for converting the so-called multi-language srt files to regular srt files
-# Currently licenced under the Modified BSD license
+# Licenced under the Modified BSD license
+
+# Extract language to given SRT:
+#    msrt_tool.py MSRT_FILE extract LANG [SRT_FILE]
+# Merge given SRT file to specified language (not implemented yet):
+#    msrt_tool.py MSRT_FILE merge LANG SRT_FILE
+# List languages available in msrt file (not implemented yet):
+#    msrt_tool.py MSRT_FILE list
 
 from gettext import gettext as _
 import sys
@@ -9,17 +16,21 @@ from argparse import ArgumentParser
 __version__ = '0.1'
 
 def process_args():
-    parser = ArgumentParser(description=_("Convert msrt to srt files."))
+    parser = ArgumentParser(description=_("A tool for working with MSRT (multilanguage SRT) subtitle files."))
 
-    parser.add_argument("input",
-            help=_("A path to the msrt file you want to convert."))
+    parser.add_argument("msrtfile",
+            help=_("A path to the msrt file."))
+
+    parser.add_argument("action",
+            help=_("Action: 'extract'."))
 
     parser.add_argument("language",
-            help=_("The language to extract"))
+            help=_("Language code."),
+            default="")
 
-    parser.add_argument("--output", "-o",
+    parser.add_argument("srtfile",
             action="store",
-            help=_("A path to the where you want the output srt file to be written to. If unspecified, output is written to the standard output."),
+            help=_("SRT file. If unspecified, output is written to the standard output."),
             default="-")
 
     parser.add_argument("--version", "-v", action='version', version=_("msrt_tool version %s") % __version__)
@@ -51,7 +62,7 @@ def parse_subgroup(subGroup, language):
             "\n")
     return ""
 
-def convert(input, output, language):
+def action_extract(input, output, language):
     subGroup = ""
     for line in input:
         #print(line, end='')
@@ -74,17 +85,25 @@ def convert(input, output, language):
 def main():
     args = process_args()
 
-    with open(args.input, 'r') as input:
-        try:
-            if args.output == "-":
+    if args.action == 'extract':
+        with open(args.msrtfile, 'r') as input:
+
+            if args.srtfile == "-":
                 output = sys.stdout
             else:
-                output = open(args.output, 'w')
+                output = open(args.srtfile, 'w')
 
-            convert(input, output, args.language)
-        finally:
-            if output != sys.stdout:
-                output.close()
+            try:
+                action_extract(input, output, args.language)
+            finally:
+                if output != sys.stdout:
+                    output.close()
+
+    elif args.action == 'merge':
+        print("Not implemented.")
+
+    elif args.action == 'list':
+        print("Not implemented.")
 
 if __name__ == "__main__":
     main()
