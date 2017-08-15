@@ -13,7 +13,7 @@ from gettext import gettext as _
 import sys
 from argparse import ArgumentParser
 
-__version__ = '0.1'
+__version__ = '0.2'
 
 def process_args():
     parser = ArgumentParser(description=_("A tool for working with MSRT (multilanguage SRT) subtitle files."))
@@ -37,67 +37,100 @@ def process_args():
 
     return parser.parse_args()
 
-def parse_subgroup(subGroup, language):
-    if not subGroup:
-        return ""
-    groupLines = subGroup.split("\n")
 
-    subGroup = ""
+class MsrtFile():
+    def __init__(self, path, language=None):
+        self._data = {}
 
-    index = int(groupLines[0])
+        self._load(path, language)
 
-    startTime, endTime = groupLines[1].split("-->")
-    startTime = startTime.strip()
-    endTime = endTime.strip()
+        # self._data["00:00:01,030 --> 00:00:03,530"] = {}
+        # self._data["00:00:01,030 --> 00:00:03,530"]["en"] = "English"
+        # self._data["00:00:01,030 --> 00:00:03,530"]["ru"] = "Russian Text"
 
-    langText = ""
-    for l in groupLines[2:]:
-        if l and l.startswith("[" + language + "]"):
-            langText += l[2+len(language):].strip() + "\n"
-
-    if langText:
-        return (str(index) + "\n" +
-            startTime + " --> " + endTime + "\n" +
-            langText +
-            "\n")
-    return ""
-
-def action_extract(input, output, language):
-    subGroup = ""
-    for line in input:
-        #print(line, end='')
-        if line.lstrip().startswith("[*]"):
-            # Ignore comments
-            #print("Ignore")
-            pass
-        elif line == "\n":
-            #print("Done")
-            # A blank line marks the end of a subgroup, time to parse!
-
-            output.write(parse_subgroup(subGroup, language))
+    def _load(self, path, language):
+        with open(path, 'r') as input:
             subGroup = ""
+            for line in input:
+                # print(line, end='')
+                if line.lstrip().startswith("[*]"):
+                    # Ignore comments
+                    # print("Ignore")
+                    pass
+                elif line == "\n":
+                    # print("Done")
+                    # A blank line marks the end of a subgroup, time to parse!
+
+                    self._parse_subgroup(subGroup, language)
+                    subGroup = ""
+                else:
+                    # print("Add")
+                    # Line is part of the current subgroup
+                    subGroup += line
+            self._parse_subgroup(subGroup, language)
+
+
+
+    def write_msrt(self, path):
+
+        if path == "-":
+            output = sys.stdout
         else:
-            #print("Add")
-            # Line is part of the current subgroup
-            subGroup += line
-    output.write(parse_subgroup(subGroup, language))
+            output = open(path, 'w')
+
+        index = 1
+        for key in sorted(self._data):
+            if self._data[key]:
+                output.write(str(index) + "\n")
+                output.write(key + "\n")
+                for language in sorted(self._data[key]):
+                    output.write("[" + language + "] " + self._data[key][language] + "\n")
+                index += 1
+
+    def write_srt(self, path, language):
+
+        if path == "-":
+            output = sys.stdout
+        else:
+            output = open(path, 'w')
+
+        index=1
+        for key in sorted(self._data):
+            if self._data[key] and language in self._data[key]:
+                output.write(str(index)+"\n")
+                output.write(key+"\n")
+                output.write(self._data[key][language] + "\n")
+                index+=1
+
+    def _parse_subgroup(self, subGroup, language):
+        if not subGroup:
+            return
+        subGroup = subGroup.split("\n")
+
+        timerange = subGroup[1].strip()
+        self._data[timerange] = {}
+
+
+        for l in subGroup[2:]:
+            if not language:
+                # We are parsing msrt file, so let's split lines to languages
+                a=l.find("[")
+                b=l.find("]")
+                if (a!=-1 and b!=-1):
+                    linelang = l[a+1:b]
+            else:
+                linelang = language
+            if linelang:
+                if not linelang in self._data[timerange]:
+                    self._data[timerange][linelang] = ""
+                self._data[timerange][linelang] += l[2 + len(linelang):].strip() + "\n"
 
 def main():
     args = process_args()
 
     if args.action == 'extract':
-        with open(args.msrtfile, 'r') as input:
-
-            if args.srtfile == "-":
-                output = sys.stdout
-            else:
-                output = open(args.srtfile, 'w')
-
-            try:
-                action_extract(input, output, args.language)
-            finally:
-                if output != sys.stdout:
-                    output.close()
+        msrt = MsrtFile(args.msrtfile)
+        msrt.write_srt(args.srtfile, args.language)
 
     elif args.action == 'merge':
         print("Not implemented.")
