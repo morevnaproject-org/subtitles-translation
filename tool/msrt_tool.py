@@ -21,17 +21,21 @@ def process_args():
     parser.add_argument("msrtfile",
             help=_("A path to the msrt file."))
 
-    parser.add_argument("action",
-            help=_("Action: 'extract'."))
+    group = parser.add_mutually_exclusive_group()
 
-    parser.add_argument("language",
-            help=_("Language code."),
-            default="")
+    group.add_argument("--extract",
+            help=_("Creates an srt file for the specified language."),
+            nargs=2,
+            metavar=("LANG", "SRT_FILE"))
 
-    parser.add_argument("srtfile",
-            action="store",
-            help=_("SRT file. If unspecified, output is written to the standard output."),
-            default="-")
+    group.add_argument("--merge",
+            help=_("Writes srt data to the specified language in the msrt."),
+            nargs=2,
+            metavar=("LANG", "SRT_FILE"))
+
+    group.add_argument("--list",
+            help=_("Lists languages in msrt file."),
+            action="store_true")
 
     parser.add_argument("--version", "-v", action='version', version=_("msrt_tool version %s") % __version__)
 
@@ -149,16 +153,16 @@ class MsrtFile():
 def main():
     args = process_args()
 
-    if args.action == 'extract':
-        msrt = MsrtFile(args.msrtfile)
-        msrt.write_srt(args.srtfile, args.language)
+    msrt = MsrtFile(args.msrtfile)
 
-    elif args.action == 'merge':
-        msrt = MsrtFile(args.msrtfile)
-        msrt.load(args.srtfile,args.language)
+    if args.extract:
+        msrt.write_srt(args.extract[1], args.extract[0])
+
+    elif args.merge:
+        msrt.load(args.merge[1],args.merge[0])
         msrt.write_msrt(args.msrtfile)
 
-    elif args.action == 'list':
+    elif args.list:
         print("Not implemented.")
 
 if __name__ == "__main__":
