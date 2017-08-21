@@ -78,12 +78,13 @@ class MsrtFile():
 
 
 
-    def write_msrt(self, path):
-
-        if path == "-":
-            output = sys.stdout
-        else:
-            output = open(path, 'w')
+    def write_msrt(self, output):
+        if isinstance(output, str):
+            if output == "-":
+                output = sys.stdout
+            else:
+                with open(output, 'w') as arg:
+                    return self.write_msrt(arg)
 
         # Comments
         if self._comments.strip():
@@ -103,12 +104,13 @@ class MsrtFile():
                 index += 1
                 output.write("\n")
 
-    def write_srt(self, path, language):
-
-        if path == "-":
-            output = sys.stdout
-        else:
-            output = open(path, 'w')
+    def write_srt(self, output, language):
+        if isinstance(output, str):
+            if output == "-":
+                output = sys.stdout
+            else:
+                with open(output, 'w') as arg:
+                    return self.write_srt(arg, language)
 
         index=1
         for key in sorted(self._data):
