@@ -54,7 +54,7 @@ class MsrtFile():
         # self._data["00:00:01,030 --> 00:00:03,530"]["en"] = "English"
         # self._data["00:00:01,030 --> 00:00:03,530"]["ru"] = "Russian Text"
 
-    def getLanugages(self):
+    def getLanguages(self):
         return tuple(self._languages)
 
     def load(self, path, language):
@@ -171,7 +171,7 @@ def main():
         msrt.write_msrt(args.msrtfile)
 
     elif args.list:
-        for language in msrt.getLanugages():
+        for language in msrt.getLanguages():
             print(language)
 
 if __name__ == "__main__":
