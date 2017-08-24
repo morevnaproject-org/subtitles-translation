@@ -45,7 +45,7 @@ def process_args():
 class MsrtFile():
     def __init__(self, path, language=None):
         self._data = {}
-        self._languages = []
+        self._languages = {}
         self._comments=""
 
         self.load(path, language)
@@ -55,7 +55,8 @@ class MsrtFile():
         # self._data["00:00:01,030 --> 00:00:03,530"]["ru"] = "Russian Text"
 
     def getLanguages(self):
-        return tuple(self._languages)
+        totalIndices = len(self._data)
+        return list(zip(list(self._languages), list(lang / totalIndices for lang in self._languages.values())))
 
     def load(self, path, language):
         with open(path, 'r') as input:
@@ -147,7 +148,8 @@ class MsrtFile():
                     language = l[a+1:b]
                 if language:
                     if not language in self._languages:
-                        self._languages.append(language)
+                        self._languages[language] = 0
+                    self._languages[language] += 1
                     if not language in self._data[timerange]:
                         self._data[timerange][language] = ""
                     self._data[timerange][language] += l[2 + len(language):].strip() + "\n"
@@ -172,7 +174,7 @@ def main():
 
     elif args.list:
         for language in msrt.getLanguages():
-            print(language)
+            print(language[0] + " (" + str(round(language[1] * 100)) + "%)")
 
 if __name__ == "__main__":
     main()
