@@ -172,7 +172,7 @@ Que le concours commence !
 
 44
 00:03:02,580 --> 00:03:07,370
- [criant] Tout d'abord, place à la démonstration de Coriandre.
+[criant] Tout d'abord, place à la démonstration de Coriandre.
 
 45
 00:03:09,830 --> 00:03:11,500
