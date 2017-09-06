@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 
@@ -23,23 +23,14 @@ extractLanguages () {
   # Extract languages from list 1 at a time
   local lang
   for lang in ${langs}; do
-    #if [[ -n $lang ]]; then
-      echo "Generating $lang for $file"
-      [ -d "${BASE_DIR}/output/$file" ] || mkdir -p "${BASE_DIR}/output/$file"
-      echo "$lang" "${BASE_DIR}/output/$file/$file-$lang.srt" "${BASE_DIR}/$file.msrt"
-      "${SCRIPT_DIR}/msrt_tool.py" --extract "$lang" "${BASE_DIR}/output/$file/$file-$lang.srt" "${BASE_DIR}/$file.msrt"
-    #fi
+    echo "Generating $lang for $file"
+    [ -d "${BASE_DIR}/output/$file" ] || mkdir -p "${BASE_DIR}/output/$file"
+    "${SCRIPT_DIR}/msrt_tool.py" --extract "$lang" "${BASE_DIR}/output/$file/$file-$lang.srt" "${BASE_DIR}/$file.msrt"
   done
 }
 
-FILES=("pepper-and-carrot-ep6" "morevna-ep3")
+FILES=( "pepper-and-carrot-ep6" "morevna-ep3" )
 
 for FILE in "${FILES[@]}"; do
   extractLanguages "$FILE"
 done
-
-#FILE="synfig-course-promo"
-#for LANG in rus eng epo spa; do
-#[ -d "${BASE_DIR}/output/${FILE}" ] || mkdir -p "${BASE_DIR}/output/${FILE}"
-#python ${SCRIPT_DIR}/msrt_tool.py ${FILE}.msrt --extract ${LANG} ${BASE_DIR}/output/${FILE}/${FILE}-${LANG}.srt
-#done
