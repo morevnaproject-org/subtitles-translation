@@ -1,0 +1,11 @@
+language: python
+os: linux
+python: "3.6"
+
+script:
+  - $TRAVIS_BUILD_DIR/tool/generate-srt.sh
+
+after_success:
+  - 'if [ $TRAVIS_EVENT_TYPE == "push" ]; then
+      $TRAVIS_BUILD_DIR/tool/deploy-srt.sh;
+    fi'
