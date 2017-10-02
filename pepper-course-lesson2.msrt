@@ -1,7 +1,7 @@
 1
 00:00:00,000 --> 00:00:03,760
 [rus] Начнем с установки дополнения Coa Tools в Gimp.
-[eng] Let's start with CoaTools Addon installing to Gimp.
+[eng] Let's start with CoaTools Add-on installing to Gimp.
 
 2
 00:00:04,080 --> 00:00:07,000
@@ -19,17 +19,17 @@
 [eng] Then, go to Gimp Settings Folder...
 
 5
-00:00:25,540 --> 00:00:27,640
+00:00:25,540 --> 00:00:28,160
 [rus] ...и находим папку Plugins.
 [eng] ...and find there "Plugins".
 
 6
-00:00:28,500 --> 00:00:31,160
+00:00:28,600 --> 00:00:31,560
 [rus] Вставляем сюда скопированный аддон.
 [eng] Paste here what we copied.
 
 7
-00:00:36,740 --> 00:00:40,940
+00:00:36,740 --> 00:00:41,240
 [rus] Убедитесь, что аддон является исполняемым файлом.
 [eng] Make sure that the addon is executable file.
 
@@ -50,11 +50,11 @@
 
 11
 00:00:54,300 --> 00:00:58,600
-[rus] Зачем мы открываем этот же файл в другом графическом редакторе?
-[eng] Why did we draw the scene in one Graphic editor, but open in another?
+[rus] Почему мы выбрали именно Гимп?
+[eng] Why did we choose the Gimp?
 
 12
-00:00:58,960 --> 00:01:00,220
+00:00:58,960 --> 00:01:00,520
 [rus] Все очень просто.
 [eng] Everything is simple.
 
@@ -66,7 +66,7 @@
 14
 00:01:02,920 --> 00:01:06,720
 [rus] Это дополнение позволяет Gimp'у экпортировать все слои разом...
-[eng] The CoaTools lets Gimp to export every layer... 
+[eng] The CoaTools lets Gimp to export every layer...
 
 15
 00:01:06,740 --> 00:01:09,740
@@ -89,7 +89,7 @@
 [eng] ...you need to convert it into group...
 
 19
-00:01:22,120 --> 00:01:22,860
+00:01:22,120 --> 00:01:23,120
 [rus] ...вот так.
 [eng] ...like this.
 
@@ -112,8 +112,9 @@
 00:01:33,220 --> 00:01:34,500
 [rus] Нажимаем File...
 [eng] Click "File"...
+
 24
-00:01:34,660 --> 00:01:37,400
+00:01:34,500 --> 00:01:37,580
 [rus] И, экспоритовать в CoaTools.
 [eng] ... and "Export to CoaTools".
 
@@ -148,78 +149,167 @@
 [eng] It is it, who stores the information about coordinates of the layers.
 
 31
-00:02:07,160 --> 00:02:11,680
+00:02:07,230 --> 00:02:11,680
 [rus] Он нужен нам для дальнейшого импортирования нашей сцены уже в сам Blender.
 [eng] JSON file is needed us to future import our scene to the Blender.
 
 32
-00:02:12,380 --> 00:02:14,240
-[rus] Теперь, открываем Blender.
-[eng] Now, open "Blender".
+00:02:12,020 --> 00:02:17,720
+[rus] Но сначала, нам нужно установить дополнение CoaTools в Blender. 
+[eng] But furst, we need to install CoaTools addon to Blender.
 
 33
-00:02:15,220 --> 00:02:16,900
-[rus] Удаляем все лишнее.
-[eng] Delete start scene... 
+00:02:17,940 --> 00:02:21,440
+[rus] Так же заходим в папку со скачанным CoaTools 
+[eng] As in the beginning, open downloaded CoaTools folder.
 
 34
-00:02:17,500 --> 00:02:20,140
-[rus] Приступим к импортированию нашей сцены.
-[eng] ...and let's import our scene.
+00:02:21,920 --> 00:02:25,600
+[rus] Открываем внутри папку, с названием "Blender"
+[eng] Open "Blender" folder inside.
 
 35
-00:02:20,660 --> 00:02:23,940
-[rus] Во первых, нужно поместить наш курсор в центр.
-[eng] First of all, you need to snap your cursor to the center.
+00:02:25,900 --> 00:02:30,120
+[rus] Там мы видим еще одну папку, с названием "Coa_tools".
+[eng] Here we can see another folder - "Coa_tools".
 
 36
-00:02:24,180 --> 00:02:28,080
+00:02:30,300 --> 00:02:32,940
+[rus] Из нее нужно сделать ZIP архив. 
+[eng] Needs to make ZIP-archive of it.
+
+37
+00:02:38,680 --> 00:02:39,920
+[rus] Готово.
+[eng] Done.
+
+38
+00:02:43,260 --> 00:02:46,200
+[rus] Далее, запускаем Blender.
+[eng] Next, let's run Blender.
+
+39
+00:02:46,760 --> 00:02:48,580
+[rus] Нажимаем File... 
+[eng] Go to "File"...
+
+40
+00:02:50,320 --> 00:02:52,620
+[rus] Настройки Пользователя... 
+[eng] User Preferences...
+
+41
+00:02:55,240 --> 00:02:59,240
+[rus] И, ищем вкладку, с названием Add-ons.
+[eng] And find the Add-ons tab.
+
+42
+00:02:59,660 --> 00:03:04,160
+[rus] Далее, нажимаем внизу - "Установить из файла".
+[eng] Then click on "Install from File" button.
+
+43
+00:03:06,420 --> 00:03:09,980
+[rus] Выбираем, созданный нами, ZIP архив.
+[eng] Select "Coa_tools" ZIP-archive.
+
+44
+00:03:14,280 --> 00:03:17,160
+[rus] Затем, ищем наш плагин. 
+[eng] After, find installed Add-on.
+
+45
+00:03:18,720 --> 00:03:21,200
+[rus] Ставим галочку рядом с ним.
+[eng] Put a tick before it.
+
+46
+00:03:21,720 --> 00:03:23,880
+[rus] Сохраняем настройки.
+[eng] Save User Settings.
+
+47
+00:03:26,060 --> 00:03:27,080
+[rus] Готово.
+[eng] Done.
+
+48
+00:03:27,240 --> 00:03:31,600
+[rus] Если Вы все сделали правильно, то в t-меню...
+[eng] If you've done everything correct, then in t-menu...
+
+49
+00:03:31,760 --> 00:03:34,520
+[rus] /меню, которое открывается клавишей "t"/
+[eng] /menu, which is opened by t-key/
+
+50
+00:03:34,720 --> 00:03:37,620
+[rus] ...появится вкладка Cutout Animation.
+[eng] ...will be appear the Cutout animation tab.
+
+51
+00:03:41,180 --> 00:03:43,960
+[rus] Приступим к импортированию нашей сцены.
+[eng] Let's import our scene".
+
+52
+00:03:45,100 --> 00:03:47,100
+[rus] Удаляем все лишнее.
+[eng] Delete start scene...
+
+53
+00:03:48,220 --> 00:03:51,200
+[rus] Теперь, нужно поместить наш курсор в центр.
+[eng] Now, you need to snap your cursor to the center.
+
+54
+00:03:51,340 --> 00:03:55,360
 [rus] Для этого, нажмите сочетание клавиш Shift+S...
 [eng] To do that, you need to press the keys combination "Shift+S"...
 
-37
-00:02:28,660 --> 00:02:31,520
+55
+00:03:56,820 --> 00:03:59,820
 [rus] ...пункт: Cursor to Center.
 [eng] ...and choose "Cursor to Center".
 
-38
-00:02:31,640 --> 00:02:36,500
+56
+00:03:59,940 --> 00:04:04,600
 [rus] Затем, в T-меню, выбираем пункт: CutOut animation.
 [eng] Then, go to "CutOut animation" in T-menu.
 
-39
-00:02:36,600 --> 00:02:39,580
+57
+00:04:04,800 --> 00:04:07,700
 [rus] Нажимаем кнопку - Create new Sprite.
 [eng] And click on "Create new Sprite".
 
-40
-00:02:39,960 --> 00:02:44,760
+58
+00:04:08,320 --> 00:04:12,940
 [rus] По центру создалась пустышка, к которой будет привязана сцена.
 [eng] There is a plain axes created. Our scene will be linked with it.
 
-41
-00:02:45,100 --> 00:02:48,340
+59
+00:04:13,340 --> 00:04:16,480
 [rus] Теперь, нажимаем кнопку - Import Sprites.
 [eng] Now, press the button "Import Sprites".
 
-42
-00:02:48,860 --> 00:02:53,100
+60
+00:04:17,020 --> 00:04:21,280
 [rus] Выбираем тот файл формата .JSON, который мы создали ранее.
 [eng] Choose the .JSON file, which was created earlier.
 
-43
-00:02:55,040 --> 00:02:56,060
+61
+00:04:23,240 --> 00:04:24,200
 [rus] Вуаля!
 [eng] Voilà!
 
-44
-00:02:56,380 --> 00:02:59,740
+62
+00:04:24,620 --> 00:04:27,940
 [rus] Мы успешно импортировали нашу сцену в Blender.
 [eng] We've imported our scene to Blender successfully.
 
-45
-00:02:59,900 --> 00:03:01,920
+63
+00:04:28,180 --> 00:04:30,360
 [rus] Всё стоит на своих местах!
 [eng] Everything is on its places!
-
 
