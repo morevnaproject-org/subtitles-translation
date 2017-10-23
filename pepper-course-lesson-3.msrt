@@ -1,0 +1,285 @@
+﻿1
+00:00:03,760 --> 00:00:06,380
+[rus] В этом и в последующих уроках... 
+[eng] In this and later lessons...
+
+2
+00:00:06,480 --> 00:00:09,600
+[rus] Мы будем создавать более сложную марионетку.
+[eng] We will make more complicated rig.
+
+3
+00:00:09,900 --> 00:00:10,860
+[rus] Начнём.
+[eng] Let's start.
+
+4
+00:00:11,080 --> 00:00:15,780
+[rus] Создадим новую сцену и импортируем в неё файл .JSON
+[eng] Create new scene and import there .JSON file
+
+5
+00:00:18,900 --> 00:00:21,780
+[rus] Давайте сравним её с готовой сценой.
+[eng] Let's compare it to the finished scene.
+
+6
+00:00:22,320 --> 00:00:25,540
+[rus] Посмотрите. Видите в них различия? 
+[eng] Look at. Do you see any differences?
+
+7
+00:00:26,440 --> 00:00:27,660
+[rus] И я не вижу.
+[eng] I don't.
+
+8
+00:00:27,940 --> 00:00:30,980
+[rus] А теперь - посмотрим на неё в рентгене. 
+[eng] Now, look at in the X-Ray Mode.
+
+9
+00:00:32,460 --> 00:00:36,620
+[rus] Хорошо, на одной сцене "рентген" имеет форму картинки, но...
+[eng] OK, "X-ray" on the right looks like the silhouette of our character, but...
+
+10
+00:00:36,760 --> 00:00:39,720
+[rus] ...что это меняет? Давайте разберемся. 
+[eng] ...what does it change? Let's figure out.
+
+11
+00:00:41,600 --> 00:00:45,660
+[rus] Сначала воссоздадим то, что мы видели на сцене справа. 
+[eng] First, we need to recreate "finished" scene.
+
+12
+00:00:46,960 --> 00:00:48,900
+[rus] Выделяем какую-либо часть...
+[eng] Right-click any part...
+
+13
+00:00:49,380 --> 00:00:52,500
+[rus] ...и в T-меню нажимаем "Edit Mesh".
+[eng] ...and click "Edit Mesh" in T-Menu.
+
+14
+00:00:54,400 --> 00:01:00,480
+[rus] Итак, у нас открылось окно редактирования картинки, или, в дальнейшем, "меша". 
+[eng] Well, "Edit Mesh" window has been opened.
+
+15
+00:01:00,640 --> 00:01:04,500
+[rus] Сразу же нажимаем "Alt + H" для отображения рамки. 
+[eng] Press "Alt + H" to display picture frame.
+
+16
+00:01:06,980 --> 00:01:08,040
+[rus] Приступаем.
+[eng] Let's start.
+
+17
+00:01:08,240 --> 00:01:10,800
+[rus] Переносим курсор мыши в рабочую область... 
+[eng] Move the mouse cursor to work area...
+
+18
+00:01:10,880 --> 00:01:15,120
+[rus] ...и нажимаем левой кнопкой в любой месте, но поближе к картинке. 
+[eng] ...and left-click any place, but closer to the picture.
+
+19
+00:01:15,240 --> 00:01:19,860
+[rus] Затем, отступаем небольшое расстояние и ставим вторую точку. 
+[eng] Then, back up a short distance and create one more dot.
+
+20
+00:01:20,000 --> 00:01:23,000
+[rus] И так далее, пока не обведем картинку. 
+[eng] And continue until you'll outline the whole picture.
+
+21
+00:01:28,240 --> 00:01:30,980
+[rus] Внимание! Не заступайте за края.
+[eng] Be careful! Don't step over the frame edges!
+
+22
+00:01:38,060 --> 00:01:40,200
+[rus] Когда Вы встретите первую точку...
+[eng] When you'll meet the first dot...
+
+23
+00:01:40,300 --> 00:01:44,040
+[rus] ...выделите первую и последнюю точки и нажмите "F".
+[eng] ...select the first and the last dots and press "F".
+
+24
+00:01:46,440 --> 00:01:49,840
+[rus] Теперь, нам нужно сделать триангулирование.
+[eng] Now, we need to make triangulation.
+
+25
+00:01:49,840 --> 00:01:51,660
+[rus] Выделим любую точку... 
+[eng] Select any dot...
+
+26
+00:01:51,660 --> 00:01:55,540
+[rus] ...затем, с помощью сочитания клавиш "Ctrl + L"... 
+[eng] ...then press "Ctrl + L"...
+
+27
+00:01:55,760 --> 00:01:58,000
+[rus] ...выделяем все остальные точки...
+[eng] ...to select all another dots...
+
+28
+00:01:58,000 --> 00:02:01,280
+[rus] ...и в T-меню нажимаем "Triangle Fill".
+[eng] ...and then press "Triangle Fill" in T-menu.
+
+29
+00:02:04,920 --> 00:02:08,600
+[rus] Готово. Теперь осталось удалить рамку вокруг. 
+[eng]  Done. Now we have only left to delete the picture frame.
+
+30
+00:02:08,660 --> 00:02:10,480
+[rus] Она нам больше не понадобится. 
+[eng] We don't need it anymore.
+
+31
+00:02:10,480 --> 00:02:12,480
+[rus] Нажимаем снова "Alt + H"... 
+[eng]  Press "Alt + H"  again...
+
+32
+00:02:12,580 --> 00:02:15,840
+[rus] Выделяем все точки квадрата и удаляем. 
+[eng]  Select all dots of the picture frame and delete.
+
+33
+00:02:19,540 --> 00:02:23,120
+[rus] Далее, в Т-меню нажимаем "Finish Edit Mesh".
+[eng]  After, press "Finish Edit Mesh" in the T-menu.
+
+34
+00:02:25,760 --> 00:02:27,740
+[rus] Теперь, обьясню зачем это. 
+[eng]  Let me explain now everything we did.
+
+35
+00:02:28,580 --> 00:02:31,260
+[rus] Все эти треугольники являются полигонами.
+[eng]  All these triangles are polygons.
+
+36
+00:02:31,260 --> 00:02:35,560
+[rus] А триангулирование это создание сетки из таких треугольников.
+[eng]  And triangulation is a creation of net  (mesh) of these triangles.
+
+37
+00:02:35,660 --> 00:02:36,460
+[rus] Смотрите.
+[eng] Look.
+
+38
+00:02:36,540 --> 00:02:41,420
+[rus] Каждый полигон отвечает только за ту область, на которой он находится.
+[eng]  Every polygon is responsible only for area, where it's situated.
+
+39
+00:02:42,220 --> 00:02:46,080
+[rus] Триангулирование дает нам возможнсть "гнуть" картинку... 
+[eng] Triangulation gives us the opportunity to "bend" the picture.
+
+40
+00:02:46,080 --> 00:02:48,740
+[rus] ...что позволяет нам добиться такого результата...
+[eng] Because of that we are able to achieve such result...
+
+41
+00:02:48,740 --> 00:02:51,280
+[rus] ...как Вы видели в  вводном уроке. 
+[eng] ...as you saw in the first lesson.
+
+42
+00:02:52,500 --> 00:02:54,820
+[rus] Как Вы уже, наверное. догадались.... 
+[eng]  As you have probably guessed...
+
+43
+00:02:54,820 --> 00:02:57,600
+[rus] ...нам нужно триангулировать всю нашу сцену.
+[eng]  ...we need to triangulate the whole scene.
+
+44
+00:02:57,600 --> 00:03:01,600
+[rus] А точнее, триангулировать всё то, что будет гнуться...
+[eng] Or more precisely, we need to triangulate everything, what will be bent.
+
+45
+00:03:07,000 --> 00:03:08,420
+[rus] Обратите внимание...
+[eng] Note...
+
+46
+00:03:08,420 --> 00:03:11,680
+[rus] ...что иногда - могут появляться некие "артефакты". 
+[eng] ...that sometimes some "artifacts" may appear after triangulation.
+
+47
+00:03:11,680 --> 00:03:14,540
+[rus] Необходимо сразу делать проверку на их наличие. 
+[eng] It's necessary to check the mesh to its presence.
+
+48
+00:03:14,540 --> 00:03:16,540
+[rus] Их отлично видно в рентгене. 
+[eng] It can be easily seen in "X - Ray" mode.
+
+49
+00:03:21,800 --> 00:03:25,840
+[rus] Если их не убрать, они будут рвать картинку при анимации. 
+[eng] If it will not be removed, artifacts will tear the picture, when you animate it.
+
+50
+00:03:25,980 --> 00:03:29,320
+[rus] В большинстве случаев они убираются легко. 
+[eng] In most cases, artifacts can be easily removed.
+
+51
+00:03:29,900 --> 00:03:33,740
+[rus] Выбираем проблемный меш, входим в режим редактирования... 
+[eng] Select problem mesh and enter the "Edit Mode"...
+
+52
+00:03:42,080 --> 00:03:45,340
+[rus] Удаляем любую вершину в месте разрыва. 
+[eng] Delete any vertex at the  break point.
+
+53
+00:03:47,220 --> 00:03:50,240
+[rus] Затем, вручную заполняем пустые места. 
+[eng] Then, fill the empty places manually.
+
+54
+00:03:50,360 --> 00:03:52,940
+[rus] Выделяем три вершины и нажимаем "F". 
+[eng] Select three vertexes and press "F".
+
+55
+00:03:55,600 --> 00:03:58,120
+[rus] Если артефактов слишком много...
+[eng] If there are a LOT of artifacts...
+
+56
+00:03:58,240 --> 00:04:02,680
+[rus] ...то лучше всего сделать откат и триангулировать часть заного.
+[eng] ...so, it's better to roll back and triangulate part from the beginning.
+
+57
+00:04:10,720 --> 00:04:12,900
+[rus] Ну вот, меш готов.
+[eng] Well, mesh is ready.
+
