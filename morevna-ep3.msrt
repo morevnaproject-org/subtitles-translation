@@ -5,305 +5,706 @@
 [*]
 [*] Translators and correctors:
 [*]   English: Konstantin Dmitriev, scribblemaniac, Craig Maloney
+[*]   German: Estard Astrius (https://www.amara.org/en/profiles/profile/614055/)
+[*]   Spanish: RJ Quiralta (https://www.amara.org/en/profiles/profile/608054/)
+[*]   French: MCMic (https://www.amara.org/en/profiles/profile/607818/)
+[*]   Korean: loki maru (https://www.amara.org/en/profiles/profile/680980/)
+[*]   Polish: Adam Humienny (https://www.amara.org/en/profiles/profile/615568/)
+[*]   Portuguese, Brazilian: Yuri Corrêa (https://www.amara.org/en/profiles/profile/629883/)
+[*]   Thai: Dave Zeandave (https://www.amara.org/en/profiles/profile/655866/)
+[*]   Chinese (Simplified): alberthrocks (https://www.amara.org/en/profiles/profile/611522/)
 
 1
 00:00:02,840 --> 00:00:05,300
+[deu] Morevna Projekt
 [eng] Morevna Project...
+[fra] Le projet Morevna…
+[kor] 모레브나 프로젝트...
+[pol] Projekt Morevna
+[por] Projeto Morevna
 [rus] Проект "Моревна"...
+[spa] El proyecto Morevna...
+[tha] Morevna Project...
+[zho] Morevna 项目...
 
 2
 00:00:05,680 --> 00:00:09,760
+[deu] ...in Verbindung mit der "Adamant" Kunstakademie Gorno-Altaisk...
 [eng] ...in association with "Adamant" Art School of Gorno-Altaisk...
+[fra] …en partenariat avec l’école d’art «Adamant» de Gorno-Altaisk…
+[kor] ...고르노알타이스크의 아다만트 예술학교 협회...
+[pol] ...przy wsparciu szkoły "Adamant" w mieście Górny Ałtajsk
+[por] ...em associação com "Adamant" Escola de Arte de Gorno-Altaisk...
 [rus] ...при поддержке школы искусств "Адамант", города Горно-Алтайска...
+[spa] ... en asociación con la Escuela de Arte "Adamant" de Gorno-Altaisk...
+[tha] ร่วมกับ "Adamant" Art School of Gorno-Altaisk...
+[zho] ...和戈爾諾-阿爾泰斯克州立大学《Adamant》艺术学院...
 
 3
 00:00:09,760 --> 00:00:11,760
+[deu] präsentiert
 [eng] presents
+[fra] présentent
+[kor] 제공
+[pol] ... Przedstawia.
+[por] apresenta
 [rus] ...представляет.
+[spa] presenta
+[tha] ภูมิใจนำเสนอ
+[zho] 联合推出
 
 4
 00:00:33,600 --> 00:00:38,440
+[deu] "Falke", "Falke", antworte. Hier ist "Habicht". Wie ist die Lage?
 [eng] "Falcon", "Falcon", respond. This is "Hawk". What's your status?
+[fra] Faucon, Faucon, répondez ! Ici Aigle. Quel est votre statut ?
+[kor] "송골매, 송골매", 응답하라. 여기는 "보라매". 거기는 어떤가?
+[pol] "Sokół", "Sokół", ja "Jastrząb". Zgłaszam się.
+[por] "Falcão", "Falcão", responda. Aqui é "Gavião". Qual o seu status?
 [rus] "Сокол", "Сокол", я "Ястреб". Доложите обстановку.
+[spa] "Falcon", "Falcon", responde. Soy "Hawk", ¿En que condición te encuentras?
+[tha] "ฟาลคอน","ฟาลคอน".นี่"ฮ๊อก"ตอบด้วย สถานการ์ที่นั่นเป็นยังไงบ้าง
 
 5
 00:01:07,520 --> 00:01:09,880
+[deu] Hey Offizier, kann ich irgendwie behilflich sein?
 [eng] Hey officer, can I help you somehow?
+[fra] Bonjour sergent, puis-je vous aider ?
+[kor] 아이구 선생님, 뭐 좀 도울 일이라도?
+[pol] Hej oficerze , jak ci pomóc?
+[por] Olá oficial, posso lhe ajudar de alguma forma?
 [rus] Что-то забыл здесь, добрый молодец?
+[spa] Oiga oficial, ¿Necesita ayuda?
+[tha] นี่นี่ คุณทหารมีไรให้ผมช่วยป่ะ???
 
 6
 00:01:11,970 --> 00:01:13,970
+[deu] Bleib von mir, bleib von mir!
 [eng] Stay away, stay away!
+[fra] N’avancez pas !
+[kor] 저리 가, 저리 가!
+[pol] Nie zbliżaj się , nie zbliżaj się!
+[por] Fique longe, fique longe!
 [rus] Не подходи, не подходи!
+[spa] ¡Aléjense, aléjense!
+[tha] ถอยไป ถอยไป
 
 7
 00:01:14,160 --> 00:01:15,980
+[deu] Ich bin Agent der Regierung
 [eng] I am a government agent!
+[fra] Je suis un agent du gouvernement !
+[kor] 난 정부요원이다!
+[pol] Jestem agentem rządowym!
+[por] Sou um agente do governo!
 [rus] Я правительственный агент!
+[spa] ¡Soy un agente del govierno!
+[tha] ฉันเป็นเจ้าหน้าที่ราชการนะ
 
 8
 00:01:17,300 --> 00:01:19,600
+[deu] Ich weiß, ich weiß...
 [eng] I know, I know...
+[fra] Je sais, je sais…
+[kor] 알어, 알고 말고...
+[pol] wiem, wiem...
+[por] Eu sei, eu sei...
 [rus] Знаю, знаю...
+[spa] Lo se, lo se...
+[tha] ผมรู้ ผมรู้
 
 9
 00:01:20,300 --> 00:01:23,170
+[deu] Und ich bin der Eigentümer dieses Schlosses.
 [eng] And I am the owner of this mansion.
+[fra] Et je suis le propriétaire de ce manoir.
+[kor] 그리니까 내가 이 집 주인이거든.
+[pol] A ja jestem właścicielem tej posiadłości.
+[por] E eu sou o dono desta mansão.
 [rus] А я - хозяин этого дома.
+[spa] Y yo soy el dueño de ésta mansión.
+[tha] แล้วก็ เป็นเจ้าของคฤหาสน์หลังนี้ครับ
 
 10
 00:01:25,230 --> 00:01:27,490
 [eng] The Beautiful Princess Marya Morevna
+[fra] La belle princesse Marya Morevna
 [jpn] モレワゥナマリアは美しい姫宮
+[kor] 미녀 공주 마리아 모레브나
+[pol] Piękna księżniczka Maria Morevna
+[por] A Bela Princesa Marya Morevna
 [rus] Марья Моревна Прекрасная Королевна
+[spa] La Hermosa Pincesa Marya Morevna
+[tha] The Beautiful Princess Marya Morevna
 
 11
 00:01:27,715 --> 00:01:30,715
 [eng] Episode 3: Underground
+[fra] Épisode 3 : Le sous-sol
+[kor] 에피소드 3: 지하실
+[pol] Odcinek 3.0: Underground
+[por] Episódio 3: Subsolo
 [rus] "Третья серия: Подземелье".
+[spa] Episodio 3: El Sótano
+[tha] ตอนที่3: Underground
 
 12
 00:01:57,520 --> 00:02:02,980
+[deu] Ach, Marya Morvena, Ich versteh es einfach nicht.
 [eng] Ah, Marya Morevna, I just don't get it.
+[fra] Ah, Marya Morevna, je ne comprends pas.
+[kor] 아, 마리아 모레브나, 난 그냥 이해가 안돼.
+[pol] Ach, Marjo Morevna, po prostu nie mogę dostać.
+[por] Ah, Marya Morevna, eu simplesmente não consigo entender.
 [rus] Ах, Марья Моревна, вот чего я всё в толк не возьму...
+[spa] ¡Ah! Marya Morevna, simplemente no entiendo.
+[tha] Marya Morevna ฉันไม่เข้าใจ
 
 13
 00:02:03,800 --> 00:02:07,360
+[deu] Wir sind nicht wirklich reich, aber die kommen hier her, wie die Bienen zum
 [eng] We aren't that rich, but they are coming here like bees to a...
+[fra] On n’est pas si riches, mais ils continuent de venir comme des abeilles sur un pot…
+[kor] 우리가 뭐 부자도 아닌데 꿀단지나 되는지 벌떼처럼
+[pol] Nie są bogaci, ale przybywają tu jak pszczoły do ...
+[por] Não somos tão ricos, mas eles estão chegando aqui como abelhas para um...
 [rus] ...у нас что тут, медом намазано? Вроде не так уж богато живем, а лезут они к нам и лезут эти...
+[spa] No somos ricos, ¡Pero siguen viniendo como abejas al...
+[tha] พวกเราก็ไม่ได้รวยอะไรซักหน่อย ทำไมคนพวกนี่้แห่กันมาที่นี่เหมือนผึ้งบินหา
 
 14
 00:02:07,690 --> 00:02:09,289
+[deu] Honig!
 [eng] ...honeypot!
+[fra] ...de miel !
+[kor] 여기로 몰려오는구만!
+[pol] ..miodu!
+[por] ...pote de mel!
 [rus] ...голубчики!
+[spa] ...panal!
+[tha] ....โถน้ำผึ้ง
 
 15
 00:02:09,520 --> 00:02:11,650
+[deu] Ich bin keine Biene, Ich bin ein "Habicht".
 [eng] I am not a bee, I am a "Hawk".
+[fra] Je ne suis pas une abeille, je suis un aigle !
+[kor] 난 벌이 아니야, 난 "보라매"라구.
+[pol] Nie jestem pszczoła, jestem "Jastrząb".
+[por] Eu não sou uma abelha, sou um "Gavião".
 [rus] Я не "Голубчик", я "Ястреб".
+[spa] No soy una abeja, soy "Hawk" el halcón.
+[tha] ฉันไม่ใช่ผึ้ง ฉันเป็น"เหยียว"เฟ้ย
 
 16
 00:02:11,760 --> 00:02:13,690
+[deu] Spreitz die Flügel, Habicht.
 [eng] Spread your wings, Hawk.
+[fra] Alors vole, aigle.
+[kor] 날개 펼쳐, 보라매.
+[pol] Rozwiń skrzydła, Hawk.
+[por] Abra suas asas, Gavião.
 [rus] Лети, лети, "Ястреб".
+[spa] A volar se ha dicho "Hawk".
+[tha] งั้นกางปีกซิ,คุณเหยียว
 
 17
 00:02:17,620 --> 00:02:19,520
+[deu] Aber es scheint, als hättest du Spaß.
 [eng] But it seems like you're having fun.
+[fra] On dirait que tu t’amuses bien.
+[kor] 그런데 너 즐기는 것 같애.
+[pol] Wydaje się, że dobrze się bawisz.
+[por] Mas, parece que você está se divertindo.
 [rus] А то тебе не в радость развлечения?
+[spa] A mi me parece que te estás divirtiendo.
+[tha] แต่ เหมือนนายกำลังสนุกนะ
 
 18
 00:02:19,650 --> 00:02:20,620
+[deu] Natürlich habe ich das!
 [eng] Of course I am!
+[fra] Évidemment !
+[kor] 그럼 당연하지!
+[pol] Oczywiście, że tak!
+[por] Claro que estou!
 [rus] Еще бы не в радость!
+[spa] ¡Por supuesto!
+[tha] แน่นอน
 
 19
 00:02:20,620 --> 00:02:24,540
+[deu] Aber sag mal, musstest du unbedingt meine Lieblingswerkzeugkiste auf ihn fallen lassen?
 [eng] But still, why did you drop my favorite toolbox on him?
+[fra] Mais dis-moi, pourquoi tu as jeté ma boite à outils préférée ?
+[kor] 어, 그런데 너 내가 아끼는 도구상자를 왜 저 인간한테 떨구었어?
+[pol] Ale powiedz mi, dlaczego mój ulubiony zestaw narzędzi spadł na niego?
+[por] Mas fale, porque você jogou minha caixa de ferramentas favorita nele?
 [rus] Но скажи, зачем было сбрасывать ему на голову мой ящик с инструментами?
+[spa] Pero... explícame por que usaste mi caja de herramientas favorita... como un arma.
+[tha] ว่าแต่ ทำไมเธอถึงปล่อยกล่องเครื่องมือสุดรักของฉันใส่หัวเขาเนี้ย
 
 20
 00:02:40,760 --> 00:02:44,460
+[deu] Ich versteh einfach nicht, was du ihnen angetan hast, dass sie so hinter dir her sind...
 [eng] I just can't figure out what you did to them if they're after you so much...
+[fra] Je n’arrive pas à comprendre ce que tu as pu leur faire, pour qu’ils t’en veulent autant…
+[kor] 저 놈들이 널 그렇게 쫓아다니는 것, 네가 뭘 어쨌길래 그러는 것인지 알 수가 없네.
+[pol] Co ty im takiego zrobiłaś, że chcą się do ciebie dobrać...
+[por] Não consigo imaginar o que você fez pra eles, se estão atrás de você dessa forma.
 [rus] И что ты им такого сделала, что они так хотят до тебя добраться?
+[spa] No entiendo que les hiciste que te persiguen tanto...
 
 21
 00:02:44,620 --> 00:02:46,200
+[deu] Ich hab keine Ahnung.
 [eng] I have no idea.
+[fra] Aucune idée.
+[kor] 나도 모르지.
+[pol] Nie mam pojęcia.
+[por] Não tenho ideia.
 [rus] Понятия не имею.
+[spa] Quién lo sabe.
+[tha] ฉันไม่รู้
 
 22
 00:02:47,520 --> 00:02:48,920
+[deu] Oh, wohin fährst du?
 [eng] Going somewhere?
+[fra] Tu t’en vas ?
+[kor] 어디 가?
+[pol] Idziesz gdzieś?
+[por] Indo em algum lugar?
 [rus] Ты надолго?
+[spa] ¿A donde vas?
+[tha] ว่าแต่ เธอจะไปไหนละเนี้ย ?
 
 23
 00:02:48,970 --> 00:02:51,660
+[deu] Ich fahre zu einer Bikerparty, und ich komm erst morgen wieder.
 [eng] I am going to a biker party, and I won't be back until tomorrow.
+[fra] Je vais à une fête de motards, je serais de retour demain.
+[kor] 오토바이족 파티에 가는데 내일까지 안 돌아올거야.
+[pol] Idę na imprezę rowerową, i nie wrócę do jutra.
+[por] Vou a uma festa de motoqueiros, e não voltarei até amanhã.
 [rus] Я собираюсь на слёт байкеров, до завтра не вернусь.
+[spa] A una fiesta de motociclistas,
+[tha] ฉันกำลังไปปาร์ตี้นักซิ่งซะหน่อย กว่าจะกลับก็คงพรุ่งนี้
 
 24
 00:02:51,920 --> 00:02:54,850
+[deu] Abendessen auf dem Teller, Feuerholz im Schuppen, Hundefutter unter der Badewanne..
 [eng] Dinner on plate, firewood in shed, dog food under sink...
+[fra] Dîner prêt, bois dans la cheminée, nourritures des chiens sous la baignoire…
+[kor] 밥은 해놓았고, 장작은 창고, 개밥은 욕조 밑에 있구...
+[pol] Obiad na płycie, drewno w szopie, jedzenie psa pod prysznicem ...
+[por] Jantar no prato, lenha no galpão, comida do cão debaixo da banheir...
 [rus] Ужин на плите, дрова в сарае, собачья еда под раковиной.
+[spa] La cena está lista, la leña en el almacén, la comida del perro bajo la tina...
+[tha] อาหารเย็นอยู่ในจาน,ฟืนอยู่ในคอก ,อาหารหมาอยู่ใต้อ่างอาบน้ำ....
 
 25
 00:02:54,970 --> 00:02:55,890
+[deu] Wir haben hier Hunde?
 [eng] Do we have dogs here?
+[fra] On a des chiens ici ?
+[kor] 우리가 언제 개를 키웠나?
+[pol] Czy mamy tu psy?
+[por] Nós temos cachorros aqui!?
 [rus] У нас что еще собаки есть?
+[spa] ¿Tenemos perros?
+[tha] เรามีหมาหรอ ???
 
 26
 00:02:56,160 --> 00:03:00,560
+[deu] ...bei einem Stromausfall, schalte den Generator an und vergiss nicht das Luftabwehrsystem neu zu starten.
 [eng] ...in case of a power outage, turn on the electric generator and don't forget to restart the air defense system.
+[fra] …en cas de coupure, allume le générateur et n’oublie pas de relancer le système de défense.
+[kor] 전기 나가면 발전기 켜서 대공 방어 시스템 재가동하는거 있지 말고.
+[pol] ... W przypadku przerwy w dostawie prądu, włącz generator elektryczny i nie zapomnij, aby ponownie uruchomić system obrony powietrznej.
+[por] ...em caso de queda de energia, ligue o gerador e não esqueça
 [rus] Если отключат свет, не забудь включить генератор и перезагрузить систему ПВО.
+[spa] ... en caso de un corte eléctrico, prende el generador y no
 
 27
 00:03:01,160 --> 00:03:04,140
+[deu] Hier sind alle Schlüssel für jede Tür des Schlosses.
 [eng] Here are the keys to all of the doors in the mansion.
+[fra] Voilà les clés de toutes les pièces du manoir.
+[kor] 옛다, 여기 집 열쇠 전부다.
+[pol] Oto klucz do wszystkich drzwi w rezydencji.
+[por] Aqui estão as chaves para
 [rus] Вот тебе ключи от всех дверей в доме.
+[spa] Éstas son las llaves que abren todas las
 
 28
 00:03:04,140 --> 00:03:08,290
+[deu] Geh wohin, wo immer du willst, aber fass nicht diesen Schlüssel an und sperr auch nicht die Tür dazu auf.
 [eng] Feel free to go anywhere, but don't touch this key and don't unlock the door.
+[fra] Va où tu veux, mais ne touche pas à cette clé !
+[kor] 어느 방이든 다 괜찮은데, 이 열쇠는 건드리지말고 열려진 것은 그대로 둬.
+[pol] Możesz chodzić gdziekolwiek chcesz , ale nie używaj tego klucza
+[por] mas, não toque nesta chave e não destranque a porta que ela abre
 [rus] Можешь ходить куда угодно, но вот этот ключ не трогай, и дверь которую он отпирает, не открывай.
+[spa] Puedes entrar al cualquier lugar excepto
 
 29
 00:03:08,420 --> 00:03:09,890
+[deu] Warum das?
 [eng] But why?
+[fra] Mais pourquoi ?
+[kor] 왜 그럴까요?
+[pol] Ale dlaczego?
+[por] Mas, porque?
 [rus] А почему?
+[spa] ¿Por qué?
 
 30
 00:03:10,020 --> 00:03:12,090
+[deu] Weil ich das so sage!
 [eng] Just don't!
+[fra] Parce que !
+[kor] 내가 그렇다면 그런거야!
+[pol] Bo ja tak powiedziałam!
+[por] Porque eu disse que sim!
 [rus] Нельзя сказала!
+[spa] ¡Por que yo lo digo!
 
 31
 00:03:13,170 --> 00:03:14,300
+[deu] Mach's gut...
 [eng] Well, bye...
+[fra] Bon, à demain…
+[kor] 음냐, 간다...
+[pol] Dobrze, pa ...
+[por] Então, tchau...
 [rus] Ну, пока...
+[spa] Bueno, nos vemos...
 
 32
 00:03:30,870 --> 00:03:36,960
+[deu] So, Liebling, dann kann ich etwas Spaß mit dir haben.
 [eng] Alright dear, now I can have some fun with you.
+[fra] Enfin seuls, on va pouvoir s’amuser.
+[kor] 그렇다면 앗싸, 너나 좀 즐겨도 되겠네.
+[pol] No dobrze kochanie , teraz mogę się tobą zająć...
+[por] Então, querida, finalmente posso ter alguma diversão com você.
 [rus] Ну что, детка, теперь я могу заняться тобой.
+[spa] Entonces... ¿Nos podemos divertir juntos?
 
 33
 00:04:23,050 --> 00:04:26,050
+[deu] Hm, es scheint dieser wundervolle Abend ist in Gefahr.
 [eng] Hm, it seems this lovely evening is in danger.
+[fra] Voilà qui menace le bon déroulement de cette soirée.
+[kor] 흠, 이 좋은 저녁 시간이 위태위태한데.
+[pol] Hmm, wygląda na to, że nasz wieczór jest zagrożony
+[por] Hum, parece que esta noite encantadora está sob ameaça.
 [rus] Хм, похоже, наш романтический вечер под угрозой.
+[spa] Hum, parece que so nos ha arruinado
 
 34
 00:04:33,360 --> 00:04:36,620
+[deu] Hier geblieben, Ich bin gleich zurück.
 [eng] Stay here, I'll be right back.
+[fra] Ne bouge pas, je reviens.
+[kor] 여기 있거라, 금방 돌아오꾸마.
+[pol] Zostań tu, zaraz wracam.
+[por] Fique aqui, já volto.
 [rus] Дождись меня, я мигом.
+[spa] Quédate ahí, ahorita vuelvo.
 
 35
 00:04:39,670 --> 00:04:42,280
+[deu] Türaufschrift: "Untergrund"
 [eng] Caption on the door: "Underground"
+[fra] «Sous-sol»
+[kor] 문에 쓰여진 글귀: "지하실"
+[pol] "Napis na drzwiach: Piwnica".
+[por] Escrito na porta: "Subsolo"
 [rus] "Надпись на двери: Погреб".
+[spa] "Sótano"
 
 36
 00:05:10,400 --> 00:05:12,700
+[deu] Aha, da ist es!
 [eng] Aha, here it is!
+[fra] Ah, voilà !
+[kor] 아, 여기 있구만!
+[pol] Aha, tu jesteś!
+[por] Arrá, aqui está!
 [rus] Ага, вот.
+[spa] ¡Ajá, ahí está!
 
 37
 00:05:21,550 --> 00:05:23,050
+[deu] Was?
 [eng] What?
+[fra] Tiens?
+[kor] 뭐지?
+[pol] Co?
+[por] O que?
 [rus] Чего?
+[spa] ¿Qué fue eso..?
 
 38
 00:05:38,360 --> 00:05:42,520
+[deu] Das ist...
 [eng] This is...
+[fra] C’est…
+[kor] 이것은...
+[pol] To jest ...
+[por] Isto é...
 [rus] Это же...
+[tha] ฮะ ??
 
 39
 00:05:46,900 --> 00:05:50,800
+[deu] Geh wohin, wo immer du willst, aber fass nicht diesen Schlüssel an...
 [eng] ...feel free to go anywhere, but don't touch this key...
+[fra] …va où tu veux, mais ne touche pas à cette clé…
+[kor] 어느 방이든 다 괜찮은데, 이 열쇠는 건드리지말고...
+[pol] ...możesz chodzić gdziekolwiek chcesz, ale nie używaj tego klucza...
+[por] ...sinta-se livre para ir em qualquer lugar, mas não toque nesta chave...
 [rus] ...можешь ходить куда угодно, но вот этот ключ не трогай...
+[spa] ...Puedes entrar al cualquier lugar excepto
+[tha] นี่คือ.....
 
 40
 00:06:53,600 --> 00:06:56,120
+[deu] Hey, ist da jemand?
 [eng] Hey, is anybody here?
+[fra] Il y a quelqu’un ?
+[kor] 여기요, 누구 없어요?
+[pol] Hej, jest tu ktoś?
+[por] Ei, tem alguém aqui?
 [rus] Эй, здесь есть кто-нибудь?
+[spa] Hola ¿hay alguien aquí?
 
 41
 00:06:58,200 --> 00:07:01,040
+[deu] Da ist was an deinem Motor defekt.
 [eng] There is something wrong with your engine here.
+[fra] Il y a quelque chose qui cloche avec votre moteur.
+[kor] 여기 엔진에 무슨 문제가 있구만.
+[pol] Coś jest nie tak z tym silnikiem.
+[por] Tem algo errado com seu motor aqui.
 [rus] Тут у вас... движок не в порядке.
+[spa] Algo no esta bien con ésta maquina.
+[tha] เฮ้พวก มีใครอยู่ที่นี่ไหม
 
 42
 00:07:04,720 --> 00:07:07,040
+[deu] Verdammt seist du...
 [eng] Damn you…
+[fra] Soyez maudit…
+[kor] 망할자식...
+[pol] Niech cię…
+[por] Maldito...
 [rus] Да чтоб тебя...
+[spa] Cómo te atreves...
 
 43
 00:07:07,680 --> 00:07:10,280
+[deu] Ah? Wer bist du?
 [eng] Ah? Who is it?
+[fra] Ah ? Qui est là ?
+[kor] 앗? 누구요?
+[pol] Ah? Kto to jest?
+[por] Ah? Quem está aí?
 [rus] А? Кто это?
+[spa] ¿Qué, quién anda ahí?
+[tha] โถ่เอ้ย
 
 44
 00:07:14,680 --> 00:07:17,680
+[deu] Na los...
 [eng] Come on...
+[fra] Approche…
+[kor] 이리와...
+[pol] Daj spokój...
+[por] Venha...
 [rus] Ну, давай...
+[spa] Acércate...
+[tha] ฮะ? ใครน่ะ ??
 
 45
 00:07:21,920 --> 00:07:26,360
+[deu] Mein Name lautet Ivan Tsarevich... und ich bin ziemlich gut im Sachen reparieren.
 [eng] My name is Ivan Tsarevich... and I am very good at fixing things.
+[fra] Mon nom est Ivan Tsarevich… et j’ai un don pour la mécanique.
+[kor] 저는 이반 짜르비치라 하는데... 물건 정말 잘 고칩니다.
+[pol] Nazywam się Ivan Carewicz ... i jestem bardzo dobry w naprawianiu rzeczy.
+[por] Meu nome é Ivan Tsarevich... e eu sou muito bom consertando coisas.
 [rus] Меня зовут Иван Царевич... и я могу починить все что угодно.
+[spa] Mi nombre es Ivan Tsarevich... y soy un
 
 46
 00:07:29,080 --> 00:07:33,560
+[deu] Innen...
 [eng] Inside...
+[fra] À l’intérieur…
+[kor] 안쪽으로...
+[pol] Wewnątrz...
+[por] Dentro...
 [rus] Внутри...
+[spa] Busca adentro...
 
 47
 00:07:38,200 --> 00:07:41,240
+[deu] Da...
 [eng] There...
+[fra] Viens…
+[kor] 거기...
+[pol] Tam...
+[por] Ali...
 [rus] Там...
+[spa] Ahí...
 
 48
 00:07:45,440 --> 00:07:50,200
+[deu] Das Gerüst ist ziemlich ungewöhnlich. Das wird eine Herausforderung da rein zu kommen.
 [eng] The framework is quite unusual. It will be a challenge to get inside.
+[fra] La structure est inhabituelle… ça va être compliqué d’atteindre l’intérieur.
+[kor] 모양틀이 꽤나 요상하구만. 살펴보는 것도 도전이 되겠구만.
+[pol] Rama jest dość niezwykła. Będzie to wyzwanie, aby dostać się do środka.
+[por] A estrutura é bem diferente. Será um desafio chegar dentro.
 [rus] Корпус очень необычный. Будет непросто его вскрыть.
+[spa] Es una construcción complicada, va ha estar difícil abrirla.
 
 49
 00:07:51,640 --> 00:07:55,880
+[deu] Ha, und los geht's!
 [eng] Okay, let's start!
+[fra] Allons-y !
+[kor] 그럼, 시작해볼까!
+[pol] Więc zaczynamy!
+[por] Então, vamos começar!
 [rus] Ну что ж, приступим!
+[spa] ¡Bueno... empecemos!
 
 50
 00:08:07,690 --> 00:08:10,090
+[deu] Ja...
 [eng] Yes...
+[fra] Oui…
+[kor] 그래...
+[pol] Tak..
+[por] Sim...
 [rus] Да...
+[spa] Muy bien...
+[tha] ใช่
 
 51
 00:08:12,290 --> 00:08:14,490
+[deu] Ausgezeichnet...
 [eng] Excellent...
+[fra] Continue…
+[kor] 훌륭해...
+[pol] Doskonale...
+[por] Excelente...
 [rus] Отлично...
+[spa] Excelente...
+[tha] ยอดเยี่ยม
 
 52
 00:08:16,880 --> 00:08:18,720
+[deu] Sehr gut.
 [eng] Well done.
+[fra] Bien joué
+[kor] 잘 했다.
+[pol] Dobra robota.
+[por] Muito bem.
 [rus] Молодец...
+[spa] Muy bien hecho...
+[tha] ทำได้ดีมาก
 
 53
 00:08:21,920 --> 00:08:24,520
+[deu] Du hast wahrlich Talent...
 [eng] My, you've got talent...
+[fra] Vous avez un talent certain…
+[kor] 확실히, 재능이 있구만...
+[pol] Oczywiście, że mam talent ...
+[por] Certamente, você tem um talento...
 [rus] Да ты просто талант...
+[spa] Definitivamente tienes talento...
+[tha] แน่นอน
 
 54
 00:08:27,290 --> 00:08:30,220
+[deu] Das hier ist nicht das Schwerste...
 [eng] This is not the hardest one...
+[fra] Ce n’est pas le plus dur…
+[kor] 이 정도는 제일 어려운 축도 못끼죠...
+[pol] To nie jest najtrudniejsze ...
+[por] Este não é o mais difícil...
 [rus] Я еще и не такие разбирал...
+[spa] No es lo mas difícil que he visto...
 
 55
 00:08:30,220 --> 00:08:34,960
+[deu] Trotzdem, es ist sehr merkwürdig, dass es so kompliziert ist, es auf zu kriegen.
 [eng] Still, it's quite strange that it's so tricky to open this thing...
+[fra] C’est tout de même étrange que ce soit si difficile à ouvrir…
+[kor] 아직은. 이건 완전 못보던 것인데 열기가 꽤나 까다롭네...
+[pol] Bardzo dziwne, że korpus... tak trudno otworzyć.
+[por] Ainda que, é muito estranho que seja tão difícil abrir esta coisa...
 [rus] Очень странно, что корпус... так сложно открывается.
+[spa] Y sin embargo, es raro que sea tan difícil
 
 56
 00:08:38,490 --> 00:08:41,760
+[deu] Nun, das wär's.
 [eng] Well, that's all.
+[fra] Ça devrait aller.
+[kor] 음냐, 이상 끝.
+[pol] Cóż, to wszystko.
+[por] Bem, isso é tudo.
 [rus] Ну, вот.
+[spa] Bueno, ya esta listo.
 
 57
 00:08:42,059 --> 00:08:44,900
+[deu] Sesam öffne dich!
 [eng] Open Sesame!
+[fra] Sésame, ouvre-toi !
+[kor] 열려라 참깨!
+[pol] Sezamie, otwórz się!
+[por] Abre-te Sésamo!
 [rus] Сим-Сим, откройся!
+[spa] ¡Ábrete Sésamo!
 
 58
 00:09:08,090 --> 00:09:11,420
+[deu] Was ist los? Du hast es fast geschafft!
 [eng] What's up? You are almost there!
+[fra] Eh bien ? Tu y es presque !
+[kor] 뭐지? 그냥 그대로잖아!
+[pol] No co jest? Jestem bardzo blisko!
+[por] O que é que há? Você está quase lá!
 [rus] Ну, что там? Ты совсем рядом!
+[spa] ¿Por que paras? ¡Ya casi estas ahí!
 
 59
 00:09:13,880 --> 00:09:20,490
+[deu] Ich bin nicht sicher... hier scheint ein Zettel zu sein... Ich entferne ihn jetzt.
 [eng] I don't know... there seems to be some piece of paper here... I'm going to remove it now.
+[fra] Je ne sais pas… on dirait un bout de papier… je vais le retirer.
+[kor] 모를 일이네... 여기 종이 조각이 좀 있는 것 같은데... 지금 떼내어볼까.
+[pol] Nie wiem ... wydaje się być jakiś kawałek papieru tutaj ... Mam zamiar go teraz usunąć.
+[por] Não sei... parece que tem um pedaço de papel aqui...Vou remover ele agora.
 [rus] Не знаю, тут какая-то бумажка прилеплена. Сейчас я её уберу.
+[spa] No se... parece que hay un pedazo de papel pegado... lo voy a quitar.
 
 60
 00:11:23,640 --> 00:11:25,440
+[deu] Oh, nein....
 [eng] Oh, no...
+[fra] Oh non…
+[kor] 으악, 안돼...
+[pol] O nie...
+[por] Oh, não...
 [rus] О, нет...
+[spa] Oh, no...
 
