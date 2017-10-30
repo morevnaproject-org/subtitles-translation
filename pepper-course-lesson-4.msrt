@@ -1,236 +1,208 @@
-﻿1
+1
 00:00:00,740 --> 00:00:02,560
-[rus] Урок №4: "Продвинутый Риг". [eng] Lesson №4: "Advanced Rig".
+[rus] Урок №4: "Продвинутый Риг". \N[eng] Lesson №4: "Advanced Rig".
 
 2
 00:00:03,700 --> 00:00:06,740
-[rus] После того, как мы триангулировали нашу сцену... [eng] After triangulation of our scene...
+[rus] После того, как мы триангулировали нашу сцену... \N[eng] After triangulation of our scene...
 
 3
 00:00:06,820 --> 00:00:09,120
-[rus] ...нам нужно теперь сделать скелет. [eng] ...we need to create skeleton.
+[rus] ...нам нужно теперь сделать скелет. \N[eng] ...we need to create skeleton.
 
 4
 00:00:09,760 --> 00:00:13,040
-[rus] Итак, сначала проведем одну кость через всё тело. [eng] Well, first of all, create a bone and arrange it on the body.
+[rus] Итак, сначала проведем одну кость через всё тело. \N[eng] Well, first of all, create a bone and arrange it on the body.
 
 5
 00:00:13,700 --> 00:00:17,640
-[rus] Затем, разделим эту кость на несколько честей. [eng] Then, divide this bone into a few parts.
+[rus] Затем, разделим эту кость на несколько честей. \N[eng] Then, divide this bone into a few parts.
 
 6
 00:00:18,020 --> 00:00:21,000
-[rus] Для этого нужно нажать клавишу "W"...[eng] To do that, press "W"...
+[rus] Для этого нужно нажать клавишу "W"...\N[eng] To do that, press "W"...
 
 7
 00:00:21,100 --> 00:00:24,500
-[rus] ...и выбрать пункт "Subdivide". [eng] And choose "Subdivide".
+[rus] ...и выбрать пункт "Subdivide". \N[eng] And choose "Subdivide".
 
 8
 00:00:24,720 --> 00:00:27,520
-[rus] В меню слева прибавляем частей. [eng] Add additional parts on the left menu.
+[rus] В меню слева прибавляем частей. \N[eng] Add additional parts on the left menu.
 
 9
 00:00:29,860 --> 00:00:34,100
-[rus] Первая кость - будет отвечать за движение всей марионетки. [eng] The first bone will be responsible for moving of the Rig.
+[rus] Первая кость - будет отвечать за движение всей марионетки. \N[eng] The first bone will be responsible for moving of the Rig.
 
 10
 00:00:35,180 --> 00:00:38,380
-[rus] Вторая - будет отвечать за сгиб в области талии. [eng] The second one - for bending waist area.
+[rus] Вторая - будет отвечать за сгиб в области талии. \N[eng] The second one - for bending waist area.
 
 11
 00:00:38,500 --> 00:00:40,220
-[rus] Третья - за наклон груди... [eng] The third one - for breast tilt...
+[rus] Третья - за наклон груди... \N[eng] The third one - for breast tilt...
 
 12
 00:00:40,280 --> 00:00:42,140
-[rus] ...а четвертая - за шею. [eng] ...and the fourth - for neck.
+[rus] ...а четвертая - за шею. \N[eng] ...and the fourth - for neck.
 
 13
 00:00:47,800 --> 00:00:50,920
-[rus] Еще две кости сделаем на плечи. [eng] Let's make two more bones for shoulders.
+[rus] Еще две кости сделаем на плечи. \N[eng] Let's make two more bones for shoulders.
 
 14
 00:00:51,340 --> 00:00:54,740
-[rus] Я бы посоветовал дублировать шею, чтобы сделать плечи. [eng] I advice you to duplicate the neck bone for shoulders.
+[rus] Я бы посоветовал дублировать шею, чтобы сделать плечи. \N[eng] I advise you to duplicate the neck bone for shoulders.
 
 15
 00:00:54,820 --> 00:00:57,680
-[rus] ...так как они сразу будут привязаны к груди. [eng] ...because they will be automatically bound with breast.
+[rus] ...так как они сразу будут привязаны к груди. \N[eng] ...because they will be automatically bound with breast.
 
 16
 00:01:01,200 --> 00:01:03,340
-[rus] Мы даем руке аж три кости. [eng] And then, we create three bones to the arms.
+[rus] Мы даем руке аж три кости. \N[eng] And then, we create three bones to the arms.
 
 17
 00:01:03,600 --> 00:01:06,940
-[rus] Одна кость идет от плеча до локтя... [eng] The first bone is from shoulder to elbow...
+[rus] Одна кость идет от плеча до локтя... \N[eng] The first bone is from shoulder to elbow...
 
 18
 00:01:07,080 --> 00:01:09,300
-[rus] ...вторая - от локтя до кисти... [eng] ...the second - from elbow to wrist...
+[rus] ...вторая - от локтя до кисти... \N[eng] ...the second - from elbow to wrist...
 
 19
 00:01:09,520 --> 00:01:11,820
-[rus] ...и третья кость - идет на саму кисти [eng] ...and the third - is for wrist itself.
+[rus] ...и третья кость - идет на саму кисти \N[eng] ...and the third - is for wrist itself.
 
 20
 00:01:26,020 --> 00:01:30,100
-[rus] Также напомню, что нужно создать собственные кости для зрачков. [eng] I also recall, that we need to create bones for eyes.
+[rus] Также напомню, что нужно создать собственные кости для зрачков. \N[eng] I also recall, that we need to create bones for eyes.
 
 21
 00:01:30,160 --> 00:01:31,980
-[rus] Дублируем какую-либо кость... [eng] Duplicate any bone...
+[rus] Дублируем какую-либо кость... \N[eng] Duplicate any bone...
 
 22
 00:01:32,100 --> 00:01:34,480
-[rus] ...ставим её сначала на один глаз... [eng] ...put it on the first eye...
+[rus] ...ставим её сначала на один глаз... \N[eng] ...put it on the first eye...
 
 23
 00:01:44,160 --> 00:01:45,580
-[rus] ...затем на другой... [eng] ...then on another...
+[rus] ...затем на другой... \N[eng] ...then on another...
 
 24
 00:01:46,680 --> 00:01:48,460
-[rus] ...и еще одну между ними. [eng] ...and one more bone between them.
+[rus] ...и еще одну между ними. \N[eng] ...and one more bone between them.
 
 25
 00:01:48,500 --> 00:01:51,560
-[rus] Теперь привязываем боковые кости к центральной...
-[eng] Now bind lateral bones to the central...
+[rus] Теперь привязываем боковые кости к центральной... \N[eng] Now bind lateral bones to the central...
 
 26
 00:01:51,620 --> 00:01:53,760
-[rus] ...а центральную кость - к голове.
-[eng] ...and the central one - to head bone.
+[rus] ...а центральную кость - к голове. \N[eng] ...and the central one - to head bone.
 
 27
 00:02:22,180 --> 00:02:25,520
-[rus] Следующим шагом будет привязка персонажа к скелету.
-[eng] Next step is linking the character to the skeleton.
+[rus] Следующим шагом будет привязка персонажа к скелету. \N[eng] Next step is linking the character to the skeleton.
 
 28
 00:02:25,960 --> 00:02:28,120
-[rus] В прошлом уроке мы это уже делали...
-[eng] We've already done this before...
+[rus] В прошлом уроке мы это уже делали... \N[eng] We've already done this before...
 
 29
 00:02:28,140 --> 00:02:31,240
-[rus] Но тот метод подходит только для тех частей...
-[eng] But that method is working only for those parts...
+[rus] Но тот метод подходит только для тех частей... \N[eng] But that method is working only for those parts...
 
 30
 00:02:31,340 --> 00:02:32,860
-[rus] ...которые не будут гнуться. 
-[eng] ...which shell not be bent.
+[rus] ...которые не будут гнуться. \N[eng] ...which shell not be bent.
 
 31
 00:02:32,940 --> 00:02:36,680
-[rus] Обычно это глаза, ладони, рот, веки. 
-[eng] It's commonly for eyes, hands, mouth and eyelids.
+[rus] Обычно это глаза, ладони, рот, веки. \N[eng] It's commonly for eyes, hands, mouth and eyelids.
 
 32
 00:02:36,860 --> 00:02:39,980
-[rus] Здесь же будет использоваться другой метод...
-[eng] There will be used another method...
+[rus] Здесь же будет использоваться другой метод... \N[eng] There will be used another method...
 
 33
 00:02:40,100 --> 00:02:42,800
-[rus] ...привязка с автоматическими весами.
-[eng] ...linking "With Automatic Weights".
+[rus] ...привязка с автоматическими весами.\N[eng] ...linking "With Automatic Weights".
 
 34
 00:02:43,460 --> 00:02:46,160
-[rus] Перед тем, как привязать какую-либо часть... 
-[eng] First, we have to turn off skeleton deformation...
+[rus] Перед тем, как привязать какую-либо часть... \N[eng] First, we have to turn off skeleton deformation...
 
 35
 00:02:46,340 --> 00:02:48,760
-[rus] ...сначала нужно выключить деформацию всего скелета.
-[eng] ...before linking any part.
+[rus] ...сначала нужно выключить деформацию всего скелета. \N[eng] ...before linking any part.
 
 36
 00:02:50,400 --> 00:02:52,020
-[rus] Выделяем весь скелет... 
-[eng] Select whole skeleton...
+[rus] Выделяем весь скелет... \N[eng] Select whole skeleton...
 
 37
 00:02:52,080 --> 00:02:55,760
-[rus] ...нажимаем комбинацию клавиш Shift + W...
-[eng] ...press Shift + W...
+[rus] ...нажимаем комбинацию клавиш Shift + W... \N[eng] ...press Shift + W...
 
 38
 00:02:56,380 --> 00:02:57,820
-[rus] ...выбираем "Deform"... 
-[eng] ...choose "Deform"...
+[rus] ...выбираем "Deform"... \N[eng] ...choose "Deform"...
 
 39
 00:02:59,620 --> 00:03:02,480
-[rus] ...и в меню снизу нажимаем "Disable". 
-[eng] ...and select "Disable" in pull-down menu at the bottom left.
+[rus] ...и в меню снизу нажимаем "Disable".  \N[eng] ...and select "Disable" in pull-down menu at the bottom left.
 
 40
 00:03:08,200 --> 00:03:11,700
-[rus] Далее выбираем Mesh, затем нужные кости...
-[eng] After that pick the mesh and then needed bones...
+[rus] Далее выбираем Mesh, затем нужные кости...\N[eng] After that pick the mesh and then needed bones...
 
 41
 00:03:11,880 --> 00:03:14,000
-[rus] ...к которым будем привязывать.
-[eng] ...which will be linked.
+[rus] ...к которым будем привязывать. \N[eng] ...which will be linked.
 
 42
 00:03:14,180 --> 00:03:16,240
-[rus] Также нажимаем Shift + W...
-[eng] Press Shift + W...
+[rus] Также нажимаем Shift + W...\N[eng] Press Shift + W...
 
 43
 00:03:16,560 --> 00:03:17,560
-[rus] ..."Deform"...
-[eng] ..."Deform"...
+[rus] ..."Deform"...\N[eng] ..."Deform"...
 
 44
 00:03:18,660 --> 00:03:20,620
-[rus] ...и выбираем "Enable".
-[eng] ...and choose "Enable".
+[rus] ...и выбираем "Enable".\N[eng] ...and choose "Enable".
 
 45
 00:03:23,560 --> 00:03:25,500
-[rus] Затем Ctrl + P...
-[eng] Then Ctrl + P...
+[rus] Затем Ctrl + P... \N[eng] Then Ctrl + P...
 
 46
 00:03:25,500 --> 00:03:29,160
-[rus] ...и в меню выбираем "With Automatic Weights"
-[eng] ...and choose "With Automatic Weights" in the pull-down menu.
+[rus] ...и в меню выбираем "With Automatic Weights" \N[eng] ...and choose "With Automatic Weights" in the pull-down menu.
 
 47
 00:03:32,220 --> 00:03:34,980
-[rus] Готово. Мы привязали часть. 
-[eng] Done. We linked one part.
+[rus] Готово. Мы привязали часть. \N[eng] Done. We linked one part.
 
 48
 00:03:35,280 --> 00:03:38,820
-[rus] Теперь сделаем всё тоже самое для других частей.
-[eng] Now do the same steps for other parts.
+[rus] Теперь сделаем всё тоже самое для других частей. \N[eng] Now do the same steps for other parts.
 
 49
 00:03:38,860 --> 00:03:42,360
-[rus] Не забывайте выключать и включать деформацию. 
-[eng] Don't forget about turning off/on deformation,
+[rus] Не забывайте выключать и включать деформацию.  \N[eng] Don't forget about turning off/on deformation,
 
 50
 00:04:01,760 --> 00:04:06,220
-[rus] Также напомню, если по вашей задумке какие-то части гнуться не будут... 
-[eng] I also recall, If some of parts would not be bent according your idea...
+[rus] Также напомню, если по вашей задумке какие-то части гнуться не будут... \N[eng] I also recall, If some of parts would not be bent according your idea...
 
 51
 00:04:29,100 --> 00:04:33,240
-[rus] После того, как всё привязали, включите деформ для всего скетела. 
-[eng] If you have everything done, turn on deformation to whole skeleton.
+[rus] После того, как всё привязали, включите деформ для всего скетела. \N[eng] If you have everything done, turn on deformation to whole skeleton.
 
 52
 00:04:33,240 --> 00:04:35,600
-[rus] Иначе, ничего двигаться не будет. 
-[eng] Otherwise, nothing will work.
+[rus] Иначе, ничего двигаться не будет. \N[eng] Otherwise, nothing will work.
 
