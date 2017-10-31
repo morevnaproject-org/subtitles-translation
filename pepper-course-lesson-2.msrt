@@ -1,17 +1,17 @@
 ﻿1
 00:00:03,540 --> 00:00:07,760
 [rus] Давайте же уже закончим с этими скучными подготовлениями...
-[eng] Let's end with boring preparation...
+[eng] Now that the boring preparation is over with...
 
 2
 00:00:07,960 --> 00:00:11,600
 [rus] ...и приступим к созданию первой, простой марионетки.
-[eng] ...and start creation of first simple rig.
+[eng] ...let's start creating our first simple rig.
 
 3
 00:00:12,380 --> 00:00:13,960
 [rus] Создадим наш скелет.
-[eng] Create our skeleton.
+[eng] Creating our skeleton.
 
 4
 00:00:14,200 --> 00:00:16,380
@@ -31,27 +31,27 @@
 7
 00:00:26,400 --> 00:00:30,120
 [rus] Создалась кость. которую мы можем спокойно перемещать.
-[eng] Bone, which we can easily move, has been created.
+[eng] A bone, which we can easily move, has been created.
 
 8
 00:00:30,120 --> 00:00:34,480
 [rus] Однако, мы сейчас находимся в режиме "Object Mode.
-[eng] From the beginning, we are in the "Object Mode".
+[eng] Initially, we are in "Object Mode".
 
 9
 00:00:34,700 --> 00:00:36,680
 [rus] Для дальнейшей работы со скелетом...
-[eng] But we need to switch it to "Edit Mode"...
+[eng] But we need to switch to "Edit Mode"...
 
 10
 00:00:36,840 --> 00:00:40,020
 [rus] ...нам нужно будет включить "Режим Редактирования".
-[eng] ...for the further work with skeleton.
+[eng] ...to work on the skeleton.
 
 11
 00:00:41,760 --> 00:00:44,860
 [rus] Вот теперь перемещаем нашу кость к телу.
-[eng] So now, let's move it to body.
+[eng] So now let's move it to body.
 
 12
 00:00:45,300 --> 00:00:46,800
@@ -61,17 +61,17 @@
 13
 00:00:48,180 --> 00:00:50,580
 [rus] Это будет основанием скелета.
-[eng] It will be the skeleton base.
+[eng] This will be the skeleton base.
 
 14
 00:00:51,280 --> 00:00:54,440
 [rus] Далее выделяем верхушку и нажимаем "E".
-[eng] Then pick out top of the bone and press "E".
+[eng] Then select the top of the bone, press "E"...
 
 15
 00:00:54,900 --> 00:00:56,780
 [rus] И ведем до макушки головы.
-[eng] And move it to head top.
+[eng] And move it to the top of the head.
 
 16
 00:00:56,920 --> 00:00:59,460
@@ -86,12 +86,12 @@
 18
 00:01:03,880 --> 00:01:07,500
 [rus] ...то вторая - будет автоматически привязана к первой.
-[eng] ...then the second one will be bound with the first.
+[eng] ...then the second one will be bound to the first.
 
 19
 00:01:07,700 --> 00:01:11,660
 [rus] Теперь дублируем кость и перемещаем ее на руку.
-[eng] Now, duplicate bone and move it on arm.
+[eng] Now, duplicate the bone and move it over the arm.
 
 20
 00:01:17,940 --> 00:01:20,900
@@ -101,7 +101,7 @@
 21
 00:01:24,940 --> 00:01:28,620
 [rus] Нам осталось только привязать нашу картинку к этому скелету.
-[eng] Next step - we need only to link our picture to the skeleton.
+[eng] Now we need only to link our picture to the skeleton.
 
 22
 00:01:29,260 --> 00:01:30,400
@@ -111,17 +111,17 @@
 23
 00:01:30,780 --> 00:01:33,300
 [rus] Нам нужно будет включить режим поз.
-[eng] We need to switch "Edit Mode" to "Pose Mode".
+[eng] We need to switch from "Edit Mode" to "Pose Mode".
 
 24
 00:01:35,220 --> 00:01:40,600
 [rus] Чтобы привязать часть к скелету, нужно сначала правой кнопкой выделить нужную часть...
-[eng] To link the character with skeleton, you need right click to needed part first...
+[eng] To link the character with the skeleton, you need to right click the image object first...
 
 25
 00:01:40,820 --> 00:01:45,280
 [rus] ...затем, зажав шифт, выделяем нужную кость.
-[eng] ...then hold "Shift" and right click to needed bone.
+[eng] ...then hold "Shift" and right click the corresponding bone.
 
 26
 00:01:45,760 --> 00:01:48,780
@@ -136,12 +136,12 @@
 28
 00:01:56,880 --> 00:01:59,920
 [rus] Повторяем этот шаг ко всем частям.
-[eng] Repeat this step to all other parts.
+[eng] Repeat this step for all other parts.
 
 29
 00:02:22,000 --> 00:02:26,140
 [rus] Хочу добавить, что нужно создать собственные кости для зрачков.
-[eng] I want to add, that we need to create their own bones to eyes.
+[eng] I want to add that we need to create our own bones for the eyes.
 
 30
 00:02:26,580 --> 00:02:28,420
@@ -166,22 +166,22 @@
 34
 00:02:35,100 --> 00:02:37,940
 [rus] Она будет отвечать за оба глаза сразу.
-[eng] It will be responsible for two eyes at once.
+[eng] It will be responsible for controlling both eyes at once.
 
 35
 00:02:38,080 --> 00:02:41,260
 [rus] Теперь привязываем боковые кости к центральной...
-[eng] Now bind lateral bones to the central...
+[eng] Now bind the lateral bones to the central one...
 
 36
 00:02:46,560 --> 00:02:48,820
 [rus] ...а центральную кость - к голове.
-[eng] ...and the central one - to head bone.
+[eng] ...and the central bone - to head bone.
 
 37
 00:02:52,500 --> 00:02:55,580
 [rus] Ну, а затем - привязываем зрачки к своим костям.
-[eng] And then just link eyes and their bones.
+[eng] And then just link the eyes to their bones.
 
 38
 00:03:18,960 --> 00:03:21,140
@@ -191,7 +191,7 @@
 39
 00:03:21,280 --> 00:03:23,700
 [rus] ...то при перемещении за основную кость...
-[eng] ...so when you'll move your skeleton...
+[eng] ...when you move your skeleton...
 
 40
 00:03:24,000 --> 00:03:27,320
@@ -201,10 +201,10 @@
 41
 00:03:28,880 --> 00:03:32,760
 [rus] Ну вот, очень простая марионетка готова.
-[eng] Well, very simple rig is done.
+[eng] Well, this very simple rig is done.
 
 42
 00:03:32,980 --> 00:03:39,080
 [rus] Далее, Вы можете увидеть, как эта марионетка может быть использована в анимации.
-[eng] Now you may see, how this rig can be used in animation.
+[eng] Next you will see how this rig can be used in animation.
 
