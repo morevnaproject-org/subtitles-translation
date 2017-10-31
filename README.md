@@ -31,5 +31,5 @@ With this repository we are providing a special utility (msrt_tool.py) which all
 ## Translation status:
 
 * pepper-and-carrot-ep6.msrt - [ACCEPTING-TRANSLATIONS]
-* morevna-ep3.msrt - [MIGRATION] - See #15
+* morevna-ep3.msrt - [ACCEPTING-TRANSLATIONS]
 * synfig-course-promo.msrt - [ENGLISH-POLISHING, RUSSIAN-DRAFT, SPANISH-DRAFT]
