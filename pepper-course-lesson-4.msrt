@@ -249,11 +249,16 @@
 [eng] I also recall, If some parts will not be bent according your idea...
 
 51
+00:04:06,220 --> 00:04:10,960
+[rus] ...то делать для них меш не нужно и привязывать нужно первым способом.
+[eng] ...then you don't need to create a mesh and it's better to link bones using the first method.
+
+52
 00:04:29,100 --> 00:04:33,240
 [rus] После того, как всё привязали, включите деформ для всего скелета... 
 [eng] If you have everything done, turn on deformation of the skeleton...
 
-52
+53
 00:04:33,240 --> 00:04:35,600
 [rus] ...иначе, ничего двигаться не будет. 
 [eng] ...otherwise, nothing will work.
