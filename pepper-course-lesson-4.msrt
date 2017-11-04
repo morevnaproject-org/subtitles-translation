@@ -6,12 +6,12 @@
 2
 00:00:03,700 --> 00:00:06,740
 [rus] После того, как мы триангулировали нашу сцену... 
-[eng] After triangulation of our scene...
+[eng] After triangulation of the scene...
 
 3
 00:00:06,820 --> 00:00:09,120
 [rus] ...нам нужно теперь сделать скелет. 
-[eng] ...we need to create skeleton.
+[eng] ...we need to create a skeleton.
 
 4
 00:00:09,760 --> 00:00:13,040
@@ -31,32 +31,32 @@
 7
 00:00:21,100 --> 00:00:24,500
 [rus] ...и выбрать пункт "Subdivide". 
-[eng] And choose "Subdivide".
+[eng] And choose the "Subdivide".
 
 8
 00:00:24,720 --> 00:00:27,520
 [rus] В меню слева прибавляем частей. 
-[eng] Add additional parts on the left menu.
+[eng] Add additional parts in the left menu.
 
 9
 00:00:29,860 --> 00:00:34,100
 [rus] Первая кость - будет отвечать за движение всей марионетки. 
-[eng] The first bone will be responsible for moving of the Rig.
+[eng] The first bone will be responsible for controlling of the Rig.
 
 10
 00:00:35,180 --> 00:00:38,380
 [rus] Вторая - будет отвечать за сгиб в области талии. 
-[eng] The second one - for bending waist area.
+[eng] The second bone - for bending waist area.
 
 11
 00:00:38,500 --> 00:00:40,220
 [rus] Третья - за наклон груди... 
-[eng] The third one - for breast tilt...
+[eng] The third one - for a breast tilt...
 
 12
 00:00:40,280 --> 00:00:42,140
 [rus] ...а четвертая - за шею. 
-[eng] ...and the fourth - for neck.
+[eng] ...and the fourth bone - is for a neck.
 
 13
 00:00:47,800 --> 00:00:50,920
@@ -66,12 +66,12 @@
 14
 00:00:51,340 --> 00:00:54,740
 [rus] Я бы посоветовал дублировать шею, чтобы сделать плечи. 
-[eng] I advise you to duplicate the neck bone for shoulders.
+[eng] I advise you to duplicate the neck bone for the shoulders.
 
 15
 00:00:54,820 --> 00:00:57,680
 [rus] ...так как они сразу будут привязаны к груди. 
-[eng] ...because they will be automatically bound with breast.
+[eng] ...because they will be automatically bound with the breast.
 
 16
 00:01:01,200 --> 00:01:03,340
@@ -121,12 +121,12 @@
 25
 00:01:48,500 --> 00:01:51,560
 [rus] Теперь привязываем боковые кости к центральной... 
-[eng] Now bind lateral bones to the central...
+[eng] Now bind the lateral bones to the central bone...
 
 26
 00:01:51,620 --> 00:01:53,760
 [rus] ...а центральную кость - к голове. 
-[eng] ...and the central one - to head bone.
+[eng] ...and the central bone - to the head bone.
 
 27
 00:02:22,180 --> 00:02:25,520
@@ -136,12 +136,12 @@
 28
 00:02:25,960 --> 00:02:28,120
 [rus] В прошлом уроке мы это уже делали... 
-[eng] We've already done this before...
+[eng] We were doing this before...
 
 29
 00:02:28,140 --> 00:02:31,240
 [rus] Но тот метод подходит только для тех частей... 
-[eng] But that method is working only for those parts...
+[eng] But that method works only for those parts...
 
 30
 00:02:31,340 --> 00:02:32,860
@@ -151,7 +151,7 @@
 31
 00:02:32,940 --> 00:02:36,680
 [rus] Обычно это глаза, ладони, рот, веки. 
-[eng] It's commonly for eyes, hands, mouth and eyelids.
+[eng] It's commonly for eyes, hands, a mouth and eyelids.
 
 32
 00:02:36,860 --> 00:02:39,980
@@ -166,12 +166,12 @@
 34
 00:02:43,460 --> 00:02:46,160
 [rus] Перед тем, как привязать какую-либо часть... 
-[eng] First, we have to turn off skeleton deformation...
+[eng] First, we have to turn off the skeleton deformation...
 
 35
 00:02:46,340 --> 00:02:48,760
 [rus] ...сначала нужно выключить деформацию всего скелета. 
-[eng] ...before linking any part.
+[eng] ...before linking the parts.
 
 36
 00:02:50,400 --> 00:02:52,020
@@ -181,12 +181,12 @@
 37
 00:02:52,080 --> 00:02:55,760
 [rus] ...нажимаем комбинацию клавиш Shift + W... 
-[eng] ...press Shift + W...
+[eng] ...then press Shift + W...
 
 38
 00:02:56,380 --> 00:02:57,820
 [rus] ...выбираем "Deform"... 
-[eng] ...choose "Deform"...
+[eng] ...next, choose "Deform"...
 
 39
 00:02:59,620 --> 00:03:02,480
@@ -196,7 +196,7 @@
 40
 00:03:08,200 --> 00:03:11,700
 [rus] Далее выбираем Mesh, затем нужные кости...
-[eng] After that pick the mesh and then needed bones...
+[eng] After that pick the mesh and then the corresponding bones...
 
 41
 00:03:11,880 --> 00:03:14,000
@@ -206,12 +206,12 @@
 42
 00:03:14,180 --> 00:03:16,240
 [rus] Также нажимаем Shift + W...
-[eng] Press Shift + W...
+[eng] Then press Shift + W...
 
 43
 00:03:16,560 --> 00:03:17,560
 [rus] ..."Deform"...
-[eng] ..."Deform"...
+[eng] ...next - "Deform"...
 
 44
 00:03:18,660 --> 00:03:20,620
@@ -231,7 +231,7 @@
 47
 00:03:32,220 --> 00:03:34,980
 [rus] Готово. Мы привязали часть. 
-[eng] Done. We linked one part.
+[eng] Done. We linked the part.
 
 48
 00:03:35,280 --> 00:03:38,820
@@ -246,12 +246,12 @@
 50
 00:04:01,760 --> 00:04:06,220
 [rus] Также напомню, если по вашей задумке какие-то части гнуться не будут... 
-[eng] I also recall, If some of parts will not be bent according your idea...
+[eng] I also recall, If some parts will not be bent according your idea...
 
 51
 00:04:29,100 --> 00:04:33,240
-[rus] После того, как всё привязали, включите деформ для всего скетела... 
-[eng] If you have everything done, turn on deformation to whole skeleton...
+[rus] После того, как всё привязали, включите деформ для всего скелета... 
+[eng] If you have everything done, turn on deformation of the skeleton...
 
 52
 00:04:33,240 --> 00:04:35,600
