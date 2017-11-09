@@ -1,27 +1,32 @@
+[*] "Cutout animation in Blender with Pepper&Carrot" course - Lesson 4
+[*]
+[*] Translators and correctors:
+[*]   English: Stas Kholodilin, scribblemaniac
+
 1
 00:00:00,740 --> 00:00:02,560
 [rus] Урок №4: "Продвинутый Риг". 
-[eng] Lesson №4: "Advanced Rig".
+[eng] Lesson 4: "Advanced Rig".
 
 2
 00:00:03,700 --> 00:00:06,740
 [rus] После того, как мы триангулировали нашу сцену... 
-[eng] After triangulation of the scene...
+[eng] So we have made triangulation of our character...
 
 3
 00:00:06,820 --> 00:00:09,120
 [rus] ...нам нужно теперь сделать скелет. 
-[eng] ...we need to create a skeleton.
+[eng] ...and now we need to create a skeleton.
 
 4
 00:00:09,760 --> 00:00:13,040
 [rus] Итак, сначала проведем одну кость через всё тело. 
-[eng] Well, first of all, create a bone and arrange it on the body.
+[eng] First of all, create a bone and arrange it on the body.
 
 5
 00:00:13,700 --> 00:00:17,640
 [rus] Затем, разделим эту кость на несколько честей. 
-[eng] Then, divide this bone into a few parts.
+[eng] Then, divide this bone into a several parts.
 
 6
 00:00:18,020 --> 00:00:21,000
@@ -36,12 +41,12 @@
 8
 00:00:24,720 --> 00:00:27,520
 [rus] В меню слева прибавляем частей. 
-[eng] Add additional parts in the left menu.
+[eng] Use menu on the left to increase the count of parts.
 
 9
 00:00:29,860 --> 00:00:34,100
 [rus] Первая кость - будет отвечать за движение всей марионетки. 
-[eng] The first bone will be responsible for controlling of the Rig.
+[eng] The first bone will be responsible for moving complete rig.
 
 10
 00:00:35,180 --> 00:00:38,380
@@ -51,12 +56,12 @@
 11
 00:00:38,500 --> 00:00:40,220
 [rus] Третья - за наклон груди... 
-[eng] The third one - for a breast tilt...
+[eng] The third one - for atop body area...
 
 12
 00:00:40,280 --> 00:00:42,140
 [rus] ...а четвертая - за шею. 
-[eng] ...and the fourth bone - is for a neck.
+[eng] ...and the fourth bone - is for the neck.
 
 13
 00:00:47,800 --> 00:00:50,920
@@ -66,17 +71,17 @@
 14
 00:00:51,340 --> 00:00:54,740
 [rus] Я бы посоветовал дублировать шею, чтобы сделать плечи. 
-[eng] I advise you to duplicate the neck bone for the shoulders.
+[eng] It will be faster to duplicate the neck bone...
 
 15
 00:00:54,820 --> 00:00:57,680
 [rus] ...так как они сразу будут привязаны к груди. 
-[eng] ...because they will be automatically bound with the breast.
+[eng] ...because they will be automatically bound with the body.
 
 16
 00:01:01,200 --> 00:01:03,340
 [rus] Мы даем руке аж три кости. 
-[eng] And then, we create three bones to the arms.
+[eng] And then, we creating three bones to the arms.
 
 17
 00:01:03,600 --> 00:01:06,940
@@ -96,7 +101,7 @@
 20
 00:01:26,020 --> 00:01:30,100
 [rus] Также напомню, что нужно создать собственные кости для зрачков. 
-[eng] I also recall, that we need to create bones for eyes.
+[eng] I also remind, that we need to create bones for eyes.
 
 21
 00:01:30,160 --> 00:01:31,980
@@ -121,7 +126,7 @@
 25
 00:01:48,500 --> 00:01:51,560
 [rus] Теперь привязываем боковые кости к центральной... 
-[eng] Now bind the lateral bones to the central bone...
+[eng] Now bind the eye bones to the central bone...
 
 26
 00:01:51,620 --> 00:01:53,760
@@ -136,27 +141,27 @@
 28
 00:02:25,960 --> 00:02:28,120
 [rus] В прошлом уроке мы это уже делали... 
-[eng] We were doing this before...
+[eng] You already know how to do that from previous lessons...
 
 29
 00:02:28,140 --> 00:02:31,240
 [rus] Но тот метод подходит только для тех частей... 
-[eng] But that method works only for those parts...
+[eng] But that method works only for the parts...
 
 30
 00:02:31,340 --> 00:02:32,860
 [rus] ...которые не будут гнуться. 
-[eng] ...which shell not be bent.
+[eng] ...which are not expected to bend.
 
 31
 00:02:32,940 --> 00:02:36,680
 [rus] Обычно это глаза, ладони, рот, веки. 
-[eng] It's commonly for eyes, hands, a mouth and eyelids.
+[eng] In general those are: eyes, hands, a mouth and eyelids.
 
 32
 00:02:36,860 --> 00:02:39,980
 [rus] Здесь же будет использоваться другой метод... 
-[eng] There will be used another method...
+[eng] For everything else we will use another method - ...
 
 33
 00:02:40,100 --> 00:02:42,800
@@ -231,7 +236,7 @@
 47
 00:03:32,220 --> 00:03:34,980
 [rus] Готово. Мы привязали часть. 
-[eng] Done. We linked the part.
+[eng] Done. The part is linked.
 
 48
 00:03:35,280 --> 00:03:38,820
@@ -241,22 +246,22 @@
 49
 00:03:38,860 --> 00:03:42,360
 [rus] Не забывайте выключать и включать деформацию.  
-[eng] Don't forget about turning off/on deformation.
+[eng] Don't forget about turning deformation off.
 
 50
 00:04:01,760 --> 00:04:06,220
 [rus] Также напомню, если по вашей задумке какие-то части гнуться не будут... 
-[eng] I also recall, If some parts will not be bent according your idea...
+[eng] Let me remind it one more time - if some parts will not be bent according your idea...
 
 51
 00:04:06,220 --> 00:04:10,960
 [rus] ...то делать для них меш не нужно и привязывать нужно первым способом.
-[eng] ...then you don't need to create a mesh and it's better to link bones using the first method.
+[eng] ...then you don't need to create a mesh and it's better to link bones using the method from previous lessons.
 
 52
 00:04:29,100 --> 00:04:33,240
 [rus] После того, как всё привязали, включите деформ для всего скелета... 
-[eng] If you have everything done, turn on deformation of the skeleton...
+[eng] When you have everything done, turn on deformation of the skeleton...
 
 53
 00:04:33,240 --> 00:04:35,600
