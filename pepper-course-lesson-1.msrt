@@ -1,3 +1,8 @@
+[*] "Cutout animation in Blender with Pepper&Carrot" course - Lesson 1
+[*]
+[*] Translators and correctors:
+[*]   English: Stas Kholodilin, scribblemaniac
+
 1
 00:00:03,760 --> 00:00:04,880
 [rus] Привет, Друзья! 
@@ -11,17 +16,17 @@
 3
 00:00:10,480 --> 00:00:16,200
 [rus] И в этом курсе я расскажу Вам, как сделать такую анимацию самостоятельно. 
-[eng] And in this video course, I'll teach you how to create such an animation by yourself.
+[eng] And in this video course, I'll teach you how to create such an animation.
 
 4
 00:00:16,880 --> 00:00:21,300
 [rus] Файлы к этому уроку Вы можете скачать по ссылке в описании.
-[eng] The files for this lesson can be download from the link below. 
+[eng] You can download files for this lesson by following relevant links in description of this video.
 
 5
 00:00:21,440 --> 00:00:24,060
 [rus] А также, они уже включены в сам курс. 
-[eng] They are also included in full course.
+[eng] If you got a full course, then you can find them included in the archive.
 
 6
 00:00:25,320 --> 00:00:28,840
@@ -41,7 +46,7 @@
 9
 00:00:32,780 --> 00:00:35,400
 [rus] ...с установленным дополнением "CoaTools".
-[eng] ...with the "COA Tools" addon installed for both.
+[eng] ...and the "COA Tools" addon installed for both.
 
 10
 00:00:37,300 --> 00:00:41,160
@@ -91,12 +96,12 @@
 19
 00:01:32,420 --> 00:01:34,240
 [rus] ...формата PNG.
-[eng] ...as a PNG...
+[eng] ...as a PNG.
 
 20
 00:01:34,380 --> 00:01:38,460
 [rus] При этом, оно сохраняет все координаты той или иной части.
-[eng] ...which also saves the coordinates of each layer.
+[eng] The addon is also exports additional information about placement of each layer.
 
 21
 00:01:39,500 --> 00:01:44,100
@@ -111,7 +116,7 @@
 23
 00:01:49,640 --> 00:01:53,440
 [rus] Посмотрите, он специально разделен на слои...
-[eng] Notice, it is specially separated into layers...
+[eng] Notice, it is separated into layers...
 
 24
 00:01:53,660 --> 00:01:56,020
@@ -121,7 +126,7 @@
 25
 00:01:58,020 --> 00:02:02,480
 [rus] Для некоторый частей, у нас подготовлено несколько вариантов. 
-[eng] We prepared a few variants of some body parts.
+[eng] For some parts you can see several versions exists.
 
 26
 00:02:02,800 --> 00:02:06,540
@@ -131,12 +136,12 @@
 27
 00:02:07,860 --> 00:02:11,120
 [rus] Такие части должны находиться в группах.
-[eng] Such parts should be grouped together.
+[eng] Such parts should be grouped together. The groupping tells export plugin to treat those parts specially and allow to switch them during animation process.
 
 28
 00:02:12,480 --> 00:02:14,120
 [rus] Но, в остальных случаях...
-[eng] But, in other cases...
+[eng] For all other other cases...
 
 29
 00:02:14,340 --> 00:02:17,380
@@ -146,7 +151,7 @@
 30
 00:02:18,900 --> 00:02:21,420
 [rus] Давайте начнем экспортировать.
-[eng] Let's start exporting.
+[eng] So, let's start exporting.
 
 31
 00:02:21,720 --> 00:02:23,000
@@ -186,17 +191,17 @@
 38
 00:02:52,180 --> 00:02:55,540
 [rus] Именно этот файл хранит расположение каждого слоя.
-[eng] This stores the information about coordinates of the layers.
+[eng] This file stores the information about coordinates of each layer.
 
 39
 00:02:55,730 --> 00:03:00,180
 [rus] Он нужен нам для дальнейшого импортирования нашей сцены уже в сам Blender.
-[eng] The JSON file will be needed to import our scene to the Blender.
+[eng] We will need it to import our scene into the Blender.
 
 40
 00:03:00,520 --> 00:03:06,220
 [rus] Но сначала, нам нужно установить дополнение CoaTools в Blender.
-[eng] But first, we need to install CoaTools addon to Blender.
+[eng] But first, we need to install CoaTools addon for Blender.
 
 41
 00:03:06,440 --> 00:03:09,940
@@ -275,13 +280,13 @@
 
 56
 00:04:06,040 --> 00:04:10,400
-[rus] Если Вы все сделали правильно, то в t-меню...
-[eng] If you've done everything correct, then in t-menu...
+[rus] Если Вы все сделали правильно, то в T-меню...
+[eng] If you've done everything correct, then in T-menu...
 
 57
 00:04:10,540 --> 00:04:13,280
-[rus] /меню, которое открывается клавишей "t"/
-[eng] (which is opened by 't' key)
+[rus] (меню, которое открывается клавишей "t")
+[eng] (the one which is opened by 't' key)
 
 58
 00:04:13,460 --> 00:04:16,580
@@ -331,7 +336,7 @@
 67
 00:04:52,140 --> 00:04:55,280
 [rus] Теперь, нажимаем кнопку - Import Sprites.
-[eng] Now, press the button "Import Sprites"
+[eng] Now, press "Import Sprites" button
 
 68
 00:04:55,820 --> 00:05:00,080

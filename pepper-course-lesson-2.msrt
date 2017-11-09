@@ -1,4 +1,9 @@
-﻿1
+﻿[*] "Cutout animation in Blender with Pepper&Carrot" course - Lesson 2
+[*]
+[*] Translators and correctors:
+[*]   English: Stas Kholodilin, scribblemaniac
+
+1
 00:00:03,540 --> 00:00:07,760
 [rus] Давайте же уже закончим с этими скучными подготовлениями...
 [eng] Now that the boring preparation is over with...
@@ -31,12 +36,12 @@
 7
 00:00:26,400 --> 00:00:30,120
 [rus] Создалась кость. которую мы можем спокойно перемещать.
-[eng] A bone, which we can easily move, has been created.
+[eng] Here is a bone, which we can easily move.
 
 8
 00:00:30,120 --> 00:00:34,480
 [rus] Однако, мы сейчас находимся в режиме "Object Mode.
-[eng] Initially, we are in "Object Mode".
+[eng] Currently we are working in "Object Mode".
 
 9
 00:00:34,700 --> 00:00:36,680
@@ -46,7 +51,7 @@
 10
 00:00:36,840 --> 00:00:40,020
 [rus] ...нам нужно будет включить "Режим Редактирования".
-[eng] ...to work on the skeleton.
+[eng] ...to work on the skeleton structure.
 
 11
 00:00:41,760 --> 00:00:44,860
@@ -101,7 +106,7 @@
 21
 00:01:24,940 --> 00:01:28,620
 [rus] Нам осталось только привязать нашу картинку к этому скелету.
-[eng] Now we need only to link our picture to the skeleton.
+[eng] Now we need only to link our image to the skeleton.
 
 22
 00:01:29,260 --> 00:01:30,400
@@ -111,7 +116,7 @@
 23
 00:01:30,780 --> 00:01:33,300
 [rus] Нам нужно будет включить режим поз.
-[eng] We need to switch from "Edit Mode" to "Pose Mode".
+[eng] We have to switch from "Edit Mode" to "Pose Mode".
 
 24
 00:01:35,220 --> 00:01:40,600
@@ -141,7 +146,7 @@
 29
 00:02:22,000 --> 00:02:26,140
 [rus] Хочу добавить, что нужно создать собственные кости для зрачков.
-[eng] I want to add that we need to create our own bones for the eyes.
+[eng] Also, we need to create a special bones for the eyes.
 
 30
 00:02:26,580 --> 00:02:28,420
@@ -171,7 +176,7 @@
 35
 00:02:38,080 --> 00:02:41,260
 [rus] Теперь привязываем боковые кости к центральной...
-[eng] Now bind the lateral bones to the central one...
+[eng] Now bind the individual bones to the central one...
 
 36
 00:02:46,560 --> 00:02:48,820

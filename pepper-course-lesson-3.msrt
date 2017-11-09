@@ -1,17 +1,22 @@
-﻿1
+﻿[*] "Cutout animation in Blender with Pepper&Carrot" course - Lesson 3
+[*]
+[*] Translators and correctors:
+[*]   English: Stas Kholodilin, scribblemaniac
+
+1
 00:00:03,760 --> 00:00:06,380
 [rus] В этом и в последующих уроках...
-[eng] In this and later lessons...
+[eng] In this and all following lessons...
 
 2
 00:00:06,480 --> 00:00:09,600
 [rus] Мы будем создавать более сложную марионетку.
-[eng] We will make a more advanced rig.
+[eng] I will show you how to create a more advanced rig.
 
 3
 00:00:09,900 --> 00:00:10,860
 [rus] Начнём.
-[eng] Let's start.
+[eng] So, let's start.
 
 4
 00:00:11,080 --> 00:00:15,780
@@ -21,37 +26,37 @@
 5
 00:00:18,900 --> 00:00:21,780
 [rus] Давайте сравним её с готовой сценой.
-[eng] Let's compare it to the finished scene.
+[eng] Let's compare it with the final result of this lesson.
 
 6
 00:00:22,320 --> 00:00:25,540
 [rus] Посмотрите. Видите в них различия?
-[eng] Look at. Do you see any differences?
+[eng] Take a look. Do you see any differences?
 
 7
 00:00:26,440 --> 00:00:27,660
 [rus] И я не вижу.
-[eng] I don't.
+[eng] Neither did I.
 
 8
 00:00:27,940 --> 00:00:30,980
 [rus] А теперь - посмотрим на неё в рентгене.
-[eng] Now, look at it in the X-Ray Mode.
+[eng] Now, let's look at it in the X-Ray Mode.
 
 9
 00:00:32,460 --> 00:00:36,620
 [rus] Хорошо, на одной сцене "рентген" имеет форму картинки, но...
-[eng] OK, "X-ray" on the right looks like the silhouette of our character, but...
+[eng] Now we can see that the final scene have a silhouette of our character, but...
 
 10
 00:00:36,760 --> 00:00:39,720
 [rus] ...что это меняет? Давайте разберемся.
-[eng] ...what is changed? Let's figure that out.
+[eng] ...what does this changes? You'll see soon.
 
 11
 00:00:41,600 --> 00:00:45,660
 [rus] Сначала воссоздадим то, что мы видели на сцене справа.
-[eng] First, we need to recreate the "finished" scene.
+[eng] First, we will try to recreate the "finished" scene.
 
 12
 00:00:46,960 --> 00:00:48,900
@@ -66,7 +71,7 @@
 14
 00:00:54,400 --> 00:01:00,480
 [rus] Итак, у нас открылось окно редактирования картинки, или, в дальнейшем, "меша".
-[eng] Well, the "Edit Mesh" window has been opened.
+[eng] So, the "Edit Mesh" window has been opened.
 
 15
 00:01:00,640 --> 00:01:04,500
@@ -91,17 +96,17 @@
 19
 00:01:15,240 --> 00:01:19,860
 [rus] Затем, отступаем небольшое расстояние и ставим вторую точку.
-[eng] Then, back up a short distance and create one more dot.
+[eng] Then, step a short distance and create one more point.
 
 20
 00:01:20,000 --> 00:01:23,000
 [rus] И так далее, пока не обведем картинку.
-[eng] And continue until you've outlined the whole picture.
+[eng] And continue until we have outline of the whole picture.
 
 21
 00:01:28,240 --> 00:01:30,980
 [rus] Внимание! Не заступайте за края.
-[eng] Be careful! Don't step over the frame edges!
+[eng] Be careful! Don't step out of frame edges!
 
 22
 00:01:38,060 --> 00:01:40,200
@@ -111,17 +116,17 @@
 23
 00:01:40,300 --> 00:01:44,040
 [rus] ...выделите первую и последнюю точки и нажмите "F".
-[eng] ...select the first and the last dots and press "F".
+[eng] ...select the first and the last points and press "F".
 
 24
 00:01:46,440 --> 00:01:49,840
 [rus] Теперь, нам нужно сделать триангулирование.
-[eng] Now, we need to make a triangulated mesh.
+[eng] Now, we need to fill our outline with triangulated mesh.
 
 25
 00:01:49,840 --> 00:01:51,660
 [rus] Выделим любую точку...
-[eng] Select any dot that you placed...
+[eng] Select any point that you placed...
 
 26
 00:01:51,660 --> 00:01:55,540
@@ -131,7 +136,7 @@
 27
 00:01:55,760 --> 00:01:58,000
 [rus] ...выделяем все остальные точки...
-[eng] ...to select all of the other dots...
+[eng] ...to select all of the other points...
 
 28
 00:01:58,000 --> 00:02:01,280
@@ -141,7 +146,7 @@
 29
 00:02:04,920 --> 00:02:08,600
 [rus] Готово. Теперь осталось удалить рамку вокруг.
-[eng] Done. Now all that we have left is to delete the picture frame.
+[eng] Done. Now we have to delete the picture frame.
 
 30
 00:02:08,660 --> 00:02:10,480
@@ -161,12 +166,12 @@
 33
 00:02:19,540 --> 00:02:23,120
 [rus] Далее, в Т-меню нажимаем "Finish Edit Mesh".
-[eng] After, press "Finish Edit Mesh" in the T-menu.
+[eng] Finally, press "Finish Edit Mesh" in the T-menu.
 
 34
 00:02:25,760 --> 00:02:27,740
 [rus] Теперь, обьясню зачем это.
-[eng] Now Let me explain what we just did.
+[eng] Now let me explain what we just did.
 
 35
 00:02:28,580 --> 00:02:31,260
@@ -176,7 +181,7 @@
 36
 00:02:31,260 --> 00:02:35,560
 [rus] А триангулирование это создание сетки из таких треугольников.
-[eng] And triangulation is a creation of a net (mesh) of these triangles.
+[eng] Triangulation is a process of converting outline polygon to the mesh of triangles.
 
 37
 00:02:35,660 --> 00:02:36,460
@@ -185,13 +190,13 @@
 
 38
 00:02:36,540 --> 00:02:41,420
-[rus] Каждый полигон отвечает только за ту область, на которой он находится.
-[eng] Every polygon is responsible only for the area where it's situated.
+[rus] Каждый треугольник отвечает только за ту область, на которой он находится.
+[eng] Every triangle is responsible only for the area where it's located.
 
 39
 00:02:42,220 --> 00:02:46,080
 [rus] Триангулирование дает нам возможнсть "гнуть" картинку...
-[eng] Triangulation gives us the opportunity to "bend" the picture.
+[eng] Such mesh gives us the opportunity to "bend" the picture.
 
 40
 00:02:46,080 --> 00:02:48,740
@@ -211,7 +216,7 @@
 43
 00:02:54,820 --> 00:02:57,600
 [rus] ...нам нужно триангулировать всю нашу сцену.
-[eng] ...we need to triangulate the whole scene.
+[eng] ...we need to triangulate the whole character.
 
 44
 00:02:57,600 --> 00:03:01,600
@@ -219,29 +224,24 @@
 [eng] Or more precisely, we need to triangulate everything that will be bent.
 
 45
-00:03:07,000 --> 00:03:08,420
-[rus] Обратите внимание...
-[eng] Note...
-
-46
-00:03:08,420 --> 00:03:11,680
-[rus] ...что иногда - могут появляться некие "артефакты".
-[eng] ...that sometimes some "artifacts" may appear after triangulation.
+00:03:07,000 --> 00:03:11,680
+[rus] Обратите внимание, что иногда - могут появляться некие "артефакты".
+[eng] Note that sometimes the triangulation process can produce some "artifacts".
 
 47
 00:03:11,680 --> 00:03:14,540
 [rus] Необходимо сразу делать проверку на их наличие.
-[eng] It's necessary to check the mesh for these artifacts.
+[eng] You should always check the mesh for these artifacts.
 
 48
 00:03:14,540 --> 00:03:16,540
 [rus] Их отлично видно в рентгене.
-[eng] They can be easily seen in "X - Ray" mode.
+[eng] They can be easily seen in "X-Ray" mode.
 
 49
 00:03:21,800 --> 00:03:25,840
 [rus] Если их не убрать, они будут рвать картинку при анимации.
-[eng] If they are not removed, artifacts will tear the picture when you animate it.
+[eng] If artifacts are present, they will make a gaps in the picture when you animate it.
 
 50
 00:03:25,980 --> 00:03:29,320
@@ -251,12 +251,12 @@
 51
 00:03:29,900 --> 00:03:33,740
 [rus] Выбираем проблемный меш, входим в режим редактирования...
-[eng] Select problem mesh and enter the "Edit Mode"...
+[eng] Select the mesh and enter the "Edit Mode"...
 
 52
 00:03:42,080 --> 00:03:45,340
 [rus] Удаляем любую вершину в месте разрыва.
-[eng] Delete any vertex at the break point.
+[eng] Delete any vertex at the gap area.
 
 53
 00:03:47,220 --> 00:03:50,240
@@ -271,12 +271,12 @@
 55
 00:03:55,600 --> 00:03:58,120
 [rus] Если артефактов слишком много...
-[eng] If there are a LOT of artifacts...
+[eng] Sometimes triangulation can produce a LOT of artifacts for single mesh...
 
 56
 00:03:58,240 --> 00:04:02,680
 [rus] ...то лучше всего сделать откат и триангулировать часть заного.
-[eng] ...it would be better to roll back and triangulate the part from the beginning.
+[eng] ...in this case it is better to roll back and triangulate the part from the beginning.
 
 57
 00:04:10,720 --> 00:04:12,900
