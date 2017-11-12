@@ -174,111 +174,106 @@
 [eng] Now let me explain what we just did.
 
 35
-00:02:28,580 --> 00:02:31,260
-[rus] Все эти треугольники являются полигонами.
-[eng] All these triangles are polygons.
-
-36
 00:02:31,260 --> 00:02:35,560
-[rus] А триангулирование это создание сетки из таких треугольников.
+[rus] Триангулирование это создание сетки из треугольников.
 [eng] Triangulation is a process of converting outline polygon to the mesh of triangles.
 
-37
+36
 00:02:35,660 --> 00:02:36,460
 [rus] Смотрите.
 [eng] Look.
 
-38
+37
 00:02:36,540 --> 00:02:41,420
 [rus] Каждый треугольник отвечает только за ту область, на которой он находится.
 [eng] Every triangle is responsible only for the area where it's located.
 
-39
+38
 00:02:42,220 --> 00:02:46,080
 [rus] Триангулирование дает нам возможнсть "гнуть" картинку...
 [eng] Such mesh gives us the opportunity to "bend" the picture.
 
-40
+39
 00:02:46,080 --> 00:02:48,740
 [rus] ...что позволяет нам добиться такого результата...
 [eng] Because of that we are able to achieve result...
 
-41
+40
 00:02:48,740 --> 00:02:51,280
 [rus] ...как Вы видели в  вводном уроке.
 [eng] ...as you saw in the first lesson.
 
-42
+41
 00:02:52,500 --> 00:02:54,820
 [rus] Как Вы уже, наверное. догадались....
 [eng] As you have probably guessed...
 
-43
+42
 00:02:54,820 --> 00:02:57,600
 [rus] ...нам нужно триангулировать всю нашу сцену.
 [eng] ...we need to triangulate the whole character.
 
-44
+43
 00:02:57,600 --> 00:03:01,600
 [rus] А точнее, триангулировать всё то, что будет гнуться...
 [eng] Or more precisely, we need to triangulate everything that will be bent.
 
-45
+44
 00:03:07,000 --> 00:03:11,680
 [rus] Обратите внимание, что иногда - могут появляться некие "артефакты".
 [eng] Note that sometimes the triangulation process can produce some "artifacts".
 
-47
+45
 00:03:11,680 --> 00:03:14,540
 [rus] Необходимо сразу делать проверку на их наличие.
 [eng] You should always check the mesh for these artifacts.
 
-48
+46
 00:03:14,540 --> 00:03:16,540
 [rus] Их отлично видно в рентгене.
 [eng] They can be easily seen in "X-Ray" mode.
 
-49
+47
 00:03:21,800 --> 00:03:25,840
 [rus] Если их не убрать, они будут рвать картинку при анимации.
 [eng] If artifacts are present, they will make a gaps in the picture when you animate it.
 
-50
+48
 00:03:25,980 --> 00:03:29,320
 [rus] В большинстве случаев они убираются легко.
 [eng] In most cases, artifacts can be easily removed.
 
-51
+49
 00:03:29,900 --> 00:03:33,740
 [rus] Выбираем проблемный меш, входим в режим редактирования...
 [eng] Select the mesh and enter the "Edit Mode"...
 
-52
+50
 00:03:42,080 --> 00:03:45,340
 [rus] Удаляем любую вершину в месте разрыва.
 [eng] Delete any vertex at the gap area.
 
-53
+51
 00:03:47,220 --> 00:03:50,240
 [rus] Затем, вручную заполняем пустые места.
 [eng] Then, fill the empty places manually.
 
-54
+52
 00:03:50,360 --> 00:03:52,940
 [rus] Выделяем три вершины и нажимаем "F".
 [eng] Select three vertexes and press "F".
 
-55
+53
 00:03:55,600 --> 00:03:58,120
 [rus] Если артефактов слишком много...
 [eng] Sometimes triangulation can produce a LOT of artifacts for single mesh...
 
-56
+54
 00:03:58,240 --> 00:04:02,680
 [rus] ...то лучше всего сделать откат и триангулировать часть заного.
 [eng] ...in this case it is better to roll back and triangulate the part from the beginning.
 
-57
+55
 00:04:10,720 --> 00:04:12,900
 [rus] Ну вот, меш готов.
 [eng] Well, the mesh is ready now.
