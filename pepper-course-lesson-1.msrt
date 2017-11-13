@@ -5,7 +5,7 @@
 
 1
 00:00:03,760 --> 00:00:04,880
-[rus] Привет, Друзья! 
+[rus] Привет, Друзья!
 [eng] Hello friends!
 
 2
@@ -15,7 +15,7 @@
 
 3
 00:00:10,480 --> 00:00:16,200
-[rus] И в этом курсе я расскажу Вам, как сделать такую анимацию самостоятельно. 
+[rus] И в этом курсе я расскажу Вам, как сделать такую анимацию самостоятельно.
 [eng] And in this video course, I'll teach you how to create such an animation.
 
 4
@@ -25,12 +25,12 @@
 
 5
 00:00:21,440 --> 00:00:24,060
-[rus] А также, они уже включены в сам курс. 
-[eng] If you got a full course, then you can find them included in the archive.
+[rus] А также, они уже включены в сам курс.
+[eng] If you purchased the full course, then you can find them included in the archive.
 
 6
 00:00:25,320 --> 00:00:28,840
-[rus] Для дальнейшей работы нам понадобятся... 
+[rus] Для дальнейшей работы нам понадобятся...
 [eng] For the further work we need...
 
 7
@@ -46,7 +46,7 @@
 9
 00:00:32,780 --> 00:00:35,400
 [rus] ...с установленным дополнением "CoaTools".
-[eng] ...and the "COA Tools" addon installed for both.
+[eng] ...with the "COA Tools" addon installed for both.
 
 10
 00:00:37,300 --> 00:00:41,160
@@ -101,7 +101,7 @@
 20
 00:01:34,380 --> 00:01:38,460
 [rus] При этом, оно сохраняет все координаты той или иной части.
-[eng] The addon is also exports additional information about placement of each layer.
+[eng] The addon also exports additional information about the placement of each layer.
 
 21
 00:01:39,500 --> 00:01:44,100
@@ -125,28 +125,28 @@
 
 25
 00:01:58,020 --> 00:02:02,480
-[rus] Для некоторый частей, у нас подготовлено несколько вариантов. 
-[eng] For some parts you can see several versions exists.
+[rus] Для некоторый частей, у нас подготовлено несколько вариантов.
+[eng] For some parts you can see several versions exist.
 
 26
 00:02:02,800 --> 00:02:06,540
-[rus] Вот, например, различные варианты рта. 
+[rus] Вот, например, различные варианты рта.
 [eng] For example, there are different variants of mouth here.
 
 27
 00:02:07,860 --> 00:02:11,120
 [rus] Такие части должны находиться в группах.
-[eng] Such parts should be grouped together. The groupping tells export plugin to treat those parts specially and allow to switch them during animation process.
+[eng] Such parts should be grouped together. The grouping tells the export plugin to treat those parts specially and allow to switch them during animation process.
 
 28
 00:02:12,480 --> 00:02:14,120
 [rus] Но, в остальных случаях...
-[eng] For all other other cases...
+[eng] For all other other cases however,
 
 29
 00:02:14,340 --> 00:02:17,380
 [rus] ...никаких групп больше быть не должно.
-[eng] ...the parts should not be grouped.
+[eng] the parts should not be grouped.
 
 30
 00:02:18,900 --> 00:02:21,420
@@ -191,12 +191,12 @@
 38
 00:02:52,180 --> 00:02:55,540
 [rus] Именно этот файл хранит расположение каждого слоя.
-[eng] This file stores the information about coordinates of each layer.
+[eng] This file stores information about coordinates of each layer.
 
 39
 00:02:55,730 --> 00:03:00,180
 [rus] Он нужен нам для дальнейшого импортирования нашей сцены уже в сам Blender.
-[eng] We will need it to import our scene into the Blender.
+[eng] We will need it to import our scene into Blender.
 
 40
 00:03:00,520 --> 00:03:06,220
@@ -331,12 +331,12 @@
 66
 00:04:47,120 --> 00:04:51,740
 [rus] По центру создалась пустышка, к которой будет привязана сцена.
-[eng] There is a plain axes object created. Our scene will be linked to it.
+[eng] A plain axes object is created. Our scene will be linked to it.
 
 67
 00:04:52,140 --> 00:04:55,280
 [rus] Теперь, нажимаем кнопку - Import Sprites.
-[eng] Now, press "Import Sprites" button
+[eng] Now, press the "Import Sprites" button
 
 68
 00:04:55,820 --> 00:05:00,080
@@ -357,4 +357,3 @@
 00:05:06,980 --> 00:05:09,160
 [rus] Всё стоит на своих местах!
 [eng] Everything is in its place!
-
