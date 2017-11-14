@@ -6,7 +6,7 @@
 1
 00:00:03,760 --> 00:00:06,380
 [rus] В этом и в последующих уроках...
-[eng] In this and all following lessons...
+[eng] In this and the next lesson...
 
 2
 00:00:06,480 --> 00:00:09,600
@@ -41,17 +41,17 @@
 8
 00:00:27,940 --> 00:00:30,980
 [rus] А теперь - посмотрим на неё в рентгене.
-[eng] Now, let's look at it in the X-Ray Mode.
+[eng] Now, let's look at it in X-Ray Mode.
 
 9
 00:00:32,460 --> 00:00:36,620
 [rus] Хорошо, на одной сцене "рентген" имеет форму картинки, но...
-[eng] Now we can see that the final scene have a silhouette of our character, but...
+[eng] We can see that the final scene has a silhouette of our character, but...
 
 10
 00:00:36,760 --> 00:00:39,720
 [rus] ...что это меняет? Давайте разберемся.
-[eng] ...what does this changes? You'll see soon.
+[eng] ...how is this done? You'll soon see!
 
 11
 00:00:41,600 --> 00:00:45,660
@@ -96,7 +96,7 @@
 19
 00:01:15,240 --> 00:01:19,860
 [rus] Затем, отступаем небольшое расстояние и ставим вторую точку.
-[eng] Then, step a short distance and create one more point.
+[eng] Then, zoom out a short distance and create one more point.
 
 20
 00:01:20,000 --> 00:01:23,000
@@ -191,7 +191,7 @@
 38
 00:02:42,220 --> 00:02:46,080
 [rus] Триангулирование дает нам возможнсть "гнуть" картинку...
-[eng] Such mesh gives us the opportunity to "bend" the picture.
+[eng] Such a mesh gives us the opportunity to "bend" the picture.
 
 39
 00:02:46,080 --> 00:02:48,740
@@ -221,7 +221,7 @@
 44
 00:03:07,000 --> 00:03:11,680
 [rus] Обратите внимание, что иногда - могут появляться некие "артефакты".
-[eng] Note that sometimes the triangulation process can produce some "artifacts".
+[eng] Note that sometimes the triangulation process can produce "artifacts".
 
 45
 00:03:11,680 --> 00:03:14,540
@@ -231,7 +231,7 @@
 46
 00:03:14,540 --> 00:03:16,540
 [rus] Их отлично видно в рентгене.
-[eng] They can be easily seen in "X-Ray" mode.
+[eng] They can be easily seen in "X-Ray" Mode.
 
 47
 00:03:21,800 --> 00:03:25,840
@@ -251,7 +251,7 @@
 50
 00:03:42,080 --> 00:03:45,340
 [rus] Удаляем любую вершину в месте разрыва.
-[eng] Delete any vertex at the gap area.
+[eng] Delete any vertex in the gap area.
 
 51
 00:03:47,220 --> 00:03:50,240
@@ -266,12 +266,12 @@
 53
 00:03:55,600 --> 00:03:58,120
 [rus] Если артефактов слишком много...
-[eng] Sometimes triangulation can produce a LOT of artifacts for single mesh...
+[eng] Sometimes triangulation can produce a LOT of artifacts for a single mesh...
 
 54
 00:03:58,240 --> 00:04:02,680
 [rus] ...то лучше всего сделать откат и триангулировать часть заного.
-[eng] ...in this case it is better to roll back and triangulate the part from the beginning.
+[eng] ...in this case it is better to undo and triangulate the part from the beginning.
 
 55
 00:04:10,720 --> 00:04:12,900
