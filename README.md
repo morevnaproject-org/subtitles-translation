@@ -1,6 +1,4 @@
-## License
-
-[Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+# subtitles-translation
 
 ## Info
 
@@ -43,3 +41,7 @@ however there are many more options you can explore with `./tool/msrt_embed --he
 * pepper-and-carrot-ep6.msrt - [ACCEPTING-TRANSLATIONS]
 * morevna-ep3.msrt - [ACCEPTING-TRANSLATIONS]
 * synfig-course-promo.msrt - [ENGLISH-POLISHING, RUSSIAN-DRAFT, SPANISH-DRAFT]
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
