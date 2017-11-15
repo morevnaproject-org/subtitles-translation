@@ -2,11 +2,11 @@
 
 [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-## Info:
+## Info
 
-This is a repository for collective translation of subtitle files.
+This is a repository for the collective translation of subtitle files.
 
-We use "self-proclaimed" multilanguage SRT format (.msrt)m where each line have prefix indicating translation language:
+We use the "self-proclaimed" multilanguage SRT format (.msrt) where each line has prefix indicating translation language:
 
 ```
 5
@@ -24,11 +24,21 @@ We use "self-proclaimed" multilanguage SRT format (.msrt)m where each line have 
 
 NOTE: The language codes are defined according to [ISO 639-3 standard](https://en.wikipedia.org/wiki/ISO_639:a)
 
-With this repository we are providing a special utility (msrt_tool.py) which allows to extract any language as regular SRT subtitle file:
+With this repository we also provide special utilities to work with msrt files. These can be found in the `tools/` folder. `msrt_tool.py` can extract any language to a regular SRT subtitle file like this:
 
-```./msrt_tool.py pepper-and-carrot-ep6.msrt eng -o pepper-and-carrot-ep6-en.srt```
+```bash
+./tool/msrt_tool.py pepper-and-carrot-ep6.msrt eng -o pepper-and-carrot-ep6-en.srt
+```
 
-## Translation status:
+and `msrt_embed.py` allows you to embed some or all of the languages of an msrt subtitle file into an video file (.mkv, .mp4, or .mov). The basic usage looks like this:
+
+```bash
+./tool/msrt_embed.py morevna-ep3.msrt ~/Downloads/morevna-episode-3.0.1.mp4 --language eng rus --default eng
+```
+
+however there are many more options you can explore with `./tool/msrt_embed --help`.
+
+## Translation status
 
 * pepper-and-carrot-ep6.msrt - [ACCEPTING-TRANSLATIONS]
 * morevna-ep3.msrt - [ACCEPTING-TRANSLATIONS]
