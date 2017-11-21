@@ -171,12 +171,12 @@
 34
 00:02:43,460 --> 00:02:46,160
 [rus] Перед тем, как привязать какую-либо часть...
-[eng] First, we have to turn off the skeleton deformation...
+[eng] Before linking any part... 
 
 35
 00:02:46,340 --> 00:02:48,760
 [rus] ...сначала нужно выключить деформацию всего скелета.
-[eng] ...before linking the parts.
+[eng] ...we have to turn off the skeleton deformation.
 
 36
 00:02:50,400 --> 00:02:52,020
