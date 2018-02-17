@@ -1,112 +1,112 @@
 ﻿1
 00:00:02,200 --> 00:00:03,120
-[rus] Итак... 
+[rus] Итак...
 [eng] So...
 
 2
 00:00:03,260 --> 00:00:07,480
-[rus] В прошлом уроке, мы закончили на привязке меша к скелету. 
+[rus] В прошлом уроке, мы закончили на привязке меша к скелету.
 [eng] In the last lesson we completed linking the mesh to the skeleton.
 
 3
 00:00:07,780 --> 00:00:11,960
-[rus] Несмотря на то, что вроде бы всё уже двигается, гнётся... 
+[rus] Несмотря на то, что вроде бы всё уже двигается, гнётся...
 [eng] Despite the fact that everything seems to be working...
 
 4
 00:00:12,120 --> 00:00:13,380
-[rus] ...это ещё не всё. 
+[rus] ...это ещё не всё.
 [eng] ...it's not over yet.
 
 5
 00:00:13,500 --> 00:00:16,520
-[rus] Вы, возможно, заметили, что в некоторых местах... 
-[eng] You have probably noticed, that the rig...
+[rus] Вы, возможно, заметили, что в некоторых местах...
+[eng] You have probably noticed that the rig...
 
 6
 00:00:16,520 --> 00:00:20,040
-[rus] ...наша марионетка гнется не так, как нам хотелось бы. 
-[eng] ...is bent not in the way as expected.
+[rus] ...наша марионетка гнется не так, как нам хотелось бы.
+[eng] ...does not bend in the way one would expected.
 
 7
 00:00:20,520 --> 00:00:23,320
-[rus] Например, когда гнется куртка... 
+[rus] Например, когда гнется куртка...
 [eng] For example when we bend the jacket...
 
 8
 00:00:23,320 --> 00:00:26,500
-[rus] ...мы видим то, что за ней находится и так далее. 
+[rus] ...мы видим то, что за ней находится и так далее.
 [eng] ...we can see the things behind.
 
 9
 00:00:26,800 --> 00:00:28,680
-[rus] Во всём виноваты веса. 
-[eng] We can fix this by editing "Weights".
+[rus] Во всём виноваты веса.
+[eng] We can fix this by editing the "Weights".
 
 10
 00:00:29,580 --> 00:00:35,120
-[rus] Вес, это показатель, который отвечает за силу влияния кости на меш. 
-[eng] "Weight" is an indicator, showing the influence which bone have to the point of mesh.
+[rus] Вес, это показатель, который отвечает за силу влияния кости на меш.
+[eng] "Weight" is an indicator, showing the influence which bones have on the points of a mesh.
 
 11
 00:00:35,680 --> 00:00:38,540
-[rus] Чтобы увидеть его графически, нужно... 
+[rus] Чтобы увидеть его графически, нужно...
 [eng] We can display them on the screen.
 
 12
 00:00:38,700 --> 00:00:42,420
-[rus] Первое, переключить скелет на режим Поз. 
-[eng] Firstly, turn on the "Pose Mode".
+[rus] Первое, переключить скелет на режим Поз.
+[eng] Firstly, turn on "Pose Mode".
 
 13
 00:00:46,360 --> 00:00:49,260
-[rus] Второе, выбрать нужную часть тела... 
+[rus] Второе, выбрать нужную часть тела...
 [eng] Then, select the mesh that you need...
 
 14
 00:00:49,480 --> 00:00:52,720
-[rus] ...но не кость, и перейти в режим "Weight Paint". 
+[rus] ...но не кость, и перейти в режим "Weight Paint".
 [eng] ...and turn on the "Weight Paint" mode.
 
 15
 00:00:56,560 --> 00:00:59,060
-[rus] Третье - включить рентген... 
+[rus] Третье - включить рентген...
 [eng] Finally, turn on the "X-Ray"...
 
 16
 00:00:59,140 --> 00:01:03,040
-[rus] ...и выделить кость. которая принадлежит этой части тела. 
+[rus] ...и выделить кость. которая принадлежит этой части тела.
 [eng] ...and select the bone corresponding to this part.
 
 17
 00:01:03,380 --> 00:01:04,160
-[rus] Хорошо. 
-[eng] Good.
+[rus] Хорошо.
+[eng] Okay.
 
 18
 00:01:09,040 --> 00:01:11,580
-[rus] Значение веса для каждой вершины... 
+[rus] Значение веса для каждой вершины...
 [eng] The weight of each vertex...
 
 19
 00:01:11,660 --> 00:01:14,060
-[rus] ...отображается в виде цветов. 
+[rus] ...отображается в виде цветов.
 [eng] ...is visualized by a certain color.
 
 20
 00:01:14,840 --> 00:01:17,460
 [rus] Синий цвет означает, что кость...
-[eng] A vertex drawn in blue indicates, that the bone...
+[eng] A vertex drawn in blue indicates that the bone...
 
 21
 00:01:17,600 --> 00:01:19,720
-[rus] ...никак не влияет на полигоны. 
-[eng] ...doesn't have an influence on it.
+[rus] ...никак не влияет на полигоны.
+[eng] ...doesn't have any influence on it.
 
 22
 00:01:20,780 --> 00:01:22,940
-[rus] Голубоватый или зеленый... 
-[eng] A vertex drawn in green indicates, that the bone...
+[rus] Голубоватый или зеленый...
+[eng] A vertex drawn in green indicates that the bone...
 
 23
 00:01:23,100 --> 00:01:24,780
@@ -115,77 +115,77 @@
 
 24
 00:01:25,660 --> 00:01:27,260
-[rus] Желтый и красный... 
+[rus] Желтый и красный...
 [eng] A vertex drawn in red indicates...
 
 25
 00:01:27,480 --> 00:01:28,720
-[rus] ...сильное влияние. 
+[rus] ...сильное влияние.
 [eng] ...a strong influence.
 
 26
 00:01:32,040 --> 00:01:34,880
-[rus] Инструмент по редактированию весов... 
+[rus] Инструмент по редактированию весов...
 [eng] The weight paint tool...
 
 27
 00:01:35,000 --> 00:01:36,740
-[rus] ...находится в левом меню... 
-[eng] ...available in the Tools panel of T-menu...
+[rus] ...находится в левом меню...
+[eng] ...is available in the Tools panel of T-menu...
 
 28
 00:01:37,160 --> 00:01:38,600
-[rus] ...вкладка Tools. 
-[eng] ...when you work in Weight Paint Mode.
+[rus] ...вкладка Tools.
+[eng] ...when you are in Weight Paint mode.
 
 29
 00:01:42,160 --> 00:01:45,780
-[rus] Размер кисти можно менять клавишой "F". 
+[rus] Размер кисти можно менять клавишой "F".
 [eng] Tool size can be changed by pressing "F" key.
 
 30
 00:01:47,420 --> 00:01:50,680
-[rus] Или на ползунке с названием "Radius". 
+[rus] Или на ползунке с названием "Radius".
 [eng] Or using "Radius" slider.
 
 31
 00:01:54,000 --> 00:01:57,360
-[rus] Давайте посмотрим, как работает этот инструмент. 
+[rus] Давайте посмотрим, как работает этот инструмент.
 [eng] Let's take a look how the tool works.
 
 32
 00:01:58,180 --> 00:02:01,820
-[rus] Но сначала, включим для него режим "Mix". 
+[rus] Но сначала, включим для него режим "Mix".
 [eng] First, make sure to select the "Mix" mode for it.
 
 33
 00:02:05,080 --> 00:02:08,640
-[rus] В этом режиме, инстремент работает точно также... 
+[rus] В этом режиме, инстремент работает точно также...
 [eng] In this mode the tool works as same as...
 
 34
 00:02:08,700 --> 00:02:12,760
-[rus] ...как и обычная кисть в Вашем любимом графическом редакторе. 
+[rus] ...как и обычная кисть в Вашем любимом графическом редакторе.
 [eng] ...a simple brush in your favorite graphics editor.
 
 35
 00:02:13,320 --> 00:02:15,160
-[rus] Разберем подробнее. 
+[rus] Разберем подробнее.
 [eng] Now let's take a look at other parameters.
 
 36
 00:02:15,600 --> 00:02:16,820
-[rus] Параметр "Weight"... 
+[rus] Параметр "Weight"...
 [eng] The "Weight" parameter...
 
 37
 00:02:17,260 --> 00:02:18,820
-[rus] ...отвечает за цвет... 
+[rus] ...отвечает за цвет...
 [eng] ...changes the color...
 
 38
 00:02:19,100 --> 00:02:21,360
-[rus] ...которым будет рисовать Ваша кисть. 
+[rus] ...которым будет рисовать Ваша кисть.
 [eng] ...which will be used.
 
 39
@@ -205,7 +205,7 @@
 
 42
 00:02:51,820 --> 00:02:54,220
-[rus] Включаем режим кисти "Mix"... 
+[rus] Включаем режим кисти "Mix"...
 [eng] Turn on "Mix" blend mode...
 
 43
@@ -215,76 +215,75 @@
 
 44
 00:02:59,100 --> 00:03:01,240
-[rus] ...т.е. на синий цвет. 
+[rus] ...т.е. на синий цвет.
 [eng] ...this is corresponding to blue color.
 
 45
 00:03:01,900 --> 00:03:03,360
-[rus] Параметр "Strength"... 
+[rus] Параметр "Strength"...
 [eng] Then the "Strength" parameter...
 
 46
 00:03:03,840 --> 00:03:07,320
-[rus] ...я, обычно, ставлю на 0,2. 
+[rus] ...я, обычно, ставлю на 0,2.
 [eng] ...I usually change to 0.2.
 
 47
 00:03:07,500 --> 00:03:10,100
-[rus] Теперь, мне нужно сделать так... 
+[rus] Теперь, мне нужно сделать так...
 [eng] Now I need to make sure...
 
 48
 00:03:10,220 --> 00:03:13,320
-[rus] ...чтобы кость не влияла вот на эту область. 
+[rus] ...чтобы кость не влияла вот на эту область.
 [eng] ...that the bone does not influence on this area.
 
 49
 00:03:16,440 --> 00:03:18,440
-[rus] Давайте посмотрим результат. 
+[rus] Давайте посмотрим результат.
 [eng] Let's check the result.
 
 50
 00:03:20,480 --> 00:03:23,040
-[rus] Стало намного лучше, не правда ли? 
+[rus] Стало намного лучше, не правда ли?
 [eng] It looks much better, doesn't it?
 
 51
 00:03:26,880 --> 00:03:31,540
-[rus] Далее, мы видим, что рука гнется немного выше, чем должна. 
+[rus] Далее, мы видим, что рука гнется немного выше, чем должна.
 [eng] Next we see, that the arm bends a little higher than it should be.
 
 52
 00:03:35,860 --> 00:03:37,280
-[rus] Исправим это. 
+[rus] Исправим это.
 [eng] Let's fix it.
 
 53
 00:03:58,400 --> 00:04:02,020
-[rus] Вот тут, мне нужно добавить вес для этой кости. 
+[rus] Вот тут, мне нужно добавить вес для этой кости.
 [eng] In this place I need to add the weight to the bone.
 
 54
 00:04:02,760 --> 00:04:05,340
-[rus] Поставлю параметр "Weight" на 1... 
+[rus] Поставлю параметр "Weight" на 1...
 [eng] Change the "Weight" parameter to 1...
 
 55
 00:04:08,400 --> 00:04:09,460
-[rus] ...и рисуем. 
+[rus] ...и рисуем.
 [eng] ...and draw.
 
 56
 00:04:24,320 --> 00:04:27,260
-[rus] Готово. Продолжаем в том же духе... 
-[eng] Done. Let's continue...
+[rus] Готово. Продолжаем в том же духе...
+[eng] Done. Continue to fix...
 
 57
 00:04:27,560 --> 00:04:31,860
-[rus] ...и исправляем все места, которые Вам не нравятся. 
-[eng] ...and fix everything else.
+[rus] ...и исправляем все места, которые Вам не нравятся.
+[eng] ...any places that you do not like.
 
 58
 00:04:32,300 --> 00:04:36,960
-[rus] На данном этапе можно уже сделать вот такую анимацию. 
-[eng] Done. Congratulations! At this point, we have a finished rig to make an animation like that.
-
+[rus] На данном этапе можно уже сделать вот такую анимацию.
+[eng] Et Voilá! At this point, we have a finished rig ready for animating like this.
