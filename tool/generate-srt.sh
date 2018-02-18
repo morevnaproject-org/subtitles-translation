@@ -29,7 +29,7 @@ extractLanguages () {
   done
 }
 
-FILES=( "pepper-and-carrot-ep6" "morevna-ep3" "pepper-course-lesson-1.msrt" )
+FILES=( "pepper-and-carrot-ep6" "morevna-ep3" "pepper-course-lesson-1" )
 
 for FILE in "${FILES[@]}"; do
   extractLanguages "$FILE"
