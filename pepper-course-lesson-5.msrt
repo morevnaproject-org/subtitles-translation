@@ -1,4 +1,4 @@
-﻿1
+1
 00:00:02,200 --> 00:00:03,120
 [rus] Итак...
 [eng] So...
@@ -84,206 +84,212 @@
 [eng] Okay.
 
 18
+00:01:04,380 --> 00:01:08,280
+[rus] Далее, я объясню про веса немного подробнее. 
+[eng] Next, I shall explain more about "Weights"
+
+19
 00:01:09,040 --> 00:01:11,580
 [rus] Значение веса для каждой вершины...
 [eng] The weight of each vertex...
 
-19
+20
 00:01:11,660 --> 00:01:14,060
 [rus] ...отображается в виде цветов.
 [eng] ...is visualized by a certain color.
 
-20
+21
 00:01:14,840 --> 00:01:17,460
 [rus] Синий цвет означает, что кость...
 [eng] A vertex drawn in blue indicates that the bone...
 
-21
+22
 00:01:17,600 --> 00:01:19,720
 [rus] ...никак не влияет на полигоны.
 [eng] ...doesn't have any influence on it.
 
-22
+23
 00:01:20,780 --> 00:01:22,940
 [rus] Голубоватый или зеленый...
 [eng] A vertex drawn in green indicates that the bone...
 
-23
+24
 00:01:23,100 --> 00:01:24,780
 [rus] ...небольшое влияние.
 [eng] ...has a small influence on it.
 
-24
+25
 00:01:25,660 --> 00:01:27,260
 [rus] Желтый и красный...
 [eng] A vertex drawn in red indicates...
 
-25
+26
 00:01:27,480 --> 00:01:28,720
 [rus] ...сильное влияние.
 [eng] ...a strong influence.
 
-26
+27
 00:01:32,040 --> 00:01:34,880
 [rus] Инструмент по редактированию весов...
 [eng] The weight paint tool...
 
-27
+28
 00:01:35,000 --> 00:01:36,740
 [rus] ...находится в левом меню...
 [eng] ...is available in the Tools panel of T-menu...
 
-28
+29
 00:01:37,160 --> 00:01:38,600
 [rus] ...вкладка Tools.
 [eng] ...when you are in Weight Paint mode.
 
-29
+30
 00:01:42,160 --> 00:01:45,780
 [rus] Размер кисти можно менять клавишой "F".
 [eng] Tool size can be changed by pressing "F" key.
 
-30
+31
 00:01:47,420 --> 00:01:50,680
 [rus] Или на ползунке с названием "Radius".
 [eng] Or using "Radius" slider.
 
-31
+32
 00:01:54,000 --> 00:01:57,360
 [rus] Давайте посмотрим, как работает этот инструмент.
 [eng] Let's take a look how the tool works.
 
-32
+33
 00:01:58,180 --> 00:02:01,820
 [rus] Но сначала, включим для него режим "Mix".
 [eng] First, make sure to select the "Mix" mode for it.
 
-33
+34
 00:02:05,080 --> 00:02:08,640
 [rus] В этом режиме, инстремент работает точно также...
 [eng] In this mode the tool works as same as...
 
-34
+35
 00:02:08,700 --> 00:02:12,760
 [rus] ...как и обычная кисть в Вашем любимом графическом редакторе.
 [eng] ...a simple brush in your favorite graphics editor.
 
-35
+36
 00:02:13,320 --> 00:02:15,160
 [rus] Разберем подробнее.
 [eng] Now let's take a look at other parameters.
 
-36
+37
 00:02:15,600 --> 00:02:16,820
 [rus] Параметр "Weight"...
 [eng] The "Weight" parameter...
 
-37
+38
 00:02:17,260 --> 00:02:18,820
 [rus] ...отвечает за цвет...
 [eng] ...changes the color...
 
-38
+39
 00:02:19,100 --> 00:02:21,360
 [rus] ...которым будет рисовать Ваша кисть.
 [eng] ...which will be used.
 
-39
+40
 00:02:31,420 --> 00:02:36,120
 [rus] Параметр "Strength" отвечает за силу нажатия кисти.
 [eng] The "Strength" parameter is for brush pressure strength.
 
-40
+41
 00:02:36,120 --> 00:02:38,640
 [rus] Это... как прозрачность.
 [eng] It's like... a transparency.
 
-41
+42
 00:02:48,300 --> 00:02:51,740
 [rus] А теперь, давайте исправим нашу куртку.
 [eng] Now, let's fix the jacket.
 
-42
+43
 00:02:51,820 --> 00:02:54,220
 [rus] Включаем режим кисти "Mix"...
 [eng] Turn on "Mix" blend mode...
 
-43
+44
 00:02:55,460 --> 00:02:58,960
 [rus] Затем, изменяем параметр "Weight" на ноль...
 [eng] Then, change the "Weight" parameter to zero...
 
-44
+45
 00:02:59,100 --> 00:03:01,240
 [rus] ...т.е. на синий цвет.
 [eng] ...this is corresponding to blue color.
 
-45
+46
 00:03:01,900 --> 00:03:03,360
 [rus] Параметр "Strength"...
 [eng] Then the "Strength" parameter...
 
-46
+47
 00:03:03,840 --> 00:03:07,320
 [rus] ...я, обычно, ставлю на 0,2.
 [eng] ...I usually change to 0.2.
 
-47
+48
 00:03:07,500 --> 00:03:10,100
 [rus] Теперь, мне нужно сделать так...
 [eng] Now I need to make sure...
 
-48
+49
 00:03:10,220 --> 00:03:13,320
 [rus] ...чтобы кость не влияла вот на эту область.
 [eng] ...that the bone does not influence on this area.
 
-49
+50
 00:03:16,440 --> 00:03:18,440
 [rus] Давайте посмотрим результат.
 [eng] Let's check the result.
 
-50
+51
 00:03:20,480 --> 00:03:23,040
 [rus] Стало намного лучше, не правда ли?
 [eng] It looks much better, doesn't it?
 
-51
+52
 00:03:26,880 --> 00:03:31,540
 [rus] Далее, мы видим, что рука гнется немного выше, чем должна.
 [eng] Next we see, that the arm bends a little higher than it should be.
 
-52
+53
 00:03:35,860 --> 00:03:37,280
 [rus] Исправим это.
 [eng] Let's fix it.
 
-53
+54
 00:03:58,400 --> 00:04:02,020
 [rus] Вот тут, мне нужно добавить вес для этой кости.
 [eng] In this place I need to add the weight to the bone.
 
-54
+55
 00:04:02,760 --> 00:04:05,340
 [rus] Поставлю параметр "Weight" на 1...
 [eng] Change the "Weight" parameter to 1...
 
-55
+56
 00:04:08,400 --> 00:04:09,460
 [rus] ...и рисуем.
 [eng] ...and draw.
 
-56
+57
 00:04:24,320 --> 00:04:27,260
 [rus] Готово. Продолжаем в том же духе...
 [eng] Done. Continue to fix...
 
-57
+58
 00:04:27,560 --> 00:04:31,860
 [rus] ...и исправляем все места, которые Вам не нравятся.
 [eng] ...any places that you do not like.
 
-58
+59
 00:04:32,300 --> 00:04:36,960
 [rus] На данном этапе можно уже сделать вот такую анимацию.
 [eng] Et Voilá! At this point, we have a finished rig ready for animating like this.
+
