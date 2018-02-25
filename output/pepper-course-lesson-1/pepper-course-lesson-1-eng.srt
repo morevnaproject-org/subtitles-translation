@@ -1,284 +1,263 @@
 1
-00:00:03,760 --> 00:00:04,880
+00:00:03,540 --> 00:00:05,250
 Hello friends!
 
 2
-00:00:05,560 --> 00:00:09,940
-On your screen, you can see a clip from the "Pepper & Carrot" motion comic
+00:00:05,250 --> 00:00:10,500
+On your screen, you can see a clip from the "Pepper & Carrot" motion comic.
 
 3
-00:00:10,480 --> 00:00:16,200
+00:00:10,500 --> 00:00:15,160
 And in this video course, I'll teach you how to create such an animation.
 
 4
-00:00:16,880 --> 00:00:21,300
-You can download files for this lesson by following relevant links in description of this video.
+00:00:15,160 --> 00:00:17,660
+You can download files for this lesson
 
 5
-00:00:21,440 --> 00:00:24,060
-If you purchased the full course, then you can find them included in the archive.
+00:00:17,660 --> 00:00:22,100
+by following relevant links in description of this video.
 
 6
-00:00:25,320 --> 00:00:28,840
-For the further work we need...
+00:00:22,100 --> 00:00:27,420
+If you purchased the full course, then you can find them included in the archive.
 
 7
-00:00:29,160 --> 00:00:30,080
-GIMP...
+00:00:27,420 --> 00:00:30,340
+For the further work we need:
 
 8
-00:00:31,380 --> 00:00:32,780
-and "Blender"...
+00:00:30,360 --> 00:00:31,900
+"GIMP"…
 
 9
-00:00:32,780 --> 00:00:35,400
-...with the "COA Tools" addon installed for both.
+00:00:31,900 --> 00:00:36,980
+and "Blender" with the "COA Tools" add-on installed for both.
 
 10
-00:00:37,300 --> 00:00:41,160
-Let's start with installing the COA Tools Addon in GIMP.
+00:00:36,980 --> 00:00:41,480
+Let's start with installing the COA Tools add-on in GIMP.
 
 11
-00:00:41,520 --> 00:00:44,400
-Open the downloaded COA Tools folder
+00:00:41,480 --> 00:00:45,920
+Open the downloaded COA Tools folder.
 
 12
-00:00:46,040 --> 00:00:49,660
+00:00:45,920 --> 00:00:51,080
 And copy the file located in the "GIMP" folder.
 
 13
-00:00:51,160 --> 00:00:54,740
-Then, go to the GIMP settings folder...
+00:00:51,080 --> 00:01:04,040
+Then, go to the GIMP settings folder…
 
 14
-00:01:04,280 --> 00:01:06,360
-...and find the "Plugins" folder.
+00:01:04,040 --> 00:01:06,980
+…and find the "Plugins" folder.
 
 15
-00:01:07,160 --> 00:01:10,240
+00:01:06,980 --> 00:01:15,180
 Paste the file we copied from COA Tools.
 
 16
-00:01:15,400 --> 00:01:19,800
-Make sure that the addon is executable.
+00:01:15,180 --> 00:01:24,160
+Make sure that the add-on is executable.
 
 17
-00:01:24,140 --> 00:01:25,200
+00:01:24,160 --> 00:01:26,900
 Done.
 
 18
-00:01:27,040 --> 00:01:32,380
-The COA Tools addon allows GIMP to export every layer into separate pictures...
+00:01:26,900 --> 00:01:34,220
+The COA Tools add-on allows GIMP to export every layer into separate pictures as a PNG.
 
 19
-00:01:32,420 --> 00:01:34,240
-...as a PNG.
+00:01:34,220 --> 00:01:39,600
+The add-on also exports additional information about the placement of each layer.
 
 20
-00:01:34,380 --> 00:01:38,460
-The addon also exports additional information about the placement of each layer.
+00:01:39,600 --> 00:01:45,160
+Now, let's open our .ORA file in GIMP.
 
 21
-00:01:39,500 --> 00:01:44,100
-Now, let's open our ORA file in GIMP.
-
-22
-00:01:44,380 --> 00:01:49,220
+00:01:45,160 --> 00:01:50,440
 Here is the character you saw in beginning of this video.
 
+22
+00:01:50,440 --> 00:01:57,060
+Notice, it is separated into layers so that we can animate it.
+
 23
-00:01:49,640 --> 00:01:53,440
-Notice, it is separated into layers...
-
-24
-00:01:53,660 --> 00:01:56,020
-...so that we can animate it.
-
-25
-00:01:58,020 --> 00:02:02,480
+00:01:57,060 --> 00:02:01,780
 For some parts you can see several versions exist.
 
-26
-00:02:02,800 --> 00:02:06,540
+24
+00:02:01,780 --> 00:02:06,160
 For example, there are different variants of mouth here.
 
+25
+00:02:06,160 --> 00:02:14,240
+The grouping tells the export plug-in to trade these parts specially in the long to switch them during animation process.
+
+26
+00:02:14,240 --> 00:02:19,360
+For all other other cases however, the parts should not be grouped.
+
 27
-00:02:07,860 --> 00:02:11,120
-Such parts should be grouped together. The grouping tells the export plugin to treat those parts specially and allow to switch them during animation process.
-
-28
-00:02:12,480 --> 00:02:14,120
-For all other other cases however,
-
-29
-00:02:14,340 --> 00:02:17,380
-the parts should not be grouped.
-
-30
-00:02:18,900 --> 00:02:21,420
+00:02:19,360 --> 00:02:21,560
 So, let's start exporting.
 
-31
-00:02:21,720 --> 00:02:23,000
-Click "File"...
+28
+00:02:21,560 --> 00:02:23,500
+Click "File"…
 
-32
-00:02:23,000 --> 00:02:26,080
-...then "Export to CoaTools".
+29
+00:02:23,540 --> 00:02:26,360
+…then "Export to CoaTools".
 
-33
-00:02:26,460 --> 00:02:29,700
+30
+00:02:26,360 --> 00:02:35,680
 Next, enter the name and path of the scene.
 
-34
-00:02:35,740 --> 00:02:36,780
+31
+00:02:35,680 --> 00:02:37,820
 Done.
 
-35
-00:02:37,740 --> 00:02:39,580
+32
+00:02:37,820 --> 00:02:40,560
 Let's check the result.
 
-36
-00:02:40,480 --> 00:02:46,140
-As you can see, the addon created a folder where we can find all our layers separated.
+33
+00:02:40,560 --> 00:02:48,440
+As you can see, the add-on created a folder where we can find all our layers separated.
 
-37
-00:02:48,280 --> 00:02:51,880
+34
+00:02:48,440 --> 00:02:52,760
 Also, there is a file with the .JSON extension.
 
-38
-00:02:52,180 --> 00:02:55,540
+35
+00:02:52,760 --> 00:02:57,140
 This file stores information about coordinates of each layer.
 
-39
-00:02:55,730 --> 00:03:00,180
+36
+00:02:57,140 --> 00:03:01,420
 We will need it to import our scene into Blender.
 
-40
-00:03:00,520 --> 00:03:06,220
-But first, we need to install CoaTools addon for Blender.
+37
+00:03:01,420 --> 00:03:06,280
+But first, we need to install COA Tools add-on for Blender.
 
-41
-00:03:06,440 --> 00:03:09,940
-Just like in the beginning, start by openning the downloaded CoaTools folder.
+38
+00:03:06,280 --> 00:03:11,720
+Just like in the beginning, start by opening the downloaded COA Tools folder.
 
-42
-00:03:10,420 --> 00:03:14,100
+39
+00:03:11,720 --> 00:03:15,080
 Open the "Blender" folder inside.
 
-43
-00:03:14,400 --> 00:03:18,620
-Here we can see another folder - "coa_tools".
+40
+00:03:15,080 --> 00:03:18,800
+Here we can see another folder — "coa_tools".
 
-44
-00:03:18,800 --> 00:03:21,440
-We need to make a ZIP archive of it.
+41
+00:03:18,800 --> 00:03:24,900
+We need to make a .ZIP archive of it.
 
-45
-00:03:26,860 --> 00:03:27,780
+42
+00:03:24,900 --> 00:03:27,120
 Done.
 
-46
-00:03:27,920 --> 00:03:29,760
+43
+00:03:27,120 --> 00:03:30,900
 Next, let's run Blender.
 
+44
+00:03:30,900 --> 00:03:36,400
+Go to "File" -> "User Preferences…"
+
+45
+00:03:36,400 --> 00:03:39,740
+And find the "Add-ons" tab.
+
+46
+00:03:39,740 --> 00:03:45,560
+Then click on the "Install from File…" button.
+
 47
-00:03:30,240 --> 00:03:32,000
-Go to "File"...
+00:03:45,560 --> 00:03:53,560
+Select the "coa_tools.zip" archive.
 
 48
-00:03:32,560 --> 00:03:34,680
-User Preferences...
+00:03:53,560 --> 00:03:57,940
+After that, find the installed add-on.
 
 49
-00:03:34,960 --> 00:03:39,000
-And find the Add-ons tab.
+00:03:57,940 --> 00:04:05,020
+Put a tick before it and click "Save User Settings".
 
 50
-00:03:39,280 --> 00:03:43,920
-Then click on the "Install from File" button.
-
-51
-00:03:45,160 --> 00:03:48,760
-Select the "coa_tools" ZIP archive.
-
-52
-00:03:53,000 --> 00:03:55,980
-After that, find the installed Add-on.
-
-53
-00:03:57,460 --> 00:04:00,060
-Put a tick before it.
-
-54
-00:04:00,560 --> 00:04:02,860
-And click Save User Settings.
-
-55
-00:04:04,940 --> 00:04:05,820
+00:04:05,020 --> 00:04:06,220
 Done.
 
-56
-00:04:06,040 --> 00:04:10,400
-If you've done everything correct, then in T-menu...
+51
+00:04:06,220 --> 00:04:10,900
+If you've done everything correct, then in T-menu…
 
-57
-00:04:10,540 --> 00:04:13,280
+52
+00:04:10,900 --> 00:04:13,440
 (the one which is opened by 't' key)
 
-58
-00:04:13,460 --> 00:04:16,580
-...the "Cutout animation" tab will appear.
+53
+00:04:13,440 --> 00:04:18,800
+…the "Cutout Animation" tab will appear.
 
-59
-00:04:19,980 --> 00:04:22,760
-Let's import our scene".
+54
+00:04:19,800 --> 00:04:23,120
+Let's import our scene.
 
-60
-00:04:23,900 --> 00:04:25,900
-Delete the start scene...
+55
+00:04:23,120 --> 00:04:25,940
+Delete the start scene…
 
-61
-00:04:27,020 --> 00:04:30,000
+56
+00:04:25,940 --> 00:04:29,980
 Now, you need to snap your cursor to the center.
 
-62
-00:04:30,140 --> 00:04:34,160
-To do that, you need to press the key combination "Shift+S"...
+57
+00:04:29,980 --> 00:04:36,060
+To do that, you need to press the key combination "Shift+S"…
 
-63
-00:04:35,620 --> 00:04:38,620
-...and choose "Cursor to Center".
+58
+00:04:36,060 --> 00:04:39,680
+…and choose "Cursor to Center".
 
-64
-00:04:38,740 --> 00:04:43,400
+59
+00:04:39,680 --> 00:04:43,840
 Then, go to "Cutout animation" in T-menu.
 
-65
-00:04:43,600 --> 00:04:46,500
+60
+00:04:43,840 --> 00:04:47,120
 And click on "Create new Sprite".
 
-66
-00:04:47,120 --> 00:04:51,740
-A plain axes object is created. Our scene will be linked to it.
+61
+00:04:47,120 --> 00:04:49,780
+A plain axes object is created.
 
-67
-00:04:52,140 --> 00:04:55,280
+62
+00:04:49,780 --> 00:04:52,160
+Our scene will be linked to it.
+
+63
+00:04:52,160 --> 00:04:56,240
 Now, press the "Import Sprites" button
 
-68
-00:04:55,820 --> 00:05:00,080
-And choose the .JSON file, which was created earlier.
+64
+00:04:56,240 --> 00:05:01,940
+and choose the .JSON file, which was created earlier.
 
-69
-00:05:02,040 --> 00:05:03,000
-Voilà!
+65
+00:05:01,940 --> 00:05:06,560
+Voilà! We've successfully imported our scene into Blender.
 
-70
-00:05:03,420 --> 00:05:06,740
-We've successfully imported our scene into Blender.
-
-71
-00:05:06,980 --> 00:05:09,160
+66
+00:05:06,560 --> 00:05:09,120
 Everything is in its place!
-
