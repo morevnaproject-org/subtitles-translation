@@ -197,6 +197,7 @@ Put a tick before it and click "Save User Settings".
 50
 00:04:05,020 --> 00:04:06,220
 Done.
+
 51
 00:04:06,220 --> 00:04:10,900
 If you've done everything correct, then in T-menu…
