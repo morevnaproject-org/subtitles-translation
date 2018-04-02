@@ -3,11 +3,11 @@
 # Licenced under the Modified BSD license
 
 # Extract language to given SRT:
-#    msrt_tool.py MSRT_FILE extract LANG [SRT_FILE]
-# Merge given SRT file to specified language (not implemented yet):
-#    msrt_tool.py MSRT_FILE merge LANG SRT_FILE
-# List languages available in msrt file (not implemented yet):
-#    msrt_tool.py MSRT_FILE list
+#    msrt_tool.py MSRT_FILE --extract LANG [SRT_FILE]
+# Merge given SRT file to specified language:
+#    msrt_tool.py MSRT_FILE --merge LANG SRT_FILE
+# List languages available in msrt file:
+#    msrt_tool.py MSRT_FILE --list
 
 from gettext import gettext as _
 import sys
