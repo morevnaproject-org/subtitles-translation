@@ -15,6 +15,8 @@ deploy:
   provider: releases
   api_key:
     secure: Bjnr9XXbuzpRYckIo9FCeu3eWk6Y3Rtp1wgGZZVIjVlhzS3xPDkNrEFp2M3vuSNhyGsJWfVK+lE7inkIGfDKfIqB+vWhbMtKLlyA/b7iQpdbIFan00SPlPLUgA6GsOHnbx0H1gjS8+ZIEO9LvmGXsCARKcV0DhaRdyvDji3Cib2ov136aSEPVZ4ibA31oTtAgck86h0K9ulDv54jeO39NGUeVsk473U0u32XRWF1qeyxatpmHb0nkh9LKEQhXx7P/ar5BYgVoyYa9XzroP8q4Pb56n607DGWreSXn498oMzZTzVVngxDVZnCDu2nmZFCq3OoviFlNtQmAwVgv8hZnzaqHjh5Fgriwqsmy4BDZHZpDo8N1o/EnOkewI5wRFxinIbnwogUMyeKItvQwRzuncxEAys1RL0EGsEc/ub3PMPT4cBEik5B29OhROBfIjNmAKpBWQ7LAERtj4cfYH7ikCNhQjvnZrgKoM8/DttoICbYHjCNUa4H+a/u/ucOHhHwtZHyqyqCELLtHd9ig87grplI0G7FyIkiGWDFfXgG21ICEAoBYKU9XxEU0Wfd6k18ODcIdKbKM0XE6iQ5suSrXK10bL+TUWvXtHccqpUfJYT6043AXZt8fydd2M9NZOLaD09K7MjBJZZ8WybG+edkTxnHfC7Z2OI6VcwMrztcUX4=
-  file: output/course-synfig/course-synfig-subtitles.zip
+  file:
+  - "output/course-synfig/course-synfig-subtitles.zip"
+  - "morevna-ep3.msrt"
   overwrite: true
   skip_cleanup: true
