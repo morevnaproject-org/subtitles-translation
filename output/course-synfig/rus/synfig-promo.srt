@@ -1,0 +1,56 @@
+1
+[epo] Per Synfig eblas facile krei movbildaĵojn kaj movbilda eltondaĵojn por klarigaj produktaĵo-videoj, video-instruiloj ktp.
+Synfig прекрасно подходит для моушен дизайна, создания обучающих роликов и простой анимации.
+
+2
+[epo] Per tiu ĉi kurso, vi povas rapide eklerni uzadon de Synfig, de la tre bazaj konceptoj ĝis progresaj teknikoj.
+Этот курс позволит вам освоить программу в кратчайшие сроки, начиная с самых азов и заканчивая продвинутыми техниками.
+
+3
+[epo] Por helpi al vi ekkomenci, ni kreis video-kurson.
+Чтобы помочь вам начать, мы разработали специальный видео-курс.
+
+4
+[epo] Sed eklernante vi povos fari belegan laboron per ĝi.
+...и вы получите отличный инструмент для создания собственных мультфильмов.
+
+5
+[epo] Synfig Studio estas potenca malfermitkoda movbildo-programaro.
+Synfig Studio - это мощное свободное программное обеспечение для создания анимации.
+
+6
+[epo] Synfig eble ne estas tiom uz-afabla kiel ĝiaj rivaloj…
+На первый взгляд синфиг может показаться сложным...
+
+7
+[epo] Synfig havas sian propran rimedon por trakti aferojn.
+
+
+8
+[epo] Vi lernos:
+Вы узнаете:
+
+9
+[epo] Vi povas elŝuti ĝin senpage kaj uzi ĝin hejme, lerneje, laboreje aŭ kie ajn sen limigado!
+Вы можете скачать Synfig совершенно бесплатно и использовать его дома, в школе, на работе или где либо ещё. Без ограничений.
+
+10
+[epo] kaj multe pli.
+и многое другое.
+
+11
+[epo] kiel animi vizaĝojn,
+как научить персонажа говорить,
+
+12
+[epo] kiel eksporti vian kreaĵon al JuTubo aŭ alia retejo,
+как экспортировать вашу работу для ютуба или вебсайта,
+
+13
+[epo] kiel uzi ostojn por animi vian rolulon,
+как использовать кости для анимации персонажей,
+
+14
+[epo] sed ĝi donas al vi kontrolon super ĉiu ero de via movbildaĵo.
+Но в его основе лежат простые принципы. Стоит лишь изучить их...
+
