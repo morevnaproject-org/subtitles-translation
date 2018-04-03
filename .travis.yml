@@ -7,10 +7,7 @@ after_success:
 - if [ $TRAVIS_EVENT_TYPE == "push" ]; then $TRAVIS_BUILD_DIR/tool/deploy-srt.sh;
   fi
 before_deploy:
-- git config --local user.name "Travis CI"
-- git config --local user.email "travis@travis-ci.org"
-- git tag -d current || true
-- git tag current
+- $TRAVIS_BUILD_DIR/tool/travis-update-tag.sh
 deploy:
   provider: releases
   api_key:
