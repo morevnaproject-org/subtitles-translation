@@ -9,7 +9,7 @@ after_success:
 before_deploy:
 - git config --local user.name "Travis CI"
 - git config --local user.email "travis@travis-ci.org"
-- git tag -d current || true
+- git tag -d current
 - git tag current
 deploy:
   provider: releases
