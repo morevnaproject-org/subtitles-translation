@@ -12,5 +12,3 @@ git checkout "${TRAVIS_BRANCH}"
 git add --all
 git commit -m "Extract srt files for commit: ${TRAVIS_COMMIT}" -m "Travis build: ${TRAVIS_BUILD_NUMBER} [ci skip]"
 git push "https://${GH_REPO_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" "${TRAVIS_BRANCH}"
-
-git push "https://${GH_REPO_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" :refs/tags/latest-release
