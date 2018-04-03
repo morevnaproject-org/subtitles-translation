@@ -6,8 +6,6 @@ script:
 after_success:
 - if [ $TRAVIS_EVENT_TYPE == "push" ] && [ $TRAVIS_TAG != "latest-release" ]; then $TRAVIS_BUILD_DIR/tool/deploy-srt.sh;
   fi
-before_deploy:
-- $TRAVIS_BUILD_DIR/tool/travis-update-tag.sh
 deploy:
   provider: releases
   api_key:
@@ -16,5 +14,6 @@ deploy:
   - output/course-synfig-subtitles.zip
   on:
     repo: morevnaproject/subtitles-translation
+    tags: true
   overwrite: true
   skip_cleanup: true
