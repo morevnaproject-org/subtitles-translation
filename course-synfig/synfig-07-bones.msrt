@@ -1,0 +1,1250 @@
+1
+00:00:00,560 --> 00:00:03,100
+[deu] #7: Knochen
+[eng] #7: Bones
+[fra] #7: Armatures (Bones)
+[ita] #7: Ossa
+[por] #7: Ossos
+[spa] #7: Huesos
+[zho] #7: 骨骼
+
+2
+00:00:04,760 --> 00:00:09,400
+[deu] In den vorherigen Lektionen haben wir gelernt, wie man eine einfache Figur animiert.
+[eng] In the previous lessons we have learned how to animate a simple character.
+[fra] Dans les précédentes leçons nous avons appris comment animer un personnage simple.
+[ita] Nelle lezioni precedenti abbiamo imparato come animare un personaggio semplice.
+[por] Nas aulas anteriores nós aprendemos como animar um personagem simples.
+[spa] En lecciones previas aprendimos cómo animar un personaje simple.
+[zho] 在前面的课程我们学习了如何动画简单的角色。
+
+3
+00:00:09,560 --> 00:00:12,700
+[deu] Diese Methode ist gut für einfache Animationen geeignet.
+[eng] This technique is great for simple animations.
+[fra] Cette technique est idéale pour des animations simples.
+[ita] Questa tecnica è ottima per animazioni semplici.
+[por] Aquelas técnicas são ótimas para animaçõe simples.
+[spa] Esta técnica es excelente para animaciones sencillas.
+[zho] 这技术非常适用于简单的动画。
+
+4
+00:00:12,960 --> 00:00:17,830
+[deu] Doch sie hat auch Nachteile: es ist nicht besonders komfortabel, die Haltung der Figur zu steuern.
+[eng] But it also has drawbacks: it's not very comfortable to control the character's pose.
+[fra] Mais elle a aussi ses revers: ce n'est pas très confortable pour contrôler la pose du personnage.
+[ita] Ma c'è anche un lato negativo: non è molto comodo per controllare la posa del personaggio.
+[por] Mas tem algumas inconveniências: é bem chato de controlar a pose do personagem.
+[spa] Pero también tiene inconvenientes: es incómodo controlar la postura del personaje.
+[zho] 但缺点是：它不是很适于角色姿态控制。
+
+5
+00:00:18,030 --> 00:00:22,280
+[deu] Wir müssen jedes Mal einen bestimmten Körperteil auswählen und erst dann kann dieser bewegt werden.
+[eng] Every time we have to select particular part and only then it can be moved.
+[fra] A chaque fois nous devons sélectionner une partie particulière et seulement alors elle peut être déplacée.
+[ita] Ogni volta dobbiamo selezionare un particolare elemento e soltanto allora può essere mosso.
+[por] Toda vez nós temos que selecionar uma parte do objeto e só asism ela pode ser movida.
+[spa] Siempre tenemos que seleccionar cada pieza en particular antes de poder moverla.
+[zho] 每一次我们都不得不选择特定的部分，而且只有它可以移动。
+
+6
+00:00:22,620 --> 00:00:26,500
+[deu] Darüber hinaus müssen wir uns Gedanken um das Erstellen einer korrekten Gruppenstruktur machen.
+[eng] Moreover, we have to think about creating correct group structure.
+[fra] De plus, nous devons penser à créer une structure de groupes correcte.
+[ita] Inoltre, dobbiamo pensare di creare delle corrette strutture di gruppo.
+[por] Além do mais, nós temos que pensar direito sobre o agrupamento correto.
+[spa] Además, debemos pensar en crear correctamente la estructura de grupos.
+[zho] 此外，我们不得不要全盘考虑创建正确的组的结构。
+
+7
+00:00:26,830 --> 00:00:31,830
+[deu] Falls unsere Figur nur ein wenig zu komplex ist, müssen wir viele verschachtelte Gruppen erstellen…
+[eng] If our character is just a little bit more complex, then we'll have to create many nesting groups...
+[fra] Si notre personnage est juste un peu plus complexe, alors nous allons devoir créer de nombreux groupes imbriqués...
+[ita] Se il nostro personaggio fosse appena un po' più complesso, allora dovremmo creare molti gruppi annidati ...
+[por] Se nosso personagem for um pouco mais complexo, nós teremos que criar vários grupos dentro de grupos...
+[spa] Si el personaje es un poco más complejo, habrá que crear muchos grupos anidados...
+[zho] 如果我们的角色稍微复杂一点，那么就不得不创建更多的嵌套的组...
+
+8
+00:00:32,000 --> 00:00:34,230
+[deu] …und es wird schwierig, diese zu bearbeiten.
+[eng] ...and it gets hard to manipulate them.
+[fra] ...et cela devient difficile de les manipuler.
+[ita] ... e diventa difficile manipolarli.
+[por] ...e fica difícil manipulá-los.
+[spa] ...y se vuelve difícil manipularlos.
+[zho] ...这让操控变得困难起来。
+
+9
+00:00:34,400 --> 00:00:39,560
+[deu] Für die Animation von Figuren und anderen komplexen Strukturen lassen sich Knochen verwenden.
+[eng] For animation of characters and other complex structures you can use bones.
+[fra] Pour l'animation de personnages et autres structures complexes vous pouvez utiliser les armatures.
+[ita] Per l'animazione di personaggi e altre strutture complesse puoi usare le "ossa".
+[por] Para animação de personagens e outras estruturas complexas você pode usar ossos.
+[spa] Para la animación de personajes y otras estructuras complejos, podemos usar los huesos /bones/.
+[zho] 给角色和其他复杂的结构做动画，你可以采用骨骼。
+
+10
+00:00:39,880 --> 00:00:45,760
+[deu] Mit Knochen ist es sehr einfach, ein Skelett zu erstellen und einen Charakter zu steuern.
+[eng] With bones it's very easy to create a skeleton like this and control a character.
+[fra] Avec les armatures, il est simple de créer un squelette comme ceci et contrôler le personnage.
+[ita] Con le ossa è molto facile creare uno scheletro come questo e controllare un personaggio.
+[por] Com os ossos é muito fácil criar um esqueleto como este e controlar um personagem.
+[spa] Con los huesos, es muy fácil crear un esqueleto /skeleton/ como éste, y controlar al personaje.
+[zho] 骨骼能轻而易举创建像这个控制角色的骨架。
+
+11
+00:00:49,060 --> 00:00:52,660
+[deu] Nun werde ich Ihnen zeigen, wie Sie eine solche Struktur von Grund auf aufbauen.
+[eng] Now I'm going to show you how to create such structure from scratch.
+[fra] Maintenant je vais vous montrer comment créer une telle structure depuis le départ.
+[ita] Ora vi farò vedere come creare tale struttura dal principio.
+[por] Agora vou mostrar a você como criar uma estrutura dessa do zero.
+[spa] Ahora les mostraré cómo crear estas estructuras desde cero.
+[zho] 现在我要给你展示怎样从零创建这样的结构。
+
+12
+00:00:53,020 --> 00:00:56,030
+[deu] Öffnen Sie den Ordner „character-2“.
+[eng] Open the "character-2" folder.
+[fra] Ouvrez le dossier "character-2".
+[ita] Apri la cartella "personaggio-2".
+[por] Abra a pasta "character-2".
+[spa] Abran la carpeta "character-2", que contiene al segundo personaje.
+[zho] 打开"character-2" 文件夹。
+
+13
+00:00:57,700 --> 00:01:01,360
+[deu] Hier finden wir ein Bild einer kompletten Figur…
+[eng] Here we have an image of a whole character...
+[fra] Ici nous avons une image du personnage en entier...
+[ita] Abbiamo qui una immagine di un personaggio completo ...
+[por] Agora nós temos uma imagem de um personagem inteiro.
+[spa] Allí encontraremos la imagen completa de un personaje...
+[zho] 我们这里有个完整的角色...
+
+14
+00:01:03,420 --> 00:01:06,730
+[deu] …und alle ihre einzelnen Teile.
+[eng] ...and all its parts separated.
+[fra] ... et toutes ses parties séparées.
+[ita] ... e tutte le sue parti separate.
+[por] ...e todas as suas partes separadas.
+[spa] ...y todas sus piezas por separado.
+[zho] ...还有分开的各个部分。
+
+15
+00:01:06,900 --> 00:01:11,760
+[deu] Wollen wir zunächst das gesamte Bild importieren. Dies wird unsere Vorlage sein.
+[eng] First let's import the whole image. That will be our reference.
+[fra] D'abord, importons l'image entière. Ce sera notre référence.
+[ita] Per prima cosa, importiamo tutta l'immagine. Sarà il nostro riferimento.
+[por] Primeiro vamos importar a imagem completa. Será a nossa referência.
+[spa] Primero importemos la imagen completa. Esa será nuestra referencia.
+[zho] 我们先导入完整的图片。用来做参照物。
+
+16
+00:01:13,360 --> 00:01:17,000
+[deu] Als nächstes fügen wir die einzelnen Teile hinzu.
+[eng] Next, add the separate parts.
+[fra] Puis, ajoutons les parties séparées.
+[ita] Quindi, aggiungiamo le parti separate.
+[por] Depois, adicione cada parte.
+[spa] Luego incluimos las piezas separadas.
+[zho] 接着，添加分开的部分。
+
+17
+00:01:19,980 --> 00:01:24,600
+[deu] Nun gruppieren wir alles und skalieren es, damit es auf die Arbeitsfläche passt.
+[eng] Now group everything together and scale to fit the working area.
+[fra] Maintenant, groupons-les ensemble et ajustons l'échelle pour tenir dans la surface de travail.
+[ita] Adesso raggruppiamo tutto insieme e scaliamo per adattare all'area di lavoro.
+[por] Agora ponha tudo num grupo e escale para encaixar na área de desenho.
+[spa] Ahora agrupamos todas las imágenes y ajustamos su tamaño al área de trabajo.
+[zho] 现在把所有都成组在一起缩小使之适合工作区大小。
+
+18
+00:01:30,140 --> 00:01:35,400
+[deu] Nun ist es Zeit, das ganze Durcheinander aufzuräumen. Lassen Sie uns alle Teile voneinander trennen.
+[eng] Now it's time to clean up the mess. Let's separate all the parts.
+[fra] Maintenant il est temps de nettoyer tout ce bazar. Séparons toutes les parties.
+[ita] Ora è il momento di fare ordine. Separiamo tutte le parti.
+[por] É hora de limpar a bagunça. Vamos separar cada parte.
+[spa] Es hora de limpiar el desastre. Primero separamos todas las piezas.
+[zho] 现在我们要清理一下。分开各个部分。
+
+19
+00:01:43,000 --> 00:01:47,600
+[deu] Für unsure Bequemlichkeit machen wir die gesamte Figur halb transparent.
+[eng] For our convenience, let's make the image of the whole character semi-transparent.
+[fra] Pour nous simplifier la tâche, rendons l'image du personnage entier à demi-transparente.
+[ita] Per comodità, rendiamo l'immagine del personaggio semitrasparente.
+[por] Por conveniência, vamos fazer a imagem completa do personagem semi-transparente.
+[spa] Nos conviene hacer semi-transparente la imagen del personaje completo.
+[zho] 为了方便，先把完整的角色变成半透明。
+
+20
+00:01:47,860 --> 00:01:54,560
+[deu] Ebenen-Transparenz wird mithilfe des „Menge“-Parameters definiert. Setzen wir seinen Wert auf 0,5.
+[eng] Layer transparency is defined by the "Amount" parameter. Let's set its value to 0.5.
+[fra] La transparence du calque est définie par le paramètre "Amount". Définissons sa valeur à 0.5.
+[ita] Il Livello Trasparenza è definito dal parametro "Amount". Impostiamo il suo valore a 0.5.
+[por] A transparência da camada é definida pelo parâmetro "Quantidade". Vamos definir esse valor para 0,5.
+[spa] La transparencia de una capa se define con el parámetro "Cantidad" /amount/. Le daremos un valor de 0.5.
+[zho] 层的透明度是由 "Amount" 参数定义的。把汁设为0.5。
+
+21
+00:01:58,020 --> 00:02:01,000
+[deu] Nun ziehen wir alle Teile an ihren Platz.
+[eng] Now let's put all parts into their places.
+[fra] Maintenant mettons toutes les parties à leur place.
+[ita] Adesso mettiamo tutte le parti al loro posto.
+[por] Agora vamos colocar cada parte em seu lugar.
+[spa] Ahora coloquemos todas las piezas en su lugar.
+[zho] 现在我们把各个部分都放到正确的地方。
+
+22
+00:02:01,220 --> 00:02:05,530
+[deu] Hier kommt der Körper hin… der Kopf.
+[eng] Here goes the body... the head.
+[fra] Ici va le corps... la tête.
+[ita] Qui va il corpo ... la testa.
+[por] Aqui vai o corpo... a cabeça...
+[spa] Aquí va el cuerpo... la cabeza...
+[zho] 这是躯干... 头
+
+23
+00:02:06,640 --> 00:02:10,030
+[deu] Als nächstes die Beine – der Oberschenkel…
+[eng] Then the lower limbs - the thigh...
+[fra] Puis les membres inférieurs - la cuisse...
+[ita] Poi, le gambe - il bacino...
+[por] Os membros inferiores - as coxas...
+[spa] Luego las piernas... la cadera...
+[zho] 接着，腿 – 臀...
+
+24
+00:02:10,100 --> 00:02:11,860
+[deu] der Unterschenkel…
+[eng] the leg...
+[fra] la jambe...
+[ita] la coscia...
+[por] As pernas...
+[spa] el muslo...
+[zho] 大腿...
+
+25
+00:02:12,040 --> 00:02:14,760
+[deu] und der Fuß.
+[eng] and the foot.
+[fra] et le pied.
+[ita] e il piede.
+[por] e os pés.
+[spa] y el pie.
+[zho] 足。
+
+26
+00:02:20,960 --> 00:02:25,460
+[deu] Das zweite Bein liegt über dem Körper, doch das ist leicht zu beheben.
+[eng] The second leg appeared to be above the body but it's easy to fix.
+[fra] La seconde jambe se trouve au-dessus du corps mais c'est simple à résoudre.
+[ita] La seconda gamba ci appare al di sopra del corpo ma è facile da correggere.
+[por] A segunda perna ficou por cima do corpo, mas isso é fácil de arrumar.
+[spa] La segunda pierna parece estar encima del cuerpo, pero es fácil de arreglar.
+[zho] 第二条腿好像在躯体之上，很容易纠正的。
+
+27
+00:02:25,700 --> 00:02:28,930
+[deu] Schieben Sie es einfach nach hinten.
+[eng] Just send it to the back.
+[fra] Envoyez-la juste vers l'arrière.
+[ita] Basta metterla al di sotto.
+[por] Só mandar ela para trás.
+[spa] Sólo la envíamos hacia atrás.
+[zho] 只要把它放到后边去。
+
+28
+00:02:30,280 --> 00:02:33,660
+[deu] Alle übrigen Teile werden auf dieselbe Weise zusammengesetzt.
+[eng] All remaining parts are assembled in the same way.
+[fra] Toutes les parties restantes sont assemblées de la même façon.
+[ita] Tutti gli elementi rimanenti sono assemblati allo stesso modo.
+[por] Todas as partes restantes são montadas da mesma forma.
+[spa] Las piezas restantes se ensamblan de la misma manera.
+[zho] 剩下的其他部分也用同样的方法组装起来
+
+29
+00:02:33,940 --> 00:02:37,430
+[deu] Das macht richtig Spaß, wie ein Puzzle.
+[eng] It's kind of fun, like a puzzle.
+[fra] C'est assez amusant, comme un puzzle.
+[ita] E' una specie di gioco, come un puzzle.
+[por] É até que divertido, como um quebra-cabeças.
+[spa] Es bastante divertido, ¡como armar rompecabezas!
+[zho] 有点意思，像拼图。
+
+30
+00:02:42,520 --> 00:02:46,130
+[deu] Und vergessen Sie nicht, Ihre Arbeit regelmäßig zu speichern.
+[eng] And don't for get to save your work regularly.
+[fra] Et n'oubliez pas d'enregistrer régulièrement votre travail.
+[ita] E non dimenticare di salvare regolarmente il tuo lavoro.
+[por] E não se esqueça de salvar seu trabalho com frequência.
+[spa] Y no olvides guardar tu trabajo con regularidad.
+[zho] 不要忘了经常保存你的工作。
+
+31
+00:03:00,700 --> 00:03:02,530
+[deu] Fertig.
+[eng] Done.
+[fra] C'est fait.
+[ita] Fatto.
+[por] Pronto.
+[spa] Listo.
+[zho] 完成。
+
+32
+00:03:02,880 --> 00:03:07,630
+[deu] Die Vorlage-Ebene brauchen wir nicht mehr, daher ist es besser, sie zu verbergen.
+[eng] We don't need the reference layer any more, so it's better to hide it.
+[fra] Nous n'avons plus besoin du calque de référence, donc il vaut mieux le cacher.
+[ita] Non ci occorre più il livello di riferimento, quindi è meglio nasconderlo.
+[por] Agora nós não precisamos mais da camada de referência, então é melhor esconder ela.
+[spa] Ya no necesitamos la capa de referencia, y nos conviene ocultarla.
+[zho] 我们不再需要参照层，最好把它隐藏起来。
+
+33
+00:03:08,460 --> 00:03:11,100
+[deu] Nun können wir eine Skelett-Ebene hinzufügen.
+[eng] Now we can add a skeleton layer.
+[fra] Nous pouvons maintenant ajouter un calque Squelette.
+[ita] Ora possiamo aggiungere un livello scheletro.
+[por] Agora nós podemos adicionar uma camada de esqueleto.
+[spa] Ahora podemos añadir la capa de esqueleto.
+[zho] 现在我们可以添加骨架层了。
+
+34
+00:03:11,340 --> 00:03:14,680
+[deu] Legen wir sie in die Gruppe, oberhalb aller Bild-Ebenen.
+[eng] Let's put it inside of the group, above all image layers.
+[fra] Ajoutons-le au groupe, au-dessus de tous les calques Image.
+[ita] Mettiamolo nel gruppo, sopra tutti i livelli immagine.
+[por] Vamos colocar ela dentro do grupo, acima de todas as camadas.
+[spa] Lo pondremos dentro del grupo, encima de las capas de imagen.
+[zho] 把它放在这个组里，位于所有的图像层之上。
+
+35
+00:03:15,060 --> 00:03:18,530
+[deu] Erweitern Sie die Gruppe, wählen Sie ihre erste Ebene…
+[eng] Expand the group, select its first layer...
+[fra] Étendez le groupe, sélectionnez le premier calque...
+[ita] Espandi il gruppo, seleziona il suo primo livello ...
+[por] Abra o grupo, selecione a primeira camada...
+[spa] Expande el grupo y selecciona la primera capa.
+[zho] 展开组，选择第一个层。
+
+36
+00:03:18,800 --> 00:03:26,280
+[deu] Führen Sie einen Rechtsklick darauf aus und wählen Sie „Neue Ebene“ > „Andere“ > „Skelett“.
+[eng] right-click it and choose "New Layer" > "Other" > "Skeleton".
+[fra] cliquez-droit et choisissez "New Layer" > "Other" > "Skeleton".
+[ita] click tasto destro e scegli "Nuovo Livello" > "Altro" > "Scheletro".
+[por] Clique com o botão direito nela e vá em "Nova camada" -> "Outro" -> "Esqueleto".
+[spa] Haz click derecho sobre ella, y selecciona "Nueva Capa" /New Layer/ > "Otro" /other/ > y "Esqueleto" /Skeleton/.
+[zho] 右键点击，选择"New Layer" > "Other" > "Skeleton".
+
+37
+00:03:27,740 --> 00:03:31,060
+[deu] Nun haben wir eine Skelett-Ebene mit einem Knochen erstellt.
+[eng] So we have a skeleton layer created, with one bone.
+[fra] Nous avons donc un calque Squelette créé, avec une armature.
+[ita] Quindi abbiamo creato un livello scheletro, con un solo osso.
+[por] Temos agora uma camada de esqueleto, com um osso.
+[spa] Hemos creado una capa de esqueleto con un solo hueso.
+[zho] 我们的骨架层出来了，它带有一根骨头。
+
+38
+00:03:31,380 --> 00:03:33,860
+[deu] Hier ist sie.
+[eng] Here it is.
+[fra] La voilà.
+[ita] Eccolo qua.
+[por] Aqui está.
+[spa] Aquí está.
+[zho] 就是这个。
+
+39
+00:03:34,200 --> 00:03:37,830
+[deu] Der grüne Punkt ist Knotenpunkt des Knochens.
+[eng] The green point is the bone origin.
+[fra] Le point vert est l'origine de l'armature.
+[ita] Il punto verde è l'origine dell'osso.
+[por] O ponto verde é a origem do osso.
+[spa] El punto verde es el origen del hueso.
+[zho] 绿色的点是骨头的原点。
+
+40
+00:03:38,120 --> 00:03:42,600
+[deu] Die braune Linie bestimmt seinen Winkel und seine Länge.
+[eng] The brown one determines its angle and length.
+[fra] Le marron détermine son angle et sa longueur.
+[ita] Quello marrone determina il suo angolo e la sua lunghezza.
+[por] O ponto marrom determina o ângulo e o comprimento.
+[spa] El punto marrón determina el ángulo y la longitud.
+[zho] 棕色的决定它的角度和长度。
+
+41
+00:03:44,360 --> 00:03:46,900
+[deu] Lassen Sie uns einen weiteren Knochen erstellen.
+[eng] Let's create one more bone.
+[fra] Créons une armature de plus.
+[ita] Creiamo un altro osso.
+[por] Vamos criar mais um osso.
+[spa] Vamos a crear un hueso más.
+[zho] 再多创建一跟骨头。
+
+42
+00:03:47,060 --> 00:03:53,900
+[deu] Führen Sie einen Rechtsklick auf einen beliebigen Punkt des vorhandenen Knochens aus und wählen Sie „Unterknochen erstellen“.
+[eng] Right-click at any point of the existing bone and choose "Create Child Bone".
+[fra] Cliquez-droit sur n'importe quel point de l'armature existante et choisissez "Create Child Bone".
+[ita] Fai click col tasto destro del mouse in qualsiasi punto dell'osso esistente e scegli "Crea Osso Figlio".
+[por] Clique com o botão direito em qualquer ponto de um osso existente e escola "Criar Osso Filho".
+[spa] Haz click derecho sobre cualquier punto del hueso existente y elije "Create Child Bone".
+[zho] 右键点击现有的骨头的任意点然后选择"Create Child Bone".
+
+43
+00:03:55,100 --> 00:03:57,230
+[deu] Und schon erscheint der zweite Knochen.
+[eng] And there the second bone appears.
+[fra] Et la seconde armature apparaît ici.
+[ita] E il secondo osso compare qui.
+[por] E aí o segundo osso aparece.
+[spa] Allí aparece el segundo hueso,
+[zho] 第二根骨头出现了。
+
+44
+00:03:57,300 --> 00:03:59,560
+[deu] Er ist dem ersten Knochen untergeordnet.
+[eng] It's subordinate to the first bone.
+[fra] Elle est subordonnée à la première.
+[ita] E' subordinato al primo osso.
+[por] É subordinado ao primeiro osso.
+[spa] subordinado al primero.
+[zho] 它是第一跟骨头的从属。
+
+45
+00:03:59,720 --> 00:04:04,030
+[deu] Wie Sie sehen, bewegt sich auch der zweite, wenn ich den ersten verschiebe.
+[eng] Look, when I move the first one, the second one moves as well.
+[fra] Regardez, quand je bouge la première, la seconde bouge également.
+[ita] Guarda, quando muovo il primo, si sposta anche il secondo.
+[por] Veja, quando eu movo o primeiro osso, o segundo se move também.
+[spa] Fíjate que al mover el primer hueso, el segundo se mueve también.
+[zho] 看，当我移动第一根骨头，第二根也会跟着移动。
+
+46
+00:04:05,000 --> 00:04:08,160
+[deu] Doch der zweite Knochen kann sich auch unabhängig bewegen.
+[eng] But the second bone can move on it's own.
+[fra] Mais la seconde elle-même peut bouger.
+[ita] Però il secondo osso può muoversi per conto suo.
+[por] Mas o segundo pode se mover independentemente.
+[spa] Pero el segundo hueso puede moverse por sí mismo.
+[zho] 但第二根骨头自己也能动。
+
+47
+00:04:08,360 --> 00:04:10,660
+[deu] So funktioniert die Knochen-Hierarchie.
+[eng] That's how the bone hierarchy works.
+[fra] C'est comme cela que fonctionne la hiérarchie des armatures.
+[ita] Ecco come funziona la gerarchia delle ossa.
+[por] É assim que a hierarquia de ossos funciona.
+[spa] Así funciona la jerarquía de huesos.
+[zho] 这是骨头的层次运作方式。
+
+48
+00:04:10,840 --> 00:04:14,000
+[deu] Lassen Sie uns nun unseren ersten Knochen an die richtige Stelle verschieben.
+[eng] So, let's put the first bone into the right location.
+[fra] Donc plaçons la première armature au bon emplacement.
+[ita] Quindi, mettiamo il primo osso nella posizione corretta.
+[por] Certo, vamos colocar o primeiro osso na posição certa.
+[spa] Ahora pongamos el primer hueso en el lugar apropiado.
+[zho] 好，把第一根骨头放到正确的位置。
+
+49
+00:04:14,180 --> 00:04:18,330
+[deu] Er wird verantwortlich für die Position der ganzen Figur sein.
+[eng] It will be responsible for the position of the whole character.
+[fra] Elle sera responsable de la position du personnage complet.
+[ita] Sarà responsabile della posa dell'intero personaggio.
+[por] Ele será responsável pela posição do personagem inteiro.
+[spa] Será el responsable de la posición de todo nuestro personaje.
+[zho] 它负责把控整个角色的位置。
+
+50
+00:04:18,530 --> 00:04:22,900
+[deu] Der zweite Knochen ist für den Körper. Wir schieben ihn hier hin.
+[eng] The second bone is for the body. We put it here.
+[fra] La seconde armature est pour le corps. Nous la plaçons ici.
+[ita] Il secondo osso è per il corpo. Lo mettiamo qui.
+[por] O segundo osso é para o corpo. Vamos colocar ele aqui.
+[spa] El segundo hueso es para el cuerpo, y lo ponemos aquí.
+[zho] 第二根骨头分配给躯体。我们把它放在这里。
+
+51
+00:04:24,600 --> 00:04:28,160
+[deu] Da Arme und Kopf dem Körper untergeordnet sein sollen…
+[eng] Since arms and head should subordinate to the body...
+[fra] Puisque les bras et la tête doivent être subordonnés au corps...
+[ita] Siccome braccia e testa sono subordinate al corpo ...
+[por] Já que os braços e cabeça tem que ser subordinados ao corpo...
+[spa] Como brazos y cabeza deben ir subordinados al cuerpo...
+[zho] 因为手臂和头都是应该附属在躯干上...
+
+52
+00:04:28,200 --> 00:04:31,060
+[deu] …erstellen wir ihre Knochen aus dem Knochen des Körpers.
+[eng] ...we'll create their bones from the body bone.
+[fra] ...nous allons créer leurs armatures depuis celle du corps.
+[ita] ...creeremo le loro ossa dall'osso del corpo.
+[por] ...nós vamos criar os ossos deles a partir do osso do corpo.
+[spa] ...crearemos sus huesos a partir del hueso del cuerpo.
+[zho] ...我们从躯干骨骼上创建它们的骨头。
+
+53
+00:04:31,160 --> 00:04:35,160
+[deu] Rechtsklicken Sie und wählen Sie „Unterknochen erstellen“.
+[eng] Right-click it and choose "Create Child Bone".
+[fra] Cliquez-droit dessus et choisissez "Create Child Bone".
+[ita] Fai click col tasto destro del mouse e scegli "Crea Osso Figlio".
+[por] Clique com o botão direito nele e escolha "Criar Osso Filho".
+[spa] Haz click derecho sobre él, y elige "Create Child Bone".
+[zho] 右键点击它并选择"Create Child Bone".
+
+54
+00:04:42,240 --> 00:04:45,900
+[deu] Nun erstellen wir einen Knochen für den Unterarm…
+[eng] Now we create a bone for the lower part of the arm...
+[fra] Maintenant nous allons créer une armature pour la partie basse du bras...
+[ita] Adesso creiamo un osso per la parte inferiore del braccio ...
+[por] Agora nós criamos um osso para a parte de baixo do braço.
+[spa] Ahora crearemos un hueso para el antebrazo.
+[zho] 现在我们创建前臂的骨头...
+
+55
+00:04:49,360 --> 00:04:53,360
+[deu] …und daraus erstellen wir einen Unterknochen für die Hand.
+[eng] ...and from that bone create a child bone for the hand.
+[fra] ...et depuis cette armature créez-en une pour la main.
+[ita] ...e da quell'osso creiamo un osso figlio per la mano.
+[por] ...e com esse osso cria-se um osso filho para a mão.
+[spa] ...y desde ese hueso haremos un "Child Bone" para la mano.
+[zho] ...再在其基础上创建用于控制手部的骨头。
+
+56
+00:04:53,760 --> 00:04:58,530
+[deu] Wiederholen Sie den gleichen Vorgang für den zweiten Arm.
+[eng] Repeat the same procedure for the second arm.
+[fra] Répétez la même procédure pour le second bras.
+[ita] Ripeti lo stesso procedimento per l'altro braccio.
+[por] Repita o mesmo procedimento para o segundo braço
+[spa] Repite el procedimiento para el segundo brazo.
+[zho] 对第二条手臂重复这个步骤。
+
+57
+00:05:01,140 --> 00:05:07,000
+[deu] Die Beine sollten stillstehen, wenn der Körper sich verbiegt. Stellen Sie bitte also sicher, dass sie zum ersten Knochen gehören.
+[eng] The legs should stay still if the body bends, so make them belong to the first bone.
+[fra] Les jambes devraient rester fixes si le corps penche, donc faites-les appartenir à la première armature.
+[ita] Le gambe dovrebbero rimanere ferme se il corpo si piega, così le facciamo appartenere al primo osso.
+[por] As pernas devem ficar paradas se corpo se dobrar, então faça com que elas pertençam ao primeiro osso.
+[spa] Las piernas deben quedar quietas al doblar el cuerpo, así que créalas desde el primer hueso.
+[zho] 在躯干弯曲时腿应该保持不动的，所以让它们归属到第一根骨头上去。
+
+58
+00:05:10,740 --> 00:05:14,830
+[deu] Erstellen Sie als nächstes einen Knochen für den Fußknöchel und den Fuß.
+[eng] Next, create a bone for the ankle and for the foot.
+[fra] Ensuite, créez une armature pour le talon et pour le pied.
+[ita] Poi creiamo un osso per la caviglia e per il piede.
+[por] Em seguida, crie um osso para o tornozelo e um para o pé.
+[spa] Después creamos huesos para el tobillo y para el pie.
+[zho] 接着，创建一根用于脚踝和足的骨头。
+
+59
+00:05:17,740 --> 00:05:21,430
+[deu] Erstellen Sie auf dieselbe Weise Knochen für das zweite Bein.
+[eng] In the same way create bones for the second leg.
+[fra] De la même façon créez les armatures pour la seconde jambe.
+[ita] Allo stesso modo, creiamo le ossa per la seconda gamba.
+[por] Da mesma forma, crie os ossos para a segunda perna.
+[spa] De la misma manera creamos los huesos de la otra pierna.
+[zho] 用同样的方法创建第二条腿的骨头。
+
+60
+00:05:27,200 --> 00:05:29,360
+[deu] Das Skelett ist fertig.
+[eng] The skeleton is ready.
+[fra] Le squelette est prêt.
+[ita] Lo scheletro è pronto.
+[por] O esqueleto está pronto
+[spa] Ahora el esqueleto está listo.
+[zho] 骨架准备好了。
+
+61
+00:05:29,620 --> 00:05:34,260
+[deu] Auch wenn es bisher noch keinen Einfluss auf die Teile der Figur hat und sich unabhängig davon bewegt.
+[eng] Although just now it doesn't affect any character part and moves on its own.
+[fra] Toutefois pour le moment il n'affecte aucune partie du personnage et lui-même bouge séparément.
+[ita] Anche se per adesso non influenza alcuna parte del personaggio e la muove per conto suo.
+[por] Apesar de agora ele não afetar nenhuma parte do personagem e se mover por conta própria.
+[spa] Aunque en este momento no afecta a ninguna pieza del personaje y se mueve por sí mismo.
+[zho] 不过现在它还不会影响角色的任何部分，只能自己移动。
+
+62
+00:05:34,620 --> 00:05:38,760
+[deu] Was wir nun tun müssen, ist, alle Teile mit dem Skelett zu verknüpfen.
+[eng] What we need now is to link all the parts to the skeleton.
+[fra] Maintenant nous devons connecter les parties au squelette.
+[ita] Quello che ci serve adesso è collegare tutte le parti del personaggio.
+[por] O que nós precisamos agora é ligar todas as partes ao esqueleto.
+[spa] Lo que necesitamos ahora es conectar todas las piezas al esqueleto.
+[zho] 我们现在要做的是链接全部部件到骨架。
+
+63
+00:05:38,960 --> 00:05:43,300
+[deu] Um den Kopf zu verbinden, wählen Sie sowohl die Körper-Ebene als auch das Skelett.
+[eng] To connect the body, select both the body layer and the skeleton.
+[fra] Pour connecter le corps, sélectionnez le calque du corps et celui du squelette.
+[ita] Per collegare le parti del corpo, seleziona i due livelli Corpo e Scheletro.
+[por] Para conectar o corpo, seleciona tanto a camada do corpo quanto o esqueleto.
+[spa] Para conectar el cuerpo, selecciona ambas capas, la del cuerpo y el esqueleto.
+[zho] 要了解躯干，选择躯体层和骨架。
+
+64
+00:05:43,530 --> 00:05:49,660
+[deu] Klickten Sie auf den Körper, Drücken Sie Strg und Klicken Sie auf das Skelett in der Ebenenliste.
+[eng] Click the body, press Ctrl and click the skeleton in the layers list.
+[fra] Cliquez sur le corps, pressez Ctrl et cliquez sur le squelette dans la liste des calques.
+[ita] Click su Corpo, premi Ctrl e click su Scheletro nella Lista Livelli.
+[por] Clique no corpo, pressione Ctrl e depois clique no esqueleto na lista de camadas.
+[spa] Haz click sobre el cuerpo, presiona la tecla "Ctrl" y haz click sobre "skeleton" en la lista de capas.
+[zho] 点击躯体，按下Ctrl点击层列表里的骨架。
+
+65
+00:05:49,920 --> 00:05:53,400
+[deu] Linksklicken Sie als nächstes auf den grünen Punkt auf der Körper-Ebene.
+[eng] Next left-click the green point of body layer.
+[fra] Ensuite cliquez-gauche sur le point vert du calque du corps.
+[ita] Ora fai click col tasto sinistro sul punto verde del livello Corpo.
+[por] Depois, clique no ponto verde da camada do corpo.
+[spa] Luego haz click izquierdo en el punto verde de la capa del cuerpo.
+[zho] 接着左键点击躯干层的绿色点。
+
+66
+00:05:53,740 --> 00:05:57,160
+[deu] Auf diesem Weg machen wir deutlich, was genau verbunden werden soll.
+[eng] That way we indicate what exactly should be connected.
+[fra] De cette façon nous indiquons ce qui doit être connecté.
+[ita] In tal modo indichiamo cosa esattamente andrebbe collegato.
+[por] Dessa forma nós indicamos o que exatamente deve ser conectado.
+[spa] De esta forma indicamos exactamente lo que queremos conectar.
+[zho] 这样我们明确指示所要链接的部分。
+
+67
+00:05:57,380 --> 00:06:03,330
+[deu] Führen Sie dann einen Rechtsklick auf einen der Griffe des Knochens aus und wählen Sie „Mit Knochen verbinden“.
+[eng] Then right-click at any handle of bone and choose "Link to Bone".
+[fra] Puis cliquez-droit sur n'importe quelle poignée de l'armature et choisissez  "Link to Bone".
+[ita] Poi click tasto destro su qualsiasi maniglia dell'osso e scegli "Collega a Osso".
+[por] Então clique com o botão direito em qualquer ponto do osso e escolha "Vincular ao Osso"
+[spa] Ahora hacemos click derecho en cualquier tirador del hueso, y seleccionamos "Link to Bone".
+[zho] 然后右键点击骨骼的任一控制句柄并选择“链接到骨骼”。
+
+68
+00:06:04,300 --> 00:06:08,660
+[deu] Fertig! Der Körper ist nun mit Verbindungen ausgestattet.
+[eng] Done! The body is linked now.
+[fra] C'est fait ! Le corps est lié maintenant.
+[ita] Fatto ! Adesso il corpo è collegato.
+[por] Pronto! O corpo está vinculado agora.
+[spa] ¡Hecho! El cuerpo está conectado.
+[zho] 完成！躯干链接好了。
+
+69
+00:06:12,200 --> 00:06:16,260
+[deu] Lassen Sie uns all die übrigen Teile auf dieselbe Weise verbinden.
+[eng] Let's connect all the remaining parts in the same way.
+[fra] Connectez toutes les parties restantes de la même façon.
+[ita] Colleghiamo tutte le parti rimanenti allo stesso modo.
+[por] Vamos conectar o resto dos membros da mesma forma.
+[spa] Conectemos todas las piezas restantes de igual manera.
+[zho] 用同样的方法把其余的部分也联接起来。
+
+70
+00:06:20,380 --> 00:06:24,930
+[deu] Falls Sie einen der Teile mit dem falschen Knochen verbunden haben, verbinden Sie ihn einfach mit einem anderen.
+[eng] If you have linked some part to a wrong bone, just link it to another one.
+[fra] Si vous avez liée une partie avec une mauvaise armature, liez-la simplement à une autre.
+[ita] Se hai collegato qualche parte ad un osso sbagliato, basta collegarla ad un altro.
+[por] Se você vinculou alguma parte em um osso errado, só vincular novamente em outro.
+[spa] Si conectaste alguna pieza a un hueso equivocado, sólo conéctala a otro.
+[zho] 如果链接了错的骨骼上，只要再链接到另外一个上。
+
+71
+00:06:25,260 --> 00:06:28,860
+[deu] Die Verknüpfung wird automatisch hergestellt.
+[eng] It will reconnect automatically.
+[fra] Elle se reconnectera automatiquement.
+[ita] Si ricollegherà automaticamente.
+[por] Ele vai reconectar automaticamente.
+[spa] Se reconectará automáticamente.
+[zho] 就会自动重新联接。
+
+72
+00:06:31,400 --> 00:06:35,560
+[deu] Die Figur ist fertig. Bewegen wir sie.
+[eng] The character is ready. Let's try to move him.
+[fra] Le personnage est prêt. Essayons de le déplacer.
+[ita] Il personaggio è pronto. Proviamo a muoverlo.
+[por] Nosso personagem está pronto. Vamos tentar mover ele.
+[spa] El personnaje está listo. Intentemos moverlo.
+[zho] 角色准备就绪。试着动动他。
+
+73
+00:06:39,280 --> 00:06:44,160
+[deu] Wie Sie sehen, streckt der Knochen automatisch das Bild, wenn ich an einem Ende des Knochens ziehe.
+[eng] Note, that when I'm dragging the tip of a bone, the bone is automatically stretching the image.
+[fra] Notez que quand je tire le bout d'une armature, l'armature étire automatiquement l'image.
+[ita] Nota che quando trascino un pezzo di un osso, l'osso fa contrarre automaticamente l'immagine.
+[por] Note que, quando eu estou arrastando a ponta do osso, o osso automaticamente estica a imagem.
+[spa] Fíjate que al arrastrar el extremo de un hueso, la imagen se estira automáticamente.
+[zho] 注意，当我拖拉骨骼的一端，骨骼会自动拉伸图像。
+
+74
+00:06:44,540 --> 00:06:48,130
+[deu] Das hilft in den meisten Fällen sehr.
+[eng] That's helps a lot in most cases.
+[fra] Ceci aide dans la majeure partie des cas.
+[ita] Questo è di grande aiuto nella maggior parte dei casi.
+[por] Isso ajuda bastante na maioria dos casos.
+[spa] Es una gran ayuda en la mayoría de los casos.
+[zho] 这在多数情况下都是有用的。
+
+75
+00:06:49,000 --> 00:06:51,900
+[deu] Doch manchmal ist dieser Effekt nicht erwünscht.
+[eng] But sometimes this effect is not desirable.
+[fra] Mais parfois cet effet n'est pas désirable.
+[ita] Però a volte questo effetto non è desiderabile.
+[por] Mas as vezes esse efeito não é desejado.
+[spa] Pero a veces no es el efecto que deseamos.
+[zho] 但是有时这个效果不是我们想要的。
+
+76
+00:06:52,040 --> 00:06:57,260
+[deu] Zum Beispiel der Kopf: Wir wollen ihn beugen, aber wir wollen nicht, dass er gestreckt wird.
+[eng] The head is an example: we might want to bend it, but not to stretch.
+[fra] La tête en est un exemple: vous pourriez vouloir la pencher, mais ne pas l'étirer.
+[ita] La testa è un esempio: potremmo volerla piegare o ruotare, ma non stirare.
+[por] A cabeça é um exemplo: nós podemos querer virar ela, mas não esticar.
+[spa] La cabeza es un buen ejemplo, pues generalmente queremos doblarla sin estirarla.
+[zho] 头部就是一个明显的例子：我们可能要bend it，但不要拉伸它。
+
+77
+00:06:58,180 --> 00:07:02,300
+[deu] Kein Problem, für diesen speziellen Fall hat jeder Knochen diesen blauen Punkt hier.
+[eng] No problem, for this very specific case each bone has a blue point, here.
+[fra] Pas de problème, pour ce cas précis, chaque armature dispose ici d'un point bleu.
+[ita] Non è un problema, per questo specifico caso ogni osso ha un punto blu, qui.
+[por] Sem problema. Para este caso bem específico cada osso tem um ponto azul, aqui.
+[spa] No hay problema, pues para este caso cada hueso tiene un punto azul, aquí.
+[zho] 没问题，这种情形每一个骨骼都有一个蓝色点，这个位置。
+
+78
+00:07:02,760 --> 00:07:08,030
+[deu] Damit lässt sich der Winkel eines Knochens verändern, ohne dessen Länge zu beeinflussen. So hier.
+[eng] It allows to change a bone angle without affecting its length. Like this.
+[fra] Il permet de changer l'angle d'une armature sans en affecter sa longueur. Comme ceci.
+[ita] Consente di cambiare un angolo di osso senza modificare la sua lunghezza. Così.
+[por] Ele permite mudar o ângulo de um osso sem after o seu comprimento. Assim.
+[spa] Con él podemos cambiar el ángulo del hueso sin afectar su longitud, así.
+[zho] 它能改变一个骨骼的角度而不影响它的长度。像这样。
+
+79
+00:07:09,800 --> 00:07:14,960
+[deu] Wenn eine Ebene mit einem Knochen verknüpft ist, bedeutet das nicht, dass diese ausschließlich mithilfe des Knochens gesteuert wird.
+[eng] If layer is linked to a bone, that doesn't mean it should be controlled using the bone only.
+[fra] Si un calque est lié à une armature, cela ne signifie pas qu'il devrait être contrôlé par cette armature uniquement.
+[ita] Se il livello è collegato ad un osso, questo non significa che andrebbe controllato usando soltanto l'osso.
+[por] Se a camada está ligada a um osso, isso não significa que ela deve ser controlada apenas pelo osso.
+[spa] Si una capa está vinculada a un hueso, no significa que sólo podamos controlarla utilizando ese hueso.
+[zho] 即使层链接到了一个骨骼，也不是说它就只能通过骨骼来控制。
+
+80
+00:07:15,400 --> 00:07:18,560
+[deu] Es funktioniert anders. Wir können sie immer noch unabhängig davon bewegen.
+[eng] Nothing of the kind. We can still move it by itself.
+[fra] Rien de tout cela. Nous pouvons toujours le faire bouger lui-même.
+[ita] Niente del genere. Possiamo ancora muoverla per conto suo.
+[por] Nada disso. Nós ainda podemos mover ela por si só.
+[spa] Nada de eso, aún podemos moverla por sí misma.
+[zho] 用不着担心。我们还是可以通过它自身来移动的。
+
+81
+00:07:18,800 --> 00:07:23,600
+[deu] Der einzige Unterschied besteht darin, dass sie sich nur relativ zu dem Knochen bewegt, mit dem sie verknüpft ist.
+[eng] The only difference, that now it moves relatively to the bone it has been linked to.
+[fra] La seule différence est qu'il bougera relativement à l'armature à laquelle il a été lié.
+[ita] L'unica differenza è che ora si muove relativamente all'osso cui è stato collegato.
+[por] A unica diferença é que agora ela se move relativamente ao osso o qual ela foi vinculada.
+[spa] La única diferencia es que ahora se mueve en relación con el hueso al que está vinculada,
+[zho] 唯一不同的是，现在是相对于链接的骨骼移动。
+
+82
+00:07:23,860 --> 00:07:28,630
+[deu] Die Änderung des Knochens und der Ebene werden miteinander verbunden.
+[eng] So transformations of the bone and layer are composed together.
+[fra] Donc les transformations de l'armature et du calque sont composées ensembles
+[ita] Quindi le trasformazioni dell'osso e del livello sono composte insieme.
+[por] Daí as transformações do osso e a da camada são compostas juntas.
+[spa] así que las transformaciones al hueso y a la capa se componen juntas.
+[zho] 骨骼和层的变换合到一起了。
+
+83
+00:07:35,560 --> 00:07:38,000
+[deu] Zum Schluss ein weiterer wichtiger Hinweis.
+[eng] Finally, one more important remark.
+[fra] Finalement, une autre remarque importante.
+[ita] Infine, un'altra osservazione importante.
+[por] Por fim, mais uma observação importante.
+[spa] Finalmente, hay una observación adicional importante:
+[zho] 最后，还有一个重要的提示。
+
+84
+00:07:38,300 --> 00:07:43,400
+[deu] Alle Teile unserer Figur befinden sich in der Gruppe, die wir am Anfang verkleinert haben.
+[eng] All parts of our character are located inside the group we've scaled-down in the beginning.
+[fra] Toutes les parties de notre personnage sont situées dans le groupe dont nous avons réduit l'échelle au début.
+[ita] Tutte le parti del nostro personaggio sono situate all'interno del gruppo che abbiamo ridimensionato all'inizio.
+[por] Todas as partes do nosso personagem estão localziadas dentro do grupo que nós redimensionamos no começo.
+[spa] Todas las piezas del personaje están en el grupo que redimensionamos al comienzo,
+[zho] 角色的所有部分都放在这个我们一开始就做过缩小的组里。
+
+85
+00:07:43,560 --> 00:07:46,930
+[deu] Und die Skelett-Ebene wurde in dieser Gruppe platziert.
+[eng] And the skeleton layer was placed inside of this group.
+[fra] Et le calque Squelette a été placé à l'intérieur de ce groupe.
+[ita] E il livello Scheletro è stato posto all'interno di questo gruppo.
+[por] E a camada de esqueleto foi colocada dentro desse grupo.
+[spa] Y la capa del esqueleto se colocó al interior de ese grupo.
+[zho] 骨架层也是放在这个组里面。
+
+86
+00:07:47,180 --> 00:07:53,740
+[deu] Das ist wichtig, denn ein Skelett und die Teile, die wir damit verknüpfen, müssen sich dasselbe Koordinatensystem teilen.
+[eng] It is crucial since both a skeleton and the parts we are linking to it must share the same coordinate system.
+[fra] Ceci est crucial car le squelette et les parties que nous sommes en train de lier doivent partager le même système de coordonnées.
+[ita] E' essenziale perché sia lo scheletro che le parti che stiamo collegando ad esso devono avere in comune lo stesso sistema di coordinate.
+[por] Isso é crucial já que tanto o esqueleto quanto as partes que estamos vinculando a ele compartilham do mesmo sistema de coordenadas.
+[spa] Es crucial hacerlo así, pues tanto el esqueleto como sus partes asociadas deben compartir el mismo sistema de coordenadas.
+[zho] 这点非常关键，因为骨架和与之链接的角色各个部分共用同一坐标系。
+
+87
+00:07:54,200 --> 00:07:56,740
+[deu] Wenn wir ein Skelett außerhalb der Gruppe erstellen...
+[eng] If we create a skeleton outside the group...
+[fra] Si nous créons un squelette en dehors du groupe...
+[ita] Se creassimo uno scheletro esterno al gruppo ...
+[por] Se nós criamos um esqueleto fora do grupo...
+[spa] Si creamos un esqueleto fuera del grupo...
+[zho] 如果与其外创建骨架...
+
+88
+00:07:56,740 --> 00:08:01,200
+[deu] …werden diese Knochen andere Koordinaten in Bezug auf die Objekte haben.
+[eng] ...the bones will have different coordinates comparing to the objects.
+[fra] ...les armatures auront un système de coordonnées différent de celui des objets.
+[ita] ... le ossa avranno coordinate differenti rispetto agli oggetti.
+[por] ...os ossos terão coordenadas diferentes em relação aos objetos.
+[spa] ...los huesos tendrán coordenadas diferentes a las de los objetos asociados.
+[zho] ...各骨骼会有和物体不一致的坐标。
+
+89
+00:08:01,430 --> 00:08:03,960
+[deu] Das wird Ihnen beim Verknüpfen vielleicht nicht auffallen...
+[eng] You might not notice this while linking...
+[fra] Vous pourriez ne pas le remarquer durant la liaison...
+[ita] Potresti non accorgerti di questo mentre fai i collegamenti ...
+[por] Você pode não perceber isso quando estiver vinculando...
+[spa] Podrías no notarlo al hacer las conexiones...
+[zho] 在链接期间你可能会对此视而不见...
+
+90
+00:08:04,130 --> 00:08:08,160
+[deu] …doch wenn Sie versuchen, die Position eines Knochens zu verändern, kann das zu Problemen führen.
+[eng] ...but when you try to change a bone position, nasty things are sure to happen.
+[fra] ...mais quand vous essaierez de changer la position d'une armature des choses embêtantes arriveront sûrement.
+[ita] ... ma quando provi a cambiare la posizione di un osso, certamente succederanno cose indesiderate.
+[por] ...mas se você tentar mudar a posição do osso, coisas sinistras são certas de acontecer.
+[spa] ...pero cuando quieras cambiar la posición del hueso, seguramente tendrás efectos indeseables.
+[zho] ...但当你试图改变骨骼的位置，糟糕的事情就将出现无疑。
+
+91
+00:08:08,430 --> 00:08:13,000
+[deu] Svhließen wir diese Datei und ich zeige Ihnen ein Beispiel dazu.
+[eng] Let's save and close this file and I will show you an example about this.
+[fra] Enregistrons et fermons ce fichier et je vais vous montrer un exemple de ceci.
+[ita] Salviamo e chiudiamo questo file e ti farò vedere un esempio a questo proposito.
+[por] Vamos salvar e fechar este projeto. Mostrarei um exemplo disso.
+[spa] Guardemos y cerremos este archivo, y te lo mostraré con un ejemplo.
+[zho] 我们保持并关闭这个文件，让我来向你示范一下这种情形。
+
+92
+00:08:14,480 --> 00:08:20,130
+[deu] Setzen wir die Teile unserer Figur zusammen – nur Körper, Kopf und ein Arm.
+[eng] Let's assemble a part of our character - just a body, head, and arm.
+[fra] Assemblons une partie de notre personnage - juste un corps, une tête et un bras.
+[ita] Assembliamo una parte del nostro personaggio - solo il corpo, la testa e il braccio.
+[por] Vamos montar algumas partes do nosso personagem - só o corpo, a cabeça e os braços.
+[spa] Ensamblemos sólo una parte del personaje -el cuerpo, la cabeza, y un brazo.
+[zho] 我们装配角色的一部分 - 躯干，头和手臂。
+
+93
+00:08:29,780 --> 00:08:33,330
+[deu] Stellen Sie sich vor, wir hätten uns entschieden, den Arm so hier zusammenzusetzen:
+[eng] Suppose, we decided to assemble the arm like this: ...
+[fra] Supposons que nous décidions d'assembler le bras comme ceci: ...
+[ita] Immaginiamo di aver deciso di assemblare il braccio così: ...
+[por] Suponhamos que decidimos montar o braço dessa forma: ...
+[spa] Supongamos que decidimos ensamblar el brazo así:
+[zho] 假设，我们决定这样装配手臂：...
+
+94
+00:08:33,520 --> 00:08:36,000
+[deu] an dieser Stelle hier...
+[eng] placed it here...
+[fra] placez-le ici...
+[ita] lo abbiano messo qui ...
+[por] Colocando aqui...
+[spa] lo colocamos aquí...
+[zho] 放在这里...
+
+95
+00:08:37,500 --> 00:08:39,830
+[deu] ihn dann gruppiert…
+[eng] then grouped...
+[fra] puis groupé...
+[ita] poi raggruppato ...
+[por] E agrupando...
+[spa] luego lo agrupamos...
+[zho] 再成组...
+
+96
+00:08:40,500 --> 00:08:43,560
+[deu] …verschoben und auch gedreht.
+[eng] ...moved, and also turned.
+[fra] ...déplacé et également tourné.
+[ita] ... spostato e anche ruotato.
+[por] ...movendo, e girando.
+[spa] ...lo movemos, y lo giramos también.
+[zho] ...移动， and also turned.
+
+97
+00:08:44,640 --> 00:08:48,700
+[deu] Wie Sie sicher verstehen, würden sich alle Teile des Arms im selben Koordinatensystem befinden...
+[eng] As you understand, all the arm parts would be in the other coordinate system...
+[fra] Comme vous le comprenez, toutes les parties du bras seraient dans un système de coordonnées différent...
+[ita] Come puoi comprendere, tutte le parti del braccio sarebbero nell'altro sistema di coordinate ...
+[por] Como você entendeu, todas as todas as partes do braço estariam em outro sistema de coordenadas...
+[spa] Como comprenderás, todas la partes del brazo tendrán otro sistema de coordenadas,
+[zho] 如你所了解的，手臂的所有部分都会在另外一个坐标系里...
+
+98
+00:08:48,900 --> 00:08:52,060
+[deu] …denn wir haben Ihre übergeordnete Gruppe verändert.
+[eng] ... because we have transformed their parent group.
+[fra] ...car nous avons transformé leur groupe parent.
+[ita] ... perché abbiamo trasformato il loro gruppo genitore.
+[por] ... porque nós transformamos o grupo pai.
+[spa] porque hemos trasformado a su grupo padre.
+[zho] ...因为我们已经变换了它的父辈组。
+
+99
+00:08:53,420 --> 00:08:57,900
+[deu] Wollen wir versuchen, alles zu einem Skelett zusammenzusetzen.
+[eng] Let's try to attach everything to a skeleton.
+[fra] Essayons de tout attacher à un squelette.
+[ita] Proviamo ad attaccare tutto a uno scheletro.
+[por] Vamos tentar acoplar tudo num esqueleto.
+[spa] Ahora probemos a conectarlo todo a un esqueleto.
+[zho] 让我们把所有都黏附到一个骨架上。
+
+100
+00:09:05,800 --> 00:09:12,700
+[deu] Körper… Kopf… und Arm
+[eng] The body... head... and arm...
+[fra] Le corps... la tête... et le bras...
+[ita] Il corpo ... la testa ... e il braccio ...
+[por] O corpo... a cabeça... e braço...
+[spa] El cuerpo... la cabeza y el brazo...
+[zho] 躯干... 头部... 还有手臂...
+
+101
+00:09:16,230 --> 00:09:18,330
+[deu] …alle verbunden.
+[eng] ...all connected.
+[fra] ...tous connectés.
+[ita] ...tutto collegato.
+[por] ... todos conectados.
+[spa] ...todos conectados.
+[zho] ...全部都联结好了。
+
+102
+00:09:18,640 --> 00:09:21,100
+[deu] Wollen wir nun versuchen, die Körperhaltung zu verändern.
+[eng] Now let's try to change the pose.
+[fra] Maintenant essayons de changer la pose.
+[ita] Adesso proviamo a cambiare la posa.
+[por] Agora vamos tentar mudar a pose.
+[spa] Ahora tratemos de cambiar la postura.
+[zho] 现在试试改变姿势。
+
+103
+00:09:21,460 --> 00:09:26,900
+[deu] Wie Sie sehen können, klappt das mit Kopf und Körper gut, doch die Arme spielen verrückt.
+[eng] As you can see, the head and body are fine, but the arms just go wild.
+[fra] Comme vous pouvez le voir, la tête et le corps sont corrects mais les bras deviennent fous.
+[ita] Come vedi, la testa e il corpo vanno bene, ma le braccia vanno proprio "fuori controllo".
+[por] Como vocẽ pode e ver, a cabeça e o corpo estão normais, mas os braços dão a louca.
+[spa] Como puedes ver, la cabeza y el cuerpo están bien, pero los brazos enloquecieron.
+[zho] 如你所见，头部和躯干很好，但是手臂乱套了。
+
+104
+00:09:27,880 --> 00:09:31,630
+[deu] Das liegt an der veränderten Gruppe.
+[eng] That's all because of transformed group.
+[fra] Tout est à cause du groupe transformé.
+[ita] Tutto questo a causa del gruppo trasformato.
+[por] Tudo por causa do grupo transformado.
+[spa] Esto sucede a causa del grupo transformado.
+[zho] 这全都归咎于变换的组。
+
+105
+00:09:32,100 --> 00:09:37,300
+[deu] Hätten wir die Gruppe nicht verändert, wäre alles gut. Es hätte keine Probleme verursacht.
+[eng] If the group hasn't been transformed, then everything would be fine. It wouldn't  cause any troubles.
+[fra] Si le groupe n'avait pas été transformé, alors tout irait bien. Cela ne poserait pas de problème.
+[ita] Se il gruppo non è stato trasformato, allora tutto andrebbe bene. Non dovrebbe creare inconvenienti.
+[por] Se o grupo não tivesse sido transformado, então tudo estaria tranquilo. Não causaria nenhum problema.
+[spa] Si no se hubiera transformado el grupo, todo estaría bien y no habría ningún problema.
+[zho] 如果组没有被变换，那么一切安然。不会造成任何状况。
+
+106
+00:09:37,530 --> 00:09:40,960
+[deu] Um das Problem zu beheben, können wir Teile aus der Gruppe entfernen…
+[eng] To fix the issue we can get parts out of the group...
+[fra] Pour résoudre ce problème nous pouvons sortir les parties en dehors du groupe...
+[ita] Per risolvere la questione possiamo prendere parti fuori dal gruppo ...
+[por] Para consertar o problema nós podemos tirar as partes desse grupo...
+[spa] Para corregir el problema debemos sacar las partes del grupo...
+[zho] 要修复这个问题我们可以把这部分移出这个组...
+
+107
+00:09:41,260 --> 00:09:45,060
+[deu] …und sie neu mit dem Skelett verbinden.
+[eng] ...and re-align them to skeleton.
+[fra] ...et les réaligner avec le squelette.
+[ita] ... e riallinearli allo scheletro.
+[por] ...e realinhar elas com o esqueleto.
+[spa] ...y alinearlas de nuevo con el esqueleto.
+[zho] ...并重新对其到骨架上。
+
+108
+00:09:54,380 --> 00:09:57,030
+[deu] Doch wir gehen einen anderen Weg.
+[eng] But now we'll go another way.
+[fra] Mais maintenant nous allons le faire d'une autre façon.
+[ita] Ora però seguiremo un'altra strada.
+[por] Mas gora nós vamos fazer de outra forma.
+[spa] Pero ahora lo haremos de otra manera.
+[zho] 不过我们要用另外一个方法。
+
+109
+00:09:58,840 --> 00:10:03,930
+[deu] Nehmen wir an, dass unsere Figur Ihre Handgelenke und Ellenbogen nicht beugen können müsste.
+[eng] Let's suppose we don't need our character to bend his wrist and elbow joints.
+[fra] Supposons que nous n'avons pas besoin que notre personnage torde ses jointures de poignet et coude.
+[ita] Immaginiamo che non ci serva che il nostro personaggio pieghi le articolazioni del polso e del gomito.
+[por] Supondo que nós não precisamos que nosso personagem dobre as juntas do pulso ou ombro.
+[spa] Supongamos que no es necesario que el personaje doble la muñeca ni el codo.
+[zho] 我们假设我们不需要角色弯曲手腕和肘关节。
+
+110
+00:10:04,140 --> 00:10:09,460
+[deu] Das heißt, ein Knochen für den gesamten Arm wäre genug, sodass wir die gesamte Gruppe damit verknüpfen könnten.
+[eng] So one bone for the whole arm would be enough and we can connect the whole group to it.
+[fra] Alors une seule armature pour le bras entier serait suffisante et nous pourrions y connecter le groupe entier.
+[ita] Quindi un osso per tutto il braccio potrebbe bastare e possiamo collegare ad esso l'intero gruppo.
+[por] Então um osso para o braço inteiro seria suficiente e nós podemos conectar o grupo inteiro a ele.
+[spa] Así que bastaría un solo hueso para todo el brazo y podríamos conectarle todo el grupo.
+[zho] 一根骨骼对应这条手臂就够了，我们可以把整个组联接给它。
+
+111
+00:10:09,580 --> 00:10:11,500
+[deu] Ja, das haben Sie richtig verstanden
+[eng] Yes, you've got it right -
+[fra] Oui, vous avez vu juste -
+[ita] Sì, hai fatto bene.
+[por] Sim, você pegou o jeito -
+[spa] ¡En efecto, lo adivinaste!
+[zho] 对，你完成了 -
+
+112
+00:10:12,000 --> 00:10:16,400
+[deu] …die Gruppen lassen sich genau wie Bild-Ebenen auf demselben Weg ebenfalls zu einem Skelett verbinden.
+[eng] ... the groups also could be connected to a skeleton in the same way as image layers.
+[fra] ... les groupes aussi peuvent être connectés à un squelette de la même façon que les calques Images.
+[ita] ... anche i gruppi potrebbero essere collegati a uno scheletro allo stesso modo visto per i livelli immagine.
+[por] ... os gurpos também podem ser conectados a um esqueleto da mesma forma que as camadas de imagem.
+[spa] Los grupos también pueden conectarse a un esqueleto, igual que las capas de imagen.
+[zho] ... 和图像层的方法一样，组也可以联接到骨架。
+
+113
+00:10:16,600 --> 00:10:20,740
+[deu] Doch Sie haben sicher schon herausgefunden, dass eine Bild-Ebene in Wirklichkeit auch nur eine Gruppe ist…
+[eng] But I guess you already figured out that an image layer actually is also a group...
+[fra] Mais je suppose que vous aviez déja deviné qu'un calque Image est aussi un groupe en réalité...
+[ita] Scommetto però che già ti immagini che un livello immagine in realtà sia anche un gruppo ...
+[por] Mas eu acho que você já se deu conta de que uma camada de imagem na verdade também é um grupo...
+[spa] Aunque supongo que ya te diste cuenta que una capa de imagen en realidad es también un grupo.
+[zho] 不过，我猜你已经知道每个图像层实质上就是一个组...
+
+114
+00:10:21,140 --> 00:10:24,600
+[deu] …oder, genauer gesagt, eine Schalter-Gruppe.
+[eng] ...or, to be more precise, a Switch Group.
+[fra] ...ou, pour être plus précis, un  groupe Switch.
+[ita] ... o per essere più precisi, un Gruppo Switch.
+[por] ...ou, para ser mais preciso, um grupo de comutação.
+[spa] O, para ser precisos, un grupo de intercambio o "switch group".
+[zho] ...或者，更准确的说，是一个切换组(Switch)。
+
+115
+00:10:24,900 --> 00:10:28,930
+[deu] Und das echte Bild befindet sich darin.
+[eng] And the real image layer is located inside.
+[fra] Et le vrai calque d'image est situé dedans.
+[ita] E il vero livello immagine si trova all'interno.
+[por] E a verdadeira camada de imagem está localizada dentro dele.
+[spa] Y la verdadera capa de imagen se localiza en su interior.
+[zho] 真正的图像层处于其内部。
+
+116
+00:10:30,600 --> 00:10:32,330
+[deu] Aber ich schweife ab.
+[eng] But I digress.
+[fra] Mais je m'égare.
+[ita] Però sto divagando.
+[por] Bom, desviei um pouco do assunto.
+[spa] Pero estoy divagando.
+[zho] 我有点岔开话题了。
+
+117
+00:10:32,530 --> 00:10:36,660
+[deu] Zunächst müssen wir die Teile innerhalb dieser Gruppe vom Skelett lösen.
+[eng] First, we have to disconnect the parts inside of this group from the skeleton.
+[fra] D'abord, nous devons déconnecter du squelette les parties à l'intérieur de ce groupe.
+[ita] Per prima cosa, dobbiamo scollegare le parti all'interno di questo gruppo dallo scheletro.
+[por] Primeiro, nós vamos desconectar do esqueleto as partes dentro desse grupo.
+[spa] Primero debemos desconectar del esqueleto las partes internas del grupo.
+[zho] 首先，我们要取消这个组里的全部和骨架的联接。
+
+118
+00:10:36,900 --> 00:10:39,360
+[deu] Wählen Sie die benötigten Teile...
+[eng] Select the part you need...
+[fra] Sélectionnez la partie dont vous avez besoin...
+[ita] Seleziona l'elemento che ti serve ...
+[por] Selecione a parte que você quer...
+[spa] Selecciona la parte que necesitas...
+[zho] 选择需要的部分...
+
+119
+00:10:39,560 --> 00:10:41,860
+[deu] …Suchen Sie den Ändern-Parameter
+[eng] ...find the Transformation parameter...
+[fra] ...trouvez le paramètre de Transformation...
+[ita] ...trova il parametro Trasformazione ...
+[por] ...encontre o parâmetro de transformação...
+[spa] ...ubica el parámetro "Transformación",
+[zho] ...找到变换（Transformation）参数...
+
+120
+00:10:42,160 --> 00:10:44,600
+[deu] …rechtsklicken Sie darauf und wählen Sie „Lösen“.
+[eng] ...right-click it and choose "Disconnect".
+[fra] ...cliquez-droit dessus et choisissez "Disconnect".
+[ita] ... click tasto destro del mouse e scegli "Disconnect".
+[por] ...clique com o botão direito nele e depois em "Desconectar".
+[spa] ...click derecho, y elige "Desconectar".
+[zho] ...右键点击，选择“不联接(Disconnect)"。
+
+121
+00:10:44,800 --> 00:10:48,280
+[deu] Genau, das ist derselbe Weg, wie wir ihn beim Löschen des Animations-Parameters verwendet haben.
+[eng] Yes, this is the same way as we deleted parameter animation.
+[fra] Oui, c'est de la même façon que quand nous avions effacé le paramètre d'animation.
+[ita] Sì, è lo stesso modo con cui abbiamo cancellato i parametri di animazione.
+[por] Sim, da mesma forma como deletamos a animação de parâmetros.
+[spa] Si, es la misma forma en que borramos los parametros de animación.
+[zho] 是的，这个和我们之前删除参数动画的方法是一样的。
+
+122
+00:10:48,530 --> 00:10:51,430
+[deu] Kein Grund zur Überraschung. ^__^
+[eng] Don't get surprised. ^__^
+[fra] Ne soyez pas surpris.  ^__^
+[ita] Non ti meravigliare. ^__^
+[por] Não fique surpreso. ^__^
+[spa] No te sorprendas. ^__^
+[zho] 不用觉得奇怪^__^
+
+123
+00:10:56,180 --> 00:10:59,530
+[deu] Lassen Sie uns nun die Gruppe verknüpfen.
+[eng] Now let's link the group.
+[fra] Maintenant lions le groupe.
+[ita] Adesso colleghiamo il gruppo.
+[por] Agora vamos vincular o grupo.
+[spa] Ahora conectemos el grupo.
+[zho] 现在我们链接组。
+
+124
+00:11:05,860 --> 00:11:07,760
+[deu] Fertig.
+[eng] Done.
+[fra] C'est fait.
+[ita] Fatto.
+[por] Pronto.
+[spa] Hecho.
+[zho] 完成。
+
+125
+00:11:09,640 --> 00:11:15,230
+[deu] Tja, das ist alles. In der nächsten Einheit werden wir versuchen, einen Walkcycle für unsere Figur zu erstellen, sie also auf der Stelle laufen lassen.
+[eng] Well, that's it. In the next lesson will try to create a walkcycle for our character.
+[fra] Bien, ça y est. Dans la leçon suivante nous essaierons de créer un cycle de marche pour notre personnage.
+[ita] Bene, è tutto. Nella prossima lezione cercheremo di creare un ciclo di passeggiata per il nostro personaggio.
+[por] Bom, é isso. Na próxima aula vamos criar um ciclo de caminhada para nosso personagem.
+[spa] Bien, eso es todo. En la próxima lección crearemos un ciclo de caminata /walk cycle/ para nuestro personaje.
+[zho] 好了，就到这里。下一节课，我们要创建角色的行走循环动画。
+

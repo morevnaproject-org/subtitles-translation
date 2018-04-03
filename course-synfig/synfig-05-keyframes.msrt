@@ -1,0 +1,960 @@
+1
+00:00:00,730 --> 00:00:02,830
+[deu] #5: Schlüsselbilder
+[eng] #5: Keyframes
+[fra] #5: Les Trames-Clés ou Keyframes
+[ita] #5: Keyframes
+[por] #5: Quadros-chave
+[spa] #5: Fotogramas Clave /Keyframes/
+[zho] #5: 关键帧
+
+2
+00:00:03,960 --> 00:00:08,400
+[deu] Unsere Figur ist bereit und wir werden nun mit unserer ersten einfachen Animation beginnen.
+[eng] Our character is ready and now we are going to create a simple animation.
+[fra] Notre personnage est prêt et nous allons créer une animation simple.
+[ita] Il nostro personaggio è pronto e ora creeremo una semplice animazione.
+[por] Nosso personagem está pronto e agora vamos criar uma animação simples.
+[spa] Nuestro personaje está listo y ahora crearemos una animación sencilla.
+[zho] 我们的角色准备好了，现在准备创建一段简单的动画。
+
+3
+00:00:08,880 --> 00:00:11,780
+[deu] Hier hebt sie ihren linken Arm und dann den rechten.
+[eng] Here, he is raising his left arm and then the right one.
+[fra] Ici, il lève son bras gauche puis le droit.
+[ita] Qui, sta alzando il suo braccio sinistro e poi quello destro.
+[por] Aqui, ele está levantando o braço esquerdo e depois o direito.
+[spa] Aquí lo tenemos, levantando su brazo izquierdo y luego el derecho.
+[zho] 这里，它举起左臂，接着是右臂。
+
+4
+00:00:12,600 --> 00:00:15,600
+[deu] Sieht das einfach aus? Versuchen wir es.
+[eng] Looks simple? Let's take a try.
+[fra] Ca paraît simple ? Essayons.
+[ita] Sembra facile? Proviamoci.
+[por] Parece simples? Vamos tentar.
+[spa] ¿Parece sencillo? Vamos a intentarlo.
+[zho] 看着很简单？我们试一试。
+
+5
+00:00:15,880 --> 00:00:19,080
+[deu] Angenommen, unsere Figur hebt ihren rechten Arm innerhalb von 10 Bildern…
+[eng] Suppose, our character lifts his right arm in 10 frames...
+[fra] Supposons que notre personnage lève son bras droit en 10 trames...
+[ita] Immagina che il nostro personaggio alzi il braccio destro per 10 fotogrammi...
+[por] Suponha que nosso personagem levanta o braço direito dele em 10 quadros...
+[spa] Supongamos que nuestro personaje levanta el brazo derecho en 10 cuadros /frames/...
+[zho] 按设定，我们的角色在第10帧举起左臂...
+
+6
+00:00:19,440 --> 00:00:23,060
+[deu] …und dann den linken Arm in weiteren 10 Bildern.
+[eng] ...and then the left arm in other 10 frames.
+[fra] ...puis le bras gauche durant 10 autres trames.
+[ita] ...e poi il braccio sinistro nei successivi 10 fotogrammi.
+[por] ...e então o braço esquerdo em outros 10 quadros.
+[spa] ...y luego el izquierdo en otros 10 cuadros.
+[zho] ...再过10帧举起右臂。
+
+7
+00:00:23,580 --> 00:00:27,360
+[deu] Es wäre bequemer, den Maßstab der Zeitleiste zu verändern.
+[eng] It would be more convenient to change the scale of Timetrack.
+[fra] Il serait plus pratique de changer l'échelle du Timetrack.
+[ita] Sarebbe molto piu' conveniente ridimensionare il Timetrack.
+[por] Seria mais conveniente mudar a escala da Trilha de Tempo.
+[spa] Podría ser más conveniente cambiar la escala del Timetrack.
+[zho] 拉伸放大时间轴(Timetrack)会舒服点。
+
+8
+00:00:27,820 --> 00:00:32,930
+[deu] Bewegen Sie den Mauszeiger über das graue Lineal und bewegen Sie das Mausrad. So zum Beispiel.
+[eng] Move the mouse cursor over the gray rule and scroll the wheel.  Like this.
+[fra] Déplacez le curseur de la souris au-dessus de la règle grise et scrollez la molette. Comme ceci.
+[ita] Muovi il mouse sopra il righello grigio e ruota la rotellina del mouse. cosi.
+[por] Mova o cursor do mouse para cima da régua cinza e gire a rodinha do mouse. Assim.
+[spa] Lleva el cursor encima de la regla gris y gira la rueda del ratón, así.
+[zho] 移动鼠标光标到灰色尺上面滚动鼠标滚轮。类似这样。
+
+9
+00:00:33,400 --> 00:00:36,960
+[deu] Wollen wir nun in den Animations-Modus wechseln.
+[eng] Now, let's switch to the Animation Mode.
+[fra] Maintenant, passons en Mode Animation.
+[ita] Ora, passiamo alla modalità animazione.
+[por] Agora, vamos mudar para o Modo de Animação.
+[spa] Ahora, vamos a cambiar al Modo Animación.
+[zho] 现在我们切换到动画模式去。
+
+10
+00:00:37,540 --> 00:00:44,200
+[deu] Setzen Sie die Zeitmarkierung auf den Zeitpunkt, an dem die Figur ihren Arm gehoben hat – Bild 10.
+[eng] Next, set the time cursor to the moment when the character should have his left arm raised - frame 10.
+[fra] Puis positionnons le curseur de temps au moment où le personnage devrait avoir son bras levé - trame 10.
+[ita] Poi, selezioniamo il cursore del tempo all'istante il cui il personaggio dovrebbe avere il braccio sinistro alzato - fotogramma 10.
+[por] Depois, define o indicador de tempo para o momento em que o personagem terá seu braço esquerdo levantado - quadro 10.
+[spa] Ajusta el cursor del tiempo al momento en que el personaje debería tener el brazo izquierdo levantado: 10 cuadros.
+[zho] 接着，设定时间光标到角色要举起左手的地方 - 第10帧。
+
+11
+00:00:44,580 --> 00:00:47,660
+[deu] Und drehen Sie ihren Arm.
+[eng] And rotate the arm.
+[fra] Et faisons la rotation du bras.
+[ita] E ruotiamo il braccio.
+[por] E rotacione o braço.
+[spa] Y rota el brazo.
+[zho] 旋转手臂。
+
+12
+00:00:49,500 --> 00:00:52,200
+[deu] Danach sollte der zweite Arm mit seiner Bewegung beginnen.
+[eng] After that the second arm should start moving.
+[fra] Après cela le second bras devrait commencer à bouger.
+[ita] Dopo di questo, anche l'altro braccio dovrebbe iniziare a muoversi.
+[por] Depois disso o segundo braço deve começar a se mover.
+[spa] Después de eso, el segundo brazo debería empezar a moverse.
+[zho] 之后第二条手臂开始动。
+
+13
+00:00:52,440 --> 00:00:55,630
+[deu] Bewegen Sie die Zeitmarkierung um 10 Bilder voran.
+[eng] Move the time cursor by 10 more frames.
+[fra] Déplacez le curseur de temps de 10 trames de plus.
+[ita] Sposta il cursore del tempo di 10 fotogrammi.
+[por] Mova o indicador de tempo mais 10 quadros.
+[spa] Mueve el cursor del tiempo otros 10 cuadros más.
+[zho] 移动时间光标10帧。
+
+14
+00:00:55,680 --> 00:00:58,960
+[deu] Und drehen Sie nun ihren rechten Arm.
+[eng] And now rotate his right arm.
+[fra] Et maintenant faites la rotation de son bras droit.
+[ita] E ora ruota il suo braccio destro.
+[por] E agora gire o braço direito.
+[spa] Y ahora rota su brazo derecho.
+[zho] 再旋转他的右臂。
+
+15
+00:01:01,440 --> 00:01:04,660
+[deu] Wollen wir einen Blick auf das Ergebnis werfen.
+[eng] Let's check the result.
+[fra] Vérifions le résultat.
+[ita] Verifichiamo il risultato.
+[por] Vamos ver o resultado.
+[spa] Vamos a revisar el resultado.
+[zho] 检查一下结果。
+
+16
+00:01:05,720 --> 00:01:08,240
+[deu] Oh, da scheint etwas schief gegangen zu sein.
+[eng] Oh, it looks like something is wrong.
+[fra] Oh, il semble que quelque chose ne va pas.
+[ita] Oh, sembra che ci sia qualcosa che non va.
+[por] Oh, parece que algo está errado.
+[spa] Oh, oh. Parece que algo está mal.
+[zho] 哦，看起来有问题。
+
+17
+00:01:08,480 --> 00:01:11,980
+[deu] Beide Hände haben sich zugleich vom Null-Bild aus bewegt…
+[eng] Both hands start moving simultaneously from the zero frame...
+[fra] Les deux mains commencent à bouger simultanément depuis la trame zéro...
+[ita] Entrambe le braccia cominciamo a muoversi simultaneamente dal fotogramma 0...
+[por] As duas mãos começaram a se mover simultaneamente a partir do quadro zero.
+[spa] Ambos brazos empiezan a moverse simultáneamente desde el cuadro cero...
+[zho] 两只手在零帧处就同时动了...
+
+18
+00:01:12,040 --> 00:01:15,930
+[deu] …obwohl wir wollen, dass die Bewegungen nacheinander stattfinden.
+[eng] ...while we need the movements happen one after another.
+[fra] ...alors que nous avons besoin que les mouvements se succèdent.
+[ita] ...mentre a noi serve che i movimenti avvengano uno dopo l'altro.
+[por] ...quando nós queremos que os movimentos aconteçam um depois do outro.
+[spa] ...cuando lo que necesitamos es que los movimientos sucedan uno después del otro.
+[zho] ...然而我们需要的动作是一个接一个的。
+
+19
+00:01:16,600 --> 00:01:21,730
+[deu] Der Grund dafür ist, dass die Position der zweiten Hand in Bild 10 nicht fixiert ist.
+[eng] This happens because the position of the second hand in frame 10 isn't fixated.
+[fra] Ceci arrive car la position de la seconde main n'a pas été fixée dans la trame 10.
+[ita] Questo succede perché la posizione del secondo braccio al fotogramma 10 non è fissata.
+[por] Isso acontece porque a posição da segunda mão no quadro 10 não está fixa.
+[spa] Esto pasa porque la posición del segundo brazo en el cuadro 10 no está fija.
+[zho] 这种情况的出现是因为第二只手在第10帧的地方没有固定。
+
+20
+00:01:21,840 --> 00:01:25,030
+[deu] Deshalb bewegt sie sich von Anfang an.
+[eng] That's why is starts moving right from the beginning.
+[fra] C'est pourquoi elle commence à bouger dès le début.
+[ita] Ecco perché inizia a muoversi subito dall'inizio.
+[por] É por isso que ele começa a se mover desde o começo.
+[spa] Y es por ello que empieza a moverse desde el inicio.
+[zho] 这是为什么会在一开始右手就移动的原因。
+
+21
+00:01:25,240 --> 00:01:30,400
+[deu] Das ist einfach zu lösen – bewegen Sie diesen Wegpunkt einfach auf Bild 10.
+[eng] It's easy to fix - just move this waypoint to the frame 10.
+[fra] C'est simple à résoudre - déplacez juste ce waypoint vers la trame 10.
+[ita] E' facile da sistemare - basta spostare questo waypoint al fotogramma 10.
+[por] É facil arrumar - só mova este ponto de referência para o quadro 10.
+[spa] Es fácil de corregir -solo mueve este punto de referencia al cuadro 10.
+[zho] 这个很容易修复的 - 只要移动这个航点到第10帧。
+
+22
+00:01:34,340 --> 00:01:37,400
+[deu] Nun funktioniert es.
+[eng] Now it works.
+[fra] Maintenant ça marche.
+[ita] Ora funziona.
+[por] Agora funciona.
+[spa] Ahora sí funciona.
+[zho] 现在可以了。
+
+23
+00:01:38,400 --> 00:01:42,630
+[deu] Da unsere Figur sehr einfach aufgebaut ist, war das Problem leicht zu lösen.
+[eng] Since this character is very simple, the issue is easy to fix.
+[fra] Du fait que le personnage est très simple, ce problème est facile à résoudre.
+[ita] Siccome questo personaggio e' molto semplice, il problema era facile da risolvere.
+[por] Já que este personagem é muito simples, é um problema fácil de resolver.
+[spa] Como el personaje es muy sencillo, el problema fué facil de resolver.
+[zho] 因为这个角色很简单，这个问题很容易修复。
+
+24
+00:01:42,900 --> 00:01:49,200
+[deu] Doch normalerweise müssen wir mit viel komplexeren Figuren arbeiten, die aus Dutzenden von Ebenen bestehen…
+[eng] But in general case we have to work with much more complex characters, constructed from a dozens of layers...
+[fra] Mais en général nous avons à travailler avec des personnages bien plus complexes, construits de douzaines de calques...
+[ita] Ma, in genere, dobbiamo lavorare con personaggi molto più complessi, costruiti da dozzine di livelli...
+[por] Mas geralmente nós temos que trabalhar com personagens bem mais complexos, feitos com dezenas de camadas.
+[spa] Pero en general tendremos que trabajar con personajes mucho más complejos, construidos a partir de docenas de capas...
+[zho] 但通常我们要处理的是复杂得多的角色，它由一堆层构成...
+
+25
+00:01:49,400 --> 00:01:51,850
+[deu] …und jede Szene kann mehrere davon enthalten.
+[eng] ...and each scene could have several of them.
+[fra] ...et chaque scène peut avoir plusieurs d'entre eux.
+[ita] ...e ogni scena potrebbe avere diversi personaggi.
+[por] ...e cada cena poderia ter vários deles.
+[spa] ...y en cada escena podría haber varios de ellos.
+[zho] ...而且每个场景都有多个角色。
+
+26
+00:01:51,940 --> 00:01:56,330
+[deu] Und jede Ebene kann viele Parameter besitzen, die wir im Auge behalten müssen.
+[eng] And each layer can have many parameters we need to keep an eye on.
+[fra] Et chaque calque peut avoir de nombreux paramètres sur lesquels nous devons garder un oeil.
+[ita] E ogni livello può avere molti parametri che dobbiamo tenere in considerazione.
+[por] E cada camada poderia ter muitos parâmetros para manter o olho.
+[spa] Además, cada capa puede tener muchos parámetros a los cuales prestar atención.
+[zho] 每一层也有很多参数我们要注意的。
+
+27
+00:01:56,600 --> 00:02:01,500
+[deu] Offensichtlich benötigen wir ein paar Funktionen, um Animationen auf einer höheren Ebene zu verwalten.
+[eng] Obviously we need some functionality to manage animation on a higher level.
+[fra] Visiblement nous avons besoin de quelques fonctionnalités pour gérer les animations à un niveau supérieur.
+[ita] Ovviamente abbiamo bisogno di alcune funzioni che ci aiutino a gestire un'animazione a livello superiore.
+[por] Obviamente precisamos de alguma funcionalidade para gerenciar animação de alto nível.
+[spa] Obviamente necesitamos alguna funcionalidad para administrar la animación en un nivel superior.
+[zho] 显然我们要某些功能在一个更高的层面来管理动画。
+
+28
+00:02:01,720 --> 00:02:05,500
+[deu] Für diesen Zweck gibt es Schlüsselbilder.
+[eng] For this purpose we have Keyframes.
+[fra] Dans ce but nous avons les Keyframes.
+[ita] Per questo motivo abbiamo i Keyframes - Fotogrammi chiave.
+[por] Para este propósito nós temos os quadros-chave.
+[spa] Para éste propósito tenemos los Fotogramas Clave, o Keyframes.
+[zho] 对这种要求我们有关键帧(Keyframes)。
+
+29
+00:02:05,520 --> 00:02:10,680
+[deu] Schlüsselbilder werden oft mit Wegpunkten verwechselt, doch in Synfig sind sie nicht dasselbe.
+[eng] Keyframes are often confused with waypoints but in Synfig they're not the same thing.
+[fra] Les Keyframes sont souvent confondues avec les Waypoints mais dans Synfig mais ce n'est pas la même chose.
+[ita] I Keyframes sono spesso confusi con i waypoints, ma in Synfig non sono la stessa cosa.
+[por] Quadros-chave são comumente confundidos com pontos de referência mas no Synfig eles não são a mesma coisa.
+[spa] Los keyframes se confunden a menudo con los waypoints, pero en Synfig no son lo mismo.
+[zho] 关键帧经常会和航点混淆，但在 Synfig 中它们不是同一个东西。
+
+30
+00:02:11,080 --> 00:02:16,830
+[deu] Wegpunkte merken sich den Wert eines bestimmten Parameters an einem bestimmten Zeitpunkt.
+[eng] Waypoints remembers a value of particular parameter at particular moment of time.
+[fra] Les waypoints représentent une valeur d'un paramètre particulier à un moment particulier du temps.
+[ita] I waypoints ricordano il valore di un particolare parametro in un particolare istante di tempo.
+[por] Pontos de referência armazenam um valor específico de um parâmetro em um certo momento.
+[spa] Los puntos de referencia recuerdan el valor de un parámetro particular en un momento específico del tiempo.
+[zho] 航点记住的是特定参数在特定时刻的值。
+
+31
+00:02:18,830 --> 00:02:26,330
+[deu] Dagegen sind Schlüsselbilder zwar auch mit einem bestimmten Zeitpunkt verknüpft, merken sich jedoch den Zustand aller Ebenen auf einmal.
+[eng] While keyframes, are also linked to a particular moment, but remember the state of all layers at once.
+[fra] Alors que les keyframes, qui sont aussi liés à un moment particulier, représentent l'état de tous les calques à la fois.
+[ita] Mentre i Keyframes, sono anch'essi connessi ad un particolare istante nel tempo, ma ricordano lo stato di tutti i livelli in una volta.
+[por] Enquanto os quadros-chave, também estão ligados a um momento, mas armazenam o estado de todas as camadas de uma vez.
+[spa] Mientras que los Keyframes, también asociados a un momento particular, recuerdan el estado de todas las capas a la vez.
+[zho] 而对于关键帧，虽然它也是链接到一个特定时刻，但它一次性记住了所有层的状态。
+
+32
+00:02:26,420 --> 00:02:29,060
+[deu] Lassen Sie uns einen Blick darauf werfen, wie das funktioniert.
+[eng] Let's see how it works.
+[fra] Regardons comment ça marche.
+[ita] Vediamo come funzionano.
+[por] Vamos ver como isso funciona.
+[spa] Veamos cómo funcionan.
+[zho] 我们看看它是如何运作的。
+
+33
+00:02:29,100 --> 00:02:32,500
+[deu] Beginnen wir unsere Animation noch einmal von Neuem.
+[eng] Let's try to re-create our animation from scratch.
+[fra] Essayons de recréer notre animation depuis le départ.
+[ita] Proviamo a ricreare la nostra animazione dall'inizio.
+[por] Vamos tentar recriar nossa animação do zero.
+[spa] Tratemos de recrear nuestra animación desde cero.
+[zho] 我们试着从头开始再创建我们的动画
+
+34
+00:02:32,920 --> 00:02:37,260
+[deu] Zunächst müssen wir die Animation der beiden Arme entfernen.
+[eng] First, we have to remove animation of both arms.
+[fra] D'abord nous devons enlever l'animation des deux bras.
+[ita] Primo, dobbiamo rimuovere l'animazione di entrambe le braccia.
+[por] Primeiro, vamos remover a animação de ambos os braços.
+[spa] Primero, tenemos que quitar la animación de ambos brazos.
+[zho] 首先，我们要删掉两只手臂的动画。
+
+35
+00:02:38,660 --> 00:02:42,860
+[deu] Wir wissen bereits, wie man Wegpunkte einzeln löscht.
+[eng] We already know how to delete waypoints one by one.
+[fra] Vous savez déjà comment effacer les waypoints un par un.
+[ita] Sappiamo già come rimuovere i waypoints, uno a uno.
+[por] Nós já sabemos como deletar cada ponto de referência.
+[spa] Ya sabemos cómo eliminar los puntos de referencia /Waypoints/ uno por uno.
+[zho] 我们已经知道如何一个一个的删除航点。
+
+36
+00:02:43,960 --> 00:02:47,500
+[deu] Und ebenso lassen sich alle Wegpunkte für einen Parameter löschen.
+[eng] And also you can remove all waypoints for a parameter.
+[fra] Et vous pouvez également retirer tous les waypoints pour un paramètre.
+[ita] E puoi anche rimuovere tutti i waypoints per un certo parametro.
+[por] E você também pode remover todos os pontos de um determinado parâmetro.
+[spa] Pero también se pueden eliminar todos los waypoints de un parámetro.
+[zho] 其实我们也可以一次删除某个参数的所有航点。
+
+37
+00:02:47,740 --> 00:02:51,660
+[deu] Rechtsklicken Sie einfach auf einen Parameter und wählen Sie „Lösen“.
+[eng] Just right-click a parameter and choose "Disconnect".
+[fra] Cliquez-droit simplement sur un paramètre et choisissez "Disconnect".
+[ita] Tasto destro del mouse su un parametro e scegli "Disconnect".
+[por] Apenas clique com o botão direito em um parâmetro e clique em "Desconectar".
+[spa] Solo se hace click derecho en el parámetro y se selecciona "Desconectar" /Disconnect/.
+[zho] 右键点击某个参数并选择“不链接(Disconnect)”。
+
+38
+00:02:52,920 --> 00:02:57,030
+[deu] Diese Methode ist besonders nützlich, wenn wir viele Wegpunkte haben.
+[eng] This method is especially useful when we have many waypoints.
+[fra] Cette méthode est spécialement utile quand nous avons de nombreux waypoints.
+[ita] Questo metodo è molto utile sopratutto quando si hanno tanti waypoints.
+[por] Este método é bem útil quando temos vários pontos de referência.
+[spa] Este método es especialmente útil cuando tenemos muchos waypoints.
+[zho] 这种方法在多个航点的情况下特别的有用。
+
+39
+00:02:57,340 --> 00:03:01,120
+[deu] OK, wir haben alle Animationen entfernt. Also lasst uns loslegen.
+[eng] OK, we have all animation removed. So let's start.
+[fra] OK, nous avons enlevé toute l'animation. Alors commençons.
+[ita] Bene, abbiamo rimosso tutta l'animazione. Quindi possiamo iniziare.
+[por] Ok, agora toda a animação foi removida. Vamos começar.
+[spa] Bien. Hemos retirado ya toda la animación.
+[zho] 好，我们把所有动画都删掉了。可以开始。
+
+40
+00:03:01,460 --> 00:03:04,760
+[deu] Schlüsselbilder befinden sich auf diesem blauen Streifen hier.
+[eng] Keyframes are located on the blue strip, right here.
+[fra] Les Keyframes sont situées sur la bande bleue, juste là.
+[ita] I keyframes sono situati sulla linea blu, proprio qui.
+[por] Quadros-chave ficam na faixa azul, bem aqui.
+[spa] Los keyframes se localizan en la franja azul, aquí.
+[zho] 关键帧在这个绿色条上放着，就是这里。
+
+41
+00:03:04,900 --> 00:03:10,760
+[deu] Jede Synfig-Animation legt automatisch das erste Schlüsselbild an, das hier zu sehen ist.
+[eng] Every Synfig animation have first keyframe created automatically, here it is.
+[fra] Chaque animation Synfig a une première keyframe créée automatiquement, la voici.
+[ita] Ogni animazione in Synfig ha il primo keyframe creato automaticamente, eccolo qui.
+[por] Toda animação do Synfig cria um quadro-chave no começo automaticamente. Aqui está ele.
+[spa] Cada animación de Synfig tiene un primer keyframe que se crea automáticamente. Aquí está.
+[zho] 每一个 Synfig 动画都会自动创建好第一个关键帧，就是这个。
+
+42
+00:03:12,040 --> 00:03:15,060
+[deu] Unsere Figur steht auf ihrer Ausgangsposition.
+[eng] Our character stands at the initial position.
+[fra] Notre personnage se tient à sa position initiale.
+[ita] Il nostro personaggio è nella posizione iniziale.
+[por] Nosso personagem fica na posição inicial.
+[spa] Nuestro personaje se sitúa en la posición inicial.
+[zho] 我们的角色站在初始位置。
+
+43
+00:03:15,280 --> 00:03:20,160
+[deu] Lassen Sie uns sichergehen, dass der Animations-Modus aktiviert ist und geht auf Bild 10.
+[eng] Let's make sure that the Animation Mode is enabled and go to the 10th frame.
+[fra] Assurez-vous que le Mode Animation est activé et allez à la 10ème trame.
+[ita] Assicuriamoci che la modalità animazione sia attiva e andiamo al fotogramma numero 10.
+[por] Vamos ter certeza de que o modo de animação está ativado e ir para o décimo quadro.
+[spa] Nos aseguramos que el modo de animación está activado, y vamos al cuadro 10.
+[zho] 确保动画模式打开，转到第10帧。
+
+44
+00:03:21,540 --> 00:03:30,000
+[deu] Übrigens können Sie hierfür eine spezielle Tastenkombination verwenden – halten Sie Strg und die Punkt-Taste gedrückt, um die Zeitmarkierung ein Bild vorwärts zu bewegen.
+[eng] By the way, here you can use a special key combination - hold Ctrl and dot key to move time cursor one frame forward.
+[fra] D'ailleurs vous pouvez utiliser une combinaison de touches spéciale - maintenez Ctrl et la touche point pour déplacer le curseur de temps d'une trame en avant.
+[ita] A proposito, qui puoi usare una combinazione di tasti - tieni premuti Ctrl e il tasto punto per muovere il cursore del tempo un fotogramma in avanti.
+[por] Aliás, aqui você pode usar um atalho - segure Ctrl e a tecla ponto para mover o cursor de tempo um quadro adiante.
+[spa] Por cierto, se puede usar un combinación especial de teclas -presionando Ctrl y la tecla Punto- para mover el cursor de tiempo al siguiente cuadro.
+[zho] 顺便说一下，你可以用特殊的辅助键混合 - 按住 Ctrl 键和点键向前移动一帧。
+
+45
+00:03:32,390 --> 00:03:35,060
+[deu] Legen Sie nun ein neues Schlüsselbild an.
+[eng] Now create a new keyframe.
+[fra] Maintenant créez une nouvelle keyframe.
+[ita] Ora crea un nuovo keyframe.
+[por] Agora vamos criar um novo quadro-chave.
+[spa] Ahora, creamos un nuevo Keyframe.
+[zho] 现在创建一个新关键帧。
+
+46
+00:03:35,220 --> 00:03:38,560
+[deu] Rechtsklicken…
+[eng] Right click...
+[fra] Clic-droit...
+[ita] Tasto destro...
+[por] Clique com o botão direito...
+[spa] Hacemos click derecho... y seleccionamos "Add"
+[zho] 右键点击...
+
+47
+00:03:39,260 --> 00:03:41,360
+[deu] Hier haben wir ein neues Schlüsselbild.
+[eng] Here we have a keyframe.
+[fra] Ici nous avons une keyframe.
+[ita] Qui abbiamo un keyframe.
+[por] Aqui temos um quadro-chave.
+[spa] Aquí tenemos un Keyframe.
+[zho] 我们得到一个关键帧。
+
+48
+00:03:41,540 --> 00:03:44,830
+[deu] Lassen wir den linken Arm drehen.
+[eng] Let's rotate the left arm.
+[fra] Faisons une rotation du bras gauche.
+[ita] Ruotiamo il braccio sinistro.
+[por] Vamos girar o braço esquerdo.
+[spa] Rotemos el brazo izquierdo.
+[zho] 我们旋转左臂。
+
+49
+00:03:45,960 --> 00:03:49,760
+[deu] Fertig. Gehen wir nun 10 weitere Bilder nach vorn…
+[eng] Done. Now let's get 10 more frames forward...
+[fra] C'est fait. Maintenant allons 10 trames en avant...
+[ita] Fatto. Ora andiamo 10 fotogrammi avanti...
+[por] Pronto. Agora vamos avançar mais 10 quadros...
+[spa] Hecho. Ahora vamos 10 cuadros más adelante.
+[zho] 完成。现在我们再前进10帧。
+
+50
+00:03:50,180 --> 00:03:53,000
+[deu] Erstellen Sie ein neues Schlüsselbild…
+[eng] create a new keyframe...
+[fra] créez une nouvelle keyframe...
+[ita] creiamo un nuovo keyframe...
+[por] Criar um novo quadro-chave...
+[spa] Creamos un nuevo keyframe,...
+[zho] 创建一个新关键帧...
+
+51
+00:03:53,380 --> 00:03:56,900
+[deu] und drehen Sie den zweiten Arm.
+[eng] and rotate the second arm.
+[fra] et faites la rotation du second bras.
+[ita] e ruotiamo l'altro braccio.
+[por] e girar o segundo braço.
+[spa] y rotamos el segundo brazo.
+[zho] 旋转第二只手臂。
+
+52
+00:03:59,260 --> 00:04:05,900
+[deu] Wie Sie sehen, hat Synfig einen zusätzlichen Wegpunkt hinzugefügt, um den Zustand des Objekts des Schlüsselbilds beizubehalten.
+[eng] Note that Synfig has added an extra waypoint to preserve the object state at the previous keyframe.
+[fra] Notez que Synfig a ajouté un waypoint supplémentaire pour préserver l'état de l'objet à la keyframe précédente.
+[ita] Nota che Synfig ha aggiunto un waypoint in più per mantenere lo stato dell'oggetto al precedente fotogramma.
+[por] Note que o Synfig adicionou um ponto de referência extra para preservar o estado do objeto no quadro-chave anterior.
+[spa] Fíjate cómo Synfig agrega un waypoint adicional, para preservar el estado del objeto en el keyframe anterior.
+[zho] 注意 Synfig 已经多添加了一个航点用来保护前一帧的物体状态。
+
+53
+00:04:06,780 --> 00:04:11,760
+[deu] Nun sieht die Animation wie erwartet aus, ohne dass zusätzliche Arbeiten nötig sind.
+[eng] Now the animation looks as expected without any additional fixes.
+[fra] Maintenant l'animation semble comme attendue sans faire de modification additionnelle.
+[ita] Ora l'animazione è come ce la aspettavamo senza dover fare ulteriori correzioni.
+[por] Agora a animação está como esperada, sem problemas adicionais.
+[spa] Ahora la animación se ve como se esperaba, sin ninguna corrección adicional.
+[zho] 现在动画已经如我们所期望的那样了，不用什么额外的工作。
+
+54
+00:04:12,140 --> 00:04:16,160
+[deu] Lassen Sie uns einen Blick auf ein weiteres Beispiel dazu werfen, wie Schlüsselbilder funktionieren.
+[eng] Let's take a look at one more example of how keyframes work.
+[fra] Jetons un oeil à un exemple supplémentaire sur le fonctionnement des keyframes.
+[ita] Diamo un'occhiata ad un altro esempio per capire come funzionano i keyframes.
+[por] Vamos dar uma olhada em mais um exemplo de como quadros-chave funcionam.
+[spa] Veamos un ejemplo más de cómo funcionan los keyframes.
+[zho] 我们再举的一个例子来解释一下关键帧的工作方式。
+
+55
+00:04:16,400 --> 00:04:19,660
+[deu] Legen wir eine neue Datei an.
+[eng] Let's create a new file.
+[fra] Créons un nouveau fichier.
+[ita] Creiamo un nuovo file.
+[por] Vamos criar um novo arquivo.
+[spa] Vamos a crear un archivo nuevo.
+[zho] 我们创建一个新文件。
+
+56
+00:04:20,280 --> 00:04:25,300
+[deu] Dies wird die Animation eines Balls sein, der sich aufwärts und dann wieder zurück abwärts bewegt.
+[eng] This will be animation of a ball moving up and then back down.
+[fra] Ce sera l'animation d'une balle bougeant vers le haut puis vers le bas.
+[ita] Questa sara' l'animazione di una palla che si muove verso l'alto e poi verso il basso.
+[por] Essa será uma animação de uma bola indo para cima e para baixo.
+[spa] Ésta será la animación de una pelota moviéndose hacia arriba y después regresando hacia abajo.
+[zho] 做个球上升然后下来的动画。
+
+57
+00:04:30,770 --> 00:04:33,660
+[deu] Ein Schlüsselbild ist bereits vorgegeben.
+[eng] We already have one keyframe by default.
+[fra] Nous avons déjà une keyframe par défaut.
+[ita] Abbiamo già un keyframe predefinito per default.
+[por] Nós já temos um quadro-chave por padrão.
+[spa] Ya tenemos un keyframe por defecto.
+[zho] 在默认情况下，我们已经有个关键帧。
+
+58
+00:04:33,780 --> 00:04:37,600
+[deu] Es wird verwendet, um den Zustand von Objekten ganz am Anfang festzuhalten.
+[eng] It is used to remember the state of objects in the very beginning.
+[fra] Elle sert à se rappeler de l'état des objets au tout début.
+[ita] Viene usato per ricordare lo stato degli oggetti all'inizio dell'animazione.
+[por] Ele é usado para lembrar o estado dos objetos logo no começo.
+[spa] Se usa para recordar el estado de los objetos justo al principio.
+[zho] 它用来记住在最开始的物体状态。
+
+59
+00:04:37,900 --> 00:04:41,160
+[deu] Erstellen Sie zwei weitere Schlüsselbilder.
+[eng] Create two more keyframes.
+[fra] Créez deux autres keyframes.
+[ita] Crea altri due keyframes.
+[por] Crie mais dois quadros-chave.
+[spa] Creemos dos keyframes más.
+[zho] 再创建多两个关键帧。
+
+60
+00:04:43,140 --> 00:04:47,140
+[deu] Gehen Sie auf das zweite Schlüsselbild, aktivieren Sie den Animationsmodus…
+[eng] Go to the second keyframe, enable the animation mode...
+[fra] Allez à la seconde keyframe, activez le mode animation...
+[ita] Vai al secondo keyframe, attiva la modalità animazione...
+[por] Vá para o segundo quadro-chave, ative o modo de animação...
+[spa] Ve al segundo keyframe, activa el modo de animación...
+[zho] 到第二帧，打开动画模式...
+
+61
+00:04:47,660 --> 00:04:50,930
+[deu] …und bewegen Sie den Ball aufwärts.
+[eng] ...and move the ball upwards.
+[fra] ...et déplacez la balle vers le haut.
+[ita] ...e sposta la palla verso l'alto.
+[por] ...e mova a bola para cima.
+[spa] ...y mueve la esfera hacia arriba.
+[zho] ...然后把球向上移。
+
+62
+00:04:51,240 --> 00:04:54,130
+[deu] Nun sind 3 Wegpunkte erschienen.
+[eng] Now, 3 waypoints have appeared.
+[fra] Maintenant 3 waypoints ont apparu.
+[ita] Ora, 3 waypoints sono apparsi.
+[por] Agora, três pontos de referência apareceram.
+[spa] Ahora han aparecido 3 waypoints.
+[zho] 现在，出现3个航点。
+
+63
+00:04:54,330 --> 00:04:59,760
+[deu] Der mittlere Wegpunkt wurde angelegt, weil wir eine neue Position des Balls im Animationsmodus festgelegt haben.
+[eng] The middle waypoint was created because we set new position of the ball in animation mode.
+[fra] Le waypoint du milieu a été créé car nous avons défini une nouvelle position de la balle dans le mode animation.
+[ita] Il waypoint centrale e' stato creato perché abbiamo cambiato la posizione della palla nella modalità animazione.
+[por] O ponto do meio foi criado porque nós definimos uma nova posição para a bala dentro do modo de animação.
+[spa] El waypoint central se creó porque llevamos la esfera a una nueva posición en el modo de animación.
+[zho] 中间航点的出现是因为我们在动画模式下给球设置了新位置。
+
+64
+00:04:59,930 --> 00:05:05,200
+[deu] Und zwei weitere wurden automatisch erstellt, um die Positionen des Schlüsselbilds des Balls festzuhalten.
+[eng] And two others were automatically created to save the ball's keyframe positions.
+[fra] Et les deux autres ont été automatiquement créés pour sauver les positions des keyframes de la balle.
+[ita] E gli altri due sono stati creati automaticamente per salvare le posizioni del keyframe della palla.
+[por] E os outros dois foram criados automaticamente para salvar as posições dos quadros-chave da bola.
+[spa] Y los otros dos se crean automáticamente para guardar las posiciones keyframe de la esfera.
+[zho] 另外两个航点也是自动创建的，用来保存球在关键帧处的位置。
+
+65
+00:05:05,540 --> 00:05:10,900
+[deu] Der Ball springt nun also aufwärts und fällt wieder hinab.
+[eng] So, the ball jumps upwards and falls back down.
+[fra] Donc, la balle saute vers le haut et retombe.
+[ita] Cosi', la palla rimbalza su e giù.
+[por] Então, a bola sobre e cai de volta.
+[spa] Así, la esfera salta hacia arriba y cae de vuelta hacia abajo.
+[zho] 所以，球挑起来再落下。
+
+66
+00:05:13,560 --> 00:05:18,830
+[deu] Synfig besitzt außerdem eine spezielle Leiste mit einer Liste von Schlüsselbildern.
+[eng] Synfig also have a special panel with a list of keyframes.
+[fra] Synfig a aussi un panneau spécial avec la liste des keyframes.
+[ita] Synfig ha anche un pannello speciale con una lista di keyframes.
+[por] Synfig também tem um painel especial com uma lista de quadro-chaves.
+[spa] Synfig también tiene un panel especial con una lista de keyframes.
+[zho] Synfig 还有一个特殊的面板，上面有关键帧列表。
+
+67
+00:05:18,980 --> 00:05:22,700
+[deu] Hier können Sie Ihr jedem Schlüsselbild einen Namen geben…
+[eng] Here you can name each keyframe...
+[fra] Ici vous pouvez nommer chaque keyframe...
+[ita] Qui puoi dare un nome ad ogni keyframe...
+[por] Aqui você pode nomer cada quadro-chave...
+[spa] Aquí se puede nombrar cada keyframe...
+[zho] 在这里你可以给每一个关键帧命名...
+
+68
+00:05:23,890 --> 00:05:26,830
+[deu] …und schnell von einem Schlüssebild zu einem anderen springen.
+[eng] ...and quickly jump from one keyframe to another.
+[fra] ...et sauter rapidement d'une keyframe à l'autre.
+[ita] ...e velocemente passare da un keyframe ad un altro.
+[por] ...e rapidamente mudar de um quadro-chave para outro.
+[spa] ...y saltar rápidamente de uno a otro.
+[zho] ...还能快速的从一个关键帧跳到另一个关键帧。
+
+69
+00:05:27,100 --> 00:05:30,430
+[deu] Klicken Sie hier einfach auf den „SPR“-Schriftzug.
+[eng] Just click the "Jump" label here.
+[fra] Cliquez juste sur le label "Jump" ici.
+[ita] Premi su etichetta "Jump" qui.
+[por] Só clicar nesse "JMP" aqui.
+[spa] Solo haz click en la etiqueta "JMP", aquí.
+[zho] 只要点击这里的“跳跃(Jump)” 标签。
+
+70
+00:05:31,420 --> 00:05:35,360
+[deu] Das funktioniert ähnlich wie mit Verknüpfungen in einem Web-Browser.
+[eng] It is very similar to a link in a web browser.
+[fra] C'est très similaire à un lien dans un navigateur internet.
+[ita] E' molto simile a un link di una pagina web.
+[por] É bem parecido com um link num navegador de internet.
+[spa] Es muy similar a los enlaces de un navegador web.
+[zho] 这和网络浏览器离得链接非常类似。
+
+71
+00:05:35,890 --> 00:05:40,360
+[deu] Nun möchte ich zeigen, wie Schlüsselbilder dabei helfen, Wegpunkte zu beeinflussen.
+[eng] Now I'd like to illustrate how keyframes help to manipulate waypoints.
+[fra] Maintenant je voudrais illustrer comment les keyframes aident à manipuler les waypoints.
+[ita] Ora voglio dimostrare come i keyframes aiutano a manipolare i waypoints.
+[por] Agora eu gostaria de ilustrar como os quadro-chaves ajudam a manipular pontos de referência.
+[spa] Ahora, quisiera ilustrar cómo los keyframes ayudan a manipular los waypoints.
+[zho] 现在我要阐述一下关键帧是如何在操纵航点时起作用的。
+
+72
+00:05:40,680 --> 00:05:42,930
+[deu] Lassen Sie uns zu unserer Figur zurückkehren.
+[eng] Let's get back to our character.
+[fra] Retournons à notre personnage.
+[ita] Torniamo al nostro personaggio.
+[por] Vamos voltar para nosso personagem.
+[spa] Regresemos a nuestro personaje.
+[zho] 我们回到角色。
+
+73
+00:05:43,020 --> 00:05:49,260
+[deu] Damit haben wir zwei Objekte animiert – einen Arm und den anderen Arm.
+[eng] Here we have two objects animated - one arm and the other arm.
+[fra] Ici nous avons deux objets animés - un bras et l'autre bras.
+[ita] Qui abbiamo due oggetti animati - un braccio e l'altro.
+[por] Agora nós temos dois objetos animados - um braço e o outro braço.
+[spa] Aquí tenemos dos objetos animados: un brazo y el otro brazo.
+[zho] 我们有两个动的物体 - 一个是手臂，一个是另一条手臂。
+
+74
+00:05:49,880 --> 00:05:57,330
+[deu] Wenn wir ein Schlüsselbild verschieben… werden auch alle Wegpunkte dieses Zeitpunktes mit verschoben.
+[eng] If we move a keyframe... all waypoints at this time location are moved as well.
+[fra] Si nous déplaçons une keyframe... tous les waypoints à cet emplacement du temps seront déplacés de même.
+[ita] Se spostiamo un keyframe... anche tutti i waypoints di questo istante di tempo si spostano.
+[por] Se nós movemos um quadro-chave... todos os pontos de referência nessa marcação de tempo serão movidos também.
+[spa] Si movemos un keyframe... todos los waypoints en esta posición de tiempo se mueven también.
+[zho] 如果我们移动一个关键帧... 在这个时间点位置的所有航点也随着一起移动。
+
+75
+00:05:57,770 --> 00:06:02,230
+[deu] Wir müssen noch nicht einmal die Objekte auswählen.
+[eng] We don't even need to select the objects.
+[fra] Nous n'avons même pas à sélectionner les objets.
+[ita] Non occorre nemmeno selezionare gli oggetti.
+[por] Nós nem precisamos selecionar os objetos.
+[spa] Ni siquiera necesitamos seleccionar los objetos.
+[zho] 我们甚至不需选择任何物体。
+
+76
+00:06:02,660 --> 00:06:07,630
+[deu] Manchmal kann es sein, dass wir ein Schlüsselbild zusammen mit all seinen folgenden Schlüsselbildern bewegen müssen.
+[eng] Sometimes you might need to move a keyframe together with all its subsequent keyframes.
+[fra] Parfois vous pouvez avoir à déplacer une keyframe en même temps que toutes ses keyframes consécutives.
+[ita] Qualche volta potresti aver bisogno di spostare un keyframe con tutti i suoi keyframes successivi.
+[por] As vezes você pode precisar mover um quadro-chave junto de seus quadros-chave seguintes.
+[spa] A veces podrías necesitar mover un keyframe junto con todos los keyframes que le siguen.
+[zho] 有时候你也许需要一起移动某个关键帧和它的后续关键帧。
+
+77
+00:06:07,980 --> 00:06:13,360
+[deu] Halten Sie in diesem Fall einfach die Alt- und Shift-Tasten gedrückt, wenn Sie die Bewegung ausführen. So hier.
+[eng] In this case, just hold Alt and Shift keys when you move it. Like this.
+[fra] Dans ce cas, maintenez juste les touches Alt et Shift quand vous la déplacez. Comme ceci.
+[ita] In questo caso, basta tenere premuti i tasti Alt e Shift quando lo muovi. In questo modo.
+[por] Nesse caso, apenas segure as teclas Alt e Shift quando você movê-lo. Assim.
+[spa] En ese caso, sólo se mantienen presionadas las teclas Alt y Shift al moverlo, así.
+[zho] 这种情况，只要在移动时按下 Alt 和Shift 键就可以。像这样。
+
+78
+00:06:17,390 --> 00:06:22,660
+[deu] Wir können Schlüsselbilder von einem Zeitpunkt zu einem anderen Kopieren. Genau wie es auch bei Wegpunkten der Fall ist.
+[eng] We can copy keyframes from one moment to another. Just as we could with waypoints.
+[fra] Nous pouvons copier les keyframes depuis un moment à un autre. Tout comme nous le pouvons pour les waypoints.
+[ita] Possiamo copiare keyframes da un istante temporale ad un altro. proprio come si fa con i waypoints.
+[por] Nós podemos copiar quadros-chave de um momento para outro. Assim como podemos fazer com pontos de referência.
+[spa] Podemos copiar los keyframes de un cuadro a otro, tal y como lo hicimos con los waypoints.
+[zho] 我们可以从某个时刻把关键帧拷贝到另一时刻去。这和航点是一样的。
+
+79
+00:06:23,060 --> 00:06:28,500
+[deu] Lassen Sie uns zum Beispiel unsere Figur zu ihrer Ausgangslage in Bild 40 zurückkehren.
+[eng] For example, let's make our character return to initial pose at the frame 40.
+[fra] Par exemple, faisons retourner notre personnage à sa pose initiale à la trame 40.
+[ita] Per esempio, facciamo tornare il personaggio nella posizione iniziale al fotogramma 40.
+[por] Por exemplo, vamos fazer com que nosso personagem retorne para a pose inicial no quadro 40.
+[spa] Por ejemplo, hagamos que nuestro personaje regrese a la posición inicial en el cuadro 40.
+[zho] 比如，在第40帧时，我们把角色重置回初始的姿势。
+
+80
+00:06:29,030 --> 00:06:31,260
+[deu] Gehen Sie zu Bild 40…
+[eng] Go to the frame 40...
+[fra] Allez à la trame 40...
+[ita] Vai al fotogramma 40...
+[por] Vá para o quadro 40...
+[spa] Ve al cuadro 40...
+[zho] 转到第40帧...
+
+81
+00:06:31,380 --> 00:06:33,960
+[deu] Rechtsklicken Sie in das erste Schlüsselbild…
+[eng] ...right-click this first keyframe...
+[fra] ...cliquez-droit sur la première keyframe...
+[ita] ...tast destro del mouse sul primo keyframe...
+[por] ...clique no primeiro quadro-chave com o botão direito...
+[spa] ...haz click derecho en este primer keyframe...
+[zho] ...右键点击第一个关键帧...
+
+82
+00:06:34,130 --> 00:06:36,460
+[deu] …und wählen Sie „Duplizieren“.
+[eng] ...and choose "Duplicate".
+[fra] ...et choisissez "Duplicate".
+[ita] ..e scegli "Duplicate".
+[por] ...e clique em "Duplicar".
+[spa] ... y selecciona "Duplicate".
+[zho] ...选择“复制(Duplicate)”。
+
+83
+00:06:37,800 --> 00:06:45,700
+[deu] Wie Sie sehen können, hat Synfig alle erforderlichen Wegpunkte erstellt, um unsere Figur in dieselbe Lage wie in Bild 0 zu bringen.
+[eng] As you can see, Synfig has created all required waypoints to put our character in the same pose as he was on the frame 0.
+[fra] Comme vous pouvez le voir, Synfig a créé tous les waypoints requis pour mettre notre personnage dans la même pose que celle qu'il avait à la trame 0.
+[ita] Come puoi vedere, Synfig ha creato tutti i waypoints necessari per far tornare il personaggio nella posizione iniziale nel fotogramma 0
+[por] Como você pode ver, o Synfig criou todos os pontos necessários para colocar nosso personagem na mesa pose que ele stava no quadro 0.
+[spa] Como puedes ver, Synfig ha creado todos los waypoints necesarios para colocar al personaje en la misma posición que tenía en el cuadro 0.
+[zho] 如你所见，Synfig已经创建了需要的用来重设角色回到第0帧姿势的所有航点。
+
+84
+00:06:46,810 --> 00:06:52,630
+[deu] Weiterhin ist es nicht nötig, den Animations-Modus zu aktivieren, wenn wir Schlüsselbilder bearbeiten.
+[eng] Also it is not necessary to have the Animation Mode enabled when we manipulate the keyframes.
+[fra] Aussi il n'est pas nécessaire d'avoir activé le Mode Animation quand nous manipulons les keyframes.
+[ita] Inoltre, non e' necessario essere in modalità animazione quando modifichiamo i keyframes.
+[por] E também não é preciso estar com o modo de animação ativado quando nós manipulamos os quadros-chave.
+[spa] Tampoco es necesario tener activado el modo de animación cuando manipulamos keyframes.
+[zho] 另外在处理关键帧时我们是不需要到动画模式下的。
+
+85
+00:06:52,810 --> 00:06:54,700
+[deu] Und eine weitere Sache, die Sie bedenken sollten:
+[eng] And one more thing to consider:
+[fra] Et une autre chose à prendre en considération:
+[ita] E un'altra cosa da considerare:
+[por] E mais uma coisa para levar em conta:
+[spa] Y hay una cosa más a considerar:
+[zho] 还有一件事情要考虑的：
+
+86
+00:06:54,960 --> 00:07:01,460
+[deu] Wenn wir ein Schlüsselbild löschen, werden auch alle seine Wegpunkte gelöscht. Schaut zu.
+[eng] when we delete a keyframe all its waypoints would be also deleted. Take a look.
+[fra] quand nous effaçons une keyframe tous ses waypoints seront aussi effacés. Jetez un oeil.
+[ita] Quando cancelliamo un keyframe, anche tutti i waypoints vengono cancellati. Dai un'occhiata.
+[por] Quando deletemas um quadro-chave, todos os pontos de referência dele serão deletados. Dê uma olhada.
+[spa] cuando eliminamos un keyframe, todos sus waypoints se eliminan también.
+[zho] 当我们删掉某个关键帧其下所有的航点也会被删掉。看一下。
+
+87
+00:07:04,360 --> 00:07:09,130
+[deu] Abschließend möchte ich Ihnen einen noch mächtigeren Trick für Schlüsselbilder zeigen.
+[eng] Finally, I would like to show you one more powerful trick that we can do with keyframes.
+[fra] Finalement, je voudrais vous montrer un autre truc puissant que nous pouvons faire avec les keyframes.
+[ita] Infine, vorrei mostrarti un altro trucco più potente che possiamo usare con i keyframes.
+[por] Finalmente, eu gostaria de te mostrar mais um truque poderoso que nós podemos fazer com quadros-chave.
+[spa] Finalmente, me gustaría mostrarte un poderoso truco más que podemos hacer usando keyframes.
+[zho] 最后，我要给你展示另外一个有用的关键帧技巧。
+
+88
+00:07:09,330 --> 00:07:14,500
+[deu] Lassen wir nach Bild Nummer 40 die Figur mit der Hand winken.
+[eng] After frame number 40 let's make our character to wave with his hand.
+[fra] Après la trame numéro 40 faisons bouger la main de notre personnage.
+[ita] Dopo il fotogramma 40, facciamo fare la "ola" con la mano al personaggio.
+[por] Depois do quadro 40, vamos fazer nosso personagem balançar a mão.
+[spa] Después del cuadro número 40, hagamos que nuestro personaje salude con la mano.
+[zho] 在40帧后，我们让角色挥舞他的手。
+
+89
+00:07:18,680 --> 00:07:22,960
+[deu] Doch in diesem Fall werden wir keine Schlüsselbilder für jede einzelne Position festlegen.
+[eng] But in this case I won't be placing a keyframe for each position.
+[fra] Mais dans ce cas je ne vais pas placer une keyframe pour chaque position.
+[ita] Ma in questo caso non voglio posizionare un keyframe per ogni posizione.
+[por] Mas nesse caso eu não vou colocar um quadro-chave em cada posição.
+[spa] Pero en este caso, no colocaré un keyframe para cada posición.
+[zho] 但在这个例子中，我不想在每个位置上都放置关键帧。
+
+90
+00:07:23,280 --> 00:07:27,660
+[deu] Stattdessen werden wir ein Schlüsselbild zu Beginn der Handlung setzen…
+[eng] Instead, I will put one keyframe at the start of the action...
+[fra] Au lieu de cela, je vais mettre une keyframe au début de cette action...
+[ita] Invece, mettero' un keyframe all'inizio dell'azione...
+[por] Ao invés disso, eu vou colocar um quadro-chave no começo da ação...
+[spa] En cambio, colocaré un keyframe al inicio de la acción...
+[zho] 放而，我打算放一个关键帧到动作的开始时刻...
+
+91
+00:07:27,880 --> 00:07:31,900
+[deu] …und eines am Ende.
+[eng] ...and one at the end.
+[fra] ...et une à la fin.
+[ita] ...e uno alla fine.
+[por] ...e um no final.
+[spa] ...y otro keyframe al final.
+[zho] ...在结尾也放一个。
+
+92
+00:07:38,180 --> 00:07:42,680
+[deu] Fertig. Nun habe ich zwei Ereignisse, zwei Schlüsselbilder…
+[eng] Done. Now I've got two events, two keyframes...
+[fra] C'est fait. Maintenant j'ai deux événements, deux keyframes...
+[ita] Fatto. Ora ho due eventi, due keyframes...
+[por] Pronto. Agora nós temos dois eventos, dois quadros-chave...
+[spa] Hecho. Ahora tengo dos eventos y dos keyframes.
+[zho] 完工。现在我有了两个事件，两个关键帧...
+
+93
+00:07:42,860 --> 00:07:47,900
+[deu] die Figur hat begonnen mit der Hand zu winken… und sie hat aufgehört.
+[eng] the character started waving his hand... and he stopped waving.
+[fra] le personnage a commencé à agiter sa main... et il arrête de la bouger.
+[ita] Il personaggio inizia la "ola"... e finisce la "ola".
+[por] O personagem começou a balançar a mão... e parou de balançar.
+[spa] El personaje empezó a agitar su mano... y dejó de agitar.
+[zho] 角色开始挥舞他的手...然后停下来。
+
+94
+00:07:50,060 --> 00:07:54,560
+[deu] Versuchen wir nun, das letzte Schlüsselbild zu verschieben.
+[eng] Now let's try to move the last keyframe.
+[fra] Maintenant essayons de déplacer la dernière keyframe.
+[ita] Ora proviamo a spostare l'ultimo keyframe.
+[por] Agora vamos tentar mover o último quadro-chave.
+[spa] Ahora tratemos de mover el último keyframe.
+[zho] 现在让我们移动最后一个关键帧。
+
+95
+00:07:56,360 --> 00:08:03,430
+[deu] Und hier ist der Trick: Das Bewegen von Schlüsselbildern skaliert die Wegpunkte zwischen diesen automatisch.
+[eng] And here's the trick: moving keyframes automatically scales the waypoints between them.
+[fra] Et là est le truc: en déplaçant les keyframes, les waypoints entre elle sont automatiquement mis à l'échelle.
+[ita] E qui sta il trucco: muovendo i keyframes, i waypoints tra di essi si ridimensionano automaticamente.
+[por] E aqui está o truque: mover os quadros-chave automaticamente escala os pontos de referência entre eles.
+[spa] Y ése es el truco: al mover los keyframes, automáticamente se escalan los waypoints entre ellos.
+[zho] 这里有个技巧：移动关键帧会自动压缩或伸展它们之间的航点。
+
+96
+00:08:06,140 --> 00:08:11,860
+[deu] Schauen Sie, wie einfach ich die Dauer der gesamten Handlung verändern kann.
+[eng] Look, how easy I can change duration of the whole action.
+[fra] Regardez comme il est simple de changer la durée de l'action entière.
+[ita] Guarda come posso facilmente cambiare la durata di tutta l'azione.
+[por] Veja como é fácil mudar a duração de toda a ação.
+[spa] Mira lo fácil que es cambiar la duración de toda la acción.
+[zho] 看，多容易，可以随意改变整个动作的长度。
+

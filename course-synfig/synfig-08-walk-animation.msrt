@@ -1,0 +1,510 @@
+1
+00:00:00,600 --> 00:00:03,060
+[deu] #8: Skelett-Animation
+[eng] #8: Skeleton animation
+[fra] #8: Animation squelettale
+[ita] #8: Animazione dello Scheletro
+[por] #8: Animação de esqueleto
+[spa] #8: Animación del Esqueleto "Skeleton"
+[zho] #8: 骨架动画
+
+2
+00:00:04,130 --> 00:00:07,260
+[deu] Lassen Sie uns zu der Figur zurückkehren, die wir erstellt haben.
+[eng] Let's get back to the character we've made.
+[fra] Retournons au personnage que nous avons créé.
+[ita] Riprendiamo il personaggio che abbiamo creato.
+[por] Vamos voltar para o personagem que fizemos.
+[spa] Volvamos al personaje que creamos.
+[zho] 回到我们做好的角色上。
+
+3
+00:00:07,360 --> 00:00:09,900
+[deu] Nun werden wir sie zum Laufen bringen.
+[eng] Now we are going to make him walk.
+[fra] Nous allons maintenant le faire marcher.
+[ita] Adesso lo faremo camminare.
+[por] Agora vamos fazer ele andar.
+[spa] Ahora vamos a hacerlo caminar.
+[zho] 我们要让他走两步。
+
+4
+00:00:10,160 --> 00:00:14,700
+[deu] Setzen wir die Figur in die Ausgangslage zurück, so hier.
+[eng] Let's put the character into initial position, just like this.
+[fra] Plaçons le personnage à sa position initiale, juste comme cela.
+[ita] Mettiamo il personaggio nella posizione iniziale, così.
+[por] Vamos colocar ele na posição inicial, dessa forma.
+[spa] Pongamos al personaje en posición inicial, como este.
+[zho] 先把角色安放到起始位置，像这样。
+
+5
+00:00:22,040 --> 00:00:25,700
+[deu] Und dann wechseln wir in den Animations-Modus.
+[eng] And then we switch into Animation mode.
+[fra] Et nous pouvons alors basculer en mode Animation.
+[ita] E quindi andiamo in modalità Animazione.
+[por] E então trocamos para o modo de animação.
+[spa] Y luego cambiamos al modo Animación.
+[zho] 现在切换到动画模式中。
+
+6
+00:00:26,220 --> 00:00:30,240
+[deu] Wir werden ihr 16 Bilder geben, um einen Schritt zu machen.
+[eng] We are going to have it take 16 frames to make a step.
+[fra] Nous allons lui faire prendre 16 trames pour faire un pas.
+[ita] Realizzeremo 16 fotogrammi per fargli fare un passo.
+[por] Vamos fazer com que ele leve 16 quadros para fazer um passo.
+[spa] Vamos a tener que tomar 16 fotogramas para dar un paso.
+[zho] 我们打算一步用16帧。
+
+7
+00:00:30,500 --> 00:00:35,660
+[deu] Bewegen Sie die Zeitmarkierung auf Bild 16 und fügen Sie ein neues Schlüsselbild hinzu.
+[eng] Move the time cursor to frame 16 and add a new keyframe.
+[fra] Déplacez le curseur de temps à la trame 16 et ajoutez une nouvelle keyframe.
+[ita] Sposta il cursore della linea tempo al fotogramma 16 e aggiungi un nuovo fotogramma chiave.
+[por] Mova o cursor da linha do tempo para o quadro 16 e adicione um novo quadro-chave.
+[spa] Mueve el cursor de tiempo hasta el fotograma 16 y añade un nuevo fotograma clave.
+[zho] 移动时间光标到16并添加一个新关键帧。
+
+8
+00:00:38,100 --> 00:00:42,830
+[deu] Nun müssen wir die Positionen der Beine vertauschen und die gesamte Figur vorwärts bewegen.
+[eng] Now we have to switch the legs position and move the whole figure forward.
+[fra] Maintenant nous devons changer la position des jambes et déplacer l'ensemble de la silhouette vers l'avant.
+[ita] Ora bisogna regolare la posizione delle gambe e far spostare in avanti l'intera figura.
+[por] Agora nós temos que trocar a posição das pernas e mover a figura interna para frente.
+[spa] Ahora tenemos que cambiar la posición de las piernas y mover toda la figura hacia delante.
+[zho] 现在我们要对换腿的位置并把整个任务往前移。
+
+9
+00:00:42,960 --> 00:00:46,800
+[deu] Doch zunächst will ich die Position ihres vorderen Beines markieren.
+[eng] But first I would like to mark the position of his fore leg.
+[fra] Mais d'abord je voudrais marquer la position de sa jambe placée en avant.
+[ita] Prima però mi piacerebbe marcare la posizione della gamba in avanti.
+[por] Mas primeiro eu queria marcar a posição da perna dianteira.
+[spa] Pero primero me gustaría marcar la posición de la pierna delantera.
+[zho] 不过我想先标记一下他在前的腿。
+
+10
+00:00:47,030 --> 00:00:53,160
+[deu] Erstellen Sie hierzu einfach einen kleinen Kreis an dieser Stelle als Markierung.
+[eng] For that purpose just create a small circle right here, as a marker.
+[fra] Pour ce faire, créez simplement un petit cercle juste ici, comme un marqueur.
+[ita] A questo scopo, si crei un piccolo cerchio proprio qui, come riferimento.
+[por] Para isso, apenas crie um pequeno círculo aqui, como um marcador.
+[spa] Para ello simplemente crea un pequeño círculo aquí, como un marcador.
+[zho] 为此创建一个小圆到这里，作为一个标记。
+
+11
+00:00:57,020 --> 00:01:01,300
+[deu] Nun können wir die Beine vertauschen
+[eng] Now we can switch the legs...
+[fra] Maintenant on peut alterner les jambes...
+[ita] Ora possiamo regolare le gambe ...
+[por] Agora nós podemos trocar as pernas...
+[spa] Ahora podemos cambiar las piernas...
+[zho] 现在我们可以交换双腿了...
+
+12
+00:01:03,160 --> 00:01:05,560
+[deu] …und unser Kerlchen vorwärts bewegen.
+[eng] ...and move the guy forward.
+[fra] ...et déplacer le personnage vers l'avant.
+[ita] ... e spostare il ragazzo in avanti.
+[por] ...e mover o carinha para frente.
+[spa] ...y mover al tipo hacia delante.
+[zho] ...然后移动他向前。
+
+13
+00:01:05,730 --> 00:01:10,630
+[deu] So hier, sodass dieses Bein am selben Platz bleiben sollte.
+[eng] Like this, so this leg should remain in the same place.
+[fra] De cette façon, ainsi cette jambe devrait rester à la même place.
+[ita] Così, quindi questa gamba dovrebbe rimanere nello stesso posto.
+[por] Assim, de forma que a perna fique no mesmo lugar.
+[spa] De esta forma, por lo que esta pierna debe permanecer en el mismo lugar.
+[zho] 就这样，这条腿应当还在原位。
+
+14
+00:01:10,840 --> 00:01:14,900
+[deu] Und vergessen Sie nicht, auch die Arme umzuschalten.
+[eng] And don't forget to switch the arms as well.
+[fra] Et n'oubliez pas de changer les bras de même.
+[ita] E non dimenticarti di regolare anche le braccia.
+[por] E não se esqueça de trocar os braços também.
+[spa] Y no te olvides de cambiar los brazos también.
+[zho] 当然也不要忘了交换手臂。
+
+15
+00:01:25,500 --> 00:01:28,560
+[deu] Bisher sieht die Bewegung noch nicht so gut aus.
+[eng] For now the movement doesn't look that good.
+[fra] Pour le moment le mouvement ne paraît pas si bon.
+[ita] Per adesso il movimento non sembra valido.
+[por] Olhando agora, o movimento não parece muito bom.
+[spa] Por ahora el movimiento no luce tan bien.
+[zho] 目前动作看着不顺眼。
+
+16
+00:01:28,700 --> 00:01:32,630
+[deu] Offensichtlich sollte die Figur beim Laufen ein Bein heben
+[eng] Obviously the character should raise one leg while walking...
+[fra] Visibilement le personnage devrait lever une jambe lorsqu'il marche...
+[ita] Naturalmente il personaggio dovrebbe sollevare una gamba mentre cammina ...
+[por] Obviamente o personagem tem que levantar uma perna enquanto anda...
+[spa] Obviamente el personaje debe levantar una pierna al caminar...
+[zho] 显然的，移动的时候，角色应该抬起一条腿...
+
+17
+00:01:32,860 --> 00:01:35,300
+[deu] …und das andere sollte auf dem Boden bleiben.
+[eng] ...and the other should stay on the ground.
+[fra] ...et l'autre devrait rester au sol.
+[ita] ... e l'altra dovrebbe rimanere col piede sul suolo.
+[por] ...e a outra tem que ficar no chão.
+[spa] ...y la otra debe permanecer en el suelo.
+[zho] ...另一条腿就应该踩在地上。
+
+18
+00:01:35,560 --> 00:01:39,330
+[deu] Daher erstellen wir ein Zwischen-Schlüsselbild und fixieren die Haltung.
+[eng] So we'll create an in-between keyframe and fix the pose.
+[fra] Donc nous allons créer une keyframe intermédiaire et corriger la pose.
+[ita] Quindi creiamo un fotogramma chiave intermedio e correggiamo la posa.
+[por] Então vamos criar um quadro-chave no meio para consertar a pose.
+[spa] Así que vamos a crear un fotograma clave en el medio y arreglar la pose.
+[zho] 我们创建中间的过渡关键帧，调整姿势。
+
+19
+00:01:44,530 --> 00:01:48,760
+[deu] Da dieses Bein das vordere ist, bleibt es auf dem Boden.
+[eng] Since this leg is the fore one, it stays on the ground.
+[fra] Puisque cette jambe est celle en avant, elle reste au sol.
+[ita] Dato che questa gamba è quella in avanti, sta poggiata al suolo.
+[por] Já que está perna é a dianteira, ela fica no chão.
+[spa] Debido a que esta pierna es la delantera, se queda en el suelo.
+[zho] 这是前腿，应该站在地上。
+
+20
+00:01:48,760 --> 00:01:51,060
+[deu] Und dieses hier bewegt sich aufwärts.
+[eng] And this one will go up.
+[fra] Et celle-ci va aller vers le haut.
+[ita] E questa si alzerà.
+[por] E essa aqui vai para cima.
+[spa] Y esta subirá.
+[zho] 而这一天应该抬起来。
+
+21
+00:01:51,300 --> 00:01:54,860
+[deu] Ich klicke jetzt auf den Knochen, um ihn zu markieren.
+[eng] I am clicking the bone point to mark it.
+[fra] Je clique sur le point de l'armature pour la marquer.
+[ita] Sto facendo clic sul punto dell'osso per segnarlo.
+[por] Eu estou clicando no ponto do osso para marcar ele.
+[spa] Estoy haciendo clic en el punto del hueso para marcarlo.
+[zho] 我点击骨骼的点来标识它。
+
+22
+00:01:55,020 --> 00:02:00,930
+[deu] Sie sehen, dass er jetzt hervorgehoben wird, sodass ich ihn von den anderen Knochen unterscheiden kann.
+[eng] You can see it's highlighted now, so I can distinguish it from the other bones.
+[fra] Vous pouvez voir qu'elle est en surbrillance maintenant, on peut donc la distinguer des autres armatures.
+[ita] Ora lo puoi vedere evidenziato, quindi posso distinguerlo dalle altre ossa.
+[por] Você pode ver que está destacado agora, assim eu posso distinguir dos outros ossos.
+[spa] Puedes ver que está resaltado ahora, así que puedo distinguirlo de los otros huesos.
+[zho] 你能看到它高亮显示了，所以我能从其它骨骼中把它区分出来。
+
+23
+00:02:14,660 --> 00:02:22,880
+[deu] Um unsere Animation noch weiter zu verbessern, heben wir den Moment hervor, wenn der Charakter sein Gewicht auf das vordere Bein verlagert.
+[eng] To make our animation even better, We'll put an emphasis on the moment when character shifts his weight to the fore leg.
+[fra] Pour rendre notre animation encore meilleure, nous allons mettre une emphase au moment où le personnage décale son poids vers la jambe en avant.
+[ita] Per rendere migliore la nostra animazione, daremo evidenza al momento in cui il personaggio solleva il suo peso sulla gamba in avanti.
+[por] Para fazer nossa animação ainda melhor, nós iremos colocar uma ênfase no momento em que o personagem faz peso na perna dianteira.
+[spa] Para hacer nuestra animación aún mejor, vamos a enfatizar el momento cuando el personaje cambia su peso a la pierna delantera.
+[zho] 为了让动画更漂亮，我们在角色转移重心到前腿的那一刻给个强调。
+
+24
+00:02:23,320 --> 00:02:26,660
+[deu] Fügen Sie hier ein Schlüsselbild hinzu...
+[eng] Add a keyframe here...
+[fra] Ajoutez une keyframe ici...
+[ita] Aggiungi un fotogramma chiave qui ...
+[por] Adicionar um quadro-chave aqui...
+[spa] Agrega un fotograma clave aquí...
+[zho] 此处添加一个关键帧...
+
+25
+00:02:27,380 --> 00:02:32,060
+[deu] …und dann passen Sie den Fuß an, um den Schritt hervorzuheben.
+[eng] ...and then we adjust the foot to emphasis the step.
+[fra] ...et alors nous ajustons le pied pour mettre l'emphase sur le pas.
+[ita] ... e poi aggiustiamo il piede per evidenziare il passo.
+[por] ...e então nós ajustamos o pé para enfatizar o passo.
+[spa] ...y luego ajustamos el pie para enfatizar el paso.
+[zho] ...然后我们通过调整足部动作来强调这一步。
+
+26
+00:02:33,780 --> 00:02:36,930
+[deu] So hier.
+[eng] Like this.
+[fra] Comme ceci.
+[ita] Così.
+[por] Assim.
+[spa] Así.
+[zho] 像这样。
+
+27
+00:02:39,600 --> 00:02:42,160
+[deu] Der erste Schritt ist gemacht.
+[eng] The first step is done.
+[fra] Le premier pas est fait.
+[ita] Il primo passo è fatto.
+[por] O primeiro passo está pronto.
+[spa] El primer paso está hecho.
+[zho] 第一步做好了。
+
+28
+00:02:42,420 --> 00:02:46,860
+[deu] Den zweiten erstellen wir auf genau dieselbe Weise.
+[eng] We'll make the second exactly the same way.
+[fra] Nous allons faire le second exactement de la même façon.
+[ita] Faremo il secondo esattamente allo stesso modo.
+[por] Vamos fazer o segundo exatamente da mesma forma.
+[spa] Vamos a hacer el segundo de la misma forma.
+[zho] 我们要用完全相同的方法做第二步。
+
+29
+00:02:49,120 --> 00:02:52,830
+[deu] Markieren Sie die Position des vorderen Beins
+[eng] Mark the position of the fore leg...
+[fra] Marquez la position de la jambe en avant...
+[ita] Segna la posizione della gamba avanti ...
+[por] Marque a posição da perna dianteira...
+[spa] Marca la posición de la pierna delantera...
+[zho] 标记前腿的位置...
+
+30
+00:02:55,730 --> 00:03:00,560
+[deu] Und die Schlüssel-Haltung, welche die Figur hat, wenn sie gerade den zweiten Schritt gemacht hat.
+[eng] Add the key pose, when a character has already completed the second step.
+[fra] Ajoutez une pose clé, quand le personnage a déjà fini le second pas.
+[ita] Aggiungi una posa chiave quando il personaggio ha già completato il secondo passo.
+[por] Adicione uma pose principal, quando o personagem já tiver completado o segundo passo.
+[spa] Agrega la pose clave, cuando el personaje ya ha completado el segundo paso.
+[zho] 当角色完成第二步时，添加关节姿势。
+
+31
+00:03:00,800 --> 00:03:03,730
+[deu] Diese Haltung ist dieselbe wie am Anfang.
+[eng] This pose is the same as the beginning.
+[fra] Cette pose est la même qu'au début.
+[ita] Questa posa è la stessa di quella dell'inizio.
+[por] Essa pose é a mesma do começo.
+[spa] Esta pose es la misma que al principio.
+[zho] 此处姿势和开头一模一样。
+
+32
+00:03:03,930 --> 00:03:07,200
+[deu] Wir können also einfach das Schlüsselbild kopieren
+[eng] So we can just copy the keyframe...
+[fra] Donc nous pouvons simplement copier la keyframe...
+[ita] Quindi basta solo copiare il fotogramma chiave ...
+[por] Então nós podemos apenas copiar o quadro-chave...
+[spa] Así que simplemente podemos copiar el fotograma clave.
+[zho] 所以只要拷贝一下这个关键帧...
+
+33
+00:03:08,480 --> 00:03:12,200
+[deu] …und die Figur an die rechte Position bewegen.
+[eng] ... and move the character to the right position.
+[fra] ... et déplacer le personnage à la bonne position.
+[ita] ... e spostare il personaggio nella posizione corretta.
+[por] ... e mover o personagem para a posição certa.
+[spa] ... y mover el personaje hacia la posición correcta.
+[zho] ... 移动角色到恰当的位置。
+
+34
+00:03:15,260 --> 00:03:20,360
+[deu] Nun fügen wir erneut ein Zwischenbild hinzu.
+[eng] Now we'll add an in-between frame again.
+[fra] Maintenant nous allons ajouter à nouveau une trame intermédiaire.
+[ita] Adesso aggiungiamo di nuovo un fotogramma intermedio.
+[por] Agora nós vamos adicionar um quadro no meio novamente.
+[spa] Ahora vamos a añadir un fotograma en el medio de nuevo.
+[zho] 现在我们要再次添加一个过渡帧。
+
+35
+00:03:21,030 --> 00:03:23,580
+[deu] Diesmal befindet sich dieses Bein auf dem Boden
+[eng] This time, this leg is on the ground...
+[fra] Cette fois, cette jambe est au sol...
+[ita] Questa volta, questa gamba poggia sul suolo...
+[por] Dessa vez, essa perna está no chão...
+[spa] Esta vez, esta pierna está en el suelo...
+[zho] 这次，是这条腿站在地上...
+
+36
+00:03:23,760 --> 00:03:26,760
+[deu] …und dieses ist in der Luft.
+[eng] ...and this one in the air.
+[fra] ...et celle-là est en l'air.
+[ita] ... e questa è sollevata in aria.
+[por] ...e essa está no no ar.
+[spa] ...y esta otra en el aire.
+[zho] ...而这条抬起在空中。
+
+37
+00:03:30,600 --> 00:03:35,400
+[deu] Heben Sie dann die Bewegung beim Setzen des Schritts hervor.
+[eng] Then emphasize the movement at the step.
+[fra] Puis mettons l'emphase sur le mouvement à ce pas.
+[ita] Poi enfatizza il movimento del passo.
+[por] Então enfatize o movimento no passo.
+[spa] Luego, acentúa el movimiento en el paso.
+[zho] 然后强调一下这一步的移动。
+
+38
+00:03:40,960 --> 00:03:44,330
+[deu] Und schon haben wir zwei Schritte fertig.
+[eng] And now we have two steps ready.
+[fra] Et maintenant nous avons deux pas prêts.
+[ita] E adesso abbiamo due passi pronti.
+[por] E agora nós temos dois passos prontos.
+[spa] Y ahora tenemos dos pasos listos.
+[zho] 我们做好了两步了。
+
+39
+00:03:46,000 --> 00:03:51,860
+[deu] Für den dritten Schritt können Sie einfach das Schlüsselbild kopieren und die Figur weiter vorwärts bewegen.
+[eng] For the third step you can simply copy the keyframes and keep moving the character forward.
+[fra] Pour le troisième pas, nous pouvons simplement copier les keyframes et continuer à déplacer le personnage vers l'avant.
+[ita] Per il terzo passo, si può semplicemente copiare i fotogrammi chiave e continuare a far muovere in avanti il personaggio.
+[por] Para o terceiro passo você pode simplesmente copiar os quadros-chave e ir movendo o personagem para frente.
+[spa] Para el tercer paso simplemente puedes copiar los fotogramas claves y seguir avanzando el personaje.
+[zho] 对于第三步你可以简单拷贝这些关键帧并保持角色向前移。
+
+40
+00:03:52,100 --> 00:03:56,130
+[deu] Doch Lassen Sie uns vorher die Bilder benennen, damit wir nichts durcheinander bringen.
+[eng] But before we do that, let's name the frames to avoid messing up.
+[fra] Mais avant de faire cela, nommons les trames pour éviter de mettre le bazar.
+[ita] Prima di fare questo però, nominiamo i fotogrammi per evitare confusione.
+[por] Mas antes de fazermos isso, vamos nomear os quadros para evitar bagunçar tudo.
+[spa] Pero antes, vamos a nombrar los fotogramas para evitar estropear todo.
+[zho] 不过做之前，我们给这些帧起名以避免混乱。
+
+41
+00:03:56,230 --> 00:03:58,030
+[deu] Wollen wir sie folgendermaßen benennen:
+[eng] Let's name them as follows:
+[fra] Nommons-les comme suit:
+[ita] Nominiamoli come segue:
+[por] Vamos nomear da seguinte forma:
+[spa] Vamos a nombrarlos de la siguiente manera:
+[zho] 起名如下:
+
+42
+00:03:58,300 --> 00:04:01,200
+[deu] „0“, „0-Schritt“
+[eng] "0", "0-step" ...
+[fra] "0", "0-step" ...
+[ita] "0", "0-passo" ...
+[por] "0", "0-passo" ...
+[spa] "0", "0-paso" ...
+[zho] "0", "0-step" ...
+
+43
+00:04:01,340 --> 00:04:04,420
+[deu] „0-bis-1“, „1“
+[eng] "0-to-1", "1"...
+[fra] "0-to-1", "1"...
+[ita] "0-a-1", "1" ...
+[por] "0-para-1", "1" ...
+[spa] "0-a-1", "1"...
+[zho] "0-to-1", "1"...
+
+44
+00:04:04,680 --> 00:04:06,830
+[deu] „1-Schritt“
+[eng] "1-step"...
+[fra] "1-step"...
+[ita] "1-passo"...
+[por] "1-passo" ...
+[spa] "1-paso"...
+[zho] "1-step"...
+
+45
+00:04:06,960 --> 00:04:08,830
+[deu] „1-bis-0…
+[eng] "1-to-0"...
+[fra] "1-to-0"...
+[ita] "da 1-a-0"...
+[por] "1-para-0" ...
+[spa] "1-a-0"...
+[zho] "1-to-0"...
+
+46
+00:04:09,000 --> 00:04:10,960
+[deu] …und noch einmal „0“.
+[eng] ...and, again, "0".
+[fra] ...et à nouveau, "0".
+[ita] ...e di nuovo "0".
+[por] ...e, novamente, "0".
+[spa] ...y, nuevamente, "0".
+[zho] ...然后, 又是, "0".
+
+47
+00:04:11,680 --> 00:04:15,230
+[deu] Markieren Sie nun die Position des Beins...
+[eng] Now mark the position of this leg...
+[fra] Maintenant marquez la position de cette jambe...
+[ita] Adesso segniamo la posizione di questa gamba...
+[por] Agora marque a posição dessa perna...
+[spa] Ahora marca la posición de esta pierna...
+[zho] 现在标记这条腿的位置...
+
+48
+00:04:17,100 --> 00:04:20,060
+[deu] Und kopieren Sie die Bilder.
+[eng] And copy the frames.
+[fra] Et copiez les keyframes.
+[ita] E copiamo i fotogrammi.
+[por] E copie os quadros-chave.
+[spa] Y copia los fotogramas.
+[zho] 拷贝这些帧。
+
+49
+00:04:46,300 --> 00:04:50,060
+[deu] Wir müssen alle Schlüsselbilder aufmerksam durchgehen…
+[eng] We properly need to go through all the keyframes...
+[fra] Nous avons probablement besoin de repasser par toutes les keyframes...
+[ita] Occorre percorrere tutti i keyframes ...
+[por] Nós provavelmente precisamos ir por todos os quadros-chave...
+[spa] Debemos recorrer todos los fotogramas clave adecuadamente...
+[zho] 我们需要全部关键帧...
+
+50
+00:04:50,120 --> 00:04:56,330
+[deu] …und den Hauptknochen der Figur anpassen, damit ihre Füße nicht aussehen, als würden sie auf dem Boden entlang rutschen.
+[eng] ...  and adjust the main bone of the character so its feet don't appear slip against the ground.
+[fra] ...pour ajuster l'armature principale du personnage afin que ses pieds ne paraissent pas glisser sur le sol.
+[ita] ... e correggere l'osso principale del personaggio in modo che i suoi piedi non sembrino scivolare sul suolo.
+[por] ... e ajustar o osso principal do personagem de forma que o pé não pareça deslizar no chão.
+[spa] ...y ajustar el hueso principal del personaje para que sus pies no parezcan deslizarse sobre el suelo.
+[zho] ...  然后调整角色的主骨骼让他的足部不会在地板上打滑。
+
+51
+00:05:15,300 --> 00:05:17,830
+[deu] OK, fertig.
+[eng] OK, it's done.
+[fra] Ok, c'est fait.
+[ita] Ok, abbiamo finito.
+[por] Ok, aí está.
+[spa] Bien, eso es todo.
+[zho] 好，这样就做完了。
+

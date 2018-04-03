@@ -1,0 +1,370 @@
+1
+00:00:00,700 --> 00:00:02,860
+[deu] #3: Rendern
+[eng] #3: Rendering
+[fra] #3: Rendu de l'Animation
+[ita] #3: Rendering
+[por] #3: Renderizando
+[spa] #3: Renderizado
+[zho] #3: 渲染
+
+2
+00:00:04,020 --> 00:00:08,390
+[deu] Unsere erste Animation ist fertig. Sie ist ziemlich einfach, aber das ist auch erst der Anfang!
+[eng] Our first animation is ready. It's pretty simple, but that's only the beginning!
+[fra] Notre première animation est prête. Elle est assez simple, mais ce n'est que le début !
+[ita] La nostra prima animazione è pronta. E' piuttosto semplice, ma questo è soltanto l'inizio !
+[por] Nossa primeira animação está pronta.  É bastante simples, mas este é apenas o começo!
+[spa] Nuestra primera animación está lista. Es bastante simple, pero apenas estamos comenzando.
+[zho] 我们的第一段动画准备好了。很简单，但我们只是刚刚开始我们的 Synfig 之旅。
+
+3
+00:00:12,310 --> 00:00:15,000
+[deu] Wir werden jetzt unser Projekt rendern.
+[eng] Now we are going to render our project.
+[fra] Nous allons maintenant faire le rendu de notre projet.
+[ita] Adesso faremo il render del nostro progetto.
+[por] Agora vamos renderizar nosso projeto.
+[spa] Ahora vamos a renderizar nuestro proyecto.
+[zho] 我们现在要渲染我们的项目。
+
+4
+00:00:17,500 --> 00:00:23,530
+[deu] Rendern ist der Vorgang, bei dem die Animation in eine Videodatei oder in eine Reihe von Einzelbildern konvertiert wird.
+[eng] Rendering is the process of converting the animation into a video file or into a series of still images.
+[fra] Le rendu est le processus de conversion de l'animation en un fichier vidéo ou une série d'images fixes.
+[ita] Il rendering è il processo di conversione di un'animazione in un file video o in una serie di files di immagini fisse.
+[por] Renderizar é o processo de conversão da animação em arquivo de vídeo ou numa série de imagens.
+[spa] El renderizado /rendering/ es el proceso de convertir nuestra animación en un archivo de video, o una serie de imágenes fijas.
+[zho] 渲染是转换动画为一个视频文件或者系列静态图像文件。
+
+5
+00:00:25,560 --> 00:00:29,220
+[deu] Klickten Sie auf diesen Knopf, um den Dialog für die Render-Einstellungen zu öffnen.
+[eng] Click on this button to open the Render Settings dialog.
+[fra] Cliquez sur ce bouton pour ouvrir le dialogue Render Settings.
+[ita] Fai clic su questo tasto per aprire la finestra di dialogo Render Settings - Impostazioni Render.
+[por] Clique neste botão para abrir a janela de Configurações de Render
+[spa] Haz click en este botón para abrir la ventana de configuración del renderizador.
+[zho] 点击这个按钮打开渲染设置对话框。
+
+6
+00:00:30,850 --> 00:00:33,970
+[deu] Wollen wir unsere Animation in eine AVI-Datei rendern.
+[eng] Let's render our animation into AVI file.
+[fra] Faisons le rendu de notre animation dans un fichier AVI.
+[ita] Realizziamo il render della nostra animazione in un file formato AVI.
+[por] Vamos renderizar nossa animação para um arquivo AVI.
+[spa] Vamos a renderizar nuestra animación en formato AVI.
+[zho] 我们把动画渲染为AVI文件。
+
+7
+00:00:35,810 --> 00:00:41,680
+[deu] Geben Sie „first animation“ in das Dateiname-Feld ein und fügen Sie „.avi“ als die Erweiterung hinzu.
+[eng] Type "first-animation" in the Filename field. And add ".avi" as the extension.
+[fra] Entrez "first-animation" dans le champ Filename. Et ajoutez ".avi" comme extension.
+[ita] Digita "first-animation" nel campo Filename. E aggiungi ".avi" come estensione.
+[por] Escreva "primeira-animacao" no campo "Nome do arquivo". E adicione ".avi" na extensão.
+[spa] Escribe "primera-animación" en el campo Filename. Y añade ".avi" como extensión.
+[zho] 在文件名的框框内输入“first-animation”，添加 .avi 作为后缀。
+
+8
+00:00:46,220 --> 00:00:51,100
+[deu] Sie können ebenso auf den „Auswählen“-Knopf klicken, um den Ausgabe-Pfad für das gerenderte Video anzugeben.
+[eng] You can also click the "Choose..." button to specify the path for the rendered video.
+[fra] Vous pouvez également cliquer le bouton "Choose..." pour spécifier le chemin de la vidéo rendue.
+[ita] Puoi anche fare clic sul tasto "Scegli..." per specificare il percorso per il video renderizzato.
+[por] Você também pode clicar no botão "Escolher..." para especificar o caminho do vídeo renderizado.
+[spa] También puedes dar click en el botón "Choose..." para especificar la ruta de acceso del video renderizado.
+[zho] 你可以点击“选择...”按钮指定渲染的视频文件路径。
+
+9
+00:00:57,850 --> 00:01:03,680
+[deu] Das ist im Grunde genug. Synfig nutzt standardmäßig den verlustfreien H.264-Codec.
+[eng] Basically that should be enough. By default Synfig will use the lossless H.264 codec.
+[fra] Basiquement ce devrait être suffisant. Par défaut Synfig utilisera le codec sans perte H.264.
+[ita] Fondamentalmente, potrebbe bastare. Per default, Synfig userà il codec lossless H.264.
+[por] Isso deve ser o suficiente. Por padrão o Synfig usa o codec sem perdas H.264.
+[spa] Generalmente, eso debería de ser suficiente. Synfig usará por defecto el codec sin pérdida H.264.
+[zho] 基本上这样就可以了。默认情况下 Synfig 使用无损的 H.264 codec
+
+10
+00:01:04,390 --> 00:01:08,100
+[deu] Dieses Format bietet Kompression ohne Qualitätsverlust…
+[eng] This format provides compression without any loss of quality...
+[fra] Ce format fournit de la compression sans aucune perte de qualité...
+[ita] Questo formato fornisce una compressione senza alcuna perdita di qualità ...
+[por] Esse formato oferece compressão sem nenhuma perda de qualidade...
+[spa] Este formato proporciona compresión sin pérdida de calidad.
+[zho] 这个格式是无损带压缩的...
+
+11
+00:01:08,100 --> 00:01:14,600
+[deu] …und das ist eine gute Sache, wenn Sie planen, Ihre Animation in einer Video-Bearbeitungs-Software zu verwenden, um Szenen zusammenzustellen oder Sound hinzuzufügen.
+[eng] ...and this is a perfect choice if you plan to put your animation in a video editing software for merging scenes or adding sound.
+[fra] ..et c'est un choix parfait si vous prévoyez de mettre votre animation dans un logiciel d'édition vidéo pour assembler des scènes ou ajouter des sons.
+[ita] ... e questo rappresenta una scelta ideale, se conti di mettere la tua animazione in un software di video editing per combinare scene o per aggiungere il sonoro.
+[por] ...e essa é a escolha perfeita se você planeja colocar sua animação em um software de edição de vídeo para juntar as cenas e colocar som.
+[spa] ... y es una elección perfecta cuando queremos usar la animación en un software de edición de video para fusionarle escenas o agregarle sonido.
+[zho] ...这个是完美的选择，如果你打算把动画放到视频编辑软件做场景整合或者声音的添加。
+
+12
+00:01:14,680 --> 00:01:18,600
+[deu] Sollten Sie einen anderen Codec benötigen, nutzen Sie die folgenden Schritte.
+[eng] But if you need use a different codec, then ueg the following actions.
+[fra] Mais si vous avez besoin d'utiliser un codec différent, alors effectuez les actions suivantes.
+[ita] Se però devi usare un differente codec, allora segui questo metodo.
+[por] Mas se você precisar de um codec diferente, então faça o seguinte:
+[spa] Cuando necesites usar un codec diferente, debes seguir las siguientes acciones:
+[zho] 但是如果你需要用不同的解码器(codec)，那么跟随后面的动作。
+
+13
+00:01:18,970 --> 00:01:21,810
+[deu] Wählen Sie „ffmpeg“ aus dem Ziel-Dropdown-Menü.
+[eng] Choose "ffmpeg" from the Target dropdown.
+[fra] Choisissez "ffmpeg" dans la liste déroulante Target.
+[ita] Scegli "ffmpeg" dal menu a discesa Target -  Bersaglio
+[por] Escolhe "ffmpeg" da caixa de seleção Destino.
+[spa] Selecciona "ffmpeg" en el menú desplegable Target.
+[zho] 从目标(Target)下拉菜单中选择 “ffmpeg” 。
+
+14
+00:01:23,100 --> 00:01:25,180
+[deu] Der „Parameter“-Knopf wird aktiv.
+[eng] The "Parameters" button becomes active.
+[fra] Le bouton "Parameters" devient actif.
+[ita] Il tasto "Parameters" si attiva.
+[por] O botão "Parâmetros" fica ativo.
+[spa] Esto activa el botón "Parameters".
+[zho] 参数(Parameters)按钮激活.
+
+15
+00:01:25,720 --> 00:01:30,430
+[deu] Klicken Sie ihn an, um einen weiteren Konfigurations-Dialog zu öffnen, in dem Sie den Video-Codec…
+[eng] Click it to open another configuration dialog where you can choose the video codec...
+[fra] Cliquez-le pour ouvrir un autre dialogue de configuration où vous pourrez choisir le codec vidéo...
+[ita] Fai clic su di esso per aprire un'altra finestra di dialogo di configurazione, dove puoi scegliere il codec video ...
+[por] Clique nele para abrir outra janela de configuração onde você pode escolher o codec de vídeo...
+[spa] Presiónalo para abrir otra ventana donde se puede seleccionar el códec de video...
+[zho] 点击它打开另一个配置对话框，在那你可以选择视频解码器(codec)。
+
+16
+00:01:32,640 --> 00:01:33,850
+[deu] …sowie die Bitrate wählen können.
+[eng] ...and the bitrate.
+[fra] ...et le bitrate.
+[ita] ... e il bitrate.
+[por] ...e a taxa de bits.
+[spa] ... y la tasa de bits /Bit Rate/.
+[zho] ...还有位率.
+
+17
+00:01:35,970 --> 00:01:41,020
+[deu] In unserem Fall sind wir glücklich mit den Standard-Werten, also lassen wir alles, wie es ist.
+[eng] In our case we are pretty happy with default values so let's leave everything as is.
+[fra] Dans notre cas, nous sommes assez satisfaits des valeurs par défaut donc on va tout laisser tel quel.
+[ita] Nel nostro caso siamo abbastanza soddisfatti con i valori di default, così lasciamo tutto così com'è.
+[por] No nosso caso estamos bem satisfeitos com os valores padrão, então vamos deixar tudo como está.
+[spa] En nuestro caso, estamos satisfechos con los valores por defecto, así que vamos a dejar todo como está.
+[zho] 我们的例子中，缺省值就非常不错了，所以就不用动它们了。
+
+18
+00:01:43,560 --> 00:01:47,970
+[deu] Im unteren Bereich des Dialoges können wir Einstellungen wie die Bildbreite und -höhe bestimmen.
+[eng] At the bottom part of the dialog we can set parameters like image width and height.
+[fra] Dans la partie basse du dialogue nous pouvons définir des paramètres comme la largeur et la hauteur de l'image.
+[ita] Nella parte bassa della finestra di dialogo possiamo impostare parametri quali larghezza e altezza dell'immagine.
+[por] Na parte de baixo da janela nós podemos definir propriedades como largura e altura da imagem.
+[spa] En la parte inferior de la ventana podemos configurar parámetros como el ancho y la altura de la imagen.
+[zho] 在对话框的底部我们可以设置多个参数，比如图像宽度和高度。
+
+19
+00:01:48,470 --> 00:01:52,560
+[deu] Wechseln Sie zum „Zeit“-Reiter, um die Zeitspanne festzulegen, die gerendert werden soll.
+[eng] Switch to the Time tab to specify the timespan you'd like to render.
+[fra] Basculez vers l'onglet Temps pour spécifier l'étendue temporelle que vous aimeriez rendre.
+[ita] Passiamo al quadro Time per specificare l'intervallo che vuoi renderizzare.
+[por] Clique na aba Tempo para especificar o intervalo que você quer renderizar.
+[spa] Ahora ve a la pestaña Tiempo /Time/ para especificar la sección de tiempo a renderizar.
+[zho] 切换到时间标签设定你想要渲染的时间跨度。
+
+20
+00:01:53,930 --> 00:02:01,680
+[deu] Nun ist alles bereit, klicken Sie also einfach auf „Render“ und warten Sie, bis die Meldung „Datei erfolgreich gerendert“ am unteren Rand der Arbeitsfläche ausgegeben wird.
+[eng] Everything's ready, so just click "Render" and wait until a message "File rendered successfully" appears at the bottom of the Canvas window.
+[fra] Tout est prêt, cliquez juste sur "Render" et attendez juqu'à ce qu'un message "File rendered successfully" apparaisse au bas de la fenêtre Canevas.
+[ita] Tutto è pronto, quindi fai click su "Render" e attendi fino a quando compare un messaggio "File renderizzato con successo" in fondo alla Finestra Canvas - Inquadratura.
+[por] Tudo pronto, agora é só clicar "Renderizar" e esperar até que a mensagem "Arquivo renderizado com sucesso" apareça na parte de baixo da janela do Canvas.
+[spa] Todo está listo, así que solo damos click en "Render" y esperamos hasta que el mensaje "File rendered successfully" (Archivo renderizado exitosamente) aparezca en la parte inferior de la ventana del lienzo.
+[zho] 都设置好了，只要点击“渲染”(Render)并等到画布窗口底部出现一条“文件渲染成功”的信息。
+
+21
+00:02:04,220 --> 00:02:07,350
+[deu] Die fertige Datei wurde im vorher festgelegten Verzeichnis gespeichert.
+[eng] The resulting file will be saved in the specified location.
+[fra] Le fichier résultant sera enregistré à l'emplacement spécifié.
+[ita] Il file risultante sarà salvato nella posizione specificata.
+[por] O arquivo será salvo no local especificado.
+[spa] El archivo resultante se guardará en la ubicación específicada.
+[zho] 结果文件会保存到指定的文件地方。
+
+22
+00:02:15,860 --> 00:02:21,020
+[deu] Um das Projekt als animiertes gif zu rendern, hängen Sie „.gif“ als Dateinamens-Erweiterung an den Dateinamen an…
+[eng] To render the project as an animated gif, add a .gif file extension to the filename...
+[fra] Pour rendre le projet sous forme de fichier gif animé, ajoutez l'extension .gif au nom de fichier...
+[ita] Per il render di un progetto come gif animato, aggiungi l'estensione di file .gif al nome del file...
+[por] Para renderizar o projeto como uma gif animada, adicione a extensão .gif ao nome do arquivo...
+[spa] Para renderizar el proyecto como un gif animado, agrega la extensión ".gif" al nombre del archivo...
+[zho] 要渲染项目为动画GIF，添加 .gif 后缀到文件名后面...
+
+23
+00:02:23,220 --> 00:02:27,390
+[deu] …und wählen Sie „macgick++“ aus dem Ziel-Dropdown-Menü.
+[eng] ...and choose a "magick++" from the Target dropdown.
+[fra] ...et choisissez "magick++" dans la liste déroulante Target.
+[ita] ... e scegli un "magick++" dal menu a discesa Target.
+[por] ...e escolha a opção "magick++" da caixa Destino.
+[spa] ... y elige "magick++" en el menú desplegable Target.
+[zho] ...并从目标下拉菜单中选择“magick++”。
+
+24
+00:02:31,060 --> 00:02:34,180
+[deu] Lassen Sie uns das erstellte gif am festgelegten Speicherort überprüfen.
+[eng] Let's check the resulting gif in the specified location.
+[fra] Vérifions le gif résultant à l'emplacement spécifié.
+[ita] Controlliamo il gif risultante nella posizione specificata.
+[por] Vamos ver o resultado da gif no local onde colocamos.
+[spa] Vamos a comprobar el gif resultante en la ubicación especificada.
+[zho] 查看下在指定地方的最终 gif。
+
+25
+00:02:40,930 --> 00:02:44,730
+[deu] Wenn Sie das aktuelle Bild als einzelnes PNG-Bild rendern möchten…
+[eng] If you'd like to render the current frame as a single PNG image...
+[fra] Si vous voulez rendre la trame en cours dans un fichier PNG unique...
+[ita] Se vuoi il render del fotogramma corrente come una singola immagine PNG ...
+[por] Se você quiser renderizar o quadro atual como uma imagem PNG...
+[spa] Si quieres renderizar únicamente el cuadro actual como una sola imagen PNG...
+[zho] 如果你想渲染当前帧为单个PNG图像...
+
+26
+00:02:44,850 --> 00:02:48,930
+[deu] …ändern Sie die Dateinamens-Erweiterung in „.png“…
+[eng] ...change the file extension to .png...
+[fra] ...changez l'extension en .png...
+[ita] ...cambia l'estensione del file in .png...
+[por] ...mude a extensão do arquivo para .png....
+[spa] ... cambia la extensión del archivo a .png...
+[zho] ...改变文件后缀为 .png...
+
+27
+00:02:53,660 --> 00:02:56,930
+[deu] dann ändern Sie das Ziel in „Auto“…
+[eng] then switch Target to "Auto"...
+[fra] puis basculez Target en "Auto"...
+[ita] poi regola Target su "Auto"...
+[por] e então mude o valor em Destino para "Automático"...
+[spa] luego cambia Target a "Auto"...
+[zho] 然后切目标为(Target) “自动”(Auto)...
+
+28
+00:02:57,800 --> 00:03:03,900
+[deu] …und aktivieren Sie das „Nur das aktuelle Bild rendern“ Kontrollkästchen.
+[eng] ...and activate the "Render current frame only" checkbox.
+[fra] ...et activez la case à cocher "Render current frame only".
+[ita] ... e attiva il quadro di controllo "Render solo il fotogramma corrente".
+[por] ...e marque a caixa de seleção "Renderizar apenas o quadro atual".
+[spa] ...y activa la casilla "Render current frame only" (Sólo renderizar cuadro actual).
+[zho] ...然后激活“仅渲染当前帧”复选框。
+
+29
+00:03:05,640 --> 00:03:07,660
+[deu] Und hier ist das Ergebnis.
+[eng] And here's the result.
+[fra] Et voici le résultat.
+[ita] Ed ecco il risultato.
+[por] E este é o resultado.
+[spa] Aquí tenemos el resultado.
+[zho] 这就是结果。
+
+30
+00:03:12,680 --> 00:03:20,930
+[deu] Zu guter Letzt zeige ich Ihnen eine Render-Methode, die häufig im professionellen Bereich verwendet wird, wenn Animationen erstellt werden, die ihre Hintergrund-Transparenz behalten sollen.
+[eng] Finally, I'll show one more type of rendering that is often used by professionals when they want to render animation preserving background transparency.
+[fra] Finalement, je vais montrer un type de rendu de plus qui est souvent utilisé par les professionnels qui veulent rendre l'animation en préservant la transparence du fond.
+[ita] Infine, vi mostrerò un altro tipo di rendering, spesso impiegato dai professionisti quando vogliono il render di animazioni mantenendo trasparenza del fondale.
+[por] Finalmente, eu vou mostrar mais um tipo de renderização que é usado comumente por profissionais quando eles querem renderização uma animação preservando a transparência do fundo.
+[spa] Finalmente, les mostraré un tipo más de renderizado que los profesionales utilizan a menudo cuando quieren conservar la trasparencia del fondo al renderizar su animación.
+[zho] 最后，我要再展示另外一种渲染类型，这是很多行家在想渲染动画并且保留透明度的情况之时常用的。
+
+31
+00:03:21,060 --> 00:03:29,140
+[deu] Ein transparenter Hintergrund erlaubt es uns, Animationen mit anderen Clips zu kombinieren oder sie mit weiteren Effekten in entsprechenden Bearbeitungs- oder Compositing-Anwendungen zu erweitern.
+[eng] A transparent background allows us to combine animation with other clips or enhance it with effects in editing or compositing applications.
+[fra] Un fond transparent nous permet de combiner une animation avec d'autres clips ou l'améliorer avec des effets dans des applications d'édition ou de composition.
+[ita] Un fondale trasparente consente di combinare l'animazione con altre clip o di migliorarla con effetti nelle applicazioni di editing e compositing
+[por] Um fundo transparente nos permite combinar uma animação com outros clipes ou melhorá-la com efeitos em programas de edição ou composição.
+[spa] El fondo transparente permite combinar la animación con otros clips, o mejorarla con efectos utilizando aplicaciones de composición o de edición.
+[zho] 透明度背景允许我们把动画和别的剪辑进行合成，也可在编辑或者合成应用程序中添加效果。
+
+32
+00:03:29,810 --> 00:03:34,060
+[deu] In diesem Fall wird das Rendern in Form einer Reihe von PNG-Dateien durchgeführt.
+[eng] In this case rendering is performed as a sequence of PNG images.
+[fra] Dans ce cas le rendu est effectué par une séquence d'images PNG.
+[ita] In questo caso il render si svolge come una sequenza di immagini PNG.
+[por] Neste caso a renderização é feita como uma sequencia de imagens PNG.
+[spa] En este caso, el renderizado producirá una secuencia de imágenes PNG.
+[zho] 在这种情形下渲染出一系列的PNG图像。
+
+33
+00:03:36,060 --> 00:03:43,600
+[deu] Die Einstellungen sind die gleichen wie beim Rendern als Einzelbild, außer dass das „Nur das aktuelle Bild rendern“ Kontrollkästchen nicht angehakt sein darf.
+[eng] The settings are the same as when rendering a single frame, except the "Render current frame only" checkbox needs to be unchecked.
+[fra] Les réglages sont les mêmes que lors du rendu d'une seule trame, à l'exception de la case à cocher "Render current frame only" qui doit être décochée.
+[ita] Le impostazioni sono le stesse di quando si fa il render di un singolo fotogramma, tranne per il fatto che in questo caso il quadro di controllo "Render current frame only" deve essere senza spunta.
+[por] As configurações são as mesmas de quando se renderiza um único quadro, exceto que a caixa "Renderizar apenas o quadro atual" precisa ser desmarcada.
+[spa] Así que utilizamos los mismos ajustes que al renderizar un solo cuadro, pero ahora la casilla "Render current frame only" deberá estar deseleccioanda.
+[zho] 设定和之前的渲染单帧是一样的，除了“仅渲染当前帧”的复选框要取消掉之外。
+
+34
+00:03:44,180 --> 00:03:46,900
+[deu] Klicken Sie auf „Rendern“ und warten Sie ab.
+[eng] Click "Render" and wait.
+[fra] Cliquez sur "Render" et attendons.
+[ita] Click "Render" e attendi.
+[por] Clique "Renderizar" e espere.
+[spa] Damos click en "Render", y esperamos.
+[zho] 点击“渲染”并等待。
+
+35
+00:03:47,680 --> 00:03:51,770
+[deu] Diese Methode nutzt außerdem eine verlustfreie Kompression…
+[eng] In this mode we also will have compression without any loss of quality...
+[fra] Dans ce mode nous pouvons aussi avoir de la compression sans la moindre perte de qualité...
+[ita] In questa modalità si avrà anche compressione senza alcuna perdita di qualità...
+[por] Neste modo você também terá compressão sem nenhuma perda de qualidade...
+[spa] De este modo también logramos compresión sin pérdida de calidad,
+[zho] 这个模式也是带有压缩但不会有任何质量损失...
+
+36
+00:03:52,430 --> 00:03:59,530
+[deu] …sodass sie eine gute Option darstellt, wenn Ihr Video-Bearbeitungsprogramm das H.264-Format nicht unterstützt.
+[eng] ...so it's a good option if your video editor doesn't supports the H.264 lossless format that we've mentioned in the very beginning.
+[fra] ...donc c'est une bonne option si votre éditeur vidéo ne supporte pas le format sans perte H.264 que nous avons déjà mentionné au tout début.
+[ita] ... quindi questa è una buona opzione se il tuo editor video non dovesse supportare il formato lossless H.264 menzionato all'inizio.
+[por] ...então é uma boa opção se seu editor de vídeo não suporta o formato H.264 que mencionamos lá no começo.
+[spa] ...por lo que es una buena opción cuando nuestro editor de video no soporta el formato sin pérdida H.264 que mencionamos al principio.
+[zho] ...假如你的视频编辑软件不支持我们一开始提到的 H.264 的无损格式，那么这个模式是非常好的选择。
+
+37
+00:04:00,400 --> 00:04:05,260
+[deu] Das Ergebnis ist eine Reihe von Bildern, die nun in einem nicht linearen Video-Bearbeitungsprogramm verwendet werden können.
+[eng] The result is a series of images ready for loading into a non-linear video editor.
+[fra] Le résultat est une série d'images prêtes au chargement dans un éditeur vidéo non-linéaire.
+[ita] Il risultato finale è una serie di immagini, pronte per essere caricate in un editor video non lineare.
+[por] O resultado é uma série de imagens prontas para serem carregadas em um editor de vídeo.
+[spa] El resultado es una serie de imágenes listas para ser cargadas en un editor no-lineal de video.
+[zho] 最终是一系列的图片，可以加载到非编视频编辑器中。
+

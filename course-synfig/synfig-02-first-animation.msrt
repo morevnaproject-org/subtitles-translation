@@ -1,0 +1,740 @@
+1
+00:00:00,430 --> 00:00:03,100
+[deu] #2: Ihre erste Animation
+[eng] #2: Your first animation
+[fra] #2: Votre première animation
+[ita] #2: La tua prima animazione
+[por] #2: Sua primeira animação
+[spa] #2: Tu primera animación
+[zho] #2: 你的第一段动画
+
+2
+00:00:05,220 --> 00:00:09,060
+[deu] In dieser Einheit werden wir eine einfache Animation erstellen, in der ein Junge zur Schule geht.
+[eng] In this lesson we'll create a simple animation about a boy going to school.
+[fra] Dans cette leçon nous allons créer une animation simple d'un garçon qui va à l'école.
+[ita] In questa lezione creeremo una semplice animazione di un ragazzo che va a scuola.
+[por] Nesta lição, iremos criar uma animação simples sobre um menino indo para a escola.
+[spa] En esta lección crearemos una animación simple sobre un niño yendo a la escuela.
+[zho] 在本课中我们要创建一段小男孩上学的简单动画
+
+3
+00:00:10,770 --> 00:00:15,060
+[deu] Dieser Kurs enthält eine Reihe Beispieldateien, die Sie für Übungen nutzen können.
+[eng] This course includes a set of sample files, which you can use for exercises.
+[fra] Ce cours inclus un ensemble de fichiers d'exemple que vous pouvez utiliser pour les exercices.
+[ita] Questo corso include una serie di file di esempio, che puoi usare per gli esercizi.
+[por] Este curso inclui uma série de arquivos de exemplo, que você pode usar nos exercícios.
+[spa] Este curso incluye un conjunto de archivos de ejemplo, los cuales puedes usar para los ejercicios.
+[zho] 在课程里包含一套示例文件，提供给你做练习之用
+
+4
+00:00:15,720 --> 00:00:20,140
+[deu] Laden Sie sich bitte die Datei „workshop.zip“, die zu diesem Kurs gehört, herunter und entpacken Sie sie.
+[eng] Please download the workshop.zip bundled with this course and unpack it.
+[fra] Veuillez télécharger le fichier workshop.zip accompagnant ce cours et décompactez-le.
+[ita] Scarica il file workshop.zip allegato a questo corso e scompattalo.
+[por] Por favor, baixe o arquivo workshop.zip que vem junto com o curso e o descompacte.
+[spa] Por favor descarga el archivo workshop.zip que se incluye con el curso, y descomprimelo.
+[zho] 下载和课程一起打包的 workshop.zip，并解压。
+
+5
+00:00:21,890 --> 00:00:25,630
+[deu] Schauen wir einmal in den Ordner „first-animation“.
+[eng] Let's take a look inside the "first-animation" folder.
+[fra] Jetons un oeil à l'intérieur du dossier "first-animation".
+[ita] Diamo una occhiata nella cartella "first-animation".
+[por] Vamos dar uma olhada na pasta "first-animation".
+[spa] Echemos un vistazo dentro de la carpeta "first-animation".
+[zho] 我们看看“first-animation”文件夹的内容。
+
+6
+00:00:27,430 --> 00:00:33,100
+[deu] Hier haben wir zunächst das Bild eines Jungen. Als nächstes finden wir das Bild der Karte, über die er sich bewegen wird.
+[eng] Here we have a boy image. Next, the map image he would be travelling over.
+[fra] Ici nous avons l'image d'un garçon. Puis, l'image de la carte sur laquelle il se déplacera.
+[ita] Qui abbiamo l'immagine di un ragazzo. Poi, l'immagine di una mappa dove viaggerà.
+[por] Aqui temos a imagem do menino. Ao lado, a imagem do mapa sobre o qual ele caminhará.
+[spa] Aqui tenemos la imagen de un niño. Luego, la imagen del mapa sobre el cual él va a viajar.
+[zho] 有一张男孩子的图片，一张他将要周游的地图
+
+7
+00:00:34,810 --> 00:00:37,860
+[deu] Alle Bilder sind im PNG-Format gespeichert.
+[eng] All images are saved in the PNG format.
+[fra] Toutes les images sont enregistrées au format PNG.
+[ita] Tutte le immagini sono salvate in formato PNG.
+[por] Todas as imagens estão no formato PNG.
+[spa] Todas las imágenes están guardadas en formato .PNG
+[zho] 所有图片都是PNG格式保持的。
+
+8
+00:00:38,060 --> 00:00:43,500
+[deu] Wir benutzen dieses Format für Bitmap-Grafiken, da es verlustfreie Kompression bietet…
+[eng] This is the format we use for bitmap artwork, since it  provides compression without any loss of quality...
+[fra] C'est le format que nous utilisons pour les bitmaps de travail car il fournit une compression sans perte de la qualité...
+[ita] Questo e' il formato che useremo per grafica in bitmap, dato che fornisce una compressione senza alcuna perdita di qualtà dell'immagine...
+[por] Este é o formato que usamos para imagens bitmap, já que ele provê compressão sem preda de qualidade...
+[spa] Este es el formato que usamos para los gráficos en mapa de bits, ya que proporciona compresión sin pérdida de calidad...
+[zho] 我们用这个格式的位图作品，是因为它在压缩的同时不怎么降低质量...
+
+9
+00:00:43,500 --> 00:00:48,700
+[deu] …und es uns erlaubt, Bilder mit transparentem Hintergrund zu speichern.
+[eng] ...and allows us to save images with transparent background.
+[fra] ...et nous permet d'enregistrer les images avec un fond transparent.
+[ita] ...e ci permette di salvare le immagini con lo sfondo trasparente.
+[por] ...e nos permite salvar imagens com fundo transparente.
+[spa] ... y nos permite guadar imágenes con fondo transparente.
+[zho] ...而且能保持透明背景。
+
+10
+00:00:49,060 --> 00:00:52,000
+[deu] Wollen wir nun das Bild des Jungen zu Synfig hinzufügen.
+[eng] Now let's add the boy image to Synfig
+[fra] Ajoutons maintenant l'image du garçon à Synfig
+[ita] Ora aggiungiamo l'immagine del ragazzo in Synfig
+[por] Agora, vamos adicionar a imagem do menino ao Synfig.
+[spa] Ahora vamos a añadir la imagen del niño a Synfig
+[zho] 现在把男孩子图片加到 Synfig 中。
+
+11
+00:00:52,000 --> 00:00:56,060
+[deu] Wählen Sie „Datei“ – „Importieren“ im Hauptmenü…
+[eng] Choose "File" - "Import" from the main menu...
+[fra] Choisissez "File" - "Import" dans le menu principal...
+[ita] Scegli "File" - "Import" dal menu principale...
+[por] Escolha "File" - "Import" no menu principal...
+[spa] Ve a "File" - "Import" desde el menú principal...
+[zho] 从主菜单选择“File" - "Import"...
+
+12
+00:00:56,810 --> 00:00:59,560
+[deu] suchen Sie dann den Speicherort unserer Beispiel-Dateien.
+[eng] then find the location of our sample files.
+[fra] puis trouvez l'emplacement de nos fichiers d'exemple.
+[ita] poi trova la posizione del nostri files di esempio.
+[por] ...e então localize nossos arquivos de exemplo.
+[spa] luego busca la ubicación de nuestros archivos de ejemplo.
+[zho] 然后找到示例文件的路径。
+
+13
+00:01:00,100 --> 00:01:02,310
+[deu] Gehen Sie in den Ordner „first animation“…
+[eng] Go to the "first animation" folder...
+[fra] Allez dans le dossier "first animation"...
+[ita] Vai nella cartella "first animation"...
+[por] Vá até a pasta "first animation"...
+[spa] Ve a la carpeta "first animation"...
+[zho] 转到“first animation”文件夹...
+
+14
+00:01:02,720 --> 00:01:05,560
+[deu] …und wählen Sie die Datei „boy.png“ aus.
+[eng] ...and choose the "boy.png" file.
+[fra] ...et choisissez le fichier "boy.png".
+[ita] ... e scegli il file "boy.png".
+[por] ...e escolha o arquivo "boy.png".
+[spa] ...y elige el archivo "boy.png".
+[zho] ...选择“boy.png”文件。
+
+15
+00:01:09,430 --> 00:01:12,720
+[deu] Hier haben wir eine Bild-Ebene. Wählen Sie sie aus.
+[eng] Here we've got an image layer. Let's select it.
+[fra] Nous avons maintenant un calque image. Sélectionnons-le.
+[ita] Qui abbiamo ottenuto un livello di immagine. Lo selezioniamo.
+[por] Aqui nós obtivemos uma camada de imagem. Vamos selecioná-la.
+[spa] Aquí tenemos una capa de imagen. Selecciónala.
+[zho] 我们得到一个图像层。选中它。
+
+16
+00:01:14,350 --> 00:01:19,390
+[deu] Jede Bild-Ebene verfügt über eine Reihe von Griffen, die es erlauben, diese zu verformen.
+[eng] Every image layer has a set of handles which allow to transform it.
+[fra] Chaque calque Image a son ensemble de poignées qui nous permettent de le transformer.
+[ita] Ogni livello di immagine ha un gruppo di maniglie che permettono di trasformare l'immagine.
+[por] Todas as camadas de imagem possuem uma série de manipuladores que nos permitem transformá-la.
+[spa] Cada capa de imagen tiene un conjunto de tiradores que permiten transformarla.
+[zho] 每个图像层都有一套控制句柄用来做变换。
+
+17
+00:01:19,930 --> 00:01:22,770
+[deu] Dieser Griff erlaubt uns die Ebene zu verschieben.
+[eng] This handle allows us to move the layer.
+[fra] Cette poignée nous permet de déplacer le calque.
+[ita] Questa maniglia ci permette di spostare il livello.
+[por] Este manipulador nos permite mover a camada.
+[spa] Este tirador nos permite mover la capa.
+[zho] 这个控制句柄让我们移动这个层。
+
+18
+00:01:25,350 --> 00:01:28,700
+[deu] Der blaue Punkt kontrolliert die Drehung.
+[eng] The blue point controls the rotation.
+[fra] Le point bleu contrôle la rotation.
+[ita] Il punto blu controlla la rotazione.
+[por] O ponto azul controla a rotação.
+[spa] El punto azul controla la rotación.
+[zho] 这个蓝色的点控制旋转。
+
+19
+00:01:31,160 --> 00:01:35,560
+[deu] Mit Hilfe dieser orangefarbenen Ecke können wir das Bild proportional skalieren.
+[eng] Using this orange corner we can scale the image proportionally.
+[fra] En utilisant le coin orange nous pouvons mettre l'image à l'échelle proportionnellement.
+[ita] Usando questo angolo arancione possiamo ridimensionare l'immagine.
+[por] Usando este canto latanja, podemos escalonar a imagem proporcionalmente.
+[spa] Usando la esquina naranja, podemos escalar proporcionalmente la imagen.
+[zho] 用这个橙色的我们能成比例缩放图片。
+
+20
+00:01:41,060 --> 00:01:45,970
+[deu] Sie können die Ebene auch entlang einer bestimmten Achse skalieren, indem Sie diese gelben Punkte hier oder hier ziehen.
+[eng] You can also scale along a particular axis by dragging the yellow points here or here.
+[fra] Vous pouvez aussi faire la mise à l'echelle en suivant un axe particulier en tirant les points jaunes ici ou là.
+[ita] Puoi anche ridimensionare l'immagine lungo un particolare asse trascinando i punti gialli qui o qui.
+[por] Você pode também escalonar em uma coordenada específica arrastando os pontos amarelos aqui e aqui.
+[spa] También puedes escalar a lo largo de un eje particular, arrastrando los puntos amarillos aquí o aquí.
+[zho] 拖动这两个地方的黄色点也可也沿着某个具体的坐标轴缩放图片。
+
+21
+00:01:51,060 --> 00:01:55,350
+[deu] Zu guter Letzt kontrollieren Sie dieser rote Punkt die Schrägstellung.
+[eng] Finally, this red point controls skew.
+[fra] Finalement, ce point rouge contrôle l'oblique.
+[ita] Infine, questo punto rosso controlla la distorsione.
+[por] Finalmente, este ponto vermelho controla a distorção.
+[spa] Finalmente, este punto rojo controla la oblicuidad.
+[zho] 最后，这个红色的点用来控制倾斜。
+
+22
+00:01:55,890 --> 00:02:00,060
+[deu] Ich schätze, Sie werden ihn nicht allzu oft benutzen. Lassen Sie uns daher den letzten Schritt rückgängig machen.
+[eng] I guess you won't be using it too often. So, lets undo the last action.
+[fra] Je suppose que vous ne l'utiliserez pas trop souvent. Donc, annulons la dernière action.
+[ita] Immagino che non userai questo molto spesso. Quindi, annulliamo l'ultima azione.
+[por] Acredito que você não vá usá-lo muito. Então, vamos desfazer a última ação.
+[spa] Supongo que no lo vas a usar con mucha frecuencia, así que vamos a deshacer la última acción.
+[zho] 我猜你不会太常用它。所以，我们撤销最后的动作。
+
+23
+00:02:03,520 --> 00:02:07,100
+[deu] Sie können Arbeitsschritte ebenso mit Strg+Z rückgängig machen, so wie in anderen Anwendungen.
+[eng] You can also undo using the Ctrl+Z as in other applications.
+[fra] Vous pouvez aussi défaire en utilisant Ctrl+Z comme dans les autres applications.
+[ita] Puoi anche fare undo usando Ctrl+Z, come nelle altre applicazioni.
+[por] Você também pode desfazer usando Ctrl+Z, como em outros programas.
+[spa] También puedes deshacer usando Ctrl+Z, como en otras aplicaciones.
+[zho] 和其他程序一样，你也可也用Ctrl+Z来撤销。
+
+24
+00:02:11,180 --> 00:02:17,810
+[deu] Lassen Sie uns das Karten-Bild einfügen, die Datei „background.png“.
+[eng] Let's insert the map image, it's the "background.png" file.
+[fra] Insérons l'image de la carte, c'est le fichier "background.png".
+[ita] Inseriamo l'immagine della mappa, e' il file "background.png".
+[por] Vamos inserir a imagem do mapa. É o arquivo "background.png".
+[spa] Vamos a insertar la imagen del mapa: es el archivo "background.png".
+[zho] 我们插入地图图片，是这个“background.png”文件。
+
+25
+00:02:19,850 --> 00:02:25,310
+[deu] Wie Sie sehen, ist das Bild zu groß. Wählen Sie es aus und skalieren Sie es, bis es in die Arbeitsfläche passt.
+[eng] As you can see, the image is too big. Let's select it and scale to fit the work area.
+[fra] Comme vous pouvez le voir, l'image est trop grande. Sélectionnez-la et mettez-la à l'échelle pour la faire tenir dans la surface de travail.
+[ita] Come puoi vedere l'immagine e' troppo grossa. Selezioniamola e ridimensioniamola per adattarla all'area di lavoro.
+[por] Como você pode ver, a imagem é muito grande. Vamos selecioná-la e escaloná-la para caber na área de trabalho.
+[spa] Como puedes ver, la imagen es demasiado grande. Vamos a seleccionarla y a escalarla para que se ajuste en el área de trabajo.
+[zho] 如你所见，图片太大了。我们选上它并缩放到工作区域的小。
+
+26
+00:02:32,520 --> 00:02:34,640
+[deu] Nun verschieben Sie es in den Hintergrund. Und zwar so.
+[eng] And let's send it to the back. Like this.
+[fra] Et envoyez-la vers l'arrière. Comme ceci.
+[ita] E usiamola come sfondo, in questo modo.
+[por] E vamos mandá-la para o fundo. Assim.
+[spa] Y vamos a enviarla al fondo... así.
+[zho] 然后放到后面去，像这样。
+
+27
+00:02:35,770 --> 00:02:41,390
+[deu] Ich nehme an, wir müssen den Jungen ebenfalls skalieren und ihn Heim schicken. Wählen Sie die Ebene aus…
+[eng] Now, I suppose, we also have to scale the boy and send him home. Selecting the layer...
+[fra] Maintenant, je suppose que nous aurons aussi à mettre le garçon  à l'échelle et l'envoyer à la maison. En sélectionnant ce calque...
+[ita] Ora, immagino, dobbiamo ridimensionare anche il ragazzo e mandarlo a casa. Selezionando il livello...
+[por] Agora, eu presumo, também temos que redimensionar o menino e mandá-lo para cada. Selecionando a camada...
+[spa] Ahora tenemos que escalar al niño y enviarlo a casa. Selecciona su capa...
+[zho] 现在，我觉得，我们也要把男孩缩小一点并把他安置在家里。选择这个层。
+
+28
+00:02:48,180 --> 00:02:54,640
+[deu] Übrigens, Sie können bei gedrückter Strg-Taste mittels des Mausrades in der aktuellen Ansicht hinein und heraus zoomen.
+[eng] By the way, you can zoom in and out the current view by holding the Ctrl key and scrolling a mouse wheel.
+[fra] D'autre part, vous pouvez zoomer et dézoomer dans la vue actuelle en maintenant la touche Ctrl et en faisant un scroll avec la molette de la souris.
+[ita] A proposito, puoi zoomare ingrandire o rimpicciolire la vista tenendo premuto il tasto Ctrl e ruotando la rotellina del mouse.
+[por] A propósito, você pode aproximar ou afastar a visualização atual segurando a tecla Ctrl e rolando o botão de rolagem do mouse.
+[spa] Por cierto, puedes acercar y alejar la vista actual con la rueda del ratón mientras mantienes presionada la tecla Ctrl.
+[zho] 顺便说一下，按下Ctrl键并滚动鼠标滚轮，你可以放大和缩小当前的视图。
+
+29
+00:02:58,100 --> 00:03:02,960
+[deu] Und mit gedrücktem Mausrad können Sie sich über die Arbeitsfläche bewegen.
+[eng] And if you keep the wheel button pressed, you can move over the work area.
+[fra] Et si vous maintenez pressé le bouton de la molette, vous pouvez déplacer la surface de travail.
+[ita] E se tieni premuta la rotellina, puoi muoverti nell'area di lavoro.
+[por] E se você mantiver o botão de rolagem pressionado, você pode se mover através da área de trabalho.
+[spa] Y si se mantiene presionado el botón de la rueda, puedes desplazarte por el área de trabajo.
+[zho] 另外，如果按住鼠标滚轮键，你可以移动工作区域。
+
+30
+00:03:10,270 --> 00:03:13,360
+[deu] Nun haben wir alles an seinem Platz.
+[eng] Now we have everything in its place.
+[fra] Maintenant nous avons tout à sa place.
+[ita] Ora abbiamo ogni cosa al suo posto.
+[por] Agora temos tudo em seus respectivos lugares.
+[spa] Ahora tenemos todo en su lugar.
+[zho] 现在一切都就位了。
+
+31
+00:03:15,720 --> 00:03:19,180
+[deu] Also, wir möchten eine Animation erstellen, in der der Junge von seinem Zuhause zur Schule geht.
+[eng] So, we want to make an animation of this boy going from home to school.
+[fra] Donc, nous voulons faire une animation de ce garçon allant de sa maison jusqu'à l'école.
+[ita] Quindi, vogliamo fare un'animazione di questo ragazzo che va da casa a scuola.
+[por] Então, queremos fazer uma animação deste menino indo de casa para a escola.
+[spa] Entonces, queremos hacer una animación de este niño yendo desde su casa a la escuela.
+[zho] 好，我们要制作一段小男孩从家里出发去上学的动画。
+
+32
+00:03:19,270 --> 00:03:25,560
+[deu] Offensichtlich wird der Junge zu einem bestimmten Zeitpunkt zu hause sein und zu einem anderen Zeitpunkt in der Schule.
+[eng] Obviously, at some moment the boy will be at home, and at some other moment he will be at school.
+[fra] Visiblement, à un moment le garçon sera à la maison, et à un autre moment il sera à l'école.
+[ita] Ovviamente, in qualche istante il ragazzo sara' a casa, e in un altro istante sarà a scuola.
+[por] Obviamente, em algum momento o menino esterá em casa e em outro momento ele estará na escola.
+[spa] Obviamente, en algún momento deberá estar en casa; y en otro momento, estará en la escuela.
+[zho] 显然，在某个时刻男孩将在家，另外一个时刻会在学校。
+
+33
+00:03:25,970 --> 00:03:31,850
+[deu] Wir müssen in den *animation*-Modus wechseln und die beiden Positionen für die jeweiligen Zeitpunkte festlegen.
+[eng] We have to switch to the *animation* mode and set the both locations for specific moments of time.
+[fra] Nous devons donc basculer vers le mode "animation" et définir les deux endroits pour des moments spécifiques du temps.
+[ita] Dobbiamo passare alla modalità *animazione* e assegnare le due posizioni per particolari momenti nel tempo.
+[por] Temos que mudar para o módo *animation* e marcar as duas localizações em momentos específicos do tempo.
+[spa] Tenemos que cambiar al modo "Animación" y establecer ambas ubicaciones para los momentos específicos de tiempo.
+[zho] 我们要切换到“动画”模式下，并给特定时刻设定这两个位置。
+
+34
+00:03:32,020 --> 00:03:35,600
+[deu] Klicken Sie den Button mit der grünen Figur hier, um den Animations-Modus umzuschalten.
+[eng] Click the green man button here to toggle the animation mode.
+[fra] Cliquez ici sur le bouton avec l'homme vert pour basculer en mode animation.
+[ita] Premi il pulsante con l'uomo verde qui per alternare la modalità animazione.
+[por] Clique aqui no botão verde para ativar o modo de animação.
+[spa] Haz click en el botón del hombre verde para pasar al modo animación.
+[zho] 点击此处绿色小人的按钮，打开动画模式。
+
+35
+00:03:39,640 --> 00:03:46,220
+[deu] Die grüne Figur wird rot und ein roter Rahmen erscheint um die Zeichenfläche. Das zeigt uns an, dass wir uns im Animations-Modus befinden.
+[eng] The green man becomes red and a red border appears around the canvas. This indicates that we're in the animation mode now.
+[fra] L'homme vert devient rouge et une bordure rouge apparaît autour du canevas. Ceci indique que nous sommes maintenant dans le mode animation.
+[ita] L'uomo verde diventa rosso e un bordo rosso appare attorno all'area lavoro. Questo indica che ora siamo in modalità animazione.
+[por] O homen verde se torna vermelho e uma borda vermelha aparece ao redor da tela. Isso indica que estamos no modo de animação.
+[spa] El hombre verde se vuelve rojo y aparece un borde rojo alrededor del lienzo. Esto indica que ahora estamos en el modo de animación.
+[zho] 绿色小人变成红色，而且出现个红色框围绕着画布。这表明现在我们已经处于动画模式中了。
+
+36
+00:03:46,350 --> 00:03:51,060
+[deu] Wenn der Animations-Modus aktiv ist, werden alle Änderungen im Verhältnis zur aktuellen Zeit aufgezeichnet.
+[eng] When the Animation mode is on, all changes are recorded in relation to current time.
+[fra] Quand le mode Animation est activé, tous les changements sont enregistrés en relation avec le temps actuel.
+[ita] Quando la modalità animazione e' attiva, tutte le modifiche sono salvate in relazione al tempo corrente.
+[por] Quando o modo de animação está ativo, todas as alterações são gravadas em relação ao tempo atual.
+[spa] Cuando el modo de animación está activado, todos los cambios son registrados con relación al tiempo actual.
+[zho] 当动画模式开启后，全部的改动都会被记录下来对应到当前时间上。
+
+37
+00:03:51,770 --> 00:03:57,720
+[deu] Wollen wir einen Blick auf die Zeitleiste am unteren Rand werfen. Sie zeigt an, dass wir uns aktuell im Null-Bild befinden.
+[eng] Let's take a look at the Timetrack panel at the bottom. It indicates that we're at the zero frame now.
+[fra] Jetons un oeil au panneau Timetrack en bas. Il indique que nous sommes maintenant à la trame zéro.
+[ita] Diamo un'occhiata al pannello Timetrack - Pista Tempo, in basso. Indica che ora siamo al fotogramma zero.
+[por] Vamos dar uma olhada no painel TImetrack a baixo. Ele indica que agora estamos no frame zero.
+[spa] Echemos un vistazo al panel "línea de tiempo" en la parte inferior. Allí se indica que estamos ahora en el cuadro 0 /frame 0/.
+[zho] 我们看一下位于下方的时间轴(Timetrack)面板。它表明我们正处在第零帧。
+
+38
+00:04:00,390 --> 00:04:04,020
+[deu] Wir können die aktuelle Zeit ändern, indem wir in diesen grauen Bereich klicken.
+[eng] We can change the current time by clicking this grey area.
+[fra] Nous pouvons changer le temps en cours en cliquant dans cette bande grise.
+[ita] Possiamo cambiare l'istante corrente selezionando questa area grigia.
+[por] Nós podemos mudar o tempo atual clicando nesta área cinza.
+[spa] Podemos cambiar el tiempo actual haciendo click en esta área gris.
+[zho] 点击此灰色区域可以更改当前时间。
+
+39
+00:04:09,230 --> 00:04:14,430
+[deu] Gehen wir zurück in den Null-Bild. Der Junge ist zu hause, alles ist in Ordnung.
+[eng] Let's go back to frame zero. The boy is at home, everything is alright.
+[fra] Retournons à la trame zéro. Le garçon est à la maison, tout va bien.
+[ita] Torniamo al fotogramma zero. Il ragazzo e' a casa, tutto e' a posto.
+[por] Vamos voltar ao frame zero. O garoto está em casa, está tudo certo.
+[spa] Regresemos al cuadro cero. El niño está en casa y todo es correcto.
+[zho] 我们回到零帧处。男孩子在家里，非常好。
+
+40
+00:04:14,600 --> 00:04:18,600
+[deu] Nun gehen Sie in den Bild 48 und ziehen Sie den Jungen auf die Schule.
+[eng] Now go to the 48th frame and drag the boy to school.
+[fra] Maintenant allez à la trame 48 et tirez le garçon à l'école.
+[ita] Ora vai al fotogramma 48 e trascina il ragazzo a scuola.
+[por] Agora vá ao frame 48 e arraste o menino para a escola.
+[spa] Ahora ve al cuadro 48, y arrastra al niño a la escuela.
+[zho] 现在转到第48帧并拖小男孩到学校。
+
+41
+00:04:25,470 --> 00:04:30,640
+[deu] Wie Sie sehen, sind genau gegenüber der Änderungs-Parameter zwei orangefarbene Diamanten erschienen.
+[eng] Look, right opposite to the Transformation parameter two orange diamonds have just appeared.
+[fra] Regardez, juste à côté du paramètre de Transformation deux losanges oranges viennent d'apparaître.
+[ita] Guarda, esattamente all'opposto del parametro Transformation, due rombi arancioni sono appena comparsi.
+[por] Olhe, do lado oposto do parâmetro "Transformation" dois diamantes laranjas apareceram.
+[spa] Fíjate, justo al lado del parámetro Transformation, han aparecido dos diamantes de color naranja.
+[zho] 瞧，对着变换参数(Transformation)的右边，就会出现两橙色的棱形图标。
+
+42
+00:04:34,020 --> 00:04:39,560
+[deu] Diese Diamanten werden Wegpunkte genannt. Sie zeigen an, dass ein Parameter zu einer Bestimmten Zeit einen neuen Wert hat.
+[eng] These diamonds are called Waypoints. They indicate that a parameter has a new value at some moment in time.
+[fra] Ces losanges sont appelés des Waypoints. Ils indiquent qu'un paramètre a une nouvelle valeur à un moment dans le temps.
+[ita] Questi rombi sono chiamati Waypoints. Indicano che un parametro ha un nuovo valore a partire da un particolare istante nel tempo.
+[por] Esses diamantes são chamados Waypoints. Eles indicam que um parâmetro tem um novo valor em algum momento.
+[spa] Estos diamantes son llamados puntos de referencia /Waypoints/. Indican que un parámetro tiene un nuevo valor en algún momento del tiempo.
+[zho] 这些棱形被称为航点。它们表明某个参数在某个时间点上有新的值。
+
+43
+00:04:40,520 --> 00:04:45,560
+[deu] Synfig erstellt Wegpunkte, wenn wir einen Parameter im Animations-Modus verändern.
+[eng] Synfig creates waypoints when we change any parameter in the animation mode.
+[fra] Synfig crée des Waypoints quand nous changeons n'importe quel paramètre dans le mode animation.
+[ita] Synfig crea waypoints quando cambiamo un qualsiasi parametro nella modalità animazione.
+[por] O Synfig cria waypoint quando mudamos algum parâmetro no modo de animação.
+[spa] Synfig crea puntos de referencia cada vez que cambiamos un parámetro en el modo animación.
+[zho] 在动画模式下，我们改动任意参数，Synfig 都会创建航点。
+
+44
+00:04:47,850 --> 00:04:50,770
+[deu] Dieser Wegpunkt zeigt an, dass der Junge sich in der Schule befindet…
+[eng] This waypoint indicates that the boy is at school...
+[fra] Ce waypoint indique que le garçon est à l'école...
+[ita] Questo waypoint indica che il ragazzo è a scuola...
+[por] Este waypoint indica que o menino está na escola...
+[spa] Este punto de referencia indica que el niño está en la escuela...
+[zho] 这个航点表明小男孩在学校里...
+
+45
+00:04:51,850 --> 00:04:55,530
+[deu] …und dieser zeigt an, dass er zu hause ist.
+[eng] ...and this one indicates that he's at home.
+[fra] ...et celui-là indique qu'il est à la maison.
+[ita] ...e questo indica che è a casa.
+[por] ...e este indica que ele está em casa.
+[spa] ...y éste, indica que está en casa.
+[zho] ...而这个表明他在家里。
+
+46
+00:04:56,890 --> 00:05:01,020
+[deu] Beachten Sie bitte, dass die Bewegung zwischen den Wegpunkten von Synfig automatisch berechnet wird.
+[eng] Note, that the motion between waypoints is calculated by Synfig automatically.
+[fra] Notez que le mouvement entre les waypoints est calculé par Synfig automatiquement.
+[ita] Nota, l'animazione tra i due waypoints viene calcolata automaticamente da Synfig.
+[por] Note que o movimento entre waypoints são calculados automaticamente pelo Synfig.
+[spa] Recuerda que los movimientos entre los puntos de referencia son calculados automáticamente por Synfig.
+[zho] 注意，在航点与航点之间的运动是由 Synfig 自动计算出来的。
+
+47
+00:05:05,020 --> 00:05:10,560
+[deu] Unsere Animation ist sehr einfach, daher kann Synfig sie problemlos in Echtzeit wiedergeben.
+[eng] Our animation is very simple, so Synfig can play it in real time without problems.
+[fra] Notre animation est très simple, donc Synfig peut la jouer en temps réel sans problème.
+[ita] La nostra animazione è molto semplice, così Synfig può riprodurla in tempo reale senza problemi.
+[por] Nossa animação é muito simples, então o Synfig consegue executá-la em tempo real sem problemas.
+[spa] Nuestra animación es muy simple, así que Synfig puede reproducirla -en tiempo real- sin problemas.
+[zho] 我们的动画非常简单，因此 Synfig 可以实时回放而毫无问题。
+
+48
+00:05:10,930 --> 00:05:15,970
+[deu] Für komplexere Animation ist die Echtzeit-Wiedergabe unter Umständen nicht möglich.
+[eng] But for animation with higher level of complexity real time playback may not be possible.
+[fra] Mais pour une animation avec un niveau de complexité supérieur la lecture en temps réel peut ne pas être possible.
+[ita] Ma per animazioni con un alto livello di complessità la riproduzione in tempo reale potrebbe non essere possibile.
+[por] Mas para animações mais complexas, reprodução em tempo real pode não ser possível.
+[spa] Pero cuando la animación tiene un alto nivel de complejidad, la reproducción en tiempo real podria ser imposible.
+[zho] 但是对于复杂程度高的的动画而言实时回放是不可能的。
+
+49
+00:05:16,400 --> 00:05:22,230
+[deu] Daher wird empfohlen, die Vorschau-Funktion zu nutzen. Klickt auf diesen Button, um den Vorschau-Dialog zu öffnen…
+[eng] That's why it's recommended to use the Preview feature. Click this button to open the Preview dialog...
+[fra] C'est pourquoi il est recommandé d'utiliser la fonctionnalité de prévisualisation. Cliquez ce bouton pour ouvrir le dialogue de prévisualisation...
+[ita] Ecco perché si raccomanda l'uso della funzione Preview. Premi questo pulsante per aprire la finestra di dialogo Preview...
+[por] Por isso é recomendado usar a função Preview. Clique neste botão para abrir a janela de Preview...
+[spa] Es por eso que recomendamos usar la función de Vista Previa /Preview/.
+[zho] 这是为何推荐用预览(Preview)功能的原因。点击这个按钮打开预览对话框...
+
+50
+00:05:22,310 --> 00:05:26,140
+[deu] Hier können wir die Qualitätsstufe und die Bildwiederholrate für die Vorschau einstellen.
+[eng] Here we can set the quality value and preview frame rate.
+[fra] Ici vous pouvez définir la qualité et la taux de trame de prévisualisation.
+[ita] Qui possiamo impostare il valore di qualità e la frequenza dei fotogrammi di anteprima.
+[por] Aqui podemos ajustar a qualidade da pré-visualização e a taxa de frames.
+[spa] Aquí podemos establecer el valor de la calidad y los fotogramas por segundo de la previsualización.
+[zho] 此处我们能设置品质值和预览的帧率。
+
+51
+00:05:35,810 --> 00:05:42,060
+[deu] Erweitern wir unsere Animation ein wenig. Bewegen Sie den Jungen in Bild 96 auf das Geschäft…
+[eng] Let's extend our animation a little. At the frame 96 move the boy to the store...
+[fra] Étendons un peu notre animation. A la trame 96 déplacez le garçon jusqu'au magasin...
+[ita] Estendiamo l'animazione un poco. Al fotogramma 96 muovi il ragazzo nel negozio...
+[por] Vamos extender nossa animação um pouco. No frame 96, mova o garoto para a loja...
+[spa] Vamos a extender un poco nuestra animación. En el cuadro 96, mueve el niño a la tienda...
+[zho] 让我们对动画加点料。在第96帧处移动小男孩到商场去...
+
+52
+00:05:43,970 --> 00:05:46,930
+[deu] …und dann in Bild 115 – wieder zurück nach Hause.
+[eng] ...and at the 115th frame - back home again.
+[fra] ...et à la trame 115 - à nouveau de retour à la maison.
+[ita] ...e al fotogramma 115 - rimandalo a casa.
+[por] ...e no frame 115, de volta para casa.
+[spa] ... y en el cuadro 115, regrésalo a casa otra vez.
+[zho] ...然后在第115帧 - 返回家中。
+
+53
+00:05:51,350 --> 00:05:54,810
+[deu] Wir können zu einem bestehenden Wegpunkt gehen und seine Werte verändern.
+[eng] We can go to an existing waypoint  and change its value.
+[fra] Nous pouvons aller à un waypoint existant et changer sa valeur.
+[ita] Possiamo andare ad un waypoint già esistente e cambiare il suo valore.
+[por] Nós podemos voltar a um waypoint existente e alterar seu valor.
+[spa] Podemos ir al punto de referencia y cambiar su valor.
+[zho] 我们可以转到已有的帧去修改它的值。
+
+54
+00:05:59,930 --> 00:06:03,520
+[deu] Oha, der Junge schwänzt die Schule! Er ist stattdessen ins Kino gegangen.
+[eng] Oh, this boy is skipping his classes now! He's gone to the cinema instead.
+[fra] Maintenant le garçon sèche les cours ! Il a préféré aller au cinéma à la place.
+[ita] Oh, il ragazzo sta bigiando scuola adesso! Sta andando al cinema.
+[por] Oh, esse menino vai matar aula! Ele vai para o cinema.
+[spa] Oh, ¿qué tal? ¡Ahora el chamaco se está volando las clases!
+[zho] 呀，这次，小男孩翘课了！他去了电影院。
+
+55
+00:06:09,810 --> 00:06:13,850
+[deu] Außerdem können wir die Bewegungsgeschwindigkeit durch Verschieben der Wegpunkte einstellen.
+[eng] Also, we can adjust the speed of the movement by dragging the waypoints.
+[fra] Nous pouvons également ajuster la vitesse de mouvement en tirant les waypoints.
+[ita] Inoltre, possiamo variare la velocità del movimento trascinando i waypoints.
+[por] Nós também podemos ajustar a velocidade do movimento arrastando os waypoints.
+[spa] También podemos ajustar la velocidad del movimiento arrastrando los puntos de referencia.
+[zho] 另外，通过拖动航点我们可以调整移动速度。
+
+56
+00:06:14,640 --> 00:06:18,430
+[deu] Bewegen Sie diesen Wegpunkt von Bild 48 zu Bild 20.
+[eng] Move this waypoint from the 48th frame to 20th.
+[fra] Déplacez ce waypoint de la trame 48 à la 20ème.
+[ita] Sposta questo waypoint dal fotogramma 48 al fotogramma 20.
+[por] Mova esse waypoint do frame 48 para o frame 20.
+[spa] Mueve este punto de referencia desde el 48 al 20.
+[zho] 移动第48帧的这个航点到第20帧。
+
+57
+00:06:21,350 --> 00:06:27,060
+[deu] Nun läuft der Junge viel schneller zum Kino, als er zur Schule gegangen ist.
+[eng] Now the boy is running to the cinema way faster than he used to walk to school.
+[fra] Maintenant le garçon court au cinéma bien plus vite qu'il n'en a l'habitude pour aller à l'école.
+[ita] Ora il ragazzo sta correndo al cinema più rapidamente di quando camminava verso scuola.
+[por] Agora o menino está correndo para o cinema, bem mais rápido do que o que ele costuma fazer para ir a escola.
+[spa] Ahora el niño va corriendo al cine, de una manera más rápida de la que usó para ir a la escuela.
+[zho] 现在男孩跑去电影院的速度比平常上学的速度快了。
+
+58
+00:06:28,770 --> 00:06:34,260
+[deu] Sie können Wegpunkte entfernen, indem Sie rechtsklicken und dann „Entfernen“ im Menü auswählen.
+[eng] You can delete waypoints by right-clicking them and choosing "Remove" from the menu.
+[fra] Vous pouvez effacer les waypoints en cliquant-droit dessus et en choisissant "Remove" depuis le menu.
+[ita] Puoi cancellare i waypoints facendo click col tasto destro del mouse e scegliendo "Remove" dal menu.
+[por] Você pode apagar waypoints ao clicar com o botão direito sobre ele e escolhendo "Remove" no menu.
+[spa] Se pueden borrar los puntos de referencia haciendo click derecho sobre ellos y seleccionando "Remove" desde el menú.
+[zho] 通过右键点击航点，从弹出菜单中选择“删除(Remove)”,你可以删除航点。
+
+59
+00:06:34,770 --> 00:06:39,850
+[deu] Oder Sie halten einfach Strg und Alt gedrückt und klicken den Wegpunkt mit der linken Maustaste an.
+[eng] Or, you can just hold Ctrl and Alt keys and click the waypoint with the left mouse button.
+[fra] Sinon vous pouvez juste maintenir les touches Ctrl et Alt et cliquer sur le waypoint avec le bouton gauche de la souris.
+[ita] Oppure puoi semplicemente tenere premuto Ctrl e Alt e cliccare il waypoint con il tasto sinistro del mouse.
+[por] Ou você pode apenas segurar as teclas Ctrl e Alt e clicar no waypoint com o botão esquerdo do mouse.
+[spa] O bien, puedes mantener pulsadas las teclas Ctrl+Alt, y hacer click sobre el punto de referencia con el botón izquierdo del ratón.
+[zho] 或者，你可以按住Ctrl和Alt键，再用鼠标左键点击航点。
+
+60
+00:06:44,850 --> 00:06:50,430
+[deu] Sie können Wegpunkte auch kopieren. Um das zu tun, bewegen Sie den Cursor dorthin, wo Sie eine Kopie wünschen…
+[eng] You can also copy waypoints. To do so, move the cursor right where you want a copy...
+[fra] Vous pouvez aussi copier les waypoints. Pour ce faire, déplacez le curseur exactement là où vous voulez le copier...
+[ita] Puoi anche copiare i waypoints. Per fare questo, sposta il cursore nel punto dove vuoi copiare...
+[por] Você também pode copiar waypoints. Para isso, mova o cursor para onde você quer copiar...
+[spa] También puedes copiar los puntos de referencia. Para hacerlo, mueve la guía a donde quieres la copia...
+[zho] 你也可以拷贝航点。要做到这点，移动光标到准备要拷贝的航点上...
+
+61
+00:06:50,970 --> 00:06:55,470
+[deu] suchen Sie den passenden Wegpunkt… klicken Sie Rechts und  wählen Sie „Duplizieren“.
+[eng] find the right waypoint... right-click it, and choose "Duplicate".
+[fra] trouvez le bon waypoint... Cliquez-droit dessus et choisissez "Duplicate".
+[ita] trova il giusto waypoint... tasto-destro del mouse e scegli "Duplicate".
+[por] ache o waypoint correto... clique nele com o botão direito e escolha "Duplicate".
+[spa] encuentra el punto de referencia deseado...
+[zho] 找到航点... 右键点击它，然后选择“复制(Duplicate)”。
+
+62
+00:06:58,930 --> 00:07:02,930
+[deu] Nun kehrt der Junge genau an die Position zurück, an der er sich zu Beginn befunden hat.
+[eng] Now the boy returns to exactly the same position as he was at the start.
+[fra] Maintenant le garçon retourne exactement à la même position qu'il avait au départ.
+[ita] Ora il ragazzo ritorna esattamente nello stesso punto in cui era all'inizio.
+[por] Agora o garoto volta exatamente para o mesmo ponto em que ele estava no começo.
+[spa] Ahora el niño regresa exactamente a la misma posición en la que estuvo al principio.
+[zho] 如今，小男孩跑到和一开始完全相同的位置了。
+
+63
+00:07:04,390 --> 00:07:07,470
+[deu] Dieser Trick ist sehr hilfreich bei der Erstellung von Animations-Schleifen.
+[eng] This trick is very useful when creating looped animation.
+[fra] Ce truc est vraiment très utile quand vous créez une animation en boucle.
+[ita] Questo trucco è molto utile quando si creano loop di animazione.
+[por] Este truque é muito útil quando criamos animações em loop.
+[spa] Este truco es muy usado cuando creamos animaciones en bucle.
+[zho] 这个小窍门在创建循环动画是非常有用。
+
+64
+00:07:11,890 --> 00:07:15,180
+[deu] Denken Sie bitte daran, Wegpunkte werden ausschließlich im Animations-Modus erstellt.
+[eng] Remember, waypoints are only created in the animation mode.
+[fra] Rappelez-vous, les waypoints sont créés uniquement dans le mode animation.
+[ita] Ricorda, i waypoints vengono creati solo nella modalità animazione.
+[por] Lembre-se, waypoints só são criados no modo de animação.
+[spa] Recuerda: los puntos de referencia sólo se crean en el modo de animación.
+[zho] 记住，航点只有在动画模式下才产生。
+
+65
+00:07:15,640 --> 00:07:20,430
+[deu] Ansonsten beeinflussen die Änderungen, die Sie vornehmen, jedes Bild Ihres Projektes. Lassen Sie uns probieren.
+[eng] Otherwise changes you make will affect every frame in your project. Let's try it.
+[fra] Autrement, tout changement que vous ferez affectera toutes les trames dans votre projet. Faisons un essai.
+[ita] Altrimenti, ogni cambiamento che fai avrà effetti su tutti i fotogrammi del tuo progetto. Proviamo.
+[por] Quaisquer alterações afetam todos os frames do seu projeto. Vamos tentar isso.
+[spa] De lo contrario, cualquier cambio que realices afectará a todos los cuadros /frames/ de tu proyecto. Vamos a intentarlo.
+[zho] 否则，所有的更改都会影响到整个项目的每一帧。
+
+66
+00:07:20,600 --> 00:07:24,020
+[deu] Schalten Sie den Animations-Modus aus… und bewegen Sie den Jungen.
+[eng] Turn off the Animation mode... and move the boy.
+[fra] Désactivez le mode Animation... et déplacez le garçon.
+[ita] Disattiva la modalità animazione... e sposta il ragazzo.
+[por] Deslique o modo de animação... e mova o garoto.
+[spa] Desactiva el modo Animación... y mueve al niño.
+[zho] 关闭动画模式... 移动小男孩。
+
+67
+00:07:26,470 --> 00:07:32,260
+[deu] Nun erhalten wir einen Warnhinweis, der uns fragt, ob wir die Veränderungen wirklich auf die gesamte Animation anwenden wollen.
+[eng] Here we've got an alert asking if we really want to apply the change to the whole animation.
+[fra] Nous avons ici une alerte demandant si l'on veut réellement appliquer le changement à l'ensemble de l'animation.
+[ita] Qui abbiamo un messaggio di allarme, che ci chiede se veramente vuoi applicare il cambiamento a tutta l'animazione.
+[por] Aqui recebemos um alerta perguntando se queremos mesmo realizar essa alteração em toda a animação.
+[spa] Aquí tenemos un mensaje de alerta preguntándonos si realmente queremos aplicar el cambio a toda la animación.
+[zho] 在此我们得到一个警告询问我们是否真的想把这次的更改应用到整个动画中去。
+
+68
+00:07:32,600 --> 00:07:36,460
+[deu] Wollen wir „Ja“ klicken und sehen wir, was passiert.
+[eng] Let's click "Yes" and see what happens.
+[fra] Cliquez "Yes" et voyons ce qu'il se passe.
+[ita] Scegliamo "Yes" e vediamo cosa succede.
+[por] Vamos clicar em "Yes" e ver o que acontece.
+[spa] Presiona "Yes" y mira lo que sucede.
+[zho] 我们点击“是(Yes)”然后看看有什么事情方式。
+
+69
+00:07:39,470 --> 00:07:43,500
+[deu] Nun bewegt sich der Junge irgendwo am Rand. Machen wir das rückgängig.
+[eng] Now the boy is walking somewhere aside. Let's undo this.
+[fra] Maintenant le garçon bouge en dehors de l'écran. Défaisons ceci.
+[ita] Ora il ragazzo sta camminando da qualche altra parte. Annulliamo questo cambiamento.
+[por] Agora o garoto está andando em algum lugar ao lado. Vamos desfazer isso.
+[spa] Ahora el niño se mueve, pero está fuera de la pantalla. Vamos a deshacer esto.
+[zho] 现在小男孩走到外边去了。我们撤销这个更改。
+
+70
+00:07:47,520 --> 00:07:50,800
+[deu] Beachten Sie bitte dass wir nur Warnhinweise erhalten, wenn wir animierte Parameter verändern.
+[eng] Note that we only get an alert if we change animated parameters.
+[fra] Notez que nous obtenons une alerte seulement si l'on change des paramètres animés.
+[ita] Nota che il messaggio di allarme compare solo se cambiamo i parametri di animazione.
+[por] Note que recebemos um alerta apenas se mudamos algum parâmetro de animação.
+[spa] Toma en cuenta que el mensaje de alerta sólo aparecerá cuando modifiques los parámetros de la animación.
+[zho] 注意只有在我们修改带动画的参数时候才会收到警告。
+
+71
+00:07:50,860 --> 00:07:53,500
+[deu] Andernfalls werden alle Änderungen auf einmal angewendet.
+[eng] Otherwise changes are applied at once.
+[fra] Autrement les changements sont appliqués directement.
+[ita] Altrimenti i cambiamenti vengono apportati subito.
+[por] Do contrário, as alterações são aplicadas na hora.
+[spa] De otro modo, todos los cambios se aplican de inmediato.
+[zho] 否则所有的修改都会马上起作用。
+
+72
+00:07:53,600 --> 00:07:56,800
+[deu] Wollen wir beispielsweise den Hintergrund verschieben.
+[eng] For example, let's try to move the background.
+[fra] Par exemple, essayez de déplacer le fond.
+[ita] Per esempio, proviamo a muovore lo sfondo.
+[por] Por exemplo, vamos tentar mover o fundo.
+[spa] Por ejemplo, tratemos de mover el fondo.
+[zho] 比如，我们试着移动一下这背景。
+
+73
+00:07:57,930 --> 00:08:01,260
+[deu] Sie sehen, es gibt keine Warnhinweise.
+[eng] See, no alerts here.
+[fra] Regardez, pas d'alerte ici.
+[ita] Vedi, non c'è nessun allarme qui.
+[por] Viu, nenhum alerta.
+[spa] ¿Te fijaste? No hubo ningún mensaje de alerta en esta ocasión.
+[zho] 看，没有警告的。
+
+74
+00:08:03,140 --> 00:08:09,200
+[deu] Nun, ich denke, wir sind bereit für die nächste Einheit. Aber wollen wir zuerst unsere Datei speichern.
+[eng] So I guess we are ready for the next lesson. But first, let's save our file.
+[fra] Donc, je suppose que nous sommes prêts pour la leçon suivante. Mais d'abord, enregistrons notre fichier.
+[ita] Ora immagino che tu sia pronto per la prossima lezione. Ma prima salviamo in nostro file.
+[por] Acho que estamos prontos para nossa próxima lição. Mas primeiro, vamos salvar nosso arquivo.
+[spa] Así que estamos listos para la siguiente lección.
+[zho] 好了，我猜我们已经做好准备迎接下一课了。不过，我们先保存下我们的文件吧。
+

@@ -1,0 +1,570 @@
+1
+00:00:00,560 --> 00:00:02,460
+[deu] #6: Gesichtsanimation
+[eng] #6: Face animation
+[fra] #6: Animation Faciale
+[ita] #6: Animazione del volto
+[por] #6: Animação facial
+[spa] #6: Animación del rostro.
+[zho] #6: 脸部动画
+
+2
+00:00:04,220 --> 00:00:09,730
+[deu] Nun kann sich unsere Figur bewegen. Es ist Zeit, dass wir sie zum Sprechen bringen.
+[eng] Now our character can move. It's time to make him talk.
+[fra] Maintenant notre personnage peut bouger. Il est temps de le faire parler.
+[ita] Adesso il nostro personaggio può muoversi. E' ora di farlo parlare.
+[por] Agora nosso personagem pode se mover. Hora de fazer ele falar.
+[spa] Nuestro personaje ya puede moverse. Es hora de hacerlo hablar.
+[zho] 现在我们的角色能动了。是时候让它开口说话了。
+
+3
+00:00:10,920 --> 00:00:15,760
+[deu] Im „mimic“-Unterordner habe ich mehrere Bilder des Kopfes.
+[eng] In the "mimic" folder I have several head images.
+[fra] Dans le dossier "mimic" j'ai plusieurs images de la tête.
+[ita] Nella cartella "mimic" ho alcune immagini di teste.
+[por] Na pasta "mimic" eu coloquei várias imagens de cabeça.
+[spa] En la carpeta "mimic" tenemos varias imágenes de la cabeza.
+[zho] 在"mimic" 文件夹有几张头像。
+
+4
+00:00:18,160 --> 00:00:23,260
+[deu] Werden sie in einer bestimmten Frequenz gegeneinander ausgetauscht, entsteht der Eindruck, die Figur würde sprechen.
+[eng] Switching them at a certain frequency creates an illusion of a talking character.
+[fra] En les alternant à une certaine fréquence on crée une illusion de personnage parlant.
+[ita] Alternandole con una certa frequenza, si crea l'illusione di un personaggio che parla.
+[por] Trocando elas em uma determinada frequência cria uma ilusão de fala.
+[spa] Al cambiarlas con una determinada frecuencia, se crea la ilusión de que el personaje habla.
+[zho] 按照一定的顺序切换它们能产生角色开口说话的错觉。
+
+5
+00:00:23,460 --> 00:00:26,930
+[deu] Und genau das werden wir nun tun.
+[eng] That's what we are going to do.
+[fra] C'est ce que nous allons faire.
+[ita] Che è proprio quello che faremo.
+[por] É isso que iremos fazer.
+[spa] Y es lo que vamos a hacer.
+[zho] 这就是我们要做的事。
+
+6
+00:00:27,640 --> 00:00:35,560
+[deu] Lassen Sie uns eine neue Datei anlegen und unsere Figur schnell zusammensetzen. Genau, wie wir es bereits getan haben.
+[eng] Let's create a new file and quickly assemble our character. Just as we did before.
+[fra] Créons un nouveau fichier et assemblons rapidement notre personnage. Comme nous l'avons fait avant.
+[ita] Creiamo un nuovo file e componiamo rapidamente il nostro personaggio. Proprio come abbiamo fatto prima.
+[por] Vamos criar um novo arquivo e rapidamente montar nosso personagem. Da mesma forma que fizemos antes.
+[spa] Creamos un nuevo archivo y rápidamente ensamblamos nuestro personaje, tal y como hicimos anteriormente.
+[zho] 我们新建一个文件然后快速装配好角色。这和之前做的是一样的。
+
+7
+00:00:59,640 --> 00:01:03,160
+[deu] Nun müssen wir die Bilder des Kopfes importieren.
+[eng] Now we need to import the head images.
+[fra] Maintenant nous devons importer les images de la tête.
+[ita] Ora bisogna importare le immagini della testa.
+[por] Agora nós precisamos importar as imagens da cabeça.
+[spa] Ahora necesitamos importar las imágenes de las cabezas.
+[zho] 现在我们需要导入那些头像。
+
+8
+00:01:03,220 --> 00:01:06,380
+[deu] Wählen Sie die Dateien mit den Nummern 1 bis 5.
+[eng] Select the files with numbers from 1 to 5.
+[fra] Sélectionnons les fichiers avec les numéros 1 à 5.
+[ita] Seleziona i files con i numeri da 1 a 5.
+[por] Selecione os arquivos com os números de 1 a 5.
+[spa] Selecciona los archivos con los números del 1 al 5.
+[zho] 选择编号1到5的文件。
+
+9
+00:01:06,720 --> 00:01:11,060
+[deu] Die sechste Datei heben wir uns für später auf.
+[eng] The sixth file we keep for later.
+[fra] Le sixième fichier sera conservé pour plus tard.
+[ita] Il sesto file lo terremo per dopo.
+[por] O sexto arquivo vamos deixar para depois.
+[spa] El sexto archivo lo dejaremos para después.
+[zho] 第6号文件先放着稍后再用。
+
+10
+00:01:14,060 --> 00:01:17,230
+[deu] Lassen Sie uns die Köpfe nun zu einer Gruppe zusammenfassen.
+[eng] Now let's group those heads together.
+[fra] Groupons maintenant ces têtes ensemble.
+[ita] Adesso raggruppiamo insieme queste teste.
+[por] Agora vamos agrupar essas cabeças.
+[spa] Ahora vamos a agrupar las cabezas juntas.
+[zho] 现在我们把所有头部都合到一个组中。
+
+11
+00:01:17,320 --> 00:01:23,300
+[deu] Doch dafür verwende ich eine spezielle Schalter-Gruppe anstatt der normalen. Hier.
+[eng] But for this case I will be using a special Switch Group instead of the regular one. Here.
+[fra] Mais dans ce cas je vais utiliser un groupe spécial "Switch" au lieu du normal. Celui-ci.
+[ita] In questo caso però userò uno speciale Switch Group invece del solito. Ecco.
+[por] Mas neste caso nós usaremos o Grupo de Comutação ao invés do grupo comum. Aqui.
+[spa] Pero en este caso, utilizaremos el grupo especial "Switch" en lugar del grupo normal, aquí.
+[zho] 不过这回稍微有点不同的是我要用一个特殊的切换组(Switch Group)来代替常规的组。这里。
+
+12
+00:01:25,120 --> 00:01:29,130
+[deu] Die Schaltergruppe verhält sich wie eine gewöhnliche Gruppe…
+[eng] The Switching group behaves just like an ordinary group...
+[fra] Le groupe Switch se comporte comme un groupe ordinaire...
+[ita] Il gruppo Switching si comporta come un gruppo ordinario ...
+[por] O grupo de comutação se comporta como qualquer outro grupo...
+[spa] El grupo de cambio o switch, se comporta como un grupo ordinario...
+[zho] 切换组有点像普通的组...
+
+13
+00:01:29,240 --> 00:01:33,400
+[deu] …doch sie zeigt nur einen ihrer Unterpunkte zu einem Zeitpunkt an.
+[eng] ...but it shows only one of its child layers at a time.
+[fra] ...mais il n'affiche qu'un de ses calques enfants à la fois.
+[ita] ... ma lascia vedere i suoi livelli figli soltanto uno alla volta.
+[por] ...mas ele mostra apenas uma de suas camadas filhas por vez.
+[spa] ...pero sólo muestra una de sus capas hijas a la vez.
+[zho] ...不过它每次只显示一个子层。
+
+14
+00:01:33,980 --> 00:01:38,300
+[deu] Diese Gruppe hat einen speziellen Parameter namens „Aktive Ebene“…
+[eng] This group have a special parameter called "Active Layer Name"...
+[fra] Ce groupe a un paramètre spécial appelé "Active Layer Name"...
+[ita] Questo gruppo ha un particolare parametro, chiamato "Active Layer Name"...
+[por] Esse grupo tem um parâmetro especial chamado "Nome da Camada Ativa"...
+[spa] Este grupo tiene un parámetro especial, llamado "Active Layer Name",
+[zho] 这个组有个被称为“活动层名(Active Layer Name)”特别的参数...
+
+15
+00:01:38,480 --> 00:01:41,800
+[deu] …welcher den Namen der anzuzeigenden Ebene angibt.
+[eng] ...which defines the name of layer to display.
+[fra] ...qui définit le nom du calque à afficher.
+[ita] ... che definisce il nome del livello da mostrare.
+[por] ...que contém o nome da camada que será mostrada.
+[spa] ...que define el nombre de la capa a mostrar.
+[zho] ...其定义了要显示的层的名字。
+
+16
+00:01:42,000 --> 00:01:46,900
+[deu] Ändern wit ihn, damit die Figur ihren Mund schließt.
+[eng] Let's change it, to make our character close his mouth.
+[fra] Changeons-le, pour faire fermer sa bouche à notre personnage.
+[ita] Cambiamolo, per far chiudere la bocca al nostro personaggio.
+[por] Vamos mudar o valor e fazer nosso personagem fechar a boca.
+[spa] Vamos a cambiarlo, para hacer que el personaje cierre la boca.
+[zho] 我们更改它，让角色合上嘴吧。
+
+17
+00:01:47,100 --> 00:01:50,100
+[deu] Drücken Sie Enter. Fertig.
+[eng] Press Enter. Done.
+[fra] Appuyez sur Entrée. C'est fait.
+[ita] Premi Enter. Fatto.
+[por] Aperte Enter. Pronto.
+[spa] Presiona "Intro". Listo.
+[zho] 按下回车键。完成。
+
+18
+00:01:50,360 --> 00:01:53,930
+[deu] Wenn wir diesen Parameter im Animations-Modus ändern…
+[eng] If we change this parameter in the Animation mode...
+[fra] Si nous changeons ce paramètre en mode Animation...
+[ita] Se cambiamo questo parametro nella modalità Animazione ...
+[por] Se nós mudarmos este parâmetro no modo de animação...
+[spa] Si cambiamos este parámetro en el modo de animación,
+[zho] 如果我们在动画模式中对这个参数做更改...
+
+19
+00:01:54,260 --> 00:01:59,030
+[deu] …erscheinen neue Wegpunkte und die Ebenen werden umgeschaltet.
+[eng] ...the new waypoints will appear and the layers will be switching.
+[fra] ...les nouveaux waypoints apparaîtront et les calques alterneront.
+[ita] ... appariranno i nuovi waypoints e i livelli saranno sistemati.
+[por] ...os novos pontos de referência vão aparecer e as camadas serão trocadas.
+[spa] aparecen nuevos waypoints, y las capas irán cambiando.
+[zho] ...新的航点出现，层开始切换。
+
+20
+00:01:59,230 --> 00:02:04,330
+[deu] Lassen Sie uns nun den Kopf in Gruppe aufnehmen.
+[eng] Now let's put head inside of this group.
+[fra] Maintenant mettons "head" dans ce groupe.
+[ita] Adesso mettiamo la testa all'interno di questo gruppo.
+[por] Agora vamos colocar a cabeça dentro deste grupo.
+[spa] Coloquemos la cabeza dentro del grupo del personaje.
+[zho] 现在让我们把头放到这个组里。
+
+21
+00:02:04,640 --> 00:02:07,000
+[deu] Wählen Sie „Ausschneiden“…
+[eng] Choose "Cut"...
+[fra] Choisissez "Cut"...
+[ita] Scegli "Cut" - "Taglia"...
+[por] Clique em "Recortar"...
+[spa] Cortamos /Cut/,...
+[zho] 选择“剪切(Cut)”...
+
+22
+00:02:07,220 --> 00:02:08,960
+[deu] Wählen Sie diese Ebene...
+[eng] Select this layer...
+[fra] Sélectionnez le calque...
+[ita] Seleziona questo livello ...
+[por] Selecione essa camada...
+[spa] seleccionamos esta capa...
+[zho] 选择这个层...
+
+23
+00:02:09,160 --> 00:02:11,060
+[deu] …und gehen Sie auf „Einfügen“.
+[eng] ...and "Paste".
+[fra] ...et "Paste".
+[ita] ... e "Paste" - "Incolla".
+[por] ...e depois "Colar".
+[spa] ...y pegamos /Paste/.
+[zho] ...然后“粘贴(Paste)”。
+
+24
+00:02:11,200 --> 00:02:16,630
+[deu] Wie Sie sehen, werden neue Ebenen immer direkt oberhalb der ausgewählten eingefügt.
+[eng] Notice that new layers are always inserted right above of the selected one.
+[fra] Notez que les nouveaux calques sont toujours insérés juste au-dessus de celui qui est sélectionné.
+[ita] Nota che i nuovi livelli vengono sempre inseriti sopra quello selezionato.
+[por] Note que as novas camadas são sempre inseridas logo acima da camada selecionada.
+[spa] Fíjate que las nuevas capas siempre se insertan justo encima de la capa seleccionada actualmente.
+[zho] 注意新层总是被插入到被选中的层之上的。
+
+25
+00:02:23,560 --> 00:02:27,560
+[deu] Wollen wir nun eine Audiodatei mit einer Stimme für unsere Figur importieren.
+[eng] Now let's import audio file with a voice of our character.
+[fra] Maintenant importons un fichier audio avec la voix de notre personnage.
+[ita] Ora importiamo il file audio con una voce per il nostro personaggio.
+[por] Agora vamos importar um arquivo de áudio com a voz do nosso personagem.
+[spa] Ahora importemos el archivo de audio con la voz de nuestro personaje.
+[zho] 现在我们导入带有角色声音的音频文件。
+
+26
+00:02:27,980 --> 00:02:30,600
+[deu] Wählen Sie „Datei“ -> „Importieren“…
+[eng] Choose "File" -> "Import"...
+[fra] Choisissez "File" -> "Import"...
+[ita] Scegli "File" -> "Import" ...
+[por] Escolha "Arquivo" -> "Importar"...
+[spa] Selecciona "File" -> "Import"...
+[zho] 选择“文件(File)” > “导入(Import)”...
+
+27
+00:02:31,320 --> 00:02:36,260
+[deu] …und wählen Sie im „mimic“-Ordner „sound.wav“.
+[eng] ...and in the "mimic" folder select "sound.wav".
+[fra] ...et dans le dossier "mimic" sélectionnez "sound.wav".
+[ita] ... e nella cartella "mimic" seleziona "sound.wav".
+[por] ...e na pasta "mimic" selecione "sound.wav".
+[spa] ...y en la carpeta "mimic" selecciona "sound.wav".
+[zho] ...在"mimic" 文件夹中选择 "sound.wav".
+
+28
+00:02:41,030 --> 00:02:43,900
+[deu] Lassen Sie uns in die Audiospur hineinhören.
+[eng] Let's listen to an audio track.
+[fra] Écoutons la piste audio.
+[ita] Ascoltiamo una traccia audio.
+[por] Vamos escutar este áudio.
+[spa] Escuchemos la pista de audio.
+[zho] 我们试听一下。
+
+29
+00:02:47,140 --> 00:02:49,730
+[deu] Wir haben also zwei Phrasen.
+[eng] So, we've got two phrases.
+[fra] Nous avons deux phrases.
+[ita] Dunque abbiamo due frasi.
+[por] Nós temos duas frases.
+[spa] Entonces, tenemos dos frases.
+[zho] 好，有两句短句。
+
+30
+00:02:49,780 --> 00:02:54,430
+[deu] Lassen Sie uns den Anfang und das Ende jeder Phrase mit einem Schlüsselbild markieren.
+[eng] Let's mark the beginning and the end of each phrase with keyframes.
+[fra] Marquons le début et la fin de chaque phrase avec des keyframes.
+[ita] Segniamo l'inizio e il termine di ogni frase con keyframes.
+[por] Vamos marcar o começo e o fim de cada frase com quadros-chave.
+[spa] Marquemos el inicio y el final de cada una con keyframes.
+[zho] 我们用关键帧标注每句短语的开始和结尾。
+
+31
+00:03:18,230 --> 00:03:19,500
+[deu] Fertig.
+[eng] Done.
+[fra] C'est fait.
+[ita] Fatto.
+[por] Pronto.
+[spa] Hecho.
+[zho] 完成。
+
+32
+00:03:19,700 --> 00:03:23,730
+[deu] Jetzt werden wir die Bilder des Kopfes in bestimmten Intervallen umschalten.
+[eng] Now we're going to switch head images in this and that intervals.
+[fra] Nous allons alterner les images de la tête dans ces deux intervalles.
+[ita] Ora sistemeremo le immagini della testa in questo e quell'intervallo.
+[por] Agora vamos trocar as imagens da cabeça nesses intervalos.
+[spa] Ahora cambiaremos las imágenes de las cabezas en estos intervalos.
+[zho] 现在我们要从这里到那里的声程间切换头像。
+
+33
+00:03:23,880 --> 00:03:27,260
+[deu] Schalten Sie den Animations-Modus ein…
+[eng] Turn the Animation mode on...
+[fra] Activons le mode Animation...
+[ita] Attiva la modalità Animazione ...
+[por] Ative o modo de animação...
+[spa] Cambia al modo de animación...
+[zho] 打开动画模式...
+
+34
+00:03:28,740 --> 00:03:31,130
+[deu] …gehen Sie zwei Bilder vorwärts…
+[eng] ...go two frames ahead...
+[fra] ...allons deux trames en avant...
+[ita] ... vai avanti di due fotogrammi ...
+[por] ...vá dois quadros adiante...
+[spa] ...ve dos cuadros más adelante...
+[zho] ...向前两帧...
+
+35
+00:03:31,320 --> 00:03:35,200
+[deu] …und aktivieren Sie die erste Ebene.
+[eng] ...and switch the first layer.
+[fra] ...et activons le premier calque.
+[ita] ... e vai al primo livello.
+[por] ...e troque a primeira camada.
+[spa] ...y cambia la primera capa.
+[zho] ...切换第一个层.
+
+36
+00:03:39,600 --> 00:03:41,960
+[deu] Nun etwas weiter…
+[eng] Now further a bit more...
+[fra] Maintenant un peu plus loin...
+[ita] Adesso ancora un po' di più ...
+[por] Agora um pouco mais pra lá...
+[spa] Ahora adelantamos un poco más...
+[zho] 再多来一些...
+
+37
+00:03:41,980 --> 00:03:44,960
+[deu] und so fort.
+[eng] and so on.
+[fra] et ainsi de suite.
+[ita] e così via.
+[por] e assim vai.
+[spa] y así sucesivamente.
+[zho] 等等。
+
+38
+00:03:45,730 --> 00:03:51,200
+[deu] Ich werde an dieser Stelle nicht versuchen, die Mundstellungen mit der Stimme zu synchronisieren.
+[eng] Right now I won't going to try to perfectly synchronize mouth shapes with voice.
+[fra] Pour le moment je ne vais pas essayer de synchroniser parfaitement les mouvements de la bouche avec la voix.
+[ita] Adesso non si cercherà di sincronizzare alla perfezione le forme della bocca con la voce.
+[por] Eu não vou tentar sincronizar perfeitamente a boca com a voz agora.
+[spa] Por ahora no trataré de sincronizar a la perfección la forma de la boca con la voz.
+[zho] 此刻我不打算去完美同步口型和声音。
+
+39
+00:03:51,360 --> 00:03:56,630
+[deu] Stattdessen werde ich sie beliebig einsetzen – das sollte in unserem Fall erst einmal ausreichen.
+[eng] Instead, I will place them randomly - that should be enough for now.
+[fra] Au lieu de cela, je vais les placer aléatoirement - ce sera bien suffisant pour l'instant.
+[ita] Invece, le disporrò a caso - così dovrebbe essere abbastanza per adesso.
+[por] Ao invés disso, vou distribuir elas aleatoriamente - isso deve ser o suficiente por ora.
+[spa] En su lugar, las colocaré al azar -eso será suficiente por ahora.
+[zho] 反而，我随机的放置 - 应该就够了。
+
+40
+00:04:00,420 --> 00:04:03,100
+[deu] Lassen Sie uns einen Blick auf das Ergebnis werfen.
+[eng] Let's check out the result.
+[fra] Vérifions le résultat.
+[ita] Verifichiamo il risultato.
+[por] Vamos ver o resultado.
+[spa] Miremos el resultado.
+[zho] 我们看看结果。
+
+41
+00:04:06,260 --> 00:04:08,600
+[deu] Ok, nun redet die Figur.
+[eng] Okay, he is talking now.
+[fra] Okay, il parle maintenant.
+[ita] Bene, adesso parla.
+[por] Bom, ele está falando agora.
+[spa] ¡Bien! El chico ya habla.
+[zho] 好啊，现在他开口说话。
+
+42
+00:04:08,760 --> 00:04:14,600
+[deu] In diesem Beispiel haben alle unsere Bilder des Kopfes dieselbe Größe, daher gibt es hier keine Probleme.
+[eng] In this example all our head images are of the same size, so we don't have any problems.
+[fra] Dans cet exemple toutes les images de tête ont la même taille, donc nous n'aurons pas de problème.
+[ita] In questo esempio, tutte le immagini delle teste sono delle stesse dimensioni, quindi non abbiamo alcun problema.
+[por] Nesse exemplo todas as imagens de cabeça são do mesmo tamanho, então não tivemos problema algum.
+[spa] En este ejemplo, las imágenes de las cabezas tienen el mismo tamaño, así que no tenemos ningún problema con eso.
+[zho] 在这个例子中我们的全部头像都是用样尺寸的，所以我们没有碰到任何问题。
+
+43
+00:04:14,980 --> 00:04:20,060
+[deu] Doch angenommen, wir wollen ein weiteres Bild des Kopfes mit einer anderen Größe einfügen.
+[eng] But suppose if we want to add an extra head image with a different dimensions.
+[fra] Mais supposez que l'on veuille ajouter une tête supplémentaire avec des dimensions différentes.
+[ita] Mettiamo però di voler aggiungere un'altra immagine della testa con dimensioni differenti.
+[por] Mas suponhamos que você queira adicionar uma outra imagem de cabeça com dimensões diferentes.
+[spa] Pero supongamos que queremos agregar una imagen adicional con dimensiones diferentes.
+[zho] 但假设我们想要添加多一张不一样坐标的头像。
+
+44
+00:04:27,900 --> 00:04:31,360
+[deu] Importieren Sie die „head-extra“-Datei…
+[eng] Import "head-extra" file...
+[fra] Importez le fichier "head-extra"...
+[ita] Importa il file "testa-extra" ...
+[por] Importe o arquivo "head-extra"...
+[spa] Importa el archivo "head-extra"...
+[zho] 导入 "head-extra" 文件...
+
+45
+00:04:33,880 --> 00:04:37,300
+[deu] Und platzieren Sie sie in der Schalter-Gruppe.
+[eng] And place it into the switch group.
+[fra] Et placez-le à l'intérieur du groupe Switch.
+[ita] E mettiamola nel gruppo Switch.
+[por] E coloque ele no grupo de comutação.
+[spa] Y colócalo en el grupo de cambio, o switch group.
+[zho] 并把它放到切换组中。
+
+46
+00:04:43,540 --> 00:04:48,030
+[deu] Sie ist derzeit nicht sichtbar. Lassen Sie uns sie an einem bestimmten Zeitpunkt aktivieren.
+[eng] It's not visible for now. Let's switch in on at some moment.
+[fra] Il n'est pas visible pour le moment. Activons-le à un moment donné.
+[ita] Non è visibile, per ora. La attiviamo tra qualche istante.
+[por] Não está visível agora. Vamos trocar em algum momento.
+[spa] No es visible por ahora. Cambiémoslo en algún punto.
+[zho] 现在还看不见。我们在某个时刻切换出来。
+
+47
+00:04:54,240 --> 00:04:58,430
+[deu] Sehen Sie? Der Kopf unserer Figur springt zur Seite.
+[eng] See? The guy's head jerks aside.
+[fra] Vous voyez ? La tête du gars est décalée.
+[ita] Vedi ? La testa del ragazzo ...
+[por] Viu? A cabeça do rapaz deu uma tremida.
+[spa] ¿Ves? La cabeza del niño se desplaza hacia el lado.
+[zho] 看到吗？这家伙的头抽风了一样。
+
+48
+00:04:59,020 --> 00:05:02,560
+[deu] Das liegt daran, dass das Bild nicht deckungsgleich mit den anderen ist.
+[eng] That's because the image doesn't coincide with the others.
+[fra] C'est parce que l'image ne coïncide pas avec les autres.
+[ita] Questo perché l'immagine non coincide con le altre.
+[por] Isso é porque a imagem não coincide com as outras.
+[spa] Esto pasa porque la imagen no coincide con las otras.
+[zho] 这是因为这张图像和其他不一致。
+
+49
+00:05:02,880 --> 00:05:05,330
+[deu] Wir müssen es also anpassen.
+[eng] So we have to adjust it.
+[fra] Donc nous avons à l'ajuster.
+[ita] Quindi dobbiamo correggerla.
+[por] Então nós temos que ajustar ela.
+[spa] Así que tenemos que ajustarla.
+[zho] 我们不得不调整调整。
+
+50
+00:05:05,500 --> 00:05:09,700
+[deu] Doch das ist nicht so einfach, denn wir sehen die anderen Köpfe ja nicht!
+[eng] But it's not that easy, because I can't see other heads at the same time!
+[fra] Mais ce n'est pas facile, parce que je ne peux pas voir les autres têtes en même temps.
+[ita] Non è mica facile però, perché non posso vedere altre teste nello stesso istante !
+[por] Mas é um pouco complicado, já que não podemos ver as outras cabeças ao mesmo tempo!
+[spa] ¡Pero no es tan sencillo, pues no puedo ver las otras cabezas al mismo tiempo!
+[zho] 但不是那么容易的，因为我不能同时看到其他头像！
+
+51
+00:05:09,760 --> 00:05:14,060
+[deu] Daher werden wir nun den Zwiebelschalen-Modus nutzen.
+[eng] So here we will use a Onionskin mode.
+[fra] Alors nous utiliserons ici le mode Peau d'Oignon.
+[ita] Quindi qui useremo una modalità Onionskin.
+[por] Então nós vamos usar o modo de Onionskin.
+[spa] Asi que usaremos el modo de "Papel Cebolla" u "Onionskin".
+[zho] 所以，在此我们要用洋葱皮模式。
+
+52
+00:05:17,380 --> 00:05:22,160
+[deu] Wenn der Zwiebelschalen-Modus aktiviert ist, sehen wir das letzte Schlüsselbild.
+[eng] When Onionskin is enabled we can see an image from the previous keyframe.
+[fra] Quand la Peau d'Oignon est activé nous pouvons voir une image de la keyframe précédente.
+[ita] Quando si attiva Onionskin, si può vedere un'immagine dal precedente fotogramma chiave.
+[por] Quando o onionskin estiver ativado, nós podemos ver uma imagem de um quadro-chave anterior.
+[spa] Cuando el modo de Onionskin está activado, se puede ver la imagen del keyframe anterior.
+[zho] 当洋葱皮模式打开后，我们能看到来此前一个关键帧的图像。
+
+53
+00:05:22,330 --> 00:05:25,500
+[deu] Damit wird es einfach, das Bild auszurichten.
+[eng] Now it's become easy to align the image.
+[fra] Maintenant il devient facile d'aligner l'image
+[ita] Ora diventa facile posizionare l'immagine.
+[por] Agora ficou fácil alinhar a imagem.
+[spa] Ahora sí es fácil alinear la imagen.
+[zho] 现在对齐图像就变得容易多了。
+
+54
+00:05:25,620 --> 00:05:31,720
+[deu] Vergessen Sie bitte zuvor aber nicht, den Animations-Modus auszuschalten, ansonsten kann es zu unvorhergesehenen Nebenwirkungen kommen.
+[eng] Just don't forget to switch the Animation mode off before you start, or else nasty miracles would happen.
+[fra] N'oubliez juste pas de désactiver le mode Animation avant de commencer ou d'autres miracles gênants pourraient arriver.
+[ita] Non dimenticare però di disattivare la modalità Animazione prima di iniziare, altrimenti potrebbe verificarsi qualche fenomeno spiacevole.
+[por] Não se esqueça de desligar o modo de animação quando você começar, do contrário coisas mirabolantes vão acontecer.
+[spa] Sólo no olvides desactivar el modo de animación antes de empezar.
+[zho] 只是不要忘了在开始之前关掉动画模式，要不然讨厌的事情就会出现哦。
+
+55
+00:05:32,640 --> 00:05:37,700
+[deu] Wählen Sie das Bild des Kopfes… und passen Sie es an.
+[eng] Select the head image... and adjust.
+[fra] Sélectionnez l'image de la tête et ajustez.
+[ita] Seleziona l'immagine della testa ... e correggi.
+[por] Selecione a imagem da cabeça... e ajuste.
+[spa] Selecciona la imagen de la cabeza, y ajústala.
+[zho] 选择这张头像...进行调整
+
+56
+00:05:45,040 --> 00:05:47,330
+[deu] Fertig.
+[eng] Done.
+[fra] C'est fait.
+[ita] Fatto.
+[por] Pronto.
+[spa] Listo.
+[zho] 完成。
+
+57
+00:05:55,520 --> 00:05:59,000
+[deu] Nun funktioniert alles wie erwartet.
+[eng] Now everything works as expected.
+[fra] Maintenant tout fonctionne comme espéré.
+[ita] Adesso funziona tutto come ci aspettavamo.
+[por] Agora tudo funciona como esperado.
+[spa] Ahora sí, todo funciona como se esperaba.
+[zho] 现在一起都如我们所愿了。
+

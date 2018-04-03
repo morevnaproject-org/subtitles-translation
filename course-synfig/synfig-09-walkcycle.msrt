@@ -1,0 +1,520 @@
+1
+00:00:00,600 --> 00:00:02,860
+[deu] #9: Der Walkcycle
+[eng] #9: Walkcycle
+[fra] #9: Cycle de Marche
+[ita] #9: Ciclo “Camminata”
+[por] #9: Ciclo de caminhada
+[spa] #9: Caminata Continua "Walkcycle"
+[zho] #9: 行走循环
+
+2
+00:00:05,300 --> 00:00:10,000
+[deu] Wir haben also die ersten drei Schritte unserer laufenden Figur.
+[eng] So we have first three steps of our character walking.
+[fra] Donc nous avons les trois premiers pas de la marche de notre personnage.
+[ita] Dunque abbiamo I primi tre passi del nostro personaggio che cammina.
+[por] Então nós temos os três primeiros passos do nosso personagem andando.
+[spa] Tenemos tres primeros pasos de nuestro personaje caminando.
+[zho] 我们做好了角色行走的开头三步了。
+
+3
+00:00:10,200 --> 00:00:13,000
+[deu] Ich denke, dass Sie Sich vorstellen können, wie es weitergeht.
+[eng] I guess you've got he idea how to continue that.
+[fra] Je devine que vous savez comment continuer cela.
+[ita] Scommetto che vi immaginate come continuare.
+[por] Acho que você entendeu como continuar.
+[spa] Supongo que tienes una idea de cómo continuar con eso.
+[zho] 我猜你已经明白如何继续下去了。
+
+4
+00:00:13,260 --> 00:00:18,100
+[deu] Doch ich wette, dass die meisten von Ihnen Ihre Arbeit lieber speichern und einen in einer Schleife laufenden Walkcycle erstellen möchten.
+[eng] But I bet in most cases you would like to save your efforts and create a looped walkcycle.
+[fra] Mais je parie que dans la plupart des cas vous voudriez éviter des efforts et créer un cycle de marche en boucle.
+[ita] Scommetto però che nella maggior parte dei casi vi piacerebbe risparmiare tempo e impegno e creare un ciclo ‘camminata’.
+[por] Mas aposto que na maioria dos casos você iria querer economizar esforços e criar um ciclo de caminhada repetido.
+[spa] Pero apuesto a que en la mayoría de los casos te gustaría evitar esforzarte y crear una caminata continua.
+[zho] 但是我感打赌，多数情况下你还是希望能省点力气，创建一个循环的行走。
+
+5
+00:00:18,260 --> 00:00:20,800
+[deu] Wollen wir also sehen, wie das geht.
+[eng] So let's take a look.
+[fra] Alors regardons comment nous y prendre.
+[ita] Quindi diamo un’occhiata.
+[por] Vamos dar uma olhada nisso.
+[spa] Vamos a echar un vistazo.
+[zho] 那我们试试看。
+
+6
+00:00:20,960 --> 00:00:25,380
+[deu] Offensichtlich müssen wir den Intervall von Bild 0 bis 32 in einer Schleife abspielen.
+[eng] Obviously, we need to loop the interval from frame 0 to 32.
+[fra] Visiblement, nous avons besoin de faire une boucle sur l'intervalle des trames 0 à 32.
+[ita] Naturalmente, occorre realizzare il ciclo dell’intervallo dal fotogramma 0 al 32.
+[por] Obviamente, nós precisamos repetir o intervalo do quadro 0 até o 32.
+[spa] Obviamente, necesitamos hacer un bucle del intervalo del fotograma 0 al 32
+[zho] 很显然，我们需要循环的间隔是从第0帧到第32帧。
+
+7
+00:00:25,600 --> 00:00:30,660
+[deu] Doch wir schließen Bild Nummer 32 aus, denn es ist dasselbe wie Bild 0.
+[eng] But we exclude the frame number 32, because it is exactly the same as frame 0.
+[fra] Mais nous excluons la trame numéro 32, puisqu'elle est exactement la même que la trame 0.
+[ita] Escludiamo però il fotogramma 32, perché é del tutto identico al fotogramma 0.
+[por] Mas nós excluimos o quadro 32, porque ele é exatamente o mesmo do quadro 0.
+[spa] Pero excluimos el fotograma 32, porque es exactamente el mismo que el fotograma 0.
+[zho] 但是我们把第32帧排除掉，因为它和第0帧是一模一样的。
+
+8
+00:00:30,860 --> 00:00:33,960
+[deu] Wir wollen es nicht zweimal wiederholen, richtig?
+[eng] We don't want to repeat it twice, right?
+[fra] Nous ne voulons pas la répéter deux fois, n'est-ce pas ?
+[ita] Non vogliamo ripeterlo due volte, giusto ?
+[por] Não queremos repetir ele duas vezes, certo?
+[spa] No queremos repetirlo dos veces, ¿verdad?
+[zho] 我们不想重复它两次，对吧？
+
+9
+00:00:37,260 --> 00:00:41,200
+[deu] Zunächst müssen wir dafür sorgen, dass die Figur auf der Stelle läuft.
+[eng] First, we have to make the character to walk in place.
+[fra] Nous devons donc faire marcher le personnage sur place.
+[ita] Per prima cosa, dobbiamo far camminare il personaggio.
+[por] Primeiro, temos que fazer o personagem andar.
+[spa] Primero tenemos que hacer que el personaje camine en su sitio.
+[zho] 首先，我们要让角色走到位置上。
+
+10
+00:00:41,380 --> 00:00:44,200
+[deu] Dies ist die Position des vorderen Beins.
+[eng] This is the position of the fore leg.
+[fra] C'est la position de la jambe de devant.
+[ita] Questa è la posizione della gamba anteriore.
+[por] Essa é a posição da perna dianteira.
+[spa] Esta es la posición de la pierna delantera.
+[zho] 这是前腿的位置。
+
+11
+00:00:44,400 --> 00:00:48,200
+[deu] Nun bewegen wir in Bild 32 die gesamte Gruppe rückwärts…
+[eng] Now in frame 32 we move the whole group backwards...
+[fra] Maintenant à la trame 32 nous voulons déplacer l'ensemble du groupe en arrière...
+[ita] Adesso, nel fotogramma 32 spostiamo indietro tutto il gruppo…
+[por] Agora no quadro 32 nós vamos ver o conjunto inteiro para trás.
+[spa] Ahora en el fotograma 32 movemos todo el grupo hacia atrás...
+[zho] 在第32帧我们移动整个背景向后...
+
+12
+00:00:48,360 --> 00:00:52,600
+[deu] …so dass das vordere Bein mit der Ausgangsposition übereinstimmt.
+[eng] ... so the fore leg aligns to its original position.
+[fra] ... donc la jambe avant s'aligne avec sa position originale.
+[ita] … così la gamba in avanti si dispone nella sua posizione originaria.
+[por] ... para que a perna da frente se alinhe na sua posição original.
+[spa] ...de manera que la pierna delantera se alinee con su posición original.
+[zho] ... 所以前腿对齐到它的初始位置上。
+
+13
+00:00:53,940 --> 00:00:58,620
+[deu] Ups, die Kreismarkierung ist in derselben Gruppe wie die Figur…
+[eng] Oops, the circle marker is in same the group with the character...
+[fra] Oups, le cercle marqueur est dans le même groupe que le personnage...
+[ita] Oops, il marcatore cerchio è nello stesso gruppo con il personaggio …
+[por] Opa, o marcador circular está no mesmo grupo do personagem...
+[spa] Vaya, el marcador circular está en mismo grupo con el personaje...
+[zho] 哎呀，圆形标记和角色在同一个组里...
+
+14
+00:00:58,720 --> 00:01:02,100
+[deu] Lassen Sie uns eine außerhalb davon erstellen.
+[eng] Let's create one outside of it.
+[fra] Créons-en un en dehors de celui-ci.
+[ita] Creiamone uno all’esterno di esso.
+[por] Vamos criar um fora dele.
+[spa] Vamos a crear otro fuera de él.
+[zho] 我们在其外再创建一个。
+
+15
+00:01:15,080 --> 00:01:18,400
+[deu] Und nun können wir die Gruppe verschieben.
+[eng] And now we can move the group.
+[fra] Et maintenant nous pouvons déplacer le groupe.
+[ita] E ora possiamo muovere il gruppo.
+[por] E agora nós podemos mover o grupo.
+[spa] Y ahora podemos mover el grupo.
+[zho] 现在我们可以移动这个组了。
+
+16
+00:01:23,260 --> 00:01:28,460
+[deu] Achten Sie darauf, dass wir durch das Schlüsselbild HIER einen zusätzlichen Wegpunkt haben.
+[eng] Notice, because the keyframes, we have an extra waypoint HERE.
+[fra] Notez qu'à cause des keyframes, nous avons un waypoint supplémentaire ICI.
+[ita] Nota, a causa dei fotogrammi chiave, abbiamo un …  extra QUI.
+[por] Note que, por conta dos quadros-chave, nós temos um ponto de referência adicional aqui.
+[spa] Nota que, debido a los fotogramas clave, tenemos un punto de referencia adicional AQUÍ.
+[zho] 注意，因为这些关键帧，我们有一个额外的航点，这里。
+
+17
+00:01:28,920 --> 00:01:32,060
+[deu] Doch wir benötigen eine vollständige Bewegung der Figur beginnend bei 0.
+[eng] But we need a whole character motion start from 0.
+[fra] Mais nous avons besoin que le départ de l'ensemble du mouvement se fasse depuis 0.
+[ita] Ci serve però uno spostamento di tutto il personaggio a partire da 0.
+[por] Mas nós precisamos que o movimento do personagem começe pelo 0.
+[spa] Pero necesitamos que todo el movimiento del personaje empiece desde "0".
+[zho] 当我们要一个从0帧开始的整个角色的运动。
+
+18
+00:01:32,120 --> 00:01:35,460
+[deu] Beheben wir das.
+[eng] Let's fix it.
+[fra] Corrigeons cela.
+[ita] Correggiamolo.
+[por] Vamos ajeitar isso.
+[spa] Arreglemos esto.
+[zho] 我们来调整它。
+
+19
+00:01:38,340 --> 00:01:42,200
+[deu] Und dieser letzte Wegpunkt sollte entfernt werden.
+[eng] And this last waypoint should be removed.
+[fra] Et ce dernier waypoint devrait être enlevé.
+[ita] E quest’ultimo … andrebbe rimosso.
+[por] E este último ponto de referência deve ser removido.
+[spa] Y este último punto de referencia debe ser eliminado.
+[zho] 最后的这个航点应当删去。
+
+20
+00:01:43,820 --> 00:01:48,600
+[deu] Fertig! Nun läuft unser Kerlchen bis Bild 32 auf der Stelle.
+[eng] Done! Now our guy walks in place till the frame 32.
+[fra] C'est fait ! Maintenant notre gars marche sur place jusqu'à la trame 32.
+[ita] Fatto ! Adesso il nostro ragazzo cammina fino al fotogramma 32.
+[por] Pronto! Agora nosso carinha anda até o quadro 32.
+[spa] Hecho! Ahora nuesto "tío" camina en su sitio hasta el fotograma 32.
+[zho] 完成！现在我们的角色在32帧前都是到位的。
+
+21
+00:01:49,260 --> 00:01:55,160
+[deu] Und wir kümmern uns nicht darum, was danach passiert, denn ich werde nun eine Zeitschleifen-Ebene hinzufügen.
+[eng] And we don't care what will happen after that, because I'm going to add a Time Loop layer now.
+[fra] Et nous ne nous préoccupons pas de ce qui se passe après cela car je vais ajouter maintenant un calque Time Loop.
+[ita] E non ci importa cosa succederà dopo questo, perché adesso aggiungeremo un livello Ciclo Durata.
+[por] E não ligue para o que acontece depois, porque vamos adicionar uma camada de Laço de Tempo.
+[spa] Y no nos importa lo que suceda después de eso, porque ahora voy a añadir una capa Time Loop.
+[zho] 我们不用考虑之后会出现什么情况，因为现在我要添加时间循环层(Time Loop Layer)了。
+
+22
+00:01:55,430 --> 00:01:59,360
+[deu] Doch zunächst müssen wir das Filtern von Ebenen verstehen lernen.
+[eng] But first, we need understand filter layers.
+[fra] Mais d'abord, nous devons comprendre les calques filtres.
+[ita] Prima però, ci serve comprendere i livelli filtro.
+[por] Mas primeiro, precisamos entender as camadas de filtro.
+[spa] Pero primero, necesitamos entender las capas filtro.
+[zho] 不过，我们首先要了解过滤层(Filter Layer)。
+
+23
+00:01:59,560 --> 00:02:03,660
+[deu] Normalerweise werden Ebenen benutzt, um etwas auf der Arbeitsfläche anzuzeigen:
+[eng] Usually layers are used to display something in working area: ...
+[fra] D'habitude les calques sont utilisés pour afficher quelque chose dans la surface de travail: ...
+[ita] Di solito, i livelli si usano per rappresentare qualcosa nell’area di lavoro: …
+[por] Geralmente as camadas são usadas para mostrar algo na área de desenho: ...
+[spa] Por lo general las capas son usadas para mostrar algo en el área de trabajo: ...
+[zho] 通常层是用来在工作区域显示一些东西：...
+
+24
+00:02:03,780 --> 00:02:08,830
+[deu] Kreis, Rechteck, Bitmap-Artwork usw.
+[eng] circle, rectangle, bitmap artwork, etc.
+[fra] cercle, rectangle, dessin en bitmap, etc.
+[ita] un cerchio, un rettangolo, un disegno bitmap, ecc.
+[por] círculo, retângulo, arte bitmap, etc.
+[spa] círculo, rectángulo, gráficos mapa de bits, etc.
+[zho] 圆形，矩形，位图，等。
+
+25
+00:02:09,020 --> 00:02:14,860
+[deu] Aber in Synfig gibt es eine spezielle Ebene, die das Aussehen (oder Verhalten) darunterliegender Ebenen verändern kann.
+[eng] But in Synfig there are a special layers that can change the look (or behavior) of underlying layers.
+[fra] Mais dans Synfig il y a des calques spéciaux qui changent l'apparence (ou le comportement ) des calques sous-jacents.
+[ita] In Synfig però ci sono livelli speciali che possono cambiare l’aspetto (o qualche caratteristica) dei livelli sottostanti.
+[por] Mas no Synfig existem camadas especiais que mudam o visual (ou comportamento) das camadas abaixo.
+[spa] Pero en Synfig hay capas especiales que pueden cambiar el aspecto (o comportamiento) de las capas inferiores.
+[zho] 但在 Synfig 里有一类特殊的层能改变位于其下方的层的外观（或者行为）。
+
+26
+00:02:15,080 --> 00:02:17,960
+[deu] Diese werden Filter-Ebenen genannt.
+[eng] These are called Filter Layers.
+[fra] Ils sont appellés Filter Layers (ou Calques Filtres).
+[ita] Sono chiamati Livelli Filtro.
+[por] Elas são chamadas de Camadas de Filtro.
+[spa] Son llamadas Capas de Filtro /Filter Layers/.
+[zho] 这些层我们称之为过滤层(Filter Layers)。
+
+27
+00:02:18,180 --> 00:02:20,730
+[deu] Lassen Sie mich Ihnen ein Beispiel zeigen.
+[eng] Let me demonstrate an example.
+[fra] Laissez-moi vous faire une démonstration.
+[ita] Ve lo dimostro con un esempio.
+[por] Deixe-me mostrar um exemplo.
+[spa] Permíteme demostrárlo con un ejemplo.
+[zho] 给你演示个例子。
+
+28
+00:02:20,840 --> 00:02:25,200
+[deu] Erstellen Sie zwei Kreise, einen blauen und einen roten.
+[eng] Create two circles. A blue and a red one.
+[fra] Créez deux cercles. Un bleu et un rouge.
+[ita] Realizzate due cerchi. Uno blu e uno rosso.
+[por] Crie dois círculos. Um azul e outro vermelho.
+[spa] Crea dos círculos. Uno azul y uno rojo.
+[zho] 创建两个圆形，一蓝一红。
+
+29
+00:02:28,060 --> 00:02:30,660
+[deu] Wählen Sie den oberen Kreis...
+[eng] Select the upper circle..
+[fra] Sélectionnez le cercle du haut...
+[ita] Seleziona il cerchio superiore …
+[por] Selecione o círculo de cima...
+[spa] Selecciona el círculo superior...
+[zho] 选择相对上面的圆..
+
+30
+00:02:30,800 --> 00:02:34,560
+[deu] …Rechtsklicken Sie darauf und wählen Sie „Neue Ebene“.
+[eng] ...right-click it, and choose "New Layer".
+[fra] ...cliquez-droit dessus et choisissez "New Layer".
+[ita] … fai click con il tasto destro su esso, scegli “Nuovo Livello”.
+[por] ...clique com o botão direito e escolha "Nova Camada"
+[spa] ...click derecho, y selecciona "New Layer".
+[zho] ...右键点击它，选择“新建层”。
+
+31
+00:02:36,520 --> 00:02:40,060
+[deu] Wählen wir die „Unschärfe“-Filter-Ebene aus.
+[eng] Let's choose the "Blur" filter layer.
+[fra] Choisissez le calque filtre "Blur".
+[ita] Scegliamo il livello filtro “Sfoca”.
+[por] Vamos escolher o filtro "Desfocar".
+[spa] Selecciona la capa filtro "Blur" /desenfoque/.
+[zho] 我们选择“模糊”过滤层。
+
+32
+00:02:41,080 --> 00:02:44,430
+[deu] Überraschung, alles ist nun unscharf.
+[eng] Surprise, everything is blurred.
+[fra] Surprise, tout est devenu flou.
+[ita] Sorpresa, tutto è diventato sfocato.
+[por] Surpresa, tudo está desfocado.
+[spa] Sorpresa, todo está difuminado.
+[zho] 奇怪吧，都变模糊了。
+
+33
+00:02:44,700 --> 00:02:47,600
+[deu] Wir können die Stärke der Unschärfe in der Parameter-Leiste anpassen...
+[eng] We can adjust the blur amount on the Parameters panel...
+[fra] Nous pouvons ajuster le niveau de flou dans le panneau Paramètres...
+[ita] Possiamo regolare il grado di sfocatura sul pannello Parametri …
+[por] Nós podemos ajustar a quantidade de desfoque no painel de parâmetros.
+[spa] Podemos ajustar el porcentaje de desenfoque en el panel Parámetros.
+[zho] 要调整模糊的大小，我们可以在属性面板上做调整。
+
+34
+00:02:47,840 --> 00:02:51,860
+[deu] …oder direkt auf der Arbeitsfläche, indem dieser Punkt verschoben wird.
+[eng] ...or right in the canvas by moving this dot.
+[fra] ...ou directement dans le canevas en déplaçant ce point.
+[ita] … o a destra del quadro, spostando questo punto.
+[por] ...ou direto na área de desenho movendo este ponto.
+[spa] ...o en el lienzo moviendo este punto.
+[zho] ...也可也在画布上移动这个点。
+
+35
+00:02:57,600 --> 00:03:01,400
+[deu] Filter-Ebenen beeinflussen nur Ebene unterhalb von ihnen.
+[eng] Filter layers are only affect layers below them.
+[fra] Les calques filtres affectent seulement les calques situés en-dessous d'eux.
+[ita] I livelli filtro agiscono soltanto sui livelli sotto di essi.
+[por] Camadas de filtro apenas afetam as camadas abaixo delas.
+[spa] Las capas Filtro solo afectan a las capas por debajo de ellas.
+[zho] 过滤层只对处于它下方的层起作用。
+
+36
+00:03:01,660 --> 00:03:05,430
+[deu] Wenn wir die Unschärfe-Ebene nach unten verschieben
+[eng] If we move the blur-layer down
+[fra] Si l'on déplace le calque de flou vers le bas
+[ita] Se spostiamo al di sotto il livello Sfoca
+[por] Se nós movemos a camada de desfoque para baixo...
+[spa] Si movemos la capa blur abajo
+[zho] 如果我们把模糊层向下移动。
+
+37
+00:03:06,660 --> 00:03:10,300
+[deu] Wie Sie sehen, wird nur der rote Kreis unscharf dargestellt.
+[eng] See, now only the red circle is blurred.
+[fra] Voyez, maintenant seul le cercle rouge est flouté.
+[ita] Vedi, adesso soltanto il cerchio rosso è sfocato.
+[por] Veja, agora apenas o círculo vermelho está desfocado.
+[spa] Mira, ahora solo el círculo rojo está desenfocado.
+[zho] 看，现在只有红色的圆是模糊的。
+
+38
+00:03:11,930 --> 00:03:16,000
+[deu] Doch was passiert, wenn ich nur den blauen Kreis darüber unscharf darstellen will...
+[eng] But what if I'd like to blur only the blue circle above...
+[fra] Mais si l'on a envie de flouter seulement le cercle bleu qui est au-dessus...
+[ita] Invece, se preferissi sfocare soltanto il cerchio blu di sopra …
+[por] Mas e se eu quisesse desfocar apenas o círculo azul em cima...
+[spa] Pero que tal si quisiera desenfocar sólo el círculo azul superior.
+[zho] 但如果我只想模糊上面的蓝色圆形...
+
+39
+00:03:16,160 --> 00:03:19,000
+[deu] …während der rote unverändert bleiben soll?
+[eng] ...and keep the red one unchanged?
+[fra] ...et garder le rouge inchangé ?
+[ita] … e lasciassi invariato quello rosso ?
+[por] ...e deixar o vermelho normal?
+[spa] ...y mantener el rojo sin cambios?
+[zho] ...而不改变红色的呢？
+
+40
+00:03:19,400 --> 00:03:26,030
+[deu] Bewegen Sie dafür einfach die Ebene aufwärts, über den blauen Kreis, und verschieben Sie die in dieselbe Gruppee.
+[eng] To do that, just move the layer up, above the blue circle, and group them together.
+[fra] Pour faire cela, déplacez juste le calque vers le haut, au-dessus du cercle bleu, et groupez-les ensemble.
+[ita] Per far questo, si sposta semplicemente il livello di sopra, al di sopra del cerchio blu e si raggruppano insieme.
+[por] Para fazer isso, mova a camada para cima, acima do círculo azul, e agrupe elas.
+[spa] Para hacerlo, solo mueve la capá hacia arriba, por encima del círculo azul y agrúpalas.
+[zho] 要达到这个目的，只需要向上移动这个层，移到蓝色的上方，在把它们两合到一个组里去。
+
+41
+00:03:29,760 --> 00:03:33,980
+[deu] Wir Sie sehen, betreffen Filter nur die Ebenen innerhalb derselben Gruppe.
+[eng] So you see filters affects only the layers in the same group.
+[fra] Alors vous le voyez, les filtres affectent seulement les calques dans le même groupe.
+[ita] Quindi si vede che i filtri agiscono solo sui livelli nello stesso gruppo.
+[por] Você pode ver que os filtros apenas afetam as camadas de um mesmo grupo.
+[spa] Así puedes ver que los filtros sólo afectan a las capas en el mismo grupo.
+[zho] 你看过滤只对同一组里的层起作用了。
+
+42
+00:03:34,100 --> 00:03:37,530
+[deu] Im „Neue Ebene“-Menü finden wir eine Menge Filter-Ebenen...
+[eng] In the "New Layer" menu we have a lot of filter-layers...
+[fra] Dans le menu "New Layer" nous avons plein de calques filtres...
+[ita] Nel menu “Nuovo Livello” abbiamo numerosi livelli-filtro …
+[por] No menu "Nova Camada" nós temos várias camadas de filtro.
+[spa] En el menú "New Layer" tenemos una gran cantidad de capas de filtro...
+[zho] 在“新建层”菜单我们有很多种过滤层...
+
+43
+00:03:37,720 --> 00:03:43,360
+[deu] …viele verschiedene Verzerrungs- und andere interessante Effekte.
+[eng] ... many different distortions and other interesting effects.
+[fra] ... de nombreuses distortions différentes et autres effets intéressants.
+[ita] … molte deformazioni differenti e altri effetti interessanti.
+[por] ... várias distorções diferentes e outros efeitos interessantes.
+[spa] ... algunas distorsiones diferentes y otros efectos interesantes.
+[zho] ... 很多不同的变形和其它有趣的效果。
+
+44
+00:03:44,530 --> 00:03:47,930
+[deu] Wir benötigen jetzt eine Zeitschleifen-Ebene.
+[eng] Right now we need a Time Loop layer.
+[fra] Maintenant nous avons besoin d'un calque Time Loop.
+[ita] Ora ci serve un livello Durata Ciclo.
+[por] Agora nós precisamos de uma camada de laço temporal.
+[spa] Ahora necesitamos la capa Time Loop /Bucle de tiempo/.
+[zho] 现在我们需要的是一个时间循环层(Time Loop layer)。
+
+45
+00:03:48,040 --> 00:03:53,500
+[deu] Diese Ebene wiederholt einen Teil einer Animation von den Ebenen darunter kontinuierlich.
+[eng] This layer takes a fragment of animation from the layers below and continuously repeats it.
+[fra] Ce calque prend un fragment de l'animation depuis les calques en-dessous et les répète continuellement.
+[ita] Questo livello prende un brano di animazione dai livelli sottostanti e lo ripete continuamente.
+[por] Essa camada pega um pedaço da animação das camadas abaixo dela e repete continuamente.
+[spa] Esta capa toma un fragmento de la animación de las capas inferiores y lo repite continuamente.
+[zho] 这种层会从它下面的那些层种提取一段动画然后持续的重复这段动画。
+
+46
+00:03:53,620 --> 00:03:57,460
+[deu] Wollen wir zu unserer Figur zurückkehren.
+[eng] Let's get back to our character.
+[fra] Retournons à notre personnage.
+[ita] Torniamo al nostro personaggio.
+[por] Vamos voltar para o nosso personagem.
+[spa] Regresemos a nuestro personaje.
+[zho] 我们回到我们的角色上来吧。
+
+47
+00:03:57,730 --> 00:04:00,330
+[deu] Schalten Sie den Animations-Modus aus...
+[eng] Turn the Animation Mode off...
+[fra] Désactivons le Mode Animation...
+[ita] Disattiva la Modalità Animazione …
+[por] Desligue o modo de animação...
+[spa] Cambie el Modo Animación...
+[zho] 关闭动画模式...
+
+48
+00:04:00,480 --> 00:04:04,560
+[deu] Fügen Sie nun eine Zeitschleifen-Ebene hinzu.
+[eng] Now add a Time Loop layer.
+[fra] Ajoutons maintenant un calque Time Loop.
+[ita] Ora aggiungi un livello Durata Ciclo.
+[por] Agora adicione uma camada de laço temporal.
+[spa] Ahora añada la capa Time Loop.
+[zho] 现在增加一个时间循环层
+
+49
+00:04:07,860 --> 00:04:11,000
+[deu] Legen Sie ihre Dauer auf 31 Bilder fest.
+[eng] Set its Duration to 31.
+[fra] Définissons sa Durée à 31.
+[ita] Imposta la sua Durata a 31.
+[por] Mude a Duração dela para 31.
+[spa] Establezca  su duración a 31
+[zho] 设置其持续时间长度(Duration)为31。
+
+50
+00:04:11,160 --> 00:04:15,900
+[deu] Wie Sie sich wahrscheinlich erinnern, müssen wir Bild Nummer 32 nicht mit aufnehmen.
+[eng] As you probably remember we don't need to include the frame number 32.
+[fra] Comme vous vous souvenez probablement nous n'avons pas besoin d'inclure la trame numéro 32.
+[ita] Come forse si ricorderà, non serve includere il fotogramma numero 32.
+[por] Como você talvez lembre, não precisamos incluir o quadro 32.
+[spa] Como probáblemente recuerdes no necesitamos incluir el  frame número 32.
+[zho] 或许你还记得，我们不需要把第32帧也包含进来。
+
+51
+00:04:18,100 --> 00:04:22,630
+[deu] Nun ist alles bereit und wir haben einen endlosen Walkcycle.
+[eng] Now all's ready and we have an endless walkcycle.
+[fra] Maintenant tout est prêt et nous avons un cycle de marche sans fin.
+[ita] Ora è tutto pronto e abbiamo un ciclo infinito di camminata.
+[por] Agora está tudo pronto, temos um ciclo de caminhada infinito.
+[spa] Ahora todo está listo y tenemos un walkcycle infinito.
+[zho] 现在一切都准备好了，我们获得了永不停止的行走循环。
+
+52
+00:04:30,220 --> 00:04:33,160
+[deu] Lassen Sie uns die Datei speichern.
+[eng] Let's save the file.
+[fra] Enregistrons le fichier.
+[ita] Salviamo il file.
+[por] Vamos salvar o arquivo.
+[spa] Guardamos el archivo.
+[zho] 我们把文件保存起来。
+

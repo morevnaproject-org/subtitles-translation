@@ -1,0 +1,1142 @@
+1
+00:00:01,800 --> 00:00:07,100
+[deu] In this lesson, I would like to tell you about
+[eng] In this lesson, I would like to tell you about
+[fra] In this lesson, I would like to tell you about
+[ita] In questa lezione, vorrei parlarti di una caratteristica molto interessante di Synfig Studio
+[por] Nesta aula, eu gostaria de te falar sobre uma
+característica bem interessante do Synfig.
+[spa] En esta lección, me gustaría contarte acerca de una
+
+2
+00:00:08,430 --> 00:00:11,930
+[deu] Let's take a look at this sample
+[eng] Let's take a look at this sample
+[fra] Let's take a look at this sample
+[ita] Vediamo questo esempio
+[por] Vamos olhar este exemplo
+[spa] Demos un vistazo a este ejemplo.
+
+3
+00:00:12,060 --> 00:00:17,030
+[deu] Now, let's try to guess how many waypoints
+[eng] Now, let's try to guess how many waypoints
+[fra] Now, let's try to guess how many waypoints
+[ita] Ora, prova a indovinare quanti waypoints sono stati usati per creare questa animazione
+[por] Agora, vamos adivinhar quantos pontos de
+passagem foram usados para essa animação.
+[spa] Ahora, intentemos adivinar cuantos waypoints
+
+4
+00:00:17,730 --> 00:00:21,460
+[deu] 18, 9 or 5?
+[eng] 18, 9 or 5?
+[fra] 18, 9 or 5?
+[ita] 18, 9 o 5 ?
+[por] 18, 9 ou 5?
+[spa] 18, 9 o 5?
+
+5
+00:00:21,600 --> 00:00:24,730
+[deu] The correct answer is...
+[eng] The correct answer is...
+[fra] The correct answer is...
+[ita] La risposta corretta è ... soltanto 2 !
+[por] A respota correta é...
+apenas 2!
+[spa] La respuesta correcta es...
+
+6
+00:00:25,400 --> 00:00:29,500
+[deu] Synfig Studio has powerful features
+[eng] Synfig Studio has powerful features
+[fra] Synfig Studio has powerful features
+[ita] Synfig Studio ha potenti caratteristiche per creare animazioni in automatico
+[por] O Synfig Studio possui funcionalidades
+poderosas para criar animações automáticas.
+[spa] Synfig Studio tiene poderosas caracteristicas
+
+7
+00:00:29,500 --> 00:00:34,500
+[deu] and now, I'm going to demonstrate them
+[eng] and now, I'm going to demonstrate them
+[fra] and now, I'm going to demonstrate them
+[ita] e adesso te lo dimostrerò ricreando l'animazione di quest'ape in volo
+[por] e agora, eu vou demonstrá-las recriando
+a animação dessa abelha.
+[spa] y ahora, voy a mostrartelas recreando la animación de esta abeja
+
+8
+00:00:36,000 --> 00:00:39,930
+[deu] Here we have a bee body and
+[eng] Here we have a bee body and
+[fra] Here we have a bee body and
+[ita] Abbiamo qui il corpo dell'ape e un'ala con l'immagine dello sfondo
+[por] Aqui nós temos um corpo de abelha e
+uma asa com uma imagem de fundo.
+[spa] Aquí tenemos un cuerpo de abeja y un ala con una imagen de fondo
+
+9
+00:00:39,930 --> 00:00:43,000
+[deu] Let's import bee and
+[eng] Let's import bee and
+[fra] Let's import bee and
+[ita] Importiamo l'ape e la sua ala nell'area di lavoro
+[por] Vamos importar a abelha e a
+asa dela para a área de desenho.
+[spa] Importamos la abeja y su ala hasta el área de trabajo
+
+10
+00:00:46,660 --> 00:00:48,300
+[deu] Group them together
+[eng] Group them together
+[fra] Group them together
+[ita] Raggruppiamoli insieme
+[por] Agrupe elas.
+[spa] Las agrupamos
+
+11
+00:00:49,800 --> 00:00:51,230
+[deu] and scale
+[eng] and scale
+[fra] and scale
+[ita] e ridimensioniamoli
+[por] E escale.
+[spa] y escalamos
+
+12
+00:00:51,900 --> 00:00:53,030
+[deu] like this
+[eng] like this
+[fra] like this
+[ita] così
+[por] Assim.
+[spa] así
+
+13
+00:00:54,630 --> 00:00:56,630
+[deu] Move the wing into the right place
+[eng] Move the wing into the right place
+[fra] Move the wing into the right place
+[ita] Spostiamo l'ala al suo posto
+[por] Mova a asa para o lugar certo.
+[spa] Mueve la ala hacia el lugar correcto
+
+14
+00:00:59,130 --> 00:01:01,300
+[deu] and set its rotation center
+[eng] and set its rotation center
+[fra] and set its rotation center
+[ita] e assegniamo il centro di rotazione
+[por] E defina o centro de rotação dela.
+[spa] y establece su centro de rotación
+
+15
+00:01:04,230 --> 00:01:07,300
+[deu] Now we are going to add
+[eng] Now we are going to add
+[fra] Now we are going to add
+[ita] Ora andremo ad aggiungere l'animazione automatica
+[por] Agora vamos adicionar uma
+animação automática.
+[spa] Ahora vamos a gregar
+
+16
+00:01:08,600 --> 00:01:12,930
+[deu] In Synfig Studio, you can attach mathematical
+[eng] In Synfig Studio, you can attach mathematical
+[fra] In Synfig Studio, you can attach mathematical
+[ita] In Synfig Studio possiamo associare una funzione matematica a qualsiasi parametro di livello
+[por] No Synfig Studio, você pode vincular funções.
+matemáticas para qualquer parâmetro de uma camada.
+[spa] En Synfig Studio, puedes vincular una función
+
+17
+00:01:13,200 --> 00:01:16,430
+[deu] Let me demonstrate how it works
+[eng] Let me demonstrate how it works
+[fra] Let me demonstrate how it works
+[ita] Vi mostro come funziona usando un semplice cerchio
+[por] Vamos demonstrar como isso funciona
+usando um círculo simples.
+[spa] Permíteme demostrate como funciona
+
+18
+00:01:17,400 --> 00:01:19,430
+[deu] Here, we have a circle
+[eng] Here, we have a circle
+[fra] Here, we have a circle
+[ita] Ecco qua un cerchio
+[por] Aqui, temos um círculo.
+[spa] Aquí, tenemos un círculo
+
+19
+00:01:20,560 --> 00:01:22,960
+[deu] Let's select its origin parameter
+[eng] Let's select its origin parameter
+[fra] Let's select its origin parameter
+[ita] Selezioniamo il suo parametro origine
+[por] Vamos selecionar o parâmetro de origem.
+[spa] Seleccionamos su parámetro Origin
+
+20
+00:01:23,620 --> 00:01:24,950
+[deu] right-click
+[eng] right-click
+[fra] right-click
+[ita] click tasto destro
+[por] Clique direito.
+[spa] click-derecho
+
+21
+00:01:25,320 --> 00:01:27,120
+[deu] and choose "Convert"
+[eng] and choose "Convert"
+[fra] and choose "Convert"
+[ita] e scegli "Converti"
+[por] e escolha "Converter"
+[spa] y seleccionamos "Convert"
+
+22
+00:01:28,370 --> 00:01:30,950
+[deu] Here, we got a list of available functions
+[eng] Here, we got a list of available functions
+[fra] Here, we got a list of available functions
+[ita] Ecco abbiamo una lista di funzioni disponibili
+[por] Agora temos uma lista de funções disponíveis.
+[spa] Aquí, tenemos una lista de las funciones disponibles.
+
+23
+00:01:30,950 --> 00:01:33,470
+[deu] in Synfig Studio we call them Converters
+[eng] in Synfig Studio we call them Converters
+[fra] in Synfig Studio we call them Converters
+[ita] in Synfig Studio li chiamiamo Convertitori
+[por] No Synfig chamamos elas de conversores.
+[spa] en Synfig Studio los llamamos Converters
+
+24
+00:01:34,220 --> 00:01:36,020
+[deu] Choose Random converter
+[eng] Choose Random converter
+[fra] Choose Random converter
+[ita] Scegli il Convertitore Random
+[por] Escolha o conversor Aleatório.
+[spa] Selecciona Random converter
+
+25
+00:01:39,220 --> 00:01:40,200
+[deu] Look
+[eng] Look
+[fra] Look
+[ita] Guarda
+[por] Olhe.
+[spa] Mira
+
+26
+00:01:40,850 --> 00:01:43,150
+[deu] Now, our circle makes random movements
+[eng] Now, our circle makes random movements
+[fra] Now, our circle makes random movements
+[ita] Adesso il nostro cerchio fa dei movimenti a caso
+[por] Agora, nosso círculo faz movimentos aleatórios
+[spa] Ahora, nuestro círculo realiza movimientos aleatorios
+
+27
+00:01:46,000 --> 00:01:50,900
+[deu] Notice that there is a small triangle mark
+[eng] Notice that there is a small triangle mark
+[fra] Notice that there is a small triangle mark
+[ita] Nota che c'è un piccolo segno triangolare che è comparso vicino al parametro Origine
+[por] Note que existe uma pequena marca
+triangular perto do parâmetro de origem.
+[spa] Observe que  un pequeño marcador triangular apareció cerca del parámetro Origin
+
+28
+00:01:52,770 --> 00:01:55,420
+[deu] Click on it to see
+[eng] Click on it to see
+[fra] Click on it to see
+[ita] Clicca sopra per vedere i parametri del convertitore
+[por] Clique nela para ver os parâmetros
+do conversor.
+[spa] Click en él para ver los parámetros del converter
+
+29
+00:01:57,370 --> 00:02:01,750
+[deu] The Link sub-parameter represents
+[eng] The Link sub-parameter represents
+[fra] The Link sub-parameter represents
+[ita] Il sub-parametro Link rappresenta un punto centrale per valutazione random
+[por] O sub-parâmetro de Vínculo repreta o
+ponto central em que a aleatoriedade agirá.
+[spa] EL sub-parámetro Link representa un punto central para la evalución aleatoria
+
+30
+00:02:05,220 --> 00:02:08,450
+[deu] Here, we can set a maximum Radius of variation...
+[eng] Here, we can set a maximum Radius of variation...
+[fra] Here, we can set a maximum Radius of variation...
+[ita] Ecco, possiamo impostare un Raggio di variazione massimo ...
+[por] Aqui nós podemos definir o raio máximo de variação...
+[spa] Aquí, podemos configurar el Radius/Radio máximo de variación...
+
+31
+00:02:16,750 --> 00:02:18,100
+[deu] Speed...
+[eng] Speed...
+[fra] Speed...
+[ita] Velocità ...
+[por] Velocidade...
+[spa] Speed/Velocidad...
+
+32
+00:02:24,950 --> 00:02:25,700
+[deu] or Seed
+[eng] or Seed
+[fra] or Seed
+[ita] o Seme
+[por] ou Semente
+[spa] o Seed/Semilla
+
+33
+00:02:26,470 --> 00:02:29,250
+[deu] This Seed value defines
+[eng] This Seed value defines
+[fra] This Seed value defines
+[ita] Il valore di Seme definisce un moto a caso differente
+[por] Esse valor de Semente como é
+gerado o valor aleatório.
+[spa] Este valor Seed define un
+
+34
+00:02:33,100 --> 00:02:37,950
+[deu] To remove converter from parameter,
+[eng] To remove converter from parameter,
+[fra] To remove converter from parameter,
+[ita] Per rimuovere il convertitore dal parametro, basta fare clic col tasto destro sopra e scegliere Disconnetti
+[por] Para remover um conversor de um parâmetro,
+clique com o botão direito nele e aperte Desconectar.
+[spa] Para remover el coverter dede el parámetro,
+
+35
+00:02:43,750 --> 00:02:50,400
+[deu] As you probably noticed, the random converter made influence to both X and Y axes of origin parameter
+[eng] As you probably noticed, the random converter made influence to both X and Y axes of origin parameter
+[fra] As you probably noticed, the random converter made influence to both X and Y axes of origin parameter
+[ita] Come forse avrai notato, il convertitore Random ha influenzato entrambi gli assi X e Y del parametro Origine
+[por] Como você provavelmente notou, o conversor aleatório influenciou tanto os eixos X quanto Y do parâmetro de origem.
+[spa] Como habrás notado, el convertidor Random influyó en los ejes X e Y del parámetro Origin
+
+36
+00:02:50,400 --> 00:02:54,350
+[deu] Now, let's try to make it influence only its X axis
+[eng] Now, let's try to make it influence only its X axis
+[fra] Now, let's try to make it influence only its X axis
+[ita] Ora, proviamo a fargli influenzare soltanto l'asse X
+[por] Agora vamos tentar fazer ele influenciar apenas no eixo X.
+[spa] Ahora, intentemos hacer que influya solo a su eje X
+
+37
+00:02:54,450 --> 00:02:56,170
+[deu] To achieve this
+[eng] To achieve this
+[fra] To achieve this
+[ita] Per ottenere questo
+[por] Para fazer isso
+[spa] Para lograr esto
+
+38
+00:02:56,170 --> 00:02:59,820
+[deu] add a plain Composite converter for Origin parameter
+[eng] add a plain Composite converter for Origin parameter
+[fra] add a plain Composite converter for Origin parameter
+[ita] aggiungi un semplice convertitore Composite per il parametro Origine
+[por] Adicione um conversor de Composição no parâmetro de Origem.
+[spa] Agrega un convertidor Composite para el parámetro Origin
+
+39
+00:03:01,570 --> 00:03:04,450
+[deu] This converter doesn't produce any animation
+[eng] This converter doesn't produce any animation
+[fra] This converter doesn't produce any animation
+[ita] Questo convertitore non genera alcuna animazione
+[por] Esse conversor não produz animação
+[spa] Este convertidor no produce ninguna animación
+
+40
+00:03:04,920 --> 00:03:10,070
+[deu] but it splits our parameter to
+[eng] but it splits our parameter to
+[fra] but it splits our parameter to
+[ita] ma scompone il nostro parametro in due componenti elementari X e Y
+[por] mas separa nosso parâmetro em
+componentes básicos, X e Y
+[spa] pero divide nuestro parámetro a
+
+41
+00:03:13,200 --> 00:03:17,400
+[deu] Now, again, let's right-click on X sub-parameter
+[eng] Now, again, let's right-click on X sub-parameter
+[fra] Now, again, let's right-click on X sub-parameter
+[ita] Ora fai di nuovo click destro sul sub-parametro X
+[por] Agora, vamos clicar com o botão direito no sub-parâmetro X.
+[spa] Ahora, click-derecho sobre el sub-parámetro X
+
+42
+00:03:19,420 --> 00:03:21,270
+[deu] and choose Convert
+[eng] and choose Convert
+[fra] and choose Convert
+[ita] e scegli Converti
+[por] e escolha Converter
+[spa] y selecciona Convert
+
+43
+00:03:21,850 --> 00:03:23,020
+[deu] Random
+[eng] Random
+[fra] Random
+[ita] Random (Casuale)
+[por] Aleatório
+[spa] Random/Aleatorio
+
+44
+00:03:31,250 --> 00:03:35,970
+[deu] Now, our circle is randomly moving
+[eng] Now, our circle is randomly moving
+[fra] Now, our circle is randomly moving
+[ita] Adesso il nostro cerchio si muove a caso solo in direzione orizzontale
+[por] Agora, nosso círculo está se movendo
+aleatóriamente apenas na horizontal.
+[spa] Ahora, nuestro círculo se mueve aleatoriamente
+
+45
+00:03:38,270 --> 00:03:39,500
+[deu] and finally
+[eng] and finally
+[fra] and finally
+[ita] e finalmente
+[por] e finalmente
+[spa] y finalmente
+
+46
+00:03:39,500 --> 00:03:44,450
+[deu] I would like to show you one more
+[eng] I would like to show you one more
+[fra] I would like to show you one more
+[ita] voglio farti vedere un un altro convertitore più interessante detto "Lineare"
+[por] Eu queria te mostrar mais um conversor
+interessante chamado de "Linear"
+[spa] Me gustaría mostrarte un convertidor
+
+47
+00:03:44,770 --> 00:03:48,420
+[deu] This converter changes
+[eng] This converter changes
+[fra] This converter changes
+[ita] Questo convertitore modifica il valore del parametro con una costante
+[por] Esse conversor modifica um valor de um
+parâmetro por meio de um valor constante.
+[spa] Este convertidor cambia el valor
+
+48
+00:03:48,600 --> 00:03:50,300
+[deu] Linear Velocity
+[eng] Linear Velocity
+[fra] Linear Velocity
+[ita] Velocità Lineare
+[por] Velocidade Linear
+[spa] Velocidad Linear
+
+49
+00:03:50,720 --> 00:03:53,850
+[deu] Let's attach it instead of Random function
+[eng] Let's attach it instead of Random function
+[fra] Let's attach it instead of Random function
+[ita] Associamolo al posto della funzione Random
+[por] Vamos adicionar ele ao invés da função Aleatória
+[spa] Vamos a adjuntarlo en lugar de la función Random.
+
+50
+00:03:54,550 --> 00:03:58,150
+[deu] It's not really necessary
+[eng] It's not really necessary
+[fra] It's not really necessary
+[ita] Veramente, non è necessario disconnettere il convertitore Random
+[por] Não é realmente necessário desconectar
+o conversor aleatório.
+[spa] No es realmente nnecesario para
+
+51
+00:03:58,470 --> 00:04:02,620
+[deu] Then I'm attaching Linear converter
+[eng] Then I'm attaching Linear converter
+[fra] Then I'm attaching Linear converter
+[ita] Allora associo il convertitore Lineare al sub-parametro X
+[por] Eu estou vinculando o conversor Linear
+no sub-parâmetro X.
+[spa] Entonces estoy adjuntando el convertidor
+
+52
+00:04:03,170 --> 00:04:05,670
+[deu] the old values have been
+[eng] the old values have been
+[fra] the old values have been
+[ita] i valori di partenza sono stati rimossi automaticamente
+[por] Os valores antigos foram automaticamente
+removidos.
+[spa] Los viejos valores han sido
+
+53
+00:04:06,270 --> 00:04:09,450
+[deu] Let's set "Rate" value to 1
+[eng] Let's set "Rate" value to 1
+[fra] Let's set "Rate" value to 1
+[ita] Impostiamo il valore di "Rate" a 1
+[por] Vamos definir o valor da "Taxa" para 1.
+[spa] Dejemos el valor "Rate" en 1
+
+54
+00:04:12,750 --> 00:04:17,170
+[deu] You can see our circle is moving
+[eng] You can see our circle is moving
+[fra] You can see our circle is moving
+[ita] Come vedi, il nostro cerchio si sta spostando in direzione orizzontale a velocità costante
+[por] Vocẽ pode ver que nosso círculo está se movendo
+na horizontal com velocidade constante.
+[spa] Puedes ver a nuestro circulo moviéndose
+
+55
+00:04:17,700 --> 00:04:20,020
+[deu] and this movement is infinite
+[eng] and this movement is infinite
+[fra] and this movement is infinite
+[ita] e questo moto è infinito
+[por] E esse movimento é infinito.
+[spa] y este movimiento es infinito
+
+56
+00:04:21,620 --> 00:04:24,070
+[deu] Now, let's get back to our bee
+[eng] Now, let's get back to our bee
+[fra] Now, let's get back to our bee
+[ita] Adesso, ritorniamo alla nostra ape
+[por] Agora, vamos voltar para nossa abelha.
+[spa] Ahora, regresemos a nuestra abeja
+
+57
+00:04:24,570 --> 00:04:27,270
+[deu] So, we want to animate a wing
+[eng] So, we want to animate a wing
+[fra] So, we want to animate a wing
+[ita] Dunque, vogliamo animare un'ala
+[por] Então, queremos animar uma asa.
+[spa] Entonces, queremos animar un ala
+
+58
+00:04:28,200 --> 00:04:32,950
+[deu] For this, I set a Random converter to its Angle parameter
+[eng] For this, I set a Random converter to its Angle parameter
+[fra] For this, I set a Random converter to its Angle parameter
+[ita] Per far questo assegno un convertitore Random al suo parametro Angolo
+[por] Para isso, eu coloco um conversor Aleatório no parâmetro de Ângulo.
+[spa] Para esto, configuro un convertidor Random a su parámetro Angle/Ángulo
+
+59
+00:04:37,670 --> 00:04:41,000
+[deu] Right now, this gives almost no effect
+[eng] Right now, this gives almost no effect
+[fra] Right now, this gives almost no effect
+[ita] Così, non genera quasi nessun effetto
+[por] Agora isso não tem quase efeito nenhum
+[spa] Ahora mismo, esto casi no afecta
+
+60
+00:04:41,770 --> 00:04:44,720
+[deu] That's because the radius value is set to 1
+[eng] That's because the radius value is set to 1
+[fra] That's because the radius value is set to 1
+[ita] questo perché il valore del raggio è impostato ad 1
+[por] Isso é por conta do valor do raio estar 1.
+[spa] Eso es porque el valor Radius esta establecido en 1
+
+61
+00:04:45,500 --> 00:04:50,720
+[deu] that means that maximum variation of
+[eng] that means that maximum variation of
+[fra] that means that maximum variation of
+[ita] che significa che la massima variazione del moto a caso è di 1 grado soltanto
+[por] Isso significa que a variação máxima do
+movimento está limitada a apenas 1 grau.
+[spa] eso significa que la variación máxima
+
+62
+00:04:51,550 --> 00:04:53,700
+[deu] Let that Radius to 30
+[eng] Let that Radius to 30
+[fra] Let that Radius to 30
+[ita] Impostiamo il Raggio a 30
+[por] Vamos definir esse raio para 30
+[spa] Deje ese Radius en 30
+
+63
+00:04:56,100 --> 00:04:57,400
+[deu] Much better!
+[eng] Much better!
+[fra] Much better!
+[ita] Va molto meglio !
+[por] Bem melhor!
+[spa] Mucho mejor!
+
+64
+00:04:57,570 --> 00:04:59,620
+[deu] But the wing moves too slow!
+[eng] But the wing moves too slow!
+[fra] But the wing moves too slow!
+[ita] Però l'ala si muove troppo lentamente |
+[por] Mas a asa se move muito devagar!
+[spa] Pero el ala se mueve demasiado lento!
+
+65
+00:05:00,750 --> 00:05:03,500
+[deu] Let's set Speed value to 25
+[eng] Let's set Speed value to 25
+[fra] Let's set Speed value to 25
+[ita] Impostiamo il valore di Velocità a 25
+[por] Vamos definir o valor de Velocidade para 25.
+[spa] Establezca el valor Speed en 25
+
+66
+00:05:04,470 --> 00:05:05,500
+[deu] Great!
+[eng] Great!
+[fra] Great!
+[ita] Ottimo !
+[por] Ótimo!
+[spa] Genial!
+
+67
+00:05:05,800 --> 00:05:07,900
+[deu] Let's take a look at the graphs
+[eng] Let's take a look at the graphs
+[fra] Let's take a look at the graphs
+[ita] Diamo un'occhiata ai diagrammi
+[por] Vamos dar uma olhada nos gráficos.
+[spa] Heche un vistazo a los gráficos
+
+68
+00:05:08,350 --> 00:05:12,620
+[deu] and yes... Make sure that you have
+[eng] and yes... Make sure that you have
+[fra] and yes... Make sure that you have
+[ita] e sì, assicurati di avere selezionato il parametro Angolo
+[por] e sim... tenha certeza de que você tem o
+parâmetro de ângulo selecionado.
+[spa] y si... asegúrese que tiene el
+
+69
+00:05:13,370 --> 00:05:16,320
+[deu] So... We have one wing animated
+[eng] So... We have one wing animated
+[fra] So... We have one wing animated
+[ita] Quindi... abbiamo un'ala animata !
+[por] Então... temos uma asa animada.
+[spa] Entonces... tenemos un ala animada
+
+70
+00:05:16,820 --> 00:05:18,070
+[deu] Let's copy it
+[eng] Let's copy it
+[fra] Let's copy it
+[ita] Copiamola !
+[por] Vamos copiar ela.
+[spa] Copiémosla
+
+71
+00:05:18,900 --> 00:05:20,150
+[deu] Put it down
+[eng] Put it down
+[fra] Put it down
+[ita] Mettiamola giù
+[por] Colocar.
+[spa] Colóquela
+
+72
+00:05:20,820 --> 00:05:22,120
+[deu] Move here...
+[eng] Move here...
+[fra] Move here...
+[ita] Spostiamola qui ...
+[por] Mover aqui...
+[spa] Muévala aquí
+
+73
+00:05:22,950 --> 00:05:24,770
+[deu] and scale down a bit
+[eng] and scale down a bit
+[fra] and scale down a bit
+[ita] e ridimensioniamola un poco
+[por] e dar uma redimensionada.
+[spa] y escálela un poco
+
+74
+00:05:30,320 --> 00:05:32,850
+[deu] We have a really cute bee now!
+[eng] We have a really cute bee now!
+[fra] We have a really cute bee now!
+[ita] Adesso abbiamo un'ape davvero carina !
+[por] Nós temos uma abelha bem fofinha agora!
+[spa] Ahora tenemos una abeja realmente linda!
+
+75
+00:05:33,070 --> 00:05:34,020
+[deu] Notice...
+[eng] Notice...
+[fra] Notice...
+[ita] Nota...
+[por] Note...
+[spa] Fíjese...
+
+76
+00:05:34,370 --> 00:05:37,850
+[deu] that the second wing has a
+[eng] that the second wing has a
+[fra] that the second wing has a
+[ita] che la seconda ala ha un movimento differente dall'altra
+[por] que a segunda asa tem um
+movimento diferente da primeira.
+[spa] que la segunda ala tiene un movimiento diferente a la primera
+
+77
+00:05:38,460 --> 00:05:43,970
+[deu] that's because the Random converter got
+[eng] that's because the Random converter got
+[fra] that's because the Random converter got
+[ita] questo perché il convertitore Random possedeva un valore di Seme differente quando il livello è stato copiato
+[por] Isso é porque o conversor aleatório ficou com um valor
+diferente de semente quando a camada foi copiada.
+[spa] eso es porque el convertidor Random se llevó
+
+78
+00:05:46,260 --> 00:05:48,740
+[deu] We can make wings move synchronously
+[eng] We can make wings move synchronously
+[fra] We can make wings move synchronously
+[ita] Possiamo far muovere le ali con sincronismo
+[por] Nós podemos fazer as asas se mover sincronizadamente.
+[spa] Podemos hacer que las alas se muevan sincronizadamente
+
+79
+00:05:49,180 --> 00:05:52,540
+[deu] We have to assign the same seed value to both
+[eng] We have to assign the same seed value to both
+[fra] We have to assign the same seed value to both
+[ita] Dobbiamo assegnare lo stesso valore di seme ad entrambe
+[por] Nós temos que atribuir o mesmo valor da semente nas duas.
+[spa] Tenemos que asignar el mismo valor Seed a ambos
+
+80
+00:05:52,680 --> 00:05:53,960
+[deu] Like this
+[eng] Like this
+[fra] Like this
+[ita] Così
+[por] Assim
+[spa] Así
+
+81
+00:06:09,040 --> 00:06:13,220
+[deu] But for my taste, it's better
+[eng] But for my taste, it's better
+[fra] But for my taste, it's better
+[ita] Però per i miei gusti è meglio farle muovere in modo differente
+[por] Mas para mim, é melhor quando
+elas se movem diferentemente.
+[spa] Pero para mi gusto, es mejor cuando
+
+82
+00:06:14,420 --> 00:06:17,020
+[deu] So, let's revert our last changes
+[eng] So, let's revert our last changes
+[fra] So, let's revert our last changes
+[ita] Quindi, ritorniamo alla nostra ultima modifica
+[por] Vamos reverter nossas últimas alterações.
+[spa] Por lo tanto, vamos a revertir
+
+83
+00:06:23,940 --> 00:06:29,460
+[deu] Now, let's make our bee to fly from
+[eng] Now, let's make our bee to fly from
+[fra] Now, let's make our bee to fly from
+[ita] Ora, facciamo volare la nostra ape da una parte all'altra dell'inquadratura
+[por] Agora vamos fazer nossa abelha voar de
+um lado da tela para o outro.
+[spa] Ahora, vamos a hacer volar a nuestra abeja
+
+84
+00:06:32,260 --> 00:06:34,140
+[deu] Join on Animation Mode
+[eng] Join on Animation Mode
+[fra] Join on Animation Mode
+[ita] Attiviamo la Modalità Animazione
+[por] Mude para o modo de animação.
+[spa] Entre al Modo Animación
+
+85
+00:06:35,440 --> 00:06:37,500
+[deu] Set initial position
+[eng] Set initial position
+[fra] Set initial position
+[ita] Assegniamo la posizione iniziale
+[por] Defina a posição inicial
+[spa] Fija la posición  inicial
+
+86
+00:06:38,720 --> 00:06:40,280
+[deu] and final position
+[eng] and final position
+[fra] and final position
+[ita] e la posizione finale
+[por] E a posição final.
+[spa] y la posición final
+
+87
+00:06:44,900 --> 00:06:47,040
+[deu] Now, it's flying
+[eng] Now, it's flying
+[fra] Now, it's flying
+[ita] Adesso sta volando
+[por] Agora ela está voando
+[spa] Ahora, esta volando
+
+88
+00:06:48,840 --> 00:06:52,600
+[deu] Right now, the trajectory of
+[eng] Right now, the trajectory of
+[fra] Right now, the trajectory of
+[ita] Ora la traiettoria della nostra ape è una linea retta
+[por] A trajetória da nossa abelha está
+em linha reta.
+[spa] Ahora mismo, la treyectoria de
+
+89
+00:06:53,040 --> 00:06:57,740
+[deu] but it would be very great to make
+[eng] but it would be very great to make
+[fra] but it would be very great to make
+[ita] ma sarebbe molto bello farla muovere con qualche oscillazione
+[por] Mas seria muito bom fazer com que ela
+se mova com algumas flutuações.
+[spa] pero sería genial hacerla
+
+90
+00:06:57,900 --> 00:07:01,060
+[deu] then the animation will look more realistic
+[eng] then the animation will look more realistic
+[fra] then the animation will look more realistic
+[ita] allora l'animazione sembrerà più realistica
+[por] Assim a animação iria parecer mais realística.
+[spa] entonces la animación se vería mas realista
+
+91
+00:07:01,380 --> 00:07:03,200
+[deu] Let's do that
+[eng] Let's do that
+[fra] Let's do that
+[ita] Facciamolo !
+[por] Vamos fazer isso.
+[spa] Hagámos eso
+
+92
+00:07:03,280 --> 00:07:06,380
+[deu] In here, we will use the Random converter again
+[eng] In here, we will use the Random converter again
+[fra] In here, we will use the Random converter again
+[ita] Qui useremo di nuovo il convertitore Random
+[por] Aqui eu vou usar o conversor aleatório mais uma vez.
+[spa] Aquí, usarémos el convertidor Random otra vez
+
+93
+00:07:07,020 --> 00:07:10,880
+[deu] To make the things easier,
+[eng] To make the things easier,
+[fra] To make the things easier,
+[ita] Per facilitare le cose, rimuoviamo l'animazione dell'ape
+[por] Para facilitar as coisas, vamos remover
+a animação da abelha.
+[spa] Para hacer las cosas más fáciles
+
+94
+00:07:15,520 --> 00:07:18,200
+[deu] Now, it remains at the same place
+[eng] Now, it remains at the same place
+[fra] Now, it remains at the same place
+[ita] Ora, rimane nella stessa posizione
+[por] Agora ela fica no mesmo lugar.
+[spa] Ahora, se mantiene en el mismo lugar
+
+95
+00:07:20,680 --> 00:07:24,120
+[deu] We can create one more group
+[eng] We can create one more group
+[fra] We can create one more group
+[ita] Possiamo creare un altro gruppo all'interno di quello principale
+[por] Vamos criar mais um grupo dentro
+do gurpo principal.
+[spa] Podemos crear un grupo mas
+
+96
+00:07:24,120 --> 00:07:27,700
+[deu] and attach a Random converter
+[eng] and attach a Random converter
+[fra] and attach a Random converter
+[ita] e associare un convertitore Random al suo Scorrimento di Trasformazione
+[por] e adicionar um conversor aleatório
+para o Deslocamento da transformação.
+[spa] y vincular un convertidor Random a su Transformation Offset
+
+97
+00:07:29,480 --> 00:07:33,460
+[deu] But instead, I will show you
+[eng] But instead, I will show you
+[fra] But instead, I will show you
+[ita] Invece, ti faccio vedere una cosa più interessante
+[por] Ao invés disso, vou te mostrar
+mais uma coisa interessante.
+[spa] Pero en cambio, te mostraré
+
+98
+00:07:35,180 --> 00:07:40,580
+[deu] You probably remember that Synfig Studio
+[eng] You probably remember that Synfig Studio
+[fra] You probably remember that Synfig Studio
+[ita] Forse ti ricorderai che Synfig Studio ha dei Livelli speciali nei Filtri
+[por] Você provavelmente se lembra que o Synfig
+possui camadas especiais nos Filtros.
+[spa] Probablemente recuerdas que Synfig Studio tiene capas especiales en los Filters/Filtros
+
+99
+00:07:40,740 --> 00:07:46,680
+[deu] and here we will use one very simple filter
+[eng] and here we will use one very simple filter
+[fra] and here we will use one very simple filter
+[ita] e qui ne useremo uno, un livello filtro molto semplice, che trasforma tutto ciò che gli sta al di sotto
+[por] E aqui nós vamos usar um filtro muito simples que
+desloca tudo abaixo dele.
+[spa] y aquí vamos a usar una capa de filtro muy simple
+
+100
+00:07:47,300 --> 00:07:48,660
+[deu] Here it is
+[eng] Here it is
+[fra] Here it is
+[ita] Eccolo
+[por] Aqui está.
+[spa] Aquí está
+
+101
+00:07:51,400 --> 00:07:52,240
+[deu] See
+[eng] See
+[fra] See
+[ita] Guarda
+[por] Viu?
+[spa] Mira
+
+102
+00:07:52,280 --> 00:07:56,420
+[deu] This layer is very simple and
+[eng] This layer is very simple and
+[fra] This layer is very simple and
+[ita] Questo livello è molto semplice e ha un solo parametro
+[por] Essa camada é muito simples e
+só tem um parâmetro.
+[spa] Esta capa es muy simple y
+
+103
+00:07:57,800 --> 00:08:01,020
+[deu] Now, I am attaching Random converter to it
+[eng] Now, I am attaching Random converter to it
+[fra] Now, I am attaching Random converter to it
+[ita] Ora gli sto associando il convertitore Random
+[por] Agora eu vou atribuir um conversor aleatório nela.
+[spa] Ahora, estoy vinculando el convertidor Random a esta
+
+104
+00:08:01,820 --> 00:08:03,420
+[deu] Set Radius to 15
+[eng] Set Radius to 15
+[fra] Set Radius to 15
+[ita] Impostiamo il Raggio a 15
+[por] Definir o raio para 15.
+[spa] Establece Radius en 15
+
+105
+00:08:04,240 --> 00:08:05,460
+[deu] Done
+[eng] Done
+[fra] Done
+[ita] Fatto
+[por] Pronto.
+[spa] Hecho
+
+106
+00:08:11,320 --> 00:08:16,480
+[deu] Now, again, let's make our bee move from
+[eng] Now, again, let's make our bee move from
+[fra] Now, again, let's make our bee move from
+[ita] Ora facciamo muovere di nuovo la nostra ape da un lato all'altro dell'inquadratura
+[por] E mais uma vez, vamos fazer a abela se
+mover de um lado da tela para o outro.
+[spa] Ahora, otra vez, vamos a mover a nuestra abeja
+
+107
+00:08:21,560 --> 00:08:23,020
+[deu] Let's check the result
+[eng] Let's check the result
+[fra] Let's check the result
+[ita] Controlliamo il risultato
+[por] Vamos ver o resultado.
+[spa] Veamos el resultado
+
+108
+00:08:26,940 --> 00:08:28,340
+[deu] As you can see...
+[eng] As you can see...
+[fra] As you can see...
+[ita] Come vedi ...
+[por] Como você pode ver...
+[spa] Como puedes ver...
+
+109
+00:08:28,340 --> 00:08:34,900
+[deu] the Linear motion combines together with Random
+[eng] the Linear motion combines together with Random
+[fra] the Linear motion combines together with Random
+[ita] il moto Lineare si combina con il moto Random e fa apparire la nostra animazione un po' più complessa
+[por] o movimento linear se combina com o movimento
+aleatório e faz nossa animação parecer mais complexa.
+[spa] Linear Motion combinada junto con Random Motion
+
+110
+00:08:37,580 --> 00:08:39,460
+[deu] You are probably wondering...
+[eng] You are probably wondering...
+[fra] You are probably wondering...
+[ita] Forse ti starai chiedendo ....
+[por] Você provavelmente está se perguntando...
+[spa] Probablemente te preguntas...
+
+111
+00:08:39,720 --> 00:08:44,180
+[deu] What is the advantage of the use of
+[eng] What is the advantage of the use of
+[fra] What is the advantage of the use of
+[ita] Qual è il vantaggio nell'usare il livello Translate invece del gruppo ?
+[por] Qual é a vantagem de usar uma  camada
+de Deslocamento ao invés de um grupo?
+[spa] cuál es la ventaja de usar la capa Translate en lugar del grupo?
+
+112
+00:08:45,100 --> 00:08:47,980
+[deu] Now, in this particular case
+[eng] Now, in this particular case
+[fra] Now, in this particular case
+[ita] Ora, in questo caso particolare
+[por] Nesse caso em específico,
+[spa] Ahora, en este caso particualr
+
+113
+00:08:48,100 --> 00:08:50,360
+[deu] there is actually no advantage
+[eng] there is actually no advantage
+[fra] there is actually no advantage
+[ita] in realtà, non c'è nessun vantaggio
+[por] não existe vantagem nenhuma.
+[spa] en realidad no hay ninguna ventaja
+
+114
+00:08:51,100 --> 00:08:55,200
+[deu] but in some cases this approach
+[eng] but in some cases this approach
+[fra] but in some cases this approach
+[ita] ma in qualche caso questo metodo può essere particolarmente utile
+[por] Mas em alguns casos essa abordagem
+é muito útil.
+[spa] pero en algunos casos este enfoque
+
+115
+00:08:55,860 --> 00:08:59,720
+[deu] because it allows easily turn off the Translation effect
+[eng] because it allows easily turn off the Translation effect
+[fra] because it allows easily turn off the Translation effect
+[ita] perché consente di rimuovere facilmente l'effetto Traslazione
+[por] Porque é facil desativar o efeito de deslocamento.
+[spa] porque permite desactivcar fácilmente el efecto Translation
+
+116
+00:08:59,980 --> 00:09:00,700
+[deu] Look
+[eng] Look
+[fra] Look
+[ita] Guarda
+[por] Veja.
+[spa] Mira
+
+117
+00:09:00,700 --> 00:09:05,900
+[deu] So, we can easily enable and disable
+[eng] So, we can easily enable and disable
+[fra] So, we can easily enable and disable
+[ita] Così possiamo facilmente attivare e disattivare questo effetto solo con un click
+[por] Então nós podemos facilmente ativar e
+desativar esse efeito com apenas um clique.
+[spa] Entonces, podemos habilitar y deshabilitar fácilmente
+
+118
+00:09:06,520 --> 00:09:07,880
+[deu] It's very simple
+[eng] It's very simple
+[fra] It's very simple
+[ita] E' molto semplice
+[por] É muito simples.
+[spa] Es muy simple
+
+119
+00:09:09,700 --> 00:09:15,860
+[deu] Such approach with filter layers is especially
+[eng] Such approach with filter layers is especially
+[fra] Such approach with filter layers is especially
+[ita] Tale metodo con i livelli filtro è particolarmente utile per creare panoramiche o zoomate
+[por] Essa abordagem com camadas de filtro é particularmente
+útil para criar movimento de cãmera ou zoom.
+[spa] Tal enfoque con capas de filtro es especialmente
+
+120
+00:09:24,540 --> 00:09:28,100
+[deu] And finally, one last stage for our animation...
+[eng] And finally, one last stage for our animation...
+[fra] And finally, one last stage for our animation...
+[ita] E infine, l'ultima fase della nostra animazione ...
+[por] E finalmente, a última etapa da nossa animação...
+[spa] Y finalmente, una ultima etapa para nuestra animación
+
+121
+00:09:28,620 --> 00:09:30,100
+[deu] Let's add a background
+[eng] Let's add a background
+[fra] Let's add a background
+[ita] Aggiungiamo uno sfondo
+[por] Vamos adicionar um plano de fundo.
+[spa] Vamos a agregar un fondo
+
+122
+00:10:24,080 --> 00:10:28,760
+[deu] So, that's all, our animation is finished now!
+[eng] So, that's all, our animation is finished now!
+[fra] So, that's all, our animation is finished now!
+[ita] Bene, è tutto: la nostra animazione adesso è pronta !
+[por] Então é isso, nossa animação está terminada!
+[spa] Entonces, eso es todo, nuestra aniamción ahora está terminada!
+
