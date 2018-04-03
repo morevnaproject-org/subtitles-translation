@@ -1,5 +1,6 @@
 language: python
 os: linux
+if: tag IS blank
 python: '3.6'
 script:
 - "$TRAVIS_BUILD_DIR/tool/generate-srt.sh"
