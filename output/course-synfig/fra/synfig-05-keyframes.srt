@@ -1,0 +1,384 @@
+1
+00:00:00,730 --> 00:00:02,830
+#5: Les Trames-Clés ou Keyframes
+
+2
+00:00:03,960 --> 00:00:08,400
+Notre personnage est prêt et nous allons créer une animation simple.
+
+3
+00:00:08,880 --> 00:00:11,780
+Ici, il lève son bras gauche puis le droit.
+
+4
+00:00:12,600 --> 00:00:15,600
+Ca paraît simple ? Essayons.
+
+5
+00:00:15,880 --> 00:00:19,080
+Supposons que notre personnage lève son bras droit en 10 trames...
+
+6
+00:00:19,440 --> 00:00:23,060
+...puis le bras gauche durant 10 autres trames.
+
+7
+00:00:23,580 --> 00:00:27,360
+Il serait plus pratique de changer l'échelle du Timetrack.
+
+8
+00:00:27,820 --> 00:00:32,930
+Déplacez le curseur de la souris au-dessus de la règle grise et scrollez la molette. Comme ceci.
+
+9
+00:00:33,400 --> 00:00:36,960
+Maintenant, passons en Mode Animation.
+
+10
+00:00:37,540 --> 00:00:44,200
+Puis positionnons le curseur de temps au moment où le personnage devrait avoir son bras levé - trame 10.
+
+11
+00:00:44,580 --> 00:00:47,660
+Et faisons la rotation du bras.
+
+12
+00:00:49,500 --> 00:00:52,200
+Après cela le second bras devrait commencer à bouger.
+
+13
+00:00:52,440 --> 00:00:55,630
+Déplacez le curseur de temps de 10 trames de plus.
+
+14
+00:00:55,680 --> 00:00:58,960
+Et maintenant faites la rotation de son bras droit.
+
+15
+00:01:01,440 --> 00:01:04,660
+Vérifions le résultat.
+
+16
+00:01:05,720 --> 00:01:08,240
+Oh, il semble que quelque chose ne va pas.
+
+17
+00:01:08,480 --> 00:01:11,980
+Les deux mains commencent à bouger simultanément depuis la trame zéro...
+
+18
+00:01:12,040 --> 00:01:15,930
+...alors que nous avons besoin que les mouvements se succèdent.
+
+19
+00:01:16,600 --> 00:01:21,730
+Ceci arrive car la position de la seconde main n'a pas été fixée dans la trame 10.
+
+20
+00:01:21,840 --> 00:01:25,030
+C'est pourquoi elle commence à bouger dès le début.
+
+21
+00:01:25,240 --> 00:01:30,400
+C'est simple à résoudre - déplacez juste ce waypoint vers la trame 10.
+
+22
+00:01:34,340 --> 00:01:37,400
+Maintenant ça marche.
+
+23
+00:01:38,400 --> 00:01:42,630
+Du fait que le personnage est très simple, ce problème est facile à résoudre.
+
+24
+00:01:42,900 --> 00:01:49,200
+Mais en général nous avons à travailler avec des personnages bien plus complexes, construits de douzaines de calques...
+
+25
+00:01:49,400 --> 00:01:51,850
+...et chaque scène peut avoir plusieurs d'entre eux.
+
+26
+00:01:51,940 --> 00:01:56,330
+Et chaque calque peut avoir de nombreux paramètres sur lesquels nous devons garder un oeil.
+
+27
+00:01:56,600 --> 00:02:01,500
+Visiblement nous avons besoin de quelques fonctionnalités pour gérer les animations à un niveau supérieur.
+
+28
+00:02:01,720 --> 00:02:05,500
+Dans ce but nous avons les Keyframes.
+
+29
+00:02:05,520 --> 00:02:10,680
+Les Keyframes sont souvent confondues avec les Waypoints mais dans Synfig mais ce n'est pas la même chose.
+
+30
+00:02:11,080 --> 00:02:16,830
+Les waypoints représentent une valeur d'un paramètre particulier à un moment particulier du temps.
+
+31
+00:02:18,830 --> 00:02:26,330
+Alors que les keyframes, qui sont aussi liés à un moment particulier, représentent l'état de tous les calques à la fois.
+
+32
+00:02:26,420 --> 00:02:29,060
+Regardons comment ça marche.
+
+33
+00:02:29,100 --> 00:02:32,500
+Essayons de recréer notre animation depuis le départ.
+
+34
+00:02:32,920 --> 00:02:37,260
+D'abord nous devons enlever l'animation des deux bras.
+
+35
+00:02:38,660 --> 00:02:42,860
+Vous savez déjà comment effacer les waypoints un par un.
+
+36
+00:02:43,960 --> 00:02:47,500
+Et vous pouvez également retirer tous les waypoints pour un paramètre.
+
+37
+00:02:47,740 --> 00:02:51,660
+Cliquez-droit simplement sur un paramètre et choisissez "Disconnect".
+
+38
+00:02:52,920 --> 00:02:57,030
+Cette méthode est spécialement utile quand nous avons de nombreux waypoints.
+
+39
+00:02:57,340 --> 00:03:01,120
+OK, nous avons enlevé toute l'animation. Alors commençons.
+
+40
+00:03:01,460 --> 00:03:04,760
+Les Keyframes sont situées sur la bande bleue, juste là.
+
+41
+00:03:04,900 --> 00:03:10,760
+Chaque animation Synfig a une première keyframe créée automatiquement, la voici.
+
+42
+00:03:12,040 --> 00:03:15,060
+Notre personnage se tient à sa position initiale.
+
+43
+00:03:15,280 --> 00:03:20,160
+Assurez-vous que le Mode Animation est activé et allez à la 10ème trame.
+
+44
+00:03:21,540 --> 00:03:30,000
+D'ailleurs vous pouvez utiliser une combinaison de touches spéciale - maintenez Ctrl et la touche point pour déplacer le curseur de temps d'une trame en avant.
+
+45
+00:03:32,390 --> 00:03:35,060
+Maintenant créez une nouvelle keyframe.
+
+46
+00:03:35,220 --> 00:03:38,560
+Clic-droit...
+
+47
+00:03:39,260 --> 00:03:41,360
+Ici nous avons une keyframe.
+
+48
+00:03:41,540 --> 00:03:44,830
+Faisons une rotation du bras gauche.
+
+49
+00:03:45,960 --> 00:03:49,760
+C'est fait. Maintenant allons 10 trames en avant...
+
+50
+00:03:50,180 --> 00:03:53,000
+créez une nouvelle keyframe...
+
+51
+00:03:53,380 --> 00:03:56,900
+et faites la rotation du second bras.
+
+52
+00:03:59,260 --> 00:04:05,900
+Notez que Synfig a ajouté un waypoint supplémentaire pour préserver l'état de l'objet à la keyframe précédente.
+
+53
+00:04:06,780 --> 00:04:11,760
+Maintenant l'animation semble comme attendue sans faire de modification additionnelle.
+
+54
+00:04:12,140 --> 00:04:16,160
+Jetons un oeil à un exemple supplémentaire sur le fonctionnement des keyframes.
+
+55
+00:04:16,400 --> 00:04:19,660
+Créons un nouveau fichier.
+
+56
+00:04:20,280 --> 00:04:25,300
+Ce sera l'animation d'une balle bougeant vers le haut puis vers le bas.
+
+57
+00:04:30,770 --> 00:04:33,660
+Nous avons déjà une keyframe par défaut.
+
+58
+00:04:33,780 --> 00:04:37,600
+Elle sert à se rappeler de l'état des objets au tout début.
+
+59
+00:04:37,900 --> 00:04:41,160
+Créez deux autres keyframes.
+
+60
+00:04:43,140 --> 00:04:47,140
+Allez à la seconde keyframe, activez le mode animation...
+
+61
+00:04:47,660 --> 00:04:50,930
+...et déplacez la balle vers le haut.
+
+62
+00:04:51,240 --> 00:04:54,130
+Maintenant 3 waypoints ont apparu.
+
+63
+00:04:54,330 --> 00:04:59,760
+Le waypoint du milieu a été créé car nous avons défini une nouvelle position de la balle dans le mode animation.
+
+64
+00:04:59,930 --> 00:05:05,200
+Et les deux autres ont été automatiquement créés pour sauver les positions des keyframes de la balle.
+
+65
+00:05:05,540 --> 00:05:10,900
+Donc, la balle saute vers le haut et retombe.
+
+66
+00:05:13,560 --> 00:05:18,830
+Synfig a aussi un panneau spécial avec la liste des keyframes.
+
+67
+00:05:18,980 --> 00:05:22,700
+Ici vous pouvez nommer chaque keyframe...
+
+68
+00:05:23,890 --> 00:05:26,830
+...et sauter rapidement d'une keyframe à l'autre.
+
+69
+00:05:27,100 --> 00:05:30,430
+Cliquez juste sur le label "Jump" ici.
+
+70
+00:05:31,420 --> 00:05:35,360
+C'est très similaire à un lien dans un navigateur internet.
+
+71
+00:05:35,890 --> 00:05:40,360
+Maintenant je voudrais illustrer comment les keyframes aident à manipuler les waypoints.
+
+72
+00:05:40,680 --> 00:05:42,930
+Retournons à notre personnage.
+
+73
+00:05:43,020 --> 00:05:49,260
+Ici nous avons deux objets animés - un bras et l'autre bras.
+
+74
+00:05:49,880 --> 00:05:57,330
+Si nous déplaçons une keyframe... tous les waypoints à cet emplacement du temps seront déplacés de même.
+
+75
+00:05:57,770 --> 00:06:02,230
+Nous n'avons même pas à sélectionner les objets.
+
+76
+00:06:02,660 --> 00:06:07,630
+Parfois vous pouvez avoir à déplacer une keyframe en même temps que toutes ses keyframes consécutives.
+
+77
+00:06:07,980 --> 00:06:13,360
+Dans ce cas, maintenez juste les touches Alt et Shift quand vous la déplacez. Comme ceci.
+
+78
+00:06:17,390 --> 00:06:22,660
+Nous pouvons copier les keyframes depuis un moment à un autre. Tout comme nous le pouvons pour les waypoints.
+
+79
+00:06:23,060 --> 00:06:28,500
+Par exemple, faisons retourner notre personnage à sa pose initiale à la trame 40.
+
+80
+00:06:29,030 --> 00:06:31,260
+Allez à la trame 40...
+
+81
+00:06:31,380 --> 00:06:33,960
+...cliquez-droit sur la première keyframe...
+
+82
+00:06:34,130 --> 00:06:36,460
+...et choisissez "Duplicate".
+
+83
+00:06:37,800 --> 00:06:45,700
+Comme vous pouvez le voir, Synfig a créé tous les waypoints requis pour mettre notre personnage dans la même pose que celle qu'il avait à la trame 0.
+
+84
+00:06:46,810 --> 00:06:52,630
+Aussi il n'est pas nécessaire d'avoir activé le Mode Animation quand nous manipulons les keyframes.
+
+85
+00:06:52,810 --> 00:06:54,700
+Et une autre chose à prendre en considération:
+
+86
+00:06:54,960 --> 00:07:01,460
+quand nous effaçons une keyframe tous ses waypoints seront aussi effacés. Jetez un oeil.
+
+87
+00:07:04,360 --> 00:07:09,130
+Finalement, je voudrais vous montrer un autre truc puissant que nous pouvons faire avec les keyframes.
+
+88
+00:07:09,330 --> 00:07:14,500
+Après la trame numéro 40 faisons bouger la main de notre personnage.
+
+89
+00:07:18,680 --> 00:07:22,960
+Mais dans ce cas je ne vais pas placer une keyframe pour chaque position.
+
+90
+00:07:23,280 --> 00:07:27,660
+Au lieu de cela, je vais mettre une keyframe au début de cette action...
+
+91
+00:07:27,880 --> 00:07:31,900
+...et une à la fin.
+
+92
+00:07:38,180 --> 00:07:42,680
+C'est fait. Maintenant j'ai deux événements, deux keyframes...
+
+93
+00:07:42,860 --> 00:07:47,900
+le personnage a commencé à agiter sa main... et il arrête de la bouger.
+
+94
+00:07:50,060 --> 00:07:54,560
+Maintenant essayons de déplacer la dernière keyframe.
+
+95
+00:07:56,360 --> 00:08:03,430
+Et là est le truc: en déplaçant les keyframes, les waypoints entre elle sont automatiquement mis à l'échelle.
+
+96
+00:08:06,140 --> 00:08:11,860
+Regardez comme il est simple de changer la durée de l'action entière.
+

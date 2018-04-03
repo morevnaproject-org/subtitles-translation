@@ -1,0 +1,296 @@
+1
+00:00:00,430 --> 00:00:03,100
+#2: Ihre erste Animation
+
+2
+00:00:05,220 --> 00:00:09,060
+In dieser Einheit werden wir eine einfache Animation erstellen, in der ein Junge zur Schule geht.
+
+3
+00:00:10,770 --> 00:00:15,060
+Dieser Kurs enthält eine Reihe Beispieldateien, die Sie für Übungen nutzen können.
+
+4
+00:00:15,720 --> 00:00:20,140
+Laden Sie sich bitte die Datei „workshop.zip“, die zu diesem Kurs gehört, herunter und entpacken Sie sie.
+
+5
+00:00:21,890 --> 00:00:25,630
+Schauen wir einmal in den Ordner „first-animation“.
+
+6
+00:00:27,430 --> 00:00:33,100
+Hier haben wir zunächst das Bild eines Jungen. Als nächstes finden wir das Bild der Karte, über die er sich bewegen wird.
+
+7
+00:00:34,810 --> 00:00:37,860
+Alle Bilder sind im PNG-Format gespeichert.
+
+8
+00:00:38,060 --> 00:00:43,500
+Wir benutzen dieses Format für Bitmap-Grafiken, da es verlustfreie Kompression bietet…
+
+9
+00:00:43,500 --> 00:00:48,700
+…und es uns erlaubt, Bilder mit transparentem Hintergrund zu speichern.
+
+10
+00:00:49,060 --> 00:00:52,000
+Wollen wir nun das Bild des Jungen zu Synfig hinzufügen.
+
+11
+00:00:52,000 --> 00:00:56,060
+Wählen Sie „Datei“ – „Importieren“ im Hauptmenü…
+
+12
+00:00:56,810 --> 00:00:59,560
+suchen Sie dann den Speicherort unserer Beispiel-Dateien.
+
+13
+00:01:00,100 --> 00:01:02,310
+Gehen Sie in den Ordner „first animation“…
+
+14
+00:01:02,720 --> 00:01:05,560
+…und wählen Sie die Datei „boy.png“ aus.
+
+15
+00:01:09,430 --> 00:01:12,720
+Hier haben wir eine Bild-Ebene. Wählen Sie sie aus.
+
+16
+00:01:14,350 --> 00:01:19,390
+Jede Bild-Ebene verfügt über eine Reihe von Griffen, die es erlauben, diese zu verformen.
+
+17
+00:01:19,930 --> 00:01:22,770
+Dieser Griff erlaubt uns die Ebene zu verschieben.
+
+18
+00:01:25,350 --> 00:01:28,700
+Der blaue Punkt kontrolliert die Drehung.
+
+19
+00:01:31,160 --> 00:01:35,560
+Mit Hilfe dieser orangefarbenen Ecke können wir das Bild proportional skalieren.
+
+20
+00:01:41,060 --> 00:01:45,970
+Sie können die Ebene auch entlang einer bestimmten Achse skalieren, indem Sie diese gelben Punkte hier oder hier ziehen.
+
+21
+00:01:51,060 --> 00:01:55,350
+Zu guter Letzt kontrollieren Sie dieser rote Punkt die Schrägstellung.
+
+22
+00:01:55,890 --> 00:02:00,060
+Ich schätze, Sie werden ihn nicht allzu oft benutzen. Lassen Sie uns daher den letzten Schritt rückgängig machen.
+
+23
+00:02:03,520 --> 00:02:07,100
+Sie können Arbeitsschritte ebenso mit Strg+Z rückgängig machen, so wie in anderen Anwendungen.
+
+24
+00:02:11,180 --> 00:02:17,810
+Lassen Sie uns das Karten-Bild einfügen, die Datei „background.png“.
+
+25
+00:02:19,850 --> 00:02:25,310
+Wie Sie sehen, ist das Bild zu groß. Wählen Sie es aus und skalieren Sie es, bis es in die Arbeitsfläche passt.
+
+26
+00:02:32,520 --> 00:02:34,640
+Nun verschieben Sie es in den Hintergrund. Und zwar so.
+
+27
+00:02:35,770 --> 00:02:41,390
+Ich nehme an, wir müssen den Jungen ebenfalls skalieren und ihn Heim schicken. Wählen Sie die Ebene aus…
+
+28
+00:02:48,180 --> 00:02:54,640
+Übrigens, Sie können bei gedrückter Strg-Taste mittels des Mausrades in der aktuellen Ansicht hinein und heraus zoomen.
+
+29
+00:02:58,100 --> 00:03:02,960
+Und mit gedrücktem Mausrad können Sie sich über die Arbeitsfläche bewegen.
+
+30
+00:03:10,270 --> 00:03:13,360
+Nun haben wir alles an seinem Platz.
+
+31
+00:03:15,720 --> 00:03:19,180
+Also, wir möchten eine Animation erstellen, in der der Junge von seinem Zuhause zur Schule geht.
+
+32
+00:03:19,270 --> 00:03:25,560
+Offensichtlich wird der Junge zu einem bestimmten Zeitpunkt zu hause sein und zu einem anderen Zeitpunkt in der Schule.
+
+33
+00:03:25,970 --> 00:03:31,850
+Wir müssen in den *animation*-Modus wechseln und die beiden Positionen für die jeweiligen Zeitpunkte festlegen.
+
+34
+00:03:32,020 --> 00:03:35,600
+Klicken Sie den Button mit der grünen Figur hier, um den Animations-Modus umzuschalten.
+
+35
+00:03:39,640 --> 00:03:46,220
+Die grüne Figur wird rot und ein roter Rahmen erscheint um die Zeichenfläche. Das zeigt uns an, dass wir uns im Animations-Modus befinden.
+
+36
+00:03:46,350 --> 00:03:51,060
+Wenn der Animations-Modus aktiv ist, werden alle Änderungen im Verhältnis zur aktuellen Zeit aufgezeichnet.
+
+37
+00:03:51,770 --> 00:03:57,720
+Wollen wir einen Blick auf die Zeitleiste am unteren Rand werfen. Sie zeigt an, dass wir uns aktuell im Null-Bild befinden.
+
+38
+00:04:00,390 --> 00:04:04,020
+Wir können die aktuelle Zeit ändern, indem wir in diesen grauen Bereich klicken.
+
+39
+00:04:09,230 --> 00:04:14,430
+Gehen wir zurück in den Null-Bild. Der Junge ist zu hause, alles ist in Ordnung.
+
+40
+00:04:14,600 --> 00:04:18,600
+Nun gehen Sie in den Bild 48 und ziehen Sie den Jungen auf die Schule.
+
+41
+00:04:25,470 --> 00:04:30,640
+Wie Sie sehen, sind genau gegenüber der Änderungs-Parameter zwei orangefarbene Diamanten erschienen.
+
+42
+00:04:34,020 --> 00:04:39,560
+Diese Diamanten werden Wegpunkte genannt. Sie zeigen an, dass ein Parameter zu einer Bestimmten Zeit einen neuen Wert hat.
+
+43
+00:04:40,520 --> 00:04:45,560
+Synfig erstellt Wegpunkte, wenn wir einen Parameter im Animations-Modus verändern.
+
+44
+00:04:47,850 --> 00:04:50,770
+Dieser Wegpunkt zeigt an, dass der Junge sich in der Schule befindet…
+
+45
+00:04:51,850 --> 00:04:55,530
+…und dieser zeigt an, dass er zu hause ist.
+
+46
+00:04:56,890 --> 00:05:01,020
+Beachten Sie bitte, dass die Bewegung zwischen den Wegpunkten von Synfig automatisch berechnet wird.
+
+47
+00:05:05,020 --> 00:05:10,560
+Unsere Animation ist sehr einfach, daher kann Synfig sie problemlos in Echtzeit wiedergeben.
+
+48
+00:05:10,930 --> 00:05:15,970
+Für komplexere Animation ist die Echtzeit-Wiedergabe unter Umständen nicht möglich.
+
+49
+00:05:16,400 --> 00:05:22,230
+Daher wird empfohlen, die Vorschau-Funktion zu nutzen. Klickt auf diesen Button, um den Vorschau-Dialog zu öffnen…
+
+50
+00:05:22,310 --> 00:05:26,140
+Hier können wir die Qualitätsstufe und die Bildwiederholrate für die Vorschau einstellen.
+
+51
+00:05:35,810 --> 00:05:42,060
+Erweitern wir unsere Animation ein wenig. Bewegen Sie den Jungen in Bild 96 auf das Geschäft…
+
+52
+00:05:43,970 --> 00:05:46,930
+…und dann in Bild 115 – wieder zurück nach Hause.
+
+53
+00:05:51,350 --> 00:05:54,810
+Wir können zu einem bestehenden Wegpunkt gehen und seine Werte verändern.
+
+54
+00:05:59,930 --> 00:06:03,520
+Oha, der Junge schwänzt die Schule! Er ist stattdessen ins Kino gegangen.
+
+55
+00:06:09,810 --> 00:06:13,850
+Außerdem können wir die Bewegungsgeschwindigkeit durch Verschieben der Wegpunkte einstellen.
+
+56
+00:06:14,640 --> 00:06:18,430
+Bewegen Sie diesen Wegpunkt von Bild 48 zu Bild 20.
+
+57
+00:06:21,350 --> 00:06:27,060
+Nun läuft der Junge viel schneller zum Kino, als er zur Schule gegangen ist.
+
+58
+00:06:28,770 --> 00:06:34,260
+Sie können Wegpunkte entfernen, indem Sie rechtsklicken und dann „Entfernen“ im Menü auswählen.
+
+59
+00:06:34,770 --> 00:06:39,850
+Oder Sie halten einfach Strg und Alt gedrückt und klicken den Wegpunkt mit der linken Maustaste an.
+
+60
+00:06:44,850 --> 00:06:50,430
+Sie können Wegpunkte auch kopieren. Um das zu tun, bewegen Sie den Cursor dorthin, wo Sie eine Kopie wünschen…
+
+61
+00:06:50,970 --> 00:06:55,470
+suchen Sie den passenden Wegpunkt… klicken Sie Rechts und  wählen Sie „Duplizieren“.
+
+62
+00:06:58,930 --> 00:07:02,930
+Nun kehrt der Junge genau an die Position zurück, an der er sich zu Beginn befunden hat.
+
+63
+00:07:04,390 --> 00:07:07,470
+Dieser Trick ist sehr hilfreich bei der Erstellung von Animations-Schleifen.
+
+64
+00:07:11,890 --> 00:07:15,180
+Denken Sie bitte daran, Wegpunkte werden ausschließlich im Animations-Modus erstellt.
+
+65
+00:07:15,640 --> 00:07:20,430
+Ansonsten beeinflussen die Änderungen, die Sie vornehmen, jedes Bild Ihres Projektes. Lassen Sie uns probieren.
+
+66
+00:07:20,600 --> 00:07:24,020
+Schalten Sie den Animations-Modus aus… und bewegen Sie den Jungen.
+
+67
+00:07:26,470 --> 00:07:32,260
+Nun erhalten wir einen Warnhinweis, der uns fragt, ob wir die Veränderungen wirklich auf die gesamte Animation anwenden wollen.
+
+68
+00:07:32,600 --> 00:07:36,460
+Wollen wir „Ja“ klicken und sehen wir, was passiert.
+
+69
+00:07:39,470 --> 00:07:43,500
+Nun bewegt sich der Junge irgendwo am Rand. Machen wir das rückgängig.
+
+70
+00:07:47,520 --> 00:07:50,800
+Beachten Sie bitte dass wir nur Warnhinweise erhalten, wenn wir animierte Parameter verändern.
+
+71
+00:07:50,860 --> 00:07:53,500
+Andernfalls werden alle Änderungen auf einmal angewendet.
+
+72
+00:07:53,600 --> 00:07:56,800
+Wollen wir beispielsweise den Hintergrund verschieben.
+
+73
+00:07:57,930 --> 00:08:01,260
+Sie sehen, es gibt keine Warnhinweise.
+
+74
+00:08:03,140 --> 00:08:09,200
+Nun, ich denke, wir sind bereit für die nächste Einheit. Aber wollen wir zuerst unsere Datei speichern.
+

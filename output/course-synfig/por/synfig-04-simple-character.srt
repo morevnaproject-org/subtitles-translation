@@ -1,0 +1,320 @@
+1
+00:00:00,830 --> 00:00:03,730
+#4: Personagem simples
+
+2
+00:00:05,620 --> 00:00:09,360
+Nessa aula vamos preparar um personagem simples para animar.
+
+3
+00:00:11,040 --> 00:00:15,800
+Abra a pasta character-1. Aqui se encontra a imagem do nosso personagem.
+
+4
+00:00:17,740 --> 00:00:24,200
+A forma mais simples de criar uma animação é cortar o personagem em pedaços e remontar no Synfig Studio.
+
+5
+00:00:24,760 --> 00:00:27,430
+... algo parecido com um boneco de papel.
+
+6
+00:00:27,860 --> 00:00:30,740
+Você pode usar qualquer editor de imagem para cortar o personagem.
+
+7
+00:00:31,440 --> 00:00:38,830
+O GIMP ou Krita vão se encaixar perfeitamente nesta tarefa - ambos são softwares gratuitos, então você pode baixá-los e usar sem nenhum custo.
+
+8
+00:00:42,230 --> 00:00:47,800
+Quando estiver cortando sua imagem, tenha certeza de que cada pedaço tem áreas de intersecção com as juntas...
+
+9
+00:00:48,000 --> 00:00:50,600
+...como num boneco de papel na vida real.
+
+10
+00:00:50,680 --> 00:00:55,860
+Na verdade, você também pode cortar a sua imagem direto no Synfig, mas eu vou te contar sobre isso uma outra hora.
+
+11
+00:00:56,000 --> 00:01:01,700
+Agora nosso objetivo principal é aprender como construir o personagem, então eu não vou focar no processo de corte agora.
+
+12
+00:01:01,700 --> 00:01:05,360
+Na pasta "character-1", você vai encontrar pedaços já cortados para trabalhar com eles.
+
+13
+00:01:05,560 --> 00:01:08,770
+Temos um corpo, um braço, uma cabeça e uma perna.
+
+14
+00:01:08,820 --> 00:01:12,220
+Um braço e uma perna já basta, já que eles podem ser espelhados.
+
+15
+00:01:12,840 --> 00:01:16,360
+Note que cada imagem deve ter um fundo transparente...
+
+16
+00:01:16,600 --> 00:01:19,560
+... é por isso que elas são salvas no formato PNG.
+
+17
+00:01:20,940 --> 00:01:24,120
+Então, vamos começar. Escolha "Arquivo" -> "Importar".
+
+18
+00:01:25,810 --> 00:01:31,820
+Localize os arquivos de exemplo, vá para a pasta "character-1" e importe o primeiro arquivo.
+
+19
+00:01:32,900 --> 00:01:39,700
+Por falar nisso, usuários Windows e Linux podem importar imagens arrastando elas da pasta para a área de desenho.
+
+20
+00:01:40,270 --> 00:01:45,730
+Dessa forma você pode adicionar vários arquivos de uma vez.
+
+21
+00:01:50,430 --> 00:01:52,440
+Então, já estamos com todas as partes.
+
+22
+00:01:52,850 --> 00:01:56,030
+Nós precisamos mudar o tamanho delas para caber na tela.
+
+23
+00:01:56,160 --> 00:02:00,770
+É claro, nós podemos escalar cada pedaço um por um, mas existe uma maneira melhor de fazer isso.
+
+24
+00:02:01,100 --> 00:02:06,520
+No Synfig Studio nós podemos agrupar várias camadas e transformar elas em um único objeto.
+
+25
+00:02:06,810 --> 00:02:09,300
+Vamos selecionar as camadas que queremos agrupar.
+
+26
+00:02:09,460 --> 00:02:14,230
+Você pode selecionar múltiplas camadas segurando a tecla Ctrl.
+
+27
+00:02:15,760 --> 00:02:21,200
+E também, selecionar várias camadas em sequencia segurando a tecla Shift.
+
+28
+00:02:26,420 --> 00:02:28,160
+Agora, clique neste botão.
+
+29
+00:02:30,020 --> 00:02:35,060
+Da mesma forma que a camada de imagem, o grupo tem pontos para controlar sua transformação.
+
+30
+00:02:41,120 --> 00:02:44,000
+Agora vamos colocar as partes em seus lugares.
+
+31
+00:02:44,160 --> 00:02:47,040
+É melhor colocar elas de lado primeiro, assim.
+
+32
+00:02:47,160 --> 00:02:49,900
+E juntar elas de volta.
+
+33
+00:03:04,560 --> 00:03:07,220
+Ok, agora nós precisamos mudar a ordem das camadas.
+
+34
+00:03:13,720 --> 00:03:17,860
+Eu vou mostrar como criar uma cópia espelhada do braço.
+
+35
+00:03:17,970 --> 00:03:20,940
+Primeiro, selecione a camada do braço e duplique ela.
+
+36
+00:03:21,180 --> 00:03:27,260
+Para duplicar uma camada pressione este botão, ou clique com o botão direito na camada e escolha "Duplicar camada" no menu.
+
+37
+00:03:31,520 --> 00:03:34,460
+Aqui temos um braço. Agora nós precisamos espelhar ele.
+
+38
+00:03:34,800 --> 00:03:39,860
+Só arrastar este controlador para o lado oposto. Assim.
+
+39
+00:03:42,060 --> 00:03:46,860
+Quando estiver arrastando o controlador, tente colocar ele na mesma distância do ponto central...
+
+40
+00:03:47,130 --> 00:03:49,730
+...senão as proporções vão ficar distorcidas.
+
+41
+00:03:50,000 --> 00:03:53,900
+Claro, ainda não é 100% preciso mas neste caso não vai dar ser muito notável.
+
+42
+00:03:54,640 --> 00:04:00,280
+Mas se você precisar de precisão perfeita, então você pode espelhar e editar os valores de transformação manualmente.
+
+43
+00:04:00,900 --> 00:04:03,630
+Vamos tentar com a perna.
+
+44
+00:04:10,850 --> 00:04:15,600
+Na aba Parâmetros, esconde o parâmetro "Transformação" e abra ele.
+
+45
+00:04:18,020 --> 00:04:22,230
+Aqui vocẽ pode ver uma lista de transformações disponíveis para a camada de imagem.
+
+46
+00:04:22,310 --> 00:04:25,100
+Nós precisamos editar o subparâmetro "Escala".
+
+47
+00:04:29,100 --> 00:04:36,060
+Para espelhar a perna no eixo original temos que colocar um sinal de menos na frente do valor do eixo X.
+
+48
+00:04:37,020 --> 00:04:39,730
+Aperte "Enter" duas vezes.
+
+49
+00:04:40,740 --> 00:04:45,730
+Veja, a perna se espelhou proporcionalmente.
+
+50
+00:04:47,970 --> 00:04:50,840
+Ótimo, agora o personagem está completamente composto.
+
+51
+00:04:51,430 --> 00:04:55,160
+Vamos tentar mudar a pose dele - por exemplo, levantar o braço.
+
+52
+00:04:57,680 --> 00:05:01,560
+Como você pode ver ele se arranca do corpo e vocẽ precisa ajustá-lo manualmente.
+
+53
+00:05:03,930 --> 00:05:07,760
+Nós podemos consertar este comportamento mudando o centro de rotação do braço.
+
+54
+00:05:08,350 --> 00:05:11,660
+Clique no puxador verde.
+
+55
+00:05:11,890 --> 00:05:15,900
+Então segure a tecla Ctrl e arraste.
+
+56
+00:05:16,100 --> 00:05:18,060
+Aqui.
+
+57
+00:05:18,220 --> 00:05:22,900
+Agora o centro está no lugar certo, e agora você pode mover o braço sem problemas.
+
+58
+00:05:23,770 --> 00:05:26,960
+Agora vamos ajustar os centros de rotação das outras partes.
+
+59
+00:05:50,390 --> 00:05:53,640
+Seria bom se nosso personagem pudesse rotacionar o corpo.
+
+60
+00:05:54,220 --> 00:05:59,860
+Se rotacionarmos o corpo agora, a cabeça e os braços vão permanecer no estado inicial delas, que é obviamente uma falha.
+
+61
+00:06:00,310 --> 00:06:04,000
+Todas as partes devem se mover por inteiro.
+
+62
+00:06:04,350 --> 00:06:08,160
+A solução é simples - você só precisa agrupar os braços, cabeça e o corpo.
+
+63
+00:06:08,930 --> 00:06:10,620
+Selecione as camadas...
+
+64
+00:06:18,720 --> 00:06:20,800
+Agora selecione o grupo...
+
+65
+00:06:21,060 --> 00:06:24,230
+E mova o centro de rotação...
+
+66
+00:06:25,980 --> 00:06:29,700
+Tudo está funcionando agora.
+
+67
+00:06:32,020 --> 00:06:36,330
+Para manter as coisas em ordem, vamos chamar este grupo de "garoto".
+
+68
+00:06:37,430 --> 00:06:40,700
+...e este aqui de "corpo".
+
+69
+00:06:41,560 --> 00:06:43,480
+E tenho uma última coisa pra dizer.
+
+70
+00:06:43,680 --> 00:06:46,860
+Vamos clicar em qualquer outro canto para tirar a seleção.
+
+71
+00:06:46,900 --> 00:06:51,560
+E então clicar em qualquer parte do personagem, que pertence ao grupo "corpo".
+
+72
+00:06:53,180 --> 00:06:59,000
+Note que, quando você clicou, foi o conteúdo do grupo que foi selecionado e não o grupo em si.
+
+73
+00:06:59,040 --> 00:07:00,900
+Isso nem sempre é desejável.
+
+74
+00:07:00,940 --> 00:07:05,520
+As vezes nós queremos que o grubo seja selecionado quando clicarmos em qualquer parte dele na área de desenho.
+
+75
+00:07:05,860 --> 00:07:10,860
+É por isso que cada grupo tem um parâmetro especial, chamado de "Travar seleção".
+
+76
+00:07:12,680 --> 00:07:17,460
+Aqui. Se nós ativarmos isso, clicar em qualquer parte do grupo vai selecionar o grupo em si.
+
+77
+00:07:18,000 --> 00:07:21,030
+Assim.
+
+78
+00:07:24,000 --> 00:07:30,000
+Ao mesmo tempo nós ainda podemos selecionar qualquer elemento de um grupo expandindo ele no painel de Camadas.
+
+79
+00:07:31,860 --> 00:07:36,930
+Agora nós não precisamos travar a seleção do grupo "corpo", então vamos desativar.
+
+80
+00:07:41,040 --> 00:07:44,700
+Então, nosso personagem está pronto! Agora vamos salvar o projeto.
+

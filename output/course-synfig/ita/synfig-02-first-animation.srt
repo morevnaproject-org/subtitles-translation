@@ -1,0 +1,296 @@
+1
+00:00:00,430 --> 00:00:03,100
+#2: La tua prima animazione
+
+2
+00:00:05,220 --> 00:00:09,060
+In questa lezione creeremo una semplice animazione di un ragazzo che va a scuola.
+
+3
+00:00:10,770 --> 00:00:15,060
+Questo corso include una serie di file di esempio, che puoi usare per gli esercizi.
+
+4
+00:00:15,720 --> 00:00:20,140
+Scarica il file workshop.zip allegato a questo corso e scompattalo.
+
+5
+00:00:21,890 --> 00:00:25,630
+Diamo una occhiata nella cartella "first-animation".
+
+6
+00:00:27,430 --> 00:00:33,100
+Qui abbiamo l'immagine di un ragazzo. Poi, l'immagine di una mappa dove viaggerà.
+
+7
+00:00:34,810 --> 00:00:37,860
+Tutte le immagini sono salvate in formato PNG.
+
+8
+00:00:38,060 --> 00:00:43,500
+Questo e' il formato che useremo per grafica in bitmap, dato che fornisce una compressione senza alcuna perdita di qualtà dell'immagine...
+
+9
+00:00:43,500 --> 00:00:48,700
+...e ci permette di salvare le immagini con lo sfondo trasparente.
+
+10
+00:00:49,060 --> 00:00:52,000
+Ora aggiungiamo l'immagine del ragazzo in Synfig
+
+11
+00:00:52,000 --> 00:00:56,060
+Scegli "File" - "Import" dal menu principale...
+
+12
+00:00:56,810 --> 00:00:59,560
+poi trova la posizione del nostri files di esempio.
+
+13
+00:01:00,100 --> 00:01:02,310
+Vai nella cartella "first animation"...
+
+14
+00:01:02,720 --> 00:01:05,560
+... e scegli il file "boy.png".
+
+15
+00:01:09,430 --> 00:01:12,720
+Qui abbiamo ottenuto un livello di immagine. Lo selezioniamo.
+
+16
+00:01:14,350 --> 00:01:19,390
+Ogni livello di immagine ha un gruppo di maniglie che permettono di trasformare l'immagine.
+
+17
+00:01:19,930 --> 00:01:22,770
+Questa maniglia ci permette di spostare il livello.
+
+18
+00:01:25,350 --> 00:01:28,700
+Il punto blu controlla la rotazione.
+
+19
+00:01:31,160 --> 00:01:35,560
+Usando questo angolo arancione possiamo ridimensionare l'immagine.
+
+20
+00:01:41,060 --> 00:01:45,970
+Puoi anche ridimensionare l'immagine lungo un particolare asse trascinando i punti gialli qui o qui.
+
+21
+00:01:51,060 --> 00:01:55,350
+Infine, questo punto rosso controlla la distorsione.
+
+22
+00:01:55,890 --> 00:02:00,060
+Immagino che non userai questo molto spesso. Quindi, annulliamo l'ultima azione.
+
+23
+00:02:03,520 --> 00:02:07,100
+Puoi anche fare undo usando Ctrl+Z, come nelle altre applicazioni.
+
+24
+00:02:11,180 --> 00:02:17,810
+Inseriamo l'immagine della mappa, e' il file "background.png".
+
+25
+00:02:19,850 --> 00:02:25,310
+Come puoi vedere l'immagine e' troppo grossa. Selezioniamola e ridimensioniamola per adattarla all'area di lavoro.
+
+26
+00:02:32,520 --> 00:02:34,640
+E usiamola come sfondo, in questo modo.
+
+27
+00:02:35,770 --> 00:02:41,390
+Ora, immagino, dobbiamo ridimensionare anche il ragazzo e mandarlo a casa. Selezionando il livello...
+
+28
+00:02:48,180 --> 00:02:54,640
+A proposito, puoi zoomare ingrandire o rimpicciolire la vista tenendo premuto il tasto Ctrl e ruotando la rotellina del mouse.
+
+29
+00:02:58,100 --> 00:03:02,960
+E se tieni premuta la rotellina, puoi muoverti nell'area di lavoro.
+
+30
+00:03:10,270 --> 00:03:13,360
+Ora abbiamo ogni cosa al suo posto.
+
+31
+00:03:15,720 --> 00:03:19,180
+Quindi, vogliamo fare un'animazione di questo ragazzo che va da casa a scuola.
+
+32
+00:03:19,270 --> 00:03:25,560
+Ovviamente, in qualche istante il ragazzo sara' a casa, e in un altro istante sarà a scuola.
+
+33
+00:03:25,970 --> 00:03:31,850
+Dobbiamo passare alla modalità *animazione* e assegnare le due posizioni per particolari momenti nel tempo.
+
+34
+00:03:32,020 --> 00:03:35,600
+Premi il pulsante con l'uomo verde qui per alternare la modalità animazione.
+
+35
+00:03:39,640 --> 00:03:46,220
+L'uomo verde diventa rosso e un bordo rosso appare attorno all'area lavoro. Questo indica che ora siamo in modalità animazione.
+
+36
+00:03:46,350 --> 00:03:51,060
+Quando la modalità animazione e' attiva, tutte le modifiche sono salvate in relazione al tempo corrente.
+
+37
+00:03:51,770 --> 00:03:57,720
+Diamo un'occhiata al pannello Timetrack - Pista Tempo, in basso. Indica che ora siamo al fotogramma zero.
+
+38
+00:04:00,390 --> 00:04:04,020
+Possiamo cambiare l'istante corrente selezionando questa area grigia.
+
+39
+00:04:09,230 --> 00:04:14,430
+Torniamo al fotogramma zero. Il ragazzo e' a casa, tutto e' a posto.
+
+40
+00:04:14,600 --> 00:04:18,600
+Ora vai al fotogramma 48 e trascina il ragazzo a scuola.
+
+41
+00:04:25,470 --> 00:04:30,640
+Guarda, esattamente all'opposto del parametro Transformation, due rombi arancioni sono appena comparsi.
+
+42
+00:04:34,020 --> 00:04:39,560
+Questi rombi sono chiamati Waypoints. Indicano che un parametro ha un nuovo valore a partire da un particolare istante nel tempo.
+
+43
+00:04:40,520 --> 00:04:45,560
+Synfig crea waypoints quando cambiamo un qualsiasi parametro nella modalità animazione.
+
+44
+00:04:47,850 --> 00:04:50,770
+Questo waypoint indica che il ragazzo è a scuola...
+
+45
+00:04:51,850 --> 00:04:55,530
+...e questo indica che è a casa.
+
+46
+00:04:56,890 --> 00:05:01,020
+Nota, l'animazione tra i due waypoints viene calcolata automaticamente da Synfig.
+
+47
+00:05:05,020 --> 00:05:10,560
+La nostra animazione è molto semplice, così Synfig può riprodurla in tempo reale senza problemi.
+
+48
+00:05:10,930 --> 00:05:15,970
+Ma per animazioni con un alto livello di complessità la riproduzione in tempo reale potrebbe non essere possibile.
+
+49
+00:05:16,400 --> 00:05:22,230
+Ecco perché si raccomanda l'uso della funzione Preview. Premi questo pulsante per aprire la finestra di dialogo Preview...
+
+50
+00:05:22,310 --> 00:05:26,140
+Qui possiamo impostare il valore di qualità e la frequenza dei fotogrammi di anteprima.
+
+51
+00:05:35,810 --> 00:05:42,060
+Estendiamo l'animazione un poco. Al fotogramma 96 muovi il ragazzo nel negozio...
+
+52
+00:05:43,970 --> 00:05:46,930
+...e al fotogramma 115 - rimandalo a casa.
+
+53
+00:05:51,350 --> 00:05:54,810
+Possiamo andare ad un waypoint già esistente e cambiare il suo valore.
+
+54
+00:05:59,930 --> 00:06:03,520
+Oh, il ragazzo sta bigiando scuola adesso! Sta andando al cinema.
+
+55
+00:06:09,810 --> 00:06:13,850
+Inoltre, possiamo variare la velocità del movimento trascinando i waypoints.
+
+56
+00:06:14,640 --> 00:06:18,430
+Sposta questo waypoint dal fotogramma 48 al fotogramma 20.
+
+57
+00:06:21,350 --> 00:06:27,060
+Ora il ragazzo sta correndo al cinema più rapidamente di quando camminava verso scuola.
+
+58
+00:06:28,770 --> 00:06:34,260
+Puoi cancellare i waypoints facendo click col tasto destro del mouse e scegliendo "Remove" dal menu.
+
+59
+00:06:34,770 --> 00:06:39,850
+Oppure puoi semplicemente tenere premuto Ctrl e Alt e cliccare il waypoint con il tasto sinistro del mouse.
+
+60
+00:06:44,850 --> 00:06:50,430
+Puoi anche copiare i waypoints. Per fare questo, sposta il cursore nel punto dove vuoi copiare...
+
+61
+00:06:50,970 --> 00:06:55,470
+trova il giusto waypoint... tasto-destro del mouse e scegli "Duplicate".
+
+62
+00:06:58,930 --> 00:07:02,930
+Ora il ragazzo ritorna esattamente nello stesso punto in cui era all'inizio.
+
+63
+00:07:04,390 --> 00:07:07,470
+Questo trucco è molto utile quando si creano loop di animazione.
+
+64
+00:07:11,890 --> 00:07:15,180
+Ricorda, i waypoints vengono creati solo nella modalità animazione.
+
+65
+00:07:15,640 --> 00:07:20,430
+Altrimenti, ogni cambiamento che fai avrà effetti su tutti i fotogrammi del tuo progetto. Proviamo.
+
+66
+00:07:20,600 --> 00:07:24,020
+Disattiva la modalità animazione... e sposta il ragazzo.
+
+67
+00:07:26,470 --> 00:07:32,260
+Qui abbiamo un messaggio di allarme, che ci chiede se veramente vuoi applicare il cambiamento a tutta l'animazione.
+
+68
+00:07:32,600 --> 00:07:36,460
+Scegliamo "Yes" e vediamo cosa succede.
+
+69
+00:07:39,470 --> 00:07:43,500
+Ora il ragazzo sta camminando da qualche altra parte. Annulliamo questo cambiamento.
+
+70
+00:07:47,520 --> 00:07:50,800
+Nota che il messaggio di allarme compare solo se cambiamo i parametri di animazione.
+
+71
+00:07:50,860 --> 00:07:53,500
+Altrimenti i cambiamenti vengono apportati subito.
+
+72
+00:07:53,600 --> 00:07:56,800
+Per esempio, proviamo a muovore lo sfondo.
+
+73
+00:07:57,930 --> 00:08:01,260
+Vedi, non c'è nessun allarme qui.
+
+74
+00:08:03,140 --> 00:08:09,200
+Ora immagino che tu sia pronto per la prossima lezione. Ma prima salviamo in nostro file.
+

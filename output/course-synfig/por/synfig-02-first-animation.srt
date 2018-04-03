@@ -1,0 +1,296 @@
+1
+00:00:00,430 --> 00:00:03,100
+#2: Sua primeira animação
+
+2
+00:00:05,220 --> 00:00:09,060
+Nesta lição, iremos criar uma animação simples sobre um menino indo para a escola.
+
+3
+00:00:10,770 --> 00:00:15,060
+Este curso inclui uma série de arquivos de exemplo, que você pode usar nos exercícios.
+
+4
+00:00:15,720 --> 00:00:20,140
+Por favor, baixe o arquivo workshop.zip que vem junto com o curso e o descompacte.
+
+5
+00:00:21,890 --> 00:00:25,630
+Vamos dar uma olhada na pasta "first-animation".
+
+6
+00:00:27,430 --> 00:00:33,100
+Aqui temos a imagem do menino. Ao lado, a imagem do mapa sobre o qual ele caminhará.
+
+7
+00:00:34,810 --> 00:00:37,860
+Todas as imagens estão no formato PNG.
+
+8
+00:00:38,060 --> 00:00:43,500
+Este é o formato que usamos para imagens bitmap, já que ele provê compressão sem preda de qualidade...
+
+9
+00:00:43,500 --> 00:00:48,700
+...e nos permite salvar imagens com fundo transparente.
+
+10
+00:00:49,060 --> 00:00:52,000
+Agora, vamos adicionar a imagem do menino ao Synfig.
+
+11
+00:00:52,000 --> 00:00:56,060
+Escolha "File" - "Import" no menu principal...
+
+12
+00:00:56,810 --> 00:00:59,560
+...e então localize nossos arquivos de exemplo.
+
+13
+00:01:00,100 --> 00:01:02,310
+Vá até a pasta "first animation"...
+
+14
+00:01:02,720 --> 00:01:05,560
+...e escolha o arquivo "boy.png".
+
+15
+00:01:09,430 --> 00:01:12,720
+Aqui nós obtivemos uma camada de imagem. Vamos selecioná-la.
+
+16
+00:01:14,350 --> 00:01:19,390
+Todas as camadas de imagem possuem uma série de manipuladores que nos permitem transformá-la.
+
+17
+00:01:19,930 --> 00:01:22,770
+Este manipulador nos permite mover a camada.
+
+18
+00:01:25,350 --> 00:01:28,700
+O ponto azul controla a rotação.
+
+19
+00:01:31,160 --> 00:01:35,560
+Usando este canto latanja, podemos escalonar a imagem proporcionalmente.
+
+20
+00:01:41,060 --> 00:01:45,970
+Você pode também escalonar em uma coordenada específica arrastando os pontos amarelos aqui e aqui.
+
+21
+00:01:51,060 --> 00:01:55,350
+Finalmente, este ponto vermelho controla a distorção.
+
+22
+00:01:55,890 --> 00:02:00,060
+Acredito que você não vá usá-lo muito. Então, vamos desfazer a última ação.
+
+23
+00:02:03,520 --> 00:02:07,100
+Você também pode desfazer usando Ctrl+Z, como em outros programas.
+
+24
+00:02:11,180 --> 00:02:17,810
+Vamos inserir a imagem do mapa. É o arquivo "background.png".
+
+25
+00:02:19,850 --> 00:02:25,310
+Como você pode ver, a imagem é muito grande. Vamos selecioná-la e escaloná-la para caber na área de trabalho.
+
+26
+00:02:32,520 --> 00:02:34,640
+E vamos mandá-la para o fundo. Assim.
+
+27
+00:02:35,770 --> 00:02:41,390
+Agora, eu presumo, também temos que redimensionar o menino e mandá-lo para cada. Selecionando a camada...
+
+28
+00:02:48,180 --> 00:02:54,640
+A propósito, você pode aproximar ou afastar a visualização atual segurando a tecla Ctrl e rolando o botão de rolagem do mouse.
+
+29
+00:02:58,100 --> 00:03:02,960
+E se você mantiver o botão de rolagem pressionado, você pode se mover através da área de trabalho.
+
+30
+00:03:10,270 --> 00:03:13,360
+Agora temos tudo em seus respectivos lugares.
+
+31
+00:03:15,720 --> 00:03:19,180
+Então, queremos fazer uma animação deste menino indo de casa para a escola.
+
+32
+00:03:19,270 --> 00:03:25,560
+Obviamente, em algum momento o menino esterá em casa e em outro momento ele estará na escola.
+
+33
+00:03:25,970 --> 00:03:31,850
+Temos que mudar para o módo *animation* e marcar as duas localizações em momentos específicos do tempo.
+
+34
+00:03:32,020 --> 00:03:35,600
+Clique aqui no botão verde para ativar o modo de animação.
+
+35
+00:03:39,640 --> 00:03:46,220
+O homen verde se torna vermelho e uma borda vermelha aparece ao redor da tela. Isso indica que estamos no modo de animação.
+
+36
+00:03:46,350 --> 00:03:51,060
+Quando o modo de animação está ativo, todas as alterações são gravadas em relação ao tempo atual.
+
+37
+00:03:51,770 --> 00:03:57,720
+Vamos dar uma olhada no painel TImetrack a baixo. Ele indica que agora estamos no frame zero.
+
+38
+00:04:00,390 --> 00:04:04,020
+Nós podemos mudar o tempo atual clicando nesta área cinza.
+
+39
+00:04:09,230 --> 00:04:14,430
+Vamos voltar ao frame zero. O garoto está em casa, está tudo certo.
+
+40
+00:04:14,600 --> 00:04:18,600
+Agora vá ao frame 48 e arraste o menino para a escola.
+
+41
+00:04:25,470 --> 00:04:30,640
+Olhe, do lado oposto do parâmetro "Transformation" dois diamantes laranjas apareceram.
+
+42
+00:04:34,020 --> 00:04:39,560
+Esses diamantes são chamados Waypoints. Eles indicam que um parâmetro tem um novo valor em algum momento.
+
+43
+00:04:40,520 --> 00:04:45,560
+O Synfig cria waypoint quando mudamos algum parâmetro no modo de animação.
+
+44
+00:04:47,850 --> 00:04:50,770
+Este waypoint indica que o menino está na escola...
+
+45
+00:04:51,850 --> 00:04:55,530
+...e este indica que ele está em casa.
+
+46
+00:04:56,890 --> 00:05:01,020
+Note que o movimento entre waypoints são calculados automaticamente pelo Synfig.
+
+47
+00:05:05,020 --> 00:05:10,560
+Nossa animação é muito simples, então o Synfig consegue executá-la em tempo real sem problemas.
+
+48
+00:05:10,930 --> 00:05:15,970
+Mas para animações mais complexas, reprodução em tempo real pode não ser possível.
+
+49
+00:05:16,400 --> 00:05:22,230
+Por isso é recomendado usar a função Preview. Clique neste botão para abrir a janela de Preview...
+
+50
+00:05:22,310 --> 00:05:26,140
+Aqui podemos ajustar a qualidade da pré-visualização e a taxa de frames.
+
+51
+00:05:35,810 --> 00:05:42,060
+Vamos extender nossa animação um pouco. No frame 96, mova o garoto para a loja...
+
+52
+00:05:43,970 --> 00:05:46,930
+...e no frame 115, de volta para casa.
+
+53
+00:05:51,350 --> 00:05:54,810
+Nós podemos voltar a um waypoint existente e alterar seu valor.
+
+54
+00:05:59,930 --> 00:06:03,520
+Oh, esse menino vai matar aula! Ele vai para o cinema.
+
+55
+00:06:09,810 --> 00:06:13,850
+Nós também podemos ajustar a velocidade do movimento arrastando os waypoints.
+
+56
+00:06:14,640 --> 00:06:18,430
+Mova esse waypoint do frame 48 para o frame 20.
+
+57
+00:06:21,350 --> 00:06:27,060
+Agora o menino está correndo para o cinema, bem mais rápido do que o que ele costuma fazer para ir a escola.
+
+58
+00:06:28,770 --> 00:06:34,260
+Você pode apagar waypoints ao clicar com o botão direito sobre ele e escolhendo "Remove" no menu.
+
+59
+00:06:34,770 --> 00:06:39,850
+Ou você pode apenas segurar as teclas Ctrl e Alt e clicar no waypoint com o botão esquerdo do mouse.
+
+60
+00:06:44,850 --> 00:06:50,430
+Você também pode copiar waypoints. Para isso, mova o cursor para onde você quer copiar...
+
+61
+00:06:50,970 --> 00:06:55,470
+ache o waypoint correto... clique nele com o botão direito e escolha "Duplicate".
+
+62
+00:06:58,930 --> 00:07:02,930
+Agora o garoto volta exatamente para o mesmo ponto em que ele estava no começo.
+
+63
+00:07:04,390 --> 00:07:07,470
+Este truque é muito útil quando criamos animações em loop.
+
+64
+00:07:11,890 --> 00:07:15,180
+Lembre-se, waypoints só são criados no modo de animação.
+
+65
+00:07:15,640 --> 00:07:20,430
+Quaisquer alterações afetam todos os frames do seu projeto. Vamos tentar isso.
+
+66
+00:07:20,600 --> 00:07:24,020
+Deslique o modo de animação... e mova o garoto.
+
+67
+00:07:26,470 --> 00:07:32,260
+Aqui recebemos um alerta perguntando se queremos mesmo realizar essa alteração em toda a animação.
+
+68
+00:07:32,600 --> 00:07:36,460
+Vamos clicar em "Yes" e ver o que acontece.
+
+69
+00:07:39,470 --> 00:07:43,500
+Agora o garoto está andando em algum lugar ao lado. Vamos desfazer isso.
+
+70
+00:07:47,520 --> 00:07:50,800
+Note que recebemos um alerta apenas se mudamos algum parâmetro de animação.
+
+71
+00:07:50,860 --> 00:07:53,500
+Do contrário, as alterações são aplicadas na hora.
+
+72
+00:07:53,600 --> 00:07:56,800
+Por exemplo, vamos tentar mover o fundo.
+
+73
+00:07:57,930 --> 00:08:01,260
+Viu, nenhum alerta.
+
+74
+00:08:03,140 --> 00:08:09,200
+Acho que estamos prontos para nossa próxima lição. Mas primeiro, vamos salvar nosso arquivo.
+

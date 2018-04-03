@@ -1,0 +1,208 @@
+1
+00:00:00,760 --> 00:00:02,660
+#1: Primeiros passos
+
+2
+00:00:03,680 --> 00:00:07,520
+Bem-vindo ao programa de treinamento do Synfig Studio.
+
+3
+00:00:08,100 --> 00:00:12,020
+Nesta lição vamos aprender sobre a interface e os conceitos básicos do Synfig.
+
+4
+00:00:12,810 --> 00:00:13,890
+Então vamos começar!
+
+5
+00:00:14,220 --> 00:00:17,500
+Durante este curso estarei trabalhando com a interface em Inglês.
+
+6
+00:00:17,640 --> 00:00:22,630
+Então você pode achar mais conveniente trocar para o Inglês enquanto seguimos com o curso.
+
+7
+00:00:22,770 --> 00:00:26,310
+É fácil fazer isso - apenas vá no menu "Editar" e clique em "Preferências",
+
+8
+00:00:28,350 --> 00:00:34,640
+então vá até a aba "Diversos" e marque "Inglês" na lista.
+
+9
+00:00:39,230 --> 00:00:42,430
+Depois disso você precisa reiniciar o aplicativo.
+
+10
+00:00:47,100 --> 00:00:50,220
+Agora vamos dar uma olhada nos principais elementos da interface.
+
+11
+00:00:50,520 --> 00:00:54,390
+Pode acontecer que a sua instalação do Synfig esteja configurada de forma diferente.
+
+12
+00:00:55,060 --> 00:00:58,310
+Para restaurar o layout padrão, vá em "Window" -
+
+13
+00:01:00,100 --> 00:01:01,430
+"Workspace" -
+
+14
+00:01:02,770 --> 00:01:04,020
+"Default".
+
+15
+00:01:06,560 --> 00:01:09,600
+Então, do que consiste a janela principal?
+
+16
+00:01:09,680 --> 00:01:13,270
+No centro da tela nós temos a principal área de trabalho.
+
+17
+00:01:15,220 --> 00:01:19,430
+No topo dela você pode achar os botões para salvar ou abrir um arquivo, ...
+
+18
+00:01:19,660 --> 00:01:24,130
+...anular ou refazer a última ação... e assim por diante.
+
+19
+00:01:24,260 --> 00:01:27,030
+À esquerda, temos a caixa de ferramentas "Toolbox"
+
+20
+00:01:27,260 --> 00:01:31,970
+e outras ferramentas globais de configuração como "Cores de Preenchimento e Borda"  e "Espessura da Linha"
+
+21
+00:01:34,470 --> 00:01:37,890
+Existem painéis adicionais, abaixo e à direta da área de trabalho.
+
+22
+00:01:38,270 --> 00:01:43,810
+Eu não vou descrever todos eles em detalhe, vamos dar uma olhada nos mais importantes:
+
+23
+00:01:44,850 --> 00:01:46,560
+"Opções de Ferramentas"
+
+24
+00:01:46,720 --> 00:01:48,180
+"Camadas"
+
+25
+00:01:48,560 --> 00:01:50,970
+... e "Parâmetros".
+
+26
+00:01:50,970 --> 00:01:56,810
+Vamos ver como eles funcionam. Escolha a ferramenta Círculo na Caixa de Ferramentas.
+
+27
+00:01:58,270 --> 00:02:02,560
+Agora, as opções da ferramenta Círculo aparecem abaixo no Painel de Opções de Ferramentas.
+
+28
+00:02:02,680 --> 00:02:09,020
+Certifique-se de que  o botão "Criar Camada Círculo" esteja habilitado e que todos os outros botões da coluna estejam desabiitados.
+
+29
+00:02:10,140 --> 00:02:16,140
+Em seguida, com o mouse num ponto da área de trabalho, clique o botão esquerdo do mouse e o mantenha pressionado.
+
+30
+00:02:17,060 --> 00:02:20,810
+Agora, arraste o mouse até criar um círculo e solte o botão.
+
+31
+00:02:21,310 --> 00:02:24,390
+Pronto, você tem um círculo como este.
+
+32
+00:02:25,060 --> 00:02:28,600
+Note que uma nova camada acaba de aparecer no Painel de Camadas.
+
+33
+00:02:29,520 --> 00:02:33,850
+É isso aí: todo objeto no Synfig Studio fica em uma camada separada.
+
+34
+00:02:35,020 --> 00:02:39,130
+Vamos escolher uma cor diferente e criar mais um círculo.
+
+35
+00:02:50,560 --> 00:02:53,390
+O segundo círculo também aparece no painel Camadas.
+
+36
+00:02:54,100 --> 00:02:56,720
+Agora, vamos mudar para a ferramenta de Transformação.
+
+37
+00:02:59,520 --> 00:03:04,020
+Você pode selecionar objetos utilizando o painel Camadas ou a área de trabalho.
+
+38
+00:03:04,680 --> 00:03:12,310
+Quando um objeto é selecionado, você pode mudar seus parâmetros ao arrastar estes pontos coloridos.  Estes pontos são chamados de "alças".
+
+39
+00:03:16,000 --> 00:03:18,800
+Mas normalmente objetos têm vários outros parâmetros.
+
+40
+00:03:18,900 --> 00:03:21,860
+Você pode alterá-los no Painel Parâmetros.
+
+41
+00:03:25,270 --> 00:03:30,350
+Aqui temos Valor Alfa, Cor, Esmaecimento e muitos outros.
+
+42
+00:03:31,600 --> 00:03:34,430
+Para editar um parâmetro, faça um clique duplo no seu valor.
+
+43
+00:03:36,140 --> 00:03:38,180
+Vamos fazer algumas alterações.
+
+44
+00:03:38,770 --> 00:03:40,310
+E pressione Enter.
+
+45
+00:03:47,310 --> 00:03:50,560
+No painel Camadas, podemos mudar a ordem das camadas.
+
+46
+00:03:55,020 --> 00:03:57,460
+Aqui podemos duplicá-los...
+
+47
+00:03:57,700 --> 00:03:59,500
+remover...
+
+48
+00:03:59,770 --> 00:04:02,430
+copiar para a área de transferência e assim por diante.
+
+49
+00:04:02,900 --> 00:04:06,000
+Por exemplo, vamos fazer uma cópia deste círculo.
+
+50
+00:04:06,310 --> 00:04:07,430
+Pressione este botão...
+
+51
+00:04:08,810 --> 00:04:10,890
+E temos uma cópia.
+
+52
+00:04:50,840 --> 00:04:53,440
+Agora podemos proceder à próxima lição.
+

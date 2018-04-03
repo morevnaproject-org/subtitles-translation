@@ -1,0 +1,148 @@
+1
+00:00:00,700 --> 00:00:02,860
+#3: Rendering
+
+2
+00:00:04,020 --> 00:00:08,390
+La nostra prima animazione è pronta. E' piuttosto semplice, ma questo è soltanto l'inizio !
+
+3
+00:00:12,310 --> 00:00:15,000
+Adesso faremo il render del nostro progetto.
+
+4
+00:00:17,500 --> 00:00:23,530
+Il rendering è il processo di conversione di un'animazione in un file video o in una serie di files di immagini fisse.
+
+5
+00:00:25,560 --> 00:00:29,220
+Fai clic su questo tasto per aprire la finestra di dialogo Render Settings - Impostazioni Render.
+
+6
+00:00:30,850 --> 00:00:33,970
+Realizziamo il render della nostra animazione in un file formato AVI.
+
+7
+00:00:35,810 --> 00:00:41,680
+Digita "first-animation" nel campo Filename. E aggiungi ".avi" come estensione.
+
+8
+00:00:46,220 --> 00:00:51,100
+Puoi anche fare clic sul tasto "Scegli..." per specificare il percorso per il video renderizzato.
+
+9
+00:00:57,850 --> 00:01:03,680
+Fondamentalmente, potrebbe bastare. Per default, Synfig userà il codec lossless H.264.
+
+10
+00:01:04,390 --> 00:01:08,100
+Questo formato fornisce una compressione senza alcuna perdita di qualità ...
+
+11
+00:01:08,100 --> 00:01:14,600
+... e questo rappresenta una scelta ideale, se conti di mettere la tua animazione in un software di video editing per combinare scene o per aggiungere il sonoro.
+
+12
+00:01:14,680 --> 00:01:18,600
+Se però devi usare un differente codec, allora segui questo metodo.
+
+13
+00:01:18,970 --> 00:01:21,810
+Scegli "ffmpeg" dal menu a discesa Target -  Bersaglio
+
+14
+00:01:23,100 --> 00:01:25,180
+Il tasto "Parameters" si attiva.
+
+15
+00:01:25,720 --> 00:01:30,430
+Fai clic su di esso per aprire un'altra finestra di dialogo di configurazione, dove puoi scegliere il codec video ...
+
+16
+00:01:32,640 --> 00:01:33,850
+... e il bitrate.
+
+17
+00:01:35,970 --> 00:01:41,020
+Nel nostro caso siamo abbastanza soddisfatti con i valori di default, così lasciamo tutto così com'è.
+
+18
+00:01:43,560 --> 00:01:47,970
+Nella parte bassa della finestra di dialogo possiamo impostare parametri quali larghezza e altezza dell'immagine.
+
+19
+00:01:48,470 --> 00:01:52,560
+Passiamo al quadro Time per specificare l'intervallo che vuoi renderizzare.
+
+20
+00:01:53,930 --> 00:02:01,680
+Tutto è pronto, quindi fai click su "Render" e attendi fino a quando compare un messaggio "File renderizzato con successo" in fondo alla Finestra Canvas - Inquadratura.
+
+21
+00:02:04,220 --> 00:02:07,350
+Il file risultante sarà salvato nella posizione specificata.
+
+22
+00:02:15,860 --> 00:02:21,020
+Per il render di un progetto come gif animato, aggiungi l'estensione di file .gif al nome del file...
+
+23
+00:02:23,220 --> 00:02:27,390
+... e scegli un "magick++" dal menu a discesa Target.
+
+24
+00:02:31,060 --> 00:02:34,180
+Controlliamo il gif risultante nella posizione specificata.
+
+25
+00:02:40,930 --> 00:02:44,730
+Se vuoi il render del fotogramma corrente come una singola immagine PNG ...
+
+26
+00:02:44,850 --> 00:02:48,930
+...cambia l'estensione del file in .png...
+
+27
+00:02:53,660 --> 00:02:56,930
+poi regola Target su "Auto"...
+
+28
+00:02:57,800 --> 00:03:03,900
+... e attiva il quadro di controllo "Render solo il fotogramma corrente".
+
+29
+00:03:05,640 --> 00:03:07,660
+Ed ecco il risultato.
+
+30
+00:03:12,680 --> 00:03:20,930
+Infine, vi mostrerò un altro tipo di rendering, spesso impiegato dai professionisti quando vogliono il render di animazioni mantenendo trasparenza del fondale.
+
+31
+00:03:21,060 --> 00:03:29,140
+Un fondale trasparente consente di combinare l'animazione con altre clip o di migliorarla con effetti nelle applicazioni di editing e compositing
+
+32
+00:03:29,810 --> 00:03:34,060
+In questo caso il render si svolge come una sequenza di immagini PNG.
+
+33
+00:03:36,060 --> 00:03:43,600
+Le impostazioni sono le stesse di quando si fa il render di un singolo fotogramma, tranne per il fatto che in questo caso il quadro di controllo "Render current frame only" deve essere senza spunta.
+
+34
+00:03:44,180 --> 00:03:46,900
+Click "Render" e attendi.
+
+35
+00:03:47,680 --> 00:03:51,770
+In questa modalità si avrà anche compressione senza alcuna perdita di qualità...
+
+36
+00:03:52,430 --> 00:03:59,530
+... quindi questa è una buona opzione se il tuo editor video non dovesse supportare il formato lossless H.264 menzionato all'inizio.
+
+37
+00:04:00,400 --> 00:04:05,260
+Il risultato finale è una serie di immagini, pronte per essere caricate in un editor video non lineare.
+

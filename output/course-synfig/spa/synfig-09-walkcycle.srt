@@ -1,0 +1,208 @@
+1
+00:00:00,600 --> 00:00:02,860
+#9: Caminata Continua "Walkcycle"
+
+2
+00:00:05,300 --> 00:00:10,000
+Tenemos tres primeros pasos de nuestro personaje caminando.
+
+3
+00:00:10,200 --> 00:00:13,000
+Supongo que tienes una idea de cómo continuar con eso.
+
+4
+00:00:13,260 --> 00:00:18,100
+Pero apuesto a que en la mayoría de los casos te gustaría evitar esforzarte y crear una caminata continua.
+
+5
+00:00:18,260 --> 00:00:20,800
+Vamos a echar un vistazo.
+
+6
+00:00:20,960 --> 00:00:25,380
+Obviamente, necesitamos hacer un bucle del intervalo del fotograma 0 al 32
+
+7
+00:00:25,600 --> 00:00:30,660
+Pero excluimos el fotograma 32, porque es exactamente el mismo que el fotograma 0.
+
+8
+00:00:30,860 --> 00:00:33,960
+No queremos repetirlo dos veces, ¿verdad?
+
+9
+00:00:37,260 --> 00:00:41,200
+Primero tenemos que hacer que el personaje camine en su sitio.
+
+10
+00:00:41,380 --> 00:00:44,200
+Esta es la posición de la pierna delantera.
+
+11
+00:00:44,400 --> 00:00:48,200
+Ahora en el fotograma 32 movemos todo el grupo hacia atrás...
+
+12
+00:00:48,360 --> 00:00:52,600
+...de manera que la pierna delantera se alinee con su posición original.
+
+13
+00:00:53,940 --> 00:00:58,620
+Vaya, el marcador circular está en mismo grupo con el personaje...
+
+14
+00:00:58,720 --> 00:01:02,100
+Vamos a crear otro fuera de él.
+
+15
+00:01:15,080 --> 00:01:18,400
+Y ahora podemos mover el grupo.
+
+16
+00:01:23,260 --> 00:01:28,460
+Nota que, debido a los fotogramas clave, tenemos un punto de referencia adicional AQUÍ.
+
+17
+00:01:28,920 --> 00:01:32,060
+Pero necesitamos que todo el movimiento del personaje empiece desde "0".
+
+18
+00:01:32,120 --> 00:01:35,460
+Arreglemos esto.
+
+19
+00:01:38,340 --> 00:01:42,200
+Y este último punto de referencia debe ser eliminado.
+
+20
+00:01:43,820 --> 00:01:48,600
+Hecho! Ahora nuesto "tío" camina en su sitio hasta el fotograma 32.
+
+21
+00:01:49,260 --> 00:01:55,160
+Y no nos importa lo que suceda después de eso, porque ahora voy a añadir una capa Time Loop.
+
+22
+00:01:55,430 --> 00:01:59,360
+Pero primero, necesitamos entender las capas filtro.
+
+23
+00:01:59,560 --> 00:02:03,660
+Por lo general las capas son usadas para mostrar algo en el área de trabajo: ...
+
+24
+00:02:03,780 --> 00:02:08,830
+círculo, rectángulo, gráficos mapa de bits, etc.
+
+25
+00:02:09,020 --> 00:02:14,860
+Pero en Synfig hay capas especiales que pueden cambiar el aspecto (o comportamiento) de las capas inferiores.
+
+26
+00:02:15,080 --> 00:02:17,960
+Son llamadas Capas de Filtro /Filter Layers/.
+
+27
+00:02:18,180 --> 00:02:20,730
+Permíteme demostrárlo con un ejemplo.
+
+28
+00:02:20,840 --> 00:02:25,200
+Crea dos círculos. Uno azul y uno rojo.
+
+29
+00:02:28,060 --> 00:02:30,660
+Selecciona el círculo superior...
+
+30
+00:02:30,800 --> 00:02:34,560
+...click derecho, y selecciona "New Layer".
+
+31
+00:02:36,520 --> 00:02:40,060
+Selecciona la capa filtro "Blur" /desenfoque/.
+
+32
+00:02:41,080 --> 00:02:44,430
+Sorpresa, todo está difuminado.
+
+33
+00:02:44,700 --> 00:02:47,600
+Podemos ajustar el porcentaje de desenfoque en el panel Parámetros.
+
+34
+00:02:47,840 --> 00:02:51,860
+...o en el lienzo moviendo este punto.
+
+35
+00:02:57,600 --> 00:03:01,400
+Las capas Filtro solo afectan a las capas por debajo de ellas.
+
+36
+00:03:01,660 --> 00:03:05,430
+Si movemos la capa blur abajo
+
+37
+00:03:06,660 --> 00:03:10,300
+Mira, ahora solo el círculo rojo está desenfocado.
+
+38
+00:03:11,930 --> 00:03:16,000
+Pero que tal si quisiera desenfocar sólo el círculo azul superior.
+
+39
+00:03:16,160 --> 00:03:19,000
+...y mantener el rojo sin cambios?
+
+40
+00:03:19,400 --> 00:03:26,030
+Para hacerlo, solo mueve la capá hacia arriba, por encima del círculo azul y agrúpalas.
+
+41
+00:03:29,760 --> 00:03:33,980
+Así puedes ver que los filtros sólo afectan a las capas en el mismo grupo.
+
+42
+00:03:34,100 --> 00:03:37,530
+En el menú "New Layer" tenemos una gran cantidad de capas de filtro...
+
+43
+00:03:37,720 --> 00:03:43,360
+... algunas distorsiones diferentes y otros efectos interesantes.
+
+44
+00:03:44,530 --> 00:03:47,930
+Ahora necesitamos la capa Time Loop /Bucle de tiempo/.
+
+45
+00:03:48,040 --> 00:03:53,500
+Esta capa toma un fragmento de la animación de las capas inferiores y lo repite continuamente.
+
+46
+00:03:53,620 --> 00:03:57,460
+Regresemos a nuestro personaje.
+
+47
+00:03:57,730 --> 00:04:00,330
+Cambie el Modo Animación...
+
+48
+00:04:00,480 --> 00:04:04,560
+Ahora añada la capa Time Loop.
+
+49
+00:04:07,860 --> 00:04:11,000
+Establezca  su duración a 31
+
+50
+00:04:11,160 --> 00:04:15,900
+Como probáblemente recuerdes no necesitamos incluir el  frame número 32.
+
+51
+00:04:18,100 --> 00:04:22,630
+Ahora todo está listo y tenemos un walkcycle infinito.
+
+52
+00:04:30,220 --> 00:04:33,160
+Guardamos el archivo.
+

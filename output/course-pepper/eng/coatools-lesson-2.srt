@@ -1,0 +1,168 @@
+1
+00:00:03,540 --> 00:00:07,760
+Now that the boring preparation is over with...
+
+2
+00:00:07,960 --> 00:00:11,600
+...let's start creating our first simple rig.
+
+3
+00:00:12,380 --> 00:00:13,960
+Creating our skeleton.
+
+4
+00:00:14,200 --> 00:00:16,380
+Press Shift + A ...
+
+5
+00:00:17,640 --> 00:00:18,640
+...then "Armature"...
+
+6
+00:00:21,040 --> 00:00:22,320
+..."Single Bone".
+
+7
+00:00:26,400 --> 00:00:30,120
+Here is a bone, which we can easily move.
+
+8
+00:00:30,120 --> 00:00:34,480
+Currently we are working in "Object Mode".
+
+9
+00:00:34,700 --> 00:00:36,680
+But we need to switch to "Edit Mode"...
+
+10
+00:00:36,840 --> 00:00:40,020
+...to work on the skeleton structure.
+
+11
+00:00:41,760 --> 00:00:44,860
+So now let's move it to body.
+
+12
+00:00:45,300 --> 00:00:46,800
+Like this.
+
+13
+00:00:48,180 --> 00:00:50,580
+This will be the skeleton base.
+
+14
+00:00:51,280 --> 00:00:54,440
+Then select the top of the bone, press "E"...
+
+15
+00:00:54,900 --> 00:00:56,780
+And move it to the top of the head.
+
+16
+00:00:56,920 --> 00:00:59,460
+This bone will be linked with head.
+
+17
+00:00:59,940 --> 00:01:03,780
+Notice, if we create bone from another bone...
+
+18
+00:01:03,880 --> 00:01:07,500
+...then the second one will be bound to the first.
+
+19
+00:01:07,700 --> 00:01:11,660
+Now, duplicate the bone and move it over the arm.
+
+20
+00:01:17,940 --> 00:01:20,900
+Repeat the same steps for another arm.
+
+21
+00:01:24,940 --> 00:01:28,620
+Now we need only to link our image to the skeleton.
+
+22
+00:01:29,260 --> 00:01:30,400
+But before that...
+
+23
+00:01:30,780 --> 00:01:33,300
+We have to switch from "Edit Mode" to "Pose Mode".
+
+24
+00:01:35,220 --> 00:01:40,600
+To link the character with the skeleton, you need to right click the image object first...
+
+25
+00:01:40,820 --> 00:01:45,280
+...then hold "Shift" and right click the corresponding bone.
+
+26
+00:01:45,760 --> 00:01:48,780
+Press "Ctrl + P"...
+
+27
+00:01:48,980 --> 00:01:51,700
+...and choose "Bone".
+
+28
+00:01:56,880 --> 00:01:59,920
+Repeat this step for all other parts.
+
+29
+00:02:22,000 --> 00:02:26,140
+Also, we need to create special bones for the eyes.
+
+30
+00:02:26,580 --> 00:02:28,420
+Duplicate one of the bones...
+
+31
+00:02:28,820 --> 00:02:31,220
+...put it on the first eye...
+
+32
+00:02:31,420 --> 00:02:32,920
+...then on the another...
+
+33
+00:02:33,120 --> 00:02:34,920
+...and one more bone between them.
+
+34
+00:02:35,100 --> 00:02:37,940
+It will be responsible for controlling both eyes at once.
+
+35
+00:02:38,080 --> 00:02:41,260
+Now bind the individual bones to the central one...
+
+36
+00:02:46,560 --> 00:02:48,820
+...and the central bone - to head bone.
+
+37
+00:02:52,500 --> 00:02:55,580
+And then just link the eyes to their bones.
+
+38
+00:03:18,960 --> 00:03:21,140
+If you've done everything correct...
+
+39
+00:03:21,280 --> 00:03:23,700
+...when you move your skeleton...
+
+40
+00:03:24,000 --> 00:03:27,320
+...all parts of picture will follow it.
+
+41
+00:03:28,880 --> 00:03:32,760
+Well, this very simple rig is done.
+
+42
+00:03:32,980 --> 00:03:39,080
+Next you will see how this rig can be used in animation.
+

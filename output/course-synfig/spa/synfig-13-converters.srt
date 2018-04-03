@@ -1,0 +1,488 @@
+1
+00:00:01,800 --> 00:00:07,100
+En esta lección, me gustaría contarte acerca de una
+
+2
+00:00:08,430 --> 00:00:11,930
+Demos un vistazo a este ejemplo.
+
+3
+00:00:12,060 --> 00:00:17,030
+Ahora, intentemos adivinar cuantos waypoints
+
+4
+00:00:17,730 --> 00:00:21,460
+18, 9 o 5?
+
+5
+00:00:21,600 --> 00:00:24,730
+La respuesta correcta es...
+
+6
+00:00:25,400 --> 00:00:29,500
+Synfig Studio tiene poderosas caracteristicas
+
+7
+00:00:29,500 --> 00:00:34,500
+y ahora, voy a mostrartelas recreando la animación de esta abeja
+
+8
+00:00:36,000 --> 00:00:39,930
+Aquí tenemos un cuerpo de abeja y un ala con una imagen de fondo
+
+9
+00:00:39,930 --> 00:00:43,000
+Importamos la abeja y su ala hasta el área de trabajo
+
+10
+00:00:46,660 --> 00:00:48,300
+Las agrupamos
+
+11
+00:00:49,800 --> 00:00:51,230
+y escalamos
+
+12
+00:00:51,900 --> 00:00:53,030
+así
+
+13
+00:00:54,630 --> 00:00:56,630
+Mueve la ala hacia el lugar correcto
+
+14
+00:00:59,130 --> 00:01:01,300
+y establece su centro de rotación
+
+15
+00:01:04,230 --> 00:01:07,300
+Ahora vamos a gregar
+
+16
+00:01:08,600 --> 00:01:12,930
+En Synfig Studio, puedes vincular una función
+
+17
+00:01:13,200 --> 00:01:16,430
+Permíteme demostrate como funciona
+
+18
+00:01:17,400 --> 00:01:19,430
+Aquí, tenemos un círculo
+
+19
+00:01:20,560 --> 00:01:22,960
+Seleccionamos su parámetro Origin
+
+20
+00:01:23,620 --> 00:01:24,950
+click-derecho
+
+21
+00:01:25,320 --> 00:01:27,120
+y seleccionamos "Convert"
+
+22
+00:01:28,370 --> 00:01:30,950
+Aquí, tenemos una lista de las funciones disponibles.
+
+23
+00:01:30,950 --> 00:01:33,470
+en Synfig Studio los llamamos Converters
+
+24
+00:01:34,220 --> 00:01:36,020
+Selecciona Random converter
+
+25
+00:01:39,220 --> 00:01:40,200
+Mira
+
+26
+00:01:40,850 --> 00:01:43,150
+Ahora, nuestro círculo realiza movimientos aleatorios
+
+27
+00:01:46,000 --> 00:01:50,900
+Observe que  un pequeño marcador triangular apareció cerca del parámetro Origin
+
+28
+00:01:52,770 --> 00:01:55,420
+Click en él para ver los parámetros del converter
+
+29
+00:01:57,370 --> 00:02:01,750
+EL sub-parámetro Link representa un punto central para la evalución aleatoria
+
+30
+00:02:05,220 --> 00:02:08,450
+Aquí, podemos configurar el Radius/Radio máximo de variación...
+
+31
+00:02:16,750 --> 00:02:18,100
+Speed/Velocidad...
+
+32
+00:02:24,950 --> 00:02:25,700
+o Seed/Semilla
+
+33
+00:02:26,470 --> 00:02:29,250
+Este valor Seed define un
+
+34
+00:02:33,100 --> 00:02:37,950
+Para remover el coverter dede el parámetro,
+
+35
+00:02:43,750 --> 00:02:50,400
+Como habrás notado, el convertidor Random influyó en los ejes X e Y del parámetro Origin
+
+36
+00:02:50,400 --> 00:02:54,350
+Ahora, intentemos hacer que influya solo a su eje X
+
+37
+00:02:54,450 --> 00:02:56,170
+Para lograr esto
+
+38
+00:02:56,170 --> 00:02:59,820
+Agrega un convertidor Composite para el parámetro Origin
+
+39
+00:03:01,570 --> 00:03:04,450
+Este convertidor no produce ninguna animación
+
+40
+00:03:04,920 --> 00:03:10,070
+pero divide nuestro parámetro a
+
+41
+00:03:13,200 --> 00:03:17,400
+Ahora, click-derecho sobre el sub-parámetro X
+
+42
+00:03:19,420 --> 00:03:21,270
+y selecciona Convert
+
+43
+00:03:21,850 --> 00:03:23,020
+Random/Aleatorio
+
+44
+00:03:31,250 --> 00:03:35,970
+Ahora, nuestro círculo se mueve aleatoriamente
+
+45
+00:03:38,270 --> 00:03:39,500
+y finalmente
+
+46
+00:03:39,500 --> 00:03:44,450
+Me gustaría mostrarte un convertidor
+
+47
+00:03:44,770 --> 00:03:48,420
+Este convertidor cambia el valor
+
+48
+00:03:48,600 --> 00:03:50,300
+Velocidad Linear
+
+49
+00:03:50,720 --> 00:03:53,850
+Vamos a adjuntarlo en lugar de la función Random.
+
+50
+00:03:54,550 --> 00:03:58,150
+No es realmente nnecesario para
+
+51
+00:03:58,470 --> 00:04:02,620
+Entonces estoy adjuntando el convertidor
+
+52
+00:04:03,170 --> 00:04:05,670
+Los viejos valores han sido
+
+53
+00:04:06,270 --> 00:04:09,450
+Dejemos el valor "Rate" en 1
+
+54
+00:04:12,750 --> 00:04:17,170
+Puedes ver a nuestro circulo moviéndose
+
+55
+00:04:17,700 --> 00:04:20,020
+y este movimiento es infinito
+
+56
+00:04:21,620 --> 00:04:24,070
+Ahora, regresemos a nuestra abeja
+
+57
+00:04:24,570 --> 00:04:27,270
+Entonces, queremos animar un ala
+
+58
+00:04:28,200 --> 00:04:32,950
+Para esto, configuro un convertidor Random a su parámetro Angle/Ángulo
+
+59
+00:04:37,670 --> 00:04:41,000
+Ahora mismo, esto casi no afecta
+
+60
+00:04:41,770 --> 00:04:44,720
+Eso es porque el valor Radius esta establecido en 1
+
+61
+00:04:45,500 --> 00:04:50,720
+eso significa que la variación máxima
+
+62
+00:04:51,550 --> 00:04:53,700
+Deje ese Radius en 30
+
+63
+00:04:56,100 --> 00:04:57,400
+Mucho mejor!
+
+64
+00:04:57,570 --> 00:04:59,620
+Pero el ala se mueve demasiado lento!
+
+65
+00:05:00,750 --> 00:05:03,500
+Establezca el valor Speed en 25
+
+66
+00:05:04,470 --> 00:05:05,500
+Genial!
+
+67
+00:05:05,800 --> 00:05:07,900
+Heche un vistazo a los gráficos
+
+68
+00:05:08,350 --> 00:05:12,620
+y si... asegúrese que tiene el
+
+69
+00:05:13,370 --> 00:05:16,320
+Entonces... tenemos un ala animada
+
+70
+00:05:16,820 --> 00:05:18,070
+Copiémosla
+
+71
+00:05:18,900 --> 00:05:20,150
+Colóquela
+
+72
+00:05:20,820 --> 00:05:22,120
+Muévala aquí
+
+73
+00:05:22,950 --> 00:05:24,770
+y escálela un poco
+
+74
+00:05:30,320 --> 00:05:32,850
+Ahora tenemos una abeja realmente linda!
+
+75
+00:05:33,070 --> 00:05:34,020
+Fíjese...
+
+76
+00:05:34,370 --> 00:05:37,850
+que la segunda ala tiene un movimiento diferente a la primera
+
+77
+00:05:38,460 --> 00:05:43,970
+eso es porque el convertidor Random se llevó
+
+78
+00:05:46,260 --> 00:05:48,740
+Podemos hacer que las alas se muevan sincronizadamente
+
+79
+00:05:49,180 --> 00:05:52,540
+Tenemos que asignar el mismo valor Seed a ambos
+
+80
+00:05:52,680 --> 00:05:53,960
+Así
+
+81
+00:06:09,040 --> 00:06:13,220
+Pero para mi gusto, es mejor cuando
+
+82
+00:06:14,420 --> 00:06:17,020
+Por lo tanto, vamos a revertir
+
+83
+00:06:23,940 --> 00:06:29,460
+Ahora, vamos a hacer volar a nuestra abeja
+
+84
+00:06:32,260 --> 00:06:34,140
+Entre al Modo Animación
+
+85
+00:06:35,440 --> 00:06:37,500
+Fija la posición  inicial
+
+86
+00:06:38,720 --> 00:06:40,280
+y la posición final
+
+87
+00:06:44,900 --> 00:06:47,040
+Ahora, esta volando
+
+88
+00:06:48,840 --> 00:06:52,600
+Ahora mismo, la treyectoria de
+
+89
+00:06:53,040 --> 00:06:57,740
+pero sería genial hacerla
+
+90
+00:06:57,900 --> 00:07:01,060
+entonces la animación se vería mas realista
+
+91
+00:07:01,380 --> 00:07:03,200
+Hagámos eso
+
+92
+00:07:03,280 --> 00:07:06,380
+Aquí, usarémos el convertidor Random otra vez
+
+93
+00:07:07,020 --> 00:07:10,880
+Para hacer las cosas más fáciles
+
+94
+00:07:15,520 --> 00:07:18,200
+Ahora, se mantiene en el mismo lugar
+
+95
+00:07:20,680 --> 00:07:24,120
+Podemos crear un grupo mas
+
+96
+00:07:24,120 --> 00:07:27,700
+y vincular un convertidor Random a su Transformation Offset
+
+97
+00:07:29,480 --> 00:07:33,460
+Pero en cambio, te mostraré
+
+98
+00:07:35,180 --> 00:07:40,580
+Probablemente recuerdas que Synfig Studio tiene capas especiales en los Filters/Filtros
+
+99
+00:07:40,740 --> 00:07:46,680
+y aquí vamos a usar una capa de filtro muy simple
+
+100
+00:07:47,300 --> 00:07:48,660
+Aquí está
+
+101
+00:07:51,400 --> 00:07:52,240
+Mira
+
+102
+00:07:52,280 --> 00:07:56,420
+Esta capa es muy simple y
+
+103
+00:07:57,800 --> 00:08:01,020
+Ahora, estoy vinculando el convertidor Random a esta
+
+104
+00:08:01,820 --> 00:08:03,420
+Establece Radius en 15
+
+105
+00:08:04,240 --> 00:08:05,460
+Hecho
+
+106
+00:08:11,320 --> 00:08:16,480
+Ahora, otra vez, vamos a mover a nuestra abeja
+
+107
+00:08:21,560 --> 00:08:23,020
+Veamos el resultado
+
+108
+00:08:26,940 --> 00:08:28,340
+Como puedes ver...
+
+109
+00:08:28,340 --> 00:08:34,900
+Linear Motion combinada junto con Random Motion
+
+110
+00:08:37,580 --> 00:08:39,460
+Probablemente te preguntas...
+
+111
+00:08:39,720 --> 00:08:44,180
+cuál es la ventaja de usar la capa Translate en lugar del grupo?
+
+112
+00:08:45,100 --> 00:08:47,980
+Ahora, en este caso particualr
+
+113
+00:08:48,100 --> 00:08:50,360
+en realidad no hay ninguna ventaja
+
+114
+00:08:51,100 --> 00:08:55,200
+pero en algunos casos este enfoque
+
+115
+00:08:55,860 --> 00:08:59,720
+porque permite desactivcar fácilmente el efecto Translation
+
+116
+00:08:59,980 --> 00:09:00,700
+Mira
+
+117
+00:09:00,700 --> 00:09:05,900
+Entonces, podemos habilitar y deshabilitar fácilmente
+
+118
+00:09:06,520 --> 00:09:07,880
+Es muy simple
+
+119
+00:09:09,700 --> 00:09:15,860
+Tal enfoque con capas de filtro es especialmente
+
+120
+00:09:24,540 --> 00:09:28,100
+Y finalmente, una ultima etapa para nuestra animación
+
+121
+00:09:28,620 --> 00:09:30,100
+Vamos a agregar un fondo
+
+122
+00:10:24,080 --> 00:10:28,760
+Entonces, eso es todo, nuestra aniamción ahora está terminada!
+

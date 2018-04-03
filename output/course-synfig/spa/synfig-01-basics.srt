@@ -1,0 +1,208 @@
+1
+00:00:00,760 --> 00:00:02,660
+#1: Iniciando
+
+2
+00:00:03,680 --> 00:00:07,520
+Bienvenid@ a la serie de tutoriales para el software de animación Synfig Studio.
+
+3
+00:00:08,100 --> 00:00:12,020
+En esta lección aprenderemos acerca de la interfaz y conceptos básicos de Synfig.
+
+4
+00:00:12,810 --> 00:00:13,890
+Entonces, empezemos!
+
+5
+00:00:14,220 --> 00:00:17,500
+Durante este curso estaré trabajando con la interfaz en Inglés.
+
+6
+00:00:17,640 --> 00:00:22,630
+Así que puede que te resulte mas conveniente cambiar el idioma a Inglés mientras sigues el curso.
+
+7
+00:00:22,770 --> 00:00:26,310
+Es fácil de hacer -solo ve a "Preferencias" del menú "Edición",
+
+8
+00:00:28,350 --> 00:00:34,640
+Luego dirígete a la pestaña de "Miscellaneous", y escoge "English" desde la lista.
+
+9
+00:00:39,230 --> 00:00:42,430
+Después de eso necesitas reiniciar la aplicaión.
+
+10
+00:00:47,100 --> 00:00:50,220
+Ahora echemos un vistazo a los elementos principales de la interfaz.
+
+11
+00:00:50,520 --> 00:00:54,390
+Puede ocurrir que su instalación de Synfig este configurada de manera diferente.
+
+12
+00:00:55,060 --> 00:00:58,310
+Para reiniciar el diseño predefinido, ve  a "Window"'-
+
+13
+00:01:00,100 --> 00:01:01,430
+"Workspace" -
+
+14
+00:01:02,770 --> 00:01:04,020
+"Default".
+
+15
+00:01:06,560 --> 00:01:09,600
+Entonces, en que consiste la ventana principal?
+
+16
+00:01:09,680 --> 00:01:13,270
+En el centro de la pantalla tenemos el área principal de trabajo.
+
+17
+00:01:15,220 --> 00:01:19,430
+En la parte superior de la misma, puedes encontrar los botones para guardar o abrir un archivo, ...
+
+18
+00:01:19,660 --> 00:01:24,130
+... deshacer o rehacer la última acción... y así sucesivamente.
+
+19
+00:01:24,260 --> 00:01:27,030
+A la izquierda tenemos la Caja de Herramientas /Toolbox/...
+
+20
+00:01:27,260 --> 00:01:31,970
+... y algunas herramientas de configuración global como "Colores Contorno/Relleno" y "Grosor de línea".
+
+21
+00:01:34,470 --> 00:01:37,890
+Existen paneles adicionales, abajo y a la derecha del área de trabajo.
+
+22
+00:01:38,270 --> 00:01:43,810
+No voy a describirlos a todos en detalle, revisaremos solo los más importantes:
+
+23
+00:01:44,850 --> 00:01:46,560
+"Opciones de Herramienta" /Tool Options/...
+
+24
+00:01:46,720 --> 00:01:48,180
+"Capas" /Layers/...
+
+25
+00:01:48,560 --> 00:01:50,970
+... y "Parámetros" /Parameters/.
+
+26
+00:01:50,970 --> 00:01:56,810
+Vamos a ver como funcionan. Escoge la herramienta círculo en la Caja de Herramientas.
+
+27
+00:01:58,270 --> 00:02:02,560
+Las opciones de la herramienta Círculo ahora han aparecido bajo el Panel de Opciones de Herramienta.
+
+28
+00:02:02,680 --> 00:02:09,020
+Asegurate que el botón "Create Circle Layer" esta activado y todos lo demás botones de esta fila esten desactivados.
+
+29
+00:02:10,140 --> 00:02:16,140
+Sigiente, posiciona el cursor en algún lugar del área de trabajo, presiona y manten pulsado el botón izquierdo del ratón.
+
+30
+00:02:17,060 --> 00:02:20,810
+Ahora arrastra el cursor hasta obtener un círculo y suelta del botón.
+
+31
+00:02:21,310 --> 00:02:24,390
+Aquí esta, tienes un circulo como este.
+
+32
+00:02:25,060 --> 00:02:28,600
+Nota, una nueva capa acaba de aparecer en el Panel Capas /Layers Panel/.
+
+33
+00:02:29,520 --> 00:02:33,850
+Es así: cada objeto en Synfig Studio es un capa separada.
+
+34
+00:02:35,020 --> 00:02:39,130
+Vamos a elegir un color diferente y crear un círculo más.
+
+35
+00:02:50,560 --> 00:02:53,390
+El segundo círculo también aparece en el Layers Panel.
+
+36
+00:02:54,100 --> 00:02:56,720
+Ahora, vamos a cambiar a la herramienta Transformación.
+
+37
+00:02:59,520 --> 00:03:04,020
+Puedes seleccionar objetos ya sea usando el panel Layers o el área de trabajo.
+
+38
+00:03:04,680 --> 00:03:12,310
+Cuando un objeto es seleccionado, tu puedes cambiar sus parámetros
+
+39
+00:03:16,000 --> 00:03:18,800
+Pero por lo general los objetos tienen un montón de otros parámetros.
+
+40
+00:03:18,900 --> 00:03:21,860
+Puedes cambiarlos en el Panel Parámetros /Parameters Panel/.
+
+41
+00:03:25,270 --> 00:03:30,350
+Aquí tenemos monto de Canal Alfa, Color, Pluma o desvanecido, y muchos otros.
+
+42
+00:03:31,600 --> 00:03:34,430
+Para editar un parámetro, haz doble click en su valor.
+
+43
+00:03:36,140 --> 00:03:38,180
+Vamos a hacer algunos cambios...
+
+44
+00:03:38,770 --> 00:03:40,310
+Y presionamos Enter.
+
+45
+00:03:47,310 --> 00:03:50,560
+En el Layers Panel podemos cambiar el orden de las capas.
+
+46
+00:03:55,020 --> 00:03:57,460
+Aquí podemos duplicarlas.
+
+47
+00:03:57,700 --> 00:03:59,500
+eliminarlas...
+
+48
+00:03:59,770 --> 00:04:02,430
+copiarlas al portapapeles, y así sucesivamente.
+
+49
+00:04:02,900 --> 00:04:06,000
+Por ejemplo, vamos a hacer una copia de este círculo.
+
+50
+00:04:06,310 --> 00:04:07,430
+Presiona este botón...
+
+51
+00:04:08,810 --> 00:04:10,890
+Y ahora tenemos una copia.
+
+52
+00:04:50,840 --> 00:04:53,440
+Ahora podemos pasar a la siguiente lección.
+

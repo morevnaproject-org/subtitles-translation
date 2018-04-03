@@ -1,0 +1,500 @@
+1
+00:00:00,560 --> 00:00:03,100
+#7: Ossa
+
+2
+00:00:04,760 --> 00:00:09,400
+Nelle lezioni precedenti abbiamo imparato come animare un personaggio semplice.
+
+3
+00:00:09,560 --> 00:00:12,700
+Questa tecnica è ottima per animazioni semplici.
+
+4
+00:00:12,960 --> 00:00:17,830
+Ma c'è anche un lato negativo: non è molto comodo per controllare la posa del personaggio.
+
+5
+00:00:18,030 --> 00:00:22,280
+Ogni volta dobbiamo selezionare un particolare elemento e soltanto allora può essere mosso.
+
+6
+00:00:22,620 --> 00:00:26,500
+Inoltre, dobbiamo pensare di creare delle corrette strutture di gruppo.
+
+7
+00:00:26,830 --> 00:00:31,830
+Se il nostro personaggio fosse appena un po' più complesso, allora dovremmo creare molti gruppi annidati ...
+
+8
+00:00:32,000 --> 00:00:34,230
+... e diventa difficile manipolarli.
+
+9
+00:00:34,400 --> 00:00:39,560
+Per l'animazione di personaggi e altre strutture complesse puoi usare le "ossa".
+
+10
+00:00:39,880 --> 00:00:45,760
+Con le ossa è molto facile creare uno scheletro come questo e controllare un personaggio.
+
+11
+00:00:49,060 --> 00:00:52,660
+Ora vi farò vedere come creare tale struttura dal principio.
+
+12
+00:00:53,020 --> 00:00:56,030
+Apri la cartella "personaggio-2".
+
+13
+00:00:57,700 --> 00:01:01,360
+Abbiamo qui una immagine di un personaggio completo ...
+
+14
+00:01:03,420 --> 00:01:06,730
+... e tutte le sue parti separate.
+
+15
+00:01:06,900 --> 00:01:11,760
+Per prima cosa, importiamo tutta l'immagine. Sarà il nostro riferimento.
+
+16
+00:01:13,360 --> 00:01:17,000
+Quindi, aggiungiamo le parti separate.
+
+17
+00:01:19,980 --> 00:01:24,600
+Adesso raggruppiamo tutto insieme e scaliamo per adattare all'area di lavoro.
+
+18
+00:01:30,140 --> 00:01:35,400
+Ora è il momento di fare ordine. Separiamo tutte le parti.
+
+19
+00:01:43,000 --> 00:01:47,600
+Per comodità, rendiamo l'immagine del personaggio semitrasparente.
+
+20
+00:01:47,860 --> 00:01:54,560
+Il Livello Trasparenza è definito dal parametro "Amount". Impostiamo il suo valore a 0.5.
+
+21
+00:01:58,020 --> 00:02:01,000
+Adesso mettiamo tutte le parti al loro posto.
+
+22
+00:02:01,220 --> 00:02:05,530
+Qui va il corpo ... la testa.
+
+23
+00:02:06,640 --> 00:02:10,030
+Poi, le gambe - il bacino...
+
+24
+00:02:10,100 --> 00:02:11,860
+la coscia...
+
+25
+00:02:12,040 --> 00:02:14,760
+e il piede.
+
+26
+00:02:20,960 --> 00:02:25,460
+La seconda gamba ci appare al di sopra del corpo ma è facile da correggere.
+
+27
+00:02:25,700 --> 00:02:28,930
+Basta metterla al di sotto.
+
+28
+00:02:30,280 --> 00:02:33,660
+Tutti gli elementi rimanenti sono assemblati allo stesso modo.
+
+29
+00:02:33,940 --> 00:02:37,430
+E' una specie di gioco, come un puzzle.
+
+30
+00:02:42,520 --> 00:02:46,130
+E non dimenticare di salvare regolarmente il tuo lavoro.
+
+31
+00:03:00,700 --> 00:03:02,530
+Fatto.
+
+32
+00:03:02,880 --> 00:03:07,630
+Non ci occorre più il livello di riferimento, quindi è meglio nasconderlo.
+
+33
+00:03:08,460 --> 00:03:11,100
+Ora possiamo aggiungere un livello scheletro.
+
+34
+00:03:11,340 --> 00:03:14,680
+Mettiamolo nel gruppo, sopra tutti i livelli immagine.
+
+35
+00:03:15,060 --> 00:03:18,530
+Espandi il gruppo, seleziona il suo primo livello ...
+
+36
+00:03:18,800 --> 00:03:26,280
+click tasto destro e scegli "Nuovo Livello" > "Altro" > "Scheletro".
+
+37
+00:03:27,740 --> 00:03:31,060
+Quindi abbiamo creato un livello scheletro, con un solo osso.
+
+38
+00:03:31,380 --> 00:03:33,860
+Eccolo qua.
+
+39
+00:03:34,200 --> 00:03:37,830
+Il punto verde è l'origine dell'osso.
+
+40
+00:03:38,120 --> 00:03:42,600
+Quello marrone determina il suo angolo e la sua lunghezza.
+
+41
+00:03:44,360 --> 00:03:46,900
+Creiamo un altro osso.
+
+42
+00:03:47,060 --> 00:03:53,900
+Fai click col tasto destro del mouse in qualsiasi punto dell'osso esistente e scegli "Crea Osso Figlio".
+
+43
+00:03:55,100 --> 00:03:57,230
+E il secondo osso compare qui.
+
+44
+00:03:57,300 --> 00:03:59,560
+E' subordinato al primo osso.
+
+45
+00:03:59,720 --> 00:04:04,030
+Guarda, quando muovo il primo, si sposta anche il secondo.
+
+46
+00:04:05,000 --> 00:04:08,160
+Però il secondo osso può muoversi per conto suo.
+
+47
+00:04:08,360 --> 00:04:10,660
+Ecco come funziona la gerarchia delle ossa.
+
+48
+00:04:10,840 --> 00:04:14,000
+Quindi, mettiamo il primo osso nella posizione corretta.
+
+49
+00:04:14,180 --> 00:04:18,330
+Sarà responsabile della posa dell'intero personaggio.
+
+50
+00:04:18,530 --> 00:04:22,900
+Il secondo osso è per il corpo. Lo mettiamo qui.
+
+51
+00:04:24,600 --> 00:04:28,160
+Siccome braccia e testa sono subordinate al corpo ...
+
+52
+00:04:28,200 --> 00:04:31,060
+...creeremo le loro ossa dall'osso del corpo.
+
+53
+00:04:31,160 --> 00:04:35,160
+Fai click col tasto destro del mouse e scegli "Crea Osso Figlio".
+
+54
+00:04:42,240 --> 00:04:45,900
+Adesso creiamo un osso per la parte inferiore del braccio ...
+
+55
+00:04:49,360 --> 00:04:53,360
+...e da quell'osso creiamo un osso figlio per la mano.
+
+56
+00:04:53,760 --> 00:04:58,530
+Ripeti lo stesso procedimento per l'altro braccio.
+
+57
+00:05:01,140 --> 00:05:07,000
+Le gambe dovrebbero rimanere ferme se il corpo si piega, così le facciamo appartenere al primo osso.
+
+58
+00:05:10,740 --> 00:05:14,830
+Poi creiamo un osso per la caviglia e per il piede.
+
+59
+00:05:17,740 --> 00:05:21,430
+Allo stesso modo, creiamo le ossa per la seconda gamba.
+
+60
+00:05:27,200 --> 00:05:29,360
+Lo scheletro è pronto.
+
+61
+00:05:29,620 --> 00:05:34,260
+Anche se per adesso non influenza alcuna parte del personaggio e la muove per conto suo.
+
+62
+00:05:34,620 --> 00:05:38,760
+Quello che ci serve adesso è collegare tutte le parti del personaggio.
+
+63
+00:05:38,960 --> 00:05:43,300
+Per collegare le parti del corpo, seleziona i due livelli Corpo e Scheletro.
+
+64
+00:05:43,530 --> 00:05:49,660
+Click su Corpo, premi Ctrl e click su Scheletro nella Lista Livelli.
+
+65
+00:05:49,920 --> 00:05:53,400
+Ora fai click col tasto sinistro sul punto verde del livello Corpo.
+
+66
+00:05:53,740 --> 00:05:57,160
+In tal modo indichiamo cosa esattamente andrebbe collegato.
+
+67
+00:05:57,380 --> 00:06:03,330
+Poi click tasto destro su qualsiasi maniglia dell'osso e scegli "Collega a Osso".
+
+68
+00:06:04,300 --> 00:06:08,660
+Fatto ! Adesso il corpo è collegato.
+
+69
+00:06:12,200 --> 00:06:16,260
+Colleghiamo tutte le parti rimanenti allo stesso modo.
+
+70
+00:06:20,380 --> 00:06:24,930
+Se hai collegato qualche parte ad un osso sbagliato, basta collegarla ad un altro.
+
+71
+00:06:25,260 --> 00:06:28,860
+Si ricollegherà automaticamente.
+
+72
+00:06:31,400 --> 00:06:35,560
+Il personaggio è pronto. Proviamo a muoverlo.
+
+73
+00:06:39,280 --> 00:06:44,160
+Nota che quando trascino un pezzo di un osso, l'osso fa contrarre automaticamente l'immagine.
+
+74
+00:06:44,540 --> 00:06:48,130
+Questo è di grande aiuto nella maggior parte dei casi.
+
+75
+00:06:49,000 --> 00:06:51,900
+Però a volte questo effetto non è desiderabile.
+
+76
+00:06:52,040 --> 00:06:57,260
+La testa è un esempio: potremmo volerla piegare o ruotare, ma non stirare.
+
+77
+00:06:58,180 --> 00:07:02,300
+Non è un problema, per questo specifico caso ogni osso ha un punto blu, qui.
+
+78
+00:07:02,760 --> 00:07:08,030
+Consente di cambiare un angolo di osso senza modificare la sua lunghezza. Così.
+
+79
+00:07:09,800 --> 00:07:14,960
+Se il livello è collegato ad un osso, questo non significa che andrebbe controllato usando soltanto l'osso.
+
+80
+00:07:15,400 --> 00:07:18,560
+Niente del genere. Possiamo ancora muoverla per conto suo.
+
+81
+00:07:18,800 --> 00:07:23,600
+L'unica differenza è che ora si muove relativamente all'osso cui è stato collegato.
+
+82
+00:07:23,860 --> 00:07:28,630
+Quindi le trasformazioni dell'osso e del livello sono composte insieme.
+
+83
+00:07:35,560 --> 00:07:38,000
+Infine, un'altra osservazione importante.
+
+84
+00:07:38,300 --> 00:07:43,400
+Tutte le parti del nostro personaggio sono situate all'interno del gruppo che abbiamo ridimensionato all'inizio.
+
+85
+00:07:43,560 --> 00:07:46,930
+E il livello Scheletro è stato posto all'interno di questo gruppo.
+
+86
+00:07:47,180 --> 00:07:53,740
+E' essenziale perché sia lo scheletro che le parti che stiamo collegando ad esso devono avere in comune lo stesso sistema di coordinate.
+
+87
+00:07:54,200 --> 00:07:56,740
+Se creassimo uno scheletro esterno al gruppo ...
+
+88
+00:07:56,740 --> 00:08:01,200
+... le ossa avranno coordinate differenti rispetto agli oggetti.
+
+89
+00:08:01,430 --> 00:08:03,960
+Potresti non accorgerti di questo mentre fai i collegamenti ...
+
+90
+00:08:04,130 --> 00:08:08,160
+... ma quando provi a cambiare la posizione di un osso, certamente succederanno cose indesiderate.
+
+91
+00:08:08,430 --> 00:08:13,000
+Salviamo e chiudiamo questo file e ti farò vedere un esempio a questo proposito.
+
+92
+00:08:14,480 --> 00:08:20,130
+Assembliamo una parte del nostro personaggio - solo il corpo, la testa e il braccio.
+
+93
+00:08:29,780 --> 00:08:33,330
+Immaginiamo di aver deciso di assemblare il braccio così: ...
+
+94
+00:08:33,520 --> 00:08:36,000
+lo abbiano messo qui ...
+
+95
+00:08:37,500 --> 00:08:39,830
+poi raggruppato ...
+
+96
+00:08:40,500 --> 00:08:43,560
+... spostato e anche ruotato.
+
+97
+00:08:44,640 --> 00:08:48,700
+Come puoi comprendere, tutte le parti del braccio sarebbero nell'altro sistema di coordinate ...
+
+98
+00:08:48,900 --> 00:08:52,060
+... perché abbiamo trasformato il loro gruppo genitore.
+
+99
+00:08:53,420 --> 00:08:57,900
+Proviamo ad attaccare tutto a uno scheletro.
+
+100
+00:09:05,800 --> 00:09:12,700
+Il corpo ... la testa ... e il braccio ...
+
+101
+00:09:16,230 --> 00:09:18,330
+...tutto collegato.
+
+102
+00:09:18,640 --> 00:09:21,100
+Adesso proviamo a cambiare la posa.
+
+103
+00:09:21,460 --> 00:09:26,900
+Come vedi, la testa e il corpo vanno bene, ma le braccia vanno proprio "fuori controllo".
+
+104
+00:09:27,880 --> 00:09:31,630
+Tutto questo a causa del gruppo trasformato.
+
+105
+00:09:32,100 --> 00:09:37,300
+Se il gruppo non è stato trasformato, allora tutto andrebbe bene. Non dovrebbe creare inconvenienti.
+
+106
+00:09:37,530 --> 00:09:40,960
+Per risolvere la questione possiamo prendere parti fuori dal gruppo ...
+
+107
+00:09:41,260 --> 00:09:45,060
+... e riallinearli allo scheletro.
+
+108
+00:09:54,380 --> 00:09:57,030
+Ora però seguiremo un'altra strada.
+
+109
+00:09:58,840 --> 00:10:03,930
+Immaginiamo che non ci serva che il nostro personaggio pieghi le articolazioni del polso e del gomito.
+
+110
+00:10:04,140 --> 00:10:09,460
+Quindi un osso per tutto il braccio potrebbe bastare e possiamo collegare ad esso l'intero gruppo.
+
+111
+00:10:09,580 --> 00:10:11,500
+Sì, hai fatto bene.
+
+112
+00:10:12,000 --> 00:10:16,400
+... anche i gruppi potrebbero essere collegati a uno scheletro allo stesso modo visto per i livelli immagine.
+
+113
+00:10:16,600 --> 00:10:20,740
+Scommetto però che già ti immagini che un livello immagine in realtà sia anche un gruppo ...
+
+114
+00:10:21,140 --> 00:10:24,600
+... o per essere più precisi, un Gruppo Switch.
+
+115
+00:10:24,900 --> 00:10:28,930
+E il vero livello immagine si trova all'interno.
+
+116
+00:10:30,600 --> 00:10:32,330
+Però sto divagando.
+
+117
+00:10:32,530 --> 00:10:36,660
+Per prima cosa, dobbiamo scollegare le parti all'interno di questo gruppo dallo scheletro.
+
+118
+00:10:36,900 --> 00:10:39,360
+Seleziona l'elemento che ti serve ...
+
+119
+00:10:39,560 --> 00:10:41,860
+...trova il parametro Trasformazione ...
+
+120
+00:10:42,160 --> 00:10:44,600
+... click tasto destro del mouse e scegli "Disconnect".
+
+121
+00:10:44,800 --> 00:10:48,280
+Sì, è lo stesso modo con cui abbiamo cancellato i parametri di animazione.
+
+122
+00:10:48,530 --> 00:10:51,430
+Non ti meravigliare. ^__^
+
+123
+00:10:56,180 --> 00:10:59,530
+Adesso colleghiamo il gruppo.
+
+124
+00:11:05,860 --> 00:11:07,760
+Fatto.
+
+125
+00:11:09,640 --> 00:11:15,230
+Bene, è tutto. Nella prossima lezione cercheremo di creare un ciclo di passeggiata per il nostro personaggio.
+

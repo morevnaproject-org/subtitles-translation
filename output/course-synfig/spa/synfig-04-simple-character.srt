@@ -1,0 +1,320 @@
+1
+00:00:00,830 --> 00:00:03,730
+#4: Personaje simple
+
+2
+00:00:05,620 --> 00:00:09,360
+En esta lección vamos a preparar un personaje simple para animación.
+
+3
+00:00:11,040 --> 00:00:15,800
+Abre la carpeta "character-1". Aquí podras encontrar una imagen de nuestro personaje.
+
+4
+00:00:17,740 --> 00:00:24,200
+El método más sencillo para crear animaciones es separar a los personajes en piezas y después reunirlas de nuevo utilizando Synfig Studio.
+
+5
+00:00:24,760 --> 00:00:27,430
+...así tenemos una especie de muñeca de papel.
+
+6
+00:00:27,860 --> 00:00:30,740
+Puedes usar cualquier editor de imágenes para recortar al personaje.
+
+7
+00:00:31,440 --> 00:00:38,830
+GIMP y KRITA sirven bien para la tarea, y ambos son software libre, así que puedes descargarlos y utilizarlos sin costo alguno.
+
+8
+00:00:42,230 --> 00:00:47,800
+Cuando separes la imagen en pedazos, asegúrate de que exista algún área de interacción en las articulaciones,
+
+9
+00:00:48,000 --> 00:00:50,600
+...como las verdaderas muñecas de papel.
+
+10
+00:00:50,680 --> 00:00:55,860
+De hecho, también se puede recortar la imagen directamente en Synfig,
+
+11
+00:00:56,000 --> 00:01:01,700
+Por ahora nuestra meta principal es aprender cómo construir el personaje, así que no me enfocaré en el proceso de corte en este momento.
+
+12
+00:01:01,700 --> 00:01:05,360
+En la carpeta "character-1" encontrarás algunas piezas precortadas para trabajar.
+
+13
+00:01:05,560 --> 00:01:08,770
+Aquí tenemos un cuerpo, un brazo, una cabeza y una pierna.
+
+14
+00:01:08,820 --> 00:01:12,220
+Un brazo y una pierna son suficientes, porque podemos reflejarlos.
+
+15
+00:01:12,840 --> 00:01:16,360
+Es importante notar que cada imagen debe tener fondo trasnparente...
+
+16
+00:01:16,600 --> 00:01:19,560
+...es por eso que todas han sido guardadas en formato PNG.
+
+17
+00:01:20,940 --> 00:01:24,120
+Comencemos entonces. Selecciona "File" -> "Import".
+
+18
+00:01:25,810 --> 00:01:31,820
+Encuentra la ubicación de los archivos de ejemplo, ve a la carpeta "character-1" e importa el primer archivo.
+
+19
+00:01:32,900 --> 00:01:39,700
+Los usuarios de Windows y Linux pueden importar imágenes arrastrándolas desde el administrador de archivos hasta el área de trabajo.
+
+20
+00:01:40,270 --> 00:01:45,730
+De esta manera se pueden seleccionar múltiples archivos a la vez y añadirlos todos.
+
+21
+00:01:50,430 --> 00:01:52,440
+Así que aquí tenemos todas nuestras piezas.
+
+22
+00:01:52,850 --> 00:01:56,030
+Necesitamos cambiar su tamaño para ajustarlas en la pantalla.
+
+23
+00:01:56,160 --> 00:02:00,770
+Por supuesto podemos escalarlas de una en una, pero hay una manera mejor para hacerlo.
+
+24
+00:02:01,100 --> 00:02:06,520
+En Synfig Studio podemos agrupar varias capas juntas y transformarlas como un solo objeto.
+
+25
+00:02:06,810 --> 00:02:09,300
+Vamos a seleccionar las capas que queremos agrupar.
+
+26
+00:02:09,460 --> 00:02:14,230
+Se pueden seleccionar múltiples capas manteniendo pulsada la tecla Ctrl.
+
+27
+00:02:15,760 --> 00:02:21,200
+También se pueden seleccionar varias capas de una vez pulsando la tecla Shift.
+
+28
+00:02:26,420 --> 00:02:28,160
+Ahora, haz click sobre este botón.
+
+29
+00:02:30,020 --> 00:02:35,060
+Al igual que una capa de imagen, la capa del grupo tiene tiradores para transformarla.
+
+30
+00:02:41,120 --> 00:02:44,000
+Ahora coloquemos todas las piezas en sus lugares.
+
+31
+00:02:44,160 --> 00:02:47,040
+Es mejor separarlas primero hacia los lados, así.
+
+32
+00:02:47,160 --> 00:02:49,900
+Y después juntarlas de nuevo.
+
+33
+00:03:04,560 --> 00:03:07,220
+Aquí necesitaremos cambiar el orden de las capas.
+
+34
+00:03:13,720 --> 00:03:17,860
+Ahora les mostraré cómo crear un copia reflejada del brazo.
+
+35
+00:03:17,970 --> 00:03:20,940
+Primero seleccionamos el grupo brazo y lo duplicamos.
+
+36
+00:03:21,180 --> 00:03:27,260
+Para duplicar un grupo, presiona este botón; o haz click derecho sobre la capa y selecciona "Duplicate Layer" en el menú.
+
+37
+00:03:31,520 --> 00:03:34,460
+Aquí tenemos el brazo. Ahora debemos reflejarlo.
+
+38
+00:03:34,800 --> 00:03:39,860
+Solo arrastra este tirador hacia el lado opuesto, así.
+
+39
+00:03:42,060 --> 00:03:46,860
+Cuando arrastres el tirador, trata de colocarlo a la misma distancia del centro...
+
+40
+00:03:47,130 --> 00:03:49,730
+...de otro modo, se distorsionarán las proporciones.
+
+41
+00:03:50,000 --> 00:03:53,900
+No es 100% preciso, pero en este caso no se notaría.
+
+42
+00:03:54,640 --> 00:04:00,280
+Cuando se necesita una precisión perfecta, podemos reflejar la capa editando manualmente los valores de transformación.
+
+43
+00:04:00,900 --> 00:04:03,630
+Hagámoslo con la pierna.
+
+44
+00:04:10,850 --> 00:04:15,600
+En la pestaña Parámetros /Parameters/, encuentra el parámetro "Transformación" /Transformation/ y expándelo.
+
+45
+00:04:18,020 --> 00:04:22,230
+Aquí se ve una lista con las transformaciones disponibles para la capa de imagen.
+
+46
+00:04:22,310 --> 00:04:25,100
+Necesitamos editar el subparámetro "Escala" /Scale/.
+
+47
+00:04:29,100 --> 00:04:36,060
+Para reflejar la pierna a lo largo del eje horizontal debemos anteponer un signo menos al valor del eje X.
+
+48
+00:04:37,020 --> 00:04:39,730
+Presiona la tecla "Intro" /Enter/ dos veces.
+
+49
+00:04:40,740 --> 00:04:45,730
+Ahora la pierna se ha reflejado proporcionalmente.
+
+50
+00:04:47,970 --> 00:04:50,840
+¡Perfecto! Nuestro personaje está ensamblado por completo.
+
+51
+00:04:51,430 --> 00:04:55,160
+Intentemos modificar su pose: por ejemplo, levantemos su brazo.
+
+52
+00:04:57,680 --> 00:05:01,560
+Como ven, el brazo se desprende del cuerpo y hay que ajustarlo manualmente.
+
+53
+00:05:03,930 --> 00:05:07,760
+Este comportamiento puede modificarse cambiando el centro de rotación del brazo.
+
+54
+00:05:08,350 --> 00:05:11,660
+Haz click sobre el tirador verde.
+
+55
+00:05:11,890 --> 00:05:15,900
+Ahora, mantén apretada la tecla Ctrl y arrastra el tirador...
+
+56
+00:05:16,100 --> 00:05:18,060
+Hasta aquí.
+
+57
+00:05:18,220 --> 00:05:22,900
+Ahora el centro de rotación está en su lugar y el brazo se mueve sin problemas.
+
+58
+00:05:23,770 --> 00:05:26,960
+Ajustemos los centros de rotación de las piezas restantes.
+
+59
+00:05:50,390 --> 00:05:53,640
+Sería una buena idea que nuestro personaje pudiese inclinar el cuerpo.
+
+60
+00:05:54,220 --> 00:05:59,860
+Pero si inclinamos el cuerpo ahora, la cabeza y los brazos se quedan donde están, lo que obviamente es una falla.
+
+61
+00:06:00,310 --> 00:06:04,000
+Todas las piezas deberían moverse como un todo.
+
+62
+00:06:04,350 --> 00:06:08,160
+La solución es sencilla - sólo debemos agrupar los brazos, el cuerpo y la cabeza.
+
+63
+00:06:08,930 --> 00:06:10,620
+Seleccionamos y agrupamos las capas...
+
+64
+00:06:18,720 --> 00:06:20,800
+y ahora seleccionamos el grupo...
+
+65
+00:06:21,060 --> 00:06:24,230
+Y movemos el centro de rotación.
+
+66
+00:06:25,980 --> 00:06:29,700
+De modo que todo funciona ahora.
+
+67
+00:06:32,020 --> 00:06:36,330
+Para mantener las cosas en orden, llamemos "chico" a este grupo,
+
+68
+00:06:37,430 --> 00:06:40,700
+y "cuerpo" a este otro.
+
+69
+00:06:41,560 --> 00:06:43,480
+Hay una última cosa por mencionar.
+
+70
+00:06:43,680 --> 00:06:46,860
+Hagamos click sobre el lienzo para limpiar la selección.
+
+71
+00:06:46,900 --> 00:06:51,560
+Y luego hacemos click sobre cualquier parte del personaje que pertenezca al grupo "cuerpo".
+
+72
+00:06:53,180 --> 00:06:59,000
+Nota que cuando hacemos click, se selecciona el contenido del grupo, y no el grupo en sí.
+
+73
+00:06:59,040 --> 00:07:00,900
+Esto no siempre es deseable.
+
+74
+00:07:00,940 --> 00:07:05,520
+A veces queremos seleccionar al grupo cuando hacemos click sobre alguno de sus elementos en el área de trabajo.
+
+75
+00:07:05,860 --> 00:07:10,860
+Es por ello que cada grupo tiene un parámetro especial, llamado "Bloqueo de Selección" /Lock Selection/.
+
+76
+00:07:12,680 --> 00:07:17,460
+Si está activado, cuando hagamos click sobre cualquier parte del grupo se  seleccionará el grupo.
+
+77
+00:07:18,000 --> 00:07:21,030
+Así.
+
+78
+00:07:24,000 --> 00:07:30,000
+Al mismo tiempo, todavía podemos seleccionar cualquier elemento del grupo expandiéndolo en el panel de Capas /Layers/.
+
+79
+00:07:31,860 --> 00:07:36,930
+Por el momento no necesitamos bloquear la selección para el grupo "cuerpo", así que lo desactivaremos.
+
+80
+00:07:41,040 --> 00:07:44,700
+¡Ahora sí, nuestro personaje está listo! Guardemos nuestro archivo.
+

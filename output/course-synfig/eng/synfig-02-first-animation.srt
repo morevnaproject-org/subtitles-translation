@@ -1,0 +1,296 @@
+1
+00:00:00,430 --> 00:00:03,100
+#2: Your first animation
+
+2
+00:00:05,220 --> 00:00:09,060
+In this lesson we'll create a simple animation about a boy going to school.
+
+3
+00:00:10,770 --> 00:00:15,060
+This course includes a set of sample files, which you can use for exercises.
+
+4
+00:00:15,720 --> 00:00:20,140
+Please download the workshop.zip bundled with this course and unpack it.
+
+5
+00:00:21,890 --> 00:00:25,630
+Let's take a look inside the "first-animation" folder.
+
+6
+00:00:27,430 --> 00:00:33,100
+Here we have a boy image. Next, the map image he would be travelling over.
+
+7
+00:00:34,810 --> 00:00:37,860
+All images are saved in the PNG format.
+
+8
+00:00:38,060 --> 00:00:43,500
+This is the format we use for bitmap artwork, since it  provides compression without any loss of quality...
+
+9
+00:00:43,500 --> 00:00:48,700
+...and allows us to save images with transparent background.
+
+10
+00:00:49,060 --> 00:00:52,000
+Now let's add the boy image to Synfig
+
+11
+00:00:52,000 --> 00:00:56,060
+Choose "File" - "Import" from the main menu...
+
+12
+00:00:56,810 --> 00:00:59,560
+then find the location of our sample files.
+
+13
+00:01:00,100 --> 00:01:02,310
+Go to the "first animation" folder...
+
+14
+00:01:02,720 --> 00:01:05,560
+...and choose the "boy.png" file.
+
+15
+00:01:09,430 --> 00:01:12,720
+Here we've got an image layer. Let's select it.
+
+16
+00:01:14,350 --> 00:01:19,390
+Every image layer has a set of handles which allow to transform it.
+
+17
+00:01:19,930 --> 00:01:22,770
+This handle allows us to move the layer.
+
+18
+00:01:25,350 --> 00:01:28,700
+The blue point controls the rotation.
+
+19
+00:01:31,160 --> 00:01:35,560
+Using this orange corner we can scale the image proportionally.
+
+20
+00:01:41,060 --> 00:01:45,970
+You can also scale along a particular axis by dragging the yellow points here or here.
+
+21
+00:01:51,060 --> 00:01:55,350
+Finally, this red point controls skew.
+
+22
+00:01:55,890 --> 00:02:00,060
+I guess you won't be using it too often. So, lets undo the last action.
+
+23
+00:02:03,520 --> 00:02:07,100
+You can also undo using the Ctrl+Z as in other applications.
+
+24
+00:02:11,180 --> 00:02:17,810
+Let's insert the map image, it's the "background.png" file.
+
+25
+00:02:19,850 --> 00:02:25,310
+As you can see, the image is too big. Let's select it and scale to fit the work area.
+
+26
+00:02:32,520 --> 00:02:34,640
+And let's send it to the back. Like this.
+
+27
+00:02:35,770 --> 00:02:41,390
+Now, I suppose, we also have to scale the boy and send him home. Selecting the layer...
+
+28
+00:02:48,180 --> 00:02:54,640
+By the way, you can zoom in and out the current view by holding the Ctrl key and scrolling a mouse wheel.
+
+29
+00:02:58,100 --> 00:03:02,960
+And if you keep the wheel button pressed, you can move over the work area.
+
+30
+00:03:10,270 --> 00:03:13,360
+Now we have everything in its place.
+
+31
+00:03:15,720 --> 00:03:19,180
+So, we want to make an animation of this boy going from home to school.
+
+32
+00:03:19,270 --> 00:03:25,560
+Obviously, at some moment the boy will be at home, and at some other moment he will be at school.
+
+33
+00:03:25,970 --> 00:03:31,850
+We have to switch to the *animation* mode and set the both locations for specific moments of time.
+
+34
+00:03:32,020 --> 00:03:35,600
+Click the green man button here to toggle the animation mode.
+
+35
+00:03:39,640 --> 00:03:46,220
+The green man becomes red and a red border appears around the canvas. This indicates that we're in the animation mode now.
+
+36
+00:03:46,350 --> 00:03:51,060
+When the Animation mode is on, all changes are recorded in relation to current time.
+
+37
+00:03:51,770 --> 00:03:57,720
+Let's take a look at the Timetrack panel at the bottom. It indicates that we're at the zero frame now.
+
+38
+00:04:00,390 --> 00:04:04,020
+We can change the current time by clicking this grey area.
+
+39
+00:04:09,230 --> 00:04:14,430
+Let's go back to frame zero. The boy is at home, everything is alright.
+
+40
+00:04:14,600 --> 00:04:18,600
+Now go to the 48th frame and drag the boy to school.
+
+41
+00:04:25,470 --> 00:04:30,640
+Look, right opposite to the Transformation parameter two orange diamonds have just appeared.
+
+42
+00:04:34,020 --> 00:04:39,560
+These diamonds are called Waypoints. They indicate that a parameter has a new value at some moment in time.
+
+43
+00:04:40,520 --> 00:04:45,560
+Synfig creates waypoints when we change any parameter in the animation mode.
+
+44
+00:04:47,850 --> 00:04:50,770
+This waypoint indicates that the boy is at school...
+
+45
+00:04:51,850 --> 00:04:55,530
+...and this one indicates that he's at home.
+
+46
+00:04:56,890 --> 00:05:01,020
+Note, that the motion between waypoints is calculated by Synfig automatically.
+
+47
+00:05:05,020 --> 00:05:10,560
+Our animation is very simple, so Synfig can play it in real time without problems.
+
+48
+00:05:10,930 --> 00:05:15,970
+But for animation with higher level of complexity real time playback may not be possible.
+
+49
+00:05:16,400 --> 00:05:22,230
+That's why it's recommended to use the Preview feature. Click this button to open the Preview dialog...
+
+50
+00:05:22,310 --> 00:05:26,140
+Here we can set the quality value and preview frame rate.
+
+51
+00:05:35,810 --> 00:05:42,060
+Let's extend our animation a little. At the frame 96 move the boy to the store...
+
+52
+00:05:43,970 --> 00:05:46,930
+...and at the 115th frame - back home again.
+
+53
+00:05:51,350 --> 00:05:54,810
+We can go to an existing waypoint  and change its value.
+
+54
+00:05:59,930 --> 00:06:03,520
+Oh, this boy is skipping his classes now! He's gone to the cinema instead.
+
+55
+00:06:09,810 --> 00:06:13,850
+Also, we can adjust the speed of the movement by dragging the waypoints.
+
+56
+00:06:14,640 --> 00:06:18,430
+Move this waypoint from the 48th frame to 20th.
+
+57
+00:06:21,350 --> 00:06:27,060
+Now the boy is running to the cinema way faster than he used to walk to school.
+
+58
+00:06:28,770 --> 00:06:34,260
+You can delete waypoints by right-clicking them and choosing "Remove" from the menu.
+
+59
+00:06:34,770 --> 00:06:39,850
+Or, you can just hold Ctrl and Alt keys and click the waypoint with the left mouse button.
+
+60
+00:06:44,850 --> 00:06:50,430
+You can also copy waypoints. To do so, move the cursor right where you want a copy...
+
+61
+00:06:50,970 --> 00:06:55,470
+find the right waypoint... right-click it, and choose "Duplicate".
+
+62
+00:06:58,930 --> 00:07:02,930
+Now the boy returns to exactly the same position as he was at the start.
+
+63
+00:07:04,390 --> 00:07:07,470
+This trick is very useful when creating looped animation.
+
+64
+00:07:11,890 --> 00:07:15,180
+Remember, waypoints are only created in the animation mode.
+
+65
+00:07:15,640 --> 00:07:20,430
+Otherwise changes you make will affect every frame in your project. Let's try it.
+
+66
+00:07:20,600 --> 00:07:24,020
+Turn off the Animation mode... and move the boy.
+
+67
+00:07:26,470 --> 00:07:32,260
+Here we've got an alert asking if we really want to apply the change to the whole animation.
+
+68
+00:07:32,600 --> 00:07:36,460
+Let's click "Yes" and see what happens.
+
+69
+00:07:39,470 --> 00:07:43,500
+Now the boy is walking somewhere aside. Let's undo this.
+
+70
+00:07:47,520 --> 00:07:50,800
+Note that we only get an alert if we change animated parameters.
+
+71
+00:07:50,860 --> 00:07:53,500
+Otherwise changes are applied at once.
+
+72
+00:07:53,600 --> 00:07:56,800
+For example, let's try to move the background.
+
+73
+00:07:57,930 --> 00:08:01,260
+See, no alerts here.
+
+74
+00:08:03,140 --> 00:08:09,200
+So I guess we are ready for the next lesson. But first, let's save our file.
+

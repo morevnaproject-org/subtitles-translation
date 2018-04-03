@@ -1,0 +1,148 @@
+1
+00:00:00,700 --> 00:00:02,860
+#3: Rendering
+
+2
+00:00:04,020 --> 00:00:08,390
+Our first animation is ready. It's pretty simple, but that's only the beginning!
+
+3
+00:00:12,310 --> 00:00:15,000
+Now we are going to render our project.
+
+4
+00:00:17,500 --> 00:00:23,530
+Rendering is the process of converting the animation into a video file or into a series of still images.
+
+5
+00:00:25,560 --> 00:00:29,220
+Click on this button to open the Render Settings dialog.
+
+6
+00:00:30,850 --> 00:00:33,970
+Let's render our animation into AVI file.
+
+7
+00:00:35,810 --> 00:00:41,680
+Type "first-animation" in the Filename field. And add ".avi" as the extension.
+
+8
+00:00:46,220 --> 00:00:51,100
+You can also click the "Choose..." button to specify the path for the rendered video.
+
+9
+00:00:57,850 --> 00:01:03,680
+Basically that should be enough. By default Synfig will use the lossless H.264 codec.
+
+10
+00:01:04,390 --> 00:01:08,100
+This format provides compression without any loss of quality...
+
+11
+00:01:08,100 --> 00:01:14,600
+...and this is a perfect choice if you plan to put your animation in a video editing software for merging scenes or adding sound.
+
+12
+00:01:14,680 --> 00:01:18,600
+But if you need use a different codec, then ueg the following actions.
+
+13
+00:01:18,970 --> 00:01:21,810
+Choose "ffmpeg" from the Target dropdown.
+
+14
+00:01:23,100 --> 00:01:25,180
+The "Parameters" button becomes active.
+
+15
+00:01:25,720 --> 00:01:30,430
+Click it to open another configuration dialog where you can choose the video codec...
+
+16
+00:01:32,640 --> 00:01:33,850
+...and the bitrate.
+
+17
+00:01:35,970 --> 00:01:41,020
+In our case we are pretty happy with default values so let's leave everything as is.
+
+18
+00:01:43,560 --> 00:01:47,970
+At the bottom part of the dialog we can set parameters like image width and height.
+
+19
+00:01:48,470 --> 00:01:52,560
+Switch to the Time tab to specify the timespan you'd like to render.
+
+20
+00:01:53,930 --> 00:02:01,680
+Everything's ready, so just click "Render" and wait until a message "File rendered successfully" appears at the bottom of the Canvas window.
+
+21
+00:02:04,220 --> 00:02:07,350
+The resulting file will be saved in the specified location.
+
+22
+00:02:15,860 --> 00:02:21,020
+To render the project as an animated gif, add a .gif file extension to the filename...
+
+23
+00:02:23,220 --> 00:02:27,390
+...and choose a "magick++" from the Target dropdown.
+
+24
+00:02:31,060 --> 00:02:34,180
+Let's check the resulting gif in the specified location.
+
+25
+00:02:40,930 --> 00:02:44,730
+If you'd like to render the current frame as a single PNG image...
+
+26
+00:02:44,850 --> 00:02:48,930
+...change the file extension to .png...
+
+27
+00:02:53,660 --> 00:02:56,930
+then switch Target to "Auto"...
+
+28
+00:02:57,800 --> 00:03:03,900
+...and activate the "Render current frame only" checkbox.
+
+29
+00:03:05,640 --> 00:03:07,660
+And here's the result.
+
+30
+00:03:12,680 --> 00:03:20,930
+Finally, I'll show one more type of rendering that is often used by professionals when they want to render animation preserving background transparency.
+
+31
+00:03:21,060 --> 00:03:29,140
+A transparent background allows us to combine animation with other clips or enhance it with effects in editing or compositing applications.
+
+32
+00:03:29,810 --> 00:03:34,060
+In this case rendering is performed as a sequence of PNG images.
+
+33
+00:03:36,060 --> 00:03:43,600
+The settings are the same as when rendering a single frame, except the "Render current frame only" checkbox needs to be unchecked.
+
+34
+00:03:44,180 --> 00:03:46,900
+Click "Render" and wait.
+
+35
+00:03:47,680 --> 00:03:51,770
+In this mode we also will have compression without any loss of quality...
+
+36
+00:03:52,430 --> 00:03:59,530
+...so it's a good option if your video editor doesn't supports the H.264 lossless format that we've mentioned in the very beginning.
+
+37
+00:04:00,400 --> 00:04:05,260
+The result is a series of images ready for loading into a non-linear video editor.
+

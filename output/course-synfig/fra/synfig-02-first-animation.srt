@@ -1,0 +1,296 @@
+1
+00:00:00,430 --> 00:00:03,100
+#2: Votre première animation
+
+2
+00:00:05,220 --> 00:00:09,060
+Dans cette leçon nous allons créer une animation simple d'un garçon qui va à l'école.
+
+3
+00:00:10,770 --> 00:00:15,060
+Ce cours inclus un ensemble de fichiers d'exemple que vous pouvez utiliser pour les exercices.
+
+4
+00:00:15,720 --> 00:00:20,140
+Veuillez télécharger le fichier workshop.zip accompagnant ce cours et décompactez-le.
+
+5
+00:00:21,890 --> 00:00:25,630
+Jetons un oeil à l'intérieur du dossier "first-animation".
+
+6
+00:00:27,430 --> 00:00:33,100
+Ici nous avons l'image d'un garçon. Puis, l'image de la carte sur laquelle il se déplacera.
+
+7
+00:00:34,810 --> 00:00:37,860
+Toutes les images sont enregistrées au format PNG.
+
+8
+00:00:38,060 --> 00:00:43,500
+C'est le format que nous utilisons pour les bitmaps de travail car il fournit une compression sans perte de la qualité...
+
+9
+00:00:43,500 --> 00:00:48,700
+...et nous permet d'enregistrer les images avec un fond transparent.
+
+10
+00:00:49,060 --> 00:00:52,000
+Ajoutons maintenant l'image du garçon à Synfig
+
+11
+00:00:52,000 --> 00:00:56,060
+Choisissez "File" - "Import" dans le menu principal...
+
+12
+00:00:56,810 --> 00:00:59,560
+puis trouvez l'emplacement de nos fichiers d'exemple.
+
+13
+00:01:00,100 --> 00:01:02,310
+Allez dans le dossier "first animation"...
+
+14
+00:01:02,720 --> 00:01:05,560
+...et choisissez le fichier "boy.png".
+
+15
+00:01:09,430 --> 00:01:12,720
+Nous avons maintenant un calque image. Sélectionnons-le.
+
+16
+00:01:14,350 --> 00:01:19,390
+Chaque calque Image a son ensemble de poignées qui nous permettent de le transformer.
+
+17
+00:01:19,930 --> 00:01:22,770
+Cette poignée nous permet de déplacer le calque.
+
+18
+00:01:25,350 --> 00:01:28,700
+Le point bleu contrôle la rotation.
+
+19
+00:01:31,160 --> 00:01:35,560
+En utilisant le coin orange nous pouvons mettre l'image à l'échelle proportionnellement.
+
+20
+00:01:41,060 --> 00:01:45,970
+Vous pouvez aussi faire la mise à l'echelle en suivant un axe particulier en tirant les points jaunes ici ou là.
+
+21
+00:01:51,060 --> 00:01:55,350
+Finalement, ce point rouge contrôle l'oblique.
+
+22
+00:01:55,890 --> 00:02:00,060
+Je suppose que vous ne l'utiliserez pas trop souvent. Donc, annulons la dernière action.
+
+23
+00:02:03,520 --> 00:02:07,100
+Vous pouvez aussi défaire en utilisant Ctrl+Z comme dans les autres applications.
+
+24
+00:02:11,180 --> 00:02:17,810
+Insérons l'image de la carte, c'est le fichier "background.png".
+
+25
+00:02:19,850 --> 00:02:25,310
+Comme vous pouvez le voir, l'image est trop grande. Sélectionnez-la et mettez-la à l'échelle pour la faire tenir dans la surface de travail.
+
+26
+00:02:32,520 --> 00:02:34,640
+Et envoyez-la vers l'arrière. Comme ceci.
+
+27
+00:02:35,770 --> 00:02:41,390
+Maintenant, je suppose que nous aurons aussi à mettre le garçon  à l'échelle et l'envoyer à la maison. En sélectionnant ce calque...
+
+28
+00:02:48,180 --> 00:02:54,640
+D'autre part, vous pouvez zoomer et dézoomer dans la vue actuelle en maintenant la touche Ctrl et en faisant un scroll avec la molette de la souris.
+
+29
+00:02:58,100 --> 00:03:02,960
+Et si vous maintenez pressé le bouton de la molette, vous pouvez déplacer la surface de travail.
+
+30
+00:03:10,270 --> 00:03:13,360
+Maintenant nous avons tout à sa place.
+
+31
+00:03:15,720 --> 00:03:19,180
+Donc, nous voulons faire une animation de ce garçon allant de sa maison jusqu'à l'école.
+
+32
+00:03:19,270 --> 00:03:25,560
+Visiblement, à un moment le garçon sera à la maison, et à un autre moment il sera à l'école.
+
+33
+00:03:25,970 --> 00:03:31,850
+Nous devons donc basculer vers le mode "animation" et définir les deux endroits pour des moments spécifiques du temps.
+
+34
+00:03:32,020 --> 00:03:35,600
+Cliquez ici sur le bouton avec l'homme vert pour basculer en mode animation.
+
+35
+00:03:39,640 --> 00:03:46,220
+L'homme vert devient rouge et une bordure rouge apparaît autour du canevas. Ceci indique que nous sommes maintenant dans le mode animation.
+
+36
+00:03:46,350 --> 00:03:51,060
+Quand le mode Animation est activé, tous les changements sont enregistrés en relation avec le temps actuel.
+
+37
+00:03:51,770 --> 00:03:57,720
+Jetons un oeil au panneau Timetrack en bas. Il indique que nous sommes maintenant à la trame zéro.
+
+38
+00:04:00,390 --> 00:04:04,020
+Nous pouvons changer le temps en cours en cliquant dans cette bande grise.
+
+39
+00:04:09,230 --> 00:04:14,430
+Retournons à la trame zéro. Le garçon est à la maison, tout va bien.
+
+40
+00:04:14,600 --> 00:04:18,600
+Maintenant allez à la trame 48 et tirez le garçon à l'école.
+
+41
+00:04:25,470 --> 00:04:30,640
+Regardez, juste à côté du paramètre de Transformation deux losanges oranges viennent d'apparaître.
+
+42
+00:04:34,020 --> 00:04:39,560
+Ces losanges sont appelés des Waypoints. Ils indiquent qu'un paramètre a une nouvelle valeur à un moment dans le temps.
+
+43
+00:04:40,520 --> 00:04:45,560
+Synfig crée des Waypoints quand nous changeons n'importe quel paramètre dans le mode animation.
+
+44
+00:04:47,850 --> 00:04:50,770
+Ce waypoint indique que le garçon est à l'école...
+
+45
+00:04:51,850 --> 00:04:55,530
+...et celui-là indique qu'il est à la maison.
+
+46
+00:04:56,890 --> 00:05:01,020
+Notez que le mouvement entre les waypoints est calculé par Synfig automatiquement.
+
+47
+00:05:05,020 --> 00:05:10,560
+Notre animation est très simple, donc Synfig peut la jouer en temps réel sans problème.
+
+48
+00:05:10,930 --> 00:05:15,970
+Mais pour une animation avec un niveau de complexité supérieur la lecture en temps réel peut ne pas être possible.
+
+49
+00:05:16,400 --> 00:05:22,230
+C'est pourquoi il est recommandé d'utiliser la fonctionnalité de prévisualisation. Cliquez ce bouton pour ouvrir le dialogue de prévisualisation...
+
+50
+00:05:22,310 --> 00:05:26,140
+Ici vous pouvez définir la qualité et la taux de trame de prévisualisation.
+
+51
+00:05:35,810 --> 00:05:42,060
+Étendons un peu notre animation. A la trame 96 déplacez le garçon jusqu'au magasin...
+
+52
+00:05:43,970 --> 00:05:46,930
+...et à la trame 115 - à nouveau de retour à la maison.
+
+53
+00:05:51,350 --> 00:05:54,810
+Nous pouvons aller à un waypoint existant et changer sa valeur.
+
+54
+00:05:59,930 --> 00:06:03,520
+Maintenant le garçon sèche les cours ! Il a préféré aller au cinéma à la place.
+
+55
+00:06:09,810 --> 00:06:13,850
+Nous pouvons également ajuster la vitesse de mouvement en tirant les waypoints.
+
+56
+00:06:14,640 --> 00:06:18,430
+Déplacez ce waypoint de la trame 48 à la 20ème.
+
+57
+00:06:21,350 --> 00:06:27,060
+Maintenant le garçon court au cinéma bien plus vite qu'il n'en a l'habitude pour aller à l'école.
+
+58
+00:06:28,770 --> 00:06:34,260
+Vous pouvez effacer les waypoints en cliquant-droit dessus et en choisissant "Remove" depuis le menu.
+
+59
+00:06:34,770 --> 00:06:39,850
+Sinon vous pouvez juste maintenir les touches Ctrl et Alt et cliquer sur le waypoint avec le bouton gauche de la souris.
+
+60
+00:06:44,850 --> 00:06:50,430
+Vous pouvez aussi copier les waypoints. Pour ce faire, déplacez le curseur exactement là où vous voulez le copier...
+
+61
+00:06:50,970 --> 00:06:55,470
+trouvez le bon waypoint... Cliquez-droit dessus et choisissez "Duplicate".
+
+62
+00:06:58,930 --> 00:07:02,930
+Maintenant le garçon retourne exactement à la même position qu'il avait au départ.
+
+63
+00:07:04,390 --> 00:07:07,470
+Ce truc est vraiment très utile quand vous créez une animation en boucle.
+
+64
+00:07:11,890 --> 00:07:15,180
+Rappelez-vous, les waypoints sont créés uniquement dans le mode animation.
+
+65
+00:07:15,640 --> 00:07:20,430
+Autrement, tout changement que vous ferez affectera toutes les trames dans votre projet. Faisons un essai.
+
+66
+00:07:20,600 --> 00:07:24,020
+Désactivez le mode Animation... et déplacez le garçon.
+
+67
+00:07:26,470 --> 00:07:32,260
+Nous avons ici une alerte demandant si l'on veut réellement appliquer le changement à l'ensemble de l'animation.
+
+68
+00:07:32,600 --> 00:07:36,460
+Cliquez "Yes" et voyons ce qu'il se passe.
+
+69
+00:07:39,470 --> 00:07:43,500
+Maintenant le garçon bouge en dehors de l'écran. Défaisons ceci.
+
+70
+00:07:47,520 --> 00:07:50,800
+Notez que nous obtenons une alerte seulement si l'on change des paramètres animés.
+
+71
+00:07:50,860 --> 00:07:53,500
+Autrement les changements sont appliqués directement.
+
+72
+00:07:53,600 --> 00:07:56,800
+Par exemple, essayez de déplacer le fond.
+
+73
+00:07:57,930 --> 00:08:01,260
+Regardez, pas d'alerte ici.
+
+74
+00:08:03,140 --> 00:08:09,200
+Donc, je suppose que nous sommes prêts pour la leçon suivante. Mais d'abord, enregistrons notre fichier.
+

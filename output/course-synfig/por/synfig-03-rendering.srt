@@ -1,0 +1,148 @@
+1
+00:00:00,700 --> 00:00:02,860
+#3: Renderizando
+
+2
+00:00:04,020 --> 00:00:08,390
+Nossa primeira animação está pronta.  É bastante simples, mas este é apenas o começo!
+
+3
+00:00:12,310 --> 00:00:15,000
+Agora vamos renderizar nosso projeto.
+
+4
+00:00:17,500 --> 00:00:23,530
+Renderizar é o processo de conversão da animação em arquivo de vídeo ou numa série de imagens.
+
+5
+00:00:25,560 --> 00:00:29,220
+Clique neste botão para abrir a janela de Configurações de Render
+
+6
+00:00:30,850 --> 00:00:33,970
+Vamos renderizar nossa animação para um arquivo AVI.
+
+7
+00:00:35,810 --> 00:00:41,680
+Escreva "primeira-animacao" no campo "Nome do arquivo". E adicione ".avi" na extensão.
+
+8
+00:00:46,220 --> 00:00:51,100
+Você também pode clicar no botão "Escolher..." para especificar o caminho do vídeo renderizado.
+
+9
+00:00:57,850 --> 00:01:03,680
+Isso deve ser o suficiente. Por padrão o Synfig usa o codec sem perdas H.264.
+
+10
+00:01:04,390 --> 00:01:08,100
+Esse formato oferece compressão sem nenhuma perda de qualidade...
+
+11
+00:01:08,100 --> 00:01:14,600
+...e essa é a escolha perfeita se você planeja colocar sua animação em um software de edição de vídeo para juntar as cenas e colocar som.
+
+12
+00:01:14,680 --> 00:01:18,600
+Mas se você precisar de um codec diferente, então faça o seguinte:
+
+13
+00:01:18,970 --> 00:01:21,810
+Escolhe "ffmpeg" da caixa de seleção Destino.
+
+14
+00:01:23,100 --> 00:01:25,180
+O botão "Parâmetros" fica ativo.
+
+15
+00:01:25,720 --> 00:01:30,430
+Clique nele para abrir outra janela de configuração onde você pode escolher o codec de vídeo...
+
+16
+00:01:32,640 --> 00:01:33,850
+...e a taxa de bits.
+
+17
+00:01:35,970 --> 00:01:41,020
+No nosso caso estamos bem satisfeitos com os valores padrão, então vamos deixar tudo como está.
+
+18
+00:01:43,560 --> 00:01:47,970
+Na parte de baixo da janela nós podemos definir propriedades como largura e altura da imagem.
+
+19
+00:01:48,470 --> 00:01:52,560
+Clique na aba Tempo para especificar o intervalo que você quer renderizar.
+
+20
+00:01:53,930 --> 00:02:01,680
+Tudo pronto, agora é só clicar "Renderizar" e esperar até que a mensagem "Arquivo renderizado com sucesso" apareça na parte de baixo da janela do Canvas.
+
+21
+00:02:04,220 --> 00:02:07,350
+O arquivo será salvo no local especificado.
+
+22
+00:02:15,860 --> 00:02:21,020
+Para renderizar o projeto como uma gif animada, adicione a extensão .gif ao nome do arquivo...
+
+23
+00:02:23,220 --> 00:02:27,390
+...e escolha a opção "magick++" da caixa Destino.
+
+24
+00:02:31,060 --> 00:02:34,180
+Vamos ver o resultado da gif no local onde colocamos.
+
+25
+00:02:40,930 --> 00:02:44,730
+Se você quiser renderizar o quadro atual como uma imagem PNG...
+
+26
+00:02:44,850 --> 00:02:48,930
+...mude a extensão do arquivo para .png....
+
+27
+00:02:53,660 --> 00:02:56,930
+e então mude o valor em Destino para "Automático"...
+
+28
+00:02:57,800 --> 00:03:03,900
+...e marque a caixa de seleção "Renderizar apenas o quadro atual".
+
+29
+00:03:05,640 --> 00:03:07,660
+E este é o resultado.
+
+30
+00:03:12,680 --> 00:03:20,930
+Finalmente, eu vou mostrar mais um tipo de renderização que é usado comumente por profissionais quando eles querem renderização uma animação preservando a transparência do fundo.
+
+31
+00:03:21,060 --> 00:03:29,140
+Um fundo transparente nos permite combinar uma animação com outros clipes ou melhorá-la com efeitos em programas de edição ou composição.
+
+32
+00:03:29,810 --> 00:03:34,060
+Neste caso a renderização é feita como uma sequencia de imagens PNG.
+
+33
+00:03:36,060 --> 00:03:43,600
+As configurações são as mesmas de quando se renderiza um único quadro, exceto que a caixa "Renderizar apenas o quadro atual" precisa ser desmarcada.
+
+34
+00:03:44,180 --> 00:03:46,900
+Clique "Renderizar" e espere.
+
+35
+00:03:47,680 --> 00:03:51,770
+Neste modo você também terá compressão sem nenhuma perda de qualidade...
+
+36
+00:03:52,430 --> 00:03:59,530
+...então é uma boa opção se seu editor de vídeo não suporta o formato H.264 que mencionamos lá no começo.
+
+37
+00:04:00,400 --> 00:04:05,260
+O resultado é uma série de imagens prontas para serem carregadas em um editor de vídeo.
+

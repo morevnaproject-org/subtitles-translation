@@ -1,0 +1,488 @@
+1
+00:00:01,800 --> 00:00:07,100
+In questa lezione, vorrei parlarti di una caratteristica molto interessante di Synfig Studio
+
+2
+00:00:08,430 --> 00:00:11,930
+Vediamo questo esempio
+
+3
+00:00:12,060 --> 00:00:17,030
+Ora, prova a indovinare quanti waypoints sono stati usati per creare questa animazione
+
+4
+00:00:17,730 --> 00:00:21,460
+18, 9 o 5 ?
+
+5
+00:00:21,600 --> 00:00:24,730
+La risposta corretta è ... soltanto 2 !
+
+6
+00:00:25,400 --> 00:00:29,500
+Synfig Studio ha potenti caratteristiche per creare animazioni in automatico
+
+7
+00:00:29,500 --> 00:00:34,500
+e adesso te lo dimostrerò ricreando l'animazione di quest'ape in volo
+
+8
+00:00:36,000 --> 00:00:39,930
+Abbiamo qui il corpo dell'ape e un'ala con l'immagine dello sfondo
+
+9
+00:00:39,930 --> 00:00:43,000
+Importiamo l'ape e la sua ala nell'area di lavoro
+
+10
+00:00:46,660 --> 00:00:48,300
+Raggruppiamoli insieme
+
+11
+00:00:49,800 --> 00:00:51,230
+e ridimensioniamoli
+
+12
+00:00:51,900 --> 00:00:53,030
+così
+
+13
+00:00:54,630 --> 00:00:56,630
+Spostiamo l'ala al suo posto
+
+14
+00:00:59,130 --> 00:01:01,300
+e assegniamo il centro di rotazione
+
+15
+00:01:04,230 --> 00:01:07,300
+Ora andremo ad aggiungere l'animazione automatica
+
+16
+00:01:08,600 --> 00:01:12,930
+In Synfig Studio possiamo associare una funzione matematica a qualsiasi parametro di livello
+
+17
+00:01:13,200 --> 00:01:16,430
+Vi mostro come funziona usando un semplice cerchio
+
+18
+00:01:17,400 --> 00:01:19,430
+Ecco qua un cerchio
+
+19
+00:01:20,560 --> 00:01:22,960
+Selezioniamo il suo parametro origine
+
+20
+00:01:23,620 --> 00:01:24,950
+click tasto destro
+
+21
+00:01:25,320 --> 00:01:27,120
+e scegli "Converti"
+
+22
+00:01:28,370 --> 00:01:30,950
+Ecco abbiamo una lista di funzioni disponibili
+
+23
+00:01:30,950 --> 00:01:33,470
+in Synfig Studio li chiamiamo Convertitori
+
+24
+00:01:34,220 --> 00:01:36,020
+Scegli il Convertitore Random
+
+25
+00:01:39,220 --> 00:01:40,200
+Guarda
+
+26
+00:01:40,850 --> 00:01:43,150
+Adesso il nostro cerchio fa dei movimenti a caso
+
+27
+00:01:46,000 --> 00:01:50,900
+Nota che c'è un piccolo segno triangolare che è comparso vicino al parametro Origine
+
+28
+00:01:52,770 --> 00:01:55,420
+Clicca sopra per vedere i parametri del convertitore
+
+29
+00:01:57,370 --> 00:02:01,750
+Il sub-parametro Link rappresenta un punto centrale per valutazione random
+
+30
+00:02:05,220 --> 00:02:08,450
+Ecco, possiamo impostare un Raggio di variazione massimo ...
+
+31
+00:02:16,750 --> 00:02:18,100
+Velocità ...
+
+32
+00:02:24,950 --> 00:02:25,700
+o Seme
+
+33
+00:02:26,470 --> 00:02:29,250
+Il valore di Seme definisce un moto a caso differente
+
+34
+00:02:33,100 --> 00:02:37,950
+Per rimuovere il convertitore dal parametro, basta fare clic col tasto destro sopra e scegliere Disconnetti
+
+35
+00:02:43,750 --> 00:02:50,400
+Come forse avrai notato, il convertitore Random ha influenzato entrambi gli assi X e Y del parametro Origine
+
+36
+00:02:50,400 --> 00:02:54,350
+Ora, proviamo a fargli influenzare soltanto l'asse X
+
+37
+00:02:54,450 --> 00:02:56,170
+Per ottenere questo
+
+38
+00:02:56,170 --> 00:02:59,820
+aggiungi un semplice convertitore Composite per il parametro Origine
+
+39
+00:03:01,570 --> 00:03:04,450
+Questo convertitore non genera alcuna animazione
+
+40
+00:03:04,920 --> 00:03:10,070
+ma scompone il nostro parametro in due componenti elementari X e Y
+
+41
+00:03:13,200 --> 00:03:17,400
+Ora fai di nuovo click destro sul sub-parametro X
+
+42
+00:03:19,420 --> 00:03:21,270
+e scegli Converti
+
+43
+00:03:21,850 --> 00:03:23,020
+Random (Casuale)
+
+44
+00:03:31,250 --> 00:03:35,970
+Adesso il nostro cerchio si muove a caso solo in direzione orizzontale
+
+45
+00:03:38,270 --> 00:03:39,500
+e finalmente
+
+46
+00:03:39,500 --> 00:03:44,450
+voglio farti vedere un un altro convertitore più interessante detto "Lineare"
+
+47
+00:03:44,770 --> 00:03:48,420
+Questo convertitore modifica il valore del parametro con una costante
+
+48
+00:03:48,600 --> 00:03:50,300
+Velocità Lineare
+
+49
+00:03:50,720 --> 00:03:53,850
+Associamolo al posto della funzione Random
+
+50
+00:03:54,550 --> 00:03:58,150
+Veramente, non è necessario disconnettere il convertitore Random
+
+51
+00:03:58,470 --> 00:04:02,620
+Allora associo il convertitore Lineare al sub-parametro X
+
+52
+00:04:03,170 --> 00:04:05,670
+i valori di partenza sono stati rimossi automaticamente
+
+53
+00:04:06,270 --> 00:04:09,450
+Impostiamo il valore di "Rate" a 1
+
+54
+00:04:12,750 --> 00:04:17,170
+Come vedi, il nostro cerchio si sta spostando in direzione orizzontale a velocità costante
+
+55
+00:04:17,700 --> 00:04:20,020
+e questo moto è infinito
+
+56
+00:04:21,620 --> 00:04:24,070
+Adesso, ritorniamo alla nostra ape
+
+57
+00:04:24,570 --> 00:04:27,270
+Dunque, vogliamo animare un'ala
+
+58
+00:04:28,200 --> 00:04:32,950
+Per far questo assegno un convertitore Random al suo parametro Angolo
+
+59
+00:04:37,670 --> 00:04:41,000
+Così, non genera quasi nessun effetto
+
+60
+00:04:41,770 --> 00:04:44,720
+questo perché il valore del raggio è impostato ad 1
+
+61
+00:04:45,500 --> 00:04:50,720
+che significa che la massima variazione del moto a caso è di 1 grado soltanto
+
+62
+00:04:51,550 --> 00:04:53,700
+Impostiamo il Raggio a 30
+
+63
+00:04:56,100 --> 00:04:57,400
+Va molto meglio !
+
+64
+00:04:57,570 --> 00:04:59,620
+Però l'ala si muove troppo lentamente |
+
+65
+00:05:00,750 --> 00:05:03,500
+Impostiamo il valore di Velocità a 25
+
+66
+00:05:04,470 --> 00:05:05,500
+Ottimo !
+
+67
+00:05:05,800 --> 00:05:07,900
+Diamo un'occhiata ai diagrammi
+
+68
+00:05:08,350 --> 00:05:12,620
+e sì, assicurati di avere selezionato il parametro Angolo
+
+69
+00:05:13,370 --> 00:05:16,320
+Quindi... abbiamo un'ala animata !
+
+70
+00:05:16,820 --> 00:05:18,070
+Copiamola !
+
+71
+00:05:18,900 --> 00:05:20,150
+Mettiamola giù
+
+72
+00:05:20,820 --> 00:05:22,120
+Spostiamola qui ...
+
+73
+00:05:22,950 --> 00:05:24,770
+e ridimensioniamola un poco
+
+74
+00:05:30,320 --> 00:05:32,850
+Adesso abbiamo un'ape davvero carina !
+
+75
+00:05:33,070 --> 00:05:34,020
+Nota...
+
+76
+00:05:34,370 --> 00:05:37,850
+che la seconda ala ha un movimento differente dall'altra
+
+77
+00:05:38,460 --> 00:05:43,970
+questo perché il convertitore Random possedeva un valore di Seme differente quando il livello è stato copiato
+
+78
+00:05:46,260 --> 00:05:48,740
+Possiamo far muovere le ali con sincronismo
+
+79
+00:05:49,180 --> 00:05:52,540
+Dobbiamo assegnare lo stesso valore di seme ad entrambe
+
+80
+00:05:52,680 --> 00:05:53,960
+Così
+
+81
+00:06:09,040 --> 00:06:13,220
+Però per i miei gusti è meglio farle muovere in modo differente
+
+82
+00:06:14,420 --> 00:06:17,020
+Quindi, ritorniamo alla nostra ultima modifica
+
+83
+00:06:23,940 --> 00:06:29,460
+Ora, facciamo volare la nostra ape da una parte all'altra dell'inquadratura
+
+84
+00:06:32,260 --> 00:06:34,140
+Attiviamo la Modalità Animazione
+
+85
+00:06:35,440 --> 00:06:37,500
+Assegniamo la posizione iniziale
+
+86
+00:06:38,720 --> 00:06:40,280
+e la posizione finale
+
+87
+00:06:44,900 --> 00:06:47,040
+Adesso sta volando
+
+88
+00:06:48,840 --> 00:06:52,600
+Ora la traiettoria della nostra ape è una linea retta
+
+89
+00:06:53,040 --> 00:06:57,740
+ma sarebbe molto bello farla muovere con qualche oscillazione
+
+90
+00:06:57,900 --> 00:07:01,060
+allora l'animazione sembrerà più realistica
+
+91
+00:07:01,380 --> 00:07:03,200
+Facciamolo !
+
+92
+00:07:03,280 --> 00:07:06,380
+Qui useremo di nuovo il convertitore Random
+
+93
+00:07:07,020 --> 00:07:10,880
+Per facilitare le cose, rimuoviamo l'animazione dell'ape
+
+94
+00:07:15,520 --> 00:07:18,200
+Ora, rimane nella stessa posizione
+
+95
+00:07:20,680 --> 00:07:24,120
+Possiamo creare un altro gruppo all'interno di quello principale
+
+96
+00:07:24,120 --> 00:07:27,700
+e associare un convertitore Random al suo Scorrimento di Trasformazione
+
+97
+00:07:29,480 --> 00:07:33,460
+Invece, ti faccio vedere una cosa più interessante
+
+98
+00:07:35,180 --> 00:07:40,580
+Forse ti ricorderai che Synfig Studio ha dei Livelli speciali nei Filtri
+
+99
+00:07:40,740 --> 00:07:46,680
+e qui ne useremo uno, un livello filtro molto semplice, che trasforma tutto ciò che gli sta al di sotto
+
+100
+00:07:47,300 --> 00:07:48,660
+Eccolo
+
+101
+00:07:51,400 --> 00:07:52,240
+Guarda
+
+102
+00:07:52,280 --> 00:07:56,420
+Questo livello è molto semplice e ha un solo parametro
+
+103
+00:07:57,800 --> 00:08:01,020
+Ora gli sto associando il convertitore Random
+
+104
+00:08:01,820 --> 00:08:03,420
+Impostiamo il Raggio a 15
+
+105
+00:08:04,240 --> 00:08:05,460
+Fatto
+
+106
+00:08:11,320 --> 00:08:16,480
+Ora facciamo muovere di nuovo la nostra ape da un lato all'altro dell'inquadratura
+
+107
+00:08:21,560 --> 00:08:23,020
+Controlliamo il risultato
+
+108
+00:08:26,940 --> 00:08:28,340
+Come vedi ...
+
+109
+00:08:28,340 --> 00:08:34,900
+il moto Lineare si combina con il moto Random e fa apparire la nostra animazione un po' più complessa
+
+110
+00:08:37,580 --> 00:08:39,460
+Forse ti starai chiedendo ....
+
+111
+00:08:39,720 --> 00:08:44,180
+Qual è il vantaggio nell'usare il livello Translate invece del gruppo ?
+
+112
+00:08:45,100 --> 00:08:47,980
+Ora, in questo caso particolare
+
+113
+00:08:48,100 --> 00:08:50,360
+in realtà, non c'è nessun vantaggio
+
+114
+00:08:51,100 --> 00:08:55,200
+ma in qualche caso questo metodo può essere particolarmente utile
+
+115
+00:08:55,860 --> 00:08:59,720
+perché consente di rimuovere facilmente l'effetto Traslazione
+
+116
+00:08:59,980 --> 00:09:00,700
+Guarda
+
+117
+00:09:00,700 --> 00:09:05,900
+Così possiamo facilmente attivare e disattivare questo effetto solo con un click
+
+118
+00:09:06,520 --> 00:09:07,880
+E' molto semplice
+
+119
+00:09:09,700 --> 00:09:15,860
+Tale metodo con i livelli filtro è particolarmente utile per creare panoramiche o zoomate
+
+120
+00:09:24,540 --> 00:09:28,100
+E infine, l'ultima fase della nostra animazione ...
+
+121
+00:09:28,620 --> 00:09:30,100
+Aggiungiamo uno sfondo
+
+122
+00:10:24,080 --> 00:10:28,760
+Bene, è tutto: la nostra animazione adesso è pronta !
+

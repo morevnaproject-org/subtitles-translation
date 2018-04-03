@@ -1,0 +1,204 @@
+1
+00:00:00,600 --> 00:00:03,060
+#8: Animación del Esqueleto "Skeleton"
+
+2
+00:00:04,130 --> 00:00:07,260
+Volvamos al personaje que creamos.
+
+3
+00:00:07,360 --> 00:00:09,900
+Ahora vamos a hacerlo caminar.
+
+4
+00:00:10,160 --> 00:00:14,700
+Pongamos al personaje en posición inicial, como este.
+
+5
+00:00:22,040 --> 00:00:25,700
+Y luego cambiamos al modo Animación.
+
+6
+00:00:26,220 --> 00:00:30,240
+Vamos a tener que tomar 16 fotogramas para dar un paso.
+
+7
+00:00:30,500 --> 00:00:35,660
+Mueve el cursor de tiempo hasta el fotograma 16 y añade un nuevo fotograma clave.
+
+8
+00:00:38,100 --> 00:00:42,830
+Ahora tenemos que cambiar la posición de las piernas y mover toda la figura hacia delante.
+
+9
+00:00:42,960 --> 00:00:46,800
+Pero primero me gustaría marcar la posición de la pierna delantera.
+
+10
+00:00:47,030 --> 00:00:53,160
+Para ello simplemente crea un pequeño círculo aquí, como un marcador.
+
+11
+00:00:57,020 --> 00:01:01,300
+Ahora podemos cambiar las piernas...
+
+12
+00:01:03,160 --> 00:01:05,560
+...y mover al tipo hacia delante.
+
+13
+00:01:05,730 --> 00:01:10,630
+De esta forma, por lo que esta pierna debe permanecer en el mismo lugar.
+
+14
+00:01:10,840 --> 00:01:14,900
+Y no te olvides de cambiar los brazos también.
+
+15
+00:01:25,500 --> 00:01:28,560
+Por ahora el movimiento no luce tan bien.
+
+16
+00:01:28,700 --> 00:01:32,630
+Obviamente el personaje debe levantar una pierna al caminar...
+
+17
+00:01:32,860 --> 00:01:35,300
+...y la otra debe permanecer en el suelo.
+
+18
+00:01:35,560 --> 00:01:39,330
+Así que vamos a crear un fotograma clave en el medio y arreglar la pose.
+
+19
+00:01:44,530 --> 00:01:48,760
+Debido a que esta pierna es la delantera, se queda en el suelo.
+
+20
+00:01:48,760 --> 00:01:51,060
+Y esta subirá.
+
+21
+00:01:51,300 --> 00:01:54,860
+Estoy haciendo clic en el punto del hueso para marcarlo.
+
+22
+00:01:55,020 --> 00:02:00,930
+Puedes ver que está resaltado ahora, así que puedo distinguirlo de los otros huesos.
+
+23
+00:02:14,660 --> 00:02:22,880
+Para hacer nuestra animación aún mejor, vamos a enfatizar el momento cuando el personaje cambia su peso a la pierna delantera.
+
+24
+00:02:23,320 --> 00:02:26,660
+Agrega un fotograma clave aquí...
+
+25
+00:02:27,380 --> 00:02:32,060
+...y luego ajustamos el pie para enfatizar el paso.
+
+26
+00:02:33,780 --> 00:02:36,930
+Así.
+
+27
+00:02:39,600 --> 00:02:42,160
+El primer paso está hecho.
+
+28
+00:02:42,420 --> 00:02:46,860
+Vamos a hacer el segundo de la misma forma.
+
+29
+00:02:49,120 --> 00:02:52,830
+Marca la posición de la pierna delantera...
+
+30
+00:02:55,730 --> 00:03:00,560
+Agrega la pose clave, cuando el personaje ya ha completado el segundo paso.
+
+31
+00:03:00,800 --> 00:03:03,730
+Esta pose es la misma que al principio.
+
+32
+00:03:03,930 --> 00:03:07,200
+Así que simplemente podemos copiar el fotograma clave.
+
+33
+00:03:08,480 --> 00:03:12,200
+... y mover el personaje hacia la posición correcta.
+
+34
+00:03:15,260 --> 00:03:20,360
+Ahora vamos a añadir un fotograma en el medio de nuevo.
+
+35
+00:03:21,030 --> 00:03:23,580
+Esta vez, esta pierna está en el suelo...
+
+36
+00:03:23,760 --> 00:03:26,760
+...y esta otra en el aire.
+
+37
+00:03:30,600 --> 00:03:35,400
+Luego, acentúa el movimiento en el paso.
+
+38
+00:03:40,960 --> 00:03:44,330
+Y ahora tenemos dos pasos listos.
+
+39
+00:03:46,000 --> 00:03:51,860
+Para el tercer paso simplemente puedes copiar los fotogramas claves y seguir avanzando el personaje.
+
+40
+00:03:52,100 --> 00:03:56,130
+Pero antes, vamos a nombrar los fotogramas para evitar estropear todo.
+
+41
+00:03:56,230 --> 00:03:58,030
+Vamos a nombrarlos de la siguiente manera:
+
+42
+00:03:58,300 --> 00:04:01,200
+"0", "0-paso" ...
+
+43
+00:04:01,340 --> 00:04:04,420
+"0-a-1", "1"...
+
+44
+00:04:04,680 --> 00:04:06,830
+"1-paso"...
+
+45
+00:04:06,960 --> 00:04:08,830
+"1-a-0"...
+
+46
+00:04:09,000 --> 00:04:10,960
+...y, nuevamente, "0".
+
+47
+00:04:11,680 --> 00:04:15,230
+Ahora marca la posición de esta pierna...
+
+48
+00:04:17,100 --> 00:04:20,060
+Y copia los fotogramas.
+
+49
+00:04:46,300 --> 00:04:50,060
+Debemos recorrer todos los fotogramas clave adecuadamente...
+
+50
+00:04:50,120 --> 00:04:56,330
+...y ajustar el hueso principal del personaje para que sus pies no parezcan deslizarse sobre el suelo.
+
+51
+00:05:15,300 --> 00:05:17,830
+Bien, eso es todo.
+

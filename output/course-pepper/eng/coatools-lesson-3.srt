@@ -1,0 +1,220 @@
+1
+00:00:03,760 --> 00:00:06,380
+In this and the next lesson...
+
+2
+00:00:06,480 --> 00:00:09,600
+I will show you how to create a more advanced rig.
+
+3
+00:00:09,900 --> 00:00:10,860
+So, let's start.
+
+4
+00:00:11,080 --> 00:00:15,780
+Create a new scene and import the .JSON file
+
+5
+00:00:18,900 --> 00:00:21,780
+Let's compare it with the final result of this lesson.
+
+6
+00:00:22,320 --> 00:00:25,540
+Take a look. Do you see any differences?
+
+7
+00:00:26,440 --> 00:00:27,660
+Neither did I.
+
+8
+00:00:27,940 --> 00:00:30,980
+Now, let's look at it in X-Ray Mode.
+
+9
+00:00:32,460 --> 00:00:36,620
+We can see that the final scene has a silhouette of our character, but...
+
+10
+00:00:36,760 --> 00:00:39,720
+...how is this useful? You'll soon see!
+
+11
+00:00:41,600 --> 00:00:45,660
+First, we will try to recreate the "finished" scene.
+
+12
+00:00:46,960 --> 00:00:48,900
+Right-click any part...
+
+13
+00:00:49,380 --> 00:00:52,500
+...and click "Edit Mesh" in T-Menu.
+
+14
+00:00:54,400 --> 00:01:00,480
+So, we are in "Edit Mesh" mode now.
+
+15
+00:01:00,640 --> 00:01:04,500
+Press "Alt + H" to display the picture frame.
+
+16
+00:01:06,980 --> 00:01:08,040
+Let's start.
+
+17
+00:01:08,240 --> 00:01:10,800
+Move the mouse cursor to work area...
+
+18
+00:01:10,880 --> 00:01:15,120
+...and left-click any place close to the picture.
+
+19
+00:01:15,240 --> 00:01:19,860
+Then, zoom out a short distance and create one more point.
+
+20
+00:01:20,000 --> 00:01:23,000
+And continue until we have outline of the whole picture.
+
+21
+00:01:28,240 --> 00:01:30,980
+Be careful! Don't step out of frame edges!
+
+22
+00:01:38,060 --> 00:01:40,200
+When you get back to the beginning...
+
+23
+00:01:40,300 --> 00:01:44,040
+...select the first and the last points and press "F".
+
+24
+00:01:46,440 --> 00:01:49,840
+Now, we need to fill our outline with triangulated mesh.
+
+25
+00:01:49,840 --> 00:01:51,660
+Select any point that you placed...
+
+26
+00:01:51,660 --> 00:01:55,540
+...then press "Ctrl + L"...
+
+27
+00:01:55,760 --> 00:01:58,000
+...to select all of the other points...
+
+28
+00:01:58,000 --> 00:02:01,280
+...and then press "Triangle Fill" in T-menu.
+
+29
+00:02:04,920 --> 00:02:08,600
+Done. Now we have to delete the picture frame.
+
+30
+00:02:08,660 --> 00:02:10,480
+We don't need it anymore.
+
+31
+00:02:10,480 --> 00:02:12,480
+Press "Alt + H"  again...
+
+32
+00:02:12,580 --> 00:02:15,840
+Select all dots of the picture frame and delete.
+
+33
+00:02:19,540 --> 00:02:23,120
+Finally, press "Finish Edit Mesh" in the T-menu.
+
+34
+00:02:25,760 --> 00:02:27,740
+Now let me explain what we just did.
+
+35
+00:02:31,260 --> 00:02:35,560
+Triangulation is a process of converting outline polygon to the mesh of triangles.
+
+36
+00:02:35,660 --> 00:02:36,460
+Look.
+
+37
+00:02:36,540 --> 00:02:41,420
+Every triangle is responsible only for the area where it's located.
+
+38
+00:02:42,220 --> 00:02:46,080
+Such a mesh gives us the opportunity to "bend" the picture.
+
+39
+00:02:46,080 --> 00:02:48,740
+Because of that we are able to achieve result...
+
+40
+00:02:48,740 --> 00:02:51,280
+...as you saw in the first lesson.
+
+41
+00:02:52,500 --> 00:02:54,820
+As you have probably guessed...
+
+42
+00:02:54,820 --> 00:02:57,600
+...we need to triangulate the whole character.
+
+43
+00:02:57,600 --> 00:03:01,600
+Or more precisely, we need to triangulate everything that will be bent.
+
+44
+00:03:07,000 --> 00:03:11,680
+Note that sometimes the triangulation process can produce "artifacts".
+
+45
+00:03:11,680 --> 00:03:14,540
+You should always check the mesh for these artifacts.
+
+46
+00:03:14,540 --> 00:03:16,540
+They can be easily seen in "X-Ray" Mode.
+
+47
+00:03:21,800 --> 00:03:25,840
+If artifacts are present, they will make a gaps in the picture when you animate it.
+
+48
+00:03:25,980 --> 00:03:29,320
+In most cases, artifacts can be easily removed.
+
+49
+00:03:29,900 --> 00:03:33,740
+Select the mesh and enter the "Edit Mode"...
+
+50
+00:03:42,080 --> 00:03:45,340
+Delete any vertex in the gap area.
+
+51
+00:03:47,220 --> 00:03:50,240
+Then, fill the empty places manually.
+
+52
+00:03:50,360 --> 00:03:52,940
+Select three vertexes and press "F".
+
+53
+00:03:55,600 --> 00:03:58,120
+Sometimes triangulation can produce a LOT of artifacts for a single mesh...
+
+54
+00:03:58,240 --> 00:04:02,680
+...in this case it is better to undo and triangulate the part from the beginning.
+
+55
+00:04:10,720 --> 00:04:12,900
+Well, the mesh is ready now.
+

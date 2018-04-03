@@ -1,0 +1,148 @@
+1
+00:00:00,700 --> 00:00:02,860
+#3: Rendern
+
+2
+00:00:04,020 --> 00:00:08,390
+Unsere erste Animation ist fertig. Sie ist ziemlich einfach, aber das ist auch erst der Anfang!
+
+3
+00:00:12,310 --> 00:00:15,000
+Wir werden jetzt unser Projekt rendern.
+
+4
+00:00:17,500 --> 00:00:23,530
+Rendern ist der Vorgang, bei dem die Animation in eine Videodatei oder in eine Reihe von Einzelbildern konvertiert wird.
+
+5
+00:00:25,560 --> 00:00:29,220
+Klickten Sie auf diesen Knopf, um den Dialog für die Render-Einstellungen zu öffnen.
+
+6
+00:00:30,850 --> 00:00:33,970
+Wollen wir unsere Animation in eine AVI-Datei rendern.
+
+7
+00:00:35,810 --> 00:00:41,680
+Geben Sie „first animation“ in das Dateiname-Feld ein und fügen Sie „.avi“ als die Erweiterung hinzu.
+
+8
+00:00:46,220 --> 00:00:51,100
+Sie können ebenso auf den „Auswählen“-Knopf klicken, um den Ausgabe-Pfad für das gerenderte Video anzugeben.
+
+9
+00:00:57,850 --> 00:01:03,680
+Das ist im Grunde genug. Synfig nutzt standardmäßig den verlustfreien H.264-Codec.
+
+10
+00:01:04,390 --> 00:01:08,100
+Dieses Format bietet Kompression ohne Qualitätsverlust…
+
+11
+00:01:08,100 --> 00:01:14,600
+…und das ist eine gute Sache, wenn Sie planen, Ihre Animation in einer Video-Bearbeitungs-Software zu verwenden, um Szenen zusammenzustellen oder Sound hinzuzufügen.
+
+12
+00:01:14,680 --> 00:01:18,600
+Sollten Sie einen anderen Codec benötigen, nutzen Sie die folgenden Schritte.
+
+13
+00:01:18,970 --> 00:01:21,810
+Wählen Sie „ffmpeg“ aus dem Ziel-Dropdown-Menü.
+
+14
+00:01:23,100 --> 00:01:25,180
+Der „Parameter“-Knopf wird aktiv.
+
+15
+00:01:25,720 --> 00:01:30,430
+Klicken Sie ihn an, um einen weiteren Konfigurations-Dialog zu öffnen, in dem Sie den Video-Codec…
+
+16
+00:01:32,640 --> 00:01:33,850
+…sowie die Bitrate wählen können.
+
+17
+00:01:35,970 --> 00:01:41,020
+In unserem Fall sind wir glücklich mit den Standard-Werten, also lassen wir alles, wie es ist.
+
+18
+00:01:43,560 --> 00:01:47,970
+Im unteren Bereich des Dialoges können wir Einstellungen wie die Bildbreite und -höhe bestimmen.
+
+19
+00:01:48,470 --> 00:01:52,560
+Wechseln Sie zum „Zeit“-Reiter, um die Zeitspanne festzulegen, die gerendert werden soll.
+
+20
+00:01:53,930 --> 00:02:01,680
+Nun ist alles bereit, klicken Sie also einfach auf „Render“ und warten Sie, bis die Meldung „Datei erfolgreich gerendert“ am unteren Rand der Arbeitsfläche ausgegeben wird.
+
+21
+00:02:04,220 --> 00:02:07,350
+Die fertige Datei wurde im vorher festgelegten Verzeichnis gespeichert.
+
+22
+00:02:15,860 --> 00:02:21,020
+Um das Projekt als animiertes gif zu rendern, hängen Sie „.gif“ als Dateinamens-Erweiterung an den Dateinamen an…
+
+23
+00:02:23,220 --> 00:02:27,390
+…und wählen Sie „macgick++“ aus dem Ziel-Dropdown-Menü.
+
+24
+00:02:31,060 --> 00:02:34,180
+Lassen Sie uns das erstellte gif am festgelegten Speicherort überprüfen.
+
+25
+00:02:40,930 --> 00:02:44,730
+Wenn Sie das aktuelle Bild als einzelnes PNG-Bild rendern möchten…
+
+26
+00:02:44,850 --> 00:02:48,930
+…ändern Sie die Dateinamens-Erweiterung in „.png“…
+
+27
+00:02:53,660 --> 00:02:56,930
+dann ändern Sie das Ziel in „Auto“…
+
+28
+00:02:57,800 --> 00:03:03,900
+…und aktivieren Sie das „Nur das aktuelle Bild rendern“ Kontrollkästchen.
+
+29
+00:03:05,640 --> 00:03:07,660
+Und hier ist das Ergebnis.
+
+30
+00:03:12,680 --> 00:03:20,930
+Zu guter Letzt zeige ich Ihnen eine Render-Methode, die häufig im professionellen Bereich verwendet wird, wenn Animationen erstellt werden, die ihre Hintergrund-Transparenz behalten sollen.
+
+31
+00:03:21,060 --> 00:03:29,140
+Ein transparenter Hintergrund erlaubt es uns, Animationen mit anderen Clips zu kombinieren oder sie mit weiteren Effekten in entsprechenden Bearbeitungs- oder Compositing-Anwendungen zu erweitern.
+
+32
+00:03:29,810 --> 00:03:34,060
+In diesem Fall wird das Rendern in Form einer Reihe von PNG-Dateien durchgeführt.
+
+33
+00:03:36,060 --> 00:03:43,600
+Die Einstellungen sind die gleichen wie beim Rendern als Einzelbild, außer dass das „Nur das aktuelle Bild rendern“ Kontrollkästchen nicht angehakt sein darf.
+
+34
+00:03:44,180 --> 00:03:46,900
+Klicken Sie auf „Rendern“ und warten Sie ab.
+
+35
+00:03:47,680 --> 00:03:51,770
+Diese Methode nutzt außerdem eine verlustfreie Kompression…
+
+36
+00:03:52,430 --> 00:03:59,530
+…sodass sie eine gute Option darstellt, wenn Ihr Video-Bearbeitungsprogramm das H.264-Format nicht unterstützt.
+
+37
+00:04:00,400 --> 00:04:05,260
+Das Ergebnis ist eine Reihe von Bildern, die nun in einem nicht linearen Video-Bearbeitungsprogramm verwendet werden können.
+

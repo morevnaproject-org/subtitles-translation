@@ -1,0 +1,212 @@
+1
+00:00:00,740 --> 00:00:02,560
+Lesson 4: "Advanced Rig".
+
+2
+00:00:03,700 --> 00:00:06,740
+So we have made a triangulation of our character...
+
+3
+00:00:06,820 --> 00:00:09,120
+...and now we need to create a skeleton.
+
+4
+00:00:09,760 --> 00:00:13,040
+First of all, create a bone and arrange it on the body.
+
+5
+00:00:13,700 --> 00:00:17,640
+Then, divide this bone into a several parts.
+
+6
+00:00:18,020 --> 00:00:21,000
+To do that, press "W"...
+
+7
+00:00:21,100 --> 00:00:24,500
+And choose "Subdivide".
+
+8
+00:00:24,720 --> 00:00:27,520
+Use the menu on the left to increase the count of parts.
+
+9
+00:00:29,860 --> 00:00:34,100
+The first bone will be responsible for moving the whole rig.
+
+10
+00:00:35,180 --> 00:00:38,380
+The second bone - for bending waist area.
+
+11
+00:00:38,500 --> 00:00:40,220
+The third one - for the chest area...
+
+12
+00:00:40,280 --> 00:00:42,140
+...and the fourth bone - for the neck.
+
+13
+00:00:47,800 --> 00:00:50,920
+Let's make two more bones for shoulders.
+
+14
+00:00:51,340 --> 00:00:54,740
+It will be faster to duplicate the neck bone...
+
+15
+00:00:54,820 --> 00:00:57,680
+...because they will be automatically linked to the body.
+
+16
+00:01:01,200 --> 00:01:03,340
+And then, we create three bones for the arms.
+
+17
+00:01:03,600 --> 00:01:06,940
+The first bone is from the shoulder to the elbow...
+
+18
+00:01:07,080 --> 00:01:09,300
+...the second - from the elbow to the wrist...
+
+19
+00:01:09,520 --> 00:01:11,820
+...and the third - is for the wrist itself.
+
+20
+00:01:26,020 --> 00:01:30,100
+Let me also remind you that we need to create bones for eyes.
+
+21
+00:01:30,160 --> 00:01:31,980
+Duplicate any bone...
+
+22
+00:01:32,100 --> 00:01:34,480
+...and put it over the first eye...
+
+23
+00:01:44,160 --> 00:01:45,580
+...then over the other...
+
+24
+00:01:46,680 --> 00:01:48,460
+...and one more bone between them.
+
+25
+00:01:48,500 --> 00:01:51,560
+Now bind the eye bones to the central bone...
+
+26
+00:01:51,620 --> 00:01:53,760
+...and the central bone - to the head bone.
+
+27
+00:02:22,180 --> 00:02:25,520
+The next step is linking the character to the skeleton.
+
+28
+00:02:25,960 --> 00:02:28,120
+You already know how to do that from previous lessons...
+
+29
+00:02:28,140 --> 00:02:31,240
+But that method only works for the parts...
+
+30
+00:02:31,340 --> 00:02:32,860
+...which are not expected to bend.
+
+31
+00:02:32,940 --> 00:02:36,680
+In general those are: eyes, hands, a mouth and eyelids.
+
+32
+00:02:36,860 --> 00:02:39,980
+For everything else we will use another method - ...
+
+33
+00:02:40,100 --> 00:02:42,800
+...linking "With Automatic Weights".
+
+34
+00:02:43,460 --> 00:02:46,160
+Before linking any part...
+
+35
+00:02:46,340 --> 00:02:48,760
+...we have to turn off the skeleton deformation.
+
+36
+00:02:50,400 --> 00:02:52,020
+Select the whole skeleton...
+
+37
+00:02:52,080 --> 00:02:55,760
+...then press Shift + W...
+
+38
+00:02:56,380 --> 00:02:57,820
+...next, choose "Deform"...
+
+39
+00:02:59,620 --> 00:03:02,480
+...and select "Disable" in pull-down menu at the bottom left.
+
+40
+00:03:08,200 --> 00:03:11,700
+After that pick the mesh and then the corresponding bones...
+
+41
+00:03:11,880 --> 00:03:14,000
+...which will be linked.
+
+42
+00:03:14,180 --> 00:03:16,240
+Then press Shift + W...
+
+43
+00:03:16,560 --> 00:03:17,560
+...next - "Deform"...
+
+44
+00:03:18,660 --> 00:03:20,620
+...and choose "Enable".
+
+45
+00:03:23,560 --> 00:03:25,500
+Then Ctrl + P...
+
+46
+00:03:25,500 --> 00:03:29,160
+...and choose "With Automatic Weights" in the pull-down menu.
+
+47
+00:03:32,220 --> 00:03:34,980
+Done. The part is linked.
+
+48
+00:03:35,280 --> 00:03:38,820
+Now do the same steps for other parts.
+
+49
+00:03:38,860 --> 00:03:42,360
+Don't forget about turning the deformation off.
+
+50
+00:04:01,760 --> 00:04:06,220
+Keep in mind, if you do not plan to bend a part...
+
+51
+00:04:06,220 --> 00:04:10,960
+...then you don't need to create a mesh for it and it's better to link the bones using the method from previous lessons.
+
+52
+00:04:29,100 --> 00:04:33,240
+When you have everything done, turn on deformation of the skeleton...
+
+53
+00:04:33,240 --> 00:04:35,600
+...otherwise, nothing will work.
+

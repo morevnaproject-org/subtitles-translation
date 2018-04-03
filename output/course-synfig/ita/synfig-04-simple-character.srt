@@ -1,0 +1,320 @@
+1
+00:00:00,830 --> 00:00:03,730
+#4: Un semplice personaggio
+
+2
+00:00:05,620 --> 00:00:09,360
+In questa lezione realizzeremo un semplice personaggio per un'animazione.
+
+3
+00:00:11,040 --> 00:00:15,800
+Apri la cartella personaggio-1. Ci troverai un'immagine del nostro personaggio.
+
+4
+00:00:17,740 --> 00:00:24,200
+Il modo più semplice per creare un'animazione è quello di scomporre il personaggio in pezzi e ricomporlo con Synfig Studio
+
+5
+00:00:24,760 --> 00:00:27,430
+... quindi otteniamo qualcosa di simile a un burattino di carta.
+
+6
+00:00:27,860 --> 00:00:30,740
+Puoi usare qualsiasi editor di immagini per ritagliare il personaggio.
+
+7
+00:00:31,440 --> 00:00:38,830
+The GIMP o Krita vanno benissimo per questo scopo - entrambi sono software gratuiti, quindi puoi scaricarli e usarli a costo zero.
+
+8
+00:00:42,230 --> 00:00:47,800
+Quando ritagli la tua immagine nei vari pezzi, assicurati che abbiano qualche area sovrapponibile vicino alle giunzioni ...
+
+9
+00:00:48,000 --> 00:00:50,600
+... come un burattino di carta nel mondo reale.
+
+10
+00:00:50,680 --> 00:00:55,860
+Veramente, si potrebbe ritagliare bene l'immagine anche in Synfig, ma riparleremo di questo un'altra volta.
+
+11
+00:00:56,000 --> 00:01:01,700
+Ora il nostro scopo principale è quello di imparare a realizzare il personaggio, quindi per ora non ci fermeremo in dettaglio sul processo di ritaglio.
+
+12
+00:01:01,700 --> 00:01:05,360
+Nella cartella personaggio-1 troverai i pezzi già ritagliati con cui lavorare.
+
+13
+00:01:05,560 --> 00:01:08,770
+Ecco che abbiamo un corpo, un braccio, una testa e una gamba.
+
+14
+00:01:08,820 --> 00:01:12,220
+Un braccio e una gamba vanno bene, perché si possono copiare in modo simmetrico, a specchio.
+
+15
+00:01:12,840 --> 00:01:16,360
+Nota che ogni immagine deve avere uno sfondo trasparente ...
+
+16
+00:01:16,600 --> 00:01:19,560
+... questo perché vanno salvate tutte in formato PNG.
+
+17
+00:01:20,940 --> 00:01:24,120
+Allora, cominciamo. Scegli "File" -> "Importa".
+
+18
+00:01:25,810 --> 00:01:31,820
+Trova la posizione del file di esempio, vai alla cartella "personaggio-1" e importa il primo file.
+
+19
+00:01:32,900 --> 00:01:39,700
+A proposito, gli utenti di MS Windows e Linux possono importare immagini trascinandole da un file manager fin dentro l'area di lavoro.
+
+20
+00:01:40,270 --> 00:01:45,730
+In questo modo si possono selezionare più file in una sola volta e aggiungerli tutti insieme.
+
+21
+00:01:50,430 --> 00:01:52,440
+Quindi, abbiamo qui tutte le parti.
+
+22
+00:01:52,850 --> 00:01:56,030
+Occorre cambiare le loro dimensioni per adattarle allo schermo.
+
+23
+00:01:56,160 --> 00:02:00,770
+Naturalmente, si può scalare un pezzo per volta, ma c'è un modo migliore per far questo.
+
+24
+00:02:01,100 --> 00:02:06,520
+In Synfig Studio si possono raggruppare insieme alcuni livelli e trasformarli in un singolo oggetto.
+
+25
+00:02:06,810 --> 00:02:09,300
+Selezioniamo i livelli da raggruppare.
+
+26
+00:02:09,460 --> 00:02:14,230
+Puoi selezionare più livelli tenendo premuto il tasto Ctrl.
+
+27
+00:02:15,760 --> 00:02:21,200
+Si possono anche selezionare alcuni livelli in gruppo tenendo premuto il tasto Shift.
+
+28
+00:02:26,420 --> 00:02:28,160
+Ora, fai click su questo tasto.
+
+29
+00:02:30,020 --> 00:02:35,060
+Proprio come per il livello immagine, il gruppo ha delle maniglie per controllare la sua trasformazione.
+
+30
+00:02:41,120 --> 00:02:44,000
+Adesso mettiamo tutte le parti al loro posto.
+
+31
+00:02:44,160 --> 00:02:47,040
+Meglio prima lasciarle da parte per conto loro, così.
+
+32
+00:02:47,160 --> 00:02:49,900
+E rimettiamole di nuovo insieme.
+
+33
+00:03:04,560 --> 00:03:07,220
+Bene, ora occorre cambiare l'ordine dei livelli.
+
+34
+00:03:13,720 --> 00:03:17,860
+Adesso vedremo come si crea una copia simmetrica del braccio.
+
+35
+00:03:17,970 --> 00:03:20,940
+Prima cosa, selezioniamo il gruppo braccio e duplichiamolo.
+
+36
+00:03:21,180 --> 00:03:27,260
+Per duplicare un gruppo, premere questo tasto o click tasto destro del mouse sul livello e scegliere dal menu "Duplicate Layer".
+
+37
+00:03:31,520 --> 00:03:34,460
+Ecco un braccio, Ora ne dobbiamo fare uno simmetrico.
+
+38
+00:03:34,800 --> 00:03:39,860
+Basta trascinare questa maniglia fino al lato opposto. Così.
+
+39
+00:03:42,060 --> 00:03:46,860
+Quando si trascina la maniglia, prova a metterla alla stessa distanza dal punto centrale ...
+
+40
+00:03:47,130 --> 00:03:49,730
+... altrimenti le proporzioni saranno distorte.
+
+41
+00:03:50,000 --> 00:03:53,900
+Certo, non è ancora preciso al 100%, ma in questo caso non sarà importante.
+
+42
+00:03:54,640 --> 00:04:00,280
+Se però occorre una precisione spinta, allora si può creare una copia simmetrica editando a mano i valori di trasformazione.
+
+43
+00:04:00,900 --> 00:04:03,630
+Facciamo una prova con una gamba.
+
+44
+00:04:10,850 --> 00:04:15,600
+Nel quadro Parameters, trova il parametro "Transformation" ed espandilo.
+
+45
+00:04:18,020 --> 00:04:22,230
+Qui puoi vedere una lista di trasformazioni disponibili per il livello immagine.
+
+46
+00:04:22,310 --> 00:04:25,100
+Occorre editare il sub-parametro "Scale".
+
+47
+00:04:29,100 --> 00:04:36,060
+Per creare una gamba simmetrica rispetto all'asse orizzontale, occorre far precedere con il segno meno il valore dell'asse X.
+
+48
+00:04:37,020 --> 00:04:39,730
+Premere il tasto "Enter" per due volte.
+
+49
+00:04:40,740 --> 00:04:45,730
+Vedi, la gamba è stata realizzata con simmetria proporzionale.
+
+50
+00:04:47,970 --> 00:04:50,840
+Ottimo, il personaggio ora è del tutto completato.
+
+51
+00:04:51,430 --> 00:04:55,160
+Proviamo a fargli cambiare posa - per esempio, alzare un braccio.
+
+52
+00:04:57,680 --> 00:05:01,560
+Come si vede, si distacca dal resto del corpo e occorre correggerlo a mano.
+
+53
+00:05:03,930 --> 00:05:07,760
+Si può correggere questo andamento cambiando il centro di rotazione del braccio.
+
+54
+00:05:08,350 --> 00:05:11,660
+Fai clic sulla maniglia verde.
+
+55
+00:05:11,890 --> 00:05:15,900
+Tieni premuto il tasto Ctrl e trascina.
+
+56
+00:05:16,100 --> 00:05:18,060
+Qui.
+
+57
+00:05:18,220 --> 00:05:22,900
+Ora il centro è nel posto giusto, quindi puoi far muovere il braccio senza problemi.
+
+58
+00:05:23,770 --> 00:05:26,960
+Adesso adattiamo i centri di rotazione per le parti rimanenti.
+
+59
+00:05:50,390 --> 00:05:53,640
+Sarebbe simpatico se il nostro personaggio potesse ruotare il corpo.
+
+60
+00:05:54,220 --> 00:05:59,860
+Se ora facciamo ruotare il corpo, la testa e le braccia rimarranno nella loro posizione iniziale, il che naturalmente è un difetto.
+
+61
+00:06:00,310 --> 00:06:04,000
+Tutte le parti dovrebbero muoversi nel loro insieme.
+
+62
+00:06:04,350 --> 00:06:08,160
+La soluzione è semplice - devi solo raggruppare le braccia, la testa e il corpo.
+
+63
+00:06:08,930 --> 00:06:10,620
+Seleziona i livelli ...
+
+64
+00:06:18,720 --> 00:06:20,800
+Ora seleziona il gruppo ...
+
+65
+00:06:21,060 --> 00:06:24,230
+E sposta il centro di rotazione...
+
+66
+00:06:25,980 --> 00:06:29,700
+Quindi ora funziona tutto.
+
+67
+00:06:32,020 --> 00:06:36,330
+Per lasciare le cose in ordine, chiameremo questo gruppo "ragazzo"...
+
+68
+00:06:37,430 --> 00:06:40,700
+... e questo - "corpo".
+
+69
+00:06:41,560 --> 00:06:43,480
+E un'ultima cosa da segnalare.
+
+70
+00:06:43,680 --> 00:06:46,860
+Facciamo clic da qualche parte all'esterno per rimuovere la selezione.
+
+71
+00:06:46,900 --> 00:06:51,560
+Poi fai clic in ogni parte del personaggio, che appartenga al gruppo "corpo".
+
+72
+00:06:53,180 --> 00:06:59,000
+Nota che quando si clicca, viene selezionato il contenuto del gruppo, ma non il gruppo di per sé.
+
+73
+00:06:59,040 --> 00:07:00,900
+Questo non sempre è da desiderare.
+
+74
+00:07:00,940 --> 00:07:05,520
+A volte si vuole che il gruppo sia selezionato quando si clicca in qualsiasi sua parte nell'area di lavoro.
+
+75
+00:07:05,860 --> 00:07:10,860
+Questo perché ogni gruppo ha uno speciale parametro, detto "Lock Selection"
+
+76
+00:07:12,680 --> 00:07:17,460
+Qui, se la attiviamo, allora cliccando su ogni parte del gruppo si selezionerà il gruppo stesso.
+
+77
+00:07:18,000 --> 00:07:21,030
+Come questo.
+
+78
+00:07:24,000 --> 00:07:30,000
+Al tempo stesso, si può ancora selezionare qualsiasi elemento di un gruppo espandendolo nel Pannello Layers.
+
+79
+00:07:31,860 --> 00:07:36,930
+Adesso non serve bloccare la selezione del gruppo "corpo", quindi disattiviamola.
+
+80
+00:07:41,040 --> 00:07:44,700
+Quindi, il nostro personaggio è pronto ! Salviamo il file.
+

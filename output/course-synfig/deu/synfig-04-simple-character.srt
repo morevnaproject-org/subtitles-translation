@@ -1,0 +1,320 @@
+1
+00:00:00,830 --> 00:00:03,730
+#4: Eine einfache Figur
+
+2
+00:00:05,620 --> 00:00:09,360
+In dieser Einheit werden wir eine einfache Figur für die  Animation vorbereiten.
+
+3
+00:00:11,040 --> 00:00:15,800
+Öffnen Sie den Ordner „character-1“. Dort finden Sie ein Bild unserer Figur.
+
+4
+00:00:17,740 --> 00:00:24,200
+Der einfachste Weg, eine Animation zu erstellen, ist, die Figur in Einzelteile zu zerschneiden und diese in Synfig Studio wieder zusammenzusetzen
+
+5
+00:00:24,760 --> 00:00:27,430
+…auf diese Weise erhalten wir so etwas wie eine Papierpuppe.
+
+6
+00:00:27,860 --> 00:00:30,740
+Sie können ein beliebiges Bildbearbeitungsprogramm verwenden, um die Figur zu zerschneiden.
+
+7
+00:00:31,440 --> 00:00:38,830
+GIMP oder Krita eignen sich für diese Aufgabe besonders – beide sind freie Software, Sie können sie also kostenlos herunterladen und verwenden.
+
+8
+00:00:42,230 --> 00:00:47,800
+Wenn Sie die Figur zerschneiden, stellen Sie sicher, dass sich die Bereiche an den Gelenken etwas überschneiden…
+
+9
+00:00:48,000 --> 00:00:50,600
+…wie bei einer echten Papierpuppe.
+
+10
+00:00:50,680 --> 00:00:55,860
+Eigentlich können Sie Ihr das Bild auch direkt in Synfig zerschneiden, doch dazu kommen wir an anderer Stelle.
+
+11
+00:00:56,000 --> 00:01:01,700
+Jetzt ist unser Ziel zu lernen, wie wir die Figur zusammensetzen, daher kümmere ich mich jetzt nicht um den Schneidevorgang.
+
+12
+00:01:01,700 --> 00:01:05,360
+Im Ordner „character-1“ finden Sie auch bereits geschnittene Teile, mit denen wir arbeiten können.
+
+13
+00:01:05,560 --> 00:01:08,770
+Hier haben wir einen Körper, einen Arm, einen Kopf und ein Bein.
+
+14
+00:01:08,820 --> 00:01:12,220
+Ein Arm und ein Bein genügen, da wir sie spiegeln können.
+
+15
+00:01:12,840 --> 00:01:16,360
+Beachten Sie bitte, dass jedes Bild einen transparenten Hintergrund haben muss…
+
+16
+00:01:16,600 --> 00:01:19,560
+…daher sind alle Dateien im PNG-Format gespeichert.
+
+17
+00:01:20,940 --> 00:01:24,120
+Also, lassen Sie uns anfangen. Wählen Sie „Datei“ -> „importieren“.
+
+18
+00:01:25,810 --> 00:01:31,820
+Suchen Sie den Speicherort der Beispieldateien, wechseln Sie in den Ordner „character-1“ und importieren Sie die erste Datei.
+
+19
+00:01:32,900 --> 00:01:39,700
+Übrigens können Windows- und Linux-Nutzer Bilder importieren, indem sie sie aus dem Dateimanager auf die Arbeitsfläche ziehen.
+
+20
+00:01:40,270 --> 00:01:45,730
+Auf diesem Weg können Sie mehrere Dateien auf einmal auswählen und alle zugleich importieren.
+
+21
+00:01:50,430 --> 00:01:52,440
+So, hier haben wir alle Teile.
+
+22
+00:01:52,850 --> 00:01:56,030
+Wir müssen ihre Größe ändern, damit sie auf den Bildschirm passen.
+
+23
+00:01:56,160 --> 00:02:00,770
+Wir könnten natürlich jedes Teil einzeln skalieren, aber es gibt einen besseren Weg, das zu erreichen.
+
+24
+00:02:01,100 --> 00:02:06,520
+In Synfig Studio können wir mehrere Ebenen gruppieren und sie als ein einzelnes Objekt verformen.
+
+25
+00:02:06,810 --> 00:02:09,300
+Wählen wir die Ebenen aus, die wir gruppieren wollen.
+
+26
+00:02:09,460 --> 00:02:14,230
+Sie können mehrere Ebenen auswählen, indem Sie die Strg-Taste gedrückt halten.
+
+27
+00:02:15,760 --> 00:02:21,200
+Genauso können Sie mehrere Ebenen hintereinander auswählen, indem Sie die Shift-Taste gedrückt halten.
+
+28
+00:02:26,420 --> 00:02:28,160
+Klicken Sie jetzt auf diesen Knopf.
+
+29
+00:02:30,020 --> 00:02:35,060
+Ähnlich den Bild-Ebenen haben Gruppen ebenfalls Griffe, um Veränderung daran zu steuern.
+
+30
+00:02:41,120 --> 00:02:44,000
+Lassen Sie uns nun alle Teile an ihren Platz verschieben.
+
+31
+00:02:44,160 --> 00:02:47,040
+Es ist besser, sie zuerst beiseite zu schieben, etwa so.
+
+32
+00:02:47,160 --> 00:02:49,900
+Dann fügen Sie sie wieder zusammen.
+
+33
+00:03:04,560 --> 00:03:07,220
+OK, jetzt müssen wir die Reihenfolge der Ebenen verändern.
+
+34
+00:03:13,720 --> 00:03:17,860
+Jetzt zeige ich, wie Sie eine gespiegelte Kopie des Armes erzeugen.
+
+35
+00:03:17,970 --> 00:03:20,940
+Dazu wählen wir zuerst die Arm-Gruppe aus und duplizieren diese.
+
+36
+00:03:21,180 --> 00:03:27,260
+Um eine Gruppe zu duplizieren, klicken Sie auf diesen Button oder Klicken Sie rechts auf die Ebene und wählen Sie „Ebene duplizieren“ aus dem Menü.
+
+37
+00:03:31,520 --> 00:03:34,460
+Hier ist ein Arm. Jetzt müssen wir ihn spiegeln.
+
+38
+00:03:34,800 --> 00:03:39,860
+Ziehen Sie einfach diesen Griff auf die gegenüberliegende Seite. So.
+
+39
+00:03:42,060 --> 00:03:46,860
+Wenn Sie an dem Griff ziehen, versuchen Sie ihn im gleichen Abstand zur Mitte zu platzieren…
+
+40
+00:03:47,130 --> 00:03:49,730
+…sonst werden die Proportionen verzerrt.
+
+41
+00:03:50,000 --> 00:03:53,900
+Das ist natürlich nicht 100% sauber, aber in diesem Fall wird es kaum auffallen.
+
+42
+00:03:54,640 --> 00:04:00,280
+Wenn Sie jedoch perfekte Genauigkeit benötigen, können Sie eine Spiegelung über die manuelle Veränderung der Änderungs-Werte erzeugen.
+
+43
+00:04:00,900 --> 00:04:03,630
+Versuchen wir es mit dem Bein.
+
+44
+00:04:10,850 --> 00:04:15,600
+Suchen Sie den „Änderung“-Parameter im Parameter-Reiter und erweitern Sie ihn.
+
+45
+00:04:18,020 --> 00:04:22,230
+Hier können Sie eine Reihe an Änderungen sehen, die für Bild-Ebenen zur Verfügung stehen.
+
+46
+00:04:22,310 --> 00:04:25,100
+Wir müssen den „Skalieren“-Sub-Parameter verändern.
+
+47
+00:04:29,100 --> 00:04:36,060
+Um das Bein entlang der horizontalen Achse zu spiegeln, müssen wir den X-Achsen-Wert mit einem Minuszeichen versehen.
+
+48
+00:04:37,020 --> 00:04:39,730
+Drücken Sie zweimal „Enter“.
+
+49
+00:04:40,740 --> 00:04:45,730
+Das Bein wurde mit den richtigen Proportionen gespiegelt.
+
+50
+00:04:47,970 --> 00:04:50,840
+Großartig, die Figur ist vollständig zusammengesetzt.
+
+51
+00:04:51,430 --> 00:04:55,160
+Versuchen wir, ihre Haltung zu verändern – heben wir zum Beispiel ihren Arm.
+
+52
+00:04:57,680 --> 00:05:01,560
+Wie Sie sehen, reißt er vom Körper ab und Sie müssen ihn von Hand ausrichten.
+
+53
+00:05:03,930 --> 00:05:07,760
+Das können wir beheben, indem wir den Rotationspunkt des Armes ändern.
+
+54
+00:05:08,350 --> 00:05:11,660
+Klicken Sie den grünen Griff.
+
+55
+00:05:11,890 --> 00:05:15,900
+Halten Sie die Strg-Taste gedrückt und ziehen Sie an ihm.
+
+56
+00:05:16,100 --> 00:05:18,060
+So.
+
+57
+00:05:18,220 --> 00:05:22,900
+Nun ist der Rotationspunkt an der richtigen Stelle, sodass Sie den Arm problemlos bewegen können.
+
+58
+00:05:23,770 --> 00:05:26,960
+Stellen wir die Rotationspunkte für die übrigen Körperteile ein.
+
+59
+00:05:50,390 --> 00:05:53,640
+Es wäre interessant, wenn unsere Figur ihren Körper drehen könnte.
+
+60
+00:05:54,220 --> 00:05:59,860
+Wenn wir den Körper jetzt drehen, blieben der Kopf und die Arme in ihrer ursprünglichen Position, was offensichtlich falsch ist.
+
+61
+00:06:00,310 --> 00:06:04,000
+Alle Teile sollten sich gemeinsam bewegen.
+
+62
+00:06:04,350 --> 00:06:08,160
+Die Lösung ist einfach – Sie müssen lediglich Arme, Kopf und Körper gruppieren.
+
+63
+00:06:08,930 --> 00:06:10,620
+Wählen Sie die Ebenen aus…
+
+64
+00:06:18,720 --> 00:06:20,800
+Wählen Sie nun die Gruppe aus…
+
+65
+00:06:21,060 --> 00:06:24,230
+und bewegen Sie den Rotationspunkt…
+
+66
+00:06:25,980 --> 00:06:29,700
+Jetzt funktioniert alles.
+
+67
+00:06:32,020 --> 00:06:36,330
+Damit alles seine Ordnung hat, nennen wir diese Gruppe „Junge“…
+
+68
+00:06:37,430 --> 00:06:40,700
+…und diese hier – „Körper“.
+
+69
+00:06:41,560 --> 00:06:43,480
+Eine letzte Anmerkung noch:
+
+70
+00:06:43,680 --> 00:06:46,860
+Klicken wir irgendwo an den Rand, um die Auswahl aufzuheben.
+
+71
+00:06:46,900 --> 00:06:51,560
+Klicken Sie dann ein beliebiges Körperteil der Figur an, das zur Gruppe „Körper“ gehört.
+
+72
+00:06:53,180 --> 00:06:59,000
+Sie sehen, dass dort, wo Sie geklickt haben, der Teil der Gruppe ausgewählt wurde, jedoch nicht die Gruppe selbst.
+
+73
+00:06:59,040 --> 00:07:00,900
+Das ist nicht immer das, was man möchte.
+
+74
+00:07:00,940 --> 00:07:05,520
+Manchmal möchten wir, dass die Gruppe ausgewählt wird, wenn wir einen Teil von Ihr auf der Arbeitsfläche anklicken.
+
+75
+00:07:05,860 --> 00:07:10,860
+Daher hat jede Gruppe einen besonderen Parameter der „Auswahl sperren“ genannt ist.
+
+76
+00:07:12,680 --> 00:07:17,460
+Wenn wir diesen aktivieren, wählt ein Klick auf ein beliebiges Teil der Gruppe die Gruppe selbst aus.
+
+77
+00:07:18,000 --> 00:07:21,030
+So wie hier.
+
+78
+00:07:24,000 --> 00:07:30,000
+Gleichzeitig können wir immer noch jedes einzelne Teil der Gruppe auswählen, indem wir sie in der Ebenen-Leiste ausklappen.
+
+79
+00:07:31,860 --> 00:07:36,930
+Momentan müssen wir die Auswahl der „Körper“-Gruppe nicht sperren, daher stellen wir ihn wieder ab.
+
+80
+00:07:41,040 --> 00:07:44,700
+Nun ist unsere Figur bereit! Speichern wir unsere Datei.
+

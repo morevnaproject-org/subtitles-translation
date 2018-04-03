@@ -1,0 +1,208 @@
+1
+00:00:00,600 --> 00:00:02,860
+#9: Cycle de Marche
+
+2
+00:00:05,300 --> 00:00:10,000
+Donc nous avons les trois premiers pas de la marche de notre personnage.
+
+3
+00:00:10,200 --> 00:00:13,000
+Je devine que vous savez comment continuer cela.
+
+4
+00:00:13,260 --> 00:00:18,100
+Mais je parie que dans la plupart des cas vous voudriez éviter des efforts et créer un cycle de marche en boucle.
+
+5
+00:00:18,260 --> 00:00:20,800
+Alors regardons comment nous y prendre.
+
+6
+00:00:20,960 --> 00:00:25,380
+Visiblement, nous avons besoin de faire une boucle sur l'intervalle des trames 0 à 32.
+
+7
+00:00:25,600 --> 00:00:30,660
+Mais nous excluons la trame numéro 32, puisqu'elle est exactement la même que la trame 0.
+
+8
+00:00:30,860 --> 00:00:33,960
+Nous ne voulons pas la répéter deux fois, n'est-ce pas ?
+
+9
+00:00:37,260 --> 00:00:41,200
+Nous devons donc faire marcher le personnage sur place.
+
+10
+00:00:41,380 --> 00:00:44,200
+C'est la position de la jambe de devant.
+
+11
+00:00:44,400 --> 00:00:48,200
+Maintenant à la trame 32 nous voulons déplacer l'ensemble du groupe en arrière...
+
+12
+00:00:48,360 --> 00:00:52,600
+... donc la jambe avant s'aligne avec sa position originale.
+
+13
+00:00:53,940 --> 00:00:58,620
+Oups, le cercle marqueur est dans le même groupe que le personnage...
+
+14
+00:00:58,720 --> 00:01:02,100
+Créons-en un en dehors de celui-ci.
+
+15
+00:01:15,080 --> 00:01:18,400
+Et maintenant nous pouvons déplacer le groupe.
+
+16
+00:01:23,260 --> 00:01:28,460
+Notez qu'à cause des keyframes, nous avons un waypoint supplémentaire ICI.
+
+17
+00:01:28,920 --> 00:01:32,060
+Mais nous avons besoin que le départ de l'ensemble du mouvement se fasse depuis 0.
+
+18
+00:01:32,120 --> 00:01:35,460
+Corrigeons cela.
+
+19
+00:01:38,340 --> 00:01:42,200
+Et ce dernier waypoint devrait être enlevé.
+
+20
+00:01:43,820 --> 00:01:48,600
+C'est fait ! Maintenant notre gars marche sur place jusqu'à la trame 32.
+
+21
+00:01:49,260 --> 00:01:55,160
+Et nous ne nous préoccupons pas de ce qui se passe après cela car je vais ajouter maintenant un calque Time Loop.
+
+22
+00:01:55,430 --> 00:01:59,360
+Mais d'abord, nous devons comprendre les calques filtres.
+
+23
+00:01:59,560 --> 00:02:03,660
+D'habitude les calques sont utilisés pour afficher quelque chose dans la surface de travail: ...
+
+24
+00:02:03,780 --> 00:02:08,830
+cercle, rectangle, dessin en bitmap, etc.
+
+25
+00:02:09,020 --> 00:02:14,860
+Mais dans Synfig il y a des calques spéciaux qui changent l'apparence (ou le comportement ) des calques sous-jacents.
+
+26
+00:02:15,080 --> 00:02:17,960
+Ils sont appellés Filter Layers (ou Calques Filtres).
+
+27
+00:02:18,180 --> 00:02:20,730
+Laissez-moi vous faire une démonstration.
+
+28
+00:02:20,840 --> 00:02:25,200
+Créez deux cercles. Un bleu et un rouge.
+
+29
+00:02:28,060 --> 00:02:30,660
+Sélectionnez le cercle du haut...
+
+30
+00:02:30,800 --> 00:02:34,560
+...cliquez-droit dessus et choisissez "New Layer".
+
+31
+00:02:36,520 --> 00:02:40,060
+Choisissez le calque filtre "Blur".
+
+32
+00:02:41,080 --> 00:02:44,430
+Surprise, tout est devenu flou.
+
+33
+00:02:44,700 --> 00:02:47,600
+Nous pouvons ajuster le niveau de flou dans le panneau Paramètres...
+
+34
+00:02:47,840 --> 00:02:51,860
+...ou directement dans le canevas en déplaçant ce point.
+
+35
+00:02:57,600 --> 00:03:01,400
+Les calques filtres affectent seulement les calques situés en-dessous d'eux.
+
+36
+00:03:01,660 --> 00:03:05,430
+Si l'on déplace le calque de flou vers le bas
+
+37
+00:03:06,660 --> 00:03:10,300
+Voyez, maintenant seul le cercle rouge est flouté.
+
+38
+00:03:11,930 --> 00:03:16,000
+Mais si l'on a envie de flouter seulement le cercle bleu qui est au-dessus...
+
+39
+00:03:16,160 --> 00:03:19,000
+...et garder le rouge inchangé ?
+
+40
+00:03:19,400 --> 00:03:26,030
+Pour faire cela, déplacez juste le calque vers le haut, au-dessus du cercle bleu, et groupez-les ensemble.
+
+41
+00:03:29,760 --> 00:03:33,980
+Alors vous le voyez, les filtres affectent seulement les calques dans le même groupe.
+
+42
+00:03:34,100 --> 00:03:37,530
+Dans le menu "New Layer" nous avons plein de calques filtres...
+
+43
+00:03:37,720 --> 00:03:43,360
+... de nombreuses distortions différentes et autres effets intéressants.
+
+44
+00:03:44,530 --> 00:03:47,930
+Maintenant nous avons besoin d'un calque Time Loop.
+
+45
+00:03:48,040 --> 00:03:53,500
+Ce calque prend un fragment de l'animation depuis les calques en-dessous et les répète continuellement.
+
+46
+00:03:53,620 --> 00:03:57,460
+Retournons à notre personnage.
+
+47
+00:03:57,730 --> 00:04:00,330
+Désactivons le Mode Animation...
+
+48
+00:04:00,480 --> 00:04:04,560
+Ajoutons maintenant un calque Time Loop.
+
+49
+00:04:07,860 --> 00:04:11,000
+Définissons sa Durée à 31.
+
+50
+00:04:11,160 --> 00:04:15,900
+Comme vous vous souvenez probablement nous n'avons pas besoin d'inclure la trame numéro 32.
+
+51
+00:04:18,100 --> 00:04:22,630
+Maintenant tout est prêt et nous avons un cycle de marche sans fin.
+
+52
+00:04:30,220 --> 00:04:33,160
+Enregistrons le fichier.
+

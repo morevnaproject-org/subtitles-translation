@@ -1,0 +1,236 @@
+1
+00:00:02,200 --> 00:00:03,120
+So...
+
+2
+00:00:03,260 --> 00:00:07,480
+In the last lesson we completed linking the mesh to the skeleton.
+
+3
+00:00:07,780 --> 00:00:11,960
+Despite the fact that everything seems to be working...
+
+4
+00:00:12,120 --> 00:00:13,380
+...it's not over yet.
+
+5
+00:00:13,500 --> 00:00:16,520
+You have probably noticed that the rig...
+
+6
+00:00:16,520 --> 00:00:20,040
+...does not bend in the way one would expected.
+
+7
+00:00:20,520 --> 00:00:23,320
+For example when we bend the jacket...
+
+8
+00:00:23,320 --> 00:00:26,500
+...we can see the things behind.
+
+9
+00:00:26,800 --> 00:00:28,680
+We can fix this by editing the "Weights".
+
+10
+00:00:29,580 --> 00:00:35,120
+"Weight" is an indicator, showing the influence which bones have on the points of a mesh.
+
+11
+00:00:35,680 --> 00:00:38,540
+We can display them on the screen.
+
+12
+00:00:38,700 --> 00:00:42,420
+Firstly, turn on "Pose Mode".
+
+13
+00:00:46,360 --> 00:00:49,260
+Then, select the mesh that you need...
+
+14
+00:00:49,480 --> 00:00:52,720
+...and turn on the "Weight Paint" mode.
+
+15
+00:00:56,560 --> 00:00:59,060
+Finally, turn on the "X-Ray"...
+
+16
+00:00:59,140 --> 00:01:03,040
+...and select the bone corresponding to this part.
+
+17
+00:01:03,380 --> 00:01:04,160
+Okay.
+
+18
+00:01:04,380 --> 00:01:08,280
+Next, I shall explain more about "Weights"
+
+19
+00:01:09,040 --> 00:01:11,580
+The weight of each vertex...
+
+20
+00:01:11,660 --> 00:01:14,060
+...is visualized by a certain color.
+
+21
+00:01:14,840 --> 00:01:17,460
+A vertex drawn in blue indicates that the bone...
+
+22
+00:01:17,600 --> 00:01:19,720
+...doesn't have any influence on it.
+
+23
+00:01:20,780 --> 00:01:22,940
+A vertex drawn in green indicates that the bone...
+
+24
+00:01:23,100 --> 00:01:24,780
+...has a small influence on it.
+
+25
+00:01:25,660 --> 00:01:27,260
+A vertex drawn in red indicates...
+
+26
+00:01:27,480 --> 00:01:28,720
+...a strong influence.
+
+27
+00:01:32,040 --> 00:01:34,880
+The weight paint tool...
+
+28
+00:01:35,000 --> 00:01:36,740
+...is available in the Tools panel of T-menu...
+
+29
+00:01:37,160 --> 00:01:38,600
+...when you are in Weight Paint mode.
+
+30
+00:01:42,160 --> 00:01:45,780
+Tool size can be changed by pressing "F" key.
+
+31
+00:01:47,420 --> 00:01:50,680
+Or using "Radius" slider.
+
+32
+00:01:54,000 --> 00:01:57,360
+Let's take a look how the tool works.
+
+33
+00:01:58,180 --> 00:02:01,820
+First, make sure to select the "Mix" mode for it.
+
+34
+00:02:05,080 --> 00:02:08,640
+In this mode the tool works as same as...
+
+35
+00:02:08,700 --> 00:02:12,760
+...a simple brush in your favorite graphics editor.
+
+36
+00:02:13,320 --> 00:02:15,160
+Now let's take a look at other parameters.
+
+37
+00:02:15,600 --> 00:02:16,820
+The "Weight" parameter...
+
+38
+00:02:17,260 --> 00:02:18,820
+...changes the color...
+
+39
+00:02:19,100 --> 00:02:21,360
+...which will be used.
+
+40
+00:02:31,420 --> 00:02:36,120
+The "Strength" parameter is for brush pressure strength.
+
+41
+00:02:36,120 --> 00:02:38,640
+It's like... a transparency.
+
+42
+00:02:48,300 --> 00:02:51,740
+Now, let's fix the jacket.
+
+43
+00:02:51,820 --> 00:02:54,220
+Turn on "Mix" blend mode...
+
+44
+00:02:55,460 --> 00:02:58,960
+Then, change the "Weight" parameter to zero...
+
+45
+00:02:59,100 --> 00:03:01,240
+...this is corresponding to blue color.
+
+46
+00:03:01,900 --> 00:03:03,360
+Then the "Strength" parameter...
+
+47
+00:03:03,840 --> 00:03:07,320
+...I usually change to 0.2.
+
+48
+00:03:07,500 --> 00:03:10,100
+Now I need to make sure...
+
+49
+00:03:10,220 --> 00:03:13,320
+...that the bone does not influence on this area.
+
+50
+00:03:16,440 --> 00:03:18,440
+Let's check the result.
+
+51
+00:03:20,480 --> 00:03:23,040
+It looks much better, doesn't it?
+
+52
+00:03:26,880 --> 00:03:31,540
+Next we see, that the arm bends a little higher than it should be.
+
+53
+00:03:35,860 --> 00:03:37,280
+Let's fix it.
+
+54
+00:03:58,400 --> 00:04:02,020
+In this place I need to add the weight to the bone.
+
+55
+00:04:02,760 --> 00:04:05,340
+Change the "Weight" parameter to 1...
+
+56
+00:04:08,400 --> 00:04:09,460
+...and draw.
+
+57
+00:04:24,320 --> 00:04:27,260
+Done. Continue to fix...
+
+58
+00:04:27,560 --> 00:04:31,860
+...any places that you do not like.
+
+59
+00:04:32,300 --> 00:04:36,960
+Et Voilá! At this point, we have a finished rig ready for animating like this.
+

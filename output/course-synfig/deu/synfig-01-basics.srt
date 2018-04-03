@@ -1,0 +1,208 @@
+1
+00:00:00,760 --> 00:00:02,660
+#1: Einführung
+
+2
+00:00:03,680 --> 00:00:07,520
+Herzlich willkommen zu den Trainingsvideos zur Synfig Studio Animations-Software.
+
+3
+00:00:08,100 --> 00:00:12,020
+In dieser Einheit lernen wir die Benutzeroberfläche sowie die grundlegenden Konzepte von Synfig kennen.
+
+4
+00:00:12,810 --> 00:00:13,890
+Also beginnen wir!
+
+5
+00:00:14,220 --> 00:00:17,500
+Während dieses Kurses arbeite ich mit der englischen Benutzeroberfläche.
+
+6
+00:00:17,640 --> 00:00:22,630
+Es könnte also einfacher für Sie sein, die Sprache auf Englisch zu stellen, während Sie diesem Kurs folgen.
+
+7
+00:00:22,770 --> 00:00:26,310
+Das ist sehr einfach – wählen Sie einfach „Einstellungen“ im „Bearbeiten“-Menü,
+
+8
+00:00:28,350 --> 00:00:34,640
+Klicken Sie auf den den „Verschiedenes“-Tab und Wählen Sie „Englisch“ aus der Liste.
+
+9
+00:00:39,230 --> 00:00:42,430
+Danach müssen Sie die Anwendung neu starten.
+
+10
+00:00:47,100 --> 00:00:50,220
+Nun sehen wir uns die Hauptelemente der Benutzeroberfläche an.
+
+11
+00:00:50,520 --> 00:00:54,390
+Unter Umständen ist Ihre Synfig-Installation anders konfiguriert.
+
+12
+00:00:55,060 --> 00:00:58,310
+Um das Standard-Layout wiederherzustellen, wählen Sie „Fenster“ –
+
+13
+00:01:00,100 --> 00:01:01,430
+„Arbeitsfläche“ –
+
+14
+00:01:02,770 --> 00:01:04,020
+„Standart“.
+
+15
+00:01:06,560 --> 00:01:09,600
+Was sehen wir nun im Hauptfenster?
+
+16
+00:01:09,680 --> 00:01:13,270
+In der Mitte des Bildschirms finden wir die Arbeitsfläche.
+
+17
+00:01:15,220 --> 00:01:19,430
+An deren oberem Rand finden Sie die Knöpfe, um Dateien zu speichern oder zu öffnen, …
+
+18
+00:01:19,660 --> 00:01:24,130
+…den letzten Arbeitsschritt zu wiederholen oder rückgängig zu machen… und so weiter.
+
+19
+00:01:24,260 --> 00:01:27,030
+Auf der linken Seite haben wir die Werkzeugleiste…
+
+20
+00:01:27,260 --> 00:01:31,970
+…und einige globale Werkzeugeinstellungen wie „Füllung/Rand Farben“ und „Linienstärke“.
+
+21
+00:01:34,470 --> 00:01:37,890
+Es gibt zusätzliche Leisten unter und am rechten Rand der Arbeitsfläche.
+
+22
+00:01:38,270 --> 00:01:43,810
+Ich werde nicht auf alle davon im Detail eingehen. Lassen Sie uns einfach die wichtigsten betrachten:
+
+23
+00:01:44,850 --> 00:01:46,560
+„Werkzeug Optionen“…
+
+24
+00:01:46,720 --> 00:01:48,180
+„Ebenen“…
+
+25
+00:01:48,560 --> 00:01:50,970
+…und „Parameter“.
+
+26
+00:01:50,970 --> 00:01:56,810
+Schauen wir uns an, wie sie funktionieren. Wählen Sie das Kreis-Werkzeug in der Werkzeugleiste aus.
+
+27
+00:01:58,270 --> 00:02:02,560
+Die Einstellungen für das Kreiswerkzeug erscheinen nun unterhalb der Werkzeug-Einstellungs-Leiste.
+
+28
+00:02:02,680 --> 00:02:09,020
+Stellt sicher, dass der „Kreisebene erstellen“-Knopf aktiviert ist und alle anderen Knöpfe der Reihe deaktiviert sind.
+
+29
+00:02:10,140 --> 00:02:16,140
+Als nächstes positionieren Sie den Mauszeiger irgendwo im Arbeitsbereich, drücken Sie und halten Sie die linke Maustaste.
+
+30
+00:02:17,060 --> 00:02:20,810
+Ziehen Sie nun die Maus bis Sie einen Kreis sehen und lassen Sie den Button wieder los.
+
+31
+00:02:21,310 --> 00:02:24,390
+Und das war's, jetzt haben Sie einen Kreis, der so aussieht.
+
+32
+00:02:25,060 --> 00:02:28,600
+Beachten Sie, dass gerade eine neue Ebene in der Ebenen-Leiste aufgetaucht ist.
+
+33
+00:02:29,520 --> 00:02:33,850
+Das ist es: Jedes Objekt in Synfig Studio stellt eine eigene Ebene dar.
+
+34
+00:02:35,020 --> 00:02:39,130
+Lassen Sie uns eine andere Farbe wählen und einen weiteren Kreis erstellen.
+
+35
+00:02:50,560 --> 00:02:53,390
+Der zweite Kreis erscheint ebenfalls in der Ebenen-Leiste.
+
+36
+00:02:54,100 --> 00:02:56,720
+Lassen Sie uns nun zum Ändern-Werkzeug wechseln.
+
+37
+00:02:59,520 --> 00:03:04,020
+Sie können Objekte entweder über die Ebenen-Leiste oder direkt in der Arbeitsfläche auswählen.
+
+38
+00:03:04,680 --> 00:03:12,310
+Wenn ein Objekt ausgewählt wurde, können Sie seine Parameter anpassen, indem Sie die farbigen Punkte bewegen. Diese Punkte werden „Griffe“ genannt.
+
+39
+00:03:16,000 --> 00:03:18,800
+Doch normalerweise verfügen Objekte noch über viele weitere Parameter.
+
+40
+00:03:18,900 --> 00:03:21,860
+Diese können Sie in der Parameter-Leiste ändern.
+
+41
+00:03:25,270 --> 00:03:30,350
+Hier haben wir den Alpha-Wert, Farbe, Weichzeichnung und viele weitere.
+
+42
+00:03:31,600 --> 00:03:34,430
+Um einen Parameter zu bearbeiten, doppelklicken Sie auf seinen Wert.
+
+43
+00:03:36,140 --> 00:03:38,180
+Nehmen wir einige Änderungen vor…
+
+44
+00:03:38,770 --> 00:03:40,310
+Und drücken wir „Enter“.
+
+45
+00:03:47,310 --> 00:03:50,560
+In der Ebenen-Leiste können wir die Reihenfolge der Ebenen verändern.
+
+46
+00:03:55,020 --> 00:03:57,460
+Hier können wir sie duplizieren…
+
+47
+00:03:57,700 --> 00:03:59,500
+entfernen…
+
+48
+00:03:59,770 --> 00:04:02,430
+in die Zwischenablage kopieren und so weiter.
+
+49
+00:04:02,900 --> 00:04:06,000
+Erstellen wir zum Beispiel eine Kopie dieses Kreises.
+
+50
+00:04:06,310 --> 00:04:07,430
+Klicken Sie auf diesen Knopf…
+
+51
+00:04:08,810 --> 00:04:10,890
+und schon haben wir eine Kopie.
+
+52
+00:04:50,840 --> 00:04:53,440
+Nun können wir mit der nächsten Einheit weitermachen.
+

@@ -1,0 +1,208 @@
+1
+00:00:00,600 --> 00:00:02,860
+#9: Ciclo “Camminata”
+
+2
+00:00:05,300 --> 00:00:10,000
+Dunque abbiamo I primi tre passi del nostro personaggio che cammina.
+
+3
+00:00:10,200 --> 00:00:13,000
+Scommetto che vi immaginate come continuare.
+
+4
+00:00:13,260 --> 00:00:18,100
+Scommetto però che nella maggior parte dei casi vi piacerebbe risparmiare tempo e impegno e creare un ciclo ‘camminata’.
+
+5
+00:00:18,260 --> 00:00:20,800
+Quindi diamo un’occhiata.
+
+6
+00:00:20,960 --> 00:00:25,380
+Naturalmente, occorre realizzare il ciclo dell’intervallo dal fotogramma 0 al 32.
+
+7
+00:00:25,600 --> 00:00:30,660
+Escludiamo però il fotogramma 32, perché é del tutto identico al fotogramma 0.
+
+8
+00:00:30,860 --> 00:00:33,960
+Non vogliamo ripeterlo due volte, giusto ?
+
+9
+00:00:37,260 --> 00:00:41,200
+Per prima cosa, dobbiamo far camminare il personaggio.
+
+10
+00:00:41,380 --> 00:00:44,200
+Questa è la posizione della gamba anteriore.
+
+11
+00:00:44,400 --> 00:00:48,200
+Adesso, nel fotogramma 32 spostiamo indietro tutto il gruppo…
+
+12
+00:00:48,360 --> 00:00:52,600
+… così la gamba in avanti si dispone nella sua posizione originaria.
+
+13
+00:00:53,940 --> 00:00:58,620
+Oops, il marcatore cerchio è nello stesso gruppo con il personaggio …
+
+14
+00:00:58,720 --> 00:01:02,100
+Creiamone uno all’esterno di esso.
+
+15
+00:01:15,080 --> 00:01:18,400
+E ora possiamo muovere il gruppo.
+
+16
+00:01:23,260 --> 00:01:28,460
+Nota, a causa dei fotogrammi chiave, abbiamo un …  extra QUI.
+
+17
+00:01:28,920 --> 00:01:32,060
+Ci serve però uno spostamento di tutto il personaggio a partire da 0.
+
+18
+00:01:32,120 --> 00:01:35,460
+Correggiamolo.
+
+19
+00:01:38,340 --> 00:01:42,200
+E quest’ultimo … andrebbe rimosso.
+
+20
+00:01:43,820 --> 00:01:48,600
+Fatto ! Adesso il nostro ragazzo cammina fino al fotogramma 32.
+
+21
+00:01:49,260 --> 00:01:55,160
+E non ci importa cosa succederà dopo questo, perché adesso aggiungeremo un livello Ciclo Durata.
+
+22
+00:01:55,430 --> 00:01:59,360
+Prima però, ci serve comprendere i livelli filtro.
+
+23
+00:01:59,560 --> 00:02:03,660
+Di solito, i livelli si usano per rappresentare qualcosa nell’area di lavoro: …
+
+24
+00:02:03,780 --> 00:02:08,830
+un cerchio, un rettangolo, un disegno bitmap, ecc.
+
+25
+00:02:09,020 --> 00:02:14,860
+In Synfig però ci sono livelli speciali che possono cambiare l’aspetto (o qualche caratteristica) dei livelli sottostanti.
+
+26
+00:02:15,080 --> 00:02:17,960
+Sono chiamati Livelli Filtro.
+
+27
+00:02:18,180 --> 00:02:20,730
+Ve lo dimostro con un esempio.
+
+28
+00:02:20,840 --> 00:02:25,200
+Realizzate due cerchi. Uno blu e uno rosso.
+
+29
+00:02:28,060 --> 00:02:30,660
+Seleziona il cerchio superiore …
+
+30
+00:02:30,800 --> 00:02:34,560
+… fai click con il tasto destro su esso, scegli “Nuovo Livello”.
+
+31
+00:02:36,520 --> 00:02:40,060
+Scegliamo il livello filtro “Sfoca”.
+
+32
+00:02:41,080 --> 00:02:44,430
+Sorpresa, tutto è diventato sfocato.
+
+33
+00:02:44,700 --> 00:02:47,600
+Possiamo regolare il grado di sfocatura sul pannello Parametri …
+
+34
+00:02:47,840 --> 00:02:51,860
+… o a destra del quadro, spostando questo punto.
+
+35
+00:02:57,600 --> 00:03:01,400
+I livelli filtro agiscono soltanto sui livelli sotto di essi.
+
+36
+00:03:01,660 --> 00:03:05,430
+Se spostiamo al di sotto il livello Sfoca
+
+37
+00:03:06,660 --> 00:03:10,300
+Vedi, adesso soltanto il cerchio rosso è sfocato.
+
+38
+00:03:11,930 --> 00:03:16,000
+Invece, se preferissi sfocare soltanto il cerchio blu di sopra …
+
+39
+00:03:16,160 --> 00:03:19,000
+… e lasciassi invariato quello rosso ?
+
+40
+00:03:19,400 --> 00:03:26,030
+Per far questo, si sposta semplicemente il livello di sopra, al di sopra del cerchio blu e si raggruppano insieme.
+
+41
+00:03:29,760 --> 00:03:33,980
+Quindi si vede che i filtri agiscono solo sui livelli nello stesso gruppo.
+
+42
+00:03:34,100 --> 00:03:37,530
+Nel menu “Nuovo Livello” abbiamo numerosi livelli-filtro …
+
+43
+00:03:37,720 --> 00:03:43,360
+… molte deformazioni differenti e altri effetti interessanti.
+
+44
+00:03:44,530 --> 00:03:47,930
+Ora ci serve un livello Durata Ciclo.
+
+45
+00:03:48,040 --> 00:03:53,500
+Questo livello prende un brano di animazione dai livelli sottostanti e lo ripete continuamente.
+
+46
+00:03:53,620 --> 00:03:57,460
+Torniamo al nostro personaggio.
+
+47
+00:03:57,730 --> 00:04:00,330
+Disattiva la Modalità Animazione …
+
+48
+00:04:00,480 --> 00:04:04,560
+Ora aggiungi un livello Durata Ciclo.
+
+49
+00:04:07,860 --> 00:04:11,000
+Imposta la sua Durata a 31.
+
+50
+00:04:11,160 --> 00:04:15,900
+Come forse si ricorderà, non serve includere il fotogramma numero 32.
+
+51
+00:04:18,100 --> 00:04:22,630
+Ora è tutto pronto e abbiamo un ciclo infinito di camminata.
+
+52
+00:04:30,220 --> 00:04:33,160
+Salviamo il file.
+

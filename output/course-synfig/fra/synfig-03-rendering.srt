@@ -1,0 +1,148 @@
+1
+00:00:00,700 --> 00:00:02,860
+#3: Rendu de l'Animation
+
+2
+00:00:04,020 --> 00:00:08,390
+Notre première animation est prête. Elle est assez simple, mais ce n'est que le début !
+
+3
+00:00:12,310 --> 00:00:15,000
+Nous allons maintenant faire le rendu de notre projet.
+
+4
+00:00:17,500 --> 00:00:23,530
+Le rendu est le processus de conversion de l'animation en un fichier vidéo ou une série d'images fixes.
+
+5
+00:00:25,560 --> 00:00:29,220
+Cliquez sur ce bouton pour ouvrir le dialogue Render Settings.
+
+6
+00:00:30,850 --> 00:00:33,970
+Faisons le rendu de notre animation dans un fichier AVI.
+
+7
+00:00:35,810 --> 00:00:41,680
+Entrez "first-animation" dans le champ Filename. Et ajoutez ".avi" comme extension.
+
+8
+00:00:46,220 --> 00:00:51,100
+Vous pouvez également cliquer le bouton "Choose..." pour spécifier le chemin de la vidéo rendue.
+
+9
+00:00:57,850 --> 00:01:03,680
+Basiquement ce devrait être suffisant. Par défaut Synfig utilisera le codec sans perte H.264.
+
+10
+00:01:04,390 --> 00:01:08,100
+Ce format fournit de la compression sans aucune perte de qualité...
+
+11
+00:01:08,100 --> 00:01:14,600
+..et c'est un choix parfait si vous prévoyez de mettre votre animation dans un logiciel d'édition vidéo pour assembler des scènes ou ajouter des sons.
+
+12
+00:01:14,680 --> 00:01:18,600
+Mais si vous avez besoin d'utiliser un codec différent, alors effectuez les actions suivantes.
+
+13
+00:01:18,970 --> 00:01:21,810
+Choisissez "ffmpeg" dans la liste déroulante Target.
+
+14
+00:01:23,100 --> 00:01:25,180
+Le bouton "Parameters" devient actif.
+
+15
+00:01:25,720 --> 00:01:30,430
+Cliquez-le pour ouvrir un autre dialogue de configuration où vous pourrez choisir le codec vidéo...
+
+16
+00:01:32,640 --> 00:01:33,850
+...et le bitrate.
+
+17
+00:01:35,970 --> 00:01:41,020
+Dans notre cas, nous sommes assez satisfaits des valeurs par défaut donc on va tout laisser tel quel.
+
+18
+00:01:43,560 --> 00:01:47,970
+Dans la partie basse du dialogue nous pouvons définir des paramètres comme la largeur et la hauteur de l'image.
+
+19
+00:01:48,470 --> 00:01:52,560
+Basculez vers l'onglet Temps pour spécifier l'étendue temporelle que vous aimeriez rendre.
+
+20
+00:01:53,930 --> 00:02:01,680
+Tout est prêt, cliquez juste sur "Render" et attendez juqu'à ce qu'un message "File rendered successfully" apparaisse au bas de la fenêtre Canevas.
+
+21
+00:02:04,220 --> 00:02:07,350
+Le fichier résultant sera enregistré à l'emplacement spécifié.
+
+22
+00:02:15,860 --> 00:02:21,020
+Pour rendre le projet sous forme de fichier gif animé, ajoutez l'extension .gif au nom de fichier...
+
+23
+00:02:23,220 --> 00:02:27,390
+...et choisissez "magick++" dans la liste déroulante Target.
+
+24
+00:02:31,060 --> 00:02:34,180
+Vérifions le gif résultant à l'emplacement spécifié.
+
+25
+00:02:40,930 --> 00:02:44,730
+Si vous voulez rendre la trame en cours dans un fichier PNG unique...
+
+26
+00:02:44,850 --> 00:02:48,930
+...changez l'extension en .png...
+
+27
+00:02:53,660 --> 00:02:56,930
+puis basculez Target en "Auto"...
+
+28
+00:02:57,800 --> 00:03:03,900
+...et activez la case à cocher "Render current frame only".
+
+29
+00:03:05,640 --> 00:03:07,660
+Et voici le résultat.
+
+30
+00:03:12,680 --> 00:03:20,930
+Finalement, je vais montrer un type de rendu de plus qui est souvent utilisé par les professionnels qui veulent rendre l'animation en préservant la transparence du fond.
+
+31
+00:03:21,060 --> 00:03:29,140
+Un fond transparent nous permet de combiner une animation avec d'autres clips ou l'améliorer avec des effets dans des applications d'édition ou de composition.
+
+32
+00:03:29,810 --> 00:03:34,060
+Dans ce cas le rendu est effectué par une séquence d'images PNG.
+
+33
+00:03:36,060 --> 00:03:43,600
+Les réglages sont les mêmes que lors du rendu d'une seule trame, à l'exception de la case à cocher "Render current frame only" qui doit être décochée.
+
+34
+00:03:44,180 --> 00:03:46,900
+Cliquez sur "Render" et attendons.
+
+35
+00:03:47,680 --> 00:03:51,770
+Dans ce mode nous pouvons aussi avoir de la compression sans la moindre perte de qualité...
+
+36
+00:03:52,430 --> 00:03:59,530
+...donc c'est une bonne option si votre éditeur vidéo ne supporte pas le format sans perte H.264 que nous avons déjà mentionné au tout début.
+
+37
+00:04:00,400 --> 00:04:05,260
+Le résultat est une série d'images prêtes au chargement dans un éditeur vidéo non-linéaire.
+

@@ -1,0 +1,204 @@
+1
+00:00:00,600 --> 00:00:03,060
+#8: Skeleton animation
+
+2
+00:00:04,130 --> 00:00:07,260
+Let's get back to the character we've made.
+
+3
+00:00:07,360 --> 00:00:09,900
+Now we are going to make him walk.
+
+4
+00:00:10,160 --> 00:00:14,700
+Let's put the character into initial position, just like this.
+
+5
+00:00:22,040 --> 00:00:25,700
+And then we switch into Animation mode.
+
+6
+00:00:26,220 --> 00:00:30,240
+We are going to have it take 16 frames to make a step.
+
+7
+00:00:30,500 --> 00:00:35,660
+Move the time cursor to frame 16 and add a new keyframe.
+
+8
+00:00:38,100 --> 00:00:42,830
+Now we have to switch the legs position and move the whole figure forward.
+
+9
+00:00:42,960 --> 00:00:46,800
+But first I would like to mark the position of his fore leg.
+
+10
+00:00:47,030 --> 00:00:53,160
+For that purpose just create a small circle right here, as a marker.
+
+11
+00:00:57,020 --> 00:01:01,300
+Now we can switch the legs...
+
+12
+00:01:03,160 --> 00:01:05,560
+...and move the guy forward.
+
+13
+00:01:05,730 --> 00:01:10,630
+Like this, so this leg should remain in the same place.
+
+14
+00:01:10,840 --> 00:01:14,900
+And don't forget to switch the arms as well.
+
+15
+00:01:25,500 --> 00:01:28,560
+For now the movement doesn't look that good.
+
+16
+00:01:28,700 --> 00:01:32,630
+Obviously the character should raise one leg while walking...
+
+17
+00:01:32,860 --> 00:01:35,300
+...and the other should stay on the ground.
+
+18
+00:01:35,560 --> 00:01:39,330
+So we'll create an in-between keyframe and fix the pose.
+
+19
+00:01:44,530 --> 00:01:48,760
+Since this leg is the fore one, it stays on the ground.
+
+20
+00:01:48,760 --> 00:01:51,060
+And this one will go up.
+
+21
+00:01:51,300 --> 00:01:54,860
+I am clicking the bone point to mark it.
+
+22
+00:01:55,020 --> 00:02:00,930
+You can see it's highlighted now, so I can distinguish it from the other bones.
+
+23
+00:02:14,660 --> 00:02:22,880
+To make our animation even better, We'll put an emphasis on the moment when character shifts his weight to the fore leg.
+
+24
+00:02:23,320 --> 00:02:26,660
+Add a keyframe here...
+
+25
+00:02:27,380 --> 00:02:32,060
+...and then we adjust the foot to emphasis the step.
+
+26
+00:02:33,780 --> 00:02:36,930
+Like this.
+
+27
+00:02:39,600 --> 00:02:42,160
+The first step is done.
+
+28
+00:02:42,420 --> 00:02:46,860
+We'll make the second exactly the same way.
+
+29
+00:02:49,120 --> 00:02:52,830
+Mark the position of the fore leg...
+
+30
+00:02:55,730 --> 00:03:00,560
+Add the key pose, when a character has already completed the second step.
+
+31
+00:03:00,800 --> 00:03:03,730
+This pose is the same as the beginning.
+
+32
+00:03:03,930 --> 00:03:07,200
+So we can just copy the keyframe...
+
+33
+00:03:08,480 --> 00:03:12,200
+... and move the character to the right position.
+
+34
+00:03:15,260 --> 00:03:20,360
+Now we'll add an in-between frame again.
+
+35
+00:03:21,030 --> 00:03:23,580
+This time, this leg is on the ground...
+
+36
+00:03:23,760 --> 00:03:26,760
+...and this one in the air.
+
+37
+00:03:30,600 --> 00:03:35,400
+Then emphasize the movement at the step.
+
+38
+00:03:40,960 --> 00:03:44,330
+And now we have two steps ready.
+
+39
+00:03:46,000 --> 00:03:51,860
+For the third step you can simply copy the keyframes and keep moving the character forward.
+
+40
+00:03:52,100 --> 00:03:56,130
+But before we do that, let's name the frames to avoid messing up.
+
+41
+00:03:56,230 --> 00:03:58,030
+Let's name them as follows:
+
+42
+00:03:58,300 --> 00:04:01,200
+"0", "0-step" ...
+
+43
+00:04:01,340 --> 00:04:04,420
+"0-to-1", "1"...
+
+44
+00:04:04,680 --> 00:04:06,830
+"1-step"...
+
+45
+00:04:06,960 --> 00:04:08,830
+"1-to-0"...
+
+46
+00:04:09,000 --> 00:04:10,960
+...and, again, "0".
+
+47
+00:04:11,680 --> 00:04:15,230
+Now mark the position of this leg...
+
+48
+00:04:17,100 --> 00:04:20,060
+And copy the frames.
+
+49
+00:04:46,300 --> 00:04:50,060
+We properly need to go through all the keyframes...
+
+50
+00:04:50,120 --> 00:04:56,330
+...  and adjust the main bone of the character so its feet don't appear slip against the ground.
+
+51
+00:05:15,300 --> 00:05:17,830
+OK, it's done.
+

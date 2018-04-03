@@ -1,0 +1,208 @@
+1
+00:00:00,600 --> 00:00:02,860
+#9: Walkcycle
+
+2
+00:00:05,300 --> 00:00:10,000
+So we have first three steps of our character walking.
+
+3
+00:00:10,200 --> 00:00:13,000
+I guess you've got he idea how to continue that.
+
+4
+00:00:13,260 --> 00:00:18,100
+But I bet in most cases you would like to save your efforts and create a looped walkcycle.
+
+5
+00:00:18,260 --> 00:00:20,800
+So let's take a look.
+
+6
+00:00:20,960 --> 00:00:25,380
+Obviously, we need to loop the interval from frame 0 to 32.
+
+7
+00:00:25,600 --> 00:00:30,660
+But we exclude the frame number 32, because it is exactly the same as frame 0.
+
+8
+00:00:30,860 --> 00:00:33,960
+We don't want to repeat it twice, right?
+
+9
+00:00:37,260 --> 00:00:41,200
+First, we have to make the character to walk in place.
+
+10
+00:00:41,380 --> 00:00:44,200
+This is the position of the fore leg.
+
+11
+00:00:44,400 --> 00:00:48,200
+Now in frame 32 we move the whole group backwards...
+
+12
+00:00:48,360 --> 00:00:52,600
+... so the fore leg aligns to its original position.
+
+13
+00:00:53,940 --> 00:00:58,620
+Oops, the circle marker is in same the group with the character...
+
+14
+00:00:58,720 --> 00:01:02,100
+Let's create one outside of it.
+
+15
+00:01:15,080 --> 00:01:18,400
+And now we can move the group.
+
+16
+00:01:23,260 --> 00:01:28,460
+Notice, because the keyframes, we have an extra waypoint HERE.
+
+17
+00:01:28,920 --> 00:01:32,060
+But we need a whole character motion start from 0.
+
+18
+00:01:32,120 --> 00:01:35,460
+Let's fix it.
+
+19
+00:01:38,340 --> 00:01:42,200
+And this last waypoint should be removed.
+
+20
+00:01:43,820 --> 00:01:48,600
+Done! Now our guy walks in place till the frame 32.
+
+21
+00:01:49,260 --> 00:01:55,160
+And we don't care what will happen after that, because I'm going to add a Time Loop layer now.
+
+22
+00:01:55,430 --> 00:01:59,360
+But first, we need understand filter layers.
+
+23
+00:01:59,560 --> 00:02:03,660
+Usually layers are used to display something in working area: ...
+
+24
+00:02:03,780 --> 00:02:08,830
+circle, rectangle, bitmap artwork, etc.
+
+25
+00:02:09,020 --> 00:02:14,860
+But in Synfig there are a special layers that can change the look (or behavior) of underlying layers.
+
+26
+00:02:15,080 --> 00:02:17,960
+These are called Filter Layers.
+
+27
+00:02:18,180 --> 00:02:20,730
+Let me demonstrate an example.
+
+28
+00:02:20,840 --> 00:02:25,200
+Create two circles. A blue and a red one.
+
+29
+00:02:28,060 --> 00:02:30,660
+Select the upper circle..
+
+30
+00:02:30,800 --> 00:02:34,560
+...right-click it, and choose "New Layer".
+
+31
+00:02:36,520 --> 00:02:40,060
+Let's choose the "Blur" filter layer.
+
+32
+00:02:41,080 --> 00:02:44,430
+Surprise, everything is blurred.
+
+33
+00:02:44,700 --> 00:02:47,600
+We can adjust the blur amount on the Parameters panel...
+
+34
+00:02:47,840 --> 00:02:51,860
+...or right in the canvas by moving this dot.
+
+35
+00:02:57,600 --> 00:03:01,400
+Filter layers are only affect layers below them.
+
+36
+00:03:01,660 --> 00:03:05,430
+If we move the blur-layer down
+
+37
+00:03:06,660 --> 00:03:10,300
+See, now only the red circle is blurred.
+
+38
+00:03:11,930 --> 00:03:16,000
+But what if I'd like to blur only the blue circle above...
+
+39
+00:03:16,160 --> 00:03:19,000
+...and keep the red one unchanged?
+
+40
+00:03:19,400 --> 00:03:26,030
+To do that, just move the layer up, above the blue circle, and group them together.
+
+41
+00:03:29,760 --> 00:03:33,980
+So you see filters affects only the layers in the same group.
+
+42
+00:03:34,100 --> 00:03:37,530
+In the "New Layer" menu we have a lot of filter-layers...
+
+43
+00:03:37,720 --> 00:03:43,360
+... many different distortions and other interesting effects.
+
+44
+00:03:44,530 --> 00:03:47,930
+Right now we need a Time Loop layer.
+
+45
+00:03:48,040 --> 00:03:53,500
+This layer takes a fragment of animation from the layers below and continuously repeats it.
+
+46
+00:03:53,620 --> 00:03:57,460
+Let's get back to our character.
+
+47
+00:03:57,730 --> 00:04:00,330
+Turn the Animation Mode off...
+
+48
+00:04:00,480 --> 00:04:04,560
+Now add a Time Loop layer.
+
+49
+00:04:07,860 --> 00:04:11,000
+Set its Duration to 31.
+
+50
+00:04:11,160 --> 00:04:15,900
+As you probably remember we don't need to include the frame number 32.
+
+51
+00:04:18,100 --> 00:04:22,630
+Now all's ready and we have an endless walkcycle.
+
+52
+00:04:30,220 --> 00:04:33,160
+Let's save the file.
+

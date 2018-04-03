@@ -1,0 +1,148 @@
+1
+00:00:00,700 --> 00:00:02,860
+#3: Renderizado
+
+2
+00:00:04,020 --> 00:00:08,390
+Nuestra primera animación está lista. Es bastante simple, pero apenas estamos comenzando.
+
+3
+00:00:12,310 --> 00:00:15,000
+Ahora vamos a renderizar nuestro proyecto.
+
+4
+00:00:17,500 --> 00:00:23,530
+El renderizado /rendering/ es el proceso de convertir nuestra animación en un archivo de video, o una serie de imágenes fijas.
+
+5
+00:00:25,560 --> 00:00:29,220
+Haz click en este botón para abrir la ventana de configuración del renderizador.
+
+6
+00:00:30,850 --> 00:00:33,970
+Vamos a renderizar nuestra animación en formato AVI.
+
+7
+00:00:35,810 --> 00:00:41,680
+Escribe "primera-animación" en el campo Filename. Y añade ".avi" como extensión.
+
+8
+00:00:46,220 --> 00:00:51,100
+También puedes dar click en el botón "Choose..." para especificar la ruta de acceso del video renderizado.
+
+9
+00:00:57,850 --> 00:01:03,680
+Generalmente, eso debería de ser suficiente. Synfig usará por defecto el codec sin pérdida H.264.
+
+10
+00:01:04,390 --> 00:01:08,100
+Este formato proporciona compresión sin pérdida de calidad.
+
+11
+00:01:08,100 --> 00:01:14,600
+... y es una elección perfecta cuando queremos usar la animación en un software de edición de video para fusionarle escenas o agregarle sonido.
+
+12
+00:01:14,680 --> 00:01:18,600
+Cuando necesites usar un codec diferente, debes seguir las siguientes acciones:
+
+13
+00:01:18,970 --> 00:01:21,810
+Selecciona "ffmpeg" en el menú desplegable Target.
+
+14
+00:01:23,100 --> 00:01:25,180
+Esto activa el botón "Parameters".
+
+15
+00:01:25,720 --> 00:01:30,430
+Presiónalo para abrir otra ventana donde se puede seleccionar el códec de video...
+
+16
+00:01:32,640 --> 00:01:33,850
+... y la tasa de bits /Bit Rate/.
+
+17
+00:01:35,970 --> 00:01:41,020
+En nuestro caso, estamos satisfechos con los valores por defecto, así que vamos a dejar todo como está.
+
+18
+00:01:43,560 --> 00:01:47,970
+En la parte inferior de la ventana podemos configurar parámetros como el ancho y la altura de la imagen.
+
+19
+00:01:48,470 --> 00:01:52,560
+Ahora ve a la pestaña Tiempo /Time/ para especificar la sección de tiempo a renderizar.
+
+20
+00:01:53,930 --> 00:02:01,680
+Todo está listo, así que solo damos click en "Render" y esperamos hasta que el mensaje "File rendered successfully" (Archivo renderizado exitosamente) aparezca en la parte inferior de la ventana del lienzo.
+
+21
+00:02:04,220 --> 00:02:07,350
+El archivo resultante se guardará en la ubicación específicada.
+
+22
+00:02:15,860 --> 00:02:21,020
+Para renderizar el proyecto como un gif animado, agrega la extensión ".gif" al nombre del archivo...
+
+23
+00:02:23,220 --> 00:02:27,390
+... y elige "magick++" en el menú desplegable Target.
+
+24
+00:02:31,060 --> 00:02:34,180
+Vamos a comprobar el gif resultante en la ubicación especificada.
+
+25
+00:02:40,930 --> 00:02:44,730
+Si quieres renderizar únicamente el cuadro actual como una sola imagen PNG...
+
+26
+00:02:44,850 --> 00:02:48,930
+... cambia la extensión del archivo a .png...
+
+27
+00:02:53,660 --> 00:02:56,930
+luego cambia Target a "Auto"...
+
+28
+00:02:57,800 --> 00:03:03,900
+...y activa la casilla "Render current frame only" (Sólo renderizar cuadro actual).
+
+29
+00:03:05,640 --> 00:03:07,660
+Aquí tenemos el resultado.
+
+30
+00:03:12,680 --> 00:03:20,930
+Finalmente, les mostraré un tipo más de renderizado que los profesionales utilizan a menudo cuando quieren conservar la trasparencia del fondo al renderizar su animación.
+
+31
+00:03:21,060 --> 00:03:29,140
+El fondo transparente permite combinar la animación con otros clips, o mejorarla con efectos utilizando aplicaciones de composición o de edición.
+
+32
+00:03:29,810 --> 00:03:34,060
+En este caso, el renderizado producirá una secuencia de imágenes PNG.
+
+33
+00:03:36,060 --> 00:03:43,600
+Así que utilizamos los mismos ajustes que al renderizar un solo cuadro, pero ahora la casilla "Render current frame only" deberá estar deseleccioanda.
+
+34
+00:03:44,180 --> 00:03:46,900
+Damos click en "Render", y esperamos.
+
+35
+00:03:47,680 --> 00:03:51,770
+De este modo también logramos compresión sin pérdida de calidad,
+
+36
+00:03:52,430 --> 00:03:59,530
+...por lo que es una buena opción cuando nuestro editor de video no soporta el formato sin pérdida H.264 que mencionamos al principio.
+
+37
+00:04:00,400 --> 00:04:05,260
+El resultado es una serie de imágenes listas para ser cargadas en un editor no-lineal de video.
+

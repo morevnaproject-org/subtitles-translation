@@ -1,0 +1,320 @@
+1
+00:00:00,830 --> 00:00:03,730
+#4: Personnage Simple
+
+2
+00:00:05,620 --> 00:00:09,360
+Dans cette leçon nous allons préparer un personnage simple pour l'animation.
+
+3
+00:00:11,040 --> 00:00:15,800
+Ouvrez le dossier character-1. Vous trouverez ici une image de notre personnage.
+
+4
+00:00:17,740 --> 00:00:24,200
+La façon la plus simple de créer une animation est de découper le personnage en pièces et de les réassembler dans Synfig Studio.
+
+5
+00:00:24,760 --> 00:00:27,430
+...on obtient quelque chose comme une poupée de papier.
+
+6
+00:00:27,860 --> 00:00:30,740
+Vous pouvez utiliser n'importe quel éditeur d'image pour découper le personnage.
+
+7
+00:00:31,440 --> 00:00:38,830
+GIMP ou Krita font très bien l'affaire - ce sont tous les deux des logiciels libres et gratuits, vous pouvez donc les télécharger et les utiliser sans le moindre coût.
+
+8
+00:00:42,230 --> 00:00:47,800
+Lorsque vous découpez votre image en pièces, assurez-vous qu'elles ont des zones d'intersection autour des jointures...
+
+9
+00:00:48,000 --> 00:00:50,600
+...comme pour de véritables poupées de papier.
+
+10
+00:00:50,680 --> 00:00:55,860
+En fait, vous pouvez aussi découper votre image dans Synfig, mais c'est un sujet pour plus tard.
+
+11
+00:00:56,000 --> 00:01:01,700
+Pour le moment, notre but principal est d'apprendre comment construire le personnage, donc je ne vais pas me focaliser sur le processus de découpage.
+
+12
+00:01:01,700 --> 00:01:05,360
+Dans le dossier "character-1" vous trouverez les pièces pré-découpées.
+
+13
+00:01:05,560 --> 00:01:08,770
+Nous avons un corps, un bras, une tête et une jambe.
+
+14
+00:01:08,820 --> 00:01:12,220
+Un bras et une jambe suffisent parce que nous pouvons les copier en miroir.
+
+15
+00:01:12,840 --> 00:01:16,360
+Notez que chaque image doit disposer d'un fond transparent.
+
+16
+00:01:16,600 --> 00:01:19,560
+...c'est pourquoi elles sont toutes enregistrées au format PNG.
+
+17
+00:01:20,940 --> 00:01:24,120
+Allons-y. Choisissez "File" -> "Import".
+
+18
+00:01:25,810 --> 00:01:31,820
+Trouvez l'emplacement des fichiers d'exemple, allez dans le dossier "character-1" et importez le premier fichier.
+
+19
+00:01:32,900 --> 00:01:39,700
+D'ailleurs, les utilisateurs Windows et Linux peuvent importer les images en les tirant depuis le gestionnaire de fichiers directement dans la surface de travail.
+
+20
+00:01:40,270 --> 00:01:45,730
+De cette façon vous pouvez sélectionner plusieurs fichiers en une seule fois et tous les ajouter.
+
+21
+00:01:50,430 --> 00:01:52,440
+Nous avons donc ici toutes nos parties.
+
+22
+00:01:52,850 --> 00:01:56,030
+Nous avons besoin de changer leur taille pour les faire tenir à l'écran.
+
+23
+00:01:56,160 --> 00:02:00,770
+Bien sûr, nous pouvons mettre à l'échelle chaque pièce une-à-une, mais il existe une meilleure façon de faire.
+
+24
+00:02:01,100 --> 00:02:06,520
+Dans Synfig Studio, nous pouvons grouper plusieurs calques ensemble et les transformer comme un seul objet.
+
+25
+00:02:06,810 --> 00:02:09,300
+Sélectionnons les calques que nous voulons grouper.
+
+26
+00:02:09,460 --> 00:02:14,230
+Vous pouvez sélectionner de multiples calques en maintenant la touche Ctrl.
+
+27
+00:02:15,760 --> 00:02:21,200
+De même, vous pouvez sélectionner plusieurs calques dans une rangée en maintenant la touche Shift.
+
+28
+00:02:26,420 --> 00:02:28,160
+Maintenant, cliquez sur ce bouton.
+
+29
+00:02:30,020 --> 00:02:35,060
+Tout comme un calque image, le groupe a des poignées pour contrôler sa transformation.
+
+30
+00:02:41,120 --> 00:02:44,000
+Maintenant mettons toutes les pièces à leur place.
+
+31
+00:02:44,160 --> 00:02:47,040
+Il vaut mieux les déposer de côté d'abord, comme ceci.
+
+32
+00:02:47,160 --> 00:02:49,900
+Puis les remettre ensemble.
+
+33
+00:03:04,560 --> 00:03:07,220
+Ok, nous avons besoin de changer l'ordre des calques.
+
+34
+00:03:13,720 --> 00:03:17,860
+Maintenant je vais vous montrer comment faire une copie en miroir de ce bras.
+
+35
+00:03:17,970 --> 00:03:20,940
+D'abord, sélectionnez le groupe du bras et dupliquez-le.
+
+36
+00:03:21,180 --> 00:03:27,260
+Pour dupliquer un groupe, pressez ce bouton ou cliquez-droit sur le calque et choisissez "Duplicate Layer" depuis le menu.
+
+37
+00:03:31,520 --> 00:03:34,460
+Ici c'est un bras. On doit maintenant le mirrorer.
+
+38
+00:03:34,800 --> 00:03:39,860
+Tirez simplement la poignée du côté opposé comme ceci.
+
+39
+00:03:42,060 --> 00:03:46,860
+Quand vous tirerez la poignée, esssayez de la placer à la même distance du point central...
+
+40
+00:03:47,130 --> 00:03:49,730
+...sinon les proportions pourraient être distordues.
+
+41
+00:03:50,000 --> 00:03:53,900
+Bien sûr ce n'est pas précis à 100% mais dans ce cas ce ne sera pas visible.
+
+42
+00:03:54,640 --> 00:04:00,280
+Mais si vous avez besoin d'une précision parfaite, vous pouvez mirrorer en éditant les valeurs de la transformation manuellement.
+
+43
+00:04:00,900 --> 00:04:03,630
+Faisons un essai avec la jambe.
+
+44
+00:04:10,850 --> 00:04:15,600
+Dans l'onglet Parameters, trouvez le paramètre "Transformation" et déroulez-le.
+
+45
+00:04:18,020 --> 00:04:22,230
+Vous pouvez voir ici une liste des transformations disponibles pour le calque Image.
+
+46
+00:04:22,310 --> 00:04:25,100
+Nous avons besoin d'éditer le sous-paramètre "Scale".
+
+47
+00:04:29,100 --> 00:04:36,060
+Pour mirrorer la jambe le long de l'axe horizontal nous devons précéder la valeur d'axe X d'un signe moins.
+
+48
+00:04:37,020 --> 00:04:39,730
+Pressez "Entrée" deux fois.
+
+49
+00:04:40,740 --> 00:04:45,730
+La jambe a été mirrorée proportionnellement.
+
+50
+00:04:47,970 --> 00:04:50,840
+Bien, le personnage est désormais composé complètement.
+
+51
+00:04:51,430 --> 00:04:55,160
+Essayons de lui changer sa pose - par exemple, lui lever le bras.
+
+52
+00:04:57,680 --> 00:05:01,560
+Comme vous pouvez le voir, il sort du corps et vous devez l'ajuster manuellement.
+
+53
+00:05:03,930 --> 00:05:07,760
+Nous pouvons régler ce comportement en changeant le centre de rotation du bras.
+
+54
+00:05:08,350 --> 00:05:11,660
+Cliquez sur la poignée verte.
+
+55
+00:05:11,890 --> 00:05:15,900
+Puis maintenez la touche Ctrl et tirez.
+
+56
+00:05:16,100 --> 00:05:18,060
+Ici.
+
+57
+00:05:18,220 --> 00:05:22,900
+Maintenant le centre est à la bonne place, vous pouvez donc bouger le bras sans le moindre problème.
+
+58
+00:05:23,770 --> 00:05:26,960
+Maintenant ajustons les centres de rotation pour les parties restantes.
+
+59
+00:05:50,390 --> 00:05:53,640
+Ce serait bien si notre personnage pouvait faire une rotation avec son corps.
+
+60
+00:05:54,220 --> 00:05:59,860
+Si nous faisons une rotation du corps maintenant, la tête et les bras resteraient dans leur position initiale, ce qui serait visiblement un problème.
+
+61
+00:06:00,310 --> 00:06:04,000
+Toutes les parties doivent bouger comme un ensemble.
+
+62
+00:06:04,350 --> 00:06:08,160
+La solution est simple - vous devez grouper les bras, la tête et le corps.
+
+63
+00:06:08,930 --> 00:06:10,620
+Sélectionnez les calques...
+
+64
+00:06:18,720 --> 00:06:20,800
+Maintenant sélectionnez le groupe...
+
+65
+00:06:21,060 --> 00:06:24,230
+Et déplacez le centre de rotation...
+
+66
+00:06:25,980 --> 00:06:29,700
+Donc tout fonctionne maintenant.
+
+67
+00:06:32,020 --> 00:06:36,330
+Pour maintenir les choses en ordre, nous appellerons ce groupe "boy"...
+
+68
+00:06:37,430 --> 00:06:40,700
+...et celui-là - "body".
+
+69
+00:06:41,560 --> 00:06:43,480
+Et une dernière chose à mentionner.
+
+70
+00:06:43,680 --> 00:06:46,860
+Cliquons n'importe où à côté pour défaire la sélection.
+
+71
+00:06:46,900 --> 00:06:51,560
+Puis cliquons sur n'importe quelle partie du personnage, qui appartienne au groupe "body".
+
+72
+00:06:53,180 --> 00:06:59,000
+Notez que quand vous avez cliqué, c'est le contenu du groupe qui est sélectionné, mais pas le groupe en lui-même.
+
+73
+00:06:59,040 --> 00:07:00,900
+Ce n'est pas toujours désirable.
+
+74
+00:07:00,940 --> 00:07:05,520
+Parfois nous voulons que le groupe soit sélectionné quand nous cliquons dans n'importe laquelle de ses parties dans la surface de travail.
+
+75
+00:07:05,860 --> 00:07:10,860
+C'est pourquoi chaque groupe a un paramètre spécial, appelé "Lock Selection".
+
+76
+00:07:12,680 --> 00:07:17,460
+Si nous l'activons ici, alors en cliquant sur n'importe quelle partie du groupe nous sélectionnerons le groupe lui-même.
+
+77
+00:07:18,000 --> 00:07:21,030
+Comme ceci.
+
+78
+00:07:24,000 --> 00:07:30,000
+En même temps, nous pouvons toujours sélectionner n'importe quel élément d'un groupe en l'étendant dans le Panneau des Calques.
+
+79
+00:07:31,860 --> 00:07:36,930
+Pour le moment nous n'avons pas besoin de verrouiller la sélection du groupe "body", donc désactivons-le.
+
+80
+00:07:41,040 --> 00:07:44,700
+Donc, notre personnage est prêt ! Enregistrons notre fichier.
+

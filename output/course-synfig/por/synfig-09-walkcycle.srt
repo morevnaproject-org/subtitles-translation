@@ -1,0 +1,208 @@
+1
+00:00:00,600 --> 00:00:02,860
+#9: Ciclo de caminhada
+
+2
+00:00:05,300 --> 00:00:10,000
+Então nós temos os três primeiros passos do nosso personagem andando.
+
+3
+00:00:10,200 --> 00:00:13,000
+Acho que você entendeu como continuar.
+
+4
+00:00:13,260 --> 00:00:18,100
+Mas aposto que na maioria dos casos você iria querer economizar esforços e criar um ciclo de caminhada repetido.
+
+5
+00:00:18,260 --> 00:00:20,800
+Vamos dar uma olhada nisso.
+
+6
+00:00:20,960 --> 00:00:25,380
+Obviamente, nós precisamos repetir o intervalo do quadro 0 até o 32.
+
+7
+00:00:25,600 --> 00:00:30,660
+Mas nós excluimos o quadro 32, porque ele é exatamente o mesmo do quadro 0.
+
+8
+00:00:30,860 --> 00:00:33,960
+Não queremos repetir ele duas vezes, certo?
+
+9
+00:00:37,260 --> 00:00:41,200
+Primeiro, temos que fazer o personagem andar.
+
+10
+00:00:41,380 --> 00:00:44,200
+Essa é a posição da perna dianteira.
+
+11
+00:00:44,400 --> 00:00:48,200
+Agora no quadro 32 nós vamos ver o conjunto inteiro para trás.
+
+12
+00:00:48,360 --> 00:00:52,600
+... para que a perna da frente se alinhe na sua posição original.
+
+13
+00:00:53,940 --> 00:00:58,620
+Opa, o marcador circular está no mesmo grupo do personagem...
+
+14
+00:00:58,720 --> 00:01:02,100
+Vamos criar um fora dele.
+
+15
+00:01:15,080 --> 00:01:18,400
+E agora nós podemos mover o grupo.
+
+16
+00:01:23,260 --> 00:01:28,460
+Note que, por conta dos quadros-chave, nós temos um ponto de referência adicional aqui.
+
+17
+00:01:28,920 --> 00:01:32,060
+Mas nós precisamos que o movimento do personagem começe pelo 0.
+
+18
+00:01:32,120 --> 00:01:35,460
+Vamos ajeitar isso.
+
+19
+00:01:38,340 --> 00:01:42,200
+E este último ponto de referência deve ser removido.
+
+20
+00:01:43,820 --> 00:01:48,600
+Pronto! Agora nosso carinha anda até o quadro 32.
+
+21
+00:01:49,260 --> 00:01:55,160
+E não ligue para o que acontece depois, porque vamos adicionar uma camada de Laço de Tempo.
+
+22
+00:01:55,430 --> 00:01:59,360
+Mas primeiro, precisamos entender as camadas de filtro.
+
+23
+00:01:59,560 --> 00:02:03,660
+Geralmente as camadas são usadas para mostrar algo na área de desenho: ...
+
+24
+00:02:03,780 --> 00:02:08,830
+círculo, retângulo, arte bitmap, etc.
+
+25
+00:02:09,020 --> 00:02:14,860
+Mas no Synfig existem camadas especiais que mudam o visual (ou comportamento) das camadas abaixo.
+
+26
+00:02:15,080 --> 00:02:17,960
+Elas são chamadas de Camadas de Filtro.
+
+27
+00:02:18,180 --> 00:02:20,730
+Deixe-me mostrar um exemplo.
+
+28
+00:02:20,840 --> 00:02:25,200
+Crie dois círculos. Um azul e outro vermelho.
+
+29
+00:02:28,060 --> 00:02:30,660
+Selecione o círculo de cima...
+
+30
+00:02:30,800 --> 00:02:34,560
+...clique com o botão direito e escolha "Nova Camada"
+
+31
+00:02:36,520 --> 00:02:40,060
+Vamos escolher o filtro "Desfocar".
+
+32
+00:02:41,080 --> 00:02:44,430
+Surpresa, tudo está desfocado.
+
+33
+00:02:44,700 --> 00:02:47,600
+Nós podemos ajustar a quantidade de desfoque no painel de parâmetros.
+
+34
+00:02:47,840 --> 00:02:51,860
+...ou direto na área de desenho movendo este ponto.
+
+35
+00:02:57,600 --> 00:03:01,400
+Camadas de filtro apenas afetam as camadas abaixo delas.
+
+36
+00:03:01,660 --> 00:03:05,430
+Se nós movemos a camada de desfoque para baixo...
+
+37
+00:03:06,660 --> 00:03:10,300
+Veja, agora apenas o círculo vermelho está desfocado.
+
+38
+00:03:11,930 --> 00:03:16,000
+Mas e se eu quisesse desfocar apenas o círculo azul em cima...
+
+39
+00:03:16,160 --> 00:03:19,000
+...e deixar o vermelho normal?
+
+40
+00:03:19,400 --> 00:03:26,030
+Para fazer isso, mova a camada para cima, acima do círculo azul, e agrupe elas.
+
+41
+00:03:29,760 --> 00:03:33,980
+Você pode ver que os filtros apenas afetam as camadas de um mesmo grupo.
+
+42
+00:03:34,100 --> 00:03:37,530
+No menu "Nova Camada" nós temos várias camadas de filtro.
+
+43
+00:03:37,720 --> 00:03:43,360
+... várias distorções diferentes e outros efeitos interessantes.
+
+44
+00:03:44,530 --> 00:03:47,930
+Agora nós precisamos de uma camada de laço temporal.
+
+45
+00:03:48,040 --> 00:03:53,500
+Essa camada pega um pedaço da animação das camadas abaixo dela e repete continuamente.
+
+46
+00:03:53,620 --> 00:03:57,460
+Vamos voltar para o nosso personagem.
+
+47
+00:03:57,730 --> 00:04:00,330
+Desligue o modo de animação...
+
+48
+00:04:00,480 --> 00:04:04,560
+Agora adicione uma camada de laço temporal.
+
+49
+00:04:07,860 --> 00:04:11,000
+Mude a Duração dela para 31.
+
+50
+00:04:11,160 --> 00:04:15,900
+Como você talvez lembre, não precisamos incluir o quadro 32.
+
+51
+00:04:18,100 --> 00:04:22,630
+Agora está tudo pronto, temos um ciclo de caminhada infinito.
+
+52
+00:04:30,220 --> 00:04:33,160
+Vamos salvar o arquivo.
+

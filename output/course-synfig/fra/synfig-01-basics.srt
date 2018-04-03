@@ -1,0 +1,208 @@
+1
+00:00:00,760 --> 00:00:02,660
+#1: Pour Commencer
+
+2
+00:00:03,680 --> 00:00:07,520
+Bienvenue dans la série de formation au logiciel d'animation Synfig Studio.
+
+3
+00:00:08,100 --> 00:00:12,020
+Dans cette leçon vous découvrirez l'interface et les concepts de base de Synfig.
+
+4
+00:00:12,810 --> 00:00:13,890
+Alors, commençons !
+
+5
+00:00:14,220 --> 00:00:17,500
+Durant ce cours, je travaillerai avec l'interface Anglaise.
+
+6
+00:00:17,640 --> 00:00:22,630
+Donc vous pourriez trouver qu'il serait plus pratique de passer aussi l'interface en Anglais pendant que vous suivrez ce cours.
+
+7
+00:00:22,770 --> 00:00:26,310
+C'est facile - choisissez "Préférences" dans le menu "Edition".
+
+8
+00:00:28,350 --> 00:00:34,640
+puis allez dans l'onglet "Divers" et choisissez "Anglais" dans la liste.
+
+9
+00:00:39,230 --> 00:00:42,430
+Après cela, vous devrez redémarrer l'application.
+
+10
+00:00:47,100 --> 00:00:50,220
+Jetons maintenant un oeil aux éléments principaux de l'interface.
+
+11
+00:00:50,520 --> 00:00:54,390
+Il peut arriver que votre installation de Synfig soit configurée différemment.
+
+12
+00:00:55,060 --> 00:00:58,310
+Pour restaurer la présentation par défaut, choisissez "Window" -
+
+13
+00:01:00,100 --> 00:01:01,430
+"Workspace" -
+
+14
+00:01:02,770 --> 00:01:04,020
+"Default".
+
+15
+00:01:06,560 --> 00:01:09,600
+Donc, en quoi consiste la fenêtre principale ?
+
+16
+00:01:09,680 --> 00:01:13,270
+Au centre de l'écran nous avons la surface de travail principale.
+
+17
+00:01:15,220 --> 00:01:19,430
+Au-dessus d'elle vous pouvez trouver les boutons pour enregistrer ou ouvrir un fichier, ...
+
+18
+00:01:19,660 --> 00:01:24,130
+...défaire ou refaire la dernière action... et ainsi de suite.
+
+19
+00:01:24,260 --> 00:01:27,030
+À gauche nous avons la Boîte à Outils...
+
+20
+00:01:27,260 --> 00:01:31,970
+...et quelques réglages d'outils globaux tels que "Couleurs de remplissage et de bordures" et "Largeur de Ligne".
+
+21
+00:01:34,470 --> 00:01:37,890
+Il y a des panneaux supplémentaires, en-dessous et à la droite de la surface de travail.
+
+22
+00:01:38,270 --> 00:01:43,810
+Je ne vais pas tous les décrire en détail, jetons juste un oeil aux plus importants d'entre eux:
+
+23
+00:01:44,850 --> 00:01:46,560
+"Options des Outils"...
+
+24
+00:01:46,720 --> 00:01:48,180
+"Calques"...
+
+25
+00:01:48,560 --> 00:01:50,970
+...et "Paramètres".
+
+26
+00:01:50,970 --> 00:01:56,810
+Voyons comment ils fonctionnent. Choisissez Outil Cercle dans la Boîte à Outils.
+
+27
+00:01:58,270 --> 00:02:02,560
+Les options de l'Outil Cercle ont maintenant apparu dans le Panneau Options des Outils.
+
+28
+00:02:02,680 --> 00:02:09,020
+Assurez-vous que le bouton "Créer un Calque Cercle" est activé et que tous les autres boutons dans cette rangée sont désactivés.
+
+29
+00:02:10,140 --> 00:02:16,140
+Ensuite, placez la souris quelque part dans la surface de travail, pressez et maintenez le bouton gauche de la souris.
+
+30
+00:02:17,060 --> 00:02:20,810
+Tirez maintenant la souris jusqu'à ce que vous ayez un cercle et relâchez le bouton.
+
+31
+00:02:21,310 --> 00:02:24,390
+Ca y est, vous avez un cercle qui ressemble à ceci.
+
+32
+00:02:25,060 --> 00:02:28,600
+Notez qu'un nouveau calque est apparu dans le Panneau des Calques.
+
+33
+00:02:29,520 --> 00:02:33,850
+C'est ainsi: chaque objet dans Synfig Studio est un calque distinct.
+
+34
+00:02:35,020 --> 00:02:39,130
+Choisissons une couleur différente et créons un cercle de plus.
+
+35
+00:02:50,560 --> 00:02:53,390
+Le second cercle est lui aussi apparu dans le Panneau des Calques.
+
+36
+00:02:54,100 --> 00:02:56,720
+Passons maintenant à l'outil Transformation.
+
+37
+00:02:59,520 --> 00:03:04,020
+Vous pouvez sélectionner des objets en utilisant soit le Panneau des Calques soit la surface de travail.
+
+38
+00:03:04,680 --> 00:03:12,310
+Quand un objet est sélectionné, vous pouvez changer ses paramètres en tirant ces points colorés. Ces points sont appelés des "poignées".
+
+39
+00:03:16,000 --> 00:03:18,800
+Mais habituellement les objets ont de nombreux autres paramètres.
+
+40
+00:03:18,900 --> 00:03:21,860
+Vous pouvez les changer dans le Panneau Paramètres.
+
+41
+00:03:25,270 --> 00:03:30,350
+Nous avons ici Alpha Amount, Color, Feather, et bien d'autres. (L'interface étant en anglais dans cette vidéo)
+
+42
+00:03:31,600 --> 00:03:34,430
+Pour éditer un paramètre, double-cliquez sur sa valeur.
+
+43
+00:03:36,140 --> 00:03:38,180
+Faisons quelques changements...
+
+44
+00:03:38,770 --> 00:03:40,310
+Et pressons Entrée.
+
+45
+00:03:47,310 --> 00:03:50,560
+Dans le Panneau des Calques nous pouvons changer l'ordre des calques.
+
+46
+00:03:55,020 --> 00:03:57,460
+Ici nous pouvons les dupliquer...
+
+47
+00:03:57,700 --> 00:03:59,500
+les enlever...
+
+48
+00:03:59,770 --> 00:04:02,430
+les copier vers le Presse-Papier, et ainsi de suite.
+
+49
+00:04:02,900 --> 00:04:06,000
+Par exemple, faisons une copie de ce cercle.
+
+50
+00:04:06,310 --> 00:04:07,430
+Pressez ce bouton...
+
+51
+00:04:08,810 --> 00:04:10,890
+Et maintenant nous en avons une copie.
+
+52
+00:04:50,840 --> 00:04:53,440
+Nous pouvons maintenant passer à la leçon suivante.
+

@@ -1,0 +1,500 @@
+1
+00:00:00,560 --> 00:00:03,100
+#7: Huesos
+
+2
+00:00:04,760 --> 00:00:09,400
+En lecciones previas aprendimos cómo animar un personaje simple.
+
+3
+00:00:09,560 --> 00:00:12,700
+Esta técnica es excelente para animaciones sencillas.
+
+4
+00:00:12,960 --> 00:00:17,830
+Pero también tiene inconvenientes: es incómodo controlar la postura del personaje.
+
+5
+00:00:18,030 --> 00:00:22,280
+Siempre tenemos que seleccionar cada pieza en particular antes de poder moverla.
+
+6
+00:00:22,620 --> 00:00:26,500
+Además, debemos pensar en crear correctamente la estructura de grupos.
+
+7
+00:00:26,830 --> 00:00:31,830
+Si el personaje es un poco más complejo, habrá que crear muchos grupos anidados...
+
+8
+00:00:32,000 --> 00:00:34,230
+...y se vuelve difícil manipularlos.
+
+9
+00:00:34,400 --> 00:00:39,560
+Para la animación de personajes y otras estructuras complejos, podemos usar los huesos /bones/.
+
+10
+00:00:39,880 --> 00:00:45,760
+Con los huesos, es muy fácil crear un esqueleto /skeleton/ como éste, y controlar al personaje.
+
+11
+00:00:49,060 --> 00:00:52,660
+Ahora les mostraré cómo crear estas estructuras desde cero.
+
+12
+00:00:53,020 --> 00:00:56,030
+Abran la carpeta "character-2", que contiene al segundo personaje.
+
+13
+00:00:57,700 --> 00:01:01,360
+Allí encontraremos la imagen completa de un personaje...
+
+14
+00:01:03,420 --> 00:01:06,730
+...y todas sus piezas por separado.
+
+15
+00:01:06,900 --> 00:01:11,760
+Primero importemos la imagen completa. Esa será nuestra referencia.
+
+16
+00:01:13,360 --> 00:01:17,000
+Luego incluimos las piezas separadas.
+
+17
+00:01:19,980 --> 00:01:24,600
+Ahora agrupamos todas las imágenes y ajustamos su tamaño al área de trabajo.
+
+18
+00:01:30,140 --> 00:01:35,400
+Es hora de limpiar el desastre. Primero separamos todas las piezas.
+
+19
+00:01:43,000 --> 00:01:47,600
+Nos conviene hacer semi-transparente la imagen del personaje completo.
+
+20
+00:01:47,860 --> 00:01:54,560
+La transparencia de una capa se define con el parámetro "Cantidad" /amount/. Le daremos un valor de 0.5.
+
+21
+00:01:58,020 --> 00:02:01,000
+Ahora coloquemos todas las piezas en su lugar.
+
+22
+00:02:01,220 --> 00:02:05,530
+Aquí va el cuerpo... la cabeza...
+
+23
+00:02:06,640 --> 00:02:10,030
+Luego las piernas... la cadera...
+
+24
+00:02:10,100 --> 00:02:11,860
+el muslo...
+
+25
+00:02:12,040 --> 00:02:14,760
+y el pie.
+
+26
+00:02:20,960 --> 00:02:25,460
+La segunda pierna parece estar encima del cuerpo, pero es fácil de arreglar.
+
+27
+00:02:25,700 --> 00:02:28,930
+Sólo la envíamos hacia atrás.
+
+28
+00:02:30,280 --> 00:02:33,660
+Las piezas restantes se ensamblan de la misma manera.
+
+29
+00:02:33,940 --> 00:02:37,430
+Es bastante divertido, ¡como armar rompecabezas!
+
+30
+00:02:42,520 --> 00:02:46,130
+Y no olvides guardar tu trabajo con regularidad.
+
+31
+00:03:00,700 --> 00:03:02,530
+Listo.
+
+32
+00:03:02,880 --> 00:03:07,630
+Ya no necesitamos la capa de referencia, y nos conviene ocultarla.
+
+33
+00:03:08,460 --> 00:03:11,100
+Ahora podemos añadir la capa de esqueleto.
+
+34
+00:03:11,340 --> 00:03:14,680
+Lo pondremos dentro del grupo, encima de las capas de imagen.
+
+35
+00:03:15,060 --> 00:03:18,530
+Expande el grupo y selecciona la primera capa.
+
+36
+00:03:18,800 --> 00:03:26,280
+Haz click derecho sobre ella, y selecciona "Nueva Capa" /New Layer/ > "Otro" /other/ > y "Esqueleto" /Skeleton/.
+
+37
+00:03:27,740 --> 00:03:31,060
+Hemos creado una capa de esqueleto con un solo hueso.
+
+38
+00:03:31,380 --> 00:03:33,860
+Aquí está.
+
+39
+00:03:34,200 --> 00:03:37,830
+El punto verde es el origen del hueso.
+
+40
+00:03:38,120 --> 00:03:42,600
+El punto marrón determina el ángulo y la longitud.
+
+41
+00:03:44,360 --> 00:03:46,900
+Vamos a crear un hueso más.
+
+42
+00:03:47,060 --> 00:03:53,900
+Haz click derecho sobre cualquier punto del hueso existente y elije "Create Child Bone".
+
+43
+00:03:55,100 --> 00:03:57,230
+Allí aparece el segundo hueso,
+
+44
+00:03:57,300 --> 00:03:59,560
+subordinado al primero.
+
+45
+00:03:59,720 --> 00:04:04,030
+Fíjate que al mover el primer hueso, el segundo se mueve también.
+
+46
+00:04:05,000 --> 00:04:08,160
+Pero el segundo hueso puede moverse por sí mismo.
+
+47
+00:04:08,360 --> 00:04:10,660
+Así funciona la jerarquía de huesos.
+
+48
+00:04:10,840 --> 00:04:14,000
+Ahora pongamos el primer hueso en el lugar apropiado.
+
+49
+00:04:14,180 --> 00:04:18,330
+Será el responsable de la posición de todo nuestro personaje.
+
+50
+00:04:18,530 --> 00:04:22,900
+El segundo hueso es para el cuerpo, y lo ponemos aquí.
+
+51
+00:04:24,600 --> 00:04:28,160
+Como brazos y cabeza deben ir subordinados al cuerpo...
+
+52
+00:04:28,200 --> 00:04:31,060
+...crearemos sus huesos a partir del hueso del cuerpo.
+
+53
+00:04:31,160 --> 00:04:35,160
+Haz click derecho sobre él, y elige "Create Child Bone".
+
+54
+00:04:42,240 --> 00:04:45,900
+Ahora crearemos un hueso para el antebrazo.
+
+55
+00:04:49,360 --> 00:04:53,360
+...y desde ese hueso haremos un "Child Bone" para la mano.
+
+56
+00:04:53,760 --> 00:04:58,530
+Repite el procedimiento para el segundo brazo.
+
+57
+00:05:01,140 --> 00:05:07,000
+Las piernas deben quedar quietas al doblar el cuerpo, así que créalas desde el primer hueso.
+
+58
+00:05:10,740 --> 00:05:14,830
+Después creamos huesos para el tobillo y para el pie.
+
+59
+00:05:17,740 --> 00:05:21,430
+De la misma manera creamos los huesos de la otra pierna.
+
+60
+00:05:27,200 --> 00:05:29,360
+Ahora el esqueleto está listo.
+
+61
+00:05:29,620 --> 00:05:34,260
+Aunque en este momento no afecta a ninguna pieza del personaje y se mueve por sí mismo.
+
+62
+00:05:34,620 --> 00:05:38,760
+Lo que necesitamos ahora es conectar todas las piezas al esqueleto.
+
+63
+00:05:38,960 --> 00:05:43,300
+Para conectar el cuerpo, selecciona ambas capas, la del cuerpo y el esqueleto.
+
+64
+00:05:43,530 --> 00:05:49,660
+Haz click sobre el cuerpo, presiona la tecla "Ctrl" y haz click sobre "skeleton" en la lista de capas.
+
+65
+00:05:49,920 --> 00:05:53,400
+Luego haz click izquierdo en el punto verde de la capa del cuerpo.
+
+66
+00:05:53,740 --> 00:05:57,160
+De esta forma indicamos exactamente lo que queremos conectar.
+
+67
+00:05:57,380 --> 00:06:03,330
+Ahora hacemos click derecho en cualquier tirador del hueso, y seleccionamos "Link to Bone".
+
+68
+00:06:04,300 --> 00:06:08,660
+¡Hecho! El cuerpo está conectado.
+
+69
+00:06:12,200 --> 00:06:16,260
+Conectemos todas las piezas restantes de igual manera.
+
+70
+00:06:20,380 --> 00:06:24,930
+Si conectaste alguna pieza a un hueso equivocado, sólo conéctala a otro.
+
+71
+00:06:25,260 --> 00:06:28,860
+Se reconectará automáticamente.
+
+72
+00:06:31,400 --> 00:06:35,560
+El personnaje está listo. Intentemos moverlo.
+
+73
+00:06:39,280 --> 00:06:44,160
+Fíjate que al arrastrar el extremo de un hueso, la imagen se estira automáticamente.
+
+74
+00:06:44,540 --> 00:06:48,130
+Es una gran ayuda en la mayoría de los casos.
+
+75
+00:06:49,000 --> 00:06:51,900
+Pero a veces no es el efecto que deseamos.
+
+76
+00:06:52,040 --> 00:06:57,260
+La cabeza es un buen ejemplo, pues generalmente queremos doblarla sin estirarla.
+
+77
+00:06:58,180 --> 00:07:02,300
+No hay problema, pues para este caso cada hueso tiene un punto azul, aquí.
+
+78
+00:07:02,760 --> 00:07:08,030
+Con él podemos cambiar el ángulo del hueso sin afectar su longitud, así.
+
+79
+00:07:09,800 --> 00:07:14,960
+Si una capa está vinculada a un hueso, no significa que sólo podamos controlarla utilizando ese hueso.
+
+80
+00:07:15,400 --> 00:07:18,560
+Nada de eso, aún podemos moverla por sí misma.
+
+81
+00:07:18,800 --> 00:07:23,600
+La única diferencia es que ahora se mueve en relación con el hueso al que está vinculada,
+
+82
+00:07:23,860 --> 00:07:28,630
+así que las transformaciones al hueso y a la capa se componen juntas.
+
+83
+00:07:35,560 --> 00:07:38,000
+Finalmente, hay una observación adicional importante:
+
+84
+00:07:38,300 --> 00:07:43,400
+Todas las piezas del personaje están en el grupo que redimensionamos al comienzo,
+
+85
+00:07:43,560 --> 00:07:46,930
+Y la capa del esqueleto se colocó al interior de ese grupo.
+
+86
+00:07:47,180 --> 00:07:53,740
+Es crucial hacerlo así, pues tanto el esqueleto como sus partes asociadas deben compartir el mismo sistema de coordenadas.
+
+87
+00:07:54,200 --> 00:07:56,740
+Si creamos un esqueleto fuera del grupo...
+
+88
+00:07:56,740 --> 00:08:01,200
+...los huesos tendrán coordenadas diferentes a las de los objetos asociados.
+
+89
+00:08:01,430 --> 00:08:03,960
+Podrías no notarlo al hacer las conexiones...
+
+90
+00:08:04,130 --> 00:08:08,160
+...pero cuando quieras cambiar la posición del hueso, seguramente tendrás efectos indeseables.
+
+91
+00:08:08,430 --> 00:08:13,000
+Guardemos y cerremos este archivo, y te lo mostraré con un ejemplo.
+
+92
+00:08:14,480 --> 00:08:20,130
+Ensamblemos sólo una parte del personaje -el cuerpo, la cabeza, y un brazo.
+
+93
+00:08:29,780 --> 00:08:33,330
+Supongamos que decidimos ensamblar el brazo así:
+
+94
+00:08:33,520 --> 00:08:36,000
+lo colocamos aquí...
+
+95
+00:08:37,500 --> 00:08:39,830
+luego lo agrupamos...
+
+96
+00:08:40,500 --> 00:08:43,560
+...lo movemos, y lo giramos también.
+
+97
+00:08:44,640 --> 00:08:48,700
+Como comprenderás, todas la partes del brazo tendrán otro sistema de coordenadas,
+
+98
+00:08:48,900 --> 00:08:52,060
+porque hemos trasformado a su grupo padre.
+
+99
+00:08:53,420 --> 00:08:57,900
+Ahora probemos a conectarlo todo a un esqueleto.
+
+100
+00:09:05,800 --> 00:09:12,700
+El cuerpo... la cabeza y el brazo...
+
+101
+00:09:16,230 --> 00:09:18,330
+...todos conectados.
+
+102
+00:09:18,640 --> 00:09:21,100
+Ahora tratemos de cambiar la postura.
+
+103
+00:09:21,460 --> 00:09:26,900
+Como puedes ver, la cabeza y el cuerpo están bien, pero los brazos enloquecieron.
+
+104
+00:09:27,880 --> 00:09:31,630
+Esto sucede a causa del grupo transformado.
+
+105
+00:09:32,100 --> 00:09:37,300
+Si no se hubiera transformado el grupo, todo estaría bien y no habría ningún problema.
+
+106
+00:09:37,530 --> 00:09:40,960
+Para corregir el problema debemos sacar las partes del grupo...
+
+107
+00:09:41,260 --> 00:09:45,060
+...y alinearlas de nuevo con el esqueleto.
+
+108
+00:09:54,380 --> 00:09:57,030
+Pero ahora lo haremos de otra manera.
+
+109
+00:09:58,840 --> 00:10:03,930
+Supongamos que no es necesario que el personaje doble la muñeca ni el codo.
+
+110
+00:10:04,140 --> 00:10:09,460
+Así que bastaría un solo hueso para todo el brazo y podríamos conectarle todo el grupo.
+
+111
+00:10:09,580 --> 00:10:11,500
+¡En efecto, lo adivinaste!
+
+112
+00:10:12,000 --> 00:10:16,400
+Los grupos también pueden conectarse a un esqueleto, igual que las capas de imagen.
+
+113
+00:10:16,600 --> 00:10:20,740
+Aunque supongo que ya te diste cuenta que una capa de imagen en realidad es también un grupo.
+
+114
+00:10:21,140 --> 00:10:24,600
+O, para ser precisos, un grupo de intercambio o "switch group".
+
+115
+00:10:24,900 --> 00:10:28,930
+Y la verdadera capa de imagen se localiza en su interior.
+
+116
+00:10:30,600 --> 00:10:32,330
+Pero estoy divagando.
+
+117
+00:10:32,530 --> 00:10:36,660
+Primero debemos desconectar del esqueleto las partes internas del grupo.
+
+118
+00:10:36,900 --> 00:10:39,360
+Selecciona la parte que necesitas...
+
+119
+00:10:39,560 --> 00:10:41,860
+...ubica el parámetro "Transformación",
+
+120
+00:10:42,160 --> 00:10:44,600
+...click derecho, y elige "Desconectar".
+
+121
+00:10:44,800 --> 00:10:48,280
+Si, es la misma forma en que borramos los parametros de animación.
+
+122
+00:10:48,530 --> 00:10:51,430
+No te sorprendas. ^__^
+
+123
+00:10:56,180 --> 00:10:59,530
+Ahora conectemos el grupo.
+
+124
+00:11:05,860 --> 00:11:07,760
+Hecho.
+
+125
+00:11:09,640 --> 00:11:15,230
+Bien, eso es todo. En la próxima lección crearemos un ciclo de caminata /walk cycle/ para nuestro personaje.
+

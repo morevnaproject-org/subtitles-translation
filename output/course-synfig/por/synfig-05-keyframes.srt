@@ -1,0 +1,384 @@
+1
+00:00:00,730 --> 00:00:02,830
+#5: Quadros-chave
+
+2
+00:00:03,960 --> 00:00:08,400
+Nosso personagem está pronto e agora vamos criar uma animação simples.
+
+3
+00:00:08,880 --> 00:00:11,780
+Aqui, ele está levantando o braço esquerdo e depois o direito.
+
+4
+00:00:12,600 --> 00:00:15,600
+Parece simples? Vamos tentar.
+
+5
+00:00:15,880 --> 00:00:19,080
+Suponha que nosso personagem levanta o braço direito dele em 10 quadros...
+
+6
+00:00:19,440 --> 00:00:23,060
+...e então o braço esquerdo em outros 10 quadros.
+
+7
+00:00:23,580 --> 00:00:27,360
+Seria mais conveniente mudar a escala da Trilha de Tempo.
+
+8
+00:00:27,820 --> 00:00:32,930
+Mova o cursor do mouse para cima da régua cinza e gire a rodinha do mouse. Assim.
+
+9
+00:00:33,400 --> 00:00:36,960
+Agora, vamos mudar para o Modo de Animação.
+
+10
+00:00:37,540 --> 00:00:44,200
+Depois, define o indicador de tempo para o momento em que o personagem terá seu braço esquerdo levantado - quadro 10.
+
+11
+00:00:44,580 --> 00:00:47,660
+E rotacione o braço.
+
+12
+00:00:49,500 --> 00:00:52,200
+Depois disso o segundo braço deve começar a se mover.
+
+13
+00:00:52,440 --> 00:00:55,630
+Mova o indicador de tempo mais 10 quadros.
+
+14
+00:00:55,680 --> 00:00:58,960
+E agora gire o braço direito.
+
+15
+00:01:01,440 --> 00:01:04,660
+Vamos ver o resultado.
+
+16
+00:01:05,720 --> 00:01:08,240
+Oh, parece que algo está errado.
+
+17
+00:01:08,480 --> 00:01:11,980
+As duas mãos começaram a se mover simultaneamente a partir do quadro zero.
+
+18
+00:01:12,040 --> 00:01:15,930
+...quando nós queremos que os movimentos aconteçam um depois do outro.
+
+19
+00:01:16,600 --> 00:01:21,730
+Isso acontece porque a posição da segunda mão no quadro 10 não está fixa.
+
+20
+00:01:21,840 --> 00:01:25,030
+É por isso que ele começa a se mover desde o começo.
+
+21
+00:01:25,240 --> 00:01:30,400
+É facil arrumar - só mova este ponto de referência para o quadro 10.
+
+22
+00:01:34,340 --> 00:01:37,400
+Agora funciona.
+
+23
+00:01:38,400 --> 00:01:42,630
+Já que este personagem é muito simples, é um problema fácil de resolver.
+
+24
+00:01:42,900 --> 00:01:49,200
+Mas geralmente nós temos que trabalhar com personagens bem mais complexos, feitos com dezenas de camadas.
+
+25
+00:01:49,400 --> 00:01:51,850
+...e cada cena poderia ter vários deles.
+
+26
+00:01:51,940 --> 00:01:56,330
+E cada camada poderia ter muitos parâmetros para manter o olho.
+
+27
+00:01:56,600 --> 00:02:01,500
+Obviamente precisamos de alguma funcionalidade para gerenciar animação de alto nível.
+
+28
+00:02:01,720 --> 00:02:05,500
+Para este propósito nós temos os quadros-chave.
+
+29
+00:02:05,520 --> 00:02:10,680
+Quadros-chave são comumente confundidos com pontos de referência mas no Synfig eles não são a mesma coisa.
+
+30
+00:02:11,080 --> 00:02:16,830
+Pontos de referência armazenam um valor específico de um parâmetro em um certo momento.
+
+31
+00:02:18,830 --> 00:02:26,330
+Enquanto os quadros-chave, também estão ligados a um momento, mas armazenam o estado de todas as camadas de uma vez.
+
+32
+00:02:26,420 --> 00:02:29,060
+Vamos ver como isso funciona.
+
+33
+00:02:29,100 --> 00:02:32,500
+Vamos tentar recriar nossa animação do zero.
+
+34
+00:02:32,920 --> 00:02:37,260
+Primeiro, vamos remover a animação de ambos os braços.
+
+35
+00:02:38,660 --> 00:02:42,860
+Nós já sabemos como deletar cada ponto de referência.
+
+36
+00:02:43,960 --> 00:02:47,500
+E você também pode remover todos os pontos de um determinado parâmetro.
+
+37
+00:02:47,740 --> 00:02:51,660
+Apenas clique com o botão direito em um parâmetro e clique em "Desconectar".
+
+38
+00:02:52,920 --> 00:02:57,030
+Este método é bem útil quando temos vários pontos de referência.
+
+39
+00:02:57,340 --> 00:03:01,120
+Ok, agora toda a animação foi removida. Vamos começar.
+
+40
+00:03:01,460 --> 00:03:04,760
+Quadros-chave ficam na faixa azul, bem aqui.
+
+41
+00:03:04,900 --> 00:03:10,760
+Toda animação do Synfig cria um quadro-chave no começo automaticamente. Aqui está ele.
+
+42
+00:03:12,040 --> 00:03:15,060
+Nosso personagem fica na posição inicial.
+
+43
+00:03:15,280 --> 00:03:20,160
+Vamos ter certeza de que o modo de animação está ativado e ir para o décimo quadro.
+
+44
+00:03:21,540 --> 00:03:30,000
+Aliás, aqui você pode usar um atalho - segure Ctrl e a tecla ponto para mover o cursor de tempo um quadro adiante.
+
+45
+00:03:32,390 --> 00:03:35,060
+Agora vamos criar um novo quadro-chave.
+
+46
+00:03:35,220 --> 00:03:38,560
+Clique com o botão direito...
+
+47
+00:03:39,260 --> 00:03:41,360
+Aqui temos um quadro-chave.
+
+48
+00:03:41,540 --> 00:03:44,830
+Vamos girar o braço esquerdo.
+
+49
+00:03:45,960 --> 00:03:49,760
+Pronto. Agora vamos avançar mais 10 quadros...
+
+50
+00:03:50,180 --> 00:03:53,000
+Criar um novo quadro-chave...
+
+51
+00:03:53,380 --> 00:03:56,900
+e girar o segundo braço.
+
+52
+00:03:59,260 --> 00:04:05,900
+Note que o Synfig adicionou um ponto de referência extra para preservar o estado do objeto no quadro-chave anterior.
+
+53
+00:04:06,780 --> 00:04:11,760
+Agora a animação está como esperada, sem problemas adicionais.
+
+54
+00:04:12,140 --> 00:04:16,160
+Vamos dar uma olhada em mais um exemplo de como quadros-chave funcionam.
+
+55
+00:04:16,400 --> 00:04:19,660
+Vamos criar um novo arquivo.
+
+56
+00:04:20,280 --> 00:04:25,300
+Essa será uma animação de uma bola indo para cima e para baixo.
+
+57
+00:04:30,770 --> 00:04:33,660
+Nós já temos um quadro-chave por padrão.
+
+58
+00:04:33,780 --> 00:04:37,600
+Ele é usado para lembrar o estado dos objetos logo no começo.
+
+59
+00:04:37,900 --> 00:04:41,160
+Crie mais dois quadros-chave.
+
+60
+00:04:43,140 --> 00:04:47,140
+Vá para o segundo quadro-chave, ative o modo de animação...
+
+61
+00:04:47,660 --> 00:04:50,930
+...e mova a bola para cima.
+
+62
+00:04:51,240 --> 00:04:54,130
+Agora, três pontos de referência apareceram.
+
+63
+00:04:54,330 --> 00:04:59,760
+O ponto do meio foi criado porque nós definimos uma nova posição para a bala dentro do modo de animação.
+
+64
+00:04:59,930 --> 00:05:05,200
+E os outros dois foram criados automaticamente para salvar as posições dos quadros-chave da bola.
+
+65
+00:05:05,540 --> 00:05:10,900
+Então, a bola sobre e cai de volta.
+
+66
+00:05:13,560 --> 00:05:18,830
+Synfig também tem um painel especial com uma lista de quadro-chaves.
+
+67
+00:05:18,980 --> 00:05:22,700
+Aqui você pode nomer cada quadro-chave...
+
+68
+00:05:23,890 --> 00:05:26,830
+...e rapidamente mudar de um quadro-chave para outro.
+
+69
+00:05:27,100 --> 00:05:30,430
+Só clicar nesse "JMP" aqui.
+
+70
+00:05:31,420 --> 00:05:35,360
+É bem parecido com um link num navegador de internet.
+
+71
+00:05:35,890 --> 00:05:40,360
+Agora eu gostaria de ilustrar como os quadro-chaves ajudam a manipular pontos de referência.
+
+72
+00:05:40,680 --> 00:05:42,930
+Vamos voltar para nosso personagem.
+
+73
+00:05:43,020 --> 00:05:49,260
+Agora nós temos dois objetos animados - um braço e o outro braço.
+
+74
+00:05:49,880 --> 00:05:57,330
+Se nós movemos um quadro-chave... todos os pontos de referência nessa marcação de tempo serão movidos também.
+
+75
+00:05:57,770 --> 00:06:02,230
+Nós nem precisamos selecionar os objetos.
+
+76
+00:06:02,660 --> 00:06:07,630
+As vezes você pode precisar mover um quadro-chave junto de seus quadros-chave seguintes.
+
+77
+00:06:07,980 --> 00:06:13,360
+Nesse caso, apenas segure as teclas Alt e Shift quando você movê-lo. Assim.
+
+78
+00:06:17,390 --> 00:06:22,660
+Nós podemos copiar quadros-chave de um momento para outro. Assim como podemos fazer com pontos de referência.
+
+79
+00:06:23,060 --> 00:06:28,500
+Por exemplo, vamos fazer com que nosso personagem retorne para a pose inicial no quadro 40.
+
+80
+00:06:29,030 --> 00:06:31,260
+Vá para o quadro 40...
+
+81
+00:06:31,380 --> 00:06:33,960
+...clique no primeiro quadro-chave com o botão direito...
+
+82
+00:06:34,130 --> 00:06:36,460
+...e clique em "Duplicar".
+
+83
+00:06:37,800 --> 00:06:45,700
+Como você pode ver, o Synfig criou todos os pontos necessários para colocar nosso personagem na mesa pose que ele stava no quadro 0.
+
+84
+00:06:46,810 --> 00:06:52,630
+E também não é preciso estar com o modo de animação ativado quando nós manipulamos os quadros-chave.
+
+85
+00:06:52,810 --> 00:06:54,700
+E mais uma coisa para levar em conta:
+
+86
+00:06:54,960 --> 00:07:01,460
+Quando deletemas um quadro-chave, todos os pontos de referência dele serão deletados. Dê uma olhada.
+
+87
+00:07:04,360 --> 00:07:09,130
+Finalmente, eu gostaria de te mostrar mais um truque poderoso que nós podemos fazer com quadros-chave.
+
+88
+00:07:09,330 --> 00:07:14,500
+Depois do quadro 40, vamos fazer nosso personagem balançar a mão.
+
+89
+00:07:18,680 --> 00:07:22,960
+Mas nesse caso eu não vou colocar um quadro-chave em cada posição.
+
+90
+00:07:23,280 --> 00:07:27,660
+Ao invés disso, eu vou colocar um quadro-chave no começo da ação...
+
+91
+00:07:27,880 --> 00:07:31,900
+...e um no final.
+
+92
+00:07:38,180 --> 00:07:42,680
+Pronto. Agora nós temos dois eventos, dois quadros-chave...
+
+93
+00:07:42,860 --> 00:07:47,900
+O personagem começou a balançar a mão... e parou de balançar.
+
+94
+00:07:50,060 --> 00:07:54,560
+Agora vamos tentar mover o último quadro-chave.
+
+95
+00:07:56,360 --> 00:08:03,430
+E aqui está o truque: mover os quadros-chave automaticamente escala os pontos de referência entre eles.
+
+96
+00:08:06,140 --> 00:08:11,860
+Veja como é fácil mudar a duração de toda a ação.
+

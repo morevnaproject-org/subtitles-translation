@@ -1,0 +1,228 @@
+1
+00:00:00,560 --> 00:00:02,460
+#6: Gesichtsanimation
+
+2
+00:00:04,220 --> 00:00:09,730
+Nun kann sich unsere Figur bewegen. Es ist Zeit, dass wir sie zum Sprechen bringen.
+
+3
+00:00:10,920 --> 00:00:15,760
+Im „mimic“-Unterordner habe ich mehrere Bilder des Kopfes.
+
+4
+00:00:18,160 --> 00:00:23,260
+Werden sie in einer bestimmten Frequenz gegeneinander ausgetauscht, entsteht der Eindruck, die Figur würde sprechen.
+
+5
+00:00:23,460 --> 00:00:26,930
+Und genau das werden wir nun tun.
+
+6
+00:00:27,640 --> 00:00:35,560
+Lassen Sie uns eine neue Datei anlegen und unsere Figur schnell zusammensetzen. Genau, wie wir es bereits getan haben.
+
+7
+00:00:59,640 --> 00:01:03,160
+Nun müssen wir die Bilder des Kopfes importieren.
+
+8
+00:01:03,220 --> 00:01:06,380
+Wählen Sie die Dateien mit den Nummern 1 bis 5.
+
+9
+00:01:06,720 --> 00:01:11,060
+Die sechste Datei heben wir uns für später auf.
+
+10
+00:01:14,060 --> 00:01:17,230
+Lassen Sie uns die Köpfe nun zu einer Gruppe zusammenfassen.
+
+11
+00:01:17,320 --> 00:01:23,300
+Doch dafür verwende ich eine spezielle Schalter-Gruppe anstatt der normalen. Hier.
+
+12
+00:01:25,120 --> 00:01:29,130
+Die Schaltergruppe verhält sich wie eine gewöhnliche Gruppe…
+
+13
+00:01:29,240 --> 00:01:33,400
+…doch sie zeigt nur einen ihrer Unterpunkte zu einem Zeitpunkt an.
+
+14
+00:01:33,980 --> 00:01:38,300
+Diese Gruppe hat einen speziellen Parameter namens „Aktive Ebene“…
+
+15
+00:01:38,480 --> 00:01:41,800
+…welcher den Namen der anzuzeigenden Ebene angibt.
+
+16
+00:01:42,000 --> 00:01:46,900
+Ändern wit ihn, damit die Figur ihren Mund schließt.
+
+17
+00:01:47,100 --> 00:01:50,100
+Drücken Sie Enter. Fertig.
+
+18
+00:01:50,360 --> 00:01:53,930
+Wenn wir diesen Parameter im Animations-Modus ändern…
+
+19
+00:01:54,260 --> 00:01:59,030
+…erscheinen neue Wegpunkte und die Ebenen werden umgeschaltet.
+
+20
+00:01:59,230 --> 00:02:04,330
+Lassen Sie uns nun den Kopf in Gruppe aufnehmen.
+
+21
+00:02:04,640 --> 00:02:07,000
+Wählen Sie „Ausschneiden“…
+
+22
+00:02:07,220 --> 00:02:08,960
+Wählen Sie diese Ebene...
+
+23
+00:02:09,160 --> 00:02:11,060
+…und gehen Sie auf „Einfügen“.
+
+24
+00:02:11,200 --> 00:02:16,630
+Wie Sie sehen, werden neue Ebenen immer direkt oberhalb der ausgewählten eingefügt.
+
+25
+00:02:23,560 --> 00:02:27,560
+Wollen wir nun eine Audiodatei mit einer Stimme für unsere Figur importieren.
+
+26
+00:02:27,980 --> 00:02:30,600
+Wählen Sie „Datei“ -> „Importieren“…
+
+27
+00:02:31,320 --> 00:02:36,260
+…und wählen Sie im „mimic“-Ordner „sound.wav“.
+
+28
+00:02:41,030 --> 00:02:43,900
+Lassen Sie uns in die Audiospur hineinhören.
+
+29
+00:02:47,140 --> 00:02:49,730
+Wir haben also zwei Phrasen.
+
+30
+00:02:49,780 --> 00:02:54,430
+Lassen Sie uns den Anfang und das Ende jeder Phrase mit einem Schlüsselbild markieren.
+
+31
+00:03:18,230 --> 00:03:19,500
+Fertig.
+
+32
+00:03:19,700 --> 00:03:23,730
+Jetzt werden wir die Bilder des Kopfes in bestimmten Intervallen umschalten.
+
+33
+00:03:23,880 --> 00:03:27,260
+Schalten Sie den Animations-Modus ein…
+
+34
+00:03:28,740 --> 00:03:31,130
+…gehen Sie zwei Bilder vorwärts…
+
+35
+00:03:31,320 --> 00:03:35,200
+…und aktivieren Sie die erste Ebene.
+
+36
+00:03:39,600 --> 00:03:41,960
+Nun etwas weiter…
+
+37
+00:03:41,980 --> 00:03:44,960
+und so fort.
+
+38
+00:03:45,730 --> 00:03:51,200
+Ich werde an dieser Stelle nicht versuchen, die Mundstellungen mit der Stimme zu synchronisieren.
+
+39
+00:03:51,360 --> 00:03:56,630
+Stattdessen werde ich sie beliebig einsetzen – das sollte in unserem Fall erst einmal ausreichen.
+
+40
+00:04:00,420 --> 00:04:03,100
+Lassen Sie uns einen Blick auf das Ergebnis werfen.
+
+41
+00:04:06,260 --> 00:04:08,600
+Ok, nun redet die Figur.
+
+42
+00:04:08,760 --> 00:04:14,600
+In diesem Beispiel haben alle unsere Bilder des Kopfes dieselbe Größe, daher gibt es hier keine Probleme.
+
+43
+00:04:14,980 --> 00:04:20,060
+Doch angenommen, wir wollen ein weiteres Bild des Kopfes mit einer anderen Größe einfügen.
+
+44
+00:04:27,900 --> 00:04:31,360
+Importieren Sie die „head-extra“-Datei…
+
+45
+00:04:33,880 --> 00:04:37,300
+Und platzieren Sie sie in der Schalter-Gruppe.
+
+46
+00:04:43,540 --> 00:04:48,030
+Sie ist derzeit nicht sichtbar. Lassen Sie uns sie an einem bestimmten Zeitpunkt aktivieren.
+
+47
+00:04:54,240 --> 00:04:58,430
+Sehen Sie? Der Kopf unserer Figur springt zur Seite.
+
+48
+00:04:59,020 --> 00:05:02,560
+Das liegt daran, dass das Bild nicht deckungsgleich mit den anderen ist.
+
+49
+00:05:02,880 --> 00:05:05,330
+Wir müssen es also anpassen.
+
+50
+00:05:05,500 --> 00:05:09,700
+Doch das ist nicht so einfach, denn wir sehen die anderen Köpfe ja nicht!
+
+51
+00:05:09,760 --> 00:05:14,060
+Daher werden wir nun den Zwiebelschalen-Modus nutzen.
+
+52
+00:05:17,380 --> 00:05:22,160
+Wenn der Zwiebelschalen-Modus aktiviert ist, sehen wir das letzte Schlüsselbild.
+
+53
+00:05:22,330 --> 00:05:25,500
+Damit wird es einfach, das Bild auszurichten.
+
+54
+00:05:25,620 --> 00:05:31,720
+Vergessen Sie bitte zuvor aber nicht, den Animations-Modus auszuschalten, ansonsten kann es zu unvorhergesehenen Nebenwirkungen kommen.
+
+55
+00:05:32,640 --> 00:05:37,700
+Wählen Sie das Bild des Kopfes… und passen Sie es an.
+
+56
+00:05:45,040 --> 00:05:47,330
+Fertig.
+
+57
+00:05:55,520 --> 00:05:59,000
+Nun funktioniert alles wie erwartet.
+

@@ -1,0 +1,296 @@
+1
+00:00:00,430 --> 00:00:03,100
+#2: Tu primera animación
+
+2
+00:00:05,220 --> 00:00:09,060
+En esta lección crearemos una animación simple sobre un niño yendo a la escuela.
+
+3
+00:00:10,770 --> 00:00:15,060
+Este curso incluye un conjunto de archivos de ejemplo, los cuales puedes usar para los ejercicios.
+
+4
+00:00:15,720 --> 00:00:20,140
+Por favor descarga el archivo workshop.zip que se incluye con el curso, y descomprimelo.
+
+5
+00:00:21,890 --> 00:00:25,630
+Echemos un vistazo dentro de la carpeta "first-animation".
+
+6
+00:00:27,430 --> 00:00:33,100
+Aqui tenemos la imagen de un niño. Luego, la imagen del mapa sobre el cual él va a viajar.
+
+7
+00:00:34,810 --> 00:00:37,860
+Todas las imágenes están guardadas en formato .PNG
+
+8
+00:00:38,060 --> 00:00:43,500
+Este es el formato que usamos para los gráficos en mapa de bits, ya que proporciona compresión sin pérdida de calidad...
+
+9
+00:00:43,500 --> 00:00:48,700
+... y nos permite guadar imágenes con fondo transparente.
+
+10
+00:00:49,060 --> 00:00:52,000
+Ahora vamos a añadir la imagen del niño a Synfig
+
+11
+00:00:52,000 --> 00:00:56,060
+Ve a "File" - "Import" desde el menú principal...
+
+12
+00:00:56,810 --> 00:00:59,560
+luego busca la ubicación de nuestros archivos de ejemplo.
+
+13
+00:01:00,100 --> 00:01:02,310
+Ve a la carpeta "first animation"...
+
+14
+00:01:02,720 --> 00:01:05,560
+...y elige el archivo "boy.png".
+
+15
+00:01:09,430 --> 00:01:12,720
+Aquí tenemos una capa de imagen. Selecciónala.
+
+16
+00:01:14,350 --> 00:01:19,390
+Cada capa de imagen tiene un conjunto de tiradores que permiten transformarla.
+
+17
+00:01:19,930 --> 00:01:22,770
+Este tirador nos permite mover la capa.
+
+18
+00:01:25,350 --> 00:01:28,700
+El punto azul controla la rotación.
+
+19
+00:01:31,160 --> 00:01:35,560
+Usando la esquina naranja, podemos escalar proporcionalmente la imagen.
+
+20
+00:01:41,060 --> 00:01:45,970
+También puedes escalar a lo largo de un eje particular, arrastrando los puntos amarillos aquí o aquí.
+
+21
+00:01:51,060 --> 00:01:55,350
+Finalmente, este punto rojo controla la oblicuidad.
+
+22
+00:01:55,890 --> 00:02:00,060
+Supongo que no lo vas a usar con mucha frecuencia, así que vamos a deshacer la última acción.
+
+23
+00:02:03,520 --> 00:02:07,100
+También puedes deshacer usando Ctrl+Z, como en otras aplicaciones.
+
+24
+00:02:11,180 --> 00:02:17,810
+Vamos a insertar la imagen del mapa: es el archivo "background.png".
+
+25
+00:02:19,850 --> 00:02:25,310
+Como puedes ver, la imagen es demasiado grande. Vamos a seleccionarla y a escalarla para que se ajuste en el área de trabajo.
+
+26
+00:02:32,520 --> 00:02:34,640
+Y vamos a enviarla al fondo... así.
+
+27
+00:02:35,770 --> 00:02:41,390
+Ahora tenemos que escalar al niño y enviarlo a casa. Selecciona su capa...
+
+28
+00:02:48,180 --> 00:02:54,640
+Por cierto, puedes acercar y alejar la vista actual con la rueda del ratón mientras mantienes presionada la tecla Ctrl.
+
+29
+00:02:58,100 --> 00:03:02,960
+Y si se mantiene presionado el botón de la rueda, puedes desplazarte por el área de trabajo.
+
+30
+00:03:10,270 --> 00:03:13,360
+Ahora tenemos todo en su lugar.
+
+31
+00:03:15,720 --> 00:03:19,180
+Entonces, queremos hacer una animación de este niño yendo desde su casa a la escuela.
+
+32
+00:03:19,270 --> 00:03:25,560
+Obviamente, en algún momento deberá estar en casa; y en otro momento, estará en la escuela.
+
+33
+00:03:25,970 --> 00:03:31,850
+Tenemos que cambiar al modo "Animación" y establecer ambas ubicaciones para los momentos específicos de tiempo.
+
+34
+00:03:32,020 --> 00:03:35,600
+Haz click en el botón del hombre verde para pasar al modo animación.
+
+35
+00:03:39,640 --> 00:03:46,220
+El hombre verde se vuelve rojo y aparece un borde rojo alrededor del lienzo. Esto indica que ahora estamos en el modo de animación.
+
+36
+00:03:46,350 --> 00:03:51,060
+Cuando el modo de animación está activado, todos los cambios son registrados con relación al tiempo actual.
+
+37
+00:03:51,770 --> 00:03:57,720
+Echemos un vistazo al panel "línea de tiempo" en la parte inferior. Allí se indica que estamos ahora en el cuadro 0 /frame 0/.
+
+38
+00:04:00,390 --> 00:04:04,020
+Podemos cambiar el tiempo actual haciendo click en esta área gris.
+
+39
+00:04:09,230 --> 00:04:14,430
+Regresemos al cuadro cero. El niño está en casa y todo es correcto.
+
+40
+00:04:14,600 --> 00:04:18,600
+Ahora ve al cuadro 48, y arrastra al niño a la escuela.
+
+41
+00:04:25,470 --> 00:04:30,640
+Fíjate, justo al lado del parámetro Transformation, han aparecido dos diamantes de color naranja.
+
+42
+00:04:34,020 --> 00:04:39,560
+Estos diamantes son llamados puntos de referencia /Waypoints/. Indican que un parámetro tiene un nuevo valor en algún momento del tiempo.
+
+43
+00:04:40,520 --> 00:04:45,560
+Synfig crea puntos de referencia cada vez que cambiamos un parámetro en el modo animación.
+
+44
+00:04:47,850 --> 00:04:50,770
+Este punto de referencia indica que el niño está en la escuela...
+
+45
+00:04:51,850 --> 00:04:55,530
+...y éste, indica que está en casa.
+
+46
+00:04:56,890 --> 00:05:01,020
+Recuerda que los movimientos entre los puntos de referencia son calculados automáticamente por Synfig.
+
+47
+00:05:05,020 --> 00:05:10,560
+Nuestra animación es muy simple, así que Synfig puede reproducirla -en tiempo real- sin problemas.
+
+48
+00:05:10,930 --> 00:05:15,970
+Pero cuando la animación tiene un alto nivel de complejidad, la reproducción en tiempo real podria ser imposible.
+
+49
+00:05:16,400 --> 00:05:22,230
+Es por eso que recomendamos usar la función de Vista Previa /Preview/.
+
+50
+00:05:22,310 --> 00:05:26,140
+Aquí podemos establecer el valor de la calidad y los fotogramas por segundo de la previsualización.
+
+51
+00:05:35,810 --> 00:05:42,060
+Vamos a extender un poco nuestra animación. En el cuadro 96, mueve el niño a la tienda...
+
+52
+00:05:43,970 --> 00:05:46,930
+... y en el cuadro 115, regrésalo a casa otra vez.
+
+53
+00:05:51,350 --> 00:05:54,810
+Podemos ir al punto de referencia y cambiar su valor.
+
+54
+00:05:59,930 --> 00:06:03,520
+Oh, ¿qué tal? ¡Ahora el chamaco se está volando las clases!
+
+55
+00:06:09,810 --> 00:06:13,850
+También podemos ajustar la velocidad del movimiento arrastrando los puntos de referencia.
+
+56
+00:06:14,640 --> 00:06:18,430
+Mueve este punto de referencia desde el 48 al 20.
+
+57
+00:06:21,350 --> 00:06:27,060
+Ahora el niño va corriendo al cine, de una manera más rápida de la que usó para ir a la escuela.
+
+58
+00:06:28,770 --> 00:06:34,260
+Se pueden borrar los puntos de referencia haciendo click derecho sobre ellos y seleccionando "Remove" desde el menú.
+
+59
+00:06:34,770 --> 00:06:39,850
+O bien, puedes mantener pulsadas las teclas Ctrl+Alt, y hacer click sobre el punto de referencia con el botón izquierdo del ratón.
+
+60
+00:06:44,850 --> 00:06:50,430
+También puedes copiar los puntos de referencia. Para hacerlo, mueve la guía a donde quieres la copia...
+
+61
+00:06:50,970 --> 00:06:55,470
+encuentra el punto de referencia deseado...
+
+62
+00:06:58,930 --> 00:07:02,930
+Ahora el niño regresa exactamente a la misma posición en la que estuvo al principio.
+
+63
+00:07:04,390 --> 00:07:07,470
+Este truco es muy usado cuando creamos animaciones en bucle.
+
+64
+00:07:11,890 --> 00:07:15,180
+Recuerda: los puntos de referencia sólo se crean en el modo de animación.
+
+65
+00:07:15,640 --> 00:07:20,430
+De lo contrario, cualquier cambio que realices afectará a todos los cuadros /frames/ de tu proyecto. Vamos a intentarlo.
+
+66
+00:07:20,600 --> 00:07:24,020
+Desactiva el modo Animación... y mueve al niño.
+
+67
+00:07:26,470 --> 00:07:32,260
+Aquí tenemos un mensaje de alerta preguntándonos si realmente queremos aplicar el cambio a toda la animación.
+
+68
+00:07:32,600 --> 00:07:36,460
+Presiona "Yes" y mira lo que sucede.
+
+69
+00:07:39,470 --> 00:07:43,500
+Ahora el niño se mueve, pero está fuera de la pantalla. Vamos a deshacer esto.
+
+70
+00:07:47,520 --> 00:07:50,800
+Toma en cuenta que el mensaje de alerta sólo aparecerá cuando modifiques los parámetros de la animación.
+
+71
+00:07:50,860 --> 00:07:53,500
+De otro modo, todos los cambios se aplican de inmediato.
+
+72
+00:07:53,600 --> 00:07:56,800
+Por ejemplo, tratemos de mover el fondo.
+
+73
+00:07:57,930 --> 00:08:01,260
+¿Te fijaste? No hubo ningún mensaje de alerta en esta ocasión.
+
+74
+00:08:03,140 --> 00:08:09,200
+Así que estamos listos para la siguiente lección.
+
