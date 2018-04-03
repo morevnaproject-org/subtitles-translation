@@ -9,6 +9,7 @@ after_success:
 before_deploy:
 - git config --local user.name "Travis CI"
 - git config --local user.email "travis@travis-ci.org"
+- git push origin :refs/tags/current
 - git tag -d current
 - git tag current
 deploy:
@@ -19,5 +20,6 @@ deploy:
   - output/course-synfig-subtitles.zip
   on:
     repo: morevnaproject/subtitles-translation
+    tags: true
   overwrite: true
   skip_cleanup: true
