@@ -74,5 +74,5 @@ cd "${BASE_DIR}/output"
 rm *.zip || true
 FILES=( "course-synfig" "course-pepper" )
 for DIR in "${FILES[@]}"; do
-  zip -r ${DIR}-subtitles.zip ${DIR}
+  zip -r ${DIR}.zip ${DIR}
 done
