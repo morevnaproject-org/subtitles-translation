@@ -2,9 +2,9 @@ language: python
 os: linux
 python: '3.6'
 script:
-- if [ $TRAVIS_EVENT_TYPE == "push" ] && [ $TRAVIS_TAG != "latest-release" ]; then $TRAVIS_BUILD_DIR/tool/generate-srt.sh; fi
+- if [ $TRAVIS_EVENT_TYPE == "push" ] && [[ $TRAVIS_TAG != "latest-release" ]]; then $TRAVIS_BUILD_DIR/tool/generate-srt.sh; fi
 after_success:
-- if [ $TRAVIS_EVENT_TYPE == "push" ] && [ $TRAVIS_TAG != "latest-release" ]; then $TRAVIS_BUILD_DIR/tool/deploy-srt.sh;
+- if [ $TRAVIS_EVENT_TYPE == "push" ] && [[ $TRAVIS_TAG != "latest-release" ]]; then $TRAVIS_BUILD_DIR/tool/deploy-srt.sh;
   fi
 deploy:
   provider: releases
