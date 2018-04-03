@@ -15,6 +15,5 @@ deploy:
   - output/course-pepper.zip
   on:
     repo: morevnaproject/subtitles-translation
-    tags: true
   overwrite: true
   skip_cleanup: true
