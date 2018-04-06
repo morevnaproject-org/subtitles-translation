@@ -1,0 +1,204 @@
+1
+00:00:00,600 --> 00:00:03,060
+#8: Animazione dello Scheletro
+
+2
+00:00:04,130 --> 00:00:07,260
+Riprendiamo il personaggio che abbiamo creato.
+
+3
+00:00:07,360 --> 00:00:09,900
+Adesso lo faremo camminare.
+
+4
+00:00:10,160 --> 00:00:14,700
+Mettiamo il personaggio nella posizione iniziale, così.
+
+5
+00:00:22,040 --> 00:00:25,700
+E quindi andiamo in modalità Animazione.
+
+6
+00:00:26,220 --> 00:00:30,240
+Realizzeremo 16 fotogrammi per fargli fare un passo.
+
+7
+00:00:30,500 --> 00:00:35,660
+Sposta il cursore della linea tempo al fotogramma 16 e aggiungi un nuovo fotogramma chiave.
+
+8
+00:00:38,100 --> 00:00:42,830
+Ora bisogna regolare la posizione delle gambe e far spostare in avanti l'intera figura.
+
+9
+00:00:42,960 --> 00:00:46,800
+Prima però mi piacerebbe marcare la posizione della gamba in avanti.
+
+10
+00:00:47,030 --> 00:00:53,160
+A questo scopo, si crei un piccolo cerchio proprio qui, come riferimento.
+
+11
+00:00:57,020 --> 00:01:01,300
+Ora possiamo regolare le gambe ...
+
+12
+00:01:03,160 --> 00:01:05,560
+... e spostare il ragazzo in avanti.
+
+13
+00:01:05,730 --> 00:01:10,630
+Così, quindi questa gamba dovrebbe rimanere nello stesso posto.
+
+14
+00:01:10,840 --> 00:01:14,900
+E non dimenticarti di regolare anche le braccia.
+
+15
+00:01:25,500 --> 00:01:28,560
+Per adesso il movimento non sembra valido.
+
+16
+00:01:28,700 --> 00:01:32,630
+Naturalmente il personaggio dovrebbe sollevare una gamba mentre cammina ...
+
+17
+00:01:32,860 --> 00:01:35,300
+... e l'altra dovrebbe rimanere col piede sul suolo.
+
+18
+00:01:35,560 --> 00:01:39,330
+Quindi creiamo un fotogramma chiave intermedio e correggiamo la posa.
+
+19
+00:01:44,530 --> 00:01:48,760
+Dato che questa gamba è quella in avanti, sta poggiata al suolo.
+
+20
+00:01:48,760 --> 00:01:51,060
+E questa si alzerà.
+
+21
+00:01:51,300 --> 00:01:54,860
+Sto facendo clic sul punto dell'osso per segnarlo.
+
+22
+00:01:55,020 --> 00:02:00,930
+Ora lo puoi vedere evidenziato, quindi posso distinguerlo dalle altre ossa.
+
+23
+00:02:14,660 --> 00:02:22,880
+Per rendere migliore la nostra animazione, daremo evidenza al momento in cui il personaggio solleva il suo peso sulla gamba in avanti.
+
+24
+00:02:23,320 --> 00:02:26,660
+Aggiungi un fotogramma chiave qui ...
+
+25
+00:02:27,380 --> 00:02:32,060
+... e poi aggiustiamo il piede per evidenziare il passo.
+
+26
+00:02:33,780 --> 00:02:36,930
+Così.
+
+27
+00:02:39,600 --> 00:02:42,160
+Il primo passo è fatto.
+
+28
+00:02:42,420 --> 00:02:46,860
+Faremo il secondo esattamente allo stesso modo.
+
+29
+00:02:49,120 --> 00:02:52,830
+Segna la posizione della gamba avanti ...
+
+30
+00:02:55,730 --> 00:03:00,560
+Aggiungi una posa chiave quando il personaggio ha già completato il secondo passo.
+
+31
+00:03:00,800 --> 00:03:03,730
+Questa posa è la stessa di quella dell'inizio.
+
+32
+00:03:03,930 --> 00:03:07,200
+Quindi basta solo copiare il fotogramma chiave ...
+
+33
+00:03:08,480 --> 00:03:12,200
+... e spostare il personaggio nella posizione corretta.
+
+34
+00:03:15,260 --> 00:03:20,360
+Adesso aggiungiamo di nuovo un fotogramma intermedio.
+
+35
+00:03:21,030 --> 00:03:23,580
+Questa volta, questa gamba poggia sul suolo...
+
+36
+00:03:23,760 --> 00:03:26,760
+... e questa è sollevata in aria.
+
+37
+00:03:30,600 --> 00:03:35,400
+Poi enfatizza il movimento del passo.
+
+38
+00:03:40,960 --> 00:03:44,330
+E adesso abbiamo due passi pronti.
+
+39
+00:03:46,000 --> 00:03:51,860
+Per il terzo passo, si può semplicemente copiare i fotogrammi chiave e continuare a far muovere in avanti il personaggio.
+
+40
+00:03:52,100 --> 00:03:56,130
+Prima di fare questo però, nominiamo i fotogrammi per evitare confusione.
+
+41
+00:03:56,230 --> 00:03:58,030
+Nominiamoli come segue:
+
+42
+00:03:58,300 --> 00:04:01,200
+"0", "0-passo" ...
+
+43
+00:04:01,340 --> 00:04:04,420
+"0-a-1", "1" ...
+
+44
+00:04:04,680 --> 00:04:06,830
+"1-passo"...
+
+45
+00:04:06,960 --> 00:04:08,830
+"da 1-a-0"...
+
+46
+00:04:09,000 --> 00:04:10,960
+...e di nuovo "0".
+
+47
+00:04:11,680 --> 00:04:15,230
+Adesso segniamo la posizione di questa gamba...
+
+48
+00:04:17,100 --> 00:04:20,060
+E copiamo i fotogrammi.
+
+49
+00:04:46,300 --> 00:04:50,060
+Occorre percorrere tutti i keyframes ...
+
+50
+00:04:50,120 --> 00:04:56,330
+... e correggere l'osso principale del personaggio in modo che i suoi piedi non sembrino scivolare sul suolo.
+
+51
+00:05:15,300 --> 00:05:17,830
+Ok, abbiamo finito.
+

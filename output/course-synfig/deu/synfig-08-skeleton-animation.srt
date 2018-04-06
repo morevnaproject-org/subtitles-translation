@@ -1,0 +1,204 @@
+1
+00:00:00,600 --> 00:00:03,060
+#8: Skelett-Animation
+
+2
+00:00:04,130 --> 00:00:07,260
+Lassen Sie uns zu der Figur zurückkehren, die wir erstellt haben.
+
+3
+00:00:07,360 --> 00:00:09,900
+Nun werden wir sie zum Laufen bringen.
+
+4
+00:00:10,160 --> 00:00:14,700
+Setzen wir die Figur in die Ausgangslage zurück, so hier.
+
+5
+00:00:22,040 --> 00:00:25,700
+Und dann wechseln wir in den Animations-Modus.
+
+6
+00:00:26,220 --> 00:00:30,240
+Wir werden ihr 16 Bilder geben, um einen Schritt zu machen.
+
+7
+00:00:30,500 --> 00:00:35,660
+Bewegen Sie die Zeitmarkierung auf Bild 16 und fügen Sie ein neues Schlüsselbild hinzu.
+
+8
+00:00:38,100 --> 00:00:42,830
+Nun müssen wir die Positionen der Beine vertauschen und die gesamte Figur vorwärts bewegen.
+
+9
+00:00:42,960 --> 00:00:46,800
+Doch zunächst will ich die Position ihres vorderen Beines markieren.
+
+10
+00:00:47,030 --> 00:00:53,160
+Erstellen Sie hierzu einfach einen kleinen Kreis an dieser Stelle als Markierung.
+
+11
+00:00:57,020 --> 00:01:01,300
+Nun können wir die Beine vertauschen
+
+12
+00:01:03,160 --> 00:01:05,560
+…und unser Kerlchen vorwärts bewegen.
+
+13
+00:01:05,730 --> 00:01:10,630
+So hier, sodass dieses Bein am selben Platz bleiben sollte.
+
+14
+00:01:10,840 --> 00:01:14,900
+Und vergessen Sie nicht, auch die Arme umzuschalten.
+
+15
+00:01:25,500 --> 00:01:28,560
+Bisher sieht die Bewegung noch nicht so gut aus.
+
+16
+00:01:28,700 --> 00:01:32,630
+Offensichtlich sollte die Figur beim Laufen ein Bein heben
+
+17
+00:01:32,860 --> 00:01:35,300
+…und das andere sollte auf dem Boden bleiben.
+
+18
+00:01:35,560 --> 00:01:39,330
+Daher erstellen wir ein Zwischen-Schlüsselbild und fixieren die Haltung.
+
+19
+00:01:44,530 --> 00:01:48,760
+Da dieses Bein das vordere ist, bleibt es auf dem Boden.
+
+20
+00:01:48,760 --> 00:01:51,060
+Und dieses hier bewegt sich aufwärts.
+
+21
+00:01:51,300 --> 00:01:54,860
+Ich klicke jetzt auf den Knochen, um ihn zu markieren.
+
+22
+00:01:55,020 --> 00:02:00,930
+Sie sehen, dass er jetzt hervorgehoben wird, sodass ich ihn von den anderen Knochen unterscheiden kann.
+
+23
+00:02:14,660 --> 00:02:22,880
+Um unsere Animation noch weiter zu verbessern, heben wir den Moment hervor, wenn der Charakter sein Gewicht auf das vordere Bein verlagert.
+
+24
+00:02:23,320 --> 00:02:26,660
+Fügen Sie hier ein Schlüsselbild hinzu...
+
+25
+00:02:27,380 --> 00:02:32,060
+…und dann passen Sie den Fuß an, um den Schritt hervorzuheben.
+
+26
+00:02:33,780 --> 00:02:36,930
+So hier.
+
+27
+00:02:39,600 --> 00:02:42,160
+Der erste Schritt ist gemacht.
+
+28
+00:02:42,420 --> 00:02:46,860
+Den zweiten erstellen wir auf genau dieselbe Weise.
+
+29
+00:02:49,120 --> 00:02:52,830
+Markieren Sie die Position des vorderen Beins
+
+30
+00:02:55,730 --> 00:03:00,560
+Und die Schlüssel-Haltung, welche die Figur hat, wenn sie gerade den zweiten Schritt gemacht hat.
+
+31
+00:03:00,800 --> 00:03:03,730
+Diese Haltung ist dieselbe wie am Anfang.
+
+32
+00:03:03,930 --> 00:03:07,200
+Wir können also einfach das Schlüsselbild kopieren
+
+33
+00:03:08,480 --> 00:03:12,200
+…und die Figur an die rechte Position bewegen.
+
+34
+00:03:15,260 --> 00:03:20,360
+Nun fügen wir erneut ein Zwischenbild hinzu.
+
+35
+00:03:21,030 --> 00:03:23,580
+Diesmal befindet sich dieses Bein auf dem Boden
+
+36
+00:03:23,760 --> 00:03:26,760
+…und dieses ist in der Luft.
+
+37
+00:03:30,600 --> 00:03:35,400
+Heben Sie dann die Bewegung beim Setzen des Schritts hervor.
+
+38
+00:03:40,960 --> 00:03:44,330
+Und schon haben wir zwei Schritte fertig.
+
+39
+00:03:46,000 --> 00:03:51,860
+Für den dritten Schritt können Sie einfach das Schlüsselbild kopieren und die Figur weiter vorwärts bewegen.
+
+40
+00:03:52,100 --> 00:03:56,130
+Doch Lassen Sie uns vorher die Bilder benennen, damit wir nichts durcheinander bringen.
+
+41
+00:03:56,230 --> 00:03:58,030
+Wollen wir sie folgendermaßen benennen:
+
+42
+00:03:58,300 --> 00:04:01,200
+„0“, „0-Schritt“
+
+43
+00:04:01,340 --> 00:04:04,420
+„0-bis-1“, „1“
+
+44
+00:04:04,680 --> 00:04:06,830
+„1-Schritt“
+
+45
+00:04:06,960 --> 00:04:08,830
+„1-bis-0…
+
+46
+00:04:09,000 --> 00:04:10,960
+…und noch einmal „0“.
+
+47
+00:04:11,680 --> 00:04:15,230
+Markieren Sie nun die Position des Beins...
+
+48
+00:04:17,100 --> 00:04:20,060
+Und kopieren Sie die Bilder.
+
+49
+00:04:46,300 --> 00:04:50,060
+Wir müssen alle Schlüsselbilder aufmerksam durchgehen…
+
+50
+00:04:50,120 --> 00:04:56,330
+…und den Hauptknochen der Figur anpassen, damit ihre Füße nicht aussehen, als würden sie auf dem Boden entlang rutschen.
+
+51
+00:05:15,300 --> 00:05:17,830
+OK, fertig.
+
