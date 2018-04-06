@@ -1,0 +1,228 @@
+1
+00:00:00,560 --> 00:00:02,460
+#6: Face animation
+
+2
+00:00:04,220 --> 00:00:09,730
+Now our character can move. It's time to make him talk.
+
+3
+00:00:10,920 --> 00:00:15,760
+In the "mimic" folder I have several head images.
+
+4
+00:00:18,160 --> 00:00:23,260
+Switching them at a certain frequency creates an illusion of a talking character.
+
+5
+00:00:23,460 --> 00:00:26,930
+That's what we are going to do.
+
+6
+00:00:27,640 --> 00:00:35,560
+Let's create a new file and quickly assemble our character. Just as we did before.
+
+7
+00:00:59,640 --> 00:01:03,160
+Now we need to import the head images.
+
+8
+00:01:03,220 --> 00:01:06,380
+Select the files with numbers from 1 to 5.
+
+9
+00:01:06,720 --> 00:01:11,060
+The sixth file we keep for later.
+
+10
+00:01:14,060 --> 00:01:17,230
+Now let's group those heads together.
+
+11
+00:01:17,320 --> 00:01:23,300
+But for this case I will be using a special Switch Group instead of the regular one. Here.
+
+12
+00:01:25,120 --> 00:01:29,130
+The Switching group behaves just like an ordinary group...
+
+13
+00:01:29,240 --> 00:01:33,400
+...but it shows only one of its child layers at a time.
+
+14
+00:01:33,980 --> 00:01:38,300
+This group have a special parameter called "Active Layer Name"...
+
+15
+00:01:38,480 --> 00:01:41,800
+...which defines the name of layer to display.
+
+16
+00:01:42,000 --> 00:01:46,900
+Let's change it, to make our character close his mouth.
+
+17
+00:01:47,100 --> 00:01:50,100
+Press Enter. Done.
+
+18
+00:01:50,360 --> 00:01:53,930
+If we change this parameter in the Animation mode...
+
+19
+00:01:54,260 --> 00:01:59,030
+...the new waypoints will appear and the layers will be switching.
+
+20
+00:01:59,230 --> 00:02:04,330
+Now let's put head inside of this group.
+
+21
+00:02:04,640 --> 00:02:07,000
+Choose "Cut"...
+
+22
+00:02:07,220 --> 00:02:08,960
+Select this layer...
+
+23
+00:02:09,160 --> 00:02:11,060
+...and "Paste".
+
+24
+00:02:11,200 --> 00:02:16,630
+Notice that new layers are always inserted right above of the selected one.
+
+25
+00:02:23,560 --> 00:02:27,560
+Now let's import audio file with a voice of our character.
+
+26
+00:02:27,980 --> 00:02:30,600
+Choose "File" -> "Import"...
+
+27
+00:02:31,320 --> 00:02:36,260
+...and in the "mimic" folder select "sound.wav".
+
+28
+00:02:41,030 --> 00:02:43,900
+Let's listen to an audio track.
+
+29
+00:02:47,140 --> 00:02:49,730
+So, we've got two phrases.
+
+30
+00:02:49,780 --> 00:02:54,430
+Let's mark the beginning and the end of each phrase with keyframes.
+
+31
+00:03:18,230 --> 00:03:19,500
+Done.
+
+32
+00:03:19,700 --> 00:03:23,730
+Now we're going to switch head images in this and that intervals.
+
+33
+00:03:23,880 --> 00:03:27,260
+Turn the Animation mode on...
+
+34
+00:03:28,740 --> 00:03:31,130
+...go two frames ahead...
+
+35
+00:03:31,320 --> 00:03:35,200
+...and switch the first layer.
+
+36
+00:03:39,600 --> 00:03:41,960
+Now further a bit more...
+
+37
+00:03:41,980 --> 00:03:44,960
+and so on.
+
+38
+00:03:45,730 --> 00:03:51,200
+Right now I won't going to try to perfectly synchronize mouth shapes with voice.
+
+39
+00:03:51,360 --> 00:03:56,630
+Instead, I will place them randomly - that should be enough for now.
+
+40
+00:04:00,420 --> 00:04:03,100
+Let's check out the result.
+
+41
+00:04:06,260 --> 00:04:08,600
+Okay, he is talking now.
+
+42
+00:04:08,760 --> 00:04:14,600
+In this example all our head images are of the same size, so we don't have any problems.
+
+43
+00:04:14,980 --> 00:04:20,060
+But suppose if we want to add an extra head image with a different dimensions.
+
+44
+00:04:27,900 --> 00:04:31,360
+Import "head-extra" file...
+
+45
+00:04:33,880 --> 00:04:37,300
+And place it into the switch group.
+
+46
+00:04:43,540 --> 00:04:48,030
+It's not visible for now. Let's switch in on at some moment.
+
+47
+00:04:54,240 --> 00:04:58,430
+See? The guy's head jerks aside.
+
+48
+00:04:59,020 --> 00:05:02,560
+That's because the image doesn't coincide with the others.
+
+49
+00:05:02,880 --> 00:05:05,330
+So we have to adjust it.
+
+50
+00:05:05,500 --> 00:05:09,700
+But it's not that easy, because I can't see other heads at the same time!
+
+51
+00:05:09,760 --> 00:05:14,060
+So here we will use a Onionskin mode.
+
+52
+00:05:17,380 --> 00:05:22,160
+When Onionskin is enabled we can see an image from the previous keyframe.
+
+53
+00:05:22,330 --> 00:05:25,500
+Now it's become easy to align the image.
+
+54
+00:05:25,620 --> 00:05:31,720
+Just don't forget to switch the Animation mode off before you start, or else nasty miracles would happen.
+
+55
+00:05:32,640 --> 00:05:37,700
+Select the head image... and adjust.
+
+56
+00:05:45,040 --> 00:05:47,330
+Done.
+
+57
+00:05:55,520 --> 00:05:59,000
+Now everything works as expected.
+

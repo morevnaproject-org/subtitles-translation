@@ -1,0 +1,228 @@
+1
+00:00:00,560 --> 00:00:02,460
+#6: Animación del rostro.
+
+2
+00:00:04,220 --> 00:00:09,730
+Nuestro personaje ya puede moverse. Es hora de hacerlo hablar.
+
+3
+00:00:10,920 --> 00:00:15,760
+En la carpeta "mimic" tenemos varias imágenes de la cabeza.
+
+4
+00:00:18,160 --> 00:00:23,260
+Al cambiarlas con una determinada frecuencia, se crea la ilusión de que el personaje habla.
+
+5
+00:00:23,460 --> 00:00:26,930
+Y es lo que vamos a hacer.
+
+6
+00:00:27,640 --> 00:00:35,560
+Creamos un nuevo archivo y rápidamente ensamblamos nuestro personaje, tal y como hicimos anteriormente.
+
+7
+00:00:59,640 --> 00:01:03,160
+Ahora necesitamos importar las imágenes de las cabezas.
+
+8
+00:01:03,220 --> 00:01:06,380
+Selecciona los archivos con los números del 1 al 5.
+
+9
+00:01:06,720 --> 00:01:11,060
+El sexto archivo lo dejaremos para después.
+
+10
+00:01:14,060 --> 00:01:17,230
+Ahora vamos a agrupar las cabezas juntas.
+
+11
+00:01:17,320 --> 00:01:23,300
+Pero en este caso, utilizaremos el grupo especial "Switch" en lugar del grupo normal, aquí.
+
+12
+00:01:25,120 --> 00:01:29,130
+El grupo de cambio o switch, se comporta como un grupo ordinario...
+
+13
+00:01:29,240 --> 00:01:33,400
+...pero sólo muestra una de sus capas hijas a la vez.
+
+14
+00:01:33,980 --> 00:01:38,300
+Este grupo tiene un parámetro especial, llamado "Active Layer Name",
+
+15
+00:01:38,480 --> 00:01:41,800
+...que define el nombre de la capa a mostrar.
+
+16
+00:01:42,000 --> 00:01:46,900
+Vamos a cambiarlo, para hacer que el personaje cierre la boca.
+
+17
+00:01:47,100 --> 00:01:50,100
+Presiona "Intro". Listo.
+
+18
+00:01:50,360 --> 00:01:53,930
+Si cambiamos este parámetro en el modo de animación,
+
+19
+00:01:54,260 --> 00:01:59,030
+aparecen nuevos waypoints, y las capas irán cambiando.
+
+20
+00:01:59,230 --> 00:02:04,330
+Coloquemos la cabeza dentro del grupo del personaje.
+
+21
+00:02:04,640 --> 00:02:07,000
+Cortamos /Cut/,...
+
+22
+00:02:07,220 --> 00:02:08,960
+seleccionamos esta capa...
+
+23
+00:02:09,160 --> 00:02:11,060
+...y pegamos /Paste/.
+
+24
+00:02:11,200 --> 00:02:16,630
+Fíjate que las nuevas capas siempre se insertan justo encima de la capa seleccionada actualmente.
+
+25
+00:02:23,560 --> 00:02:27,560
+Ahora importemos el archivo de audio con la voz de nuestro personaje.
+
+26
+00:02:27,980 --> 00:02:30,600
+Selecciona "File" -> "Import"...
+
+27
+00:02:31,320 --> 00:02:36,260
+...y en la carpeta "mimic" selecciona "sound.wav".
+
+28
+00:02:41,030 --> 00:02:43,900
+Escuchemos la pista de audio.
+
+29
+00:02:47,140 --> 00:02:49,730
+Entonces, tenemos dos frases.
+
+30
+00:02:49,780 --> 00:02:54,430
+Marquemos el inicio y el final de cada una con keyframes.
+
+31
+00:03:18,230 --> 00:03:19,500
+Hecho.
+
+32
+00:03:19,700 --> 00:03:23,730
+Ahora cambiaremos las imágenes de las cabezas en estos intervalos.
+
+33
+00:03:23,880 --> 00:03:27,260
+Cambia al modo de animación...
+
+34
+00:03:28,740 --> 00:03:31,130
+...ve dos cuadros más adelante...
+
+35
+00:03:31,320 --> 00:03:35,200
+...y cambia la primera capa.
+
+36
+00:03:39,600 --> 00:03:41,960
+Ahora adelantamos un poco más...
+
+37
+00:03:41,980 --> 00:03:44,960
+y así sucesivamente.
+
+38
+00:03:45,730 --> 00:03:51,200
+Por ahora no trataré de sincronizar a la perfección la forma de la boca con la voz.
+
+39
+00:03:51,360 --> 00:03:56,630
+En su lugar, las colocaré al azar -eso será suficiente por ahora.
+
+40
+00:04:00,420 --> 00:04:03,100
+Miremos el resultado.
+
+41
+00:04:06,260 --> 00:04:08,600
+¡Bien! El chico ya habla.
+
+42
+00:04:08,760 --> 00:04:14,600
+En este ejemplo, las imágenes de las cabezas tienen el mismo tamaño, así que no tenemos ningún problema con eso.
+
+43
+00:04:14,980 --> 00:04:20,060
+Pero supongamos que queremos agregar una imagen adicional con dimensiones diferentes.
+
+44
+00:04:27,900 --> 00:04:31,360
+Importa el archivo "head-extra"...
+
+45
+00:04:33,880 --> 00:04:37,300
+Y colócalo en el grupo de cambio, o switch group.
+
+46
+00:04:43,540 --> 00:04:48,030
+No es visible por ahora. Cambiémoslo en algún punto.
+
+47
+00:04:54,240 --> 00:04:58,430
+¿Ves? La cabeza del niño se desplaza hacia el lado.
+
+48
+00:04:59,020 --> 00:05:02,560
+Esto pasa porque la imagen no coincide con las otras.
+
+49
+00:05:02,880 --> 00:05:05,330
+Así que tenemos que ajustarla.
+
+50
+00:05:05,500 --> 00:05:09,700
+¡Pero no es tan sencillo, pues no puedo ver las otras cabezas al mismo tiempo!
+
+51
+00:05:09,760 --> 00:05:14,060
+Asi que usaremos el modo de "Papel Cebolla" u "Onionskin".
+
+52
+00:05:17,380 --> 00:05:22,160
+Cuando el modo de Onionskin está activado, se puede ver la imagen del keyframe anterior.
+
+53
+00:05:22,330 --> 00:05:25,500
+Ahora sí es fácil alinear la imagen.
+
+54
+00:05:25,620 --> 00:05:31,720
+Sólo no olvides desactivar el modo de animación antes de empezar.
+
+55
+00:05:32,640 --> 00:05:37,700
+Selecciona la imagen de la cabeza, y ajústala.
+
+56
+00:05:45,040 --> 00:05:47,330
+Listo.
+
+57
+00:05:55,520 --> 00:05:59,000
+Ahora sí, todo funciona como se esperaba.
+

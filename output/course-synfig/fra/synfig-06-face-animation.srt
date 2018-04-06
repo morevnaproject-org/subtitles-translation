@@ -1,0 +1,228 @@
+1
+00:00:00,560 --> 00:00:02,460
+#6: Animation Faciale
+
+2
+00:00:04,220 --> 00:00:09,730
+Maintenant notre personnage peut bouger. Il est temps de le faire parler.
+
+3
+00:00:10,920 --> 00:00:15,760
+Dans le dossier "mimic" j'ai plusieurs images de la tête.
+
+4
+00:00:18,160 --> 00:00:23,260
+En les alternant à une certaine fréquence on crée une illusion de personnage parlant.
+
+5
+00:00:23,460 --> 00:00:26,930
+C'est ce que nous allons faire.
+
+6
+00:00:27,640 --> 00:00:35,560
+Créons un nouveau fichier et assemblons rapidement notre personnage. Comme nous l'avons fait avant.
+
+7
+00:00:59,640 --> 00:01:03,160
+Maintenant nous devons importer les images de la tête.
+
+8
+00:01:03,220 --> 00:01:06,380
+Sélectionnons les fichiers avec les numéros 1 à 5.
+
+9
+00:01:06,720 --> 00:01:11,060
+Le sixième fichier sera conservé pour plus tard.
+
+10
+00:01:14,060 --> 00:01:17,230
+Groupons maintenant ces têtes ensemble.
+
+11
+00:01:17,320 --> 00:01:23,300
+Mais dans ce cas je vais utiliser un groupe spécial "Switch" au lieu du normal. Celui-ci.
+
+12
+00:01:25,120 --> 00:01:29,130
+Le groupe Switch se comporte comme un groupe ordinaire...
+
+13
+00:01:29,240 --> 00:01:33,400
+...mais il n'affiche qu'un de ses calques enfants à la fois.
+
+14
+00:01:33,980 --> 00:01:38,300
+Ce groupe a un paramètre spécial appelé "Active Layer Name"...
+
+15
+00:01:38,480 --> 00:01:41,800
+...qui définit le nom du calque à afficher.
+
+16
+00:01:42,000 --> 00:01:46,900
+Changeons-le, pour faire fermer sa bouche à notre personnage.
+
+17
+00:01:47,100 --> 00:01:50,100
+Appuyez sur Entrée. C'est fait.
+
+18
+00:01:50,360 --> 00:01:53,930
+Si nous changeons ce paramètre en mode Animation...
+
+19
+00:01:54,260 --> 00:01:59,030
+...les nouveaux waypoints apparaîtront et les calques alterneront.
+
+20
+00:01:59,230 --> 00:02:04,330
+Maintenant mettons "head" dans ce groupe.
+
+21
+00:02:04,640 --> 00:02:07,000
+Choisissez "Cut"...
+
+22
+00:02:07,220 --> 00:02:08,960
+Sélectionnez le calque...
+
+23
+00:02:09,160 --> 00:02:11,060
+...et "Paste".
+
+24
+00:02:11,200 --> 00:02:16,630
+Notez que les nouveaux calques sont toujours insérés juste au-dessus de celui qui est sélectionné.
+
+25
+00:02:23,560 --> 00:02:27,560
+Maintenant importons un fichier audio avec la voix de notre personnage.
+
+26
+00:02:27,980 --> 00:02:30,600
+Choisissez "File" -> "Import"...
+
+27
+00:02:31,320 --> 00:02:36,260
+...et dans le dossier "mimic" sélectionnez "sound.wav".
+
+28
+00:02:41,030 --> 00:02:43,900
+Écoutons la piste audio.
+
+29
+00:02:47,140 --> 00:02:49,730
+Nous avons deux phrases.
+
+30
+00:02:49,780 --> 00:02:54,430
+Marquons le début et la fin de chaque phrase avec des keyframes.
+
+31
+00:03:18,230 --> 00:03:19,500
+C'est fait.
+
+32
+00:03:19,700 --> 00:03:23,730
+Nous allons alterner les images de la tête dans ces deux intervalles.
+
+33
+00:03:23,880 --> 00:03:27,260
+Activons le mode Animation...
+
+34
+00:03:28,740 --> 00:03:31,130
+...allons deux trames en avant...
+
+35
+00:03:31,320 --> 00:03:35,200
+...et activons le premier calque.
+
+36
+00:03:39,600 --> 00:03:41,960
+Maintenant un peu plus loin...
+
+37
+00:03:41,980 --> 00:03:44,960
+et ainsi de suite.
+
+38
+00:03:45,730 --> 00:03:51,200
+Pour le moment je ne vais pas essayer de synchroniser parfaitement les mouvements de la bouche avec la voix.
+
+39
+00:03:51,360 --> 00:03:56,630
+Au lieu de cela, je vais les placer aléatoirement - ce sera bien suffisant pour l'instant.
+
+40
+00:04:00,420 --> 00:04:03,100
+Vérifions le résultat.
+
+41
+00:04:06,260 --> 00:04:08,600
+Okay, il parle maintenant.
+
+42
+00:04:08,760 --> 00:04:14,600
+Dans cet exemple toutes les images de tête ont la même taille, donc nous n'aurons pas de problème.
+
+43
+00:04:14,980 --> 00:04:20,060
+Mais supposez que l'on veuille ajouter une tête supplémentaire avec des dimensions différentes.
+
+44
+00:04:27,900 --> 00:04:31,360
+Importez le fichier "head-extra"...
+
+45
+00:04:33,880 --> 00:04:37,300
+Et placez-le à l'intérieur du groupe Switch.
+
+46
+00:04:43,540 --> 00:04:48,030
+Il n'est pas visible pour le moment. Activons-le à un moment donné.
+
+47
+00:04:54,240 --> 00:04:58,430
+Vous voyez ? La tête du gars est décalée.
+
+48
+00:04:59,020 --> 00:05:02,560
+C'est parce que l'image ne coïncide pas avec les autres.
+
+49
+00:05:02,880 --> 00:05:05,330
+Donc nous avons à l'ajuster.
+
+50
+00:05:05,500 --> 00:05:09,700
+Mais ce n'est pas facile, parce que je ne peux pas voir les autres têtes en même temps.
+
+51
+00:05:09,760 --> 00:05:14,060
+Alors nous utiliserons ici le mode Peau d'Oignon.
+
+52
+00:05:17,380 --> 00:05:22,160
+Quand la Peau d'Oignon est activé nous pouvons voir une image de la keyframe précédente.
+
+53
+00:05:22,330 --> 00:05:25,500
+Maintenant il devient facile d'aligner l'image
+
+54
+00:05:25,620 --> 00:05:31,720
+N'oubliez juste pas de désactiver le mode Animation avant de commencer ou d'autres miracles gênants pourraient arriver.
+
+55
+00:05:32,640 --> 00:05:37,700
+Sélectionnez l'image de la tête et ajustez.
+
+56
+00:05:45,040 --> 00:05:47,330
+C'est fait.
+
+57
+00:05:55,520 --> 00:05:59,000
+Maintenant tout fonctionne comme espéré.
+
