@@ -1,0 +1,230 @@
+﻿1
+00:00:00,400 --> 00:00:04,480
+[eng] Now, let’s get back to our animation of walking character.
+[rus] Давайте снова откроем файл шагающим персонажем, над которым мы работали на предыдущих уроках.
+
+2
+00:00:04,620 --> 00:00:07,700
+[eng] You can find it in the folder with other samples.
+[rus] Этот файл с готовой анимацией вы можете найти в папке с примерами, вот здесь.
+
+3
+00:00:09,340 --> 00:00:16,350
+[eng] Go to "сharacter-2" directory... then to "final"... Here it is.
+[rus] Заходим в «character-2» - «final». Вот он.
+
+4
+00:00:16,520 --> 00:00:20,700
+[eng] Now we can add a backgrounds and create a scene like this.
+[rus] Теперь мы можем добавить фон и сделать вот такую сцену.
+
+5
+00:00:26,640 --> 00:00:30,040
+[eng] Let's go to a directory called "bg-forest-1".
+[rus] Зайдём в папку «bg-forest-1».
+
+6
+00:00:30,120 --> 00:00:38,290
+[eng] Here is a background image. If we just insert the image directly into the file with character's walkcycle animation...
+[rus] Вот файл с фоном. Если мы вставим фон прямо в нашу анимацию с персонажем...
+
+7
+00:00:38,290 --> 00:00:44,330
+[eng] These keyframes which are responsible for character animation will hinder us.
+[rus] ...то нам очень будут мешать эти ключевые кадры, которые отвечают за анимацию персонажа. 
+
+8
+00:00:44,500 --> 00:00:46,660
+[eng] So I'll show you the other way.
+[rus] Поэтому, мы поступим по-другому.
+
+9
+00:00:46,660 --> 00:00:47,980
+[eng] Let's close this file..
+[rus] Закроем этот файл...
+
+10
+00:00:47,980 --> 00:00:55,150
+[eng] ...without saving changes. Create a new file and insert there the file with character animation.
+[rus] ...изменения сохранять не будем. Создадим новый файл и вставим туда наш файл с анимацией персонажа. 
+
+11
+00:00:55,150 --> 00:01:06,560
+[eng] Choose "File - "Import". Go to "character-2" - "final". Here it is.
+[rus] Выбираем «Файл» - «Импортировать». Идём в «character-2» - «final». Вот он.
+
+12
+00:01:06,840 --> 00:01:16,110
+[eng] So we have imported an external animation file and it's shown as a group.
+[rus] Вот, мы импортировали файл с анимацией и он отображается в виде группы.
+
+13
+00:01:16,170 --> 00:01:18,930
+[eng] Now we can animate it as a regular image. 
+[rus] Теперь мы можем анимировать его, как простой объект.
+
+14
+00:01:23,020 --> 00:01:24,100
+[eng] At the same time...
+[rus] При этом...
+
+15
+00:01:24,130 --> 00:01:29,470
+[eng] ...the keyframes of current document will not affect an animation in the external file. Look.
+[rus] ...ключевые кадры в текущем документе не будут влиять на анимацию в импортированном файле. Смотрите.
+
+16
+00:01:29,470 --> 00:01:37,250
+[eng] Here, near the Canvas parameter we have waypoints that represent animation in the external file.
+[rus] Вот, напротив параметра Canvas отображаются фиксаторы импортированного файла.
+
+17
+00:01:37,560 --> 00:01:39,220
+[eng] And they will stay in place...
+[rus] И они остаются на месте...
+
+18
+00:01:39,240 --> 00:01:46,160
+[eng] ...If I move the keyframes of current document. OK, now we have only to add the background.
+[rus] когда я двигаю ключевые кадры в текущем документе. Ну вот, теперь нам осталось добавим фон.
+
+19
+00:01:46,260 --> 00:02:02,280
+[eng] And don't forget to turn off animation mode.
+[rus] Главное не забыть выключить режим анимации.
+
+20
+00:02:02,360 --> 00:02:10,130
+[eng] Please note if we import an external animation file, its content won't be copied to the file it will be...
+[rus] Обратите внимание, что когда мы вставляем файл с анимацией, то на самом деле вставляется не сам файл...
+
+21
+00:02:10,130 --> 00:02:11,150
+[eng] ...linked.
+[rus] ...а ссылка на него.
+
+22
+00:02:11,180 --> 00:02:18,290
+[eng] It means if you change the external file, then all changes will be automatically propagated to all files...
+[rus] То есть, если исходный файл изменяется, то изменения автоматически появятся во всех файлах...
+
+23
+00:02:18,350 --> 00:02:21,410
+[eng] ...which it's linked with.
+[rus] ...которые его используют.
+
+24
+00:02:21,490 --> 00:02:26,450
+[eng] Now let's try to open the group of external file and to change something there.
+[rus] Сейчас, если мы попробуем открыть группу и что-то изменить в импортированном файле...
+
+25
+00:02:30,520 --> 00:02:33,210
+[eng] Do you see? it doesn't work.
+[rus] ...то у нас это не получится
+
+26
+00:02:33,280 --> 00:02:39,340
+[eng] It's because the contents of the group belong to external file.
+[rus] Это потому, что содержимое группы находится во внешнем файле.
+
+27
+00:02:39,440 --> 00:02:45,490
+[eng] But we can open the file in a separate tab and then make our changes.
+[rus] Но мы можем открыть наш файл с персонажем отдельно, и тогда у нас будет возможность что-то изменить. 
+
+28
+00:02:53,020 --> 00:02:57,080
+[eng] And all changes will be automatically propagated here.
+[rus] И все изменения автоматически отображаются вот здесь.
+
+29
+00:03:02,550 --> 00:03:09,720
+[eng] And if we have external file opened (in seperate tab), then we'll be able to edit its content...
+[rus] И если импортированный файл у нас открыт на отдельной вкладке, то теперь мы можем его редактировать...
+
+30
+00:03:09,750 --> 00:03:11,760
+[eng] ...right here in this document.
+[rus] ...прямо из этого документа.
+
+31
+00:03:14,110 --> 00:03:21,590
+[eng] Do you see?  - there are no any errors.
+[rus] Вот, никаких ошибок не появляется.
+
+32
+00:03:21,590 --> 00:03:29,290
+[eng] One important thing to consider: if you click "Save" button, then only changes of current document will be saved.
+[rus] Главное не забывать, что при нажатии кнопки «Сохранить» будут сохранены изменения только в текущем файле,
+
+33
+00:03:30,170 --> 00:03:33,810
+[eng] All other files should be saved separately.
+[rus] А тот файл нужно сохранять отдельно.
+
+34
+00:03:33,830 --> 00:03:40,230
+[eng] This is why there is a special button - "Save all" - it saves all opened files.
+[rus] Именно поэтому на панели есть кнопка «Сохранить все» — она сохраняет все открытые файлы.
+
+35
+00:03:41,150 --> 00:03:48,230
+[eng] And since we have started to talk about linked files, I'd like to say a few words about images.
+[rus] Если уж мы заговорили о связанных файлах, то здесь я хочу сказать несколько слов про импорт файлов изображений. 
+
+36
+00:03:48,240 --> 00:03:50,360
+[eng] Just like as importing external animation files...
+[rus] Точно также, как с импортом файлов анимации...
+
+37
+00:03:50,390 --> 00:03:56,180
+[eng] ...when we import an image, its content isn't copied into the animation file.
+[rus] когда мы импортируем изображение, то в файле анимации...
+
+38
+00:03:56,270 --> 00:04:00,590
+[eng] instead. the animation file references the contents from the image file.
+[rus] ...сохраняется не сама картинка, а лишь ссылка на неё.
+
+39
+00:04:00,590 --> 00:04:06,940
+[eng] If we edit original image file, then it will be automatically updated in our animation.
+[rus] Если отредактировать файл изображения, то оно изменится и в файле анимации.
+
+40
+00:04:06,950 --> 00:04:11,560
+[eng] The only difference is that changes don't happen immediately.
+[rus] Только в данном случае необходимо закрыть и открыть программу заново...
+
+41
+00:04:11,570 --> 00:04:16,050
+[eng] We have to close and re-open the animation file to see the changes.
+[rus] ...чтобы увидеть изменения.
+
+42
+00:04:16,070 --> 00:04:20,760
+[eng] Finally, one more thing you have to know when you work with linked files.
+[rus] И ещё одна вещь, которую нужно знать, работая со связанными файлами.
+
+43
+00:04:20,840 --> 00:04:27,000
+[eng] If you want to transfer your animation to other computer, you will have to be sure to move all linked files.
+[rus] сли вы хотите переместить свой файл анимации на другой компьютер, то нужно вместе с ним переместит все файлы, на которые он ссылается.
+
+44
+00:04:27,020 --> 00:04:29,200
+[eng] For image layers...
+[rus] Для слоёв изображений...
+
+45
+00:04:29,210 --> 00:04:33,250
+[eng] ...you can see and change the path to the source file here...
+[rus] мы можем посмотреть путь к файлу вот здесь
+
+46
+00:04:36,800 --> 00:04:38,180
+[eng] ...in this parameter.
+[rus] ...вот в этом параметре.
+
