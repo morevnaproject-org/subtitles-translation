@@ -1,0 +1,184 @@
+1
+00:00:00,400 --> 00:00:04,480
+Now, let’s get back to our animation of walking character.
+
+2
+00:00:04,620 --> 00:00:07,700
+You can find it in the folder with other samples.
+
+3
+00:00:09,340 --> 00:00:16,350
+Go to "сharacter-2" directory... then to "final"... Here it is.
+
+4
+00:00:16,520 --> 00:00:20,700
+Now we can add a backgrounds and create a scene like this.
+
+5
+00:00:26,640 --> 00:00:30,040
+Let's go to a directory called "bg-forest-1".
+
+6
+00:00:30,120 --> 00:00:38,290
+Here is a background image. If we just insert the image directly into the file with character's walkcycle animation...
+
+7
+00:00:38,290 --> 00:00:44,330
+These keyframes which are responsible for character animation will hinder us.
+
+8
+00:00:44,500 --> 00:00:46,660
+So I'll show you the other way.
+
+9
+00:00:46,660 --> 00:00:47,980
+Let's close this file..
+
+10
+00:00:47,980 --> 00:00:55,150
+...without saving changes. Create a new file and insert there the file with character animation.
+
+11
+00:00:55,150 --> 00:01:06,560
+Choose "File - "Import". Go to "character-2" - "final". Here it is.
+
+12
+00:01:06,840 --> 00:01:16,110
+So we have imported an external animation file and it's shown as a group.
+
+13
+00:01:16,170 --> 00:01:18,930
+Now we can animate it as a regular image.
+
+14
+00:01:23,020 --> 00:01:24,100
+At the same time...
+
+15
+00:01:24,130 --> 00:01:29,470
+...the keyframes of current document will not affect an animation in the external file. Look.
+
+16
+00:01:29,470 --> 00:01:37,250
+Here, near the Canvas parameter we have waypoints that represent animation in the external file.
+
+17
+00:01:37,560 --> 00:01:39,220
+And they will stay in place...
+
+18
+00:01:39,240 --> 00:01:46,160
+...If I move the keyframes of current document. OK, now we have only to add the background.
+
+19
+00:01:46,260 --> 00:02:02,280
+And don't forget to turn off animation mode.
+
+20
+00:02:02,360 --> 00:02:10,130
+Please note if we import an external animation file, its content won't be copied to the file it will be...
+
+21
+00:02:10,130 --> 00:02:11,150
+...linked.
+
+22
+00:02:11,180 --> 00:02:18,290
+It means if you change the external file, then all changes will be automatically propagated to all files...
+
+23
+00:02:18,350 --> 00:02:21,410
+...which it's linked with.
+
+24
+00:02:21,490 --> 00:02:26,450
+Now let's try to open the group of external file and to change something there.
+
+25
+00:02:30,520 --> 00:02:33,210
+Do you see? it doesn't work.
+
+26
+00:02:33,280 --> 00:02:39,340
+It's because the contents of the group belong to external file.
+
+27
+00:02:39,440 --> 00:02:45,490
+But we can open the file in a separate tab and then make our changes.
+
+28
+00:02:53,020 --> 00:02:57,080
+And all changes will be automatically propagated here.
+
+29
+00:03:02,550 --> 00:03:09,720
+And if we have external file opened (in seperate tab), then we'll be able to edit its content...
+
+30
+00:03:09,750 --> 00:03:11,760
+...right here in this document.
+
+31
+00:03:14,110 --> 00:03:21,590
+Do you see?  - there are no any errors.
+
+32
+00:03:21,590 --> 00:03:29,290
+One important thing to consider: if you click "Save" button, then only changes of current document will be saved.
+
+33
+00:03:30,170 --> 00:03:33,810
+All other files should be saved separately.
+
+34
+00:03:33,830 --> 00:03:40,230
+This is why there is a special button - "Save all" - it saves all opened files.
+
+35
+00:03:41,150 --> 00:03:48,230
+And since we have started to talk about linked files, I'd like to say a few words about images.
+
+36
+00:03:48,240 --> 00:03:50,360
+Just like as importing external animation files...
+
+37
+00:03:50,390 --> 00:03:56,180
+...when we import an image, its content isn't copied into the animation file.
+
+38
+00:03:56,270 --> 00:04:00,590
+instead. the animation file references the contents from the image file.
+
+39
+00:04:00,590 --> 00:04:06,940
+If we edit original image file, then it will be automatically updated in our animation.
+
+40
+00:04:06,950 --> 00:04:11,560
+The only difference is that changes don't happen immediately.
+
+41
+00:04:11,570 --> 00:04:16,050
+We have to close and re-open the animation file to see the changes.
+
+42
+00:04:16,070 --> 00:04:20,760
+Finally, one more thing you have to know when you work with linked files.
+
+43
+00:04:20,840 --> 00:04:27,000
+If you want to transfer your animation to other computer, you will have to be sure to move all linked files.
+
+44
+00:04:27,020 --> 00:04:29,200
+For image layers...
+
+45
+00:04:29,210 --> 00:04:33,250
+...you can see and change the path to the source file here...
+
+46
+00:04:36,800 --> 00:04:38,180
+...in this parameter.
+
