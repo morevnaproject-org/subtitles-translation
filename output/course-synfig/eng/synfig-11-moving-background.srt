@@ -1,0 +1,156 @@
+1
+00:00:00,480 --> 00:00:04,910
+Now let's try to make the same animation in a bit different way.
+
+2
+00:00:04,950 --> 00:00:09,990
+Our character will remain in the centre and the background will be moving.
+
+3
+00:00:10,000 --> 00:00:12,950
+Like as we are walking with the character.
+
+4
+00:00:13,140 --> 00:00:15,880
+Here, I have the file from the previous lesson.
+
+5
+00:00:15,900 --> 00:00:21,800
+Let's remove all redundant keyframes and remove the animation of this group.
+
+6
+00:00:23,690 --> 00:00:29,100
+Now, put the character in the centre and move background to the left...
+
+7
+00:00:29,150 --> 00:00:32,330
+...so our character will have a space to walk.
+
+8
+00:00:32,330 --> 00:00:40,850
+Our animation will not fit into default 120 frames, so let's extend the time-line length.
+
+9
+00:00:40,970 --> 00:00:43,860
+Go to "Canvas" - "Properties". Switch to "Time" tab.
+
+10
+00:00:44,030 --> 00:00:50,030
+Here we can set "start time" and "end time" for the timeline.
+
+11
+00:00:50,050 --> 00:00:51,630
+Set 200 frames here.
+
+12
+00:00:52,900 --> 00:00:58,320
+By the way, on this tab you can also change dimensions of your canvas.
+
+13
+00:00:58,720 --> 00:01:02,110
+OK, now let's animate the background.
+
+14
+00:01:08,800 --> 00:01:17,280
+Not bad, but I guess that in some situations you'll want to be sure that the legs of your character...
+
+15
+00:01:17,280 --> 00:01:18,770
+...won't slipping on the ground.
+
+16
+00:01:19,060 --> 00:01:22,490
+So I'll show you how to achieve that.
+
+17
+00:01:22,560 --> 00:01:29,150
+Let's remove the last keyframe.
+
+18
+00:01:29,200 --> 00:01:37,510
+Now we have a static background again. Turn off the animation mode and create a small red circle...
+
+19
+00:01:37,510 --> 00:01:42,030
+...right near the toe.
+
+20
+00:01:42,040 --> 00:01:45,170
+This will be a mark of its position.
+
+21
+00:01:45,200 --> 00:01:52,830
+Now let's group the circle with the background. Turn on the animation mode and skip a few frames ahead...
+
+22
+00:01:52,960 --> 00:01:57,020
+...to the extreme point when the toe is ready to get off the ground.
+
+23
+00:01:59,090 --> 00:02:01,650
+Here it's the frame 14.
+
+24
+00:02:01,790 --> 00:02:07,690
+Now move background strictly in the horizontal direction by holding SHIFT button.
+
+25
+00:02:07,790 --> 00:02:13,250
+Align the red circle as same as it was on the zero frame.
+
+26
+00:02:13,250 --> 00:02:21,790
+We can move background more precisely by using arrows on the keyboard. Like this.
+
+27
+00:02:21,930 --> 00:02:27,270
+OK, on this time span we have character movement synchronized with the background.
+
+28
+00:02:27,300 --> 00:02:34,570
+Now open the Graphs Panel and examine the movement graph of background layer.
+
+29
+00:02:34,570 --> 00:02:38,800
+Move the time cursor to the end of our animation...
+
+30
+00:02:38,810 --> 00:02:44,590
+Set a keyframe... Switch back to Graphs Panel... and move the background...
+
+31
+00:02:44,700 --> 00:02:51,160
+...watching how the graph changes. Make a slope in this segment as same as here.
+
+32
+00:02:51,270 --> 00:02:54,510
+We need to have a single straight line.
+
+33
+00:02:54,510 --> 00:02:58,020
+As you can see the graph is slightly curved.
+
+34
+00:02:58,050 --> 00:03:00,670
+It means the motion will be nonuniform.
+
+35
+00:03:00,690 --> 00:03:01,860
+Let's fix it.
+
+36
+00:03:01,860 --> 00:03:10,400
+Go to the Time Track Panel, right click on this waypoint and choose a Linear interpolation.
+
+37
+00:03:10,470 --> 00:03:16,580
+Open Graphs Panel again and now we can see that the graph is represented by straight lines.
+
+38
+00:03:16,580 --> 00:03:19,580
+Now we can easily align their slope.
+
+39
+00:03:22,410 --> 00:03:31,550
+Well like this. Done. Now of character is moving synchronously with the background. And his legs do not slip.
+
