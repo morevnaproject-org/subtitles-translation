@@ -2,270 +2,324 @@
 00:00:00,830 --> 00:00:04,000
 [eng] Now, let's try to improve our animation even more.
 [rus] А теперь мы попробуем сделать нашу анимацию ещё лучше.
+[spa] Ahora, intentemos mejorar nuestra animación aún mas.
 
 2
 00:00:04,010 --> 00:00:09,210
 [eng] Look - the elements of the background are moving with different speed.
 [rus] Смотрите: элементы на переднем  и на заднем плане двигаются с разной скоростью.
+[spa] Ver: - los elementos del fondo se mueven con diferente velocidad.
 
 3
 00:00:09,440 --> 00:00:15,050
 [eng] That creates an illusion of depth and makes our animation more impressive.
 [rus] Это создаёт иллюзию объёма и делает анимацию более впечатляющей.
+[spa] Crea una ilusión de profundidad y hace que nuestra animación sea más impresionante.
 
 4
 00:00:15,050 --> 00:00:17,860
 [eng] This effect is called parallax.
 [rus] Этот эффект называется «параллакс»...
+[spa] Este efecto se llama "parallax".
 
 5
 00:00:17,990 --> 00:00:21,350
 [eng] And in this lesson I'll show you how to achieve it.
 [rus] ...и сейчас я покажу как его сделать.
+[spa] Y en esta lección te mostraré cómo lograrlo.
 
 6
 00:00:21,410 --> 00:00:26,620
 [eng] First, we'll need a background separated into layers.
 [rus] В первую очередь, нам понадобится фон, разделённый на части.
+[spa] Primero, necesitaremos un fondo separado en capas.
 
 7
 00:00:26,770 --> 00:00:28,440
 [eng] Go to "bg-forest-2"...
 [rus] Заходим в папку «bg-forest-2»...
+[spa] Ir a "bg-forest-2"...
 
 8
 00:00:28,660 --> 00:00:33,070
 [eng] ...and here we can find three components of our background.
 [rus] ...и там мы видим три файла. Это элементы из которых будет состоять наш фон.
+[spa] ...y aquí podemos encontrar tres componentes de nuestro fondo.
 
 9
 00:00:34,480 --> 00:00:36,800
 [eng] Let's start with the first one.
 [rus] Возьмём самый первый.
+[spa] Comencemos con el primero.
 
 10
 00:00:37,150 --> 00:00:42,210
 [eng] Please make sure to group it before scaling down.
 [rus] Прежде чем уменьшать его, обязательно сгруппируйте.
+[spa] Asegúrese de agruparlo antes de reducir la escala.
 
 11
 00:00:42,280 --> 00:00:46,940
 [eng] In this way we won't need to manually scale every other piece of the background.
 [rus] Тогда нам не придётся потом подгонять по размеру каждый кусок отдельно.
+[spa] De esta manera, no cecesitaremos escalar manualmente cada otra parte del fondo.
 
 12
 00:00:47,020 --> 00:00:54,250
 [eng] We need a long background, so I create a copy of this image holding SHIFT button...
 [rus] Наш фон должен быть длинным, поэтому копируем это изображение....
+[spa] Necesitamos un fondo largo, así que una creamos una copia de la imagen con presionando SHIFT...
 
 13
 00:00:54,300 --> 00:00:56,530
 [eng] ...and move it to the left.
 [rus] ...и сдвигаем по горизонтали, удерживая клавишу Shift.
+[spa] ...y muévelo hacia la izquieda.
 
 14
 00:00:56,530 --> 00:01:03,140
 [eng] Now group these two layers and name it number one.
 [rus] Теперь сгруппируем и в названии поставим единичку — это будет передний план.
+[spa] Ahora agrupa estas dos capas y dale el nombre número uno.
 
 15
 00:01:03,230 --> 00:01:05,600
 [eng] Let's import the next piece.
 [rus] Импортируем следующий кусок.
+[spa] Importamos la siguiente pieza.
 
 16
 00:01:05,780 --> 00:01:10,900
 [eng] Move it into a group and it automatically scales to the proper size.
 [rus] Переносим в группу и он автоматически масштабируется до нужного размера. 
+[spa] Múdelo a un grupo y se escalará automáticamente al tamaño apropiado.
 
 17
 00:01:11,050 --> 00:01:12,900
 [eng] Put it into the right place.
 [rus] Поставим его на место.
+[spa] Ponlo en el lugar correcto.
 
 18
 00:01:20,750 --> 00:01:24,330
 [eng] Now make a copy, align it...
 [rus] Теперь тоже сделаем копию… Выравниваем… 
+[spa] Ahora haz una copia, alinéala...
 
 19
 00:01:26,950 --> 00:01:28,120
 [eng] Done.
 [rus] Готово.
+[spa] Hecho.
 
 20
 00:01:28,310 --> 00:01:31,380
 [eng] Also make a group and name it number "2".
 [rus] Также группируем и в названии поставим цифру 2.
+[spa] También haz un grupo y llámalo número "2".
 
 21
 00:01:34,650 --> 00:01:36,050
 [eng] And the last part.
 [rus] Ну и последняя часть. 
+[spa] Y la última parte.
 
 22
 00:01:38,810 --> 00:01:42,710
 [eng] Move it into the group and put to the right place.
 [rus] Также переносим в группу. И ставим на место. 
+[spa] Moverlo en al grupo y colocarlo en el lugar correcto.
 
 23
 00:01:48,810 --> 00:01:54,270
 [eng] Great. Now we have a beautiful long background.
 [rus] Отлично. У нас получился замечательный длинный фон.
+[spa] Genial. Ahora tenemos un hermoso fondo largo.
 
 24
 00:01:54,450 --> 00:01:56,400
 [eng] We only miss the sky.
 [rus] Не хватает только неба. 
+[spa] Solo falta el cielo.
 
 25
 00:01:56,520 --> 00:01:59,160
 [eng] I'm going to use Gradient Tool to create it.
 [rus] Его я сделаю с помощью инструмента «Градиент».
+[spa] Voy a usar la herramienta "Gradiente" para crearlo.
 
 26
 00:02:01,170 --> 00:02:06,270
 [eng] Let's choose proper colors.
 [rus] Выберем нужные нам цвета. 
+[spa] Vamos a elegir los colores adecuados.
 
 27
 00:02:06,380 --> 00:02:10,360
 [eng] And this one is better to keep white.
 [rus] А второй цвет оставим белым.
+[spa] Y este es mejor mantenerlo en blanco.
 
 28
 00:02:10,360 --> 00:02:16,610
 [eng] Activate Gradient Tool and make sure that you have linear gradient type enabled in the parameters panel.
 [rus] Выбираем инструмент «Градиент». Убедимся что на панели параметров у нас выбран линейный тип градиента. 
+[spa] Active la herramienta de degradado y asegúrese de que tiene habilitado el tipo de degradado lineal en el panel de parámetros.
 
 29
 00:02:16,610 --> 00:02:22,640
 [eng] I strongly recommend you to try other types of gradient later in your free time.
 [rus] С остальными типами я предлагаю вам потом поэкспериментировать самостоятельно.
+[spa] Te recomiendo que pruebes otros tipos de gradientes más adelante en tu tiempo libre.
 
 30
 00:02:22,640 --> 00:02:26,740
 [eng] Now let's drag a vertical straight line on the workspace.
 [rus] Теперь на рабочей области рисуем вертикальную линию.
+[spa] Ahora vamos a arrastar una línea recta vertical en el espacio de trabajo.
 
 31
 00:02:26,750 --> 00:02:29,730
 [eng] Here it is. We have a gradient.
 [rus] Вот и получился градиент.
+[spa] Aquí está. Tenemos una gradiente.
 
 32
 00:02:29,810 --> 00:02:33,870
 [eng] You can tweak it by moving this control points.
 [rus] Если что-то пошло не так, то можете подёргать вот за эти точки.
+[spa] Puedes modificarlo moviendo estos puntos de control.
 
 33
 00:02:33,890 --> 00:02:36,410
 [eng] The background is ready now.
 [rus] Наш фон готов.
+[spa] El fondo está listo ahora.
 
 34
 00:02:36,470 --> 00:02:38,750
 [eng] Now, let's import our character.
 [rus] Теперь добавляем сюда нашего персонажа.
+[spa] Ahora, importamos nuestro personaje.
 
 35
 00:02:38,750 --> 00:02:43,530
 [eng] You probably remember that it's located in "character-2", "final".
 [rus] Напомню, что он лежит в папке «character-2» - «final».
+[spa] Probablementes recuerdes que está ubicado en "character-2", "final".
 
 36
 00:02:43,580 --> 00:02:45,870
 [eng] Here it is.
 [rus] Вот.
+[spa] Aquí esta.
 
 37
 00:02:45,940 --> 00:03:00,360
 [eng] Now let's animate the background in the same way as we did in previous lesson.
 [rus] Теперь мы сделаем анимацию фона точно также, как мы это делали в предыдущем уроке.
+[spa] Ahora animemos el fondo de la misma manera que los hicimos en la lección anterior.
 
 38
 00:03:00,450 --> 00:03:05,750
 [eng] Set the Reds Mark. Turn on the animation mode. Go to 14th frame.
 [rus] Ставим красную метку… Включаем режим анимации… Идём на кадр 14…
+[spa] Establece la marca roja. Activa el modo animación. Ir al cuadro 14.
 
 39
 00:03:09,360 --> 00:03:18,600
 [eng] Move the background. Set linear interpolation here. And go to the end of our animation.
 [rus] Двигаем фон… Сразу ставим линейную интерполяцию…  Идём в конец нашей анимации…
+[spa] Meve el fondo. Ajusta la interpolación lineal aquí. Ir al final de nuestra animación.
 
 40
 00:03:18,710 --> 00:03:23,420
 [eng] Now on the Graphs Tab set the final position of the background.
 [rus] Теперь на вкладке «Графики» выставляем конечное положение фона… 
+[spa] Ahora, en la pestaña Gráfico, establece la posición final del fondo.
 
 41
 00:03:34,980 --> 00:03:36,810
 [eng] Done.
 [rus] Готово.
+[spa] Hecho.
 
 42
 00:03:36,860 --> 00:03:44,330
 [eng] Now we have exactly the same animation as in previous lesson.
 [rus] Вот, теперь у нас есть такая же анимация как и в предыдущем уроке.
+[spa] Ahora tenemos exactamente la misma animación que en la lección anterior.
 
 43
 00:03:44,510 --> 00:03:47,490
 [eng] By the way, this red circle can be hidden now.
 [rus] Кстати, красный кружок теперь нам не нужен, его можно скрыть… 
+[spa] Por cierto, este círculo rojo se puede ocultar ahora.
 
 44
 00:03:48,360 --> 00:03:51,300
 [eng] And this waypoint also can be removed.
 [rus] И вот этот фиксатор нам тоже больше не нужен.
+[spa] Y este punto de ruta también puede ser eliminado.
 
 45
 00:03:51,300 --> 00:04:00,490
 [eng] Now let's get to the magic of parallax effect. Click group number two and add a "Translate" layer above it.
 [rus] Так, теперь остаётся добавить, собственно, эффект параллакса. Щёлкаем на группу, с цифрой «2» и добавляем поверх неё слой перемещения.
+[spa] Ahora veamos la magia del efecto parallax. Haga click en el grupo número dos y agregue una capa trasladar sobre ella.
 
 46
 00:04:00,510 --> 00:04:08,900
 [eng] Background layer number two is more distant than trees on layer "1". And that means it should move slower.
 [rus] Теперь идём в конец нашей анимации. Слой фона с цифрой 2 находится дальше от нас. Это значит, что он должен двигаться медленнее. 
+[spa] La capa de fondo número dos esta más distante que los árboles en la capa "1". Y eso significa que debería moverse más lento.
 
 47
 00:04:09,310 --> 00:04:16,090
 [eng] So, we have to move this layer in the direction opposite to the background "1" movement.
 [rus] Поэтому на конечном кадре нужно передвинуть его  в направлении, противоположном  движению фона. 
+[spa] Entonces, tenemos que mover esta capa en la dirección opuesta al movimiento "1" de fondo.
 
 48
 00:04:16,210 --> 00:04:17,680
 [eng] The background is moving to the right...
 [rus] Фон мы двигали вправо...
+[spa] El fondo se está moviendo hacia la derecha...
 
 49
 00:04:17,680 --> 00:04:27,800
 [eng] ...so we will move layer "2" to the left. Like this.
 [rus] ...поэтому слой мы передвинем влево. Вот так.
+[spa] ...entonces moveremos la capa "2" a la izquierda. Como este.
 
 
 50
 00:04:28,010 --> 00:04:32,630
 [eng] Look, we have already got some feeling of depth.
 [rus] Смотрите, уже есть ощущение объёма. 
+[spa] Ya tenemos un sensación de profundidad.
 
 51
 00:04:32,720 --> 00:04:37,220
 [eng] Let's do the same for Layer "3". Add "translate" layer...
 [rus] Давайте сделаем то же самое с самым дальним слоем — номер 3. Добавляем слой перемещения...
+[spa] Hagamos lo mismo para la Capa "3". Añadir capa "trasladar"...
 
 52
 00:04:40,110 --> 00:04:41,460
 [eng] ...and move it to the left.
 [rus] ...в конце анимации сдвигаем его влево. 
+[spa] ...y moverlo hacia la izquierda.
 
 53
 00:04:44,550 --> 00:04:45,050
 [eng] Done.
 [rus] Готово. 
+[spa] Hecho.
 
 54
 00:04:47,930 --> 00:04:52,640
 [eng] Congratulations, we've just made an animation with parallax effect!
 [rus] Ну вот, теперь у нас есть анимация с эффектом параллакса!
+[spa] Felicidades, acabamos de hacer una animación con efecto parallax!
 
