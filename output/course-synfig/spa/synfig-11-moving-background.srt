@@ -1,0 +1,156 @@
+1
+00:00:00,480 --> 00:00:04,910
+Ahora tratemos de hacer la misma animación de una manera un poco diferente.
+
+2
+00:00:04,950 --> 00:00:09,990
+Nuestro personaje permanecerá en el centro y el fondo se moverá.
+
+3
+00:00:10,000 --> 00:00:12,950
+Como si estamos camindo con el perosnaje.
+
+4
+00:00:13,140 --> 00:00:15,880
+Aquí, Tengo el archivo de la lección anterior.
+
+5
+00:00:15,900 --> 00:00:21,800
+Eliminemos todos los fotogramas clave redundantes y eliminemos la animación de este grupo.
+
+6
+00:00:23,690 --> 00:00:29,100
+Ahora, poner el personaje en el centro y mover el fondo a la izquierda...
+
+7
+00:00:29,150 --> 00:00:32,330
+...así nuestro personaje tendrá un espacio para caminar.
+
+8
+00:00:32,330 --> 00:00:40,850
+Nuetra animación no se ajustará a los 120 cuadros predeterminados, así que extendamos la longitud de la línea de tiempo.
+
+9
+00:00:40,970 --> 00:00:43,860
+Ir a "Lienzo" - "Propiedades". Cambia a la pestaña "Tiempo".
+
+10
+00:00:44,030 --> 00:00:50,030
+Aquí podemos configurar "tiempo inicial" y "tiempo final" para la línea de tiempo.
+
+11
+00:00:50,050 --> 00:00:51,630
+Establecer 200 cuadros.
+
+12
+00:00:52,900 --> 00:00:58,320
+Por cierto, en esta pestaña también puedes cmabiar las dimensiones de tu canvas.
+
+13
+00:00:58,720 --> 00:01:02,110
+Ok, ahora vamos a animar el fondo.
+
+14
+00:01:08,800 --> 00:01:17,280
+No está mal, pero supongamos que en algunas situaciones querrás estar seguro de que las piernas de tu personaje...
+
+15
+00:01:17,280 --> 00:01:18,770
+...no se queden.
+
+16
+00:01:19,060 --> 00:01:22,490
+Así que te mostraré cómo lograrlo.
+
+17
+00:01:22,560 --> 00:01:29,150
+Vamos a eliminar el último fotograma clave.
+
+18
+00:01:29,200 --> 00:01:37,510
+Ahora tenemos un fondo estático otra vez. Apaga el modo de animación y crea un pequeño circulo rojo.
+
+19
+00:01:37,510 --> 00:01:42,030
+...justo cerca de la punta.
+
+20
+00:01:42,040 --> 00:01:45,170
+Será una marca de posición.
+
+21
+00:01:45,200 --> 00:01:52,830
+Ahora agrupemos el círculo con el fondo. Activa el modo de animación y salta unos cuadros más adelante...
+
+22
+00:01:52,960 --> 00:01:57,020
+...hasta el punto extremo en que el dedo del pie está listo para despegar.
+
+23
+00:01:59,090 --> 00:02:01,650
+Aquí está el cuadro 14.
+
+24
+00:02:01,790 --> 00:02:07,690
+Ahora mover el fundo estrictamente en la dirección horizontal mantniendo presionado el botón SHIFT.
+
+25
+00:02:07,790 --> 00:02:13,250
+Alinee el círculo rojo como estaba en el cuadro cero.
+
+26
+00:02:13,250 --> 00:02:21,790
+Podemos mover el fondo con mayor precisión usando las flechas en el teclado. Asi.
+
+27
+00:02:21,930 --> 00:02:27,270
+Ok, en este intervalo de tiempo tenemos el movimiento del personaje sincronizado con el fondo.
+
+28
+00:02:27,300 --> 00:02:34,570
+Ahora abra el Panel Gráfico y examine el gráfico de movimiento de la capa de fondo.
+
+29
+00:02:34,570 --> 00:02:38,800
+Mueve el cursor del tiempo hasta el final de nuestra animación...
+
+30
+00:02:38,810 --> 00:02:44,590
+Establece un fotograma clave... Vuelve al Panel Gráfico...
+
+31
+00:02:44,700 --> 00:02:51,160
+...observando cómo cambia la gráfica. Haz una pendiente en este segmento igual que aquí.
+
+32
+00:02:51,270 --> 00:02:54,510
+Necesitamos tener una sola línea recta.
+
+33
+00:02:54,510 --> 00:02:58,020
+Como puedes ver, la gráfica está ligeramente curvada.
+
+34
+00:02:58,050 --> 00:03:00,670
+Significa que el movimiento no será uniforme.
+
+35
+00:03:00,690 --> 00:03:01,860
+Vamos a arreglarlo.
+
+36
+00:03:01,860 --> 00:03:10,400
+Ir al Panel Linea de Tiempo, dar click derecho en este punto y elina Interpolación Lineal.
+
+37
+00:03:10,470 --> 00:03:16,580
+Abrir el Panel Gráfico de nuevo y ahora podemos ver que el gráfico está representado por líneas rectas.
+
+38
+00:03:16,580 --> 00:03:19,580
+Ahora podemos alinear fácilmente su pendiente.
+
+39
+00:03:22,410 --> 00:03:31,550
+Bien hecho. Ahora el personaje se está moviento sincrónizado con el fondo. Y sus piernas no se quedan.
+

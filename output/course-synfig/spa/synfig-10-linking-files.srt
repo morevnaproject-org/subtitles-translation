@@ -1,0 +1,184 @@
+1
+00:00:00,400 --> 00:00:04,480
+Ahora, volvemos a nuestra animacion del personaje caminando.
+
+2
+00:00:04,620 --> 00:00:07,700
+Pudes encontrarlo en la carpeta con otros ejemplos.
+
+3
+00:00:09,340 --> 00:00:16,350
+Ir a "character-2" directorio... entonces a "final"... Hay esta.
+
+4
+00:00:16,520 --> 00:00:20,700
+Ahora podemos agregar el fondo y crear una escena como esta.
+
+5
+00:00:26,640 --> 00:00:30,040
+Vamos al direcotrio llamados "bg-forest-1".
+
+6
+00:00:30,120 --> 00:00:38,290
+Aqui esta la imagen de fondo. Insertamos la imgen diractamente en el archivo con la animacion de walkcycle.
+
+7
+00:00:38,290 --> 00:00:44,330
+Estos fotogramas clave que son reponsables por la animación del personaje nos estorbará.
+
+8
+00:00:44,500 --> 00:00:46,660
+Asi que les mostrare otra forma.
+
+9
+00:00:46,660 --> 00:00:47,980
+Vamos a cerar el archivo..
+
+10
+00:00:47,980 --> 00:00:55,150
+...sin salvar los cambios. Crear un nuevos archivo e insertarlo en el archivo con la animación del personaje.
+
+11
+00:00:55,150 --> 00:01:06,560
+Escojer "Archivo" - "Importar". Ir a "character-2" - "final". Aqui esta.
+
+12
+00:01:06,840 --> 00:01:16,110
+De este modo hemos importado un animación de un archivo externo y mostrarlo como grupo.
+
+13
+00:01:16,170 --> 00:01:18,930
+Ahora podemos animarla como una imagen normal.
+
+14
+00:01:23,020 --> 00:01:24,100
+Al mismo tiempo...
+
+15
+00:01:24,130 --> 00:01:29,470
+...el fotograma clave del documento actual no afectar la animation del archivo externo. Mira.
+
+16
+00:01:29,470 --> 00:01:37,250
+Aqui, cerca del perametro canvas tenemos los puntos de referencia que representa la animación en el archivo externo.
+
+17
+00:01:37,560 --> 00:01:39,220
+y permanecen en su sitio...
+
+18
+00:01:39,240 --> 00:01:46,160
+...Si movemos el fotograma del documento actual. Ok, ahora solo tenemos que añadir el fondo.
+
+19
+00:01:46,260 --> 00:02:02,280
+y no olvidar apagar el modo de animacion.
+
+20
+00:02:02,360 --> 00:02:10,130
+Por favor observar, si inportamos el archivo de la animación externa, el contanido no sera copia al que sera...
+
+21
+00:02:10,130 --> 00:02:11,150
+...vinculado.
+
+22
+00:02:11,180 --> 00:02:18,290
+Significa que si cambias el archivo externo, entonces todo cambio sera automaticamente propagado a todos los archivos...
+
+23
+00:02:18,350 --> 00:02:21,410
+...que estan vinculados.
+
+24
+00:02:21,490 --> 00:02:26,450
+Ahora vamos a tratar de abrir el grupo de archivos externos y cambiar algo alli.
+
+25
+00:02:30,520 --> 00:02:33,210
+¿Lo ves? no funciona.
+
+26
+00:02:33,280 --> 00:02:39,340
+Porque los contenidos del grupo pertenecn a un archivo externo.
+
+27
+00:02:39,440 --> 00:02:45,490
+Pero podemos abrir el archivo en una pestaña separarda y estonces hacer nuestros cambios.
+
+28
+00:02:53,020 --> 00:02:57,080
+Y todos los cambios seran propagados automaticamente.
+
+29
+00:03:02,550 --> 00:03:09,720
+Y si tenemos un arhico externo abierto (pestaña separada), entonces podemos editar el contanido...
+
+30
+00:03:09,750 --> 00:03:11,760
+...en este documento.
+
+31
+00:03:14,110 --> 00:03:21,590
+¿Lo ves? - no hay errores.
+
+32
+00:03:21,590 --> 00:03:29,290
+Una cosa importante que considerar: si das click en el botón "Guardar", entonces solo se guardarán los cambios del documento actual.
+
+33
+00:03:30,170 --> 00:03:33,810
+Todos los demás archivos deben guardarse por separado.
+
+34
+00:03:33,830 --> 00:03:40,230
+Por eso hay un botón especial, "Guardar todo": guarda todos los archivos abiertos.
+
+35
+00:03:41,150 --> 00:03:48,230
+Y ya que hemos empezado a hablar sobre archivos vinculados, me gustaría decir algunas palabras acerca de las imágenes.
+
+36
+00:03:48,240 --> 00:03:50,360
+Al igual que al importar arhivos de animación externos...
+
+37
+00:03:50,390 --> 00:03:56,180
+...cuando importamos una imagen, su contenidos no se copia en el archivo de animación.
+
+38
+00:03:56,270 --> 00:04:00,590
+en su lugar. El archivo de animación hace referencia al contenido del archivo de imagen.
+
+39
+00:04:00,590 --> 00:04:06,940
+Si esditamos el archivo de la imagen original, se actualizará automáticamente en nuestra animación.
+
+40
+00:04:06,950 --> 00:04:11,560
+La única diferencia es que los cambios no ocurren inmediatamente.
+
+41
+00:04:11,570 --> 00:04:16,050
+Tenemos que cerrar y volver a abrir el archivo de animación para ver los cambios.
+
+42
+00:04:16,070 --> 00:04:20,760
+Finalemente, una cosa más que debes saber cuando trabajas con archivos vinculados.
+
+43
+00:04:20,840 --> 00:04:27,000
+Si quieres transferir tu animación a otra computadora, debes asegurarte de mover todos los archivos vinculados.
+
+44
+00:04:27,020 --> 00:04:29,200
+Por capas de imagen...
+
+45
+00:04:29,210 --> 00:04:33,250
+...puedes ver y cambiar la ruta al archivo fuente aquí...
+
+46
+00:04:36,800 --> 00:04:38,180
+...en este parámetro.
+

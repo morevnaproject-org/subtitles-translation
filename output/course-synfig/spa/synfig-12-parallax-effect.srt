@@ -1,0 +1,216 @@
+1
+00:00:00,830 --> 00:00:04,000
+Ahora, intentemos mejorar nuestra animación aún mas.
+
+2
+00:00:04,010 --> 00:00:09,210
+Ver: - los elementos del fondo se mueven con diferente velocidad.
+
+3
+00:00:09,440 --> 00:00:15,050
+Crea una ilusión de profundidad y hace que nuestra animación sea más impresionante.
+
+4
+00:00:15,050 --> 00:00:17,860
+Este efecto se llama "parallax".
+
+5
+00:00:17,990 --> 00:00:21,350
+Y en esta lección te mostraré cómo lograrlo.
+
+6
+00:00:21,410 --> 00:00:26,620
+Primero, necesitaremos un fondo separado en capas.
+
+7
+00:00:26,770 --> 00:00:28,440
+Ir a "bg-forest-2"...
+
+8
+00:00:28,660 --> 00:00:33,070
+...y aquí podemos encontrar tres componentes de nuestro fondo.
+
+9
+00:00:34,480 --> 00:00:36,800
+Comencemos con el primero.
+
+10
+00:00:37,150 --> 00:00:42,210
+Asegúrese de agruparlo antes de reducir la escala.
+
+11
+00:00:42,280 --> 00:00:46,940
+De esta manera, no cecesitaremos escalar manualmente cada otra parte del fondo.
+
+12
+00:00:47,020 --> 00:00:54,250
+Necesitamos un fondo largo, así que una creamos una copia de la imagen con presionando SHIFT...
+
+13
+00:00:54,300 --> 00:00:56,530
+...y muévelo hacia la izquieda.
+
+14
+00:00:56,530 --> 00:01:03,140
+Ahora agrupa estas dos capas y dale el nombre número uno.
+
+15
+00:01:03,230 --> 00:01:05,600
+Importamos la siguiente pieza.
+
+16
+00:01:05,780 --> 00:01:10,900
+Múdelo a un grupo y se escalará automáticamente al tamaño apropiado.
+
+17
+00:01:11,050 --> 00:01:12,900
+Ponlo en el lugar correcto.
+
+18
+00:01:20,750 --> 00:01:24,330
+Ahora haz una copia, alinéala...
+
+19
+00:01:26,950 --> 00:01:28,120
+Hecho.
+
+20
+00:01:28,310 --> 00:01:31,380
+También haz un grupo y llámalo número "2".
+
+21
+00:01:34,650 --> 00:01:36,050
+Y la última parte.
+
+22
+00:01:38,810 --> 00:01:42,710
+Moverlo en al grupo y colocarlo en el lugar correcto.
+
+23
+00:01:48,810 --> 00:01:54,270
+Genial. Ahora tenemos un hermoso fondo largo.
+
+24
+00:01:54,450 --> 00:01:56,400
+Solo falta el cielo.
+
+25
+00:01:56,520 --> 00:01:59,160
+Voy a usar la herramienta "Gradiente" para crearlo.
+
+26
+00:02:01,170 --> 00:02:06,270
+Vamos a elegir los colores adecuados.
+
+27
+00:02:06,380 --> 00:02:10,360
+Y este es mejor mantenerlo en blanco.
+
+28
+00:02:10,360 --> 00:02:16,610
+Active la herramienta de degradado y asegúrese de que tiene habilitado el tipo de degradado lineal en el panel de parámetros.
+
+29
+00:02:16,610 --> 00:02:22,640
+Te recomiendo que pruebes otros tipos de gradientes más adelante en tu tiempo libre.
+
+30
+00:02:22,640 --> 00:02:26,740
+Ahora vamos a arrastar una línea recta vertical en el espacio de trabajo.
+
+31
+00:02:26,750 --> 00:02:29,730
+Aquí está. Tenemos una gradiente.
+
+32
+00:02:29,810 --> 00:02:33,870
+Puedes modificarlo moviendo estos puntos de control.
+
+33
+00:02:33,890 --> 00:02:36,410
+El fondo está listo ahora.
+
+34
+00:02:36,470 --> 00:02:38,750
+Ahora, importamos nuestro personaje.
+
+35
+00:02:38,750 --> 00:02:43,530
+Probablementes recuerdes que está ubicado en "character-2", "final".
+
+36
+00:02:43,580 --> 00:02:45,870
+Aquí esta.
+
+37
+00:02:45,940 --> 00:03:00,360
+Ahora animemos el fondo de la misma manera que los hicimos en la lección anterior.
+
+38
+00:03:00,450 --> 00:03:05,750
+Establece la marca roja. Activa el modo animación. Ir al cuadro 14.
+
+39
+00:03:09,360 --> 00:03:18,600
+Meve el fondo. Ajusta la interpolación lineal aquí. Ir al final de nuestra animación.
+
+40
+00:03:18,710 --> 00:03:23,420
+Ahora, en la pestaña Gráfico, establece la posición final del fondo.
+
+41
+00:03:34,980 --> 00:03:36,810
+Hecho.
+
+42
+00:03:36,860 --> 00:03:44,330
+Ahora tenemos exactamente la misma animación que en la lección anterior.
+
+43
+00:03:44,510 --> 00:03:47,490
+Por cierto, este círculo rojo se puede ocultar ahora.
+
+44
+00:03:48,360 --> 00:03:51,300
+Y este punto de ruta también puede ser eliminado.
+
+45
+00:03:51,300 --> 00:04:00,490
+Ahora veamos la magia del efecto parallax. Haga click en el grupo número dos y agregue una capa trasladar sobre ella.
+
+46
+00:04:00,510 --> 00:04:08,900
+La capa de fondo número dos esta más distante que los árboles en la capa "1". Y eso significa que debería moverse más lento.
+
+47
+00:04:09,310 --> 00:04:16,090
+Entonces, tenemos que mover esta capa en la dirección opuesta al movimiento "1" de fondo.
+
+48
+00:04:16,210 --> 00:04:17,680
+El fondo se está moviendo hacia la derecha...
+
+49
+00:04:17,680 --> 00:04:27,800
+...entonces moveremos la capa "2" a la izquierda. Como este.
+
+50
+00:04:28,010 --> 00:04:32,630
+Ya tenemos un sensación de profundidad.
+
+51
+00:04:32,720 --> 00:04:37,220
+Hagamos lo mismo para la Capa "3". Añadir capa "trasladar"...
+
+52
+00:04:40,110 --> 00:04:41,460
+...y moverlo hacia la izquierda.
+
+53
+00:04:44,550 --> 00:04:45,050
+Hecho.
+
+54
+00:04:47,930 --> 00:04:52,640
+Felicidades, acabamos de hacer una animación con efecto parallax!
+
