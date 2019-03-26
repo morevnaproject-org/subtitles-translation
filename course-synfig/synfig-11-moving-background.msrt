@@ -2,194 +2,233 @@
 00:00:00,480 --> 00:00:04,910
 [eng] Now let's try to make the same animation in a bit different way.
 [rus] А теперь давайте попробуем сделать анимацию немного по-другому.
+[spa] Ahora tratemos de hacer la misma animación de una manera un poco diferente.
 
 2
 00:00:04,950 --> 00:00:09,990
 [eng] Our character will remain in the centre and the background will be moving.
 [rus] Фон будет двигаться, а  персонаж будет идти  на месте...
+[spa] Nuestro personaje permanecerá en el centro y el fondo se moverá.
 
 3
 00:00:10,000 --> 00:00:12,950
 [eng] Like as we are walking with the character.
 [rus] ...как если бы мы двигались вместе с ним.
+[spa] Como si estamos camindo con el perosnaje.
 
 4
 00:00:13,140 --> 00:00:15,880
 [eng] Here, I have the file from the previous lesson.
 [rus] Сейчас у меня уже открыт файл из предыдущего урока.
+[spa] Aquí, Tengo el archivo de la lección anterior.
 
 5
 00:00:15,900 --> 00:00:21,800
 [eng] Let's remove all redundant keyframes and remove the animation of this group.
 [rus] Я убираю все лишние ключевые кадры и анимацию у группы.
+[spa] Eliminemos todos los fotogramas clave redundantes y eliminemos la animación de este grupo.
 
 6
 00:00:23,690 --> 00:00:29,100
 [eng] Now, put the character in the centre and move background to the left...
 [rus] Разместим персонажа в центре и сдвинем фон до упора влево...
+[spa] Ahora, poner el personaje en el centro y mover el fondo a la izquierda...
 
 7
 00:00:29,150 --> 00:00:32,330
 [eng] ...so our character will have a space to walk.
 [rus] ...чтобы нашему герою было куда двигаться.
+[spa] ...así nuestro personaje tendrá un espacio para caminar.
 
 8
 00:00:32,330 --> 00:00:40,850
 [eng] Our animation will not fit into default 120 frames, so let's extend the time-line length.
 [rus] Также, давайте изменим общее количество кадров в файле — 120-ти нам может уже не хватить.
+[spa] Nuetra animación no se ajustará a los 120 cuadros predeterminados, así que extendamos la longitud de la línea de tiempo.
 
 9
 00:00:40,970 --> 00:00:43,860
 [eng] Go to "Canvas" - "Properties". Switch to "Time" tab.
 [rus] В меню выберем "Холст" - "Свойства". И на вкладке "Время"...
+[spa] Ir a "Lienzo" - "Propiedades". Cambia a la pestaña "Tiempo".
 
 10
 00:00:44,030 --> 00:00:50,030
 [eng] Here we can set "start time" and "end time" for the timeline.
 [rus] ...мы можем установить время начала и время конца анимации.
+[spa] Aquí podemos configurar "tiempo inicial" y "tiempo final" para la línea de tiempo.
 
 11
 00:00:50,050 --> 00:00:51,630
 [eng] Set 200 frames here.
 [rus] Поставим здесь 200.
+[spa] Establecer 200 cuadros.
 
 12
 00:00:52,900 --> 00:00:58,320
 [eng] By the way, on this tab you can also change dimensions of your canvas.
 [rus] Кстати, на этой вкладке, если что, можно изменить размер холста.
+[spa] Por cierto, en esta pestaña también puedes cmabiar las dimensiones de tu canvas.
 
 13
 00:00:58,720 --> 00:01:02,110
 [eng] OK, now let's animate the background.
 [rus] Вот теперь задаём анимацию для фона.
+[spa] Ok, ahora vamos a animar el fondo.
 
 14
 00:01:08,800 --> 00:01:17,280
 [eng] Not bad, but I guess that in some situations you'll want to be sure that the legs of your character...
 [rus] В принципе неплохо. Но я думаю, что у вас наверняка будет ситуация, когда вы захотите быть уверены в том...
+[spa] No está mal, pero supongamos que en algunas situaciones querrás estar seguro de que las piernas de tu personaje...
 
 15
 00:01:17,280 --> 00:01:18,770
 [eng] ...won't slipping on the ground.
 [rus] что ноги вашего персонажа не проскальзывают по земле.
+[spa] ...no se queden.
 
 16
 00:01:19,060 --> 00:01:22,490
 [eng] So I'll show you how to achieve that.
 [rus] Поэтому, сейчас я покажу как этого добиться.
+[spa] Así que te mostraré cómo lograrlo.
 
 17
 00:01:22,560 --> 00:01:29,150
 [eng] Let's remove the last keyframe.
 [rus] Давайте снова уберём последний ключевой кадр...
+[spa] Vamos a eliminar el último fotograma clave.
 
 18
 00:01:29,200 --> 00:01:37,510
 [eng] Now we have a static background again. Turn off the animation mode and create a small red circle...
 [rus] ...чтобы у нас остался неподвижный фон. Выключим режим анимации и поставим возле носка персонажа...
+[spa] Ahora tenemos un fondo estático otra vez. Apaga el modo de animación y crea un pequeño circulo rojo.
 
 19
 00:01:37,510 --> 00:01:42,030
 [eng] ...right near the toe.
 [rus] ...маленький красный кружок. 
+[spa] ...justo cerca de la punta.
 
 20
 00:01:42,040 --> 00:01:45,170
 [eng] This will be a mark of its position.
 [rus] Это будет метка его положения.
+[spa] Será una marca de posición.
 
 21
 00:01:45,200 --> 00:01:52,830
 [eng] Now let's group the circle with the background. Turn on the animation mode and skip a few frames ahead...
 [rus] Теперь сгруппируем этот кружок вместе с фоном. Снова включаем режим анимации и передвинемся на несколько кадров вперёд...
+[spa] Ahora agrupemos el círculo con el fondo. Activa el modo de animación y salta unos cuadros más adelante...
 
 22
 00:01:52,960 --> 00:01:57,020
 [eng] ...to the extreme point when the toe is ready to get off the ground.
 [rus] ...до крайней позиции, когда его носок всё ещё касается земли.
+[spa] ...hasta el punto extremo en que el dedo del pie está listo para despegar.
 
 23
 00:01:59,090 --> 00:02:01,650
 [eng] Here it's the frame 14.
 [rus] Вот — 14-й кадр.
+[spa] Aquí está el cuadro 14.
 
 24
 00:02:01,790 --> 00:02:07,690
 [eng] Now move background strictly in the horizontal direction by holding SHIFT button.
 [rus] Теперь, удерживая клавишу SHIFT, двигаем наш фон точно по горизонтали так...
+[spa] Ahora mover el fundo estrictamente en la dirección horizontal mantniendo presionado el botón SHIFT.
 
 25
 00:02:07,790 --> 00:02:13,250
 [eng] Align the red circle as same as it was on the zero frame.
 [rus] ...чтобы наш кружок совпал с носком. 
+[spa] Alinee el círculo rojo como estaba en el cuadro cero.
 
 26
 00:02:13,250 --> 00:02:21,790
 [eng] We can move background more precisely by using arrows on the keyboard. Like this.
 [rus] Для более точного передвижения фона можно пользоваться стрелками на клавиатуре. Вот так.
+[spa] Podemos mover el fondo con mayor precisión usando las flechas en el teclado. Asi.
 
 27
 00:02:21,930 --> 00:02:27,270
 [eng] OK, on this time span we have character movement synchronized with the background.
 [rus] Хорошо. На этом промежутке у нас всё совпадает. 
+[spa] Ok, en este intervalo de tiempo tenemos el movimiento del personaje sincronizado con el fondo.
 
 28
 00:02:27,300 --> 00:02:34,570
 [eng] Now open the Graphs Panel and examine the movement graph of background layer.
 [rus] Перейдём на вкладку "Графики". И отобразим график перемещения слоя с фоном.
+[spa] Ahora abra el Panel Gráfico y examine el gráfico de movimiento de la capa de fondo.
 
 29
 00:02:34,570 --> 00:02:38,800
 [eng] Move the time cursor to the end of our animation...
 [rus] Теперь перейдём туда, где будет конец нашей анимации…
+[spa] Mueve el cursor del tiempo hasta el final de nuestra animación...
 
 30
 00:02:38,810 --> 00:02:44,590
 [eng] Set a keyframe... Switch back to Graphs Panel... and move the background...
 [rus] Поставим ключевой кадр… Вернёмся на вкладку "Графики"… и будем двигать наш фон...
+[spa] Establece un fotograma clave... Vuelve al Panel Gráfico...
 
 31
 00:02:44,700 --> 00:02:51,160
 [eng] ...watching how the graph changes. Make a slope in this segment as same as here.
 [rus] ...наблюдая как меняется график. Нам нужно добиться того, чтобы наклон на вот этом промежутке был точно такой же, как вот здесь.
+[spa] ...observando cómo cambia la gráfica. Haz una pendiente en este segmento igual que aquí.
 
 32
 00:02:51,270 --> 00:02:54,510
 [eng] We need to have a single straight line.
 [rus] Без всяких изломов.
+[spa] Necesitamos tener una sola línea recta.
 
 33
 00:02:54,510 --> 00:02:58,020
 [eng] As you can see the graph is slightly curved.
 [rus] Как вы видите, график немного искривлён...
+[spa] Como puedes ver, la gráfica está ligeramente curvada.
 
 34
 00:02:58,050 --> 00:03:00,670
 [eng] It means the motion will be nonuniform.
 [rus] ...поэтому движение получится неравномерным.
+[spa] Significa que el movimiento no será uniforme.
 
 35
 00:03:00,690 --> 00:03:01,860
 [eng] Let's fix it.
 [rus] Чтобы этого избежать...
+[spa] Vamos a arreglarlo.
 
 36
 00:03:01,860 --> 00:03:10,400
 [eng] Go to the Time Track Panel, right click on this waypoint and choose a Linear interpolation.
 [rus] ...нужно перейти на вкладку шкалы кадров, щёлкнуть правой кнопкой на этом фиксаторе и выбрать для него линейную интерполяцию. 
+[spa] Ir al Panel Linea de Tiempo, dar click derecho en este punto y elina Interpolación Lineal.
 
 37
 00:03:10,470 --> 00:03:16,580
 [eng] Open Graphs Panel again and now we can see that the graph is represented by straight lines.
 [rus] Возвращаемся на вкладкус графиком и теперь видим, что график у нас состоит из ровных прямых линий.
+[spa] Abrir el Panel Gráfico de nuevo y ahora podemos ver que el gráfico está representado por líneas rectas.
 
 38
 00:03:16,580 --> 00:03:19,580
 [eng] Now we can easily align their slope.
 [rus] Теперь нам будет проще выставлять его. 
+[spa] Ahora podemos alinear fácilmente su pendiente.
 
 39
 00:03:22,410 --> 00:03:31,550
 [eng] Well like this. Done. Now of character is moving synchronously with the background. And his legs do not slip.
 [rus] Ну, примерно вот так. Всё, теперь наш персонаж будет двигаться синхронно с фоном.
+[spa] Bien hecho. Ahora el personaje se está moviento sincrónizado con el fondo. Y sus piernas no se quedan.
 
