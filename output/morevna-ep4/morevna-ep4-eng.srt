@@ -1,6 +1,6 @@
 1
 00:00:01,060 --> 00:00:05,660
-This animation is created using free/open-source software
+This animation was created using free/open-source software
 
 2
 00:00:07,300 --> 00:00:10,520
@@ -36,15 +36,15 @@ The only source...
 
 10
 00:01:09,600 --> 00:01:12,460
-And I'd accepted it...
+And I accepted it...
 
 11
 00:01:16,840 --> 00:01:20,220
-And I'd become it...
+And I became it...
 
 12
 00:01:30,960 --> 00:01:36,160
-Epsiode 4: Death(less)
+Episode 4: Death(less)
 
 13
 00:01:48,340 --> 00:01:50,800
@@ -52,15 +52,15 @@ Oh, could it be...
 
 14
 00:01:57,960 --> 00:01:59,580
-Oh yeah, I'm absolutely not interested...
+Oh yeah, I'm absolutely not interested in who,
 
 15
 00:01:59,590 --> 00:02:02,440
-Who in the middle of the night in Marya Morevna's cellar  behind the iron lock...
+In the middle of the night, in Marya Morevna's cellar, behind an iron lock,
 
 16
 00:02:02,580 --> 00:02:06,600
-Is trying to start up the fourth generation engine with hydraulic booster and air turbine.
+Is trying to start up a fourth generation engine with a hydraulic booster and air turbine.
 
 17
 00:02:06,680 --> 00:02:09,320
@@ -68,7 +68,7 @@ After all, it could  be some kind of... lodgers?
 
 18
 00:02:10,240 --> 00:02:13,600
-We are vagrant auto mechanics and looking for a temporary housing
+We are vagrant auto mechanics and looking for temporary housing
 
 19
 00:02:13,720 --> 00:02:16,960
@@ -76,11 +76,11 @@ Oh, of course! I am happy to offer an excellent wet cellar for ya.
 
 20
 00:02:16,960 --> 00:02:19,060
-But why the hell it doesn't start?
+But why the hell doesn't it start?
 
 21
 00:02:25,300 --> 00:02:27,580
-So, let's get started!
+Well, let's get started!
 
 22
 00:02:38,000 --> 00:02:39,300
@@ -92,11 +92,11 @@ Open Sesame!
 
 24
 00:03:02,960 --> 00:03:04,800
-But... where is the engine?
+But... where's the engine?
 
 25
 00:03:23,400 --> 00:03:27,300
-Thank you, Ivan Tsarevitch, you've helped me
+Thank you, Ivan Tsarevitch for your help
 
 26
 00:03:27,300 --> 00:03:31,820
@@ -104,7 +104,7 @@ Now you'll never see Marya Morevna again!
 
 27
 00:04:24,020 --> 00:04:26,800
-Oh, no...
+Oh no...
 
 28
 00:04:44,700 --> 00:04:45,600
@@ -124,7 +124,7 @@ Everyone is dead...
 
 32
 00:04:50,440 --> 00:04:52,580
-A giantlike evil robot came...
+A gigantic evil robot came...
 
 33
 00:04:53,120 --> 00:04:54,580
@@ -132,7 +132,7 @@ A giantlike evil robot came...
 
 34
 00:04:55,800 --> 00:04:57,060
-But Marya Morevna?
+And Marya Morevna?
 
 35
 00:04:57,660 --> 00:04:59,060
@@ -144,7 +144,7 @@ We tried to stop him, but...
 
 37
 00:05:05,280 --> 00:05:07,600
-Good-Bye, young man...
+Farewell, young man...
 
 38
 00:05:10,060 --> 00:05:12,580
@@ -160,7 +160,7 @@ And tell my family...
 
 41
 00:05:23,000 --> 00:05:26,220
-*Here! Step aside, step aside! Let's get him over here! Careful!*
+*Over here! Step aside, step aside! Let's get him over here! Careful!*
 
 42
 00:05:26,280 --> 00:05:27,670
@@ -192,7 +192,7 @@ And tell my family...
 
 49
 00:05:36,880 --> 00:05:37,720
-*Stay away!*
+*Get out of here!*
 
 50
 00:05:37,980 --> 00:05:39,320
@@ -216,7 +216,7 @@ I will definitely tell them...
 
 55
 00:05:47,300 --> 00:05:49,640
-And I'll save Marya Morevna as well!
+And I'll save Marya Morevna!
 
 56
 00:05:49,860 --> 00:05:50,780
@@ -228,7 +228,7 @@ Is it over?
 
 58
 00:05:58,220 --> 00:06:01,680
-No, no. I am just passing by
+No, no. I am just passing by.
 
 59
 00:07:03,420 --> 00:07:06,000
@@ -236,9 +236,9 @@ Where?
 
 60
 00:09:42,100 --> 00:09:55,000
-This episode is created thanks to donations of many people from all around the world
+This episode was created thanks to the donations of many people from all around the world
 
 61
 00:09:55,240 --> 00:10:11,720
-You can support production of new episodes here: https://morevnaproject.org/donate/
+You can help support production of future episodes here: https://morevnaproject.org/donate/
 
