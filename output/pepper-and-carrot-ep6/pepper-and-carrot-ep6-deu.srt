@@ -40,11 +40,11 @@ Was bisher geschah:
 
 11
 00:00:43,450 --> 00:00:45,490
-Pepper wendete viel Kraut auf...
+Pepper wendete viel Kraft auf...
 
 12
 00:00:45,870 --> 00:00:49,490
-...um sich auf den anstehenden Tränke Wettbewerb vor zu bereiten.
+...um sich auf den anstehenden Tränkewettbewerb vor zu bereiten.
 
 13
 00:00:50,040 --> 00:00:50,870
@@ -112,7 +112,7 @@ Die heutigen Teilnehmer sind vier junge Hexen!
 
 29
 00:01:51,920 --> 00:01:54,540
-Ich bitte um einen Applaus!
+Ich bitte um eine große Runde Applaus!
 
 30
 00:02:00,620 --> 00:02:04,620
@@ -172,7 +172,7 @@ Lasst uns die Spiele beginnen!
 
 44
 00:03:02,580 --> 00:03:07,370
-**schrei** Also, Miss Coriander, ich bitte Sie als erste aufzutreten.
+**Schrei** Also, Miss Coriander, ich bitte Sie als erste aufzutreten.
 
 45
 00:03:09,830 --> 00:03:11,500
@@ -204,7 +204,7 @@ Trank der Zombiefizierung...
 
 52
 00:03:43,920 --> 00:03:45,200
-blödsinn!
+Blödsinn!
 
 53
 00:03:45,210 --> 00:03:47,330
@@ -300,7 +300,7 @@ Nein-nein, es ist ein Trank der...
 
 76
 00:04:58,100 --> 00:04:59,940
-Herr Bürgermeister, herr Bürgermeister!
+Herr Bürgermeister, Herr Bürgermeister!
 
 77
 00:05:00,100 --> 00:05:01,260
@@ -316,7 +316,7 @@ Lauf!
 
 80
 00:05:07,520 --> 00:05:11,260
-Hast du glück Carrot. Sieht wohl so aus, dass niemand deinen wundersamen Trank sehen wird...
+Hast du Glück Carrot. Sieht wohl so aus, dass niemand deinen wundersamen Trank sehen wird...
 
 81
 00:05:11,500 --> 00:05:13,600
@@ -340,7 +340,7 @@ Willst mal den letzten "Trank" probieren?
 
 86
 00:05:33,420 --> 00:05:34,710
-Aber zu erst...
+Aber zuerst...
 
 87
 00:05:34,790 --> 00:05:37,000
@@ -380,7 +380,7 @@ Hm, eigentlich...
 
 96
 00:06:29,420 --> 00:06:32,580
-...es ist einfach nur eine Urinprobe meiner Katze vom letzten Tierarztbesuch!
+...es ist einfach nur die Urinprobe meiner Katze vom letzten Tierarztbesuch!
 
 97
 00:06:33,170 --> 00:06:34,170
