@@ -62,7 +62,7 @@ extractLanguages () {
   fi
 }
 
-FILES=( "pepper-and-carrot-ep6" "morevna-ep3" "morevna-ep4" "course-synfig" "course-pepper" "the-story-of-mime-and-tiger" )
+FILES=( "pepper-and-carrot-ep03" "pepper-and-carrot-ep04" "pepper-and-carrot-ep06" "morevna-ep03" "morevna-ep04" "course-synfig" "course-pepper" "the-story-of-mime-and-tiger" )
 
 # generating subtitles
 for FILE in "${FILES[@]}"; do
